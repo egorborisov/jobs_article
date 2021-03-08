@@ -1,0 +1,475 @@
+[
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1614590230.006600",
+        "thread_ts": "1614590230.006600",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1614592039.008200",
+        "reply_users": [
+            "U0K47J3HR"
+        ],
+        "replies": [
+            {
+                "user": "U0K47J3HR",
+                "ts": "1614592039.008200"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fork",
+                "users": [
+                    "UKES2BDAA",
+                    "U9ASAH14L",
+                    "ULPRYQNS2",
+                    "U24FHECDD",
+                    "U3Y5VQ5J6",
+                    "U6NT2E2ES",
+                    "UJ2JGSQ3X",
+                    "UCTG4M5T8",
+                    "U6T11F9T4"
+                ],
+                "count": 9
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U9T0G9W3G",
+                    "ULPRYQNS2",
+                    "U6NT2E2ES",
+                    "U49NJJXNJ",
+                    "UJ2JGSQ3X",
+                    "UD37TP39U",
+                    "UCTG4M5T8",
+                    "U600Q839S",
+                    "U6T11F9T4"
+                ],
+                "count": 9
+            }
+        ]
+    },
+    {
+        "client_msg_id": "62963596-8aee-4aeb-baba-6c324111d055",
+        "type": "message",
+        "text": "Мария, укажите, пожалуйста, вилку, это обязательно требование к вакансии",
+        "user": "U0K47J3HR",
+        "ts": "1614592039.008200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6d5ff9b845f5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-27\/321752094228_6d5ff9b845f5b3248b1e_72.jpg",
+            "first_name": "Valentin",
+            "real_name": "Valentin Malykh",
+            "display_name": "madrugado",
+            "team": "T040HKJE3",
+            "name": "madrugado",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/Th",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Мария, укажите, пожалуйста, вилку, это обязательно требование к вакансии"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1614590230.006600",
+        "parent_user_id": "U01HQ1G00J0"
+    },
+    {
+        "client_msg_id": "7e3f464d-25f1-497e-9546-701c3413714e",
+        "type": "message",
+        "text": "- Вакансия: Head Of Data Engineering\nГород: Москва\nЗП: 250-400 к (финальные цифры по итогам собеседования)\nНемного о нас: фармацевтическая компания, которая сотрудничает и консолидирует информацию из 15 000 аптек, основное направление бизнеса B2B, также есть свой маркетплейс и портал обучения. Достаточно большой внутренний штат IT (около 60 человек). Лояльное руководство. Интересные проекты.\n    - Ищем руководителя дата инженерии на проект Data Lake. Текущая команда: тимлид, 3 специалиста по базам данных и 5 дата-инженеров с богатым прошлым в software engineering, DS, DevOps и SRE. Основа нашего подхода - писать так, чтобы был zero-maintenance и максимальная автоматизация.\n - Что мы делаем\n    - строим Data Lake как платформу для работы с данными self-service в любом подразделении бизнеса\n    - переосмысливаем работу с данными и продвигаем современные инструменты для аналитиков\n    - доводим модели до production-ready\n - Обязанности\n    - управление командой дата инженеров\n    - проектировать архитектуру дата решений\n    - определять стратегию работы с данными в компании\n    - запускать новые направления работы\n    - внедрять новые инфраструктурыне технологии\n    - внедрять stream-processing\n    - выводить модели аналитиков в продакшн\n    - менторинг команды\n - Требования\n    - Уверенное владение Python. Плюсом будет знание Java\/Scala\/Golang\/Rust\n    - Linux\/bash\n    - Понимание форматов хранения данных\n    - Понимание основ SRE, health checks, SLA\n    - Понимание построения инфраструктуры (AWS\/GCE). Плюсом будет знание provisioners (ansible\/terraform)\n - Наш стэк\n    - NiFi, Hadoop, Airflow\n    - Kafka, gRPC\n    - Jupyter\/Scipy\/Numpy\/Pandas\/Spark\n    - MinIO\n    - Kubernetes\nРезюме и вопросы на почту: <mailto:M.Gladkova@asna.ru|M.Gladkova@asna.ru>",
+        "user": "U01HQ1G00J0",
+        "ts": "1614596410.008900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g4a350e0c0a4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4a350e0c0a4314e6f743d9c78638ded1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "",
+            "real_name": "Mariya Gladkova",
+            "display_name": "Mariya Gladkova",
+            "team": "T040HKJE3",
+            "name": "m.l.gladkova",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1gqd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "- Вакансия: Head Of Data Engineering\nГород: Москва\nЗП: 250-400 к (финальные цифры по итогам собеседования)\nНемного о нас: фармацевтическая компания, которая сотрудничает и консолидирует информацию из 15 000 аптек, основное направление бизнеса B2B, также есть свой маркетплейс и портал обучения. Достаточно большой внутренний штат IT (около 60 человек). Лояльное руководство. Интересные проекты.\n    - Ищем руководителя дата инженерии на проект Data Lake. Текущая команда: тимлид, 3 специалиста по базам данных и 5 дата-инженеров с богатым прошлым в software engineering, DS, DevOps и SRE. Основа нашего подхода - писать так, чтобы был zero-maintenance и максимальная автоматизация.\n - Что мы делаем\n    - строим Data Lake как платформу для работы с данными self-service в любом подразделении бизнеса\n    - переосмысливаем работу с данными и продвигаем современные инструменты для аналитиков\n    - доводим модели до production-ready\n - Обязанности\n    - управление командой дата инженеров\n    - проектировать архитектуру дата решений\n    - определять стратегию работы с данными в компании\n    - запускать новые направления работы\n    - внедрять новые инфраструктурыне технологии\n    - внедрять stream-processing\n    - выводить модели аналитиков в продакшн\n    - менторинг команды\n - Требования\n    - Уверенное владение Python. Плюсом будет знание Java\/Scala\/Golang\/Rust\n    - Linux\/bash\n    - Понимание форматов хранения данных\n    - Понимание основ SRE, health checks, SLA\n    - Понимание построения инфраструктуры (AWS\/GCE). Плюсом будет знание provisioners (ansible\/terraform)\n - Наш стэк\n    - NiFi, Hadoop, Airflow\n    - Kafka, gRPC\n    - Jupyter\/Scipy\/Numpy\/Pandas\/Spark\n    - MinIO\n    - Kubernetes\nРезюме и вопросы на почту: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:M.Gladkova@asna.ru",
+                                "text": "M.Gladkova@asna.ru"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "U677CBGH2",
+                    "U24FHECDD"
+                ],
+                "count": 2
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "U677CBGH2"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "UHY5KKK6D",
+                    "UJ8BXBM36"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "168d4de4-519c-42ce-a788-a8d986effed1",
+        "type": "message",
+        "text": "*Clickio*, международная IT-компания, ищет *старшего аналитика* коммерческого отдела, готового работать над разработкой нового корпоративного стандарта аналитики.\n\n*Обязанности:*\n- Создание и автоматизация структурированных отчетов для издателей и коммерческой команды\n- Создание отчетов и мониторинг результатов А\/B тестирования\n- Создание отчетов по запросам коммерческого отдела и отдела Demand Operations на уровне сайта и рекламного партнера\n- Разработка и создание управленческих отчетов для коммерческого директора\n\n*Требования:*\n- Продвинутый уровень владения SQL (MySQL)\n- Хорошее знание Excel и Google Sheets\n- Хорошее знание Tableau или аналогичного BI-решения\n- Базовые знания HTML, CSS, Chrome DevTools\n\n*Пожелания:*\n- Общее понимание процессов цифровой рекламы и интересов издателей\n- Опыт работы с Google AdSense\/AdManager и соответствующими API\n- Базовые знания Javascript\n- Английский не ниже Intermediate\n\n*Условия:*\n100 000 до 120 000 рублей на руки\n*Удаленная работа*\n<mailto:yanina.rashkova@clickio.com|yanina.rashkova@clickio.com>",
+        "user": "UGQBXQ59T",
+        "ts": "1614597760.009700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g12a49e38657",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/da12a49e38657cce215296f0c9440fe3.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "",
+            "real_name": "talgat",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "talgat.akkabakov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=IaDz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Clickio",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", международная IT-компания, ищет "
+                            },
+                            {
+                                "type": "text",
+                                "text": "старшего аналитика",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " коммерческого отдела, готового работать над разработкой нового корпоративного стандарта аналитики.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Обязанности:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Создание и автоматизация структурированных отчетов для издателей и коммерческой команды\n- Создание отчетов и мониторинг результатов А\/B тестирования\n- Создание отчетов по запросам коммерческого отдела и отдела Demand Operations на уровне сайта и рекламного партнера\n- Разработка и создание управленческих отчетов для коммерческого директора\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Продвинутый уровень владения SQL (MySQL)\n- Хорошее знание Excel и Google Sheets\n- Хорошее знание Tableau или аналогичного BI-решения\n- Базовые знания HTML, CSS, Chrome DevTools\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Пожелания:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Общее понимание процессов цифровой рекламы и интересов издателей\n- Опыт работы с Google AdSense\/AdManager и соответствующими API\n- Базовые знания Javascript\n- Английский не ниже Intermediate\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Условия:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n100 000 до 120 000 рублей на руки\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Удаленная работа",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:yanina.rashkova@clickio.com",
+                                "text": "yanina.rashkova@clickio.com"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "UBPSWEPG8",
+                    "U1VBAF9K2",
+                    "U010WCK9X4Y",
+                    "UC8NCT0PQ",
+                    "U01364G3W84",
+                    "UNHU1EV1T",
+                    "UDKSK23J6",
+                    "U01CX0XER3R",
+                    "UM38ES74G",
+                    "U7DLFC011",
+                    "U7ZTSPE8M",
+                    "UNDJC82EQ",
+                    "U6T11F9T4",
+                    "UCKGAQKE0",
+                    "ULFB3LT4Z"
+                ],
+                "count": 15
+            },
+            {
+                "name": "noexcel",
+                "users": [
+                    "U019QKE6H1R",
+                    "UD1HBUHQU"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eb25ae63-9f75-4dae-9923-c8728ea0e315",
+        "type": "message",
+        "text": "Компания: :sber_new:*Сбербанк*\nГород: Москва \nПозиция: *Data Scientist*\nВилка: *150 000 – 250 000* руб\/мес\n\nВсем привет!\n\nПо просьбе коллег размещаю вакансию в их дружный коллектив.\nВ департамент пользовательских решений коллеги ищут к себе в команду DS-исследователя.\nУже нашли несколько ребят, но нужно ещё)\n\n*Hard skills:*\n·      Умение писать чистый, читаемый код на  :python:Python;\n·      Знание ML-стека: numpy, pandas, scikit-learn, xgboost, lightgbm.\n·      Опыт построения DL pipeline с использованием фреймворков TF\/Pytorch\/Keras;\n·      Опыт работы с NLP инструментами NLTK, Pymorphy и пр\n·      Знание SQL\n·      Опыт использования Git, Jira, Confluence;\n·      Понимание и опыт АB-тестирования\n·      Плюсом будет опыт работы с :docker:Docker\n·      Плюсом будет знание Hadoop\/Spark.\n·      Участие в соревнованиях по ML (Kaggle)\n\n*Soft skills:*\n·      Опыт работы в роли DS от года\n·      Организованность и самостоятельность в решении задач\n·      Определение технического пути решения задач\n·      Быстрая обучаемость, организованность\n\n*Мы предлагаем:*\n·      Возможность сформировать Dream Team\n·      ДМС\n·      Спортзал\n·      Развитая IT инфраструктура\n·      Мощный GPU\n·      Платформа для внедрения моделей\n\n*Контакты:*\nВакансию попросил разместить коллега (все вопросы и резюме направлять ему), его контакты:\nДенисов Игорь Вячеславович, <mailto:IVDenisov@sberbank.ru|IVDenisov@sberbank.ru>.",
+        "user": "UQRMKDGDR",
+        "ts": "1614612143.010900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g55fb9e5ce67",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/55fb9e5ce67d088c7e7412b9795a731e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "Anastasia Zarubkina",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "crankymaid",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lb6dC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Компания: "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sber_new",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Сбербанк",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nГород: Москва \nПозиция: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Data Scientist",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nВилка: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "150 000 – 250 000",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " руб\/мес\n\nВсем привет!\n\nПо просьбе коллег размещаю вакансию в их дружный коллектив.\nВ департамент пользовательских решений коллеги ищут к себе в команду DS-исследователя.\nУже нашли несколько ребят, но нужно ещё)\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Hard skills:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n·      Умение писать чистый, читаемый код на  "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "python"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Python;\n·      Знание ML-стека: numpy, pandas, scikit-learn, xgboost, lightgbm.\n·      Опыт построения DL pipeline с использованием фреймворков TF\/Pytorch\/Keras;\n·      Опыт работы с NLP инструментами NLTK, Pymorphy и пр\n·      Знание SQL\n·      Опыт использования Git, Jira, Confluence;\n·      Понимание и опыт АB-тестирования\n·      Плюсом будет опыт работы с "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "docker"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Docker\n·      Плюсом будет знание Hadoop\/Spark.\n·      Участие в соревнованиях по ML (Kaggle)\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Soft skills:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n·      Опыт работы в роли DS от года\n·      Организованность и самостоятельность в решении задач\n·      Определение технического пути решения задач\n·      Быстрая обучаемость, организованность\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Мы предлагаем:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n·      Возможность сформировать Dream Team\n·      ДМС\n·      Спортзал\n·      Развитая IT инфраструктура\n·      Мощный GPU\n·      Платформа для внедрения моделей\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Контакты:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nВакансию попросил разместить коллега (все вопросы и резюме направлять ему), его контакты:\nДенисов Игорь Вячеславович, "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:IVDenisov@sberbank.ru",
+                                "text": "IVDenisov@sberbank.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": "."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "sber_new",
+                "users": [
+                    "U01KSCCV319",
+                    "U01G43KTKUL"
+                ],
+                "count": 2
+            },
+            {
+                "name": "astanavites",
+                "users": [
+                    "U6T11F9T4"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

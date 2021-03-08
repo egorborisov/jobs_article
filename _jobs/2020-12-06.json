@@ -1,0 +1,515 @@
+[
+    {
+        "client_msg_id": "dcfafffb-8431-4c85-b37b-e18336ba493a",
+        "type": "message",
+        "text": "Удалённая работа возможна?",
+        "user": "U049HDR2Z",
+        "ts": "1607262839.454800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "61e0f6dee3c0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-02-12\/1743647294629_61e0f6dee3c0f1a1d12b_72.jpg",
+            "first_name": "Eg",
+            "real_name": "Eg",
+            "display_name": "eg",
+            "team": "T040HKJE3",
+            "name": "egor.panfilov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zm0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Удалённая работа возможна?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607087163.399500",
+        "parent_user_id": "U2XV4QXV1"
+    },
+    {
+        "client_msg_id": "B2593414-F7D9-4F76-81AB-ECB5A6FC27C2",
+        "type": "message",
+        "text": "<@U2XV4QXV1> а я так в телеграмм и не написал и не узнал каких вы метрик добились по маммография кроме AUC ROC?",
+        "user": "UQP8JF7NK",
+        "ts": "1607264610.456900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "5c83a5275ede",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-06\/1559407235588_5c83a5275edeaca5a8a6_72.png",
+            "first_name": "Rnj20000",
+            "real_name": "Rnj20000",
+            "display_name": "k.frolov",
+            "team": "T040HKJE3",
+            "name": "rnj20000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KaN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U2XV4QXV1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " а я так в телеграмм и не написал и не узнал каких вы метрик добились по маммография кроме AUC ROC?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607087163.399500",
+        "parent_user_id": "U2XV4QXV1"
+    },
+    {
+        "client_msg_id": "560b8ec8-b32d-4c70-aabb-23098b1e3c16",
+        "type": "message",
+        "text": "<@U049HDR2Z> вообще мы не очень любим удалёнку, но нет тоже не скажу)",
+        "user": "U2XV4QXV1",
+        "ts": "1607264903.457100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "428e402fafd5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-02\/339601782276_428e402fafd50c0bb94e_72.jpg",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Nikitin",
+            "display_name": "crazyfrogspb",
+            "team": "T040HKJE3",
+            "name": "crazyfrogspb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=SZGP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U049HDR2Z"
+                            },
+                            {
+                                "type": "text",
+                                "text": " вообще мы не очень любим удалёнку, но нет тоже не скажу)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607087163.399500",
+        "parent_user_id": "U2XV4QXV1",
+        "reactions": [
+            {
+                "name": "ok_hand::skin-tone-2",
+                "users": [
+                    "U049HDR2Z"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6597efd6-c710-4f4f-8631-d71ab1f1fda2",
+        "type": "message",
+        "text": "<@UQP8JF7NK> я другие метрики вне контекста не очень хочу шарить, там очень многое зависит от контекста и датасета - где применяется система, баланс классов, сложность кейсов, популяция",
+        "user": "U2XV4QXV1",
+        "ts": "1607265067.457300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "428e402fafd5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-02\/339601782276_428e402fafd50c0bb94e_72.jpg",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Nikitin",
+            "display_name": "crazyfrogspb",
+            "team": "T040HKJE3",
+            "name": "crazyfrogspb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Wbiu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UQP8JF7NK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " я другие метрики вне контекста не очень хочу шарить, там очень многое зависит от контекста и датасета - где применяется система, баланс классов, сложность кейсов, популяция"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607087163.399500",
+        "parent_user_id": "U2XV4QXV1"
+    },
+    {
+        "client_msg_id": "c44a18af-e8ef-4005-ba99-33acb3b11f92",
+        "type": "message",
+        "text": "А чем отличались бы от указанных требования на джуна?",
+        "user": "UGF8L176H",
+        "ts": "1607285808.463200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gab35c96aa34",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a3ab35c96aa34f6dc54ee0dc781c1167.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Viacheslav",
+            "real_name": "Viacheslav",
+            "display_name": "Exzotick",
+            "team": "T040HKJE3",
+            "name": "spitcyn-slava",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UGF8L176H",
+            "ts": "1607285932.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Nt0ge",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "А чем отличались бы от указанных требования на джуна?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1606657868.012800",
+        "parent_user_id": "U4W5JBZV1"
+    },
+    {
+        "client_msg_id": "f0f39ea0-e73c-488d-bd8b-b3558076f61f",
+        "type": "message",
+        "text": "Привет ODS!\nС вашей помощью нашли себе классного DS. Команда растет и теперь мы ищем дата инженера\n\n*Компания:* Whisk (<https:\/\/whisk.com\/>)\n*Ищем:* Senior DataEngineer\n*Вилка:* $5,000 - $7,000 MO net\n*Где:* удаленно, но +\/- 2 часа от GMT+3\nWhisk - это маркетплейс для ритейлеров, брендов, IoT&amp;Health и паблишеров в фуд индустрии, который уже 7 лет связывает всех их через ключевой продукт компании - FoodAI. Так-же мы активно развиваем B2C направление (<https:\/\/my.whisk.com\/>). Основные рынки: Европа и США. Компания присоединилась к SamsungNEXT в 2019, и мы сильно продвинулись в масштабировании наших продуктов. Больше масштаб - больше проблем, и для усиления DS-команды мы ищем дата инженера с сильным индустриальным опытом, который помог бы нам строить и улучшать наши дата пайплайны. Whisk - это полностью распределенная команда объединяющая специалистов из :gb::de::us::ru::flag-il::flag-ua: и других.\n*Роль в команде:*\n- Строить дата пайплайны вокруг наших ML (и не ML) сервисов (рек-системы, NLP, аналитические дашборды). Организовывать мониторинг, думать о масштабировании, планировать роадмап совместно с ML инженерами.\n- Внедрять лучшие практики, снижать время выхода в продакшн новых систем и моделей\n- Совместно с DS помогать организовывать продуктовую аналитику вокруг наших данных. Плюсом будет интерес к анализу данных (мы понимаем что хороший дата инженер и хороший аналитик - это разный скилсет, и рокет сайенса тут не ждем)\n\n*Обязательные требования:*\n- Минимум 5 лет опыта в Software Engineering\/DataScience и минимум 2 года на позиции DataEngineer\n- Свободное владение Python, SQL; опыт работы с Clickhouse, Postgres, Mongo, Redis, Airflow\n- Практический опыт построения продакшн дата пайплайнов для ML моделей. Понимание границ применимости инструментария и опыт инкрементального масштабирования пайплайнов с ростом нагрузки\n- Опыт с GoogleCloud стеком для дата процессинга (DataFlow, Composer)\n- (как-то даже неловко в 2020 о таком писать, однако) владение Docker, K8s, опыт с CI\/CD системами (предпочтительно CircleCI)\n- Хороший разговорный английский\n\n*Плюсом будет:*\n- Интерес к продуктовой аналитике, опыт автоматизации в этой области\n- Практический опыт использования GC стека в продакшене для построения пайплайнов\n\nРезюме слать нашему HR: <mailto:olga.andryushina@samsungnext.com|olga.andryushina@samsungnext.com> (и меня в CC: <mailto:a.bondar@samsungnext.com|a.bondar@samsungnext.com>)",
+        "user": "UK185VC1H",
+        "ts": "1607323435.467300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1bd38763ebb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-25\/888112033382_1bd38763ebb6c6872ab2_72.png",
+            "first_name": "aobondar",
+            "real_name": "aobondar",
+            "display_name": "Artem Bondar",
+            "team": "T040HKJE3",
+            "name": "aobondar",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UK185VC1H",
+            "ts": "1607323455.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B2Vb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет ODS!\nС вашей помощью нашли себе классного DS. Команда растет и теперь мы ищем дата инженера\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Whisk ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/whisk.com\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Ищем: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Senior DataEngineer\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "$5,000 - $7,000 MO net\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Где: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "удаленно, но +\/- 2 часа от GMT+3\nWhisk - это маркетплейс для ритейлеров, брендов, IoT&Health и паблишеров в фуд индустрии, который уже 7 лет связывает всех их через ключевой продукт компании - FoodAI. Так-же мы активно развиваем B2C направление ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/my.whisk.com\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "). Основные рынки: Европа и США. Компания присоединилась к SamsungNEXT в 2019, и мы сильно продвинулись в масштабировании наших продуктов. Больше масштаб - больше проблем, и для усиления DS-команды мы ищем дата инженера с сильным индустриальным опытом, который помог бы нам строить и улучшать наши дата пайплайны. Whisk - это полностью распределенная команда объединяющая специалистов из "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "gb"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "de"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "us"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ru"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-il"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-ua"
+                            },
+                            {
+                                "type": "text",
+                                "text": " и других.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Роль в команде:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Строить дата пайплайны вокруг наших ML (и не ML) сервисов (рек-системы, NLP, аналитические дашборды). Организовывать мониторинг, думать о масштабировании, планировать роадмап совместно с ML инженерами.\n- Внедрять лучшие практики, снижать время выхода в продакшн новых систем и моделей\n- Совместно с DS помогать организовывать продуктовую аналитику вокруг наших данных. Плюсом будет интерес к анализу данных (мы понимаем что хороший дата инженер и хороший аналитик - это разный скилсет, и рокет сайенса тут не ждем)\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Обязательные требования:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Минимум 5 лет опыта в Software Engineering\/DataScience и минимум 2 года на позиции DataEngineer\n- Свободное владение Python, SQL; опыт работы с Clickhouse, Postgres, Mongo, Redis, Airflow\n- Практический опыт построения продакшн дата пайплайнов для ML моделей. Понимание границ применимости инструментария и опыт инкрементального масштабирования пайплайнов с ростом нагрузки\n- Опыт с GoogleCloud стеком для дата процессинга (DataFlow, Composer)\n- (как-то даже неловко в 2020 о таком писать, однако) владение Docker, K8s, опыт с CI\/CD системами (предпочтительно CircleCI)\n- Хороший разговорный английский\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Плюсом будет:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Интерес к продуктовой аналитике, опыт автоматизации в этой области\n- Практический опыт использования GC стека в продакшене для построения пайплайнов\n\nРезюме слать нашему HR: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:olga.andryushina@samsungnext.com",
+                                "text": "olga.andryushina@samsungnext.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": " (и меня в CC: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:a.bondar@samsungnext.com",
+                                "text": "a.bondar@samsungnext.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "U6URRB952",
+                    "UHGUXSJRK",
+                    "U50GQKH5J",
+                    "U04EB5WCH",
+                    "U9HSZRDP1",
+                    "U013C3GM53L",
+                    "UFM7T1FJS",
+                    "UHY5KKK6D",
+                    "U1CF22N7J",
+                    "US946KVS7",
+                    "U049HDR2Z",
+                    "UC9FVAQMA",
+                    "UKQTPE877",
+                    "U6NT2E2ES",
+                    "UQ9UCJT0T",
+                    "UQMCTGYEL",
+                    "ULPRYQNS2",
+                    "U6RBHBQPQ",
+                    "U93P65UQN",
+                    "UB4AGRL3C",
+                    "U7N4E8GBF",
+                    "U7E8Y3V19",
+                    "U1CMPEWPQ",
+                    "U50EVF538",
+                    "U7KDVG6LS",
+                    "U4B8MC0AD",
+                    "UM38ES74G",
+                    "U6CJNRTJN",
+                    "U7WFH7UUF",
+                    "UC9HBTUKG",
+                    "U3CJPQ4HX",
+                    "UAL8CA2TF",
+                    "UQRH33GM8",
+                    "UCMAWD588",
+                    "UKQDGNUHJ",
+                    "U34CYM9H6",
+                    "UGNUUPZ1U",
+                    "UCB3PK96J",
+                    "UDFKRQH33"
+                ],
+                "count": 39
+            },
+            {
+                "name": "moneys",
+                "users": [
+                    "UQMCTGYEL",
+                    "U7F3QC28P",
+                    "UQVTRBQ9J",
+                    "U93P65UQN",
+                    "UBP7JT6MS",
+                    "U27SUBTB9",
+                    "U7E8Y3V19",
+                    "U4LBN5THS",
+                    "U8PMZ6397",
+                    "U4B8MC0AD",
+                    "UMM890NT1",
+                    "UM38ES74G",
+                    "UC9HBTUKG",
+                    "U3CJPQ4HX",
+                    "UAL8CA2TF",
+                    "UDTU9AWR4",
+                    "UUP5MBYAE",
+                    "U0167LNSWUT",
+                    "U7PHZ3QTU",
+                    "U90HKUW3B",
+                    "UKQTHKEPJ",
+                    "UGNUUPZ1U",
+                    "UCB3PK96J"
+                ],
+                "count": 23
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "ULPRYQNS2",
+                    "U7N4E8GBF",
+                    "U600Q839S",
+                    "UMM890NT1",
+                    "UM38ES74G",
+                    "UC9HBTUKG",
+                    "UAL8CA2TF",
+                    "UDTU9AWR4",
+                    "U0SC8R7B8",
+                    "U01B0R9DGSX"
+                ],
+                "count": 10
+            },
+            {
+                "name": "flag-cc",
+                "users": [
+                    "U30A6KZLH",
+                    "U18PYFC9L"
+                ],
+                "count": 2
+            },
+            {
+                "name": "nopython",
+                "users": [
+                    "UGPDS351S"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

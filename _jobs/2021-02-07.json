@@ -1,0 +1,917 @@
+[
+    {
+        "client_msg_id": "b517f2ce-dd76-4514-8c61-920d60532be8",
+        "type": "message",
+        "text": "Я думаю после такой компании можно будет уходить только в VIP Data Science, иначе не катит",
+        "user": "U3G5SK5J6",
+        "ts": "1612686163.476300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "5f2feed42d57",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-23\/320684617302_5f2feed42d576fe2d878_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Troshenkov",
+            "display_name": "paveltr",
+            "team": "T040HKJE3",
+            "name": "paveltr",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7lo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Я думаю после такой компании можно будет уходить только в VIP Data Science, иначе не катит"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612531102.430400",
+        "parent_user_id": "UAKCBE2DA",
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "UAKCBE2DA",
+                    "U09NJCK3K"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4a30ab11-067e-4178-88db-7254876fd471",
+        "type": "message",
+        "text": "\"Middle\" DS\n@\nБазовые знания ML\n@\nОпыт в страховании 3 года\n\n:here_we_go_again::woozy_face:",
+        "user": "U01L09HLCMD",
+        "ts": "1612691437.477400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f1c00a5652ce",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-01-31\/1695780904594_f1c00a5652ce6a40490f_72.jpg",
+            "first_name": "",
+            "real_name": "Dmitry Demidov",
+            "display_name": "Dmitry Demidov",
+            "team": "T040HKJE3",
+            "name": "demidovdv98",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9vT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\"Middle\" DS\n@\nБазовые знания ML\n@\nОпыт в страховании 3 года\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "here_we_go_again"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "woozy_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612617535.453700",
+        "parent_user_id": "U44HYRW12"
+    },
+    {
+        "client_msg_id": "1a644e54-7b6b-414f-b1a1-6999354b3396",
+        "type": "message",
+        "text": "<@U3SJBMJ9M> добавлю пару моментов про саму специфику (напихать серверов для RPS не столь трудная задача):\n• кол-во обрабатываемых системой запросов сейчас до 1.5 млн в секунду\n• большая часть срезается различными правилами\n• но в итоге наша цель с помощью тех или иных моделей эффективно обрабатывать весь входящий траффик",
+        "user": "U73NVHE0Y",
+        "ts": "1612695202.478500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "96223ec29368",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-18\/243871989623_96223ec2936815562e89_72.jpg",
+            "first_name": "Ilia",
+            "real_name": "Ilia V",
+            "display_name": "vilia",
+            "team": "T040HKJE3",
+            "name": "iv375",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GP9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U3SJBMJ9M"
+                            },
+                            {
+                                "type": "text",
+                                "text": " добавлю пару моментов про саму специфику (напихать серверов для RPS не столь трудная задача):\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "кол-во обрабатываемых системой запросов сейчас до 1.5 млн в секунду"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "большая часть срезается различными правилами"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "но в итоге наша цель с помощью тех или иных моделей эффективно обрабатывать весь входящий траффик"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612627832.456600",
+        "parent_user_id": "U136KEUHY"
+    },
+    {
+        "client_msg_id": "31998763-7873-4488-9E1C-9C92553B7BB7",
+        "type": "message",
+        "text": "Если есть база, то построение моделей можно прокачать быстро, а предметные знания в страховании нужны ближе к синьору - усредняем - получаем миддл дс \nбудет круче - значит ура ",
+        "user": "U44HYRW12",
+        "ts": "1612699345.482800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "0429a06d870d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-02-13\/140666980069_0429a06d870d15f876fc_72.jpg",
+            "first_name": "Evgeny",
+            "real_name": "Evgeny Patekha",
+            "display_name": "johnpateha",
+            "team": "T040HKJE3",
+            "name": "johnpateha",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gYr7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Если есть база, то построение моделей можно прокачать быстро, а предметные знания в страховании нужны ближе к синьору - усредняем - получаем миддл дс \n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "будет круче - значит ура "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612617535.453700",
+        "parent_user_id": "U44HYRW12"
+    },
+    {
+        "client_msg_id": "69ece0c1-fc53-46fd-a23e-4db4ea34fe9f",
+        "type": "message",
+        "text": "Не возьмусь за всех говорить, но кажется глубокие предметные знания в области нужны скорее менеджеру проекта или тим лиду)\nА если мидл будет со своей колокольни в проект вливаться, то не факт что далеко дело уйдёт.",
+        "user": "U01L09HLCMD",
+        "ts": "1612711633.484300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f1c00a5652ce",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-01-31\/1695780904594_f1c00a5652ce6a40490f_72.jpg",
+            "first_name": "",
+            "real_name": "Dmitry Demidov",
+            "display_name": "Dmitry Demidov",
+            "team": "T040HKJE3",
+            "name": "demidovdv98",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XigzQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Не возьмусь за всех говорить, но кажется глубокие предметные знания в области нужны скорее менеджеру проекта или тим лиду)\nА если мидл будет со своей колокольни в проект вливаться, то не факт что далеко дело уйдёт."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612617535.453700",
+        "parent_user_id": "U44HYRW12"
+    },
+    {
+        "client_msg_id": "24af80a6-30fc-46b8-88ee-30dae02dad45",
+        "type": "message",
+        "text": "Получается по описанию вы вроде как ищете не мидл DS коллегу, а страховщика со стажем который полгода назад прошёл онлайн-курс по DS",
+        "user": "U01L09HLCMD",
+        "ts": "1612711710.485300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f1c00a5652ce",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-01-31\/1695780904594_f1c00a5652ce6a40490f_72.jpg",
+            "first_name": "",
+            "real_name": "Dmitry Demidov",
+            "display_name": "Dmitry Demidov",
+            "team": "T040HKJE3",
+            "name": "demidovdv98",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U01L09HLCMD",
+            "ts": "1612711839.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kw0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Получается по описанию вы вроде как ищете не мидл DS коллегу, а страховщика со стажем который полгода назад прошёл онлайн-курс по DS"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612617535.453700",
+        "parent_user_id": "U44HYRW12"
+    },
+    {
+        "client_msg_id": "4DCD6A01-C078-4748-9972-1315EDD84141",
+        "type": "message",
+        "text": "Это программа минимум, будет круто если знания в дс будут глубже, но не обязательно, т.к. .не факт что такие специалисты скучают в моменте :)\nДля решения наших задач знания в предметной области важнее умения написать портянку сложного кода. Только на бэкграунде математика тут не прорваться. А вот наоборот - да - хорошую модель можно построить и без программирования\/математики - таки в таблицах уже давно рулят полукоробочные решения. \nНу и при наличии мозга научиться писать сложный код таки дело не долгое, была бы мотивация.\n",
+        "user": "U44HYRW12",
+        "ts": "1612712497.499200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "0429a06d870d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-02-13\/140666980069_0429a06d870d15f876fc_72.jpg",
+            "first_name": "Evgeny",
+            "real_name": "Evgeny Patekha",
+            "display_name": "johnpateha",
+            "team": "T040HKJE3",
+            "name": "johnpateha",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AXwS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Это программа минимум, будет круто если знания в дс будут глубже, но не обязательно, т.к. .не факт что такие специалисты скучают в моменте :)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Для решения наших задач знания в предметной области важнее умения написать портянку сложного кода. Только на бэкграунде математика тут не прорваться. А вот наоборот - да - хорошую модель можно построить и без программирования\/математики - таки в таблицах уже давно рулят полукоробочные решения. \nНу и при наличии мозга научиться писать сложный код таки дело не долгое, была бы мотивация.\n"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612617535.453700",
+        "parent_user_id": "U44HYRW12"
+    },
+    {
+        "client_msg_id": "e0044812-5076-4549-be35-e151970fb60d",
+        "type": "message",
+        "text": "Имею ввиду что под ваше описание может подходить почти 30% страховщиков после инфоцыганских курсов. Кончено, с такой высокой заявленной стартовой з\/п и такими требованиям - у вас действиетльно будет большая очередь кандидатов, но вот нужного будет найти сложно среди них.\nНи в коем случае не пытаюсь как-то переубедить, просто на заметку наверное)\nБыла похожая проблема на прошлом месте работы, проект загибается когда таких кадров становится больше 30%, рискуете уйти \"не туда\" в решениях.\nВедь дело даже не в умении писать код, который по сути просто средство воплощения идей в жизнь.",
+        "user": "U01L09HLCMD",
+        "ts": "1612724429.000800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f1c00a5652ce",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-01-31\/1695780904594_f1c00a5652ce6a40490f_72.jpg",
+            "first_name": "",
+            "real_name": "Dmitry Demidov",
+            "display_name": "Dmitry Demidov",
+            "team": "T040HKJE3",
+            "name": "demidovdv98",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ub\/Q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Имею ввиду что под ваше описание может подходить почти 30% страховщиков после инфоцыганских курсов. Кончено, с такой высокой заявленной стартовой з\/п и такими требованиям - у вас действиетльно будет большая очередь кандидатов, но вот нужного будет найти сложно среди них.\nНи в коем случае не пытаюсь как-то переубедить, просто на заметку наверное)\nБыла похожая проблема на прошлом месте работы, проект загибается когда таких кадров становится больше 30%, рискуете уйти \"не туда\" в решениях.\nВедь дело даже не в умении писать код, который по сути просто средство воплощения идей в жизнь."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612617535.453700",
+        "parent_user_id": "U44HYRW12"
+    },
+    {
+        "client_msg_id": "32274173-F1F0-4846-B627-7CD091287862",
+        "type": "message",
+        "text": "3 мес назад я пережил 100+ резюме на джуна. Таки справился, прочитал все сам,\n если тут будет много, , что не факт, т.к. отрасль небольшая, то здорово.\nа как организовать работу - эт уже моя ответственность - если пойдёт не туда, сам буду виноват, сам разгребу. \nхочется верить в лучшее - успех неизбежен :) ",
+        "user": "U44HYRW12",
+        "ts": "1612729800.006400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "0429a06d870d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-02-13\/140666980069_0429a06d870d15f876fc_72.jpg",
+            "first_name": "Evgeny",
+            "real_name": "Evgeny Patekha",
+            "display_name": "johnpateha",
+            "team": "T040HKJE3",
+            "name": "johnpateha",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sbJE2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "3 мес назад я пережил 100+ резюме на джуна. Таки справился, прочитал все сам,\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": " если тут будет много, , что не факт, т.к. отрасль небольшая, то здорово.\nа как организовать работу - эт уже моя ответственность - если пойдёт не туда, сам буду виноват, сам разгребу. \nхочется верить в лучшее - успех неизбежен :) "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612617535.453700",
+        "parent_user_id": "U44HYRW12"
+    },
+    {
+        "client_msg_id": "ac298aed-bb1d-488a-a507-7cac871cb1e5",
+        "type": "message",
+        "text": "По мне так вакансия очень крутая!",
+        "user": "U01DUEP9NHF",
+        "ts": "1612730156.006700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "66be7c3c0537",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-27\/1458471137458_66be7c3c053768955e0a_72.jpg",
+            "first_name": "",
+            "real_name": "Дмитрий Волишевский",
+            "display_name": "Дмитрий Волишевский",
+            "team": "T040HKJE3",
+            "name": "volishevskiydg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x+LS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "По мне так вакансия очень крутая!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612627832.456600",
+        "parent_user_id": "U136KEUHY"
+    },
+    {
+        "client_msg_id": "962d8279-a00e-49ce-8006-97e3f32caa7c",
+        "type": "message",
+        "text": "Добрый день. Джуны ещё требуются?",
+        "user": "U01DUEP9NHF",
+        "ts": "1612730336.006900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "66be7c3c0537",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-27\/1458471137458_66be7c3c053768955e0a_72.jpg",
+            "first_name": "",
+            "real_name": "Дмитрий Волишевский",
+            "display_name": "Дмитрий Волишевский",
+            "team": "T040HKJE3",
+            "name": "volishevskiydg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=5yX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Добрый день. Джуны ещё требуются?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612617535.453700",
+        "parent_user_id": "U44HYRW12"
+    },
+    {
+        "client_msg_id": "667b7136-36f9-45dd-8693-baadc16a40a7",
+        "type": "message",
+        "text": "Работаем",
+        "user": "U01G6SF098X",
+        "ts": "1612753248.007700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "756f19124133",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-19\/1600818660113_756f191241331b4ddb47_72.jpg",
+            "first_name": "Trifon",
+            "real_name": "Trifon Sheykin",
+            "display_name": "Trifon Sheykin",
+            "team": "T040HKJE3",
+            "name": "trifon.sheykin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s9PP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Работаем"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612431616.318200",
+        "parent_user_id": "U01G6SF098X"
+    },
+    {
+        "client_msg_id": "5E7285DE-70A3-4248-950B-6F06BBD42C08",
+        "type": "message",
+        "text": "Пока нет",
+        "user": "U44HYRW12",
+        "ts": "1612760964.008300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "0429a06d870d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-02-13\/140666980069_0429a06d870d15f876fc_72.jpg",
+            "first_name": "Evgeny",
+            "real_name": "Evgeny Patekha",
+            "display_name": "johnpateha",
+            "team": "T040HKJE3",
+            "name": "johnpateha",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VqS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Пока нет"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612617535.453700",
+        "parent_user_id": "U44HYRW12"
+    },
+    {
+        "client_msg_id": "d1b8980d-3d25-4282-bcbe-a2433e96aaa0",
+        "type": "message",
+        "text": "Доброе утро. \n\nМы – амбициозная и дружная команда, ежедневно исследующая данные корпоративных клиентов не только Сбербанка, но и всей экосистемы Сбера. Наши модели – двигатель не имеющих аналогов в России продуктов в сфере управления рисками корпоративных клиентов.\n<https:\/\/www.cnews.ru\/...\/2020-12-03_sber_zapuskaet|https:\/\/www.cnews.ru\/...\/2020-12-03_sber_zapuskaet>\n\n*Сводная статистика о нас:*\n√ Мы решаем задачи по 8 основным направлениям (от монументального ПВР до всеобъемлющих графов и молодого и амбициозного  ESG);\n√ 95% наших моделей разрабатываются с применением облачных технологий;\n√ Мы придерживаемся единого стандарта работы, используем JIRA\/Confluence\/BitBucket, у нас есть единый бэклог;\n√ 25% нашей команды имеют западное образование и опыт работы в странах Европы;\n√ Мы сотрудничаем с передовыми ВУЗами в 3-ёх городах России;\n√ 0% - просрочка по кредитному продукту на основе наших моделей <https:\/\/tass.ru\/ekonomika\/9300939|https:\/\/tass.ru\/ekonomika\/9300939>\n√ Мы ищем в команду 4-ёх DS уровня Middle\/Senior\/TeamLead.\n\n*В команде с заказчикамизаказчиками и DE мы:*\n√ Погружаемся в предметную область;\n√ Прорабатываем постановку задачи;\n√ Ищем и исследуем данные;\n√ Выбираем оптимальные методы моделирования;\n√ Разрабатываем и верифицируем модели;\n√ Готовим отчеты о разработке и презентуем результаты;\n√ Мониторим модели;\n√ Наслаждаемся результатом.\n\n*Качественные факторы кандидатов с высоким Feature important:*\n√ Диплом в области компьютерных наук, статистики, прикладной математики или другой релевантной области;\n√ Глубокое понимание статистических подходов и методов (регрессия, свойства распределений, оценка максимального правдоподобия, проверка гипотез и их правильное использование) и опыт их применения;\n√ Свободное владение основными DS библиотеками на Python;\n√ Опыт применения алгоритмов машинного обучения (GLM\/Regression, Trees, Random Forest, Boosting), понимание их преимуществ, недостатков и ограничений;\n√ SQL;\n√ Английский язык (устный и письменный) как преимущество;\n√ Опыт в распределённых\/параллельных вычислениях с помощью следующих технологий: Hadoop, Spark, Dask и другие как преимущество;\n\n*А ещё у нас есть:*\n√ Среднемесячная зарплата 160-350 тыс.руб. gross\n(в зависимости от уровня кандидата) + годовой бонус по договору;\n√ Обучение Hard и Soft навыкам, доменным знаниям;\n√  Возможность работать из Москвы, Санкт-Петербурга или Владивостока;\n√ Развитая IT архитектура. Мощный GPU кластер, возможность расчётов на суперкомпьютере top30 в мире;\n√ Комфортный офис, большой выбор вариантов по питанию, бесплатный фитнес в офисе;\n√ Постоянное развитие: обучающие курсы от лучших университетов и компаний (МФТИ, ВШЭ, NVIDIA и другие), участие в международных конференциях;\n√ Развитое DS community.\n\n*Чтобы перейти на нашу сторону* направляй резюме в личку или письмом на  <mailto:Darkshevich.Andrey@gmail.com|Darkshevich.Andrey@gmail.com>",
+        "user": "U96LUCTA6",
+        "ts": "1612762140.009200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "bc7c4cc62026",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-21\/952771853009_bc7c4cc62026c5fb206d_72.jpg",
+            "first_name": "Darkshevich",
+            "real_name": "Darkshevich Andrey",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "darkshevich.andrey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U96LUCTA6",
+            "ts": "1612780560.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WIV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Доброе утро. \n\nМы – амбициозная и дружная команда, ежедневно исследующая данные корпоративных клиентов не только Сбербанка, но и всей экосистемы Сбера. Наши модели – двигатель не имеющих аналогов в России продуктов в сфере управления рисками корпоративных клиентов.\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.cnews.ru\/...\/2020-12-03_sber_zapuskaet",
+                                "text": "https:\/\/www.cnews.ru\/...\/2020-12-03_sber_zapuskaet"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Сводная статистика о нас:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n√ Мы решаем задачи по 8 основным направлениям (от монументального ПВР до всеобъемлющих графов и молодого и амбициозного  ESG);\n√ 95% наших моделей разрабатываются с применением облачных технологий;\n√ Мы придерживаемся единого стандарта работы, используем JIRA\/Confluence\/BitBucket, у нас есть единый бэклог;\n√ 25% нашей команды имеют западное образование и опыт работы в странах Европы;\n√ Мы сотрудничаем с передовыми ВУЗами в 3-ёх городах России;\n√ 0% - просрочка по кредитному продукту на основе наших моделей "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/tass.ru\/ekonomika\/9300939",
+                                "text": "https:\/\/tass.ru\/ekonomika\/9300939"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n√ Мы ищем в команду 4-ёх DS уровня Middle\/Senior\/TeamLead.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "В команде с заказчикамизаказчиками и DE мы:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n√ Погружаемся в предметную область;\n√ Прорабатываем постановку задачи;\n√ Ищем и исследуем данные;\n√ Выбираем оптимальные методы моделирования;\n√ Разрабатываем и верифицируем модели;\n√ Готовим отчеты о разработке и презентуем результаты;\n√ Мониторим модели;\n√ Наслаждаемся результатом.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Качественные факторы кандидатов с высоким Feature important:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n√ Диплом в области компьютерных наук, статистики, прикладной математики или другой релевантной области;\n√ Глубокое понимание статистических подходов и методов (регрессия, свойства распределений, оценка максимального правдоподобия, проверка гипотез и их правильное использование) и опыт их применения;\n√ Свободное владение основными DS библиотеками на Python;\n√ Опыт применения алгоритмов машинного обучения (GLM\/Regression, Trees, Random Forest, Boosting), понимание их преимуществ, недостатков и ограничений;\n√ SQL;\n√ Английский язык (устный и письменный) как преимущество;\n√ Опыт в распределённых\/параллельных вычислениях с помощью следующих технологий: Hadoop, Spark, Dask и другие как преимущество;\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "А ещё у нас есть:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n√ Среднемесячная зарплата 160-350 тыс.руб. gross\n(в зависимости от уровня кандидата) + годовой бонус по договору;\n√ Обучение Hard и Soft навыкам, доменным знаниям;\n√  Возможность работать из Москвы, Санкт-Петербурга или Владивостока;\n√ Развитая IT архитектура. Мощный GPU кластер, возможность расчётов на суперкомпьютере top30 в мире;\n√ Комфортный офис, большой выбор вариантов по питанию, бесплатный фитнес в офисе;\n√ Постоянное развитие: обучающие курсы от лучших университетов и компаний (МФТИ, ВШЭ, NVIDIA и другие), участие в международных конференциях;\n√ Развитое DS community.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Чтобы перейти на нашу сторону",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " направляй резюме в личку или письмом на  "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:Darkshevich.Andrey@gmail.com",
+                                "text": "Darkshevich.Andrey@gmail.com"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612762140.009200",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1612776402.022700",
+        "reply_users": [
+            "UAVE71UDN",
+            "U96LUCTA6"
+        ],
+        "replies": [
+            {
+                "user": "UAVE71UDN",
+                "ts": "1612767234.011000"
+            },
+            {
+                "user": "U96LUCTA6",
+                "ts": "1612776402.022700"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "URFMT27RS",
+                    "UFDKCB7EG",
+                    "US946KVS7",
+                    "UB4514SR2",
+                    "U27SUBTB9",
+                    "U7N4E8GBF",
+                    "UMKC5RUE4",
+                    "UGBNP8ZS8"
+                ],
+                "count": 8
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "U01CX0XER3R",
+                    "U2ZHRCAUB",
+                    "UG39QTHAQ",
+                    "U01L09HLCMD",
+                    "UEVA1NXGT",
+                    "U8DEZV7E2",
+                    "ULRRFCUR0",
+                    "U7E8Y3V19",
+                    "UCB3PK96J"
+                ],
+                "count": 9
+            },
+            {
+                "name": "no-junior",
+                "users": [
+                    "U01LM7MJKN0",
+                    "U017U528UB1",
+                    "UMM890NT1",
+                    "U01L09HLCMD",
+                    "U7N4E8GBF",
+                    "UCB3PK96J"
+                ],
+                "count": 6
+            },
+            {
+                "name": "sber_new",
+                "users": [
+                    "U96LUCTA6",
+                    "UMKC5RUE4",
+                    "ULF96QF3K",
+                    "U1YQLTMLH"
+                ],
+                "count": 4
+            },
+            {
+                "name": "astanavites",
+                "users": [
+                    "U30A6KZLH",
+                    "U4ENPFPQC",
+                    "UCB3PK96J",
+                    "U829159TJ",
+                    "U01K9UES1NX",
+                    "U135BSX5M",
+                    "U22T79M4N"
+                ],
+                "count": 7
+            },
+            {
+                "name": "grammar",
+                "users": [
+                    "U3K7PNTML",
+                    "ULF96QF3K",
+                    "UCB3PK96J",
+                    "U01K9UES1NX"
+                ],
+                "count": 4
+            },
+            {
+                "name": "confusedparrot",
+                "users": [
+                    "UGBNP8ZS8",
+                    "UDSE7CPUJ",
+                    "UCB3PK96J"
+                ],
+                "count": 3
+            },
+            {
+                "name": "nail_care",
+                "users": [
+                    "UCB3PK96J",
+                    "URG5X6T6H"
+                ],
+                "count": 2
+            },
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "UCB3PK96J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9178f2bf-e525-4c87-ba94-6a67afd47545",
+        "type": "message",
+        "text": "лучше выше выносить кого ищете\n`Мы ищем в команду 4-ёх DS уровня Middle\/Senior\/TeamLead.`\nи в блоке *Сводная статистика о нас:* :thinking_face:",
+        "user": "UAVE71UDN",
+        "ts": "1612767234.011000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g2783da0d180",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/912783da0d180a4e5b067e49e3b6c15f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "SergK",
+            "real_name": "SergK",
+            "display_name": "SergK",
+            "team": "T040HKJE3",
+            "name": "mrkrasgoodman",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UAVE71UDN",
+            "ts": "1612767303.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+ggqa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "лучше выше выносить кого ищете\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Мы ищем в команду 4-ёх DS уровня Middle\/Senior\/TeamLead.",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nи в блоке "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Сводная статистика о нас: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "thinking_face",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1612762140.009200",
+        "parent_user_id": "U96LUCTA6",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UU6LQEZFS",
+                    "U01L09HLCMD",
+                    "U8DEZV7E2",
+                    "UGKGVH4CW",
+                    "U96LUCTA6",
+                    "U7E8Y3V19",
+                    "U014F8HB4HX"
+                ],
+                "count": 7
+            }
+        ]
+    }
+]

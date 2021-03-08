@@ -1,0 +1,995 @@
+[
+    {
+        "client_msg_id": "04df0f9f-f988-4819-94bd-a3980db97da3",
+        "type": "message",
+        "text": "Коллеги, привет! \nИщем ML-инженера в Яндекс.Дзен.\n\n*Компания:* :yandex:*  *Яндекс\n*Вакансия:* ML engineer, *Дзен*\n:fork:: 150к - 300к\n\nДзен - блог-платформа и главная рекомендательная система Яндекса.\nОтдел ранжирования Дзена отвечает за все ML-задачи сервиса и бизнес-логику формирования ленты рекомендаций.\n\n*Направления*:\n•  *Ранжирование рекламы* :moneybag:: внедрение нейросетевых предикторов CTR\/конверсионности; написание рантайма ранжирования новых форматов (e.g. видеореклама); использование кросс-сервисных данных в ранжировании\n•  *Качество ранжирования основной ленты* :reminder_ribbon:: оптимизация пользовательских ответов на опросы про качество рекомендаций; создание новых продуктовых сценариев (e.g. Instagram-like блок подписок); улучшение базового качества ранжирования (внедрение SOTA методов матричной факторизации, Deep Learning etc)\n•  *Качество управления трафиком* :vertical_traffic_light: : улучшение качества constrained ранжирования (раздачи бонусных показов, буст качественного контента), улучшение моделей поиска качественного контента; фильтрация нежелательного контента\n•  И многое другое!\n*Почему Дзен:*\n• *Масштаб* :chart_with_upwards_trend:: Дзен - один из крупнейших по аудитории интернет-сервисов России: Дзеном ежедневно пользуются более 20 миллионов человек; RPS рантайма - 20к, а размер дневных логов, на которых мы обучаем модели - около 25 ТБ\n• *Экосистема* :yandex:: Дзен - ключевая часть экосистемы Яндекса и развивается на общей инфраструктуре группы компаний. Можно не тратить время на “черновую” работу (поднятие сервиса, сетевая инфраструктура, поставка данных, etc) и заниматься интересными задачами\n• *Full stack* :arrows_counterclockwise:  :ML инженеры отвечают за полный цикл задачи, от постановки до обучения модели, внедрения в production и проведения АБ-экспериментов; можно прокачаться во всех аспектах промышленного ML.\n• *Visibility* :eye:: всегда находимся в контакте с community, регулярно проводим внешние мероприятия на базе Дзена: <https:\/\/www.youtube.com\/watch?v=X1a5jNgqzGk|митапы> и <https:\/\/www.youtube.com\/watch?v=AfKIfh4x6B0|интервью> с интересными спикерами из индустрии\n*От кандидата ждем:*\n• :scientist: Понимание основных принципов и алгоритмов ML, практический опыт работы в ML\n• :male-technologist: Умение писать production - код на одном из языков: Java, Python, C\/C++, etc; знаниe стандартных алгоритмов и структур данных\n• :male-office-worker: Интерес к продуктово сложным задачам, содержащим как ML, так и разработку\n*Большими плюсами будут:*\n• :test_tube: Знание\/опыт работы с ML для рекомендательных систем\n• :java: Знание\/опыт разработки на Java\n• :computer: Опыт работы с высоконагруженными системами\nПо вакансии пишите мне в личку или :telegram: bsharchilev, либо нашему HR Лене Павликовой :telegram: elenapavlikova",
+        "user": "UHHMA31JT",
+        "ts": "1613372628.420000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4c19b1730199",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-02-15\/1744625853222_4c19b17301994a2533c2_72.jpg",
+            "first_name": "Boris",
+            "real_name": "Boris Sharchilev",
+            "display_name": "bshar",
+            "team": "T040HKJE3",
+            "name": "bsharchilev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UHHMA31JT",
+            "ts": "1613372682.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jzV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Коллеги, привет! \nИщем ML-инженера в Яндекс.Дзен.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "yandex",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "  ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Яндекс\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ML engineer, "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Дзен",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "fork",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": 150к - 300к\n\nДзен - блог-платформа и главная рекомендательная система Яндекса.\nОтдел ранжирования Дзена отвечает за все ML-задачи сервиса и бизнес-логику формирования ленты рекомендаций.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Направления",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "Ранжирование рекламы ",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "moneybag",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ": внедрение нейросетевых предикторов CTR\/конверсионности; написание рантайма ранжирования новых форматов (e.g. видеореклама); использование кросс-сервисных данных в ранжировании"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "Качество ранжирования основной ленты ",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "reminder_ribbon",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ": оптимизация пользовательских ответов на опросы про качество рекомендаций; создание новых продуктовых сценариев (e.g. Instagram-like блок подписок); улучшение базового качества ранжирования (внедрение SOTA методов матричной факторизации, Deep Learning etc)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "Качество управления трафиком ",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "vertical_traffic_light",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " : улучшение качества constrained ранжирования (раздачи бонусных показов, буст качественного контента), улучшение моделей поиска качественного контента; фильтрация нежелательного контента"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " И многое другое!"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Почему Дзен:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Масштаб ",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "chart_with_upwards_trend",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ": Дзен - один из крупнейших по аудитории интернет-сервисов России: Дзеном ежедневно пользуются более 20 миллионов человек; RPS рантайма - 20к, а размер дневных логов, на которых мы обучаем модели - около 25 ТБ"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Экосистема ",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "yandex",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ": Дзен - ключевая часть экосистемы Яндекса и развивается на общей инфраструктуре группы компаний. Можно не тратить время на “черновую” работу (поднятие сервиса, сетевая инфраструктура, поставка данных, etc) и заниматься интересными задачами"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Full stack ",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "arrows_counterclockwise",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " ",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " :ML инженеры отвечают за полный цикл задачи, от постановки до обучения модели, внедрения в production и проведения АБ-экспериментов; можно прокачаться во всех аспектах промышленного ML."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Visibility ",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "eye",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ": всегда находимся в контакте с community, регулярно проводим внешние мероприятия на базе Дзена: "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/www.youtube.com\/watch?v=X1a5jNgqzGk",
+                                        "text": "митапы"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " и "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/www.youtube.com\/watch?v=AfKIfh4x6B0",
+                                        "text": "интервью"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " с интересными спикерами из индустрии"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "От кандидата ждем:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "emoji",
+                                        "name": "scientist"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " Понимание основных принципов и алгоритмов ML, практический опыт работы в ML"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "emoji",
+                                        "name": "male-technologist"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " Умение писать production - код на одном из языков: Java, Python, C\/C++, etc; знаниe стандартных алгоритмов и структур данных"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "emoji",
+                                        "name": "male-office-worker"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " Интерес к продуктово сложным задачам, содержащим как ML, так и разработку"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Большими плюсами будут:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "emoji",
+                                        "name": "test_tube"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " Знание\/опыт работы с ML для рекомендательных систем"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "emoji",
+                                        "name": "java"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " Знание\/опыт разработки на Java"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "emoji",
+                                        "name": "computer"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " Опыт работы с высоконагруженными системами"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nПо вакансии пишите мне в личку или "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "telegram"
+                            },
+                            {
+                                "type": "text",
+                                "text": " bsharchilev, либо нашему HR Лене Павликовой "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "telegram"
+                            },
+                            {
+                                "type": "text",
+                                "text": " elenapavlikova"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1K6XT2F8",
+                    "UJG44P14M",
+                    "U7ZUFTEVA",
+                    "U3WKCC7SQ",
+                    "US0P94EH1",
+                    "UAJ7DCXSP",
+                    "U7FUMPXML",
+                    "UF81L3B1R",
+                    "UAL8CA2TF",
+                    "UJQ4YT6V9",
+                    "U2WQYL1TP",
+                    "UK0NMUNPQ",
+                    "U7E8Y3V19",
+                    "U9731EB0C",
+                    "U8X1WCTAL",
+                    "ULB0N22LF"
+                ],
+                "count": 16
+            },
+            {
+                "name": "heart",
+                "users": [
+                    "U1K6XT2F8",
+                    "UJG44P14M",
+                    "U3WKCC7SQ",
+                    "UF81L3B1R",
+                    "UKQTHKEPJ",
+                    "U8X1WCTAL",
+                    "UD6TXA7R7"
+                ],
+                "count": 7
+            },
+            {
+                "name": "yandex",
+                "users": [
+                    "U1K6XT2F8",
+                    "UJG44P14M",
+                    "U7ZUFTEVA",
+                    "U3WKCC7SQ",
+                    "UAJ7DCXSP",
+                    "UF81L3B1R",
+                    "UCMAWD588",
+                    "UDK41MN5U",
+                    "U9731EB0C",
+                    "UDDJ1A4CA",
+                    "U8X1WCTAL",
+                    "U01LF8YSANP",
+                    "UD6TXA7R7",
+                    "U1YQLTMLH",
+                    "U9KDY2PM2"
+                ],
+                "count": 15
+            },
+            {
+                "name": "fire",
+                "users": [
+                    "U1K6XT2F8",
+                    "UJG44P14M",
+                    "U3WKCC7SQ",
+                    "U7FUMPXML",
+                    "U2WQYL1TP",
+                    "UM2Q2B41J",
+                    "U9731EB0C",
+                    "UDDJ1A4CA",
+                    "UFV9L308P",
+                    "U8X1WCTAL"
+                ],
+                "count": 10
+            },
+            {
+                "name": "yandex_llc",
+                "users": [
+                    "UCB3PK96J",
+                    "U8X1WCTAL",
+                    "UD6TXA7R7"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5c5900cd-af13-40c9-bffb-94ca472cd7dc",
+        "type": "message",
+        "text": "В *Voir* ищем *Junior Machine Learning Engineer (Computer Vision)*\n*Офис:* Санкт-Петербург или удаленно\n*Вилка*: 100-150к net\n*Что мы делаем:*\nПриложение реалистичного диджитал мейкапа.\nМы используем компьютерное зрение, нейронные сети и запатентованный 3D рендеринг, чтобы обеспечить реалистичную примерку в дополненной реальности. \nНаше приложение VOIR Cam уже имеет миллионы загрузок по всему миру.\nПодробнее о компании можно узнать в <https:\/\/www.forbes.ru\/tehnologii\/381845-didzhital-makiyazh-kak-natalya-vodyanova-podarila-vtoruyu-zhizn-startapu-iz|статье Forbes>, на <http:\/\/voir.me\/|сайте> или <https:\/\/apps.apple.com\/us\/app\/voir-makeup-selfie-camera\/id1226417060|скачать приложение>.\nМы запускаем новый проект, который поможет сделать мир лучше и помочь людям.\n*Задачи:*\n• Разработка и оптимизация нейронных сетей и алгоритмов ML\n• Изучение SOTA статей и подходов к решению похожих задач\n• Написание кода и его рефакторинг, участие в code review\n*Что ожидаем*:\n• Знание Python (pep8), структур данных и алгоритмов\n• Опыт работы со стандартными модулями (numpy, opencv, pillow, matplotlib, etc)\n• Опыт работы хотя бы с одним из DL фреймворков: pytorch, tensorflow, mxnet, caffe\n• Опыт работы с задачами object detection &amp; object segmentation\n• Владение git, SQL, flask\n• Хорошая математическая база\n• Английский уровня чтения проф. литературы\n• Умение самостоятельно разбираться и аргументированно излагать свою точку зрения\n*Будет плюсом*:\n• Знание С\/С++\n• Опыт работы с GAN-ами\n• Опыт в оптимизации сеток и их портировании на mobile devices\n• Опыт научных исследований и ученая степень\nРезюме отправлять на почту <mailto:hr@voir.me|hr@voir.me>, вопросы можно задавать мне (<@U013WSUU0E8>)",
+        "user": "U013WSUU0E8",
+        "ts": "1613373426.421200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "34251906e7fe",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-03\/1156063444214_34251906e7fedfe298fa_72.png",
+            "first_name": "Nikolay",
+            "real_name": "Nikolay Malevanny",
+            "display_name": "Nikolay Malevanny",
+            "team": "T040HKJE3",
+            "name": "nm",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U013WSUU0E8",
+            "ts": "1613384701.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Omoj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "В "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Voir",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ищем "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Junior Machine Learning Engineer (Computer Vision)",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Офис:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Санкт-Петербург или удаленно\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": 100-150к net\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что мы делаем:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nПриложение реалистичного диджитал мейкапа.\nМы используем компьютерное зрение, нейронные сети и запатентованный 3D рендеринг, чтобы обеспечить реалистичную примерку в дополненной реальности. \nНаше приложение VOIR Cam уже имеет миллионы загрузок по всему миру.\nПодробнее о компании можно узнать в "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.forbes.ru\/tehnologii\/381845-didzhital-makiyazh-kak-natalya-vodyanova-podarila-vtoruyu-zhizn-startapu-iz",
+                                "text": "статье Forbes"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/voir.me\/",
+                                "text": "сайте"
+                            },
+                            {
+                                "type": "text",
+                                "text": " или "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/apps.apple.com\/us\/app\/voir-makeup-selfie-camera\/id1226417060",
+                                "text": "скачать приложение"
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\nМы запускаем новый проект, который поможет сделать мир лучше и помочь людям.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Задачи:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разработка и оптимизация нейронных сетей и алгоритмов ML"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Изучение SOTA статей и подходов к решению похожих задач"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Написание кода и его рефакторинг, участие в code review"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Что ожидаем",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание Python (pep8), структур данных и алгоритмов"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы со стандартными модулями (numpy, opencv, pillow, matplotlib, etc)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы хотя бы с одним из DL фреймворков: pytorch, tensorflow, mxnet, caffe"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с задачами object detection & object segmentation"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Владение git, SQL, flask"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Хорошая математическая база"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Английский уровня чтения проф. литературы"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Умение самостоятельно разбираться и аргументированно излагать свою точку зрения"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Будет плюсом",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание С\/С++"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с GAN-ами"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт в оптимизации сеток и их портировании на mobile devices"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт научных исследований и ученая степень"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Резюме отправлять на почту "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:hr@voir.me",
+                                "text": "hr@voir.me"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", вопросы можно задавать мне ("
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U013WSUU0E8"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "nail_care",
+                "users": [
+                    "U50GQKH5J",
+                    "UN2SNL0U8",
+                    "UNP5YEWL9",
+                    "U677CBGH2",
+                    "UQVTRBQ9J",
+                    "UCB3PK96J",
+                    "UDRSV10G1",
+                    "UJ2JGSQ3X",
+                    "U010C3NRE4C",
+                    "U01N4VDGTEE",
+                    "UG53QAZC6",
+                    "ULPHE0H6K",
+                    "U9YC38N57",
+                    "UH0EDB7V3",
+                    "UTR194RA8",
+                    "URPQC9JHE"
+                ],
+                "count": 16
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "URG5X6T6H",
+                    "UUX3F5U86",
+                    "U1ABVGWBH",
+                    "U01H86P5U3X",
+                    "U011C40SJ6A",
+                    "UCB3PK96J",
+                    "UL95F64PP",
+                    "UKQTHKEPJ",
+                    "ULRRFCUR0",
+                    "U7E8Y3V19",
+                    "UGRFZ1DS5",
+                    "U27SUBTB9",
+                    "U01BYAW27S9",
+                    "ULPHE0H6K",
+                    "U9YC38N57"
+                ],
+                "count": 15
+            },
+            {
+                "name": "spb",
+                "users": [
+                    "UGRFZ1DS5"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

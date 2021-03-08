@@ -1,0 +1,1673 @@
+[
+    {
+        "client_msg_id": "4b5dac80-2eea-4568-b072-93ca6279f36f",
+        "type": "message",
+        "text": "а на основе чего построен Feature Registry?",
+        "user": "U873U8DEZ",
+        "ts": "1606985865.304700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g81f1c7ea089",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/81f1c7ea089259fd73279373621a068f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png",
+            "first_name": "AG",
+            "real_name": "AG",
+            "display_name": "alexeigor",
+            "team": "T040HKJE3",
+            "name": "alexeigor",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wsp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "а на основе чего построен Feature Registry?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1606912724.273000",
+        "parent_user_id": "UBMRGQTU5"
+    },
+    {
+        "client_msg_id": "24759691-ff73-4101-902d-192e30ee86e5",
+        "type": "message",
+        "text": "<@UDSJHKRNC>, Вы не учли в расчётах годовой бонус.",
+        "user": "U0160N5KPHU",
+        "ts": "1606992852.306700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7a3c8d4309e7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-07\/1484597490530_7a3c8d4309e7568aa3fd_72.jpg",
+            "first_name": "Aleksandr",
+            "real_name": "Aleksandr Nikolaev",
+            "display_name": "Aleksandr Nikolaev",
+            "team": "T040HKJE3",
+            "name": "aleksandr.nikolaev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wPINd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UDSJHKRNC"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", Вы не учли в расчётах годовой бонус."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1606748269.128500",
+        "parent_user_id": "U3PRH4MAA",
+        "reactions": [
+            {
+                "name": "true-story",
+                "users": [
+                    "UDSJHKRNC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5ef09d2b-7431-437b-93d6-c2cd85725198",
+        "type": "message",
+        "text": "Привет!\n*Компания:* Astral AI\n*Команда:* Видеоаналитика.\n*Локация:* Петербург, Невский проспект\n*Занятость:* full-time\n*Позиция:* специалист в области Computer Vision (middle\/senior)\n\nПортфель проектов Astral AI пополняется! До сих пор мы занимались <https:\/\/celsus.ai\/|медициной> и анализом документов, а теперь мы набираем новую команду, которая будет заниматься задачами в области видеоаналитики. Примеры задач - подсчёт людей, детектирование аномальных событий, построение тепловой карты помещения. Мы ищем тех, кто хочет поработать в новой команде над грандиозным проектом, но при этом хочет иметь под рукой опытный AI-отдел из 15 человек для совместных брейнстормов и обсуждений.\n\nНаш основной стек:\n• Работа с данными - Supervisely, S3, Minio, DVC\n• Разработка - PyTorch, Redis, Celery\n• Менеджмент экспериментов - trains AI\n• CI\/CD - Azure Pipelines, Docker, Kubernetes\n• Мониторинг - Sentry, Prometheus, Grafana\nМы предлагаем:\n• 130-180 middle, 180-300 senior (net)\n• Офис в центре, доступ 24\/7\n• Полный рабочий день, гибкий график. Удалёнка возможна только на период пандемии, в дальнейшем предполагается офисная работа.\n• Рабочее место с GPU, собственный сервер для обучения (4 x RTX 8000 48GB)\nТребования:\n• Владение Python, PyTorch, Docker на уверенном уровне\n• Опыт разработки, деплоя, мониторинга, дообучения DL-систем\n• Опыт работы с задачами детекции и сегментации, знание основных метрик в этих задачах\n• Опыт работы с видео-данными (трекинг, реидентификация, action recognition)\n• Умение вносить кастомные изменения в архитектуре на основе прочитанных статей\n• Знание английского на уровне, достаточном для комфортного чтения статей и блогов\nПлюсом будет:\n• Опыт использования классических CV-методов\n• Навыки в оптимизации скорости инференса DL-моделей (TensorRT, конвертация моделей между фреймворками)\n• Опыт организации процесса разметки данных (написание гайдбуков, коммуникация с разметчиками)\n• Опыт работы с детекцией, трекингом, распознаванием лиц и людей\n• Опыт работы с выбором, установкой и настройкой видеокамер для оптимального обучения DL-задач\nПишите на почту <mailto:hr-ai@astral.ru|hr-ai@astral.ru>, не забывайте прикреплять резюме и ссылку на гитхаб (если есть). В тему письма обязательно добавляйте название команды и позиции, письма без темы имеют шанс остаться незамеченными.",
+        "user": "U2XV4QXV1",
+        "ts": "1606994453.308700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "428e402fafd5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-02\/339601782276_428e402fafd50c0bb94e_72.jpg",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Nikitin",
+            "display_name": "crazyfrogspb",
+            "team": "T040HKJE3",
+            "name": "crazyfrogspb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "CELSUS",
+                "title": "Цельс — Медицинские скрининг системы | CELSUS",
+                "title_link": "https:\/\/celsus.ai\/",
+                "text": "Искусственный интеллект для анализа медицинских изображений. ИИ используется в качестве системы помощи принятия врачебных решений в радиологии, онкологии и других сферах медицины",
+                "fallback": "CELSUS: Цельс — Медицинские скрининг системы | CELSUS",
+                "from_url": "https:\/\/celsus.ai\/",
+                "service_icon": "https:\/\/celsus.ai\/apple-touch-icon.png",
+                "id": 1,
+                "original_url": "https:\/\/celsus.ai\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "agMif",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет!\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Astral AI\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Команда: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Видеоаналитика.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Локация:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Петербург, Невский проспект\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Занятость:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " full-time\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Позиция:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " специалист в области Computer Vision (middle\/senior)\n\nПортфель проектов Astral AI пополняется! До сих пор мы занимались "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/celsus.ai\/",
+                                "text": "медициной"
+                            },
+                            {
+                                "type": "text",
+                                "text": " и анализом документов, а теперь мы набираем новую команду, которая будет заниматься задачами в области видеоаналитики. Примеры задач - подсчёт людей, детектирование аномальных событий, построение тепловой карты помещения. Мы ищем тех, кто хочет поработать в новой команде над грандиозным проектом, но при этом хочет иметь под рукой опытный AI-отдел из 15 человек для совместных брейнстормов и обсуждений.\n\nНаш основной стек:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Работа с данными - Supervisely, S3, Minio, DVC"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разработка - PyTorch, Redis, Celery"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Менеджмент экспериментов - trains AI"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "CI\/CD - Azure Pipelines, Docker, Kubernetes"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Мониторинг - Sentry, Prometheus, Grafana"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nМы предлагаем:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "130-180 middle, 180-300 senior (net)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Офис в центре, доступ 24\/7"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Полный рабочий день, гибкий график. Удалёнка возможна только на период пандемии, в дальнейшем предполагается офисная работа."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Рабочее место с GPU, собственный сервер для обучения (4 x RTX 8000 48GB)"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nТребования:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Владение Python, PyTorch, Docker на уверенном уровне"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт разработки, деплоя, мониторинга, дообучения DL-систем"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с задачами детекции и сегментации, знание основных метрик в этих задачах"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с видео-данными (трекинг, реидентификация, action recognition)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Умение вносить кастомные изменения в архитектуре на основе прочитанных статей"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание английского на уровне, достаточном для комфортного чтения статей и блогов"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nПлюсом будет:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт использования классических CV-методов"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Навыки в оптимизации скорости инференса DL-моделей (TensorRT, конвертация моделей между фреймворками)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт организации процесса разметки данных (написание гайдбуков, коммуникация с разметчиками)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с детекцией, трекингом, распознаванием лиц и людей"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с выбором, установкой и настройкой видеокамер для оптимального обучения DL-задач"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nПишите на почту "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:hr-ai@astral.ru",
+                                "text": "hr-ai@astral.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", не забывайте прикреплять резюме и ссылку на гитхаб (если есть). В тему письма обязательно добавляйте название команды и позиции, письма без темы имеют шанс остаться незамеченными."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "astral",
+                "users": [
+                    "UDK41MN5U",
+                    "U2XV4QXV1",
+                    "U50GQKH5J",
+                    "U010VF2N9FZ",
+                    "U1ZAJ4FC4",
+                    "U27SUBTB9",
+                    "U6RBHBQPQ",
+                    "UGELCQM9T",
+                    "UH13GQQQL",
+                    "U8PFEAXLM",
+                    "UP1JY3PK2",
+                    "UJ2JGSQ3X",
+                    "U0JHK9001",
+                    "UCB3PK96J",
+                    "U07V1URT9",
+                    "UD37TP39U",
+                    "ULRREQD1Q",
+                    "UDHJKLGLR",
+                    "U010HKK8JUA",
+                    "U9JPJCD2L",
+                    "UJWEWCC5V",
+                    "UN2SNL0U8",
+                    "U1BAKQH2M",
+                    "U8V21EFHQ",
+                    "UDSFLKF0B"
+                ],
+                "count": 25
+            },
+            {
+                "name": "spb",
+                "users": [
+                    "U2XV4QXV1",
+                    "UDK41MN5U",
+                    "U010VF2N9FZ",
+                    "U3W5T05PD",
+                    "UGELCQM9T",
+                    "UH13GQQQL",
+                    "UP1JY3PK2",
+                    "U3VF62TU6",
+                    "U22T79M4N",
+                    "U60EETE7N",
+                    "U44DBR7B6",
+                    "UCB3PK96J",
+                    "ULRRFCUR0",
+                    "U04EB5WCH",
+                    "U07V1URT9",
+                    "ULRREQD1Q",
+                    "UGRFZ1DS5",
+                    "UDHJKLGLR",
+                    "U010HKK8JUA",
+                    "ULPRYQNS2",
+                    "UC3AL2NKS",
+                    "U9JPJCD2L",
+                    "UDSFLKF0B",
+                    "UD2EX7JP9"
+                ],
+                "count": 24
+            },
+            {
+                "name": "chains",
+                "users": [
+                    "U0FEJNBGQ",
+                    "UG1886P8R",
+                    "U07V1URT9",
+                    "U049HDR2Z"
+                ],
+                "count": 4
+            },
+            {
+                "name": "dvc",
+                "users": [
+                    "U75FYQZC7",
+                    "UCB3PK96J",
+                    "U2PMV9N06",
+                    "U1ZAJ4FC4"
+                ],
+                "count": 4
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "UJ8BXBM36",
+                    "U2LGCMY48",
+                    "UCB3PK96J",
+                    "U22T79M4N",
+                    "ULRREQD1Q",
+                    "U013C3GM53L",
+                    "ULPRYQNS2",
+                    "UJWEWCC5V",
+                    "UL95F64PP",
+                    "UDSFLKF0B",
+                    "UD2EX7JP9"
+                ],
+                "count": 11
+            },
+            {
+                "name": "adolf",
+                "users": [
+                    "U049HDR2Z"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b5cb417f-1c12-4df7-97e2-ce9d659f3da8",
+        "type": "message",
+        "text": "<@U873U8DEZ>, все крутится вокруг (пока централизованного) репозитория с конфигами для батч джоб, фреймворка с пайспарковым кодом и сервиса их запуска",
+        "user": "UBMRGQTU5",
+        "ts": "1606996714.312200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "692e039dbb8a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-28\/729626783747_692e039dbb8a4bf1b27a_72.jpg",
+            "first_name": "Gleb",
+            "real_name": "Gleb Krapivin",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "gleb.krapivin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "six",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U873U8DEZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", все крутится вокруг (пока централизованного) репозитория с конфигами для батч джоб, фреймворка с пайспарковым кодом и сервиса их запуска"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1606912724.273000",
+        "parent_user_id": "UBMRGQTU5",
+        "reactions": [
+            {
+                "name": "classical_building",
+                "users": [
+                    "U2PMV9N06"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d05927c8-61dd-4d1a-8cd0-79cea20c80da",
+        "type": "message",
+        "text": "*Компания:* Райффайзенбанк\n*Вакансия:* Senior Data Scientist (в команду «Collateral machine»)\n*Город:* Москва (м. Технопарк)\n*Режим работы:* Full-time, удалённо на время пандемии, а после 3дома\/2офис\n\nКоманда Collateral machine — часть управления рисками. В команде будут два Backend Developer’а\/Data Engineer’а, три Data Scientist’a, Frontend Developer и DevOps Engineer.\nНаш продукт Collateral machine — это система автоматической оценки объектов залогов, основанная на машинном обучении. Она поможет оказывать более быстрый и качественный сервис оценки залога для сотрудников бизнес-подразделений банка.\n\n*Чем предстоит заниматься:*\n*·*        создавать и проверять новые ML-модели для разных типов залогового имущества (жилая и коммерческая недвижимость, транспорт);\n·        ставить задачи, выбирать метрики, валидировать модели;\n·        участвовать в разработке всего pipeline — от сбора данных и feature engineering’а до выкатки в прод и дальнейшего мониторинга (при поддержке команды);\n·        проводить a\/b тесты и оценивать результаты;\n·        интерпретировать модели и полученные результаты, защищать модели.\n\n*Требования:*\n*·*        хорошее владение Python (включая стандартный ML стек);\n·        уверенные знания и практический опыт в области ML: табличные данные, временные ряды;\n*·*        желание писать качественный код;\n·        владение SQL, bash, Git;\n·        готовность общаться с бизнесом;\n·        уверенный опыт работы с Flask\/FastAPI, Pytest, RegExp, Scrapy\/BeautifulSoup\/Selenium, PostgreSQL, Hadoop (Spark, Hive, HDFS, Airflow), Docker, Shap\/Lime.\n\n*Вашими преимуществами станут:*\n·        опыт в NLP и работе с геоданными;\n·        опыт работы с микросервисной архитектурой;\n·        опыт в построении ML-моделей оценки стоимости (жилая и коммерческая недвижимость, транспорт);\n·        опыт презентаций по интерпретации и защите алгоритмов ML-моделей перед бизнесом;\n·        готовность развивать T-shape компетенции в разработке, участвовать в сборе данных для обучения моделей;\n·        готовность к разработке скриптов по сбору данных для моделей машинного обучения и формирования базы аналогичных объектов движимого и недвижимого имущества;\n·        желание изучать новое и искать лучшие решения для задач команды.\n\n*Зарплатная вилка:* 250 – 350 KRUB Gross фикс оклад\n\n*Что мы предлагаем:*\n*·*        активно развивающееся Data Science комьюнити внутри банка с конференциями, обучением и общением — <https:\/\/habr.com\/en\/company\/raiffeisenbank\/blog\/469203\/>;\n·        личную лицензию на Coursera без ограничений по курсам;\n·        скидки на продукты банка и партнеров (рестораны, отели и многое другое), программу <http:\/\/primezone.ru|primezone.ru>;\n·        удаленную работу до конца пандемии, а после — график: два дня в офисе, три дня дома, два выходных;\n·        ДМС со стоматологией с первых дней работы и дополнительные компенсации по больничным листам;\n·        гибкое время рабочего дня;\n·        отсутствие формализма и дресс-кода;\n·        организацию обучения для профессионального развития;\n·        большую бесплатную электронную библиотеку для сотрудников через аккаунт MyBook;\n·        современный офис с кабинетом врача и собственным фитнес-залом в одной минуте от станции метро «Технопарк»:\no  <https:\/\/vc.ru\/raiffeisenbank\/62596-kak-my-rabotaem-ofis-rayffayzenbanka> \no  <https:\/\/www.the-village.ru\/business\/office-1\/ofice-raiffeisen> \n\nПодробнее о Райффайзенбанке на VC: <https:\/\/vc.ru\/raiffeisenbank>\n\nРезюме присылать на <mailto:anna.saitova@raiffeisen.ru|anna.saitova@raiffeisen.ru> или в TG @AnnaSaitova",
+        "user": "UBZD8BPHQ",
+        "ts": "1607002547.316900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "105e3f0c82a4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-03\/1547137495667_105e3f0c82a49079551b_72.jpg",
+            "first_name": "Bogatyrev",
+            "real_name": "Bogatyrev Aleksandr",
+            "display_name": "Bogatyrev Aleksandr",
+            "team": "T040HKJE3",
+            "name": "bmsasha",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UBZD8BPHQ",
+            "ts": "1607003025.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "76D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Компания: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Райффайзенбанк\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Senior Data Scientist (в команду «Collateral machine»)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Москва (м. Технопарк)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Режим работы: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Full-time, удалённо на время пандемии, а после 3дома\/2офис\n\nКоманда Collateral machine — часть управления рисками. В команде будут два Backend Developer’а\/Data Engineer’а, три Data Scientist’a, Frontend Developer и DevOps Engineer.\nНаш продукт Collateral machine — это система автоматической оценки объектов залогов, основанная на машинном обучении. Она поможет оказывать более быстрый и качественный сервис оценки залога для сотрудников бизнес-подразделений банка.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Чем предстоит заниматься:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "·     ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "   создавать и проверять новые ML-модели для разных типов залогового имущества (жилая и коммерческая недвижимость, транспорт);\n·        ставить задачи, выбирать метрики, валидировать модели;\n·        участвовать в разработке всего pipeline — от сбора данных и feature engineering’а до выкатки в прод и дальнейшего мониторинга (при поддержке команды);\n·        проводить a\/b тесты и оценивать результаты;\n·        интерпретировать модели и полученные результаты, защищать модели.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "·      ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "  хорошее владение Python (включая стандартный ML стек);\n·        уверенные знания и практический опыт в области ML: табличные данные, временные"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "ряды;\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "·       ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " желание писать качественный код;\n·        владение SQL, bash, Git;\n·        готовность общаться с бизнесом;\n·        уверенный опыт работы с Flask\/FastAPI, Pytest, RegExp, Scrapy\/BeautifulSoup\/Selenium, PostgreSQL, Hadoop (Spark, Hive, HDFS, Airflow), Docker, Shap\/Lime.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вашими преимуществами станут:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n·        опыт в NLP и работе с геоданными;\n·        опыт работы с микросервисной архитектурой;\n·        опыт в построении ML-моделей оценки стоимости (жилая и коммерческая недвижимость, транспорт);\n·        опыт презентаций по интерпретации и защите алгоритмов ML-моделей перед бизнесом;\n·        готовность развивать T-shape компетенции в разработке, участвовать в сборе данных для обучения моделей;\n·        готовность к разработке скриптов по сбору данных для моделей машинного обучения и формирования базы аналогичных объектов движимого и недвижимого имущества;\n·        желание изучать новое и искать лучшие решения для задач команды.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Зарплатная вилка: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "250 – 350 KRUB Gross фикс оклад\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что мы предлагаем:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "·        ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "активно развивающееся Data Science комьюнити внутри банка с конференциями, обучением и общением — "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/habr.com\/en\/company\/raiffeisenbank\/blog\/469203\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": ";\n·        личную лицензию на Coursera без ограничений по курсам;\n·        скидки на продукты банка и партнеров (рестораны, отели и многое другое), программу "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/primezone.ru",
+                                "text": "primezone.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": ";\n·        удаленную работу до конца пандемии, а после — график: два дня в офисе, три дня дома, два выходных;\n·        ДМС со стоматологией с первых дней работы и дополнительные компенсации по больничным листам;\n·        гибкое время рабочего дня;\n·        отсутствие формализма и дресс-кода;\n·        организацию обучения для профессионального развития;\n·        большую бесплатную электронную библиотеку для сотрудников через аккаунт MyBook;\n·        современный офис с кабинетом врача и собственным фитнес-залом в одной минуте от станции метро «Технопарк»:\no  "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/vc.ru\/raiffeisenbank\/62596-kak-my-rabotaem-ofis-rayffayzenbanka"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \no  "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.the-village.ru\/business\/office-1\/ofice-raiffeisen"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n\nПодробнее о Райффайзенбанке на VC: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/vc.ru\/raiffeisenbank"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nРезюме присылать на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:anna.saitova@raiffeisen.ru",
+                                "text": "anna.saitova@raiffeisen.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": " или в TG @AnnaSaitova"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607002547.316900",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1607005310.320100",
+        "reply_users": [
+            "UQMCTGYEL",
+            "UBZD8BPHQ"
+        ],
+        "replies": [
+            {
+                "user": "UQMCTGYEL",
+                "ts": "1607003905.319300"
+            },
+            {
+                "user": "UBZD8BPHQ",
+                "ts": "1607005310.320100"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "U7SFPUVQF",
+                    "UBRK4HXQV",
+                    "UMM890NT1",
+                    "UC9HBTUKG",
+                    "ULPRYQNS2",
+                    "U01DD8F9BMX"
+                ],
+                "count": 6
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "UBRK4HXQV",
+                    "UMM890NT1",
+                    "UFMKDE3GX",
+                    "U27SUBTB9",
+                    "UUKMVCM18",
+                    "UCN51ML4S",
+                    "UJG3W0SSZ",
+                    "UCB3PK96J",
+                    "U7E8Y3V19",
+                    "ULPRYQNS2",
+                    "U43KPSVHP"
+                ],
+                "count": 11
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "UBRK4HXQV",
+                    "UMM890NT1",
+                    "UCV0RM9FY"
+                ],
+                "count": 3
+            },
+            {
+                "name": "moneys",
+                "users": [
+                    "U86AZTXSB"
+                ],
+                "count": 1
+            },
+            {
+                "name": "raif",
+                "users": [
+                    "UGNUUPZ1U",
+                    "U27SUBTB9",
+                    "UBRK4HXQV",
+                    "UFMKDE3GX",
+                    "UBZD8BPHQ",
+                    "UELAH4JNA",
+                    "UCB3PK96J",
+                    "UJG3W0SSZ",
+                    "U01AW5BQZ7U",
+                    "U014F8HB4HX"
+                ],
+                "count": 10
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8e72ff53-a9f1-4a15-b964-973ff3f27350",
+        "type": "message",
+        "text": "Интересно было бы узнать про недостаток архитектуры pandas",
+        "user": "UEMJW1CKU",
+        "ts": "1607003566.318900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ae6c8894346f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-28\/534652680996_ae6c8894346f440401bc_72.png",
+            "first_name": "Pavel",
+            "real_name": "Pavel",
+            "display_name": "pchlq",
+            "team": "T040HKJE3",
+            "name": "peskovps",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HsZB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Интересно было бы узнать про недостаток архитектуры pandas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1606908161.262400",
+        "parent_user_id": "U7UTH8D5X"
+    },
+    {
+        "client_msg_id": "c6bb4399-63a8-4090-9767-529cdafbf4dd",
+        "type": "message",
+        "text": "нужно и данные собирать и модель обучать и в прод тащить\/поддерживать и a\/b тесты проводить и анализировать?",
+        "user": "UQMCTGYEL",
+        "ts": "1607003905.319300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6f1b89acd805",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-03-12\/996507287764_6f1b89acd805c2e49c74_72.jpg",
+            "first_name": "RaevskyDN",
+            "real_name": "RaevskyDN",
+            "display_name": "RaevskyDN",
+            "team": "T040HKJE3",
+            "name": "nofirma2010",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9Yv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "нужно и данные собирать и модель обучать и в прод тащить\/поддерживать и a\/b тесты проводить и анализировать?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607002547.316900",
+        "parent_user_id": "UBZD8BPHQ"
+    },
+    {
+        "client_msg_id": "88ac3e50-7601-42a2-9429-846fc27945eb",
+        "type": "message",
+        "text": "<@UQMCTGYEL> Данные собирать будут в первую очередь DE -- это их первоочередная задача. От DS ожидается готовность принимать в этом участие и поддерживать команду по необходимости (в рамках T-shape экспертизы).\nОбучение модели и анализ результатов -- DS.\nВывод в прод -- задача совместная.",
+        "user": "UBZD8BPHQ",
+        "ts": "1607005310.320100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "105e3f0c82a4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-03\/1547137495667_105e3f0c82a49079551b_72.jpg",
+            "first_name": "Bogatyrev",
+            "real_name": "Bogatyrev Aleksandr",
+            "display_name": "Bogatyrev Aleksandr",
+            "team": "T040HKJE3",
+            "name": "bmsasha",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ufr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UQMCTGYEL"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Данные собирать будут в первую очередь DE -- это их первоочередная задача. От DS ожидается готовность принимать в этом участие и поддерживать команду по необходимости (в рамках T-shape экспертизы).\nОбучение модели и анализ результатов -- DS.\nВывод в прод -- задача совместная."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607002547.316900",
+        "parent_user_id": "UBZD8BPHQ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UQMCTGYEL",
+                    "UBRK4HXQV",
+                    "U01CX0XER3R",
+                    "UFMKDE3GX",
+                    "U7E8Y3V19",
+                    "UASB69HTJ"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5672c09b-4f8b-4fb5-a02a-7a3bbbdbaac2",
+        "type": "message",
+        "text": "*Компания*: Datafold\n*Вакансия*: Senior Python Engineer :python:\n*Расположение*: удаленная работа\n*Вилка*: $4500 - $6500 гросс + опцион\/equity\n\nDatafold – это платформа для мониторинга аналитических данных и инфраструктуры. Мы подключаемся к базам данных, data-lake’ам, ETL оркестраторам и т.д. и помогаем дата-инженерам, саентистам и аналитикам разбираться во всем многообразии данных, их качестве, источниках и пр. Например, мы строим граф зависимостей с детализацией до столбца всех потоков данных, так что, например, можно ответить на вопрос, поломаются ли дэшборды, если мы уберем вот это поле из ивента. Мы также помогаем автоматизировать регрессионное тестирование ETL кода с помощью инструмента Data Diff, который умеет сравнивать датасеты любого размера, как git diff, только для данных.\n\nКомпания основана в 2020, штаб-квартира в Сан-Франциско, remote-команда по всему миру. Среди наших инвесторов YCombinator и NEA (инвесторы Databricks, MongoDB, Metabase и т.д).\n\nСейчас мы работаем с несколькими ключевыми клиентами, включая юникорнов Patreon и Thumbtack, чтобы превратить наш продукт в полноценную платформу для мониторинга данных. \n\nИщем Python разработчика уровня senior, неравнодушного к вопросу продуктивности в аналитике и кому интересно работать над созданием инновационного продукта в динамичной и быстро растущей команде.\n\nОснова нашего стэка довольно стандартная (Flask, Celery, PostgreSQL, Neo4j, Docker, K8S), но спектр задач разносторонний: от статического анализа SQL кода до графовых алгоритмов и моделей временных рядов для обнаружения аномалий.\n\n*Требования*\n• Опыт системной разработки от 7 лет, из них минимум 2 года на Python\n• Твердое знание web технологий и принципов дизайна API\n• Английский уровня B2+ (грамотная письменная коммуникация, свободная устное общение внутри команды)\n• Высокая организованность и способность работать самостоятельно в удаленной команде\n*Будет плюсом*\n• Опыт в дата-инжиниринге\n• Опыт разработки ML продуктов\nПодаться на вакансию можно <https:\/\/www.datafold.com\/careers|здесь>\n\nНа все вопросы с радостью отвечу в ЛС",
+        "user": "U48MSHA2E",
+        "ts": "1607013749.327800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "2540468cea8c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-20\/1098421504128_2540468cea8c0b25fb48_72.jpg",
+            "first_name": "Gleb",
+            "real_name": "Gleb Mezhanskiy",
+            "display_name": "glebm",
+            "team": "T040HKJE3",
+            "name": "glebm",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U48MSHA2E",
+            "ts": "1607013782.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cFO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Компания",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Datafold\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Senior Python Engineer "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "python"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Расположение",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": удаленная работа\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": $4500 - $6500 гросс + опцион\/equity\n\nDatafold – это платформа для мониторинга аналитических данных и инфраструктуры. Мы подключаемся к базам данных, data-lake’ам, ETL оркестраторам и т.д. и помогаем дата-инженерам, саентистам и аналитикам разбираться во всем многообразии данных, их качестве, источниках и пр. Например, мы строим граф зависимостей с детализацией до столбца всех потоков данных, так что, например, можно ответить на вопрос, поломаются ли дэшборды, если мы уберем вот это поле из ивента. Мы также помогаем автоматизировать регрессионное тестирование ETL кода с помощью инструмента Data Diff, который умеет сравнивать датасеты любого размера, как git diff, только для данных.\n\nКомпания основана в 2020, штаб-квартира в Сан-Франциско, remote-команда по всему миру. Среди наших инвесторов YCombinator и NEA (инвесторы Databricks, MongoDB, Metabase и т.д).\n\nСейчас мы работаем с несколькими ключевыми клиентами, включая юникорнов Patreon и Thumbtack, чтобы превратить наш продукт в полноценную платформу для мониторинга данных. \n\nИщем Python разработчика уровня senior, неравнодушного к вопросу продуктивности в аналитике и кому интересно работать над созданием инновационного продукта в динамичной и быстро растущей команде.\n\nОснова нашего стэка довольно стандартная (Flask, Celery, PostgreSQL, Neo4j, Docker, K8S), но спектр задач разносторонний: от статического анализа SQL кода до графовых алгоритмов и моделей временных рядов для обнаружения аномалий.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт системной разработки от 7 лет, из них минимум 2 года на Python"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Твердое знание web технологий и принципов дизайна API"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Английский уровня B2+ (грамотная письменная коммуникация, свободная устное общение внутри команды)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Высокая организованность и способность работать самостоятельно в удаленной команде"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Будет плюсом",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт в дата-инжиниринге"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт разработки ML продуктов"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nПодаться на вакансию можно "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.datafold.com\/careers",
+                                "text": "здесь"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nНа все вопросы с радостью отвечу в ЛС"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "UB4AGRL3C",
+                    "UKC5NPDNY",
+                    "UJUCG9QSC",
+                    "UQ9UCJT0T",
+                    "UJ23EV5PW",
+                    "U3UMB4R6Y",
+                    "U09JEC7V0",
+                    "UDK41MN5U",
+                    "UC9HBTUKG",
+                    "U0L4DGZU0",
+                    "U3K7PNTML",
+                    "U7N4E8GBF",
+                    "UJ8UE41FS",
+                    "U34CYM9H6",
+                    "U27SUBTB9",
+                    "UM38ES74G",
+                    "U1CF22N7J",
+                    "U8GJNNX88",
+                    "U5H49JQ21",
+                    "U262NSHCK",
+                    "UC3AL2NKS",
+                    "U2AJE72Q6",
+                    "U1ZSB7AAK",
+                    "UFF2XJKHD"
+                ],
+                "count": 24
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "UQRRC9GCD",
+                    "UB4AGRL3C",
+                    "U2PMV9N06",
+                    "U0119GD2P6G",
+                    "UHGFW1V2M",
+                    "U04EB5WCH",
+                    "UHY5KKK6D",
+                    "UCV0RM9FY",
+                    "UJ23EV5PW",
+                    "U01364G3W84",
+                    "U7E8Y3V19",
+                    "U09JEC7V0",
+                    "U013C3GM53L",
+                    "UMM4N60K1",
+                    "UC9HBTUKG",
+                    "UHDQKG6P5",
+                    "UJ8UE41FS",
+                    "U27SUBTB9",
+                    "UGPDS351S",
+                    "UM38ES74G",
+                    "U1CF22N7J",
+                    "U8GJNNX88",
+                    "U5H49JQ21",
+                    "U262NSHCK",
+                    "UDL0CCV8C",
+                    "U5QBU8SUR",
+                    "UC3AL2NKS",
+                    "U2AJE72Q6",
+                    "UFF2XJKHD"
+                ],
+                "count": 29
+            },
+            {
+                "name": "seven",
+                "users": [
+                    "UJ23EV5PW",
+                    "U6URRB952",
+                    "UC9HBTUKG",
+                    "U01B0R9DGSX"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "79679257-99ac-4b34-960d-de490ecddbe4",
+        "type": "message",
+        "text": "Всем привет! В прошлый раз успешно удалось найти несколько кандидатов, поэтому, попробуем еще раз:\n\nКомпания: \nООО Студия Данных (<http:\/\/datastudio.digital>)\n\nКто мы:\nМы специализируемся на решении задач ML и AI для бизнеса. Работаем на проектах в различных компаниях как консалтинговая компания. Делаем как проекты под ключ, где отвечаем за бизнес-результат, так и решаем отдельные задачи, где необходимо только сделать анализ данных. Клиенты - крупные Российские и Европейские компании.\n\nКого ищем:\nВ данный момент активно растем и ищем Data Scientist уровня Middle\/Senior\nСтек: преимущественно Anaconda (Python, Pandas, scikit-learn, matplotlib\/seaborn)\nОпыт написания SQL-запросов (данную работу как правило делает Data Engineer, но необходимо уметь взаимодействовать с ним)\nОпыт разработки алгоритмов машинного обучения (general ML - линейные модели, деревья, иногда - бустинг - стараемся делать по-возможности максимально простые модели, чтобы легче потом нести в прод)\nНавыки бизнес-анализа (эту часть в большей степени делает Product Owner, но от кандидата необходимо уметь глубоко погружаться в задачу, а не просто все запихнуть в xgboost=)\n\nЧто предлагаем:\n1. Разнообразие проектов. Текущие проекты из сфер авиа, жд, ритейла, производства, , интернет-продаж и финансов, фитнеса, управления объектами недвижимости \n2. Сильная команда, постоянное развитие. Активно инвестируем в обучение людей, своя школа обучения DS\n3. Отработанные процессы реализации проектов и необходимые роли и ресурсы. Сильные продакты и DE\n4. Гибкий график и удаленка\nКомпенсация:\nБазовая вилка компенсации 220 - 300 К, но готовы обсуждать с кандидатами индивидуально\n\nБудет круто, если:\nКандидат будет иметь доменный опыт в одной из перечисленных выше областей\nПонимать бизнес-релевантные метрики качества и уметь ими оперировать\nОбращать внимание на качество и стиль своего кода\nИметь способность презентовать заказчику\/продакту полученный результат\n\nКонтакт для резюме:\n<mailto:Sergey.marin@datastudio.digital|Sergey.marin@datastudio.digital>",
+        "user": "UH0KSL4ER",
+        "ts": "1607019974.333500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g97ad4070207",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1b97ad4070207fe8942118f8f31b4f7f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Sergey Marin",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "sergey.marin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UH0KSL4ER",
+            "ts": "1607026627.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k8i",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет! В прошлый раз успешно удалось найти несколько кандидатов, поэтому, попробуем еще раз:\n\nКомпания: \nООО Студия Данных ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/datastudio.digital"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")\n\nКто мы:\nМы специализируемся на решении задач ML и AI для бизнеса. Работаем на проектах в различных компаниях как консалтинговая компания. Делаем как проекты под ключ, где отвечаем за бизнес-результат, так и решаем отдельные задачи, где необходимо только сделать анализ данных. Клиенты - крупные Российские и Европейские компании.\n\nКого ищем:\nВ данный момент активно растем и ищем Data Scientist уровня Middle\/Senior\nСтек: преимущественно Anaconda (Python, Pandas, scikit-learn, matplotlib\/seaborn)\nОпыт написания SQL-запросов (данную работу как правило делает Data Engineer, но необходимо уметь взаимодействовать с ним)\nОпыт разработки алгоритмов машинного обучения (general ML - линейные модели, деревья, иногда - бустинг - стараемся делать по-возможности максимально простые модели, чтобы легче потом нести в прод)\nНавыки бизнес-анализа (эту часть в большей степени делает Product Owner, но от кандидата необходимо уметь глубоко погружаться в задачу, а не просто все запихнуть в xgboost=)\n\nЧто предлагаем:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разнообразие проектов. Текущие проекты из сфер авиа, жд, ритейла, производства, , интернет-продаж и финансов, фитнеса, управления объектами недвижимости "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Сильная команда, постоянное развитие. Активно инвестируем в обучение людей, своя школа обучения DS"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Отработанные процессы реализации проектов и необходимые роли и ресурсы. Сильные продакты и DE"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Гибкий график и удаленка"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "ordered",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nКомпенсация:\nБазовая вилка компенсации 220 - 300 К, но готовы обсуждать с кандидатами индивидуально\n\nБудет круто, если:\nКандидат будет иметь доменный опыт в одной из перечисленных выше областей\nПонимать бизнес-релевантные метрики качества и уметь ими оперировать\nОбращать внимание на качество и стиль своего кода\nИметь способность презентовать заказчику\/продакту полученный результат\n\nКонтакт для резюме:\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:Sergey.marin@datastudio.digital",
+                                "text": "Sergey.marin@datastudio.digital"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607019974.333500",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1607077795.368800",
+        "reply_users": [
+            "U6URRB952",
+            "UCKPH24JW"
+        ],
+        "replies": [
+            {
+                "user": "U6URRB952",
+                "ts": "1607020154.333700"
+            },
+            {
+                "user": "U6URRB952",
+                "ts": "1607027053.338400"
+            },
+            {
+                "user": "UCKPH24JW",
+                "ts": "1607077795.368800"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "galera",
+                "users": [
+                    "U60EETE7N",
+                    "U5R820KH6",
+                    "U6TP35T5K",
+                    "U4BU5BR6X",
+                    "ULFB41K0R",
+                    "UPXFW5346",
+                    "U6URRB952",
+                    "U22T79M4N",
+                    "U7E8Y3V19",
+                    "U014F8HB4HX",
+                    "UPX5EMKL7"
+                ],
+                "count": 11
+            },
+            {
+                "name": "lebedev",
+                "users": [
+                    "UC9HBTUKG",
+                    "U4BU5BR6X",
+                    "UQ9UCJT0T",
+                    "UTTALH687",
+                    "UTCLUQ53L",
+                    "UJ2N4SVBJ",
+                    "U01E8TE4S1X",
+                    "U018JUMQU5S"
+                ],
+                "count": 8
+            },
+            {
+                "name": "naebalovo",
+                "users": [
+                    "U0JHK9001",
+                    "U5R820KH6",
+                    "U22T79M4N",
+                    "UC3AL2NKS"
+                ],
+                "count": 4
+            },
+            {
+                "name": "bee",
+                "users": [
+                    "U9S7BDV4Z",
+                    "UMKQUB03V"
+                ],
+                "count": 2
+            },
+            {
+                "name": "hankey",
+                "users": [
+                    "U016DLD1560",
+                    "U22T79M4N"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f3484638-a4d0-4348-ac17-8dc46160fe1e",
+        "type": "message",
+        "text": "а в прод кто несет?",
+        "user": "U6URRB952",
+        "ts": "1607020154.333700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "614c9761a45b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-27\/972889469392_614c9761a45be78305c7_72.jpg",
+            "first_name": "Maxim",
+            "real_name": "Maxim Keremet",
+            "display_name": "maximkeremet",
+            "team": "T040HKJE3",
+            "name": "maximkeremet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "t=d",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "а в прод кто несет?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607019974.333500",
+        "parent_user_id": "UH0KSL4ER",
+        "reactions": [
+            {
+                "name": "excel",
+                "users": [
+                    "U0FEJNBGQ",
+                    "UQ9UCJT0T",
+                    "UC3AL2NKS",
+                    "UELAH4JNA"
+                ],
+                "count": 4
+            },
+            {
+                "name": "dance_f",
+                "users": [
+                    "U01B9HH7HSB",
+                    "UCB3PK96J",
+                    "UTTALH687",
+                    "U6YV1UAS1",
+                    "U27SUBTB9",
+                    "UBM4B8CBU",
+                    "U6T65K5E1",
+                    "U7E8Y3V19",
+                    "UC3AL2NKS",
+                    "UPX5EMKL7"
+                ],
+                "count": 10
+            },
+            {
+                "name": "bimorf",
+                "users": [
+                    "UC3AL2NKS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f68299e0-b85b-47de-b7bf-509b0c732e81",
+        "type": "message",
+        "text": "говорят ценным сотрудникам маки на новых процессорах покупают",
+        "user": "U6URRB952",
+        "ts": "1607027053.338400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "614c9761a45b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-27\/972889469392_614c9761a45be78305c7_72.jpg",
+            "first_name": "Maxim",
+            "real_name": "Maxim Keremet",
+            "display_name": "maximkeremet",
+            "team": "T040HKJE3",
+            "name": "maximkeremet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uz9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "говорят ценным сотрудникам маки на новых процессорах покупают"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607019974.333500",
+        "parent_user_id": "UH0KSL4ER"
+    }
+]

@@ -1,0 +1,2523 @@
+[
+    {
+        "client_msg_id": "dff71040-568e-4c58-88dc-12db74953bee",
+        "type": "message",
+        "text": "Всем привет!\n*Вакансия:* Data engineer (Middle)\n*Компания:* Cashberry\n*Локация:* Киев\n*Формат: р*абота в офисе, full-time\n*Вилка:* 2000-3000$\n\n*О компании:* Cashberry украинская продуктовая FinTech компания, которая предоставляет услуги онлайн-кредитования. На рынке с 2018 года и стремительно развиваемся:)\n\n*Функции*\n-   обеспечение и сбор данных, а также подготовка их для работы аналитиков и специалистов по data science\n-   обеспечение сбора данных из разных источников\n-   создание корректных взаимосвязей между данными\n-   обеспечение бесперебойного наполнение новыми данными\n-   предварительная обработка и трансформация данных\n-   обеспечение высокой скорость обработки\n-   внедрение решения для хранения сырых данных\n-   разработка архитектуры управления данными для инструментов отчетности с различными источниками данных\n-   проектирование и реализация оптимального хранилища данных (DWH) для различных сценариев использования, включая создание отчетов и машинного обучения\n-   feature engineering (поиск новых источников данных и закономерностей)\n-   сбор, преобразование и предварительная обработка сырых данных для подготовки к моделированию\n-   построение конвейера обработки данных\n-   разработка и поддержание метаданных, каталогов данных и документации для внутренних бизнес-клиентов.\n \n*Обязательные навыки (технические)*\n-   глубокие знания и практический опыт работы с Python\n-   опыт работы со Spark, Hadoop\n-   опыт работы с решениями для хранилищ данных (Redshift, Clickhouse, Bigquery и т.д.)\n-   глубокие знания реляционных (SQL) и не реляционных (MongoDB) баз данных\n-   опыт строительства pipeline ETL \/ ELT\n-   понимание конвейеров машинного обучения\n-   знание фреймворков глубокого обучения (PyTorch, tensorflow и т.д.).\n-    Python и другие соответствующие навыки программирования\n-   инструменты для предварительной обработки и очистки данных.\n\n*Контакты:*  резюме или вопросы присылайте на <mailto:kirill.nortenko@cashberry.com.ua|kirill.nortenko@cashberry.com.ua> (Кирилл) с темой \"Data engineer OD\"",
+        "user": "U01G39MP35F",
+        "ts": "1608367347.447200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "9b7e4c6c001c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-29\/1528506993126_9b7e4c6c001c341018ea_72.png",
+            "first_name": "",
+            "real_name": "Кирилл Нортенко",
+            "display_name": "Кирилл Нортенко",
+            "team": "T040HKJE3",
+            "name": "llirik.n",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U01G39MP35F",
+            "ts": "1608367525.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FSE4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет!\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Data engineer (Middle)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Cashberry\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Локация:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Киев\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Формат: р",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "абота в офисе, full-time\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " 2000-3000$\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "О компании: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Cashberry украинская продуктовая FinTech компания, которая предоставляет услуги онлайн-кредитования. На рынке с 2018 года и стремительно развиваемся:)\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Функции",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n-   обеспечение и сбор данных, а также подготовка их для работы аналитиков и специалистов по data science\n-   обеспечение сбора данных из разных источников\n-   создание корректных взаимосвязей между данными\n-   обеспечение бесперебойного наполнение новыми данными\n-   предварительная обработка и трансформация данных\n-   обеспечение высокой скорость обработки\n-   внедрение решения для хранения сырых данных\n-   разработка архитектуры управления данными для инструментов отчетности с различными источниками данных\n-   проектирование и реализация оптимального хранилища данных (DWH) для различных сценариев использования, включая создание отчетов и машинного обучения\n-   feature engineering (поиск новых источников данных и закономерностей)\n-   сбор, преобразование и предварительная обработка сырых данных для подготовки к моделированию\n-   построение конвейера обработки данных\n-   разработка и поддержание метаданных, каталогов данных и документации для внутренних бизнес-клиентов.\n \n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Обязательные навыки (технические)",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n-   глубокие знания и практический опыт работы с Python\n-   опыт работы со Spark, Hadoop\n-   опыт работы с решениями для хранилищ данных (Redshift, Clickhouse, Bigquery и т.д.)\n-   глубокие знания реляционных (SQL) и не реляционных (MongoDB) баз данных\n-   опыт строительства pipeline ETL \/ ELT\n-   понимание конвейеров машинного обучения\n-   знание фреймворков глубокого обучения (PyTorch, tensorflow и т.д.).\n-    Python и другие соответствующие навыки программирования\n-   инструменты для предварительной обработки и очистки данных.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Контакты: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " резюме или вопросы присылайте на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:kirill.nortenko@cashberry.com.ua",
+                                "text": "kirill.nortenko@cashberry.com.ua"
+                            },
+                            {
+                                "type": "text",
+                                "text": " (Кирилл) с темой \"Data engineer OD\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "reply_count": 31,
+        "reply_users_count": 12,
+        "latest_reply": "1609972187.350600",
+        "reply_users": [
+            "U0FEJNBGQ",
+            "U01G39MP35F",
+            "UHY5KKK6D",
+            "U8PMZ6397",
+            "U01DXP53RV2",
+            "U48B3EN87",
+            "U24FHECDD",
+            "UDRUAKMJ5",
+            "U6URRB952",
+            "UQ9UCJT0T",
+            "U3K7PNTML",
+            "U24N3AB96"
+        ],
+        "replies": [
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1608367530.447500"
+            },
+            {
+                "user": "U01G39MP35F",
+                "ts": "1608367546.447800"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1608372019.449700"
+            },
+            {
+                "user": "U8PMZ6397",
+                "ts": "1608379312.453900"
+            },
+            {
+                "user": "U01DXP53RV2",
+                "ts": "1608379324.454400"
+            },
+            {
+                "user": "U01G39MP35F",
+                "ts": "1608392966.474500"
+            },
+            {
+                "user": "U48B3EN87",
+                "ts": "1608401306.490800"
+            },
+            {
+                "user": "U01G39MP35F",
+                "ts": "1608410664.492900"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1608411455.493100"
+            },
+            {
+                "user": "U48B3EN87",
+                "ts": "1608446100.497400"
+            },
+            {
+                "user": "U24FHECDD",
+                "ts": "1608447010.497600"
+            },
+            {
+                "user": "U24FHECDD",
+                "ts": "1608447107.497800"
+            },
+            {
+                "user": "UDRUAKMJ5",
+                "ts": "1608448208.498100"
+            },
+            {
+                "user": "U01DXP53RV2",
+                "ts": "1608450041.498700"
+            },
+            {
+                "user": "U01G39MP35F",
+                "ts": "1608454070.499600"
+            },
+            {
+                "user": "U01G39MP35F",
+                "ts": "1608454327.499800"
+            },
+            {
+                "user": "U6URRB952",
+                "ts": "1608500764.015100"
+            },
+            {
+                "user": "UQ9UCJT0T",
+                "ts": "1608549465.027500"
+            },
+            {
+                "user": "U3K7PNTML",
+                "ts": "1608551142.028400"
+            },
+            {
+                "user": "U01G39MP35F",
+                "ts": "1609186383.259700"
+            },
+            {
+                "user": "U48B3EN87",
+                "ts": "1609187152.260100"
+            },
+            {
+                "user": "U24N3AB96",
+                "ts": "1609356978.301300"
+            },
+            {
+                "user": "UQ9UCJT0T",
+                "ts": "1609363524.302100"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1609418787.306800"
+            },
+            {
+                "user": "U24N3AB96",
+                "ts": "1609418890.307000"
+            },
+            {
+                "user": "U24N3AB96",
+                "ts": "1609418992.307200"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1609536870.315500"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1609537137.315800"
+            },
+            {
+                "user": "U48B3EN87",
+                "ts": "1609538026.319100"
+            },
+            {
+                "user": "U01G39MP35F",
+                "ts": "1609874836.343500"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1609972187.350600"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "U93P65UQN",
+                    "U01364G3W84",
+                    "U04725QK7",
+                    "U8PMZ6397",
+                    "UNP5YEWL9",
+                    "U0119GD2P6G",
+                    "U7E8Y3V19",
+                    "U74DLUWUC",
+                    "U34CYM9H6",
+                    "U6T11F9T4",
+                    "UESD31MJ5",
+                    "U22T79M4N",
+                    "UEK7QL3HN",
+                    "U018JUMQU5S",
+                    "U10P8BDU1",
+                    "U6YV1UAS1",
+                    "U0160NF2KP0",
+                    "U6L08K8KS",
+                    "U017VP0L73R",
+                    "U4E1EF5CZ",
+                    "U2WQYL1TP",
+                    "UDL0CCV8C",
+                    "URDUG484V",
+                    "U01DHNVEWUB",
+                    "UJUAY2S4D"
+                ],
+                "count": 25
+            },
+            {
+                "name": "facepalm",
+                "users": [
+                    "UG3P7DHB9",
+                    "U48B3EN87",
+                    "UMJTRUV0U",
+                    "U01AY8S92G0",
+                    "U6R8NDVDH",
+                    "U1FS1U3B7",
+                    "UESD31MJ5",
+                    "UEK7QL3HN",
+                    "U10P8BDU1",
+                    "U6YV1UAS1",
+                    "U6L08K8KS",
+                    "UC8DTFAJ3",
+                    "U017VP0L73R",
+                    "U0181CKUCQP",
+                    "UC7DFDJUA",
+                    "U9251KTDE",
+                    "U4E1EF5CZ",
+                    "U2WQYL1TP",
+                    "U1J5JCGKE",
+                    "U8EQSPKQE",
+                    "U012M724BLN",
+                    "U010C3D47MG",
+                    "UDUBG85P1",
+                    "UDKV94W11",
+                    "U24N3AB96"
+                ],
+                "count": 25
+            },
+            {
+                "name": "popilu_net",
+                "users": [
+                    "UG3P7DHB9",
+                    "U8J9XMX3J",
+                    "U1FS1U3B7",
+                    "UTEP53HHB",
+                    "U10P8BDU1",
+                    "U2WQYL1TP"
+                ],
+                "count": 6
+            },
+            {
+                "name": "naebalovo",
+                "users": [
+                    "UM2Q2B41J",
+                    "U48B3EN87",
+                    "U6LSE0FT9",
+                    "U24FHECDD",
+                    "UESD31MJ5",
+                    "UL94X4YCQ",
+                    "UEK7QL3HN",
+                    "U6YV1UAS1",
+                    "UC7DFDJUA",
+                    "U2WQYL1TP",
+                    "U8EQSPKQE",
+                    "UCESRJPT2",
+                    "UDUBG85P1"
+                ],
+                "count": 13
+            },
+            {
+                "name": "coronavirus",
+                "users": [
+                    "U8PMZ6397",
+                    "U48B3EN87",
+                    "U2WQYL1TP",
+                    "UJWEWCC5V"
+                ],
+                "count": 4
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U48B3EN87",
+                    "U24FHECDD",
+                    "U6R8NDVDH",
+                    "U1FS1U3B7",
+                    "U70K9231V",
+                    "U01364G3W84",
+                    "UEK7QL3HN",
+                    "U049HDR2Z",
+                    "U10P8BDU1",
+                    "U6YV1UAS1",
+                    "U7F8J19R9",
+                    "U0181CKUCQP",
+                    "UB4BD0R6W",
+                    "U4E1EF5CZ",
+                    "U2WQYL1TP",
+                    "U1J5JCGKE",
+                    "U8EQSPKQE",
+                    "UCESRJPT2",
+                    "URDUG484V",
+                    "UKQTHKEPJ",
+                    "U0167L83DJP",
+                    "UJWEWCC5V",
+                    "UHY5KKK6D"
+                ],
+                "count": 23
+            },
+            {
+                "name": "quarantine_durka",
+                "users": [
+                    "U48B3EN87",
+                    "U2WQYL1TP"
+                ],
+                "count": 2
+            },
+            {
+                "name": "mavrodi",
+                "users": [
+                    "U4C11PX1A",
+                    "UCESRJPT2",
+                    "U48B3EN87",
+                    "U01GWG08763",
+                    "UJWEWCC5V"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cb6b3470-fa30-4c9b-b1a5-404b727a5168",
+        "type": "message",
+        "text": "вы там серьезно в Киеве в офисе работаете? :coronavirus:",
+        "user": "U0FEJNBGQ",
+        "ts": "1608367530.447500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0FEJNBGQ",
+            "ts": "1608367544.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IvZZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "вы там серьезно в Киеве в офисе работаете? "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "coronavirus"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F"
+    },
+    {
+        "client_msg_id": "af58138b-b975-4cce-b1ac-4b8dc61dd8d5",
+        "type": "message",
+        "text": "Вполне)",
+        "user": "U01G39MP35F",
+        "ts": "1608367546.447800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "9b7e4c6c001c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-29\/1528506993126_9b7e4c6c001c341018ea_72.png",
+            "first_name": "",
+            "real_name": "Кирилл Нортенко",
+            "display_name": "Кирилл Нортенко",
+            "team": "T040HKJE3",
+            "name": "llirik.n",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OBpGs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Вполне)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F",
+        "reactions": [
+            {
+                "name": "quarantine_durka",
+                "users": [
+                    "U0FEJNBGQ",
+                    "UCM3C939U",
+                    "UQ9UCJT0T",
+                    "UTFABAPL1",
+                    "U4WM1939Q",
+                    "U7SFPUVQF",
+                    "UU6LQEZFS",
+                    "UHY5KKK6D",
+                    "U27SUBTB9",
+                    "UEK7QL3HN",
+                    "U60EETE7N",
+                    "UCB3PK96J",
+                    "UB4F4DZGV",
+                    "UE4CX9345",
+                    "U48B3EN87",
+                    "U74DLUWUC",
+                    "U011QC4AMDK",
+                    "U4137HBM0",
+                    "U018JUMQU5S",
+                    "U6YV1UAS1",
+                    "U6L08K8KS",
+                    "UFVBUV7QU",
+                    "UFRUZ2E74"
+                ],
+                "count": 23
+            },
+            {
+                "name": "stonks",
+                "users": [
+                    "U0FEJNBGQ",
+                    "UTFABAPL1",
+                    "UU6LQEZFS",
+                    "U27SUBTB9",
+                    "U8PMZ6397",
+                    "U6L08K8KS"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "client_msg_id": "448bea45-88ac-4b61-8204-2cd6c6c8cf78",
+        "type": "message",
+        "text": "интересно когда все *стремительно развивающиеся* компании начнут стремительно падать... и эра больших зарплат в it закончится",
+        "user": "UHY5KKK6D",
+        "ts": "1608372019.449700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3d7bb88461c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433476246342_f3d7bb88461c31e1bf92_72.jpg",
+            "first_name": "Dmitriy",
+            "real_name": "Dmitriy Novikov",
+            "display_name": "Dmitriy Novikov",
+            "team": "T040HKJE3",
+            "name": "nov.dm.konst",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pVy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "интересно когда все "
+                            },
+                            {
+                                "type": "text",
+                                "text": "стремительно развивающиеся ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "компании начнут стремительно падать... и эра больших зарплат в it закончится"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F",
+        "reactions": [
+            {
+                "name": "yeah-sure",
+                "users": [
+                    "U9T0G9W3G",
+                    "U60EETE7N",
+                    "U8PMZ6397",
+                    "UE4CX9345",
+                    "UJ2JGSQ3X",
+                    "U49NJJXNJ",
+                    "U59D8LQ3H",
+                    "UGPDS351S",
+                    "U6YV1UAS1",
+                    "U6L08K8KS"
+                ],
+                "count": 10
+            },
+            {
+                "name": "zhdun",
+                "users": [
+                    "UC7CX2SEN"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "B6D38E67-715D-41B4-8B8F-7DF0B4B198C6",
+        "type": "message",
+        "text": "Крупные ИТ-компании в Киеве работают удалённо. ",
+        "user": "U8PMZ6397",
+        "ts": "1608379312.453900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "2f3e034ec3d0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-05-25\/371592359495_2f3e034ec3d05c371a2b_72.jpg",
+            "first_name": "Kostyantyn",
+            "real_name": "Kostyantyn Kravchenko",
+            "display_name": "kcostya",
+            "team": "T040HKJE3",
+            "name": "kcostya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9gK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Крупные ИТ-компании в Киеве работают удалённо. "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F"
+    },
+    {
+        "client_msg_id": "AABD5C90-7A26-4E87-A335-93CF82A9D000",
+        "type": "message",
+        "text": "Так была же история с Кэшберри, что пирамида лопнула, но бизнес продолжается. Или это кто-то другой? :joy:",
+        "user": "U01DXP53RV2",
+        "ts": "1608379324.454400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6619178fa6aa",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-03-06\/1830006890418_6619178fa6aafb28f750_72.png",
+            "first_name": "Andrey",
+            "real_name": "Andrey Chubin",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "andrey.chubin.95",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rNYQa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Так была же история с Кэшберри, что пирамида лопнула, но бизнес продолжается. Или это кто-то другой? "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "joy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F",
+        "reactions": [
+            {
+                "name": "povar",
+                "users": [
+                    "U8PMZ6397",
+                    "U01CX0XER3R",
+                    "UD4UVNH53",
+                    "U6URRB952",
+                    "UM2Q2B41J",
+                    "U48B3EN87",
+                    "U49NJJXNJ",
+                    "U59D8LQ3H",
+                    "UBM4B8CBU",
+                    "U018JUMQU5S",
+                    "U6YV1UAS1",
+                    "U6L08K8KS",
+                    "UB4BD0R6W",
+                    "UQ9UCJT0T",
+                    "URA9XH1B2"
+                ],
+                "count": 15
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UTCLUQ53L",
+                    "U6URRB952",
+                    "UG3P7DHB9",
+                    "U010HKK8JUA",
+                    "UL94X4YCQ"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "96ff5b79-b34f-4b56-ad14-6df3943b2f61",
+        "type": "message",
+        "text": "Сорри, я не понял. Куча чайников торгует на площадке. Мы строим pipeline их действий, включаем ML и получаем идеального трейдера? А в чем критерий, ну даже не идеального, а хотя бы оптимального трейдера.  P&amp;L? Тогда за какой период? И, как говорится, успехи в прошлом, не гарантируют успеха в будущем.",
+        "user": "UM55A9EA3",
+        "ts": "1608383604.455200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nDh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Сорри, я не понял. Куча чайников торгует на площадке. Мы строим pipeline их действий, включаем ML и получаем идеального трейдера? А в чем критерий, ну даже не идеального, а хотя бы оптимального трейдера.  P&L? Тогда за какой период? И, как говорится, успехи в прошлом, не гарантируют успеха в будущем."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "ed4b33d8-0873-4eaf-b6fe-a5cf40aa7a89",
+        "type": "message",
+        "text": "Если уж мы построили светлый образ нашего \"интегрального\" трейдера, то это означает что мы способны как-то предсказать его действия.  Так как он обобщенный, то мы знаем что будет делать локальный рынок на нашей локальной бирже (или что там, площадке...). Дальше нужно говорить что делать?",
+        "user": "UM55A9EA3",
+        "ts": "1608383817.455400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uzp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Если уж мы построили светлый образ нашего \"интегрального\" трейдера, то это означает что мы способны как-то предсказать его действия.  Так как он обобщенный, то мы знаем что будет делать локальный рынок на нашей локальной бирже (или что там, площадке...). Дальше нужно говорить что делать?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "10528769-6361-4a48-abe3-7092c7d47f4a",
+        "type": "message",
+        "text": "И последнее. Если мы говорим об опыте на не российском stock market, то цены акций движимы квартальной отчетностью, аналитиками Goldman Sachs-ов и новостями. У крипты есть только новости.",
+        "user": "UM55A9EA3",
+        "ts": "1608384089.455600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YBKWx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "И последнее. Если мы говорим об опыте на не российском stock market, то цены акций движимы квартальной отчетностью, аналитиками Goldman Sachs-ов и новостями. У крипты есть только новости."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "6CCEBFB7-B82B-4BAA-8524-26E192100FEE",
+        "type": "message",
+        "text": "Привет. \nВо-первых не чайников а успешных инвесторов показывающих лучше чем х2 в год на протяжении минимум двух лет. Критерий успешности надо закладывать не только PnL но и коэффициенты типа сортино\/ шарпа и степень корреляции с курсом биткоина. Ваш вариант системы с предсказанием будет использовать как входные данные что? Торговые индикаторы ну и умрет как и любой основанный на ТА алгоритм. Потому что человек может кардинально сменить линию поведения ( умный друг посоветовал условно ) а роботот нет",
+        "user": "U01FR3PC163",
+        "ts": "1608384931.466700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16deb724ec1e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-04\/1550115497891_16deb724ec1e9733ebe4_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor Razumovskii",
+            "display_name": "Egor Razumovskii",
+            "team": "T040HKJE3",
+            "name": "razum",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jEO7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет. \nВо-первых не чайников а успешных инвесторов показывающих лучше чем х2 в год на протяжении минимум двух лет. Критерий успешности надо закладывать не только PnL но и коэффициенты типа сортино\/ шарпа и степень корреляции с курсом биткоина. Ваш вариант системы с предсказанием будет использовать как входные данные что? Торговые индикаторы ну и умрет как и любой основанный на ТА алгоритм. Потому что человек может кардинально сменить линию поведения ( умный друг посоветовал условно ) а роботот нет"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "f79e94db-68f2-4383-9fb4-3b6ec302540f",
+        "type": "message",
+        "text": "Добрый день,  входные данные  были patterns in futures spreads за последние 2 года, разбитые для  нейронной сети на кластеры по подобию форм изменения дневного графика цены (использовался метод Fast DTW) и только в дополнение некоторые технические индикаторы. Это не алготрайдинг (типа 7-вечер, Луна ушла из домика, Марс и Юпитер вместе - несчастье, sliding average пересеклась с ...:slightly_smiling_face:). Релевантность индикаторов определяли трейдеры, но это было тогда в 2018, а сейчас я бы  применил RFE.",
+        "user": "UM55A9EA3",
+        "ts": "1608390857.468500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LsG8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Добрый день,  входные данные  были patterns in futures spreads за последние 2 года, разбитые для  нейронной сети на кластеры по подобию форм изменения дневного графика цены (использовался метод Fast DTW) и только в дополнение некоторые технические индикаторы. Это не алготрайдинг (типа 7-вечер, Луна ушла из домика, Марс и Юпитер вместе - несчастье, sliding average пересеклась с ..."
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            },
+                            {
+                                "type": "text",
+                                "text": "). Релевантность индикаторов определяли трейдеры, но это было тогда в 2018, а сейчас я бы  применил RFE."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "87aac3da-d63d-4aa3-be09-88de109d9de5",
+        "type": "message",
+        "text": "Это была первая фаза когда сетка определяла какие инструменты предполагают изменить цену в течение 2-х часов на пару notch.  От этого до реального profita как до неба, так как динамика торгов в стакане была очень высокой и Ваша заявка могла не поймать подъем\/спад цены. А дальше",
+        "user": "UM55A9EA3",
+        "ts": "1608391119.468900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1V9X",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Это была первая фаза когда сетка определяла какие инструменты предполагают изменить цену в течение 2-х часов на пару notch.  От этого до реального profita как до неба, так как динамика торгов в стакане была очень высокой и Ваша заявка могла не поймать подъем\/спад цены. А дальше"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "b52a9646-8aec-4263-9eea-c1d395f2ef6f",
+        "type": "message",
+        "text": "должен был работать intellectual agent (Reinforcement Learning, Policy Gradient) который, должен был  самообучиться с критерием P&amp;L (британцы люди простые, сложных вещей не понимали) извлекать этот P&amp;L.",
+        "user": "UM55A9EA3",
+        "ts": "1608391357.469200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T53",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "должен был работать intellectual agent (Reinforcement Learning, Policy Gradient) который, должен был  самообучиться с критерием P&L (британцы люди простые, сложных вещей не понимали) извлекать этот P&L."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "31749b03-3745-4f8a-8673-ad143bde9a8e",
+        "type": "message",
+        "text": "Ну дальше рассказывать не буду. Потом если у Вас будет желание.  Но на самый главный вопрос Вы не ответили - если мы с определенной вероятностью может предсказать как будет себя вести наш \"коллективный\" трейдер\/инвестор, то нам больше ничего и не надо.",
+        "user": "UM55A9EA3",
+        "ts": "1608391554.469400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ode",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ну дальше рассказывать не буду. Потом если у Вас будет желание.  Но на самый главный вопрос Вы не ответили - если мы с определенной вероятностью может предсказать как будет себя вести наш \"коллективный\" трейдер\/инвестор, то нам больше ничего и не надо."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "CD75F3EE-A578-4631-94E6-8AFA59D6606C",
+        "type": "message",
+        "text": "Жалко я так понимаю вам работа не нужна было бы что обсудить ;)",
+        "user": "U01FR3PC163",
+        "ts": "1608391652.470300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16deb724ec1e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-04\/1550115497891_16deb724ec1e9733ebe4_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor Razumovskii",
+            "display_name": "Egor Razumovskii",
+            "team": "T040HKJE3",
+            "name": "razum",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I8i",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Жалко я так понимаю вам работа не нужна было бы что обсудить ;)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "03f8861f-b6dc-4029-b24d-fb108580791f",
+        "type": "message",
+        "text": "И последнее.  Алготрейдинг - это по сути детерминированные алгоритмы, которые отражают временную market inefficiency, которая по определению существует ограниченное (иногда даже очень ограниченное) время и поэтому все алго-роботы всегда умирают. По крайней мере в OSTC все кто их делал в конечном итоге уходили в глубокий loss и их увольняли",
+        "user": "UM55A9EA3",
+        "ts": "1608391819.470500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hGmh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "И последнее.  Алготрейдинг - это по сути детерминированные алгоритмы, которые отражают временную market inefficiency, которая по определению существует ограниченное (иногда даже очень ограниченное) время и поэтому все алго-роботы всегда умирают. По крайней мере в OSTC все кто их делал в конечном итоге уходили в глубокий loss и их увольняли"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "da4914c0-8f1c-4391-adc9-2d407c45bbe7",
+        "type": "message",
+        "text": "Я только начал смотреть на рынок (вчера) и пока в глубоких сомнениях.  У меня есть  предпродакш проект (финальная стадия тестирования), который решил проблему массового object tracking and detection на пассажирском транспорте (тысячи транспортных средств), который будет впереди рынка еще 12-15 мес. Но у меня большие сомнения, что компания на которую я работаю, сможет превратить проект в бизнес. Поэтому моя доля сегодня ничего не стоит, а украсть и продать технология другим участникам рынке не опция для меня.",
+        "user": "UM55A9EA3",
+        "ts": "1608392205.470700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Eh3l",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Я только начал смотреть на рынок (вчера) и пока в глубоких сомнениях.  У меня есть  предпродакш проект (финальная стадия тестирования), который решил проблему массового object tracking and detection на пассажирском транспорте (тысячи транспортных средств), который будет впереди рынка еще 12-15 мес. Но у меня большие сомнения, что компания на которую я работаю, сможет превратить проект в бизнес. Поэтому моя доля сегодня ничего не стоит, а украсть и продать технология другим участникам рынке не опция для меня."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "3B33BEEF-69AC-444A-BA56-CE9A425C3A21",
+        "type": "message",
+        "text": "Ну так смотрите вы 2 сообщениями выше как раз и сказали почему ваш подход неправильный. Не можете вы предсказать действия идеального трейдера - входных данных для этого нет",
+        "user": "U01FR3PC163",
+        "ts": "1608392303.472100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16deb724ec1e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-04\/1550115497891_16deb724ec1e9733ebe4_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor Razumovskii",
+            "display_name": "Egor Razumovskii",
+            "team": "T040HKJE3",
+            "name": "razum",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JNgjJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ну так смотрите вы 2 сообщениями выше как раз и сказали почему ваш подход неправильный. Не можете вы предсказать действия идеального трейдера - входных данных для этого нет"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "ea1102b9-88f1-4271-895d-5b7ad13f3255",
+        "type": "message",
+        "text": "Как нет, у Вас же есть log files всех их действий. Это в описании вакансии сказано, что это у вас в pipeline  будущих задач. Значит я  подумал что вы знаете как это сделать.",
+        "user": "UM55A9EA3",
+        "ts": "1608392434.472300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hvnQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Как нет, у Вас же есть log files всех их действий. Это в описании вакансии сказано, что это у вас в pipeline  будущих задач. Значит я  подумал что вы знаете как это сделать."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "377C8922-DDCB-4E17-8309-58BEA17EE39B",
+        "type": "message",
+        "text": "Лог есть, но будущие события не зависят от прошлых это вам не спрос на булочки в ресторане считать ( что тоже важно и полезно, никоим образом не хочу принизить эту работу )",
+        "user": "U01FR3PC163",
+        "ts": "1608392534.473900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16deb724ec1e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-04\/1550115497891_16deb724ec1e9733ebe4_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor Razumovskii",
+            "display_name": "Egor Razumovskii",
+            "team": "T040HKJE3",
+            "name": "razum",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YxJPl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Лог есть, но будущие события не зависят от прошлых это вам не спрос на булочки в ресторане считать ( что тоже важно и полезно, никоим образом не хочу принизить эту работу )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "387f1c38-224b-4113-a6ba-150e98506043",
+        "type": "message",
+        "text": "Мой агент (Reinforcement Learning) играет на увеличение долгосрочного (условно говоря) reward-а или, если угодно, многошагового.  Если Вы даете некое подобие модели одного из факторов среды, в которой он действует, то он несомненно использует это.  Это не я запрограммирую ему логику или алгоритм.  Это он как-то учтет в своей policy",
+        "user": "UM55A9EA3",
+        "ts": "1608392919.474300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "v8r",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Мой агент (Reinforcement Learning) играет на увеличение долгосрочного (условно говоря) reward-а или, если угодно, многошагового.  Если Вы даете некое подобие модели одного из факторов среды, в которой он действует, то он несомненно использует это.  Это не я запрограммирую ему логику или алгоритм.  Это он как-то учтет в своей policy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "8532c0a2-7315-40d3-9fa1-2849ea008ab2",
+        "type": "message",
+        "text": "Это кто-то другой:)",
+        "user": "U01G39MP35F",
+        "ts": "1608392966.474500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "9b7e4c6c001c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-29\/1528506993126_9b7e4c6c001c341018ea_72.png",
+            "first_name": "",
+            "real_name": "Кирилл Нортенко",
+            "display_name": "Кирилл Нортенко",
+            "team": "T040HKJE3",
+            "name": "llirik.n",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bm2+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Это кто-то другой:)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F"
+    },
+    {
+        "client_msg_id": "e3c09373-0bfa-48d5-93f3-3b9825735c3d",
+        "type": "message",
+        "text": "Более того, если вы знакомы с Reinforcement Learning, то с его помощью можно как раз построить policy Вашего коллективного трейдера.  Это как off-line обучение агента вождению автобусом.  Сначала он тупо повторяет действия водителя, как если бы это были результаты его собственной policy. А потом , через некоторое большое количество итераций его  policy начинает водить не хуже человека-водителя",
+        "user": "UM55A9EA3",
+        "ts": "1608393223.474700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Nca",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Более того, если вы знакомы с Reinforcement Learning, то с его помощью можно как раз построить policy Вашего коллективного трейдера.  Это как off-line обучение агента вождению автобусом.  Сначала он тупо повторяет действия водителя, как если бы это были результаты его собственной policy. А потом , через некоторое большое количество итераций его  policy начинает водить не хуже человека-водителя"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "2afa207b-cf1c-446d-a998-b646ca17348d",
+        "type": "message",
+        "text": "Развивая эту тему.  Я уверен, что инвесторов на вашем портале можно с помощью ИИ разделить на кластеры (по подобию их поведения).  На рынке commodities это совершенно очевидно: 5% реальных покупателей снижения риска,  ??% мелких спекулянтов, ??%  proprietory trading house среднего размера, иногда крупные инв. банки (просто хеджируют свои позиции в stock или bonds или в других операциях) а также жулики. И у всех у них разный профиль поведения на торгах",
+        "user": "UM55A9EA3",
+        "ts": "1608393575.478000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3Wf5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Развивая эту тему.  Я уверен, что инвесторов на вашем портале можно с помощью ИИ разделить на кластеры (по подобию их поведения).  На рынке commodities это совершенно очевидно: 5% реальных покупателей снижения риска,  ??% мелких спекулянтов, ??%  proprietory trading house среднего размера, иногда крупные инв. банки (просто хеджируют свои позиции в stock или bonds или в других операциях) а также жулики. И у всех у них разный профиль поведения на торгах"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "A24916D8-4C45-46FF-B885-710CAB6D37CB",
+        "type": "message",
+        "text": "Да но Водитель = задачка про булочки. Я честно скажу половину слов не понял в силу своей низкой квалификации в вопросе но не считаю возможным предсказывать события уровня - «сегодня мне друг сказал купить» или уровня «лидер мнений монету упомянул». Поэтому тут задача выбрать за кем повторять - у кого друзья самые умные или кто правильных людей слушает или просто правильно на новости реагирует. Нам не важны причины, нам важны действия ",
+        "user": "U01FR3PC163",
+        "ts": "1608393607.478900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16deb724ec1e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-04\/1550115497891_16deb724ec1e9733ebe4_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor Razumovskii",
+            "display_name": "Egor Razumovskii",
+            "team": "T040HKJE3",
+            "name": "razum",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QNr+u",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Да но Водитель = задачка про булочки. Я честно скажу половину слов не понял в силу своей низкой квалификации в вопросе но не считаю возможным предсказывать события уровня - «сегодня мне друг сказал купить» или уровня «лидер мнений монету упомянул». Поэтому тут задача выбрать за кем повторять - у кого друзья самые умные или кто правильных людей слушает или просто правильно на новости реагирует. Нам не важны причины, нам важны действия "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "dc9ea60d-1890-4b61-9603-b7cb005070b4",
+        "type": "message",
+        "text": "У меня есть презентация, которую я показывал на какой-то конференции. Там агент управляет теплоснабжением многоподъездного дома.  Он тоже не знает будущего, но управляет на 10-12% лучше широко используемого  ПИД-регулятора. Я могу ее прислать. Весь смысл Reinforcement Learning в попытке максимизировать совокупный будущий reward, не зная его будущие компоненты сегодня, не зная модели среды, которой он управляет.  Это точно не гарантирует оптимума, но это часто много лучше чем ничего. Так прислать? Там есть math и ключевое уравнение Беллмана.",
+        "user": "UM55A9EA3",
+        "ts": "1608394021.479100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YPR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "У меня есть презентация, которую я показывал на какой-то конференции. Там агент управляет теплоснабжением многоподъездного дома.  Он тоже не знает будущего, но управляет на 10-12% лучше широко используемого  ПИД-регулятора. Я могу ее прислать. Весь смысл Reinforcement Learning в попытке максимизировать совокупный будущий reward, не зная его будущие компоненты сегодня, не зная модели среды, которой он управляет.  Это точно не гарантирует оптимума, но это часто много лучше чем ничего. Так прислать? Там есть math и ключевое уравнение Беллмана."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "A1350421-E97A-40D1-9B3C-30F602D3AACC",
+        "type": "message",
+        "text": "Давайте, я попробую разобраться чтобы можно было продолжать дискуссию с большим пониманием",
+        "user": "U01FR3PC163",
+        "ts": "1608394199.479900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16deb724ec1e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-04\/1550115497891_16deb724ec1e9733ebe4_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor Razumovskii",
+            "display_name": "Egor Razumovskii",
+            "team": "T040HKJE3",
+            "name": "razum",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hoT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Давайте, я попробую разобраться чтобы можно было продолжать дискуссию с большим пониманием"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "fc1bf7f7-9b8f-49e1-a197-8220f774c37c",
+        "type": "message",
+        "text": "Вы не переживайте, британцы тоже ничего не поняли, но оказались не столько тупыми, сколько высокомерными.  Мой проект закрыли. А для своего IPO они сказали что их система ИИ по пульсу, температуре  и давлению трейдеров (ежедневно) что-то полезное предсказывает. Представляю как ржали профессионалы ИИ.",
+        "user": "UM55A9EA3",
+        "ts": "1608394371.480100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EHiE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Вы не переживайте, британцы тоже ничего не поняли, но оказались не столько тупыми, сколько высокомерными.  Мой проект закрыли. А для своего IPO они сказали что их система ИИ по пульсу, температуре  и давлению трейдеров (ежедневно) что-то полезное предсказывает. Представляю как ржали профессионалы ИИ."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "b9e29292-9595-49ca-b6d3-6639ecf975e0",
+        "type": "message",
+        "text": "Дык куда прислать?",
+        "user": "UM55A9EA3",
+        "ts": "1608394389.480300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zYN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Дык куда прислать?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "D89B17DE-19E1-4E94-AD2B-0BA08B50C17B",
+        "type": "message",
+        "text": "Кстати была у меня такая идея про предсказание плохих решений на основании биохимических параметров ;)) вот он их уровень - рядовой пользователь крипты образца 2018",
+        "user": "U01FR3PC163",
+        "ts": "1608394457.481900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16deb724ec1e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-04\/1550115497891_16deb724ec1e9733ebe4_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor Razumovskii",
+            "display_name": "Egor Razumovskii",
+            "team": "T040HKJE3",
+            "name": "razum",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lZl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Кстати была у меня такая идея про предсказание плохих решений на основании биохимических параметров ;)) вот он их уровень - рядовой пользователь крипты образца 2018"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "7F1C843C-C745-4D16-8D5E-606C7CEB2F9B",
+        "type": "message",
+        "text": "Если можно то прямо тут в личные сообщения ",
+        "user": "U01FR3PC163",
+        "ts": "1608394467.482400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16deb724ec1e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-04\/1550115497891_16deb724ec1e9733ebe4_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor Razumovskii",
+            "display_name": "Egor Razumovskii",
+            "team": "T040HKJE3",
+            "name": "razum",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "35vPw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Если можно то прямо тут в личные сообщения "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "3a1c85a1-7f33-49ab-a864-3c80e0981c56",
+        "type": "message",
+        "text": "как тут это делается. Прикрепить с личном message? Я на slack редко ходил. Времени не было",
+        "user": "UM55A9EA3",
+        "ts": "1608394659.483000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5Nj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "как тут это делается. Прикрепить с личном message? Я на slack редко ходил. Времени не было"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "86d6b70e-7207-4109-9c8c-54b3d2ef5688",
+        "type": "message",
+        "text": "все разобрался",
+        "user": "UM55A9EA3",
+        "ts": "1608394780.483200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LyU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "все разобрался"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U01FR3PC163"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "db61d910-d87a-42aa-9fd4-81e76f76e658",
+        "type": "message",
+        "text": "ОК. Feel free to call как говорят у нас на Мичиганьщине :slightly_smiling_face:",
+        "user": "UM55A9EA3",
+        "ts": "1608395459.483600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3fdf0cb6fbb6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-12-18\/1587566334339_3fdf0cb6fbb6bcd37392_72.jpg",
+            "first_name": "GennadySouvorov423",
+            "real_name": "GennadySouvorov423",
+            "display_name": "GSouvorov",
+            "team": "T040HKJE3",
+            "name": "absfinance",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JW0OM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ОК. Feel free to call как говорят у нас на Мичиганьщине "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1607079230.374300",
+        "parent_user_id": "U070Y25AS"
+    },
+    {
+        "client_msg_id": "be98cf16-a129-45bb-a8ec-0fc83007f468",
+        "type": "message",
+        "text": "<@U01G39MP35F>, а можешь рассказать про ваш подход \"работа в офисе\" во время пандемии - есть страховки на случай смерти, например? Компенсации, если заразился на раб месте или по пути к нему? Такси оплачивается, чтобы минимизировать вероятность заражения в общественном транспорте?",
+        "user": "U48B3EN87",
+        "ts": "1608401306.490800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3c7a34914705",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-01-27\/305499298995_3c7a34914705a4753a5a_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor",
+            "display_name": "abracadabra",
+            "team": "T040HKJE3",
+            "name": "abracadabra",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xcvqv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U01G39MP35F"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", а можешь рассказать про ваш подход \"работа в офисе\" во время пандемии - есть страховки на случай смерти, например? Компенсации, если заразился на раб месте или по пути к нему? Такси оплачивается, чтобы минимизировать вероятность заражения в общественном транспорте?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F",
+        "reactions": [
+            {
+                "name": "povar",
+                "users": [
+                    "U27HU84H4",
+                    "UBM4B8CBU",
+                    "U8PMZ6397",
+                    "U74DLUWUC",
+                    "U012M724BLN",
+                    "U832HJCUV",
+                    "U011QC4AMDK",
+                    "U018JUMQU5S",
+                    "U6L08K8KS",
+                    "UQ9UCJT0T",
+                    "U4N7G9RQA",
+                    "U01FJDK2B7Y",
+                    "U92MDSKDZ"
+                ],
+                "count": 13
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "U27HU84H4"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fc842fc0-727c-43b5-a273-c292157ab090",
+        "type": "message",
+        "text": "<@U48B3EN87> думаю Вас это интересует просто из любопытства и поговорить. Но если вдруг потенциальных кандидатов интересует такой вопрос, отвечу. Сотрудники добираются в офис своими силами, страховка от ковид есть у всех сотрудников, тесты оплачиваются компанией.",
+        "user": "U01G39MP35F",
+        "ts": "1608410664.492900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "9b7e4c6c001c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-29\/1528506993126_9b7e4c6c001c341018ea_72.png",
+            "first_name": "",
+            "real_name": "Кирилл Нортенко",
+            "display_name": "Кирилл Нортенко",
+            "team": "T040HKJE3",
+            "name": "llirik.n",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fTJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U48B3EN87"
+                            },
+                            {
+                                "type": "text",
+                                "text": " думаю Вас это интересует просто из любопытства и поговорить. Но если вдруг потенциальных кандидатов интересует такой вопрос, отвечу. Сотрудники добираются в офис своими силами, страховка от ковид есть у всех сотрудников, тесты оплачиваются компанией."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F"
+    },
+    {
+        "client_msg_id": "1b141d3a-5132-4301-8bf7-d32e18e73525",
+        "type": "message",
+        "text": "<@U01G39MP35F> а к чему этот фетиш? н проще ли пересадить людей по домам?",
+        "user": "UHY5KKK6D",
+        "ts": "1608411455.493100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3d7bb88461c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433476246342_f3d7bb88461c31e1bf92_72.jpg",
+            "first_name": "Dmitriy",
+            "real_name": "Dmitriy Novikov",
+            "display_name": "Dmitriy Novikov",
+            "team": "T040HKJE3",
+            "name": "nov.dm.konst",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "in3zH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U01G39MP35F"
+                            },
+                            {
+                                "type": "text",
+                                "text": " а к чему этот фетиш? н проще ли пересадить людей по домам?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F"
+    },
+    {
+        "client_msg_id": "4E6FC1E5-6D1F-4062-AA2B-69029A7F5AAA",
+        "type": "message",
+        "text": "Расскажите, как удалось стать ведущим поставщиком решений на базе технологии искусственного интеллекта с МЛ командой из двух человек?",
+        "user": "U8TTWAP27",
+        "ts": "1608418345.496400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3ca75a080a7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-01\/744489529860_f3ca75a080a74e6ae82e_72.png",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Simakov",
+            "display_name": "DmitryS",
+            "team": "T040HKJE3",
+            "name": "dmitryevsimakov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0yRFt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Расскажите, как удалось стать ведущим поставщиком решений на базе технологии искусственного интеллекта с МЛ командой из двух человек?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608303113.430200",
+        "parent_user_id": "U01GHND8U77",
+        "reactions": [
+            {
+                "name": "grin",
+                "users": [
+                    "UDL0CCV8C",
+                    "URPQC9JHE"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8c4bf275-8484-449f-a6a9-181e2c12dd7b",
+        "type": "message",
+        "text": "<@U01BVF7T07L> так текущий СЕО iPavlov имел какое-то отношение к команде iPavlova или был назначен сверху?",
+        "user": "U0H7VBQQ1",
+        "ts": "1608422764.496900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gfbf37783fcc",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ecfbf37783fccca869c3f41a4c4dc792.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+            "first_name": "Alex",
+            "real_name": "Alex Ozerin",
+            "display_name": "alex.ozerin",
+            "team": "T040HKJE3",
+            "name": "alex.ozerin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/OJI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U01BVF7T07L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " так текущий СЕО iPavlov имел какое-то отношение к команде iPavlova или был назначен сверху?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608114406.341700",
+        "parent_user_id": "USLACKBOT"
+    },
+    {
+        "client_msg_id": "074c1fc5-6188-4923-bceb-d2f29d2e285b",
+        "type": "message",
+        "text": "<@U01G39MP35F>, конечно, меня это интересует, тк вы против общего тренда идёте. Поэтому много вопросов возникает. Но вы лучше ответьте полноценно - здесь в сообществе ценятся развёрнутые ответы. Ещё вопросы - чем вы занимаетесь в фирме? Входят ли в страхование жизни родных и близких? Вдруг родители умрут или потеряют трудоспособность от того, что заразились от сотрудника, от того, что тот заразился на работе или по пути? Какие суммы упомянуты в страховке для разных страховых случаев при ковиде?",
+        "user": "U48B3EN87",
+        "ts": "1608446100.497400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3c7a34914705",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-01-27\/305499298995_3c7a34914705a4753a5a_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor",
+            "display_name": "abracadabra",
+            "team": "T040HKJE3",
+            "name": "abracadabra",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vva",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U01G39MP35F"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", конечно, меня это интересует, тк вы против общего тренда идёте. Поэтому много вопросов возникает. Но вы лучше ответьте полноценно - здесь в сообществе ценятся развёрнутые ответы. Ещё вопросы - чем вы занимаетесь в фирме? Входят ли в страхование жизни родных и близких? Вдруг родители умрут или потеряют трудоспособность от того, что заразились от сотрудника, от того, что тот заразился на работе или по пути? Какие суммы упомянуты в страховке для разных страховых случаев при ковиде?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F"
+    },
+    {
+        "client_msg_id": "fe67d5ba-2711-4599-92cf-5f0af6651151",
+        "type": "message",
+        "text": "Посоны, немного оффтоп, но Киев в целом ни на какую удаленку не переходил. Маршрутки и прочий транспорт забит чем дальше, тем хуже. Перевозчики начиная с сентября на все ограничения стали сначала класть, а потом и вовсе забили хуй! Сам уже пару месяцев катаюсь исключительно на машине для минимизации контактов и вижу, что машин тоже только больше становится на дорогах.\nУдаленка, наверное, успешно случилась и продолжается в бодишопах, которые в любом случае перепродают работу за океан, то есть где сотрудник для своего настоящего работодателя с самого начала был удаленным.",
+        "user": "U24FHECDD",
+        "ts": "1608447010.497600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "41a36bd745bd",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-10-08\/89091959682_41a36bd745bd520397c1_72.jpg",
+            "first_name": "Andrey",
+            "real_name": "Andrey Ogurtsov",
+            "display_name": "statist",
+            "team": "T040HKJE3",
+            "name": "statist",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5UjCh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Посоны, немного оффтоп, но Киев в целом ни на какую удаленку не переходил. Маршрутки и прочий транспорт забит чем дальше, тем хуже. Перевозчики начиная с сентября на все ограничения стали сначала класть, а потом и вовсе забили хуй! Сам уже пару месяцев катаюсь исключительно на машине для минимизации контактов и вижу, что машин тоже только больше становится на дорогах.\nУдаленка, наверное, успешно случилась и продолжается в бодишопах, которые в любом случае перепродают работу за океан, то есть где сотрудник для своего настоящего работодателя с самого начала был удаленным."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F",
+        "reactions": [
+            {
+                "name": "pepe_sad",
+                "users": [
+                    "U48B3EN87",
+                    "UC8DTFAJ3",
+                    "U6URRB952",
+                    "UQ9UCJT0T",
+                    "UJUAY2S4D",
+                    "U34Q3KU8H",
+                    "U24N3AB96"
+                ],
+                "count": 7
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U8PMZ6397",
+                    "U4N7G9RQA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "658e04ab-bf9e-4677-8486-83130dce281a",
+        "type": "message",
+        "text": "<@U48B3EN87> а страховку еще и на родителей тебе тут дадут только в том случае, если на фирму к своим родителям нанимаешься (и то не везде). Это страхование уровня посла иностранного государства, даже самому топовому гребцу ничего подобного не дадут просто чтобы не создавать прецедент.",
+        "user": "U24FHECDD",
+        "ts": "1608447107.497800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "41a36bd745bd",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-10-08\/89091959682_41a36bd745bd520397c1_72.jpg",
+            "first_name": "Andrey",
+            "real_name": "Andrey Ogurtsov",
+            "display_name": "statist",
+            "team": "T040HKJE3",
+            "name": "statist",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U24FHECDD",
+            "ts": "1608447201.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+7tS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U48B3EN87"
+                            },
+                            {
+                                "type": "text",
+                                "text": " а страховку еще и на родителей тебе тут дадут только в том случае, если на фирму к своим родителям нанимаешься (и то не везде). Это страхование уровня посла иностранного государства, даже самому топовому гребцу ничего подобного не дадут просто чтобы не создавать прецедент."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F",
+        "reactions": [
+            {
+                "name": "tnx",
+                "users": [
+                    "U48B3EN87",
+                    "U6URRB952",
+                    "UQ9UCJT0T"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "95cb1a3c-ee17-4370-a3a1-b74a267c2923",
+        "type": "message",
+        "text": "<@U24FHECDD> точно есть компании, где страховку дают на тебя и одного родственника, коим может быть родитель.\nПо вакансии - это же правильный сайт <https:\/\/cashberry.com.ua\/> ? Т.е. всё-же \"микрофинансы\" будет более точным описанием, нежели \"FinTech\"?",
+        "user": "UDRUAKMJ5",
+        "ts": "1608448208.498100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f94c5c84cb8c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-11-04\/470737923584_f94c5c84cb8cc01add6b_72.png",
+            "first_name": "Vlad",
+            "real_name": "Vlad Krylov",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "vladkrilov9",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Cashberry Украина",
+                "title": "CashBerry Украина: Оформить онлайн кредит на карту без отказов и справки о доходах",
+                "title_link": "https:\/\/cashberry.com.ua\/",
+                "text": "Сервис микрокредитования - cashBerry. Взять кредит онлайн на карту без отказов под 1,5% в день ✓ Оформление за 15 минут ✓ Программа лояльности ✓ Бонусы и акции",
+                "fallback": "Cashberry Украина: CashBerry Украина: Оформить онлайн кредит на карту без отказов и справки о доходах",
+                "from_url": "https:\/\/cashberry.com.ua\/",
+                "thumb_url": "https:\/\/cashberry.com.ua\/og_site_icon.png",
+                "thumb_width": 144,
+                "thumb_height": 144,
+                "service_icon": "https:\/\/cashberry.com.ua\/favicon.png",
+                "id": 1,
+                "original_url": "https:\/\/cashberry.com.ua\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "E\/6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U24FHECDD"
+                            },
+                            {
+                                "type": "text",
+                                "text": " точно есть компании, где страховку дают на тебя и одного родственника, коим может быть родитель.\nПо вакансии - это же правильный сайт "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/cashberry.com.ua\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ? Т.е. всё-же \"микрофинансы\" будет более точным описанием, нежели \"FinTech\"?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8PMZ6397",
+                    "UQ9UCJT0T"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5c8618bb-cf71-4523-ac58-ea9136769bf6",
+        "type": "message",
+        "text": "<@U8TTWAP27>, :sunglasses:",
+        "user": "U24FDDCG7",
+        "ts": "1608449023.498400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "0bd341a25aa5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-10-31\/817646128582_0bd341a25aa5c4f57d0b_72.png",
+            "first_name": "Andrey",
+            "real_name": "Andrey Vinokurov",
+            "display_name": "aWin",
+            "team": "T040HKJE3",
+            "name": "awin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RoEf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U8TTWAP27"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunglasses"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608303113.430200",
+        "parent_user_id": "U01GHND8U77"
+    },
+    {
+        "client_msg_id": "9BEE0DEE-0C72-4710-BE4C-B6BF4753F174",
+        "type": "message",
+        "text": "Что-то тут всё-таки не так",
+        "user": "U01DXP53RV2",
+        "ts": "1608450041.498700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6619178fa6aa",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-03-06\/1830006890418_6619178fa6aafb28f750_72.png",
+            "first_name": "Andrey",
+            "real_name": "Andrey Chubin",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "andrey.chubin.95",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U01DXP53RV2",
+            "ts": "1608450265.000000"
+        },
+        "attachments": [
+            {
+                "title": "Взяли кэшем",
+                "title_link": "https:\/\/lenta.ru\/articles\/2018\/10\/18\/cashbery\/",
+                "text": "Они обворовали россиян на миллиарды: крупнейшая пирамида последних 20 лет",
+                "fallback": "Взяли кэшем",
+                "image_url": "https:\/\/icdn.lenta.ru\/images\/2018\/10\/17\/18\/20181017180641356\/original_02f97d582d3a399448b0b9386f5e75b5.jpg",
+                "from_url": "https:\/\/lenta.ru\/articles\/2018\/10\/18\/cashbery\/",
+                "image_width": 375,
+                "image_height": 250,
+                "image_bytes": 250695,
+                "service_icon": "https:\/\/lenta.ru\/favicon.ico",
+                "service_name": "lenta.ru",
+                "id": 1,
+                "original_url": "https:\/\/lenta.ru\/articles\/2018\/10\/18\/cashbery\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/Od",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Что-то тут всё-таки не так"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1608367347.447200",
+        "parent_user_id": "U01G39MP35F"
+    }
+]

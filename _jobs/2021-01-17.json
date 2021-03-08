@@ -1,0 +1,992 @@
+[
+    {
+        "client_msg_id": "a44e65c0-f229-40ac-a517-ff5f88cfe502",
+        "type": "message",
+        "text": "Срочно ищем!\n*Компания:* Биовитрум (лабораторная диагностика, медицина) <http:\/\/www.biovitrum.ru|www.biovitrum.ru>\n*Город:* Желательно Санкт-Петербург.\n*Вакансия:* Руководитель группы цифровизации\n*Зарплата:* 250-300 NET\n*Задачи:*\nРеализовывать внутренние цифровые проекты компании, в частности\n• Создание Data Lake из различных источников информации (Госзакупки, Росздравнадзор, ERP), обогащение данных в озере через микросервисы, в т.ч. ML NLP, и представление это через BI (Tableu)\n• Автоматизация работы с госторгами (классификация торгов наш\/не наш, встройка результатов внутрь систем), классификация входящих сообщений и т.д.\n• Создание системы управления информации о продукции, созданная по принципу «квантов» информации связанных в графы.\n• Обсуждение, активное предложение развития других проектов в рамках цифровизации компании.\nВсе проекты находятся в стадии реализации MVP1, выделены бюджеты, сформированы принципы и архитектура, есть заинтересованный внутренний заказчик и собрана межфункциональная команда, стабильная отрасль.\n*Команда группы:* 2 BackEnd (1 вакансия), 1 fullstack, 1 Frontend (вакансия), 1 DS, 1 Data Architecture\nТребования к кандидату: практический опыт работы руками по созданию Web Application, REST API, опыт руководства командой разработчиков (уметь делать code review и направлять людей) мин 5 лет. Владение всеми основными инструментами разработок (Git, Python, SQL и прочее, но без специфики).\nВысокая коммуникабельность, умение работать в «предпринимательском» режиме, готовность доносить идеи до бизнеса и проводить внутренние обучения. Горящие глаза и желание развиваться в области цифровизации реального сектора.\nПишите в личку или на <mailto:dmitriy.gureev@biovitrum.ru|dmitriy.gureev@biovitrum.ru>",
+        "user": "U01G0V7TAPR",
+        "ts": "1610892037.165000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g938bc61e6ca",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/938bc61e6ca3d578f09f96a401fc5d3c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "Dmitry Gureev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "dvgureev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2HMS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Срочно ищем!\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Биовитрум (лабораторная диагностика, медицина) "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/www.biovitrum.ru",
+                                "text": "www.biovitrum.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Желательно Санкт-Петербург.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Руководитель группы цифровизации\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Зарплата: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "250-300 NET\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Задачи:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nРеализовывать внутренние цифровые проекты компании, в частности\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Создание Data Lake из различных источников информации (Госзакупки, Росздравнадзор, ERP), обогащение данных в озере через микросервисы, в т.ч. ML NLP, и представление это через BI (Tableu)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Автоматизация работы с госторгами (классификация торгов наш\/не наш, встройка результатов внутрь систем), классификация входящих сообщений и т.д."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Создание системы управления информации о продукции, созданная по принципу «квантов» информации связанных в графы."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Обсуждение, активное предложение развития других проектов в рамках цифровизации компании."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "offset": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Все проекты находятся в стадии реализации MVP1, выделены бюджеты, сформированы принципы и архитектура, есть заинтересованный внутренний заказчик и собрана межфункциональная команда, стабильная отрасль.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Команда группы: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "2 BackEnd (1 вакансия), 1 fullstack, 1 Frontend (вакансия), 1 DS, 1 Data Architecture\nТребования к кандидату: практический опыт работы руками по созданию Web Application, REST API, опыт руководства командой разработчиков (уметь делать code review и направлять людей) мин 5 лет. Владение всеми основными инструментами разработок (Git, Python, SQL и прочее, но без специфики).\nВысокая коммуникабельность, умение работать в «предпринимательском» режиме, готовность доносить идеи до бизнеса и проводить внутренние обучения. Горящие глаза и желание развиваться в области цифровизации реального сектора.\nПишите в личку или на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:dmitriy.gureev@biovitrum.ru",
+                                "text": "dmitriy.gureev@biovitrum.ru"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "UQ9UCJT0T",
+                    "U7E8Y3V19"
+                ],
+                "count": 2
+            },
+            {
+                "name": "harold",
+                "users": [
+                    "UDK41MN5U",
+                    "U709XK88H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bdfe366b-839e-4071-9a04-299def98e6d8",
+        "type": "message",
+        "text": "Подскажите, пожалуйста, какого числа ожидать ответное письмо со ссылкой-приглашением на участие в Дне открытых дверей?",
+        "user": "U01HNUV4PAM",
+        "ts": "1610899250.166300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g34a0bf66e53",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/34a0bf66e53b4e25769547ee73213190.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "Elvira Salakhova",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "st063765",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "t8f3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Подскажите, пожалуйста, какого числа ожидать ответное письмо со ссылкой-приглашением на участие в Дне открытых дверей?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1610363462.472300",
+        "parent_user_id": "U94HAVBU0"
+    },
+    {
+        "client_msg_id": "9bd8249e-9e80-4ff2-aca9-d3889c98bc6d",
+        "type": "message",
+        "text": "Виталий, добрый день. Тестировали Минакова и Зеленцова? Оба работают у Вас в компании. Возможно не придется искать человека со стороны.",
+        "user": "U7FS2S3C0",
+        "ts": "1610910442.167200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g4d1861c0939",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/d34d1861c093940b86ca93f6522fe42d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "Комиссаров",
+            "real_name": "Комиссаров Михаил Алексеевич",
+            "display_name": "Ad_Fesha",
+            "team": "T040HKJE3",
+            "name": "ad.fesha",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uP3R2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Виталий, добрый день. Тестировали Минакова и Зеленцова? Оба работают у Вас в компании. Возможно не придется искать человека со стороны."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1610701558.096900",
+        "parent_user_id": "U01JEKLK2UA"
+    },
+    {
+        "client_msg_id": "8285c2b5-22d7-46b2-9f23-13a7b3b6d93c",
+        "type": "message",
+        "text": "Привет. Нашли еще двух человек с :ods: Нужны еще на ad-hoc\/bi направление\n*Название вакансии:* Аналитик данных (middle=2\/junior=1)\n*Город*: Новосибирск, Красный проспект, 17 БЦ Панорама, 11 этаж\n*Название компании:* Ridex GmbH\nКрупный производитель автозапчастей. Наша компания входит в группу компаний  <http:\/\/autodoc.de|autodoc.de> онлайн-ритейлера автозапчастей #1 в Европе с головным офисом в Берлине, представительствами в 5-ти странах и штатом более 4000 человек.\n*Описание задач:* Ad-hoc запросы для стейкхолдеров, SQL шатание таблиц (clickhouse\/MySQL), поддержка Power BI\/Tableau отчетов\n*Требования* математическая статистика, Python или R , SQL (будет плюсом PowerBI\/Tableau)\n*Вилка: нетто* middle 50-80\/month (junior 40-50) + годовой бонус до 2 окладов\nЕсть курсы Data Analyst (R\/Python) и Data Science (R\/Python) на <http:\/\/datacamp.com|datacamp.com> и <http:\/\/dataquest.io|dataquest.io>, корп библиотека, печеньки+фрукты\n*Контакты:* мне в Slack в личку в  <https:\/\/t.me\/cosa31|tg> или на почту <mailto:d.asalhanov@stark-automotive.com|d.asalhanov@stark-automotive.com> с названием вакансии в теме  или hr <mailto:s.ukolova@autodoc.eu|s.ukolova@autodoc.eu>\nна время пандемии на удаленке, после в офисе. Вакансия не удаленная",
+        "user": "U9AFA9HCZ",
+        "ts": "1610946730.180500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3bc2295b8d63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-19\/317126716996_3bc2295b8d630feccb66_72.jpg",
+            "first_name": "Денис",
+            "real_name": "Денис Асалханов",
+            "display_name": "cosa31",
+            "team": "T040HKJE3",
+            "name": "asalhanvip",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Telegram",
+                "title": "Denis Asalhan",
+                "title_link": "https:\/\/t.me\/cosa31",
+                "text": "You can contact @cosa31 right away.",
+                "fallback": "Telegram: Denis Asalhan",
+                "thumb_url": "https:\/\/telegram.org\/img\/t_logo.png",
+                "from_url": "https:\/\/t.me\/cosa31",
+                "thumb_width": 128,
+                "thumb_height": 128,
+                "service_icon": "http:\/\/telegram.org\/favicon.ico?3",
+                "id": 1,
+                "original_url": "https:\/\/t.me\/cosa31"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Vgn4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет. Нашли еще двух человек с "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ods"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Нужны еще на ad-hoc\/bi направление\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Название вакансии: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Аналитик данных (middle=2\/junior=1)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Новосибирск, Красный проспект, 17 БЦ Панорама, 11 этаж\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Название компании:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Ridex GmbH\nКрупный производитель автозапчастей. Наша компания входит в группу компаний  "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/autodoc.de",
+                                "text": "autodoc.de"
+                            },
+                            {
+                                "type": "text",
+                                "text": " онлайн-ритейлера автозапчастей #1 в Европе с головным офисом в Берлине, представительствами в 5-ти странах и штатом более 4000 человек.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Описание задач: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Ad-hoc запросы для стейкхолдеров, SQL шатание таблиц (clickhouse\/MySQL), поддержка Power BI\/Tableau отчетов\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "математическая статистика, Python или R , SQL (будет плюсом PowerBI\/Tableau)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка: нетто ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "middle 50-80\/month (junior 40-50) + годовой бонус до 2 окладов\nЕсть курсы Data Analyst (R\/Python) и Data Science (R\/Python) на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/datacamp.com",
+                                "text": "datacamp.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": " и "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/dataquest.io",
+                                "text": "dataquest.io"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", корп библиотека, печеньки+фрукты\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Контакты:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " мне в Slack в личку в  "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/t.me\/cosa31",
+                                "text": "tg"
+                            },
+                            {
+                                "type": "text",
+                                "text": " или на почту "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:d.asalhanov@stark-automotive.com",
+                                "text": "d.asalhanov@stark-automotive.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": " с названием вакансии в теме  или hr "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:s.ukolova@autodoc.eu",
+                                "text": "s.ukolova@autodoc.eu"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nна время пандемии на удаленке, после в офисе. Вакансия не удаленная"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1610946730.180500",
+        "reply_count": 17,
+        "reply_users_count": 6,
+        "latest_reply": "1610969368.222200",
+        "reply_users": [
+            "USGUL2JF6",
+            "U9AFA9HCZ",
+            "U709XK88H",
+            "U012M724BLN",
+            "U9HSZRDP1",
+            "U7VUY1JG3"
+        ],
+        "replies": [
+            {
+                "user": "USGUL2JF6",
+                "ts": "1610951249.185500"
+            },
+            {
+                "user": "U9AFA9HCZ",
+                "ts": "1610952210.187100"
+            },
+            {
+                "user": "U709XK88H",
+                "ts": "1610952271.187300"
+            },
+            {
+                "user": "USGUL2JF6",
+                "ts": "1610952692.188100"
+            },
+            {
+                "user": "U012M724BLN",
+                "ts": "1610952830.188500"
+            },
+            {
+                "user": "U709XK88H",
+                "ts": "1610953186.188800"
+            },
+            {
+                "user": "U709XK88H",
+                "ts": "1610953334.189100"
+            },
+            {
+                "user": "U9HSZRDP1",
+                "ts": "1610960071.204900"
+            },
+            {
+                "user": "U012M724BLN",
+                "ts": "1610961735.206500"
+            },
+            {
+                "user": "U7VUY1JG3",
+                "ts": "1610961804.206800"
+            },
+            {
+                "user": "U9HSZRDP1",
+                "ts": "1610961862.207200"
+            },
+            {
+                "user": "U709XK88H",
+                "ts": "1610962849.207800"
+            },
+            {
+                "user": "U012M724BLN",
+                "ts": "1610962916.208000"
+            },
+            {
+                "user": "U709XK88H",
+                "ts": "1610962974.208300"
+            },
+            {
+                "user": "U012M724BLN",
+                "ts": "1610964349.209400"
+            },
+            {
+                "user": "U9AFA9HCZ",
+                "ts": "1610969351.221600"
+            },
+            {
+                "user": "U9AFA9HCZ",
+                "ts": "1610969368.222200"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "nichosi",
+                "users": [
+                    "ULRSUPJQK",
+                    "U01B27AD7ND",
+                    "U7PHZ3QTU",
+                    "UQ9UCJT0T"
+                ],
+                "count": 4
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "ULRSUPJQK",
+                    "U01B27AD7ND",
+                    "UQVTRBQ9J",
+                    "U9AFA9HCZ",
+                    "U0167EG9V6W",
+                    "U016DKXB1TN",
+                    "U9K5KNKS4"
+                ],
+                "count": 7
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "UTCLUQ53L",
+                    "U70K9231V"
+                ],
+                "count": 2
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U7SFPUVQF",
+                    "UJ4F12XCP",
+                    "U0952QCHE",
+                    "UB4AGRL3C",
+                    "U705ED0CU",
+                    "U6T11F9T4",
+                    "U01364G3W84",
+                    "U01GSMY4BJ7",
+                    "U4AP30L65",
+                    "U01GMQUHLAF",
+                    "UKSNZD2BH",
+                    "USGUL2JF6",
+                    "UJK46KE1L",
+                    "ULRT7HT1R",
+                    "UJ2JGSQ3X",
+                    "U01CX0XER3R",
+                    "UD2NGFPHD",
+                    "U018JUMQU5S",
+                    "UDUBG85P1",
+                    "URC5ML0JK",
+                    "U3U1U8MBK",
+                    "UDDJ1A4CA",
+                    "U7ZTSPE8M",
+                    "U04725QK7",
+                    "UDGGNQJKF",
+                    "UG1886P8R",
+                    "UEK7QL3HN",
+                    "U1VBAF9K2",
+                    "UHH0X21L4",
+                    "U3Y5VQ5J6",
+                    "UHGUXSJRK",
+                    "U5R820KH6",
+                    "UCB3PK96J",
+                    "U60EETE7N",
+                    "U011RAP0KA9",
+                    "UM7UL6R3M",
+                    "U01DH2UH0D7",
+                    "U74DLUWUC",
+                    "U7E8Y3V19",
+                    "UR2BS9857",
+                    "U014F8HB4HX",
+                    "UQ3SDJNCE",
+                    "U049HDR2Z",
+                    "UNDJC82EQ",
+                    "U01JCAEEN48",
+                    "U4SKDV2HF",
+                    "U01JDLR6BPE",
+                    "UNP5YEWL9",
+                    "UQ3MN4ERE",
+                    "U01JVSG7EUD"
+                ],
+                "count": 53
+            },
+            {
+                "name": "el_resitas_shake",
+                "users": [
+                    "UD37TP39U",
+                    "UCB3PK96J",
+                    "UNEAGQVHC",
+                    "U049HDR2Z",
+                    "UKCLQLZB2"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c070ce8d-ace0-4906-afe0-b2d061fe8887",
+        "type": "message",
+        "text": "Так это годовая компенсация в €, тем более головной офис в Берлине, а вы опять :ramen: понаставили.\nА если серьёзно, то джуна, наверное, после курсов, найти можно, но вилка миддла - это рофл какой-то?",
+        "user": "USGUL2JF6",
+        "ts": "1610951249.185500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c4c1df4dc15",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-07\/1341231899958_6c4c1df4dc15230b6af6_72.jpg",
+            "first_name": "Ruslan",
+            "real_name": "Ruslan Murtazin",
+            "display_name": "soltkreig",
+            "team": "T040HKJE3",
+            "name": "murtazinmur",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "USGUL2JF6",
+            "ts": "1610951553.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "crN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Так это годовая компенсация в €, тем более головной офис в Берлине, а вы опять "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ramen"
+                            },
+                            {
+                                "type": "text",
+                                "text": " понаставили.\nА если серьёзно, то джуна, наверное, после курсов, найти можно, но вилка миддла - это рофл какой-то?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1610946730.180500",
+        "parent_user_id": "U9AFA9HCZ"
+    },
+    {
+        "client_msg_id": "73f1dea5-4c63-46ef-8abf-a1d89209a731",
+        "type": "message",
+        "text": "не - офис в НСК в руб",
+        "user": "U9AFA9HCZ",
+        "ts": "1610952210.187100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3bc2295b8d63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-19\/317126716996_3bc2295b8d630feccb66_72.jpg",
+            "first_name": "Денис",
+            "real_name": "Денис Асалханов",
+            "display_name": "cosa31",
+            "team": "T040HKJE3",
+            "name": "asalhanvip",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eHFHf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "не - офис в НСК в руб"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1610946730.180500",
+        "parent_user_id": "U9AFA9HCZ"
+    },
+    {
+        "client_msg_id": "2ce9c770-9be4-4e12-b185-e285246cc6df",
+        "type": "message",
+        "text": "<@USGUL2JF6>, а Вы сами из Москвы когда-нибудь выезжали?)",
+        "user": "U709XK88H",
+        "ts": "1610952271.187300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gb01bea945a4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0bb01bea945a403175ef492f155a5a52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "Stanislav Isupov",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "isupov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xVy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "USGUL2JF6"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", а Вы сами из Москвы когда-нибудь выезжали?)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1610946730.180500",
+        "parent_user_id": "U9AFA9HCZ"
+    },
+    {
+        "client_msg_id": "77c131e1-3bdc-44a9-be53-e1a6ff1f12ef",
+        "type": "message",
+        "text": "<@U709XK88H> Станислав, мы же с Вами уже говорили про эту поводу - я из Екб)",
+        "user": "USGUL2JF6",
+        "ts": "1610952692.188100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c4c1df4dc15",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-07\/1341231899958_6c4c1df4dc15230b6af6_72.jpg",
+            "first_name": "Ruslan",
+            "real_name": "Ruslan Murtazin",
+            "display_name": "soltkreig",
+            "team": "T040HKJE3",
+            "name": "murtazinmur",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "P5Jk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U709XK88H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Станислав, мы же с Вами уже говорили про эту поводу - я из Екб)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1610946730.180500",
+        "parent_user_id": "U9AFA9HCZ"
+    },
+    {
+        "client_msg_id": "7990dee6-a60f-44b8-afe1-26e3c527cdb8",
+        "type": "message",
+        "text": "<@U709XK88H> наверное рофл - не сам по себе уровень зп, а то, что на такую вилку можно найти людей в этом сообществе.",
+        "user": "U012M724BLN",
+        "ts": "1610952830.188500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g347f65db16e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/347f65db16e1c3b917577b883b8a102e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png",
+            "first_name": "",
+            "real_name": "Tatlin",
+            "display_name": "Tatlin",
+            "team": "T040HKJE3",
+            "name": "tanitachka1702",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IGGN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U709XK88H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " наверное рофл - не сам по себе уровень зп, а то, что на такую вилку можно найти людей в этом сообществе."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1610946730.180500",
+        "parent_user_id": "U9AFA9HCZ",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UDUBG85P1",
+                    "UCB3PK96J",
+                    "U7WFH7UUF",
+                    "U01GVMZD341"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c6e13297-1410-4038-be2e-7f560a623f88",
+        "type": "message",
+        "text": "<@USGUL2JF6>, людей много, простите)",
+        "user": "U709XK88H",
+        "ts": "1610953186.188800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gb01bea945a4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0bb01bea945a403175ef492f155a5a52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "Stanislav Isupov",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "isupov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YPlab",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "USGUL2JF6"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", людей много, простите)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1610946730.180500",
+        "parent_user_id": "U9AFA9HCZ"
+    },
+    {
+        "client_msg_id": "465ddea5-c052-4026-bfc7-c2e7518bbcdb",
+        "type": "message",
+        "text": "Просто в Москве стартовые зарплаты стажеров, джунов и мидлов \"на старте\" отличаются друг от друга примерно в 2х раза.\n\n<@U012M724BLN>, не все гонятся за высокой зп. Некоторые хотят просто работать, получать денюжку и потихоньку стагнировать )",
+        "user": "U709XK88H",
+        "ts": "1610953334.189100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gb01bea945a4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0bb01bea945a403175ef492f155a5a52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "Stanislav Isupov",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "isupov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k13z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Просто в Москве стартовые зарплаты стажеров, джунов и мидлов \"на старте\" отличаются друг от друга примерно в 2х раза.\n\n"
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U012M724BLN"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", не все гонятся за высокой зп. Некоторые хотят просто работать, получать денюжку и потихоньку стагнировать )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1610946730.180500",
+        "parent_user_id": "U9AFA9HCZ",
+        "reactions": [
+            {
+                "name": "harold",
+                "users": [
+                    "U8X20BYE4",
+                    "UGPDS351S",
+                    "UC9FVAQMA",
+                    "UCB3PK96J",
+                    "U7SFPUVQF",
+                    "U01364G3W84",
+                    "U7WFH7UUF",
+                    "U01GVMZD341",
+                    "U016DLDD1D2"
+                ],
+                "count": 9
+            }
+        ]
+    }
+]

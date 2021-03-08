@@ -1,0 +1,717 @@
+[
+    {
+        "client_msg_id": "046cb17c-41f8-4896-a54d-c6021a3b2a99",
+        "type": "message",
+        "text": "Для чего плюсы используете?",
+        "user": "USGUL2JF6",
+        "ts": "1612002872.072900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c4c1df4dc15",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-07\/1341231899958_6c4c1df4dc15230b6af6_72.jpg",
+            "first_name": "Ruslan",
+            "real_name": "Ruslan Murtazin",
+            "display_name": "soltkreig",
+            "team": "T040HKJE3",
+            "name": "murtazinmur",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9Jo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Для чего плюсы используете?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611941616.054200",
+        "parent_user_id": "U013AMQEL13"
+    },
+    {
+        "client_msg_id": "f95468a3-33ac-4f0e-b769-a002d95378e0",
+        "type": "message",
+        "text": "Вакансия: *2 x ML Engineer*.\nКомпания: *Тинькофф*.\nГород: Вообще Москва, но пока все удаленно и если вы из другого города, пишите.\nВилка: *Junior* *80 - 130k gross.*\n              *Middle 130 - 230к gross*.\n\n*Что делать*:\nМодель описания клиента на основе его транзакций хорошо применима в ряде задач.\nНужно:\n• развивать модель, улучшать существующий подход,\n• добавлять источники данных: чеки, логи активности, поведение в мобильном банке и т.п.,\n• downstream задачи, применять и адаптировать подход к новым кейсам.\n*Что ожидается*:\n• базовая математическая подготовка: теор вер, матстат;\n• твердые навыки в Classic ML &amp; DL;\n• знание современных подходов [и желательно опыт применения] в NLP;\n• уверенный python и ml-python (pandas, sklearn, numpy, etc), pytorch или tf;\n• git, docker.\n*Будет плюсом*:\n• опыт внедрения и поддержки моделей в проде;\n• опыт работы с k8s, TFServing \/ Triton.\n*Предлагаем*:\n• Вычислительный кластер 80 x V100, будем расширять в этом году + много другого железа;\n• Офис на Водном стадионе;\n• Своя платформа разметки;\n• Внутренние события: ML Seminar, Reading Clubs, митапы, тренинги;\n• Tinkoff.Сafe как пустят в офис;\n• После испытательного срока ДМС + НС + Tinkoff.Sport.\nПисать <mailto:k.p.osminin@tinkoff.ru|k.p.osminin@tinkoff.ru>, в теме письма [ODS.Transactions] либо рекрутеру Павлу :telegram:pawell.",
+        "user": "U2FM0GQUE",
+        "ts": "1612005159.074500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f9e7df73242a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-03-28\/592453955894_f9e7df73242a0d585024_72.jpg",
+            "first_name": "Константин",
+            "real_name": "Константин Осминин",
+            "display_name": "osminink",
+            "team": "T040HKJE3",
+            "name": "osminink",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pggN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Вакансия: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "2 x ML Engineer",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\nКомпания: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Тинькофф",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\nГород: Вообще Москва, но пока все удаленно и если вы из другого города, пишите.\nВилка: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Junior",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "80 - 130k gross.",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "              Middle 130 - 230к gross",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что делать",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\nМодель описания клиента на основе его транзакций хорошо применима в ряде задач.\nНужно:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "развивать модель, улучшать существующий подход,"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "добавлять источники данных: чеки, логи активности, поведение в мобильном банке и т.п.,"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "downstream задачи, применять и адаптировать подход к новым кейсам."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что ожидается",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "базовая математическая подготовка: теор вер, матстат;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "твердые навыки в Classic ML & DL;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "знание современных подходов [и желательно опыт применения] в NLP;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "уверенный python и ml-python (pandas, sklearn, numpy, etc), pytorch или tf;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "git, docker."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Будет плюсом",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "опыт внедрения и поддержки моделей в проде;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "опыт работы с k8s, TFServing \/ Triton."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Предлагаем",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Вычислительный кластер 80 x V100, будем расширять в этом году + много другого железа;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Офис на Водном стадионе;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Своя платформа разметки;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Внутренние события: ML Seminar, Reading Clubs, митапы, тренинги;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Tinkoff.Сafe как пустят в офис;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "После испытательного срока ДМС + НС + Tinkoff.Sport."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nПисать "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:k.p.osminin@tinkoff.ru",
+                                "text": "k.p.osminin@tinkoff.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", в теме письма [ODS.Transactions] либо рекрутеру Павлу "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "telegram"
+                            },
+                            {
+                                "type": "text",
+                                "text": "pawell."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U01J14LH0QG",
+                    "UEK7QL3HN",
+                    "UMM890NT1",
+                    "UKQTPE877",
+                    "UTSEA2RFS",
+                    "U01184AJRH8",
+                    "UG3P7DHB9",
+                    "U0AS385PG",
+                    "U5FB91P55",
+                    "U6WTSFMSP",
+                    "UMKFYUG7L",
+                    "UR15C8THV",
+                    "UTA0FH53P",
+                    "U27SUBTB9",
+                    "U013MT6UT1D",
+                    "UKQTHKEPJ",
+                    "U01A0Q7KT62",
+                    "U1TJJJZQ8",
+                    "UDK41MN5U",
+                    "U7WFH7UUF",
+                    "UPXFW5346",
+                    "U01GABCEV4N",
+                    "U7ZUB2REH",
+                    "U04FHEY0M",
+                    "U01JZ5M8RJ7",
+                    "UTSBPULD7"
+                ],
+                "count": 26
+            },
+            {
+                "name": "tinkoffbank",
+                "users": [
+                    "UMM890NT1",
+                    "U01184AJRH8",
+                    "UG3P7DHB9",
+                    "U6WTSFMSP",
+                    "U27SUBTB9",
+                    "U6HFSNFQR"
+                ],
+                "count": 6
+            },
+            {
+                "name": "tinkoff",
+                "users": [
+                    "UAH9H0R17",
+                    "U017U528UB1",
+                    "U6UD5JDJR",
+                    "UGCC72RND",
+                    "U60EETE7N",
+                    "UMM4N60K1",
+                    "U0AS385PG",
+                    "U5FB91P55",
+                    "U6WTSFMSP",
+                    "UF9DFTV1U",
+                    "U27SUBTB9",
+                    "U0K47J3HR",
+                    "UQ3MWD6NR",
+                    "UC9J53NAY",
+                    "U01A5H5MC80",
+                    "U01HNF1VB8B",
+                    "UCMAWD588",
+                    "UCB3PK96J"
+                ],
+                "count": 18
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U04725QK7",
+                    "U1CGKK865",
+                    "U1G303UTW",
+                    "U4DT60JTW",
+                    "U016XAJU21E",
+                    "UC8NCT0PQ",
+                    "UD8SY4RB7",
+                    "U017VP0L73R",
+                    "UM37P4ZDE",
+                    "U01JCAEEN48",
+                    "U8J9XMX3J",
+                    "U10K3LXHV",
+                    "U014F8HB4HX",
+                    "U01364G3W84",
+                    "U74DLUWUC",
+                    "U0160NNUQVC",
+                    "UF5E26Z28",
+                    "U540P8P8A",
+                    "UMY97A22C",
+                    "U7ZTSPE8M",
+                    "U8DRB30SX",
+                    "UCB3PK96J",
+                    "U3PETUSSE",
+                    "UU0QN8D4L",
+                    "UTB82DKFT"
+                ],
+                "count": 25
+            },
+            {
+                "name": "fire",
+                "users": [
+                    "U6WTSFMSP",
+                    "UHG4EPVJL",
+                    "UU6LQEZFS"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "70b082d3-c494-455b-b47b-29734b277af0",
+        "type": "message",
+        "text": "Название компании тоже обязательно согласно правилам",
+        "user": "U6GDF7JF2",
+        "ts": "1612009430.075600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4f08e7692465",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-16\/316151733155_4f08e76924653e626c0f_72.jpg",
+            "first_name": "Serg",
+            "real_name": "Serg Lavrikov",
+            "display_name": "rumbok",
+            "team": "T040HKJE3",
+            "name": "rumbok",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3Qgr=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Название компании тоже обязательно согласно правилам"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611941616.054200",
+        "parent_user_id": "U013AMQEL13",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U0160N5KPHU"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fadc1d99-d148-49d9-a83f-6e0020b8d1c2",
+        "type": "message",
+        "text": "<@U5UB7E204>, большое спасибо за подробную информацию по зарплатам в :sber_new:. Можете, пожалуйста, уточнить пару моментов:\n1. Gross понимается без учёта НДФЛ, но с учётом ЕСН, то есть net salary = 0.87 * gross (или 0.85 в зависимости от дохода)?\n2. \"коэффициент прибыльности (даже в несамом удачно 2020 году коэффициент равнялся 1.9, обычно выше)\" -- речь о прибыльности \"Сбера\" как организации, то есть берётся отчёт по МСФО за 2020 год и как-то анализируется с выведением данного коэффициента, или о прибыльности подразделения?\n3. \"Знание базовых вещей в теории вероятностей, математическом анализе, линейной алгебре\" -- как проходят интервью, в виде нескольких этапов по подобию :google::yandex:? А то недавно здесь промелькнул Data Analyst из :sber_new:, который не смог вспомнить как выглядит Gaussian distribution.\n",
+        "user": "U0160N5KPHU",
+        "ts": "1612035976.083000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7a3c8d4309e7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-07\/1484597490530_7a3c8d4309e7568aa3fd_72.jpg",
+            "first_name": "Aleksandr",
+            "real_name": "Aleksandr Nikolaev",
+            "display_name": "Aleksandr Nikolaev",
+            "team": "T040HKJE3",
+            "name": "aleksandr.nikolaev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qS+n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U5UB7E204"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", большое спасибо за подробную информацию по зарплатам в "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sber_new"
+                            },
+                            {
+                                "type": "text",
+                                "text": ". Можете, пожалуйста, уточнить пару моментов:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Gross понимается без учёта НДФЛ, но с учётом ЕСН, то есть net salary = 0.87 * gross (или 0.85 в зависимости от дохода)?"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "\"коэффициент прибыльности (даже в несамом удачно 2020 году коэффициент равнялся 1.9, обычно выше)\" -- речь о прибыльности \"Сбера\" как организации, то есть берётся отчёт по МСФО за 2020 год и как-то анализируется с выведением данного коэффициента, или о прибыльности подразделения?"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "\"Знание базовых вещей в теории вероятностей, математическом анализе, линейной алгебре\" -- как проходят интервью, в виде нескольких этапов по подобию "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "google"
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "yandex"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "? А то недавно здесь промелькнул Data Analyst из "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "sber_new"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ", который не смог вспомнить как выглядит Gaussian distribution."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "ordered",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611732549.400400",
+        "parent_user_id": "U5UB7E204"
+    },
+    {
+        "client_msg_id": "2c8b306a-6a37-4e01-9a6b-5396a9370fac",
+        "type": "message",
+        "text": "<@U7VD176M9> а есть запись\/стенограмма твоей лекции?",
+        "user": "UFVBUV7QU",
+        "ts": "1612041431.091100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "b93749ebd026",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-02-02\/540232883092_b93749ebd02624d6d13f_72.jpg",
+            "first_name": "Alexey",
+            "real_name": "Alexey Klokov",
+            "display_name": "laggg",
+            "team": "T040HKJE3",
+            "name": "aaklokov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DI81",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U7VD176M9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " а есть запись\/стенограмма твоей лекции?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611852718.004900",
+        "parent_user_id": "UMCSN2MLH"
+    }
+]

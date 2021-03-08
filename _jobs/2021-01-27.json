@@ -1,0 +1,2033 @@
+[
+    {
+        "client_msg_id": "603c49b8-dd3e-4fc7-8e75-3a799452a75a",
+        "type": "message",
+        "text": "В Сбер себе в команду ищем несколько специалистов в области NLP.\nРанее уже успешно через ODS наняли несколько человек. На этот год нам расширили пул задач по NLP направлению, так что усиливаемся.\n\nКомпания: Сбер :sber_new:\nВакансия: специалист в области NLP\nГород: Москва (предполагается работа в офисе. в дистанционном режиме возможно работать лишь некоторые дни)\nВилки:\n    Указаны gross, без учета премий (квартальные по 1 окладу + годовая - 2.5-4 окладов)\n    Middle: 150 - 200 т.р.\n    Senior: 200 - 300 т.р.\n\t\nИщем middle\/senior специалистов. Мы занимаемся внедрением AI в процессы, обеспечивающие внутреннюю деятельность Банка. NLP здесь нужно для автообработки большого количества потока документов, которые формируются как внутри компании, так и которые приходят от внешних контагентов.\nМы не RnD подразделение, наша задача: довести решение до прома. Работать предполагается с реальными документами и улучшать конкретные бизнес метрики.\nПоэтому помимо \"тренировок сеток\" специалист будет заниматься следующими задачами:\n· выбирать оптимальный дизайн решения для задач (обычно внедрение AI технологий предполагает построение не 1 модели, а реализацию pipeline, включающего комбинацию различных технологий)\n· проводить trade-off между качеством и скоростью\n· оптимизировать работу алгоритмов в зависимости от условий работы (что-то можно запускать тяжелое на мощных серверах, а что-то необходимо оптимизировать для работы на рабочих станциях)\n· решать задачи text classification\/NER\/summarization\/slot-filling\/topic modeling\n· взаимодействовать с Заказчиком и другими командами Сбера\nЧто ждем от кандидата:\n· уверенные навыки разработки на python (+git, jira)\n· опыт применения \"baseline\" NLP стека (nltk, spacy, gensim, pymorphy2, glove, fasttext и т.д.)\n· опыт применения DL для решения NLP задач (реализация на pytorch\/tensorflow)\n· английский на уровне чтения статей\nПлюсом будет:\n· практический опыт работы с docker\n· наличие проектов на github\nЧто предлагаем:\n· прикладные задачи с понятными целями\n· возможность поработать на большом массиве текстовых данных\n· возможности саморазвития: оплата курсов популярных платформ, обучение за счёт компании\n· ДМС, спортзал\nКонтакты: Резюме просьба направлять мне на почту <mailto:rvleksutin@sberbank.ru|rvleksutin@sberbank.ru> (Роман Лексутин). Сообщение в слаке могу проморгать, поэтому вопросы лучше также направить по почте, указав свой telegram\/whatsapp и я уже там с Вами свяжусь.",
+        "user": "U6QGJGEDB",
+        "ts": "1611738085.407300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g592b04fcd1f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/69592b04fcd1fa83467fce44f676c112.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png",
+            "first_name": "Roman",
+            "real_name": "Roman Leksutin",
+            "display_name": "dwelf",
+            "team": "T040HKJE3",
+            "name": "dwelf",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KPv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "В Сбер себе в команду ищем несколько специалистов в области NLP.\nРанее уже успешно через ODS наняли несколько человек. На этот год нам расширили пул задач по NLP направлению, так что усиливаемся.\n\nКомпания: Сбер "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sber_new"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nВакансия: специалист в области NLP\nГород: Москва (предполагается работа в офисе. в дистанционном режиме возможно работать лишь некоторые дни)\nВилки:\n    Указаны gross, без учета премий (квартальные по 1 окладу + годовая - 2.5-4 окладов)\n    Middle: 150 - 200 т.р.\n    Senior: 200 - 300 т.р.\n\t\nИщем middle\/senior специалистов. Мы занимаемся внедрением AI в процессы, обеспечивающие внутреннюю деятельность Банка. NLP здесь нужно для автообработки большого количества потока документов, которые формируются как внутри компании, так и которые приходят от внешних контагентов.\nМы не RnD подразделение, наша задача: довести решение до прома. Работать предполагается с реальными документами и улучшать конкретные бизнес метрики.\nПоэтому помимо \"тренировок сеток\" специалист будет заниматься следующими задачами:\n· выбирать оптимальный дизайн решения для задач (обычно внедрение AI технологий предполагает построение не 1 модели, а реализацию pipeline, включающего комбинацию различных технологий)\n· проводить trade-off между качеством и скоростью\n· оптимизировать работу алгоритмов в зависимости от условий работы (что-то можно запускать тяжелое на мощных серверах, а что-то необходимо оптимизировать для работы на рабочих станциях)\n· решать задачи text classification\/NER\/summarization\/slot-filling\/topic modeling\n· взаимодействовать с Заказчиком и другими командами Сбера\nЧто ждем от кандидата:\n· уверенные навыки разработки на python (+git, jira)\n· опыт применения \"baseline\" NLP стека (nltk, spacy, gensim, pymorphy2, glove, fasttext и т.д.)\n· опыт применения DL для решения NLP задач (реализация на pytorch\/tensorflow)\n· английский на уровне чтения статей\nПлюсом будет:\n· практический опыт работы с docker\n· наличие проектов на github\nЧто предлагаем:\n· прикладные задачи с понятными целями\n· возможность поработать на большом массиве текстовых данных\n· возможности саморазвития: оплата курсов популярных платформ, обучение за счёт компании\n· ДМС, спортзал\nКонтакты: Резюме просьба направлять мне на почту "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:rvleksutin@sberbank.ru",
+                                "text": "rvleksutin@sberbank.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": " (Роман Лексутин). Сообщение в слаке могу проморгать, поэтому вопросы лучше также направить по почте, указав свой telegram\/whatsapp и я уже там с Вами свяжусь."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611738085.407300",
+        "reply_count": 4,
+        "reply_users_count": 4,
+        "latest_reply": "1611761015.439200",
+        "reply_users": [
+            "UAVE71UDN",
+            "U0160N5KPHU",
+            "UHY5KKK6D",
+            "U8TTWAP27"
+        ],
+        "replies": [
+            {
+                "user": "UAVE71UDN",
+                "ts": "1611742374.411900"
+            },
+            {
+                "user": "U0160N5KPHU",
+                "ts": "1611743466.412700"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1611744412.413600"
+            },
+            {
+                "user": "U8TTWAP27",
+                "ts": "1611761015.439200"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "U9V48C738",
+                    "U0160NF2KP0",
+                    "U6T11F9T4",
+                    "U74DLUWUC",
+                    "U01364G3W84",
+                    "U04725QK7",
+                    "U014F8HB4HX",
+                    "U4LBN5THS",
+                    "U4DT60JTW",
+                    "UG1886P8R",
+                    "UB8J03EN9",
+                    "U0181CKUCQP",
+                    "U01CX0XER3R",
+                    "U7VUY1JG3",
+                    "UCB3PK96J",
+                    "UU0QN8D4L",
+                    "U018JUMQU5S",
+                    "U01J2K73TR7",
+                    "UCMAWD588",
+                    "UDLJ261HS"
+                ],
+                "count": 20
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U7E8Y3V19",
+                    "U6QGJGEDB",
+                    "UMM890NT1",
+                    "U8DEZV7E2"
+                ],
+                "count": 4
+            },
+            {
+                "name": "sber_new",
+                "users": [
+                    "U6QGJGEDB",
+                    "U27SUBTB9",
+                    "UG09Q2A8Z",
+                    "UMM890NT1",
+                    "UCB3PK96J",
+                    "U34U3HUJD",
+                    "U8DEZV7E2",
+                    "URJ1D0ANB",
+                    "U9251KTDE"
+                ],
+                "count": 9
+            },
+            {
+                "name": "moneys",
+                "users": [
+                    "UBZ45UKGF",
+                    "UMM890NT1",
+                    "U8DEZV7E2"
+                ],
+                "count": 3
+            },
+            {
+                "name": "astanavites",
+                "users": [
+                    "UAVJ6E64R",
+                    "ULBF7D656",
+                    "U4AA9GF26"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f63f2272-c81b-48dd-96bb-d1b8cf0b8c7e",
+        "type": "message",
+        "text": "почему :ramen: , написано что зп 200-300 + минимум 6.5 окладов премиями что уже = 300-450р, если сеньер то 4+4.5 окладов",
+        "user": "UAVE71UDN",
+        "ts": "1611742374.411900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g2783da0d180",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/912783da0d180a4e5b067e49e3b6c15f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "SergK",
+            "real_name": "SergK",
+            "display_name": "SergK",
+            "team": "T040HKJE3",
+            "name": "mrkrasgoodman",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UAVE71UDN",
+            "ts": "1611742434.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0kGH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "почему "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ramen"
+                            },
+                            {
+                                "type": "text",
+                                "text": " , написано что зп 200-300 + минимум 6.5 окладов премиями что уже = 300-450р, если сеньер то 4+4.5 окладов"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611738085.407300",
+        "parent_user_id": "U6QGJGEDB"
+    },
+    {
+        "client_msg_id": "b7b80b06-ad0b-4a5f-b2b7-13941c7b452f",
+        "type": "message",
+        "text": "<@UAVE71UDN>, видимо потому, что раньше :sber_new: платил больше на тех же должностях. Рынок постепенно насыщается людьми, зарплаты идут вниз.",
+        "user": "U0160N5KPHU",
+        "ts": "1611743466.412700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7a3c8d4309e7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-07\/1484597490530_7a3c8d4309e7568aa3fd_72.jpg",
+            "first_name": "Aleksandr",
+            "real_name": "Aleksandr Nikolaev",
+            "display_name": "Aleksandr Nikolaev",
+            "team": "T040HKJE3",
+            "name": "aleksandr.nikolaev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0160N5KPHU",
+            "ts": "1611743493.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VqXm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UAVE71UDN"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", видимо потому, что раньше "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sber_new"
+                            },
+                            {
+                                "type": "text",
+                                "text": " платил больше на тех же должностях. Рынок постепенно насыщается людьми, зарплаты идут вниз."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611738085.407300",
+        "parent_user_id": "U6QGJGEDB"
+    },
+    {
+        "client_msg_id": "6a3581e7-1577-41d0-a044-512d31152cb2",
+        "type": "message",
+        "text": "вакансия огонь",
+        "user": "UDL0CCV8C",
+        "ts": "1611744270.413200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "81ed094ae0f0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-10-30\/814987654576_81ed094ae0f096ce570c_72.png",
+            "first_name": "Anton",
+            "real_name": "Anton V.",
+            "display_name": "Anton V.",
+            "team": "T040HKJE3",
+            "name": "darkalert2517",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=bon",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "вакансия огонь"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611688576.379600",
+        "parent_user_id": "U01JNFBL1DK",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U01JNFBL1DK"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "22c4c551-0d0a-454d-ac92-54c875a127cf",
+        "type": "message",
+        "text": "<@U01J4QKLCJG> привет. Насчет стажировки в этом году ясности пока нет, если будет - то осенью",
+        "user": "UA8RLNGSG",
+        "ts": "1611744320.413400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f7acac4c6839",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-02-15\/552161126786_f7acac4c683957c0cf72_72.jpg",
+            "first_name": "abelyaev",
+            "real_name": "abelyaev",
+            "display_name": "abelyaev",
+            "team": "T040HKJE3",
+            "name": "abelyaev.vmk",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VPBD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U01J4QKLCJG"
+                            },
+                            {
+                                "type": "text",
+                                "text": " привет. Насчет стажировки в этом году ясности пока нет, если будет - то осенью"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1598957209.012300",
+        "parent_user_id": "UA8RLNGSG"
+    },
+    {
+        "client_msg_id": "d14fd937-ce3a-49d6-afd1-f8c53397dfc6",
+        "type": "message",
+        "text": ":sber_new: армию себе набирает похоже",
+        "user": "UHY5KKK6D",
+        "ts": "1611744412.413600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3d7bb88461c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433476246342_f3d7bb88461c31e1bf92_72.jpg",
+            "first_name": "Dmitriy",
+            "real_name": "Dmitriy Novikov",
+            "display_name": "Dmitriy Novikov",
+            "team": "T040HKJE3",
+            "name": "nov.dm.konst",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UkTUH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "sber_new"
+                            },
+                            {
+                                "type": "text",
+                                "text": " армию себе набирает похоже"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611738085.407300",
+        "parent_user_id": "U6QGJGEDB",
+        "reactions": [
+            {
+                "name": "voenkom",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1611746326.417600",
+        "thread_ts": "1611746326.417600",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1611816617.459900",
+        "reply_users": [
+            "U3KBYJQSF",
+            "U01JZDJ659D"
+        ],
+        "replies": [
+            {
+                "user": "U3KBYJQSF",
+                "ts": "1611776526.452200"
+            },
+            {
+                "user": "U01JZDJ659D",
+                "ts": "1611816617.459900"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "spinthinking",
+                "users": [
+                    "U9CR1MU9K",
+                    "U01HTJZHB4Z",
+                    "UMM890NT1",
+                    "U677CBGH2",
+                    "U22T79M4N",
+                    "U01K8JQHC6M",
+                    "US0JD765B"
+                ],
+                "count": 7
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U9CR1MU9K",
+                    "U0FL6RNHM",
+                    "U3SJBMJ9M",
+                    "UCB3PK96J",
+                    "US2DY9BPH",
+                    "UMKQUB03V",
+                    "UDXMNJD4P",
+                    "U01CX0XER3R",
+                    "U677CBGH2",
+                    "U709XK88H",
+                    "UR9M1T5KP",
+                    "USSV2P8UF",
+                    "UGRFZ1DS5",
+                    "UCM3C939U",
+                    "UD37TP39U",
+                    "ULRRFCUR0",
+                    "U14L5TKNJ",
+                    "U22T79M4N",
+                    "UDWTMRDUM",
+                    "URFHG8KDF",
+                    "U46F2L65T",
+                    "U74DLUWUC",
+                    "UKQTPE877",
+                    "UQVTRBQ9J",
+                    "UDUBG85P1",
+                    "U7SFPUVQF",
+                    "U9JG577D1",
+                    "U014F8HB4HX",
+                    "U9V48C738",
+                    "UK18BB10T",
+                    "UQEH26YR5",
+                    "ULA9LRJR0",
+                    "UKSNZD2BH",
+                    "UDKSK23J6",
+                    "UM3876ZG8",
+                    "U7ZTSPE8M",
+                    "UGD9J4276",
+                    "UU0QN8D4L",
+                    "U71NPH07J",
+                    "UKQTHKEPJ",
+                    "UM38ES74G",
+                    "UG3P7DHB9",
+                    "UTBR67WMD"
+                ],
+                "count": 43
+            },
+            {
+                "name": "thi",
+                "users": [
+                    "UCB3PK96J",
+                    "UDUBG85P1",
+                    "U677CBGH2"
+                ],
+                "count": 3
+            },
+            {
+                "name": "rooster",
+                "users": [
+                    "UCB3PK96J",
+                    "U4PLYEYLA",
+                    "U22T79M4N"
+                ],
+                "count": 3
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "UEVA1NXGT",
+                    "U4BU5BR6X",
+                    "ULRRFCUR0",
+                    "U60EETE7N",
+                    "UPXFW5346",
+                    "U9V48C738",
+                    "ULA9LRJR0",
+                    "U01GSQW935H"
+                ],
+                "count": 8
+            },
+            {
+                "name": "yandex_llc",
+                "users": [
+                    "U01JZDJ659D",
+                    "U01G9GNG23D",
+                    "U013MT6UT1D"
+                ],
+                "count": 3
+            },
+            {
+                "name": "gnomik",
+                "users": [
+                    "USGUL2JF6"
+                ],
+                "count": 1
+            },
+            {
+                "name": "astanavites",
+                "users": [
+                    "U22T79M4N",
+                    "UU6LQEZFS",
+                    "U9V48C738"
+                ],
+                "count": 3
+            },
+            {
+                "name": "povar",
+                "users": [
+                    "U26MG2Z37"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f2cbc008-aa5f-4e53-b7c8-3767c369b3c2",
+        "type": "message",
+        "text": "<@U4BSTMP1R> у вас есть лицензии и на cplex и на gurobi? я бы одним cplex'ом ограничился",
+        "user": "UJVE7K3JL",
+        "ts": "1611758006.437300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g2838828b219",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/012838828b219aa7d23b3a8afdf5bd7c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png",
+            "first_name": "Sergey",
+            "real_name": "Sergey Kuznetsov",
+            "display_name": "SergeyK",
+            "team": "T040HKJE3",
+            "name": "terry28",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hev=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U4BSTMP1R"
+                            },
+                            {
+                                "type": "text",
+                                "text": " у вас есть лицензии и на cplex и на gurobi? я бы одним cplex'ом ограничился"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611685152.362400",
+        "parent_user_id": "U4BSTMP1R"
+    },
+    {
+        "client_msg_id": "e671926b-ea44-4021-84cc-62ff79f70407",
+        "type": "message",
+        "text": "Я так понимаю, доход не изменился, изменилась политика указания премий в вакансиях. Там число ощутимо повыше выходит.",
+        "user": "U8TTWAP27",
+        "ts": "1611761015.439200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3ca75a080a7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-01\/744489529860_f3ca75a080a74e6ae82e_72.png",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Simakov",
+            "display_name": "DmitryS",
+            "team": "T040HKJE3",
+            "name": "dmitryevsimakov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U8TTWAP27",
+            "ts": "1611761580.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ng7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Я так понимаю, доход не изменился, изменилась политика указания премий в вакансиях. Там число ощутимо повыше выходит."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611738085.407300",
+        "parent_user_id": "U6QGJGEDB"
+    },
+    {
+        "client_msg_id": "2d7f8059-144a-4dec-a5f5-fa0b1164fed5",
+        "type": "message",
+        "text": "Всем привет! \nВ компанию PulsePoint ищется ML инженер по оптимизации RTB аукционов на удаленку.\nОплата почасовая - $50\/час, занятость full time (чистыми выходит около 600тр\/месяц).\nТакже из плюшек:\n• Оплата конференций\n• Командировки в Нью Йорк\n• Большие ежегодные корпоративы в США\n• Релокация (по желанию) в США или Великобританию\nОписание позиции:\nPulsePoint’s award winning platforms accelerate data and programmatic technology to deliver contextually relevant and personalized health information. We help brands and agencies better understand audience engagement and are revolutionizing health decisions through real time data.\nAs a member of our Data Science Engineering team, the Machine Learning Engineer, Auction Mechanics, will focus on the following:\n_Optimizing real-time bidding strategies and auction mechanics to efficiently spend ad budgets and deliver against campaign targets;_\n\nIn addition to the above, they will work with the greater Data Science\/Engineering teams on:\n• Improving existing or developing new traffic segmentation algorithms and estimations of bid landscapes within each segment;\n• Supporting and enhancing the existing work on health user profiling, prediction, and targeting tools; \n• Contributing on projects relating to patient\/physician identity for cross-device tracking, profiling and targeting; \n• Supporting existing codebase for data integration and production support for our core models. \n• Improving page contextualizer technology: work with healthcare topics detection algorithms, keywords\/phrases extraction, general and aspect-based sentiment analysis.\n*Requirements*\nThese are the things that we'll be looking for from a candidate:\n• 5+ years of RTB Auction or similar experience;  (Note--_Please provide detail on this important requirement in your cover letter)._\n• Advanced knowledge of Python using numpy &amp; pandas;\n• Being able to optimize and speed up code. \n• Fluency in English\nIn addition to the above, you'll need to have strong knowledge in the following areas (along with a breakdown of the areas we'd like for you to have exposure with):\n• Algorithms and Data Structures--Sorting, search tree, binary heap, trie; Time &amp; mem complexity of algorithms.\n• Probability &amp; Statistics-Markov processes and its stationary distributions; Stochastic matrix and properties of its eigenvalues; Bayesian inference and conjugate distributions; Two-sample hypothesis testing.\n• ML &amp; DS--Dimensionality reduction; Geometry of PCA and SVD; Geometry of L1 and L2 regularisation (Why does L1 result in feature selection?); Decision Trees; Collaborative filtering; Thompson sampling; MCMC; Boosting, (Biases in Boosted DT); Bagging\n• Neural Networks--Embeddings; Encoders; Drop-out; CNN, RNN; Internal covariate shift.\nКому интересно - пишите в личку.",
+        "user": "U0K4Y1JAK",
+        "ts": "1611764960.442700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "05628d5016c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-21\/244664874148_05628d5016c46c9cdf05_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Mezentsev",
+            "display_name": "Pavel Mezentsev",
+            "team": "T040HKJE3",
+            "name": "pmezentsev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b8gE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет! \nВ компанию PulsePoint ищется ML инженер по оптимизации RTB аукционов на удаленку.\nОплата почасовая - $50\/час, занятость full time (чистыми выходит около 600тр\/месяц).\nТакже из плюшек:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Оплата конференций"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Командировки в Нью Йорк"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Большие ежегодные корпоративы в США"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Релокация (по желанию) в США или Великобританию"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nОписание позиции:\nPulsePoint’s award winning platforms accelerate data and programmatic technology to deliver contextually relevant and personalized health information. We help brands and agencies better understand audience engagement and are revolutionizing health decisions through real time data.\nAs a member of our Data Science Engineering team, the Machine Learning Engineer, Auction Mechanics, will focus on the following:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Optimizing real-time bidding strategies and auction mechanics to efficiently spend ad budgets and deliver against campaign targets;",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nIn addition to the above, they will work with the greater Data Science\/Engineering teams on:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Improving existing or developing new traffic segmentation algorithms and estimations of bid landscapes within each segment;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Supporting and enhancing the existing work on health user profiling, prediction, and targeting tools; "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Contributing on projects relating to patient\/physician identity for cross-device tracking, profiling and targeting; "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Supporting existing codebase for data integration and production support for our core models. "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Improving page contextualizer technology: work with healthcare topics detection algorithms, keywords\/phrases extraction, general and aspect-based sentiment analysis."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Requirements",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nThese are the things that we'll be looking for from a candidate:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "5+ years of RTB Auction or similar experience;  (Note--"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "Please provide detail on this important requirement in your cover letter).",
+                                        "style": {
+                                            "italic": true
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Advanced knowledge of Python using numpy & pandas;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Being able to optimize and speed up code. "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Fluency in English"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nIn addition to the above, you'll need to have strong knowledge in the following areas (along with a breakdown of the areas we'd like for you to have exposure with):\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Algorithms and Data Structures--Sorting, search tree, binary heap, trie; Time & mem complexity of algorithms."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Probability & Statistics-Markov processes and its stationary distributions; Stochastic matrix and properties of its eigenvalues; Bayesian inference and conjugate distributions; Two-sample hypothesis testing."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ML & DS--Dimensionality reduction; Geometry of PCA and SVD; Geometry of L1 and L2 regularisation (Why does L1 result in feature selection?); Decision Trees; Collaborative filtering; Thompson sampling; MCMC; Boosting, (Biases in Boosted DT); Bagging"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Neural Networks--Embeddings; Encoders; Drop-out; CNN, RNN; Internal covariate shift."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nКому интересно - пишите в личку."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611764960.442700",
+        "reply_count": 10,
+        "reply_users_count": 7,
+        "latest_reply": "1611791399.456300",
+        "reply_users": [
+            "U4LCAKK8C",
+            "U0K4Y1JAK",
+            "U0FEJNBGQ",
+            "ULA9M7CM9",
+            "U04ELQZAU",
+            "UG3GANMDZ",
+            "U3HM4KY14"
+        ],
+        "replies": [
+            {
+                "user": "U4LCAKK8C",
+                "ts": "1611765380.443600"
+            },
+            {
+                "user": "U0K4Y1JAK",
+                "ts": "1611765480.443900"
+            },
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1611766725.444900"
+            },
+            {
+                "user": "U0K4Y1JAK",
+                "ts": "1611767299.445300"
+            },
+            {
+                "user": "ULA9M7CM9",
+                "ts": "1611770534.449100"
+            },
+            {
+                "user": "U0K4Y1JAK",
+                "ts": "1611771898.449800"
+            },
+            {
+                "user": "U04ELQZAU",
+                "ts": "1611773694.451500"
+            },
+            {
+                "user": "UG3GANMDZ",
+                "ts": "1611777038.452600"
+            },
+            {
+                "user": "U3HM4KY14",
+                "ts": "1611788227.454800"
+            },
+            {
+                "user": "U0K4Y1JAK",
+                "ts": "1611791399.456300"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "UB4AGRL3C",
+                    "U0JHK9001",
+                    "U0167FFAR98",
+                    "U4LCAKK8C",
+                    "US946KVS7",
+                    "U3K7PNTML",
+                    "U01364G3W84",
+                    "UUP5MBYAE",
+                    "U018JUMQU5S",
+                    "U27SUBTB9",
+                    "UAL8CA2TF",
+                    "UCB3PK96J",
+                    "U8M5Y2Z6H",
+                    "U7E8Y3V19",
+                    "U013MT6UT1D",
+                    "UCKGAQKE0",
+                    "ULRRFCUR0",
+                    "U0JTMFHDE",
+                    "UC9HBTUKG",
+                    "U6XL9SAHH",
+                    "U22T79M4N",
+                    "U29TG6K9U",
+                    "UG0TA35HR",
+                    "UCHS7TRUL",
+                    "U99MEKJKH",
+                    "UAG7ST8JK",
+                    "UB4F4DZGV",
+                    "U8GBRP3PS",
+                    "UJ8UE41FS",
+                    "U44H5N3C1"
+                ],
+                "count": 30
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "USWFG9LET",
+                    "U01364G3W84",
+                    "U27SUBTB9",
+                    "U1MLEMG11",
+                    "U8M5Y2Z6H",
+                    "U06J1LG1M",
+                    "U7N4E8GBF",
+                    "U4M0CB0PJ",
+                    "UC9HBTUKG",
+                    "U29TG6K9U",
+                    "UG0TA35HR",
+                    "U0160PJMG5U",
+                    "UGFMUV1UH",
+                    "US0JD765B",
+                    "UHG4EPVJL",
+                    "U016XA1K7H6",
+                    "UCHS7TRUL",
+                    "U9YC38N57",
+                    "UJ8UE41FS",
+                    "UFS7085LJ"
+                ],
+                "count": 20
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U1MLEMG11"
+                ],
+                "count": 1
+            },
+            {
+                "name": "no-junior",
+                "users": [
+                    "U0FEJNBGQ",
+                    "UCB3PK96J",
+                    "U6GD2U8SE",
+                    "UNMTRMDE0",
+                    "UJ2N4SVBJ"
+                ],
+                "count": 5
+            },
+            {
+                "name": "moneys",
+                "users": [
+                    "U0K4Y1JAK",
+                    "UGRFZ1DS5",
+                    "U8ZDR4HMK"
+                ],
+                "count": 3
+            },
+            {
+                "name": "remote",
+                "users": [
+                    "U0K4Y1JAK",
+                    "UC9HBTUKG",
+                    "U01HNF1VB8B"
+                ],
+                "count": 3
+            },
+            {
+                "name": "printing-money",
+                "users": [
+                    "U74DMEDAQ",
+                    "UC9HBTUKG",
+                    "U01A0Q7KT62"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e019078c-bd3b-4053-8fa5-8e43ff68d093",
+        "type": "message",
+        "text": "У них бек для аукционов работает на Питоне?",
+        "user": "U4LCAKK8C",
+        "ts": "1611765380.443600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "9fc8a62d6384",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-09\/1224654090966_9fc8a62d6384827fedcc_72.jpg",
+            "first_name": "Serhii",
+            "real_name": "Serhii Romanenko",
+            "display_name": "serhii_romanenko",
+            "team": "T040HKJE3",
+            "name": "serhii_romanenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U4LCAKK8C",
+            "ts": "1611765395.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3BS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "У них бек для аукционов работает на Питоне?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611764960.442700",
+        "parent_user_id": "U0K4Y1JAK"
+    },
+    {
+        "client_msg_id": "cf781975-e0e2-4f60-bfe6-b249a8069e4b",
+        "type": "message",
+        "text": "Сам бек на джаве. Математика на питоне. Есть инженеры которые занимаются непосредственно java частью",
+        "user": "U0K4Y1JAK",
+        "ts": "1611765480.443900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "05628d5016c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-21\/244664874148_05628d5016c46c9cdf05_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Mezentsev",
+            "display_name": "Pavel Mezentsev",
+            "team": "T040HKJE3",
+            "name": "pmezentsev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z2bV1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Сам бек на джаве. Математика на питоне. Есть инженеры которые занимаются непосредственно java частью"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611764960.442700",
+        "parent_user_id": "U0K4Y1JAK",
+        "reactions": [
+            {
+                "name": "tnx",
+                "users": [
+                    "U4LCAKK8C"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "937020c7-7350-4ce4-8ec7-38b9e3c64959",
+        "type": "message",
+        "text": "работать надо в какой таймзоне?",
+        "user": "U0FEJNBGQ",
+        "ts": "1611766725.444900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SnKk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "работать надо в какой таймзоне?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611764960.442700",
+        "parent_user_id": "U0K4Y1JAK"
+    },
+    {
+        "client_msg_id": "159ed282-2141-40c5-98fd-33a7f431433e",
+        "type": "message",
+        "text": "Я из москвы работал с 13 до 22.  Офис работает с 10 до 7 по нью йорку (c 18 до 01 по москве), чем больше пересечение тем лучше",
+        "user": "U0K4Y1JAK",
+        "ts": "1611767299.445300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "05628d5016c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-21\/244664874148_05628d5016c46c9cdf05_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Mezentsev",
+            "display_name": "Pavel Mezentsev",
+            "team": "T040HKJE3",
+            "name": "pmezentsev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0K4Y1JAK",
+            "ts": "1611767651.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kMZ0T",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Я из москвы работал с 13 до 22.  Офис работает с 10 до 7 по нью йорку (c 18 до 01 по москве), чем больше пересечение тем лучше"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611764960.442700",
+        "parent_user_id": "U0K4Y1JAK"
+    },
+    {
+        "client_msg_id": "AFEE304A-A12C-45EA-89D8-1AA98F4821CB",
+        "type": "message",
+        "text": "<@UJVE7K3JL> на данный момент лицензии нет, но это решаемый вопрос:)",
+        "user": "U4BSTMP1R",
+        "ts": "1611768157.447400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "881c1eca9a8e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-20\/1181546607191_881c1eca9a8e6a87089b_72.jpg",
+            "first_name": "Ksenia",
+            "real_name": "Ksenia Kingsep",
+            "display_name": "kseniakingsep",
+            "team": "T040HKJE3",
+            "name": "everestimate",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iUDyi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJVE7K3JL"
+                            },
+                            {
+                                "type": "text",
+                                "text": " на данный момент лицензии нет, но это решаемый вопрос:)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611685152.362400",
+        "parent_user_id": "U4BSTMP1R"
+    },
+    {
+        "client_msg_id": "9943e613-12db-4385-8517-bfb3c395664a",
+        "type": "message",
+        "text": "Работал? Больше не работаешь? Если да, почему?",
+        "user": "ULA9M7CM9",
+        "ts": "1611770534.449100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3169fcb65db0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-01-24\/1692640356768_3169fcb65db08680441e_72.jpg",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Kosarevsky",
+            "display_name": "if",
+            "team": "T040HKJE3",
+            "name": "dkosarevsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "J2xB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Работал? Больше не работаешь? Если да, почему?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611764960.442700",
+        "parent_user_id": "U0K4Y1JAK"
+    },
+    {
+        "client_msg_id": "04b43cfd-a845-439f-9fc7-5f2fdc903b7d",
+        "type": "message",
+        "text": "Я в той же компании, просто переехал в Нью Йорк. Тут климат лучше и постоянный коллектив есть ))",
+        "user": "U0K4Y1JAK",
+        "ts": "1611771898.449800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "05628d5016c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-21\/244664874148_05628d5016c46c9cdf05_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Mezentsev",
+            "display_name": "Pavel Mezentsev",
+            "team": "T040HKJE3",
+            "name": "pmezentsev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0K4Y1JAK",
+            "ts": "1611771985.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Oph",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Я в той же компании, просто переехал в Нью Йорк. Тут климат лучше и постоянный коллектив есть ))"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611764960.442700",
+        "parent_user_id": "U0K4Y1JAK",
+        "reactions": [
+            {
+                "name": "tnx",
+                "users": [
+                    "ULA9M7CM9",
+                    "U34CYM9H6",
+                    "UFF2XJKHD"
+                ],
+                "count": 3
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "U8GBRP3PS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7f4cd3b1-3eec-406b-b701-5b0ab23ec12a",
+        "type": "message",
+        "text": "Есть тут кто пятилетним опытом в аукционах, не попадающий под остальные требования? Давайте я закрою все остальные компетенции, а вы меня консультировать будете :trollface:",
+        "user": "U04ELQZAU",
+        "ts": "1611773694.451500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f6bc50fa5754",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-10-20\/93944572805_f6bc50fa575469918b41_72.png",
+            "first_name": "Артём",
+            "real_name": "Артём Соболев",
+            "display_name": "asobolev",
+            "team": "T040HKJE3",
+            "name": "asobolev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wVd7O",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Есть тут кто пятилетним опытом в аукционах, не попадающий под остальные требования? Давайте я закрою все остальные компетенции, а вы меня консультировать будете "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "trollface"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611764960.442700",
+        "parent_user_id": "U0K4Y1JAK",
+        "reactions": [
+            {
+                "name": "thinking",
+                "users": [
+                    "U0K4Y1JAK",
+                    "UBPJ0RMMX",
+                    "U4LCAKK8C",
+                    "U60EETE7N",
+                    "U6LSE0FT9",
+                    "U22T79M4N",
+                    "U29TG6K9U",
+                    "UQPJZHGMU",
+                    "U27SUBTB9",
+                    "U01H5DXCRLP",
+                    "UPS7RJXUK",
+                    "U01EH4FG3M3"
+                ],
+                "count": 12
+            },
+            {
+                "name": "smekalka",
+                "users": [
+                    "U2LF67NRH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "68d1c9bd-663a-4b4e-8905-9ababa0a3457",
+        "type": "message",
+        "text": "<@U01JZDJ659D> удалил ваш пост, ибо не соответствует правилам (что в шапке)",
+        "user": "U3KBYJQSF",
+        "ts": "1611776526.452200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7296a1e07c9a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-30\/1396937501219_7296a1e07c9a27f4a764_72.png",
+            "first_name": "vtrokhymenko",
+            "real_name": "vtrokhymenko",
+            "display_name": "vtrokhymenko",
+            "team": "T040HKJE3",
+            "name": "vtrokhymenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ghe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U01JZDJ659D"
+                            },
+                            {
+                                "type": "text",
+                                "text": " удалил ваш пост, ибо не соответствует правилам (что в шапке)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611746326.417600",
+        "parent_user_id": "U01JZDJ659D"
+    },
+    {
+        "client_msg_id": "6ce438d9-2e85-484a-8d3b-2590508998a2",
+        "type": "message",
+        "text": "8+ опыта) но мне скорее просто переводчик нужен:trollface: нету fluency у меня",
+        "user": "UG3GANMDZ",
+        "ts": "1611777038.452600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6084efbba9b6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-03-01\/565633739415_6084efbba9b662352fd6_72.jpg",
+            "first_name": "Igor",
+            "real_name": "Igor Vikhrov",
+            "display_name": "Igor Vikhrov",
+            "team": "T040HKJE3",
+            "name": "nashentony",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/zO+L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "8+ опыта) но мне скорее просто переводчик нужен"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "trollface"
+                            },
+                            {
+                                "type": "text",
+                                "text": " нету fluency у меня"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611764960.442700",
+        "parent_user_id": "U0K4Y1JAK",
+        "reactions": [
+            {
+                "name": "broken_heart",
+                "users": [
+                    "U04ELQZAU",
+                    "U6TH57UF5"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "14a6637f-4724-48ee-872c-c92e474c0c71",
+        "type": "message",
+        "text": "<@U0K4Y1JAK> какие вилки для UK\/US? Или вы планируете платить независимо от местного налогового климата порядка 600к этих вот самых?",
+        "user": "U3HM4KY14",
+        "ts": "1611788227.454800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3d117ff57280",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-03\/515611888707_3d117ff572805bf08f2a_72.jpg",
+            "first_name": "Arseni",
+            "real_name": "Arseni Anisimovich",
+            "display_name": "arseni",
+            "team": "T040HKJE3",
+            "name": "arseni",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "m2q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0K4Y1JAK"
+                            },
+                            {
+                                "type": "text",
+                                "text": " какие вилки для UK\/US? Или вы планируете платить независимо от местного налогового климата порядка 600к этих вот самых?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611764960.442700",
+        "parent_user_id": "U0K4Y1JAK"
+    },
+    {
+        "client_msg_id": "68877ded-34af-4d65-be81-8c594116c657",
+        "type": "message",
+        "text": "Локальных вилок в USA\/UK я не знаю (",
+        "user": "U0K4Y1JAK",
+        "ts": "1611791399.456300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "05628d5016c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-21\/244664874148_05628d5016c46c9cdf05_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Mezentsev",
+            "display_name": "Pavel Mezentsev",
+            "team": "T040HKJE3",
+            "name": "pmezentsev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0K4Y1JAK",
+            "ts": "1611791829.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xHjoD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Локальных вилок в USA\/UK я не знаю ("
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611764960.442700",
+        "parent_user_id": "U0K4Y1JAK"
+    },
+    {
+        "client_msg_id": "18e680d0-9d91-44ff-b019-1eea35bf2524",
+        "type": "message",
+        "text": "Сейчас их прочитаю и исправлю, спасибо",
+        "user": "U01JZDJ659D",
+        "ts": "1611816617.459900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gcf87a6a0532",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/cf87a6a0532f551e28d6ec8a2a0b7d63.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Ivan Smirnov",
+            "display_name": "Ivan Smirnov",
+            "team": "T040HKJE3",
+            "name": "ivansmirnov.rus",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Pep",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Сейчас их прочитаю и исправлю, спасибо"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611746326.417600",
+        "parent_user_id": "USLACKBOT"
+    },
+    {
+        "client_msg_id": "00e3c8f4-5cb5-446d-b8d2-b82175435604",
+        "type": "message",
+        "text": "*Компания*: Яндекс\n*Локация*: Москва\/Питер\n*Вакансии*: Junior - Senior Analytics\n*Вилка*: 150К - 300К + премии и большие бонусы(RSU)\n\nЯндекс.Услуги быстро растут и ищут новых людей в команду разработки!\nМы создаем сервис, который должен стать для людей постоянным помощником в их жизни, сделав заказ услуг таким же простым, как заказ такси, а исполнителям помогать зарабатывать тем, что они умеют лучше всего.\nЧтобы развиваться дальше, нам нужны вы! В разработке мы используем самые актуальные технологии поиска, машинного обучения, распределенной обработки и быстрой доставки данных. Вы сможете придумывать новые классные решения, экспериментировать на поисковых вычислительных мощностях и проверять гипотезы на огромном объеме данных. А ещё работать в душевной команде и, конечно, пользоваться всеми плюшками Яндекса.\n\nТребования:\n• Знания мат. стата и теор. вера;\n• Понимание A\/B экспериментов;\n• Умение придумывать метрики;\n• Python и SQL.\nСсылки на вакансии:\n<https:\/\/yandex.ru\/jobs\/vacancies\/analytics\/analyst_dev\/> \n<https:\/\/yandex.ru\/jobs\/vacancies\/analytics\/analytic_uslugi\/>\n\n\nОткликайтесь на вакансии, задавайте вопросы мне или нашему рекрутеру Лене Амеличевой <https:\/\/t.me\/ameli4eva>, приходите работать в Яндекс.Услуги",
+        "user": "U01JZDJ659D",
+        "ts": "1611817277.461800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gcf87a6a0532",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/cf87a6a0532f551e28d6ec8a2a0b7d63.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Ivan Smirnov",
+            "display_name": "Ivan Smirnov",
+            "team": "T040HKJE3",
+            "name": "ivansmirnov.rus",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U01JZDJ659D",
+            "ts": "1611817352.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "U8e0j",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Компания",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Яндекс\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Локация",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Москва\/Питер\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансии",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Junior - Senior Analytics\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": 150К - 300К + премии и большие бонусы(RSU)\n\nЯндекс.Услуги быстро растут и ищут новых людей в команду разработки!\nМы создаем сервис, который должен стать для людей постоянным помощником в их жизни, сделав заказ услуг таким же простым, как заказ такси, а исполнителям помогать зарабатывать тем, что они умеют лучше всего.\nЧтобы развиваться дальше, нам нужны вы! В разработке мы используем самые актуальные технологии поиска, машинного обучения, распределенной обработки и быстрой доставки данных. Вы сможете придумывать новые классные решения, экспериментировать на поисковых вычислительных мощностях и проверять гипотезы на огромном объеме данных. А ещё работать в душевной команде и, конечно, пользоваться всеми плюшками Яндекса.\n\nТребования:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знания мат. стата и теор. вера;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Понимание A\/B экспериментов;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Умение придумывать метрики;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Python и SQL."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nСсылки на вакансии:\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/yandex.ru\/jobs\/vacancies\/analytics\/analyst_dev\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/yandex.ru\/jobs\/vacancies\/analytics\/analytic_uslugi\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n\nОткликайтесь на вакансии, задавайте вопросы мне или нашему рекрутеру Лене Амеличевой "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/t.me\/ameli4eva"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", приходите работать в Яндекс.Услуги"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1611817277.461800",
+        "reply_count": 6,
+        "reply_users_count": 4,
+        "latest_reply": "1611947754.066300",
+        "reply_users": [
+            "U936W1ZEZ",
+            "U3KBYJQSF",
+            "U5GCU82HX",
+            "UGF8L176H"
+        ],
+        "replies": [
+            {
+                "user": "U936W1ZEZ",
+                "ts": "1611827024.472200"
+            },
+            {
+                "user": "U3KBYJQSF",
+                "ts": "1611828460.473500"
+            },
+            {
+                "user": "U936W1ZEZ",
+                "ts": "1611828658.474800"
+            },
+            {
+                "user": "U5GCU82HX",
+                "ts": "1611829372.476700"
+            },
+            {
+                "user": "U936W1ZEZ",
+                "ts": "1611829914.477100"
+            },
+            {
+                "user": "UGF8L176H",
+                "ts": "1611947754.066300"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "good-enough",
+                "users": [
+                    "U7SFPUVQF",
+                    "ULPRYQNS2",
+                    "UKES2BDAA",
+                    "UCB3PK96J",
+                    "U019V3L2RTR",
+                    "UQVTRBQ9J",
+                    "UTCLUQ53L",
+                    "ULRRFCUR0",
+                    "U9M4BGEL8"
+                ],
+                "count": 9
+            },
+            {
+                "name": "face_vomiting",
+                "users": [
+                    "UNEJZPM6E",
+                    "UCB3PK96J",
+                    "UAF1W2R3M",
+                    "UJG8Q19LG",
+                    "U9M4BGEL8",
+                    "UFRRX12A0"
+                ],
+                "count": 6
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "U7KDVG6LS",
+                    "UBM4B8CBU",
+                    "U01364G3W84",
+                    "U27SUBTB9",
+                    "UKQTPE877",
+                    "USSV2P8UF",
+                    "UN3N2PD54",
+                    "UCB3PK96J",
+                    "U7E8Y3V19",
+                    "UNMTRMDE0",
+                    "UEVA1NXGT",
+                    "U013E2Y1VNU",
+                    "ULRRFCUR0",
+                    "U014F8HB4HX",
+                    "UCMAWD588",
+                    "U01FJDK2B7Y",
+                    "U9M4BGEL8"
+                ],
+                "count": 17
+            },
+            {
+                "name": "gnomik",
+                "users": [
+                    "USGUL2JF6",
+                    "UKQTPE877",
+                    "UCB3PK96J",
+                    "UM37P4ZDE",
+                    "UG3P7DHB9",
+                    "UKJGXC8HX"
+                ],
+                "count": 6
+            },
+            {
+                "name": "astanavites",
+                "users": [
+                    "UAVJ6E64R",
+                    "UD37TP39U",
+                    "UCB3PK96J",
+                    "UG3P7DHB9",
+                    "U01GMQUHLAF",
+                    "U4AA9GF26",
+                    "U9M4BGEL8"
+                ],
+                "count": 7
+            },
+            {
+                "name": "rooster",
+                "users": [
+                    "UCB3PK96J",
+                    "UJ2N4SVBJ",
+                    "U4PLYEYLA"
+                ],
+                "count": 3
+            },
+            {
+                "name": "bnw",
+                "users": [
+                    "UTBR67WMD",
+                    "U9M4BGEL8",
+                    "U01J106MHTN"
+                ],
+                "count": 3
+            },
+            {
+                "name": "yandex",
+                "users": [
+                    "UCMAWD588",
+                    "U01CGRXKT8X",
+                    "U9M4BGEL8"
+                ],
+                "count": 3
+            },
+            {
+                "name": "spb",
+                "users": [
+                    "UGRFZ1DS5"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

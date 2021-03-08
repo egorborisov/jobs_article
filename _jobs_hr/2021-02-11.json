@@ -1,0 +1,320 @@
+[
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1613045232.064700",
+        "thread_ts": "1613045232.064700",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1613072336.067600",
+        "reply_users": [
+            "U01364G3W84",
+            "UPD47KCSZ",
+            "UJXJ8T63H"
+        ],
+        "replies": [
+            {
+                "user": "U01364G3W84",
+                "ts": "1613045826.065500"
+            },
+            {
+                "user": "UPD47KCSZ",
+                "ts": "1613048102.066400"
+            },
+            {
+                "user": "UJXJ8T63H",
+                "ts": "1613072336.067600"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "ban",
+                "users": [
+                    "U01364G3W84",
+                    "UPD47KCSZ",
+                    "UM38ES74G",
+                    "U709XK88H",
+                    "UF5E26Z28"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0A974300-3826-4187-9133-E7C25F2665A1",
+        "type": "message",
+        "text": "Необходимо указывать и верхнюю и нижнюю границу вилки",
+        "user": "U01364G3W84",
+        "ts": "1613045826.065500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g07e3938db1c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/07e3938db1c157299137c5a9f80f07f6.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "rad",
+            "display_name": "rad",
+            "team": "T040HKJE3",
+            "name": "al.d.rezanov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U01364G3W84",
+            "ts": "1613045888.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "v+ycx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Необходимо указывать и верхнюю и нижнюю границу вилки"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1613045232.064700",
+        "parent_user_id": "UJXJ8T63H"
+    },
+    {
+        "client_msg_id": "bc5d0fca-43d7-4e6a-b938-efef2e7ea7c1",
+        "type": "message",
+        "text": "А также требования",
+        "user": "UPD47KCSZ",
+        "ts": "1613048102.066400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "2aefd6617b66",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-10-15\/782456750098_2aefd6617b662e6e2ba3_72.jpg",
+            "first_name": "Tigran",
+            "real_name": "Tigran Apresyan",
+            "display_name": "Traper",
+            "team": "T040HKJE3",
+            "name": "tigranapresyan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fGd7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "А также требования"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1613045232.064700",
+        "parent_user_id": "UJXJ8T63H"
+    },
+    {
+        "client_msg_id": "16095754-EB85-4406-B303-B484B2195592",
+        "type": "message",
+        "text": "Спасибо ",
+        "user": "UJXJ8T63H",
+        "ts": "1613072336.067600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g1236341c44c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fb1236341c44c3e271b9d923004ae757.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "Marina",
+            "real_name": "Marina",
+            "display_name": "Marina",
+            "team": "T040HKJE3",
+            "name": "marina_feofanova",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p+93d",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Спасибо "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1613045232.064700",
+        "parent_user_id": "USLACKBOT"
+    },
+    {
+        "client_msg_id": "9FA278F2-B03B-443B-BAF0-2498D1C1C324",
+        "type": "message",
+        "text": "#вакансия #scala #москва #spark #DataEngineer\n*Вакансия: Middle Data Engineer*\nКомпания: Сбер\nЛокация: Москва\nТип занятости: полная \/офис\nЗП: от 130-190 т.р. на руки+ годовые премии от 2х окладов (уровень зависит от итогов прохождения собеседования)\n_Всем, привет! Находимся в активном поиске Data-инженера в команду «Инструменты управления рисками и потерями»_\nПроект:\nUI аналитика для проведения служебных расследований, состоящий из подсистем:\n- Графовый поиск физических и юридических лиц, насчитывающей 1млрд вершин с более чем 60 типами связей и 5+ млрд ребер; \n- Расширенный агрегированный профиль клиента; кейс-менеджмент для управления фрод-сработками; \nСервисы ГеоАналитики для проведения анализа локации; построения аналитических отчетов;\n- Интерфейс проведения внутренних проверок.\nЗадачи:\n- Разработка новых витрин данных с использованием Scala, Spark, Hive; \n- Техническая реализация алгоритмов (на Scala) на данных из банковских АС;\nРазработка сервиса потокового обмена данными на базе Apache Kafka;\n- Поддержка существующих аналитических представлений и инструментов загрузки данных на HDFS из внешних источников;\n\n*Обязательно:*\n-Высшее техническое образование;\nЗнание SQL, Опыт работы с реляционными базами данных (Oracle, PostgreSQL);\n-Опыт разработки на Java от 2 лет;\nЖелание разрабатывать на Scala;\n-Опыт использования эко-системы Hadoop: HDFS, Apache Spark, Spark Streaming, Hive, Kafka;\n-Знание системы контроля версий Git;\n*Будет плюсом:*\n-Опыт разработки на Scala от 1 года;\n-Опыт работы с maven, sbt;\n\n*Стек:*\nJava\/Scala, Postgres, Spark, Hadoop.\n\n*Условия:*\n-Интересные, сложные, амбициозные задачи;\n-Многообразие проектов в интересной команде;\n-Возможность профильного обучения за счет компании;\n-Стабильная, конкурентная «белая» заработная плата (оклад + достойные премии);\n-Льготные условия по ипотеке и кредитам Сбера;\n-ДМС, социальные гарантии, корпоративные мероприятия;\n-офис м. Пл. Ильича\/м.Таганская\n\nПо всем вопросам по вакансии пишите мне в лс <https:\/\/t.me\/MarinahrSber|https:\/\/t.me\/MarinahrSber>. Признательна за рекомендации!",
+        "user": "UJXJ8T63H",
+        "ts": "1613072523.069300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g1236341c44c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fb1236341c44c3e271b9d923004ae757.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "Marina",
+            "real_name": "Marina",
+            "display_name": "Marina",
+            "team": "T040HKJE3",
+            "name": "marina_feofanova",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJXJ8T63H",
+            "ts": "1613079028.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XqmN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "#вакансия #scala #москва #spark #DataEngineer\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия: Middle Data Engineer",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nКомпания: Сбер\nЛокация: Москва\nТип занятости: полная \/офис\nЗП: от 130-190 т.р. на руки+ годовые премии от 2х окладов (уровень зависит от итогов прохождения собеседования)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Всем, привет! Находимся в активном поиске Data-инженера в команду «Инструменты управления рисками и потерями»",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nПроект:\nUI аналитика для проведения служебных расследований, состоящий из подсистем:\n- Графовый поиск физических и юридических лиц, насчитывающей 1млрд вершин с более чем 60 типами связей и 5+ млрд ребер; \n- Расширенный агрегированный профиль клиента; кейс-менеджмент для управления фрод-сработками; \nСервисы ГеоАналитики для проведения анализа локации; построения аналитических отчетов;\n- Интерфейс проведения внутренних проверок.\nЗадачи:\n- Разработка новых витрин данных с использованием Scala, Spark, Hive; \n- Техническая реализация алгоритмов (на Scala) на данных из банковских АС;\nРазработка сервиса потокового обмена данными на базе Apache Kafka;\n- Поддержка существующих аналитических представлений и инструментов загрузки данных на HDFS из внешних источников;\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Обязательно:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n-Высшее техническое образование;\nЗнание SQL, Опыт работы с реляционными базами данных (Oracle, PostgreSQL);\n-Опыт разработки на Java от 2 лет;\nЖелание разрабатывать на Scala;\n-Опыт использования эко-системы Hadoop: HDFS, Apache Spark, Spark Streaming, Hive, Kafka;\n-Знание системы контроля версий Git;\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Будет плюсом:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n-Опыт разработки на Scala от 1 года;\n-Опыт работы с maven, sbt;\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Стек:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nJava\/Scala, Postgres, Spark, Hadoop.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Условия:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n-Интересные, сложные, амбициозные задачи;\n-Многообразие проектов в интересной команде;\n-Возможность профильного обучения за счет компании;\n-Стабильная, конкурентная «белая» заработная плата (оклад + достойные премии);\n-Льготные условия по ипотеке и кредитам Сбера;\n-ДМС, социальные гарантии, корпоративные мероприятия;\n-офис м. Пл. Ильича\/м.Таганская\n\nПо всем вопросам по вакансии пишите мне в лс "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/t.me\/MarinahrSber",
+                                "text": "https:\/\/t.me\/MarinahrSber"
+                            },
+                            {
+                                "type": "text",
+                                "text": ". Признательна за рекомендации!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "UQ9UCJT0T",
+                    "UCV0RM9FY",
+                    "U5TGT5SQ2",
+                    "UC7CX2SEN",
+                    "UCFGX5F27",
+                    "UD37TP39U",
+                    "U7ZTSPE8M",
+                    "UDE5GJXAA",
+                    "U8DEZV7E2",
+                    "USQ0LR24T"
+                ],
+                "count": 10
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "UJXJ8T63H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "sber_new",
+                "users": [
+                    "UJXJ8T63H"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]
