@@ -1,0 +1,2341 @@
+[
+    {
+        "client_msg_id": "965deab2-7711-4999-b894-ec5405e95e4b",
+        "type": "message",
+        "text": "Всем привет!\n\nЯ Дима, TeamLead *контентной аналитикой в IVI*, и я ищу к себе в команду *аналитиков* _с опытом_ и просто умных парней и девчонок _последних курсов вузов_\nМоя команда исследует второй ключевой актив компании _(после людей)_ - *контент*,\nМы _изучаем_ тренды смотрения, сегменты аудитории, популярность на рынке; мы _оптимизируем_ и делаем наше предложение фильмов, сериалов и мультфильмов лучшим на рынке.\nДля этого у нас есть террабайты данных о нашем продукте и куча аналитических инструментов: python, clickhouse, tableau, dbt, airflow и многое другое\n\nМеня в нашей работе драйвит большое количество интересных аналитических задач, крутая команда, возможность вносить реальный вклад в развитие бизнеса и расти самому, поэтому очень *рассчитываю найти в нашем сообществе единомышленников*, кто захочет к нам присоединиться\nНаправление контентной аналитики активно развивается, на нас делают ставку в компании, поэтому есть простор для карьерного роста\n*Зарплата*: 100-150к для тех, кто с опытом\nУдаленка до конца года, в целом ничего против remote work не имеем\nКорпоративная подписка на ivi\n\n*Hard skills*, которые мы ожидаем у тебя _(или желание и готовность этому быстро обучаться, всё знать точно не нужно_ :wink: _)_:\n• Можешь написать скрипт Python для парсинга статистики с сайта или можешь создать даш-борд в jupyter notebook с использованием plotly\n• Можешь написать агрегат на базе SQL-запроса и сделать его автообновляемым (Clickhouse большой плюс)\n• Отлично понимаешь статистику, знаешь что такое линейная регрессия, деревья решений и k-средних (больше - большой плюс)\n• Можешь агрегировать и структурировать проведенный анализ в презентацию\n• Имеешь базовые представления об NLP _(word embedding тебя не пугает и ты хочешь в этом разбираться на практике)_\nПо всем вопросам пишите мне в личку, туда же можно присылать резюме, подробнее расскажу какие задачи будут",
+        "user": "URPQ93N48",
+        "ts": "1603098472.112000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1183dac4fccf",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-14\/862370563587_1183dac4fccf6d24f2af_72.png",
+            "first_name": "Dima",
+            "real_name": "Dima Bevz",
+            "display_name": "Dima Bevz",
+            "team": "T040HKJE3",
+            "name": "d.p.bevz",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "URPQ93N48",
+            "ts": "1603099320.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GcKSg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет!\n\nЯ Дима, TeamLead "
+                            },
+                            {
+                                "type": "text",
+                                "text": "контентной аналитикой в IVI",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", и я ищу к себе в команду "
+                            },
+                            {
+                                "type": "text",
+                                "text": "аналитиков",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "с опытом",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " и просто умных парней и девчонок "
+                            },
+                            {
+                                "type": "text",
+                                "text": "последних курсов вузов",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nМоя команда исследует второй ключевой актив компании "
+                            },
+                            {
+                                "type": "text",
+                                "text": "(после людей)",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " - "
+                            },
+                            {
+                                "type": "text",
+                                "text": "контент",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ",\nМы "
+                            },
+                            {
+                                "type": "text",
+                                "text": "изучаем",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " тренды смотрения, сегменты аудитории, популярность на рынке; мы "
+                            },
+                            {
+                                "type": "text",
+                                "text": "оптимизируем",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " и делаем наше предложение фильмов, сериалов и мультфильмов лучшим на рынке.\nДля этого у нас есть террабайты данных о нашем продукте и куча аналитических инструментов: python, clickhouse, tableau, dbt, airflow и многое другое\n\nМеня в нашей работе драйвит большое количество интересных аналитических задач, крутая команда, возможность вносить реальный вклад в развитие бизнеса и расти самому, поэтому очень "
+                            },
+                            {
+                                "type": "text",
+                                "text": "рассчитываю найти в нашем сообществе единомышленников",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", кто захочет к нам присоединиться\nНаправление контентной аналитики активно развивается, на нас делают ставку в компании, поэтому есть простор для карьерного роста\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Зарплата",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": 100-150к для тех, кто с опытом\nУдаленка до конца года, в целом ничего против remote work не имеем\nКорпоративная подписка на ivi\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Hard skills",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", которые мы ожидаем у тебя "
+                            },
+                            {
+                                "type": "text",
+                                "text": "(или желание и готовность этому быстро обучаться, всё знать точно не нужно ",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wink",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " )",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Можешь написать скрипт Python для парсинга статистики с сайта или можешь создать даш-борд в jupyter notebook с использованием plotly"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Можешь написать агрегат на базе SQL-запроса и сделать его автообновляемым (Clickhouse большой плюс)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Отлично понимаешь статистику, знаешь что такое линейная регрессия, деревья решений и k-средних (больше - большой плюс)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Можешь агрегировать и структурировать проведенный анализ в презентацию"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Имеешь базовые представления об NLP "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "(word embedding тебя не пугает и ты хочешь в этом разбираться на практике)",
+                                        "style": {
+                                            "italic": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nПо всем вопросам пишите мне в личку, туда же можно присылать резюме, подробнее расскажу какие задачи будут"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "reply_count": 15,
+        "reply_users_count": 10,
+        "latest_reply": "1603272461.221300",
+        "reply_users": [
+            "U6LSE0FT9",
+            "U01CJSNFWQJ",
+            "URPQ93N48",
+            "UHY5KKK6D",
+            "UJ2JGSQ3X",
+            "U01B9HH7HSB",
+            "U8GBRP3PS",
+            "USPAWPRPX",
+            "UC3AL2NKS",
+            "UT9FWF31A"
+        ],
+        "replies": [
+            {
+                "user": "U6LSE0FT9",
+                "ts": "1603098608.112100"
+            },
+            {
+                "user": "U01CJSNFWQJ",
+                "ts": "1603098980.112400"
+            },
+            {
+                "user": "URPQ93N48",
+                "ts": "1603099154.112600"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603099331.113200"
+            },
+            {
+                "user": "UJ2JGSQ3X",
+                "ts": "1603099652.113500"
+            },
+            {
+                "user": "URPQ93N48",
+                "ts": "1603099900.114000"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603100027.114300"
+            },
+            {
+                "user": "U01B9HH7HSB",
+                "ts": "1603100063.114500"
+            },
+            {
+                "user": "U8GBRP3PS",
+                "ts": "1603101804.116500"
+            },
+            {
+                "user": "URPQ93N48",
+                "ts": "1603102555.117200"
+            },
+            {
+                "user": "U01B9HH7HSB",
+                "ts": "1603102692.117700"
+            },
+            {
+                "user": "USPAWPRPX",
+                "ts": "1603103188.118600"
+            },
+            {
+                "user": "UC3AL2NKS",
+                "ts": "1603209286.207800"
+            },
+            {
+                "user": "UT9FWF31A",
+                "ts": "1603217325.211400"
+            },
+            {
+                "user": "U01B9HH7HSB",
+                "ts": "1603272461.221300"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "terminator",
+                "users": [
+                    "UN5HXEBJ8",
+                    "UJ2JGSQ3X",
+                    "U01B9HH7HSB",
+                    "USPAWPRPX",
+                    "UTUCPJMRS",
+                    "U8GBRP3PS",
+                    "U7N4E8GBF",
+                    "UCB3PK96J"
+                ],
+                "count": 8
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U04725QK7",
+                    "UNV8CRNNB",
+                    "UHY5KKK6D",
+                    "U9S7BDV4Z",
+                    "U8J9XMX3J",
+                    "USPAWPRPX",
+                    "U8GBRP3PS",
+                    "U49NJJXNJ",
+                    "USQ0LR24T",
+                    "U7N4E8GBF",
+                    "U2AJE72Q6",
+                    "U0160NRQYNA",
+                    "UG1886P8R",
+                    "U6T11F9T4",
+                    "UASAVHMBJ",
+                    "U7PHZ3QTU",
+                    "U70K9231V",
+                    "U60EETE7N",
+                    "U6URRB952",
+                    "U3XDWVD3P",
+                    "UCM3C939U",
+                    "UPD47KCSZ",
+                    "U1Q0B8KMJ",
+                    "UUHCX1YSX",
+                    "UF5E26Z28",
+                    "U8G4DHF36",
+                    "UCKGAQKE0",
+                    "U0167LZ5HAP",
+                    "U8CMHHBU2",
+                    "U7E8Y3V19",
+                    "U014F8HB4HX",
+                    "U262NSHCK",
+                    "UKJGXC8HX",
+                    "UQWBTDV6C",
+                    "UGD9J4276",
+                    "UL9GZ3V0R",
+                    "UG9HL6CG4",
+                    "UCMAWD588",
+                    "U0167ESBR6E",
+                    "U1GMCNV3M"
+                ],
+                "count": 40
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "U53DE74GZ",
+                    "UNMTRMDE0",
+                    "UKQTHKEPJ",
+                    "U015SP78BRV",
+                    "UNP3B7Y6S",
+                    "U0160NAMS0N",
+                    "U019SDXN0Q7",
+                    "UCB3PK96J",
+                    "U5H49JQ21",
+                    "U01DD8SNDBK",
+                    "U012PN2C1B6",
+                    "UGDUCRYJ0",
+                    "U01B27AD7ND",
+                    "UNHQ57DQA"
+                ],
+                "count": 14
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5fea2892-d9e4-47bb-879e-510233a813a4",
+        "type": "message",
+        "text": "А для тех кто без опыта, какая :fork: ?",
+        "user": "U6LSE0FT9",
+        "ts": "1603098608.112100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "06717ff99377",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-06\/928517272019_06717ff99377b174f4bf_72.jpg",
+            "first_name": "Nikolai",
+            "real_name": "Nikolai Popov",
+            "display_name": "kolya",
+            "team": "T040HKJE3",
+            "name": "kolya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4f0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "А для тех кто без опыта, какая "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "fork"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UGD9J4276"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cac47e53-a454-4255-9e01-bc4c8441cba7",
+        "type": "message",
+        "text": "Для них :champagne:",
+        "user": "U01CJSNFWQJ",
+        "ts": "1603098980.112400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "b6331c444b39",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-19\/1437273106451_b6331c444b39d9aef2f8_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Danilov",
+            "display_name": "Pavel",
+            "team": "T040HKJE3",
+            "name": "pithonius",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6ZaC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Для них "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "champagne"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48"
+    },
+    {
+        "client_msg_id": "bbf0d391-3dfc-4a3f-8dff-e6356909a52f",
+        "type": "message",
+        "text": "<@U6LSE0FT9> очень большой разброс уровня выпускников) но не бесплатно, думаю +- в районе 50к",
+        "user": "URPQ93N48",
+        "ts": "1603099154.112600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1183dac4fccf",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-14\/862370563587_1183dac4fccf6d24f2af_72.png",
+            "first_name": "Dima",
+            "real_name": "Dima Bevz",
+            "display_name": "Dima Bevz",
+            "team": "T040HKJE3",
+            "name": "d.p.bevz",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qWwI4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U6LSE0FT9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " очень большой разброс уровня выпускников) но не бесплатно, думаю +- в районе 50к"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48",
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "UF5E26Z28",
+                    "UQWBTDV6C",
+                    "UGD9J4276"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "af3b58c3-84db-404f-9fa3-e4c12c8544a8",
+        "type": "message",
+        "text": "можно мне поставить :ramen: ?",
+        "user": "UHY5KKK6D",
+        "ts": "1603099331.113200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3d7bb88461c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433476246342_f3d7bb88461c31e1bf92_72.jpg",
+            "first_name": "Dmitriy",
+            "real_name": "Dmitriy Novikov",
+            "display_name": "Dmitriy Novikov",
+            "team": "T040HKJE3",
+            "name": "nov.dm.konst",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=RGwr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "можно мне поставить "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ramen"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48",
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "U014JG3LRLZ",
+                    "U7CAU0GMU",
+                    "U8GBRP3PS",
+                    "U8PMZ6397",
+                    "USQ0LR24T",
+                    "U061WBASK",
+                    "U7N4E8GBF",
+                    "UJTRYF6P6",
+                    "U6LSE0FT9",
+                    "U7VDWFSG3",
+                    "U60EETE7N",
+                    "U6URRB952",
+                    "UFS228B29",
+                    "UF5E26Z28",
+                    "U6B2015B4",
+                    "U0160NNUQVC",
+                    "UCKGAQKE0",
+                    "U7E8Y3V19",
+                    "UCB3PK96J",
+                    "UTTALH687",
+                    "UGD9J4276",
+                    "UTPMUQYCA",
+                    "U1DND5RR6",
+                    "UPH9B0PBM",
+                    "UGDUCRYJ0",
+                    "UCMAWD588",
+                    "U013PPV77PS",
+                    "UP0AL5XAN"
+                ],
+                "count": 28
+            }
+        ]
+    },
+    {
+        "client_msg_id": "76d27480-09b6-46ce-a9a9-430bd7350bb1",
+        "type": "message",
+        "text": "Очередной поиск терминатора?",
+        "user": "UJ2JGSQ3X",
+        "ts": "1603099652.113500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1ed5ef7b8531",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-24\/616533640836_1ed5ef7b85313f46c87c_72.jpg",
+            "first_name": "eStatiq",
+            "real_name": "eStatiq Hikky",
+            "display_name": "hikky",
+            "team": "T040HKJE3",
+            "name": "andrey.vl.danilov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fcP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Очередной поиск терминатора?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48"
+    },
+    {
+        "client_msg_id": "18be84d5-3e6d-46b1-b69f-eced5a032820",
+        "type": "message",
+        "text": "<@UJ2JGSQ3X> терминатора не надо, есть конкретные задачи, которые нужно решить, я описал требования для человека, который решит их все, но у нас командная работа, работать одному не придется\nа чего не знает можно обучиться за 3-6 месяцев, благо людей умеющих хватает в компании, покажем))",
+        "user": "URPQ93N48",
+        "ts": "1603099900.114000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1183dac4fccf",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-14\/862370563587_1183dac4fccf6d24f2af_72.png",
+            "first_name": "Dima",
+            "real_name": "Dima Bevz",
+            "display_name": "Dima Bevz",
+            "team": "T040HKJE3",
+            "name": "d.p.bevz",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1A+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJ2JGSQ3X"
+                            },
+                            {
+                                "type": "text",
+                                "text": " терминатора не надо, есть конкретные задачи, которые нужно решить, я описал требования для человека, который решит их все, но у нас командная работа, работать одному не придется\nа чего не знает можно обучиться за 3-6 месяцев, благо людей умеющих хватает в компании, покажем))"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48"
+    },
+    {
+        "client_msg_id": "72d6c4a2-ff2d-4488-a08a-b519b71138a0",
+        "type": "message",
+        "text": "<@UJ2JGSQ3X> а че терминатора то? лошарские требования вроде? не",
+        "user": "UHY5KKK6D",
+        "ts": "1603100027.114300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3d7bb88461c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433476246342_f3d7bb88461c31e1bf92_72.jpg",
+            "first_name": "Dmitriy",
+            "real_name": "Dmitriy Novikov",
+            "display_name": "Dmitriy Novikov",
+            "team": "T040HKJE3",
+            "name": "nov.dm.konst",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H\/l",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJ2JGSQ3X"
+                            },
+                            {
+                                "type": "text",
+                                "text": " а че терминатора то? лошарские требования вроде? не"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48"
+    },
+    {
+        "client_msg_id": "ad8796c4-3dd5-49e2-914d-4f5efc1c0f86",
+        "type": "message",
+        "text": "Зачем делать дашборд на plotly когда у вас есть табло? :thinking_face:",
+        "user": "U01B9HH7HSB",
+        "ts": "1603100063.114500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g8ed67d6cfe6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8ed67d6cfe693caa71fcbf70b4480eb5.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry S",
+            "display_name": "Dmitry S",
+            "team": "T040HKJE3",
+            "name": "sergeevd90",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vJe=y",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Зачем делать дашборд на plotly когда у вас есть табло? "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "thinking_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48"
+    },
+    {
+        "client_msg_id": "503eca45-c0cf-48c0-a313-a67fec46a375",
+        "type": "message",
+        "text": "<@U01B9HH7HSB> кому-то нравятся no-code решения, кому-то наоборот) мне было бы интересно поработать с plotly для этого, тем более сейчас у них там есть целое направление для BI))",
+        "user": "U8GBRP3PS",
+        "ts": "1603101804.116500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d9e231d54ba8",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-08\/1342212334150_d9e231d54ba83de2d538_72.jpg",
+            "first_name": "Maxpt1",
+            "real_name": "Maxpt1",
+            "display_name": "maxpt1",
+            "team": "T040HKJE3",
+            "name": "maxpt1",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ixfuc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U01B9HH7HSB"
+                            },
+                            {
+                                "type": "text",
+                                "text": " кому-то нравятся no-code решения, кому-то наоборот) мне было бы интересно поработать с plotly для этого, тем более сейчас у них там есть целое направление для BI))"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48"
+    },
+    {
+        "client_msg_id": "691f849c-f619-484d-897f-fbac5e83c608",
+        "type": "message",
+        "text": "&gt; Зачем делать дашборд на plotly когда у вас есть табло?\nтабло круче plotly, а если человек может сделать инструмент для необходимой обработки данных на python и загрузит данные в КХ, чтобы табло мог эти данные кушать, то я только за буду\nребят, это не принципиальный список навыков. Скорее набор задач, которые нужно решать и примерная форма решения, мы гибкие в том как реализовывать",
+        "user": "URPQ93N48",
+        "ts": "1603102555.117200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1183dac4fccf",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-14\/862370563587_1183dac4fccf6d24f2af_72.png",
+            "first_name": "Dima",
+            "real_name": "Dima Bevz",
+            "display_name": "Dima Bevz",
+            "team": "T040HKJE3",
+            "name": "d.p.bevz",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nkoRl",
+                "elements": [
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Зачем делать дашборд на plotly когда у вас есть табло?"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "табло круче plotly, а если человек может сделать инструмент для необходимой обработки данных на python и загрузит данные в КХ, чтобы табло мог эти данные кушать, то я только за буду\nребят, это не принципиальный список навыков. Скорее набор задач, которые нужно решать и примерная форма решения, мы гибкие в том как реализовывать"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U01B9HH7HSB",
+                    "UNP3B7Y6S",
+                    "UGDUCRYJ0"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "21ffaeb8-fcff-4ab1-95a8-25d3ac397640",
+        "type": "message",
+        "text": "<@U8GBRP3PS> Да, просто чтобы сделать норм дашик на плотли, ещё нужно знать dash со всеми вытекающими) это такое себе удовольствие :relaxed: когда есть табло",
+        "user": "U01B9HH7HSB",
+        "ts": "1603102692.117700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g8ed67d6cfe6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8ed67d6cfe693caa71fcbf70b4480eb5.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry S",
+            "display_name": "Dmitry S",
+            "team": "T040HKJE3",
+            "name": "sergeevd90",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qrs7s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U8GBRP3PS"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Да, просто чтобы сделать норм дашик на плотли, ещё нужно знать dash со всеми вытекающими) это такое себе удовольствие "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "relaxed"
+                            },
+                            {
+                                "type": "text",
+                                "text": " когда есть табло"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48"
+    },
+    {
+        "client_msg_id": "92b19cf3-70a7-4f1a-b3fe-eb203a742eff",
+        "type": "message",
+        "text": "У вас уютненько. Жаль что мне финтех нравится направление.\nНе знаю чего народ бузит - для студента самое оно)",
+        "user": "USPAWPRPX",
+        "ts": "1603103188.118600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "39fa9812de04",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-01-15\/909571813910_39fa9812de04e5e17973_72.png",
+            "first_name": "Andrey",
+            "real_name": "Andrey Semenishen",
+            "display_name": "Zolberg101",
+            "team": "T040HKJE3",
+            "name": "dron.zolberg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ty=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "У вас уютненько. Жаль что мне финтех нравится направление.\nНе знаю чего народ бузит - для студента самое оно)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603098472.112000",
+        "parent_user_id": "URPQ93N48",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "URPQ93N48",
+                    "U53DE74GZ",
+                    "U01B9HH7HSB",
+                    "UNP3B7Y6S",
+                    "U0160NNUQVC",
+                    "UCB3PK96J",
+                    "U01BYMQ2SFJ",
+                    "ULB0N22LF",
+                    "UGDUCRYJ0",
+                    "UJUQGHHLL",
+                    "U019PE0TMK4"
+                ],
+                "count": 11
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1d916617-e6dd-479e-9030-ebc68c447424",
+        "type": "message",
+        "text": "Всем привет! Работаю в другом отделе этой компании.\n*Компания*: Деловые Линии\n*Вакансия*: Ведущий аналитик-разработчик (Python)\n*Город:* Санкт-Петербург\n*Вилка:* 120-140 т.р. на руки.\n\n*Обязанности:*\n• Разработка и внедрение прототипов моделей воронок продаж, ценообразования, скоринга по скидкам, сегментации клиентов, на основании проведенной аналитики и методов математического анализа;\n• Разработка прототипа и тестирование результатов его работы;\n• Автоматизация процессов;\n• Проектирование воронки продаж по запросу;\n• Управление сбором данных и их администрированием (агрегация статистических данных для построения прототипов моделей, администрирование массивов данных и моделей);\n• Управление подчиненными сотрудниками (2 аналитика);\n• Консультация сотрудников отдела по правилам и способам использования внедренных форм.\n\n*Требования:*\n• Образование высшее (желательно экономико-математическое либо техническое);\n• Опыт работы в аналогичной должности от 2-х лет;\n• Опыт самостоятельной реализации проектов автоматизации (преимущественно коммерческой и маркетинговой функции) в компании штатной численностью от 100 человек;\n• Владение MS SQL на уровне уверенного пользователя;\n• Владение Python на уровне уверенного пользователя (желательно знание библиотек Pandas, XGBoost, Scikit-learn);\n• Владение MS Office на уровне уверенного пользователя, знание VBA желательно;\n• Знание языка программирования Java будет преимуществом.\n\n*Условия:*\n• Оформление в соответствии с ТК РФ;\n• Достойный уровень заработной платы, своевременные выплаты;\n• Предоставляется корпоративная мобильная связь;\n• График работы: пятидневная рабочая неделя;\n• Работа в комфортабельном офисе недалеко от ст. метро «Московская» (развозка от ст. м. «Московская» и ст. м. «Проспект Ветеранов»);\n• Мы предлагаем интересную работу в стабильной‚ динамично развивающейся компании‚ а также возможность профессионального и карьерного роста‚ дружный коллектив.\n\nРезюме можно кидать сюда <mailto:Maria.Burykina@dellin.ru|Maria.Burykina@dellin.ru> или мне в личку.\nЗвонить сюда 8-913-177-58-62 Мария.\nНа общие вопросы о компании, возможно, смогу ответить.",
+        "user": "U014JG3LRLZ",
+        "ts": "1603103630.119400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g95e50c4c76f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/95e50c4c76fb28d7a28882c3b6109cdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "I",
+            "real_name": "I Ishberdin",
+            "display_name": "I Ishberdin",
+            "team": "T040HKJE3",
+            "name": "i.ishberdin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U014JG3LRLZ",
+            "ts": "1603105164.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FxBvT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет! Работаю в другом отделе этой компании.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Деловые Линии\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Ведущий аналитик-разработчик (Python)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Санкт-Петербург\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "120-140 т.р. на руки.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Обязанности:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разработка и внедрение прототипов моделей воронок продаж, ценообразования, скоринга по скидкам, сегментации клиентов, на основании проведенной аналитики и методов математического анализа;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разработка прототипа и тестирование результатов его работы;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Автоматизация процессов;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Проектирование воронки продаж по запросу;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Управление сбором данных и их администрированием (агрегация статистических данных для построения прототипов моделей, администрирование массивов данных и моделей);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Управление подчиненными сотрудниками (2 аналитика);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Консультация сотрудников отдела по правилам и способам использования внедренных форм."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Образование высшее (желательно экономико-математическое либо техническое);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы в аналогичной должности от 2-х лет;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт самостоятельной реализации проектов автоматизации (преимущественно коммерческой и маркетинговой функции) в компании штатной численностью от 100 человек;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Владение MS SQL на уровне уверенного пользователя;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Владение Python на уровне уверенного пользователя (желательно знание библиотек Pandas, XGBoost, Scikit-learn);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Владение MS Office на уровне уверенного пользователя, знание VBA желательно;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание языка программирования Java будет преимуществом."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Условия:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Оформление в соответствии с ТК РФ;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Достойный уровень заработной платы, своевременные выплаты;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Предоставляется корпоративная мобильная связь;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "График работы: пятидневная рабочая неделя;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Работа в комфортабельном офисе недалеко от ст. метро «Московская» (развозка от ст. м. «Московская» и ст. м. «Проспект Ветеранов»);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Мы предлагаем интересную работу в стабильной‚ динамично развивающейся компании‚ а также возможность профессионального и карьерного роста‚ дружный коллектив."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n\nРезюме можно кидать сюда "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:Maria.Burykina@dellin.ru",
+                                "text": "Maria.Burykina@dellin.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": " или мне в личку.\nЗвонить сюда 8-913-177-58-62 Мария.\nНа общие вопросы о компании, возможно, смогу ответить."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "reply_count": 11,
+        "reply_users_count": 7,
+        "latest_reply": "1603109705.130800",
+        "reply_users": [
+            "U10K3LXHV",
+            "U014JG3LRLZ",
+            "U0167FDMS2W",
+            "U0K47J3HR",
+            "UHY5KKK6D",
+            "U3K7PNTML",
+            "UQ9UCJT0T"
+        ],
+        "replies": [
+            {
+                "user": "U10K3LXHV",
+                "ts": "1603103866.120800"
+            },
+            {
+                "user": "U014JG3LRLZ",
+                "ts": "1603103910.121300"
+            },
+            {
+                "user": "U0167FDMS2W",
+                "ts": "1603104113.122100"
+            },
+            {
+                "user": "U0K47J3HR",
+                "ts": "1603104314.122300"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603104834.123300"
+            },
+            {
+                "user": "U014JG3LRLZ",
+                "ts": "1603105179.124400"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603106100.126400"
+            },
+            {
+                "user": "U3K7PNTML",
+                "ts": "1603106333.126600"
+            },
+            {
+                "user": "U014JG3LRLZ",
+                "ts": "1603106580.127000"
+            },
+            {
+                "user": "UQ9UCJT0T",
+                "ts": "1603107682.128200"
+            },
+            {
+                "user": "U014JG3LRLZ",
+                "ts": "1603109705.130800"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fork",
+                "users": [
+                    "UCKTJQG9K",
+                    "U6T11F9T4",
+                    "UCN3NBGVA",
+                    "UN5HXEBJ8",
+                    "UJ8UE41FS",
+                    "UMCUQEC9F"
+                ],
+                "count": 6
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U854H9KCM",
+                    "U10K3LXHV",
+                    "U6T11F9T4",
+                    "UKQTPE877",
+                    "UCN3NBGVA",
+                    "UC9HBTUKG",
+                    "USQ0LR24T",
+                    "UQWBTDV6C",
+                    "U013C9MKLPM"
+                ],
+                "count": 9
+            },
+            {
+                "name": "terminator",
+                "users": [
+                    "U01B9HH7HSB",
+                    "UUE33HJ01"
+                ],
+                "count": 2
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U6T11F9T4",
+                    "U7CAU0GMU",
+                    "UHY5KKK6D",
+                    "UASAVHMBJ",
+                    "UKQTPE877",
+                    "UELA14HSS",
+                    "UJ8UE41FS",
+                    "U60EETE7N",
+                    "UTFABAPL1",
+                    "U59D8LQ3H",
+                    "UM5CR4AR4",
+                    "UQ9UCJT0T",
+                    "UCV0RM9FY",
+                    "U017U4M81F1",
+                    "UCM3C939U",
+                    "U018G5MKXS6",
+                    "U2PMV9N06",
+                    "U04725QK7",
+                    "UKQTHKEPJ",
+                    "UMZ4KE98F",
+                    "U012YHC8GLV",
+                    "U01364G3W84",
+                    "UGD9J4276",
+                    "UF5E26Z28",
+                    "UBMS3KJ0J",
+                    "U90HKUW3B",
+                    "UCKGAQKE0",
+                    "UT1EQLTEH",
+                    "U0167LZ5HAP",
+                    "U7E8Y3V19",
+                    "U01AVR1HJ0K",
+                    "UBM4B8CBU",
+                    "UCB3PK96J",
+                    "U014F8HB4HX",
+                    "UNP5YEWL9",
+                    "U77LNAR8T",
+                    "UQWBTDV6C",
+                    "U019NMNS877",
+                    "U8G904J3F",
+                    "UQJ1G0C4S",
+                    "UCMAWD588",
+                    "U3VF62TU6",
+                    "UCK2WBKLG",
+                    "UDFKRQH33"
+                ],
+                "count": 44
+            },
+            {
+                "name": "el_resitas_shake",
+                "users": [
+                    "U7CAU0GMU",
+                    "UQ9UCJT0T",
+                    "ULRREQD1Q",
+                    "U9ZMU4630",
+                    "UD37TP39U",
+                    "UGD9J4276",
+                    "UUHCX1YSX",
+                    "U90HKUW3B",
+                    "UCB3PK96J",
+                    "URG5X6T6H",
+                    "UFV9L308P"
+                ],
+                "count": 11
+            },
+            {
+                "name": "noexcel",
+                "users": [
+                    "U012J38R09W",
+                    "UASAVHMBJ",
+                    "UELA14HSS",
+                    "U60EETE7N",
+                    "U27SUBTB9",
+                    "U2PMV9N06",
+                    "UD37TP39U",
+                    "UCB3PK96J",
+                    "UC9HBTUKG"
+                ],
+                "count": 9
+            },
+            {
+                "name": "rowing-galera",
+                "users": [
+                    "ULRREQD1Q",
+                    "U018G5MKXS6",
+                    "UCB3PK96J",
+                    "UKJGXC8HX",
+                    "UHR6WE3V1"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "74aa32a2-6dd3-4634-b052-b1da6b1ef7e8",
+        "type": "message",
+        "text": "-&gt; <#CEAT9QS01|_jobs_hr> сюда перенестите",
+        "user": "U10K3LXHV",
+        "ts": "1603103866.120800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f6ca7ce25216",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-05-19\/44332034917_f6ca7ce25216fb72420d_72.jpg",
+            "first_name": "Alexander",
+            "real_name": "Alexander Orlov",
+            "display_name": "orlov_alexander",
+            "team": "T040HKJE3",
+            "name": "orlov_alexander",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "O2b",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "-> "
+                            },
+                            {
+                                "type": "channel",
+                                "channel_id": "CEAT9QS01"
+                            },
+                            {
+                                "type": "text",
+                                "text": " сюда перенестите"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "parent_user_id": "U014JG3LRLZ"
+    },
+    {
+        "client_msg_id": "6e002fa5-1985-42a2-a869-5c0c9246caa6",
+        "type": "message",
+        "text": "там сказали можно сюда) <@U0K47J3HR>",
+        "user": "U014JG3LRLZ",
+        "ts": "1603103910.121300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g95e50c4c76f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/95e50c4c76fb28d7a28882c3b6109cdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "I",
+            "real_name": "I Ishberdin",
+            "display_name": "I Ishberdin",
+            "team": "T040HKJE3",
+            "name": "i.ishberdin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U014JG3LRLZ",
+            "ts": "1603104059.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZA\/M8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "там сказали можно сюда) "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0K47J3HR"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "parent_user_id": "U014JG3LRLZ"
+    },
+    {
+        "client_msg_id": "8b26b487-64d7-43c7-9d10-473039b0603a",
+        "type": "message",
+        "text": "прикольная получилась рекурсия, как сепульки",
+        "user": "U0167FDMS2W",
+        "ts": "1603104113.122100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "bee526673c19",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-18\/1511705652946_bee526673c193b8be0f8_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Salnikov",
+            "display_name": "corsair",
+            "team": "T040HKJE3",
+            "name": "sergey.salnikov.dev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/V7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "прикольная получилась рекурсия, как сепульки"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "parent_user_id": "U014JG3LRLZ",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "URFHG8KDF",
+                    "U061WBASK",
+                    "USPAWPRPX",
+                    "U8H7YKFME"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0693021f-eb74-4f06-a664-790f9e5106ce",
+        "type": "message",
+        "text": "<@U10K3LXHV> человек может ответить на вопросы, значит можно здесь",
+        "user": "U0K47J3HR",
+        "ts": "1603104314.122300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6d5ff9b845f5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-27\/321752094228_6d5ff9b845f5b3248b1e_72.jpg",
+            "first_name": "Valentin",
+            "real_name": "Valentin Malykh",
+            "display_name": "madrugado",
+            "team": "T040HKJE3",
+            "name": "madrugado",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fvFo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U10K3LXHV"
+                            },
+                            {
+                                "type": "text",
+                                "text": " человек может ответить на вопросы, значит можно здесь"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "parent_user_id": "U014JG3LRLZ"
+    },
+    {
+        "client_msg_id": "76182a21-3ff9-49a2-b8e0-24163d101cd2",
+        "type": "message",
+        "text": ":ramen:",
+        "user": "UHY5KKK6D",
+        "ts": "1603104834.123300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3d7bb88461c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433476246342_f3d7bb88461c31e1bf92_72.jpg",
+            "first_name": "Dmitriy",
+            "real_name": "Dmitriy Novikov",
+            "display_name": "Dmitriy Novikov",
+            "team": "T040HKJE3",
+            "name": "nov.dm.konst",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KI7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "ramen"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "parent_user_id": "U014JG3LRLZ",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U014JG3LRLZ",
+                    "UCV0RM9FY",
+                    "U01364G3W84",
+                    "UGD9J4276",
+                    "UCB3PK96J",
+                    "UFV9L308P"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c49ad952-ef89-4556-9ce3-36d1ad9eabb4",
+        "type": "message",
+        "text": "Вилку добавил, но вроде стало только хуже)",
+        "user": "U014JG3LRLZ",
+        "ts": "1603105179.124400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g95e50c4c76f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/95e50c4c76fb28d7a28882c3b6109cdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "I",
+            "real_name": "I Ishberdin",
+            "display_name": "I Ishberdin",
+            "team": "T040HKJE3",
+            "name": "i.ishberdin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BjN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Вилку добавил, но вроде стало только хуже)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "parent_user_id": "U014JG3LRLZ"
+    },
+    {
+        "client_msg_id": "9a881370-c30c-4d15-b15b-da9a2a12b4d6",
+        "type": "message",
+        "text": "а я верно ведь понимаю что даже дмс нет?",
+        "user": "UHY5KKK6D",
+        "ts": "1603106100.126400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3d7bb88461c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433476246342_f3d7bb88461c31e1bf92_72.jpg",
+            "first_name": "Dmitriy",
+            "real_name": "Dmitriy Novikov",
+            "display_name": "Dmitriy Novikov",
+            "team": "T040HKJE3",
+            "name": "nov.dm.konst",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nHAGN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "а я верно ведь понимаю что даже дмс нет?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "parent_user_id": "U014JG3LRLZ"
+    },
+    {
+        "client_msg_id": "dbe01ac6-bfed-4c0b-a108-c73bece994e8",
+        "type": "message",
+        "text": "Зато есть VBA. Божечки, это же археология какая-то.",
+        "user": "U3K7PNTML",
+        "ts": "1603106333.126600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8d51f0926361",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-01-17\/128278815266_8d51f0926361c573895b_72.jpg",
+            "first_name": "Bogdan",
+            "real_name": "Bogdan Ribitskiy",
+            "display_name": "ribitskiyb",
+            "team": "T040HKJE3",
+            "name": "ribitskiyb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4lP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Зато есть VBA. Божечки, это же археология какая-то."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "parent_user_id": "U014JG3LRLZ"
+    },
+    {
+        "client_msg_id": "cafc7923-2e29-4910-9865-2332e5a35e11",
+        "type": "message",
+        "text": "Про ДМС верно",
+        "user": "U014JG3LRLZ",
+        "ts": "1603106580.127000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g95e50c4c76f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/95e50c4c76fb28d7a28882c3b6109cdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "I",
+            "real_name": "I Ishberdin",
+            "display_name": "I Ishberdin",
+            "team": "T040HKJE3",
+            "name": "i.ishberdin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "h2A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Про ДМС верно"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "parent_user_id": "U014JG3LRLZ"
+    },
+    {
+        "client_msg_id": "ce9695ae-5d02-428a-9d99-0b6a71c63a63",
+        "type": "message",
+        "text": "у ваш пишут юнит-тесты к скриптам VBA?",
+        "user": "UQ9UCJT0T",
+        "ts": "1603107682.128200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gaf4aae329f4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/af4aae329f466fda3cbdff9f35d09b0a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "NaN",
+            "real_name": "NaN",
+            "display_name": "NaN",
+            "team": "T040HKJE3",
+            "name": "p.o.solomin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z8oGa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "у ваш пишут юнит-тесты к скриптам VBA?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "parent_user_id": "U014JG3LRLZ"
+    },
+    {
+        "client_msg_id": "d9117bf7-d10f-4d3e-9b54-93e12079e814",
+        "type": "message",
+        "text": "вот прям мы в нашем отделе не пишем тесты к  VBA, и вообще редко его используем, обычно вынужденно. А по поводу их отдела вопрос задал, жду ответ, но думаю, что в целом, у них VBA тоже большая редкость.",
+        "user": "U014JG3LRLZ",
+        "ts": "1603109705.130800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g95e50c4c76f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/95e50c4c76fb28d7a28882c3b6109cdb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "I",
+            "real_name": "I Ishberdin",
+            "display_name": "I Ishberdin",
+            "team": "T040HKJE3",
+            "name": "i.ishberdin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "04ovv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "вот прям мы в нашем отделе не пишем тесты к  VBA, и вообще редко его используем, обычно вынужденно. А по поводу их отдела вопрос задал, жду ответ, но думаю, что в целом, у них VBA тоже большая редкость."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603103630.119400",
+        "parent_user_id": "U014JG3LRLZ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1603110778.134200",
+        "thread_ts": "1603110778.134200",
+        "reply_count": 4,
+        "reply_users_count": 4,
+        "latest_reply": "1603191792.168100",
+        "reply_users": [
+            "U0K47J3HR",
+            "U04ELQZAU",
+            "UJ5CMMNV8",
+            "U3K7PNTML"
+        ],
+        "replies": [
+            {
+                "user": "U0K47J3HR",
+                "ts": "1603111770.138000"
+            },
+            {
+                "user": "U04ELQZAU",
+                "ts": "1603112040.138500"
+            },
+            {
+                "user": "UJ5CMMNV8",
+                "ts": "1603114062.141400"
+            },
+            {
+                "user": "U3K7PNTML",
+                "ts": "1603191792.168100"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "ban",
+                "users": [
+                    "UELA14HSS",
+                    "UCFBV1DHA",
+                    "U4T7UGXA9",
+                    "ULPRYQNS2",
+                    "U73NVHE0Y",
+                    "U854H9KCM",
+                    "UHR5Q170B",
+                    "UJG3X5CSZ",
+                    "U061WBASK",
+                    "UCN3NBGVA",
+                    "U04725QK7",
+                    "U15UZGX9A",
+                    "U7CAU0GMU",
+                    "U9JG577D1",
+                    "UGLMYAX0E",
+                    "UKQTPE877",
+                    "UC9HBTUKG",
+                    "UN1FRFFFX",
+                    "UJUCG9QSC",
+                    "U04ELQZAU",
+                    "U6MMD7953",
+                    "UKQTHKEPJ",
+                    "UN5HXEBJ8",
+                    "U98EE2ZSB",
+                    "U6WUCDKKM",
+                    "USPAWPRPX",
+                    "U8J9XMX3J",
+                    "U9ZMU4630",
+                    "U6T11F9T4",
+                    "UJ2JGSQ3X",
+                    "U9M4BGEL8",
+                    "U3K7PNTML"
+                ],
+                "count": 32
+            },
+            {
+                "name": "fork",
+                "users": [
+                    "UQ9UCJT0T",
+                    "U4T7UGXA9",
+                    "ULPRYQNS2",
+                    "UHR5Q170B",
+                    "U061WBASK",
+                    "UCN3NBGVA",
+                    "U04725QK7",
+                    "UGLMYAX0E",
+                    "UKQTPE877",
+                    "UC9HBTUKG",
+                    "U10P8BDU1",
+                    "U04ELQZAU",
+                    "U6MMD7953",
+                    "U9JPJCD2L",
+                    "U8PMZ6397",
+                    "U6T11F9T4",
+                    "UJ2JGSQ3X",
+                    "UN2SNL0U8",
+                    "U9M4BGEL8"
+                ],
+                "count": 19
+            },
+            {
+                "name": "readmetopicplzzz",
+                "users": [
+                    "UC9HBTUKG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "73854fac-116c-4562-a91d-9664dd1f06d8",
+        "type": "message",
+        "text": "please add info about the opening, especially the salary range",
+        "user": "U0K47J3HR",
+        "ts": "1603111770.138000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6d5ff9b845f5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-27\/321752094228_6d5ff9b845f5b3248b1e_72.jpg",
+            "first_name": "Valentin",
+            "real_name": "Valentin Malykh",
+            "display_name": "madrugado",
+            "team": "T040HKJE3",
+            "name": "madrugado",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "W0yOq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "please add info about the opening, especially the salary range"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603110778.134200",
+        "parent_user_id": "UJ5CMMNV8"
+    },
+    {
+        "client_msg_id": "8d03c0c5-9f83-4120-87a8-b8b915cba787",
+        "type": "message",
+        "text": "Правила в шапке канала",
+        "user": "U04ELQZAU",
+        "ts": "1603112040.138500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f6bc50fa5754",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-10-20\/93944572805_f6bc50fa575469918b41_72.png",
+            "first_name": "Артём",
+            "real_name": "Артём Соболев",
+            "display_name": "asobolev",
+            "team": "T040HKJE3",
+            "name": "asobolev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rD4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Правила в шапке канала"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603110778.134200",
+        "parent_user_id": "UJ5CMMNV8"
+    },
+    {
+        "client_msg_id": "73f9c90e-d38f-4ccc-a355-8fe65f87a415",
+        "type": "message",
+        "text": "Unfortunately I can’t provide that info as I am not directly involved in the salary determination\/negotiation.  At best I can say it is experience dependent and provide this link <https:\/\/www.paylab.com\/no\/salaryinfo\/information-technology> for Norwegian salaries in the domain",
+        "user": "UJ5CMMNV8",
+        "ts": "1603114062.141400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g2b9302f52e0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/602b9302f52e0347cbb98ce0d479498e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0002-72.png",
+            "first_name": "Boris",
+            "real_name": "Boris Simovski",
+            "display_name": "Boris Simovski",
+            "team": "T040HKJE3",
+            "name": "boris.simovski",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "Salaries by positions in Information Technology - Norway - Paylab.com",
+                "title_link": "https:\/\/www.paylab.com\/no\/salaryinfo\/information-technology",
+                "text": "Compare your salary - Salary and compensation survey by position, overview of salaries in Norway",
+                "fallback": "Salaries by positions in Information Technology - Norway - Paylab.com",
+                "image_url": "https:\/\/www.paylab.com\/static\/images\/og\/main_XX.png?1602772967982901c0",
+                "from_url": "https:\/\/www.paylab.com\/no\/salaryinfo\/information-technology",
+                "image_width": 597,
+                "image_height": 250,
+                "image_bytes": 463527,
+                "service_icon": "https:\/\/www.paylab.com\/c\/images\/logo\/13\/favicon.ico?langprefix=no&amp;1602772967982901c0",
+                "service_name": "paylab.com",
+                "id": 1,
+                "original_url": "https:\/\/www.paylab.com\/no\/salaryinfo\/information-technology"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sNq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Unfortunately I can’t provide that info as I am not directly involved in the salary determination\/negotiation.  At best I can say it is experience dependent and provide this link "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.paylab.com\/no\/salaryinfo\/information-technology"
+                            },
+                            {
+                                "type": "text",
+                                "text": " for Norwegian salaries in the domain"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603110778.134200",
+        "parent_user_id": "UJ5CMMNV8"
+    }
+]

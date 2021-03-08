@@ -1,0 +1,617 @@
+[
+    {
+        "client_msg_id": "cd8f6e05-38e8-4557-a0cc-8f08f14d69fd",
+        "type": "message",
+        "text": "*Компания:* Спасибо от Сбербанка :sberbank:\n*Название вакансии:* Middle \/ Senior Data Scientist _*(Рекомендательные системы)*_ \n_*Вилка*_ :fork:_*:*_ 150-200k rub (на руки). Дополнительно годовой бонус (около 1.4 оклада).\n*Нанимаем*: двух специалистов\n*Локация:* Москва, м. Павелецкая\n\nПривет!\nИщу двух DS  _*с опытом* в рекомендательных системах_. Предстоит разработать рекомендательную систему для &gt;40 млн клиентов программы лояльности Спасибо от Сбербанка. Разработка с нуля, есть простор для творческого подхода к работе.\n\n*Типовые задачи:*\nOnline и offline рекомендации товаров и услуг для пользователей;\nРанжирование товаров и услуг;\nПостроение моделей оттока и ретаргетинга;\nОбратная задача к top-n рекомендаций — подбор пользователей под группу товаров и услуг.\n\n*Стек технологий:*\nДанные: GreenPlum, Clickhouse, Spark :spark:\nML: Python (Tensorflow :tensorflow: \/ Keras :keras:\/ PyTorch :pytorch:, SKlearn, XGBoost, LightGBM, Catboost, LightFM, MLlib)\nPipelines: Airflow :airflow:, MLFlow \nДля организации работы: Jira, Confluence, GitLab, DVC, Sphinx, Kubernetes, Docker, работаем спринтами\n\n*Как связаться:*\nБуду рад ответить на ваши вопросы в slack <@UQWC3J2AZ>\nРезюме присылайте HR Елене (<mailto:eaborodinova@spasibosb.ru|eaborodinova@spasibosb.ru>)",
+        "user": "UQWC3J2AZ",
+        "ts": "1591613873.329600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gb8d98ea13be",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b8d98ea13bea71b706a80e8e7dcb015a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Armi",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "a.amirkhanyan7",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UQWC3J2AZ",
+            "ts": "1591615483.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WWOD8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Компания: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Спасибо от Сбербанка "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sberbank"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Название вакансии:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Middle \/ Senior Data Scientist "
+                            },
+                            {
+                                "type": "text",
+                                "text": "(Рекомендательные системы) ",
+                                "style": {
+                                    "bold": true,
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка ",
+                                "style": {
+                                    "bold": true,
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "fork",
+                                "style": {
+                                    "bold": true,
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":",
+                                "style": {
+                                    "bold": true,
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "150-200k rub (на руки). Дополнительно годовой бонус (около 1.4 оклада).\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Нанимаем",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": двух специалистов\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Локация: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Москва, м. Павелецкая\n\nПривет!\nИщу двух DS  "
+                            },
+                            {
+                                "type": "text",
+                                "text": "с опытом",
+                                "style": {
+                                    "bold": true,
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " в рекомендательных системах",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ". Предстоит разработать рекомендательную систему для >40 млн клиентов программы лояльности Спасибо от Сбербанка. Разработка с нуля, есть простор для творческого подхода к работе.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Типовые задачи:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nOnline и offline рекомендации товаров и услуг для пользователей;\nРанжирование товаров и услуг;\nПостроение моделей оттока и ретаргетинга;\nОбратная задача к top-n рекомендаций — подбор пользователей под группу товаров и услуг.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Стек технологий:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nДанные: GreenPlum, Clickhouse, Spark "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "spark"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nML: Python (Tensorflow "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "tensorflow"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \/ Keras "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "keras"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\/ PyTorch "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "pytorch"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", SKlearn, XGBoost, LightGBM, Catboost, LightFM, MLlib)\nPipelines: Airflow "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "airflow"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", MLFlow \nДля организации работы: Jira, Confluence, GitLab, DVC, Sphinx, Kubernetes, Docker, работаем спринтами\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Как связаться:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nБуду рад ответить на ваши вопросы в slack "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UQWC3J2AZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nРезюме присылайте HR Елене ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:eaborodinova@spasibosb.ru",
+                                "text": "eaborodinova@spasibosb.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1591613873.329600",
+        "reply_count": 7,
+        "reply_users_count": 6,
+        "latest_reply": "1591714533.386900",
+        "reply_users": [
+            "U04725QK7",
+            "UCM4G5BDX",
+            "UMD13056D",
+            "UDDJ1A4CA",
+            "UQWC3J2AZ",
+            "UM2Q2B41J"
+        ],
+        "replies": [
+            {
+                "user": "U04725QK7",
+                "ts": "1591616419.332500"
+            },
+            {
+                "user": "UCM4G5BDX",
+                "ts": "1591617674.333800"
+            },
+            {
+                "user": "UMD13056D",
+                "ts": "1591626276.337100"
+            },
+            {
+                "user": "UDDJ1A4CA",
+                "ts": "1591633940.339300"
+            },
+            {
+                "user": "UQWC3J2AZ",
+                "ts": "1591634308.340200"
+            },
+            {
+                "user": "UM2Q2B41J",
+                "ts": "1591688197.345300"
+            },
+            {
+                "user": "UQWC3J2AZ",
+                "ts": "1591714533.386900"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "U9Q846B2A",
+                    "UHGV5M8KF",
+                    "UD37TP39U",
+                    "U7E8Y3V19",
+                    "U5KD4L5JP",
+                    "U27SUBTB9",
+                    "U1G303UTW",
+                    "UDK41MN5U",
+                    "U04725QK7",
+                    "U2PMV9N06",
+                    "UC9HBTUKG",
+                    "UKQDJU35J",
+                    "U09JEC7V0",
+                    "U6QF7NATC",
+                    "ULPRYQNS2",
+                    "UMKQUCV19",
+                    "U4AP30L65",
+                    "UUCMSG459",
+                    "UKQTPE877",
+                    "UCTV3D6V8",
+                    "UC9J53NAY",
+                    "U6YV1UAS1",
+                    "U4AQM4FV0",
+                    "U4JU9CK5L",
+                    "UET6CJG7M",
+                    "U3Y5VQ5J6",
+                    "U5J7KCHLG",
+                    "U60EETE7N",
+                    "UP6LRGPS5",
+                    "UCB3PK96J",
+                    "US2Q6MCPQ",
+                    "UF5E26Z28",
+                    "U7WFH7UUF",
+                    "UEV7H45LJ",
+                    "U1YQLTMLH",
+                    "UTSEA2RFS",
+                    "UAA8R56AD",
+                    "U79U060TZ",
+                    "U6PNWSJL8",
+                    "UM2Q2B41J",
+                    "U90HKUW3B",
+                    "U70ULMUEP",
+                    "UJ8UE41FS",
+                    "UKCLQLZB2",
+                    "UDRSF7GV6",
+                    "U01113E1UBC"
+                ],
+                "count": 46
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "UCR32U15L"
+                ],
+                "count": 1
+            },
+            {
+                "name": "astanavites",
+                "users": [
+                    "U30A6KZLH",
+                    "U6LSE0FT9",
+                    "U4AQM4FV0",
+                    "UCB3PK96J"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5bcd489b-910f-4b7a-b490-d790292830ac",
+        "type": "message",
+        "text": "У сбербанка деньги закончились?",
+        "user": "U04725QK7",
+        "ts": "1591616419.332500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c5a2eb7d11b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-04-06\/165204167890_6c5a2eb7d11ba847fb69_72.png",
+            "first_name": "Gleb",
+            "real_name": "Gleb Filatov",
+            "display_name": "gleb_filatov",
+            "team": "T040HKJE3",
+            "name": "gleb_filatov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bP7\/z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "У сбербанка деньги закончились?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1591613873.329600",
+        "parent_user_id": "UQWC3J2AZ"
+    },
+    {
+        "client_msg_id": "83aa0017-9080-42f1-9cb2-eff5cb059a3d",
+        "type": "message",
+        "text": "Добрый день. Тоже было бы интересно узнать про открытые проекты. Если возможно, не могли бы и мне скинуть?",
+        "user": "U27HD50AX",
+        "ts": "1591616845.333100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "9c1600f513a7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-02-05\/137121499138_9c1600f513a7d69b0acc_72.jpg",
+            "first_name": "Alexander",
+            "real_name": "Alexander Shevelev",
+            "display_name": "alshev",
+            "team": "T040HKJE3",
+            "name": "alshev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TdE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Добрый день. Тоже было бы интересно узнать про открытые проекты. Если возможно, не могли бы и мне скинуть?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1590994140.059500",
+        "parent_user_id": "UFH2SQULU"
+    },
+    {
+        "client_msg_id": "0d963ad9-4a57-4cc6-92b6-88c802c59b52",
+        "type": "message",
+        "text": "Нет, просто рынок труда насытился",
+        "user": "UCM4G5BDX",
+        "ts": "1591617674.333800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e6c3b4b54bff",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-09-05\/429131560832_e6c3b4b54bff1e8c4b40_72.jpg",
+            "first_name": "Korolev",
+            "real_name": "Korolev Daniil",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "korolyovdanil",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GPHF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Нет, просто рынок труда насытился"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1591613873.329600",
+        "parent_user_id": "UQWC3J2AZ"
+    },
+    {
+        "client_msg_id": "d66c859b-58b6-475e-9b2f-41dbac31a656",
+        "type": "message",
+        "text": "Ага, все поумирали от эпидемии, мертвые восстали и стали дсами",
+        "user": "UMD13056D",
+        "ts": "1591626276.337100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "33e46340a0f7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-02\/1218639741282_33e46340a0f7b20e1d09_72.jpg",
+            "first_name": "TheBestName",
+            "real_name": "TheBestName",
+            "display_name": "VodkaBalalayka",
+            "team": "T040HKJE3",
+            "name": "lyulinanton93",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UMD13056D",
+            "ts": "1591626297.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "14Bxz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ага, все поумирали от эпидемии, мертвые восстали и стали дсами"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1591613873.329600",
+        "parent_user_id": "UQWC3J2AZ"
+    },
+    {
+        "client_msg_id": "28e30b84-c39c-402e-a24b-6c9a8f7ea958",
+        "type": "message",
+        "text": "Удалёнку рассматриваете?",
+        "user": "UDDJ1A4CA",
+        "ts": "1591633940.339300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g5bae27b5346",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/995bae27b53466655da6e24d2ffde479.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Khristoforov",
+            "real_name": "Khristoforov Ilya",
+            "display_name": "ilyakhristoforov",
+            "team": "T040HKJE3",
+            "name": "hristoforov.ilya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nEV=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Удалёнку рассматриваете?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1591613873.329600",
+        "parent_user_id": "UQWC3J2AZ"
+    },
+    {
+        "client_msg_id": "5A055D24-3248-4CAD-8A15-FAE470F68F02",
+        "type": "message",
+        "text": "Увы, не рассматриваем, нанимаем в штат",
+        "user": "UQWC3J2AZ",
+        "ts": "1591634308.340200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gb8d98ea13be",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b8d98ea13bea71b706a80e8e7dcb015a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Armi",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "a.amirkhanyan7",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "C7Ch",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Увы, не рассматриваем, нанимаем в штат"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1591613873.329600",
+        "parent_user_id": "UQWC3J2AZ",
+        "reactions": [
+            {
+                "name": "pepe_sad",
+                "users": [
+                    "UDDJ1A4CA",
+                    "UMWQ93K7E",
+                    "UCTV3D6V8"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

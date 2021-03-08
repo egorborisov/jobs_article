@@ -1,0 +1,362 @@
+[
+    {
+        "client_msg_id": "7783DAB2-C4A7-4D97-B04E-D08CDF99B7B7",
+        "type": "message",
+        "text": "Нет, на эту вакансию не рассматриваем",
+        "user": "UBD820W3C",
+        "ts": "1577866207.008700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c7b527b64ca",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-09\/867421285926_6c7b527b64ca30b76cb2_72.png",
+            "first_name": "Konstantin",
+            "real_name": "Konstantin Tyapochkin",
+            "display_name": "tyapochkinks",
+            "team": "T040HKJE3",
+            "name": "tyapochkin.ks",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/e8h",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Нет, на эту вакансию не рассматриваем"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577250542.188400",
+        "parent_user_id": "UBD820W3C"
+    },
+    {
+        "client_msg_id": "269300e2-e506-44b9-9e8b-8070851cd287",
+        "type": "message",
+        "text": "<@UBE0WNL1L> Для тех, кто удосужился хотя бы прочитать сравнительный анализ кода выше ответ ваш абсолютно не состоятелен. Но вы вот что лучше мне расскажите - про датасет. Вы реально тренировали сеть на 200 снимках? Даже в первой версии Lacmus Drone Dataset 400, сейчас ещё больше. Картинки из ImageNet и SDD здесь побоку - на них учится плохо, если у вас (случайно) такая же нейросеть, они и вам не очень помогли. (Ну разве что автомобили в лесу детектировать).\nВ пресс-релизе билайна написано про \"онлайн-сервис с возможностью передавать данные в облачное хранилище BeeCloud, где к фото имеет моментальный доступ группа отсмотра\" - где он? Возможно стоит дать возможность добровольцам не только отсматривать, но и размечать? А потом открыть датасет (размеченный волонтерами, повторюсь) для широкой публики, раз уж вы говорите, что цель - не получение прибыли и вы хотите делать хорошее дело вместе. Ну или хотя бы поделиться текущим вариантом (предоставленным по вашим словам неккомерческой ЛА). Если он от нашего отличается, конечно, а не тоже командой cp получен.",
+        "user": "UCMQ8SQ57",
+        "ts": "1577883231.013400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16f6f8533438",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-29\/765761446883_16f6f8533438f85d8d7d_72.jpg",
+            "first_name": "Kseniia",
+            "real_name": "Kseniia Terekhova",
+            "display_name": "Kseniia",
+            "team": "T040HKJE3",
+            "name": "kterehova",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UCMQ8SQ57",
+            "ts": "1577883397.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7yC2A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UBE0WNL1L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Для тех, кто удосужился хотя бы прочитать сравнительный анализ кода выше ответ ваш абсолютно не состоятелен. Но вы вот что лучше мне расскажите - про датасет. Вы реально тренировали сеть на 200 снимках? Даже в первой версии Lacmus Drone Dataset 400, сейчас ещё больше. Картинки из ImageNet и SDD здесь побоку - на них учится плохо, если у вас (случайно) такая же нейросеть, они и вам не очень помогли. (Ну разве что автомобили в лесу детектировать).\nВ пресс-релизе билайна написано про \"онлайн-сервис с возможностью передавать данные в облачное хранилище BeeCloud, где к фото имеет моментальный доступ группа отсмотра\" - где он? Возможно стоит дать возможность добровольцам не только отсматривать, но и размечать? А потом открыть датасет (размеченный волонтерами, повторюсь) для широкой публики, раз уж вы говорите, что цель - не получение прибыли и вы хотите делать хорошее дело вместе. Ну или хотя бы поделиться текущим вариантом (предоставленным по вашим словам неккомерческой ЛА). Если он от нашего отличается, конечно, а не тоже командой cp получен."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UG38LQ0DV",
+                    "ULPRYQNS2"
+                ],
+                "count": 2
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UG38LQ0DV",
+                    "ULPRYQNS2",
+                    "UELA14HSS",
+                    "U41LBNH6J",
+                    "URDUG484V",
+                    "U7VDWFSG3"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "client_msg_id": "07A5D839-4E7E-4BDC-B389-9BB210ADEF79",
+        "type": "message",
+        "text": "С удовольствием сходил бы на митап :bee:, где показали бы, как свести стохастический процесс (сетки) к одинаковым до 6 знака значениям (весам) :el_risitas: ",
+        "user": "U5GCU82HX",
+        "ts": "1577899904.017400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g33eb3ecf5bb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/5033eb3ecf5bbf4f627630da68f5b7a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Stanislav",
+            "real_name": "Stanislav Demchenko",
+            "display_name": "bearstrikesback",
+            "team": "T040HKJE3",
+            "name": "bearstrikesback",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U5GCU82HX",
+            "ts": "1577899926.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q9Y",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "С удовольствием сходил бы на митап "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "bee"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", где показали бы, как свести стохастический процесс (сетки) к одинаковым до 6 знака значениям (весам) "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "el_risitas"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L",
+        "reactions": [
+            {
+                "name": "el_resitas_shake2",
+                "users": [
+                    "U0JHK9001",
+                    "U040HKJE7",
+                    "U8J9MA0RE",
+                    "UA2PZ61DM",
+                    "UCSUYU3UY",
+                    "U3CJPQ4HX",
+                    "U7SFPUVQF",
+                    "UD37TP39U",
+                    "U27SUBTB9",
+                    "UHGJ890UC",
+                    "ULPRYQNS2",
+                    "UFU5A4M60",
+                    "UELA14HSS",
+                    "ULMML7Z5K",
+                    "U0L4KM9R9",
+                    "UG38LQ0DV",
+                    "ULMNERS77",
+                    "UCMK5TDME",
+                    "UPD47KCSZ",
+                    "U74DLUWUC",
+                    "U9DHYLKM2",
+                    "U90B4N03F",
+                    "UCHHGFDJ4",
+                    "U7VDWFSG3",
+                    "UL2Q5101X",
+                    "U828HFY0G",
+                    "U3Y5VQ5J6",
+                    "UDY9Z054P"
+                ],
+                "count": 28
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UG38LQ0DV"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "UG38LQ0DV",
+                    "U362JS5LZ"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4ae14551-4260-4222-aaac-37d1a41ab402",
+        "type": "message",
+        "text": "Угадать с сидом?",
+        "user": "UCM1WHP1U",
+        "ts": "1577902023.018200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "a3b4d81fed10",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-09-19\/438640051188_a3b4d81fed10775919a6_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Lebedev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "sergey.lebedev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+33c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Угадать с сидом?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L",
+        "reactions": [
+            {
+                "name": "vanga",
+                "users": [
+                    "UA2PZ61DM",
+                    "U040HKJE7",
+                    "U7SFPUVQF",
+                    "UCM1WHP1U",
+                    "U34Q3KU8H",
+                    "UG38LQ0DV",
+                    "UELA14HSS",
+                    "ULMML7Z5K",
+                    "U832HJCUV",
+                    "U86V0LFDG",
+                    "URDUG484V",
+                    "UCHHGFDJ4",
+                    "U7VDWFSG3",
+                    "U828HFY0G"
+                ],
+                "count": 14
+            },
+            {
+                "name": "you-dont-say",
+                "users": [
+                    "U5GCU82HX",
+                    "U040HKJE7",
+                    "UG38LQ0DV"
+                ],
+                "count": 3
+            },
+            {
+                "name": "nikogda-takogo-ne-bilo",
+                "users": [
+                    "U040HKJE7",
+                    "UG38LQ0DV"
+                ],
+                "count": 2
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UG38LQ0DV"
+                ],
+                "count": 1
+            },
+            {
+                "name": "kekeke",
+                "users": [
+                    "UFU5A4M60",
+                    "UELA14HSS",
+                    "UCHHGFDJ4"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7bb52117-c038-45c5-81cb-0e96bc133f05",
+        "type": "message",
+        "text": "<@U5GCU82HX> по итогам исследований можно публиковаться на архив)",
+        "user": "UG38LQ0DV",
+        "ts": "1577912930.020300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1194a0bc396b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-20\/1326321422737_1194a0bc396b9e8b7701_72.jpg",
+            "first_name": "Palladdiumm",
+            "real_name": "Palladdiumm",
+            "display_name": "Palladdiumm",
+            "team": "T040HKJE3",
+            "name": "darkstranger85",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OOeD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U5GCU82HX"
+                            },
+                            {
+                                "type": "text",
+                                "text": " по итогам исследований можно публиковаться на архив)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L"
+    }
+]

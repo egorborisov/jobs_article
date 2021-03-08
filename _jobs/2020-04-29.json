@@ -1,0 +1,985 @@
+[
+    {
+        "client_msg_id": "d2dd40f7-572f-4666-9e8c-028672281d9f",
+        "type": "message",
+        "text": "Привет.\n*Вакансия*: 2 x Middle Data Scientist – CV Researcher.\n*Компания*: Тинькофф.\n*Город*:  Пока из дома. После карантина - Москва.\n*Вилка*:  100-180k Net.\n\nИщем усиление к команду биометрии. Одна вакансия в направлении liveness, одна в face recognition. Тех лидить будет <@U26MG2Z37>.\n\n*Что делать liveness:*\n- Развивать 2d\/3d liveness detection;\n- Повышать устойчивать к разным видам атак;\n- Помогать выкатывать решение на прод - docker, API, etc;\n- Помогать джунам;\n- Участвовать в рисерче по лицевой биометрии.\n\n*Что делать face recognition:*\n- Развивать модель face recognition;\n- Адаптировать к различным бизнес-кейсам;\n- Помогать джунам;\n- Участвовать в рисерче по лайвнесу.\n\n*Требования:*\n- ML\/DL - linear regression, kNN и прочая машинерия;\n- CV - object  detection, segmentation, video analysis, face recognition и dense face reconstruction;\n- OpenCV + Уверенное владение хотя бы одним DL фрейворком (TF, pytorch, MXNet ..);\n- Опыт работы от 1.5 лет в компьютерном зрении;\n\n*Будет плюсом:*\n- Опыт внедрения или участия во внедрении моделей на прод;\n- Опыт реализации проектов liveness, video analysis;\n- Опыт работы с docker, k8s, TFServing.\n- Опыт ведения направления - понимание направления развития, нарезание задач, руководство джунами.\n\n*Предлагаем:*\n- 100-180k net;\n- Офис на Водном стадионе;\n- Своя платформа разметки;\n- Кластер Tesla V100 и много другого железа;\n- Проводим митапы, тренинги и мастер-классы;\n- Tinkoff.Сafe;\n- После испытательного срока ДМС + НС + Tinkoff.Sport.\n\nПисать <mailto:k.p.osminin@tinkoff.ru|k.p.osminin@tinkoff.ru>, в теме письма [<http:\/\/ODS.CV|ODS.CV>].",
+        "user": "U2FM0GQUE",
+        "ts": "1588151841.199700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f9e7df73242a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-03-28\/592453955894_f9e7df73242a0d585024_72.jpg",
+            "first_name": "Константин",
+            "real_name": "Константин Осминин",
+            "display_name": "osminink",
+            "team": "T040HKJE3",
+            "name": "osminink",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jUnBf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": 2 x Middle Data Scientist – CV Researcher.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Тинькофф.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":  Пока из дома. После карантина - Москва.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":  100-180k Net.\n\nИщем усиление к команду биометрии. Одна вакансия в направлении liveness, одна в face recognition. Тех лидить будет "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U26MG2Z37"
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что делать liveness:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Развивать 2d\/3d liveness detection;\n- Повышать устойчивать к разным видам атак;\n- Помогать выкатывать решение на прод - docker, API, etc;\n- Помогать джунам;\n- Участвовать в рисерче по лицевой биометрии.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что делать face recognition:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Развивать модель face recognition;\n- Адаптировать к различным бизнес-кейсам;\n- Помогать джунам;\n- Участвовать в рисерче по лайвнесу.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- ML\/DL - linear regression, kNN и прочая машинерия;\n- CV - object  detection, segmentation, video analysis, face recognition и dense face reconstruction;\n- OpenCV + Уверенное владение хотя бы одним DL фрейворком (TF, pytorch, MXNet ..);\n- Опыт работы от 1.5 лет в компьютерном зрении;\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Будет плюсом:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Опыт внедрения или участия во внедрении моделей на прод;\n- Опыт реализации проектов liveness, video analysis;\n- Опыт работы с docker, k8s, TFServing.\n- Опыт ведения направления - понимание направления развития, нарезание задач, руководство джунами.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Предлагаем:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- 100-180k net;\n- Офис на Водном стадионе;\n- Своя платформа разметки;\n- Кластер Tesla V100 и много другого железа;\n- Проводим митапы, тренинги и мастер-классы;\n- Tinkoff.Сafe;\n- После испытательного срока ДМС + НС + Tinkoff.Sport.\n\nПисать "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:k.p.osminin@tinkoff.ru",
+                                "text": "k.p.osminin@tinkoff.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", в теме письма [ODS.CV]."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588151841.199700",
+        "reply_count": 4,
+        "reply_users_count": 4,
+        "latest_reply": "1588162994.213100",
+        "reply_users": [
+            "UJU129868",
+            "U2FM0GQUE",
+            "UQA9AN8PP",
+            "U5FB91P55"
+        ],
+        "replies": [
+            {
+                "user": "UJU129868",
+                "ts": "1588152561.202000"
+            },
+            {
+                "user": "U2FM0GQUE",
+                "ts": "1588153019.202700"
+            },
+            {
+                "user": "UQA9AN8PP",
+                "ts": "1588159918.211500"
+            },
+            {
+                "user": "U5FB91P55",
+                "ts": "1588162994.213100"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "U9HSZRDP1",
+                    "UG3P7DHB9",
+                    "U7N4E8GBF",
+                    "U7WFH7UUF",
+                    "U7VDWFSG3",
+                    "UBMS3KJ0J",
+                    "UF5E26Z28",
+                    "U5KD4L5JP",
+                    "U49NJJXNJ",
+                    "U9JSUB8T1",
+                    "UGZ178PMW",
+                    "U5DB9KQG5",
+                    "UJ2JGSQ3X",
+                    "UJG3W0SSZ",
+                    "UC7F3KJ7P",
+                    "U09JEC7V0",
+                    "U9221QEV8",
+                    "U4U4GFDNK",
+                    "UCKGAQKE0",
+                    "UBRK4HXQV",
+                    "UBQELFC8K",
+                    "UDS0MCBH7",
+                    "UC8NCT0PQ",
+                    "U70NDKZR9",
+                    "U80H34210",
+                    "U0UJ10A9J",
+                    "UMME6QQ2J",
+                    "U54A89STH",
+                    "U6YV1UAS1",
+                    "UKQTPE877",
+                    "U2LF67NRH",
+                    "U705ED0CU",
+                    "U90HKUW3B",
+                    "U869WDMH6",
+                    "UDJS7Q1DL",
+                    "UDE5GJXAA",
+                    "U3Y5VQ5J6",
+                    "U6GD2U8SE",
+                    "UDUBG85P1",
+                    "U9ZMU4630",
+                    "UP6LRGPS5",
+                    "U1Q0B8KMJ",
+                    "UG8K6LD6D",
+                    "U6GDF7JF2",
+                    "U0NQXK023",
+                    "UD37TP39U",
+                    "U1J5JCGKE",
+                    "U6XMXEHHT",
+                    "UD2EX7JP9",
+                    "UELA14HSS"
+                ],
+                "count": 85
+            },
+            {
+                "name": "top",
+                "users": [
+                    "UCXNWTUCQ",
+                    "UPLRZC56V",
+                    "ULRRTRXB4",
+                    "URCJSA98W",
+                    "U6WTSFMSP",
+                    "U5FB91P55",
+                    "U9ZNTN57V"
+                ],
+                "count": 7
+            },
+            {
+                "name": "galera",
+                "users": [
+                    "U5KD4L5JP",
+                    "UM5CR4AR4",
+                    "U9JSUB8T1",
+                    "U2LF67NRH",
+                    "U7E8Y3V19",
+                    "U4BU5BR6X",
+                    "UM5DXE4LE",
+                    "UKJGXC8HX"
+                ],
+                "count": 8
+            },
+            {
+                "name": "putin",
+                "users": [
+                    "UAG21HMV4",
+                    "UCB3PK96J"
+                ],
+                "count": 2
+            },
+            {
+                "name": "tinkoff",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U6WTSFMSP",
+                    "UPLRZC56V",
+                    "UELA14HSS",
+                    "U6REYATNJ",
+                    "U78B81YMD",
+                    "U012HP9833M",
+                    "U34SSE54G",
+                    "UDY9Z054P",
+                    "U60EETE7N",
+                    "UCB3PK96J",
+                    "UCMAWD588",
+                    "UM38D44GY",
+                    "UCTKELLN6",
+                    "ULRRFCUR0",
+                    "UM5DXE4LE",
+                    "UCF83GJ57",
+                    "UKJGXC8HX"
+                ],
+                "count": 18
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U6WATLNQY",
+                    "U5ZKZCAM8",
+                    "U6WTSFMSP",
+                    "U9ZNTN57V",
+                    "UCXNWTUCQ",
+                    "UPLRZC56V",
+                    "U012HP9833M",
+                    "URCJSA98W",
+                    "U53E5MFNU",
+                    "U9ZU1CYUD"
+                ],
+                "count": 10
+            },
+            {
+                "name": "cacalyst",
+                "users": [
+                    "U1G303UTW",
+                    "U4WGFD012",
+                    "U7E8Y3V19",
+                    "UCB3PK96J",
+                    "UM38D44GY",
+                    "UCTKELLN6",
+                    "UM5DXE4LE",
+                    "U1GMCNV3M"
+                ],
+                "count": 8
+            },
+            {
+                "name": "fire",
+                "users": [
+                    "U6WTSFMSP",
+                    "U9ZNTN57V",
+                    "UCXNWTUCQ",
+                    "UPLRZC56V",
+                    "U78B81YMD",
+                    "URCJSA98W",
+                    "UTSEA2RFS"
+                ],
+                "count": 7
+            },
+            {
+                "name": "hankey",
+                "users": [
+                    "U34SSE54G",
+                    "U7E8Y3V19",
+                    "UCTKELLN6"
+                ],
+                "count": 3
+            },
+            {
+                "name": "bigbrother",
+                "users": [
+                    "U60EETE7N"
+                ],
+                "count": 1
+            },
+            {
+                "name": "face_vomiting",
+                "users": [
+                    "UHDQKG6P5"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6d2c4553-9072-444d-bc3a-fc136617f9a5",
+        "type": "message",
+        "text": "В каком состоянии проект на данный момент? уже что-то из биометрии в проде?",
+        "user": "UJU129868",
+        "ts": "1588152561.202000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g4f4780f3b5a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a24f4780f3b5ac04c81040196032fb02.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "",
+            "real_name": "Alex Golunov",
+            "display_name": "Alex Golunov",
+            "team": "T040HKJE3",
+            "name": "alex.golunov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7rxWJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "В каком состоянии проект на данный момент? уже что-то из биометрии в проде?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588151841.199700",
+        "parent_user_id": "U2FM0GQUE"
+    },
+    {
+        "client_msg_id": "666f4311-9f00-474e-99de-ab946cf51751",
+        "type": "message",
+        "text": "Лицевая биометрия тестируется на проде, лайвнес пока MVP.",
+        "user": "U2FM0GQUE",
+        "ts": "1588153019.202700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f9e7df73242a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-03-28\/592453955894_f9e7df73242a0d585024_72.jpg",
+            "first_name": "Константин",
+            "real_name": "Константин Осминин",
+            "display_name": "osminink",
+            "team": "T040HKJE3",
+            "name": "osminink",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rq8X",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Лицевая биометрия тестируется на проде, лайвнес пока MVP."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588151841.199700",
+        "parent_user_id": "U2FM0GQUE"
+    },
+    {
+        "client_msg_id": "741f57ea-9a05-4406-a88c-2125fe49afd4",
+        "type": "message",
+        "text": "Друзья, привет,\nВ *Wheely* :wheely: ищем себе в команду *Product Data Analyst уровня middle\/senior*. Мы активно развиваем продуктовые команды (у нас их 9) и нам нужны продуктовые аналитики. Много интересных задач, свобода выбора наилучшего решения, классная команда и возможность международного развития :earth_americas: .\n*По задачам:*\n- *UX*: хотим сделать пины на карте (где пользователю удобнее сесть в автомобиль), строим и тестируем гипотезы для новых фичей, анализируем поведение пользователей в *Amplitude.*\n- *Growth*: строим модели для *churn*, *LTV*, *retention*, оцениваем эффективность каналов привлечения пользователей с помощью эконометрических моделей.\n- *Quality&amp;Safety:* хотим собирать телеметрию и анализировать поведение водителей на дорогах, категоризировать отзывы пользователей и автоматизировать систему оценки соответствия водителей стандартам.\n- *B2B*: новое направление, будем делать супер удобный сервис для наших корпоративных клиентов, соответственно, новые фичи, аналитика по пользователям,...\n- *Billing&amp;Fraud*: ловим плохих ребят и отключаем их от сервиса, разрабатываем более удобные механизмы предавторизации пользователей.\n- *Maps&amp;Geo*: много гео-аналитики, будем улучшать работу с картами (сейчас используем :google:). Есть проблемы с построением маршрутов (гугл частенько косячит), GPS координаты хаотично бросает, ...\n*Стэк:* Git :git:, Python, SQL, Looker, Amplitude, AWS* *:aws: *(*Redshift, EC2, S3)\n*Требования:*\n- Опыт в аналогичной роли от 3х лет (можно меньше, но с хорошими кейсами).\n- Самостоятельность в решении задач и внимательность к деталям.\n- Уверенное знание Python, SQL, статистики (A\/B).\n- Знание английского на уровне, чтобы хватило объяснить что ты делаешь (HQ в Лондоне, поэтому без инглиша не обойтись).\n*Что предлагаем:*\n- ЗП: *200-250к гросс* (можно больше, но надо доказать)\n- Опционная программа для сотрудников :moneybag:\n- Использование сервиса в рамках месячного лимита\n- Занятия английским в Skyeng (так что можно подтянуть как теорию, так и практику)\n- Классный офис в центре (м. Цветной Бульвар, Трубная, Сухаревская)\nПисать мне (можно здесь, можно на почту <mailto:nikolay.bashlykov@wheely.com|nikolay.bashlykov@wheely.com>)",
+        "user": "U9K3G8BP0",
+        "ts": "1588154666.205600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f7f29cbcd489",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-10-09\/452827011701_f7f29cbcd489ae836b1d_72.jpg",
+            "first_name": "Nikolay",
+            "real_name": "Nikolay Bashlykov",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "bashnick",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+O0=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Друзья, привет,\nВ "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Wheely",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wheely"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ищем себе в команду "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Product Data Analyst уровня middle\/senior",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ". Мы активно развиваем продуктовые команды (у нас их 9) и нам нужны продуктовые аналитики. Много интересных задач, свобода выбора наилучшего решения, классная команда и возможность международного развития "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "earth_americas"
+                            },
+                            {
+                                "type": "text",
+                                "text": " .\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "По задачам:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "UX",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": хотим сделать пины на карте (где пользователю удобнее сесть в автомобиль), строим и тестируем гипотезы для новых фичей, анализируем поведение пользователей в "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Amplitude.",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Growth",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": строим модели для "
+                            },
+                            {
+                                "type": "text",
+                                "text": "churn",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", "
+                            },
+                            {
+                                "type": "text",
+                                "text": "LTV",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", "
+                            },
+                            {
+                                "type": "text",
+                                "text": "retention",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", оцениваем эффективность каналов привлечения пользователей с помощью эконометрических моделей.\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Quality&Safety: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "хотим собирать телеметрию и анализировать поведение водителей на дорогах, категоризировать отзывы пользователей и автоматизировать систему оценки соответствия водителей стандартам.\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "B2B",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": новое направление, будем делать супер удобный сервис для наших корпоративных клиентов, соответственно, новые фичи, аналитика по пользователям,...\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Billing&Fraud",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": ловим плохих ребят и отключаем их от сервиса, разрабатываем более удобные механизмы предавторизации пользователей.\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Maps&Geo",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": много гео-аналитики, будем улучшать работу с картами (сейчас используем "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "google"
+                            },
+                            {
+                                "type": "text",
+                                "text": "). Есть проблемы с построением маршрутов (гугл частенько косячит), GPS координаты хаотично бросает, ...\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Стэк:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Git "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "git"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", Python, SQL, Looker, Amplitude, AWS"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "aws",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Redshift, EC2, S3)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Опыт в аналогичной роли от 3х лет (можно меньше, но с хорошими кейсами).\n- Самостоятельность в решении задач и внимательность к деталям.\n- Уверенное знание Python, SQL, статистики (A\/B).\n- Знание английского на уровне, чтобы хватило объяснить что ты делаешь (HQ в Лондоне, поэтому без инглиша не обойтись).\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что предлагаем:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- ЗП: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "200-250к гросс ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "(можно больше, но надо доказать)\n- Опционная программа для сотрудников "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "moneybag"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- Использование сервиса в рамках месячного лимита\n- Занятия английским в Skyeng (так что можно подтянуть как теорию, так и практику)\n- Классный офис в центре (м. Цветной Бульвар, Трубная, Сухаревская)\nПисать мне (можно здесь, можно на почту "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:nikolay.bashlykov@wheely.com",
+                                "text": "nikolay.bashlykov@wheely.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "wheely",
+                "users": [
+                    "UB5U0GWGP",
+                    "URJ77GZ25",
+                    "UE9CQUJLW",
+                    "UD66T1P96",
+                    "U6YV1UAS1",
+                    "UHGV5M8KF",
+                    "UCKGAQKE0",
+                    "U677CBGH2",
+                    "UJG3W0SSZ",
+                    "U7E8Y3V19",
+                    "UCB3PK96J",
+                    "UHLKEBC1J",
+                    "U6YEN210D"
+                ],
+                "count": 13
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "UB5U0GWGP",
+                    "URJ77GZ25",
+                    "URG5RB8V6",
+                    "UE9CQUJLW",
+                    "UD66T1P96",
+                    "U6YV1UAS1",
+                    "UM5CR4AR4",
+                    "UM2QAKAE8",
+                    "U012W66KHDF",
+                    "U6UNGFSMQ",
+                    "UG3P7DHB9",
+                    "U1MLEMG11",
+                    "UCKGAQKE0",
+                    "UC1851SA1",
+                    "UJG3W0SSZ",
+                    "UESD31MJ5",
+                    "U7E8Y3V19",
+                    "U2TNYDLRL",
+                    "UHLKEBC1J",
+                    "U010M0MKPEU",
+                    "UJ4MW9YJE",
+                    "UCDEH52QL",
+                    "U9GSXPX6G",
+                    "UBNUCK0DC",
+                    "U010G02GKAP"
+                ],
+                "count": 25
+            },
+            {
+                "name": "shpeely",
+                "users": [
+                    "U2LF67NRH",
+                    "UE9CQUJLW",
+                    "UJ4MW9YJE"
+                ],
+                "count": 3
+            },
+            {
+                "name": "b",
+                "users": [
+                    "U2LF67NRH",
+                    "UJG3W0SSZ"
+                ],
+                "count": 2
+            },
+            {
+                "name": "ab",
+                "users": [
+                    "U2LF67NRH",
+                    "UE9CQUJLW",
+                    "UJG3W0SSZ"
+                ],
+                "count": 3
+            },
+            {
+                "name": "python",
+                "users": [
+                    "U2LF67NRH"
+                ],
+                "count": 1
+            },
+            {
+                "name": "sql",
+                "users": [
+                    "U2LF67NRH",
+                    "UJG3W0SSZ",
+                    "UCB3PK96J",
+                    "U010AUBP7CH",
+                    "U4H4ED0MB"
+                ],
+                "count": 5
+            },
+            {
+                "name": "gb",
+                "users": [
+                    "U2LF67NRH",
+                    "UKQTG5SM6",
+                    "U4H4ED0MB",
+                    "U010G02GKAP"
+                ],
+                "count": 4
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U7DTGC4PL",
+                    "UC1851SA1",
+                    "U2TNYDLRL",
+                    "UHLKEBC1J",
+                    "U48AFP5RD",
+                    "UBNUCK0DC"
+                ],
+                "count": 6
+            },
+            {
+                "name": "naebalovo",
+                "users": [
+                    "US2DY9BPH",
+                    "UECGE3ZQE"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b87a4671-110c-4852-877b-9ed096fad0db",
+        "type": "message",
+        "text": "Если вы ищете Middle DS, а в его обязанностях есть \"Помогать джунам\", то это должно значить, что у вас и джуны есть)\n\nЗначит ли это, что можно отправить вам свою CV, чтоб быть на примете? :slightly_smiling_face:",
+        "user": "UQA9AN8PP",
+        "ts": "1588159918.211500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8ac13bb0964e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-16\/874184357652_8ac13bb0964e22d9aecd_72.jpg",
+            "first_name": "Andy",
+            "real_name": "Andy Beardness",
+            "display_name": "AndyBeardness",
+            "team": "T040HKJE3",
+            "name": "beardness.andy",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "n5e",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Если вы ищете Middle DS, а в его обязанностях есть \"Помогать джунам\", то это должно значить, что у вас и джуны есть)\n\nЗначит ли это, что можно отправить вам свою CV, чтоб быть на примете? "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588151841.199700",
+        "parent_user_id": "U2FM0GQUE",
+        "reactions": [
+            {
+                "name": "povar",
+                "users": [
+                    "U26MG2Z37",
+                    "UCB3PK96J",
+                    "UAL8CA2TF",
+                    "UJ4QRRNRH",
+                    "UBS459X19",
+                    "UN3EBR7PE",
+                    "UTV6Z8N9Z",
+                    "UM5DXE4LE",
+                    "UNEK3A52N",
+                    "UTGUQU99U",
+                    "UEX3E5QEL",
+                    "U1GMCNV3M"
+                ],
+                "count": 12
+            }
+        ]
+    },
+    {
+        "client_msg_id": "39e1fc9f-c9d1-49a2-bb51-afd8d8235827",
+        "type": "message",
+        "text": "<@UQA9AN8PP> конечно, отправляй :slightly_smiling_face:",
+        "user": "U5FB91P55",
+        "ts": "1588162994.213100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "90d069b2ffb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-07-23\/696560485121_90d069b2ffb388e49ece_72.jpg",
+            "first_name": "Andrew",
+            "real_name": "Andrew Stepanov",
+            "display_name": "standy",
+            "team": "T040HKJE3",
+            "name": "standy",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Mq=z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UQA9AN8PP"
+                            },
+                            {
+                                "type": "text",
+                                "text": " конечно, отправляй "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588151841.199700",
+        "parent_user_id": "U2FM0GQUE"
+    }
+]

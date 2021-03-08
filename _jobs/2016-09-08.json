@@ -1,0 +1,688 @@
+[
+    {
+        "type": "message",
+        "text": "Добрый день! Ищу человека на freelance проект по обработке данных в R. О проекте - обработка транзакционных данных в ритейл сети ресторанов. Обработка заключается в объединении данных по транзакциями с несколькими справочниками, далее построение таблиц графиков из исходной таблицы и вывод. Итоговый проект код на markdown для перевода в html. Необходимо в html оставить возможность выбора одного ресторана.",
+        "user": "U0VSBNM1T",
+        "ts": "1473318682.000035",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gd250cfdc281",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/3dd250cfdc28132c94d14370c2e64b31.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Virton",
+            "real_name": "Virton",
+            "display_name": "virton",
+            "team": "T040HKJE3",
+            "name": "virton",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1473318695.000036",
+        "user": "U29DBA3U7",
+        "text": "<@U29DBA3U7> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "<@U0VSBNM1T> (просто любопытство) если итог - это отчет, то почему ограничение R?)",
+        "user": "U04CH4QBD",
+        "ts": "1473324394.000037",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "a7db9158dfe4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-23\/422060918228_a7db9158dfe443a574a6_72.jpg",
+            "first_name": "Petr",
+            "real_name": "Petr Ermakov",
+            "display_name": "ermakovpetr",
+            "team": "T040HKJE3",
+            "name": "ermakovpetr",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "nopython",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U1PFW397F"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "<@U04CH4QBD> потому что R круче, это ж очевидно",
+        "user": "U09JEC7V0",
+        "ts": "1473324964.000038",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "nor",
+                "users": [
+                    "U1D4RRA7K",
+                    "U298B1T19",
+                    "U1BAKQH2M",
+                    "U04CH4QBD",
+                    "U1V57JCUF",
+                    "U049HDR2Z",
+                    "U0E2W4VKL",
+                    "U049NHC4X",
+                    "U0L4KM9R9",
+                    "U04ELQZAU",
+                    "U043814R6",
+                    "U1CMPEWPQ",
+                    "U13PBBLLW",
+                    "U1PFW397F",
+                    "U1J56K7RA",
+                    "U0JTMFHDE"
+                ],
+                "count": 16
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U04CH4QBD",
+                    "U0FEJNBGQ",
+                    "U049HDR2Z",
+                    "U04BFDYPV",
+                    "U1FLG6YR1",
+                    "U1Q0B8KMJ",
+                    "U1GMCNV3M"
+                ],
+                "count": 7
+            },
+            {
+                "name": "r",
+                "users": [
+                    "U041LH06L",
+                    "U26N37R71",
+                    "U1H5AN1BJ",
+                    "U27HU84H4",
+                    "U040HKJE7",
+                    "U0Q3USC0Z",
+                    "U1VBAF9K2",
+                    "U24FHECDD",
+                    "U1D6DT6HE",
+                    "U0QPVMAFR"
+                ],
+                "count": 10
+            },
+            {
+                "name": "parrotcop",
+                "users": [
+                    "U15UZGX9A",
+                    "U040HKJE7",
+                    "U0Q3USC0Z",
+                    "U1D6DT6HE"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "«Не Python, вот ты и бесишься».",
+        "user": "U041LH06L",
+        "ts": "1473324974.000039",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gf5a130f07dc",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/50f5a130f07dc1a3d1363ad59e14995e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Alexander",
+            "real_name": "Alexander Semenov",
+            "display_name": "semenoffalex",
+            "team": "T040HKJE3",
+            "name": "semenoffalex",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U09JEC7V0",
+                    "U0DA4J82H",
+                    "U26N37R71",
+                    "U1H5AN1BJ",
+                    "U2414BA2U",
+                    "U27HU84H4",
+                    "U1V57JCUF",
+                    "U040HKJE7",
+                    "U0KQ5M6KX",
+                    "U0M39M6LS",
+                    "U0Q3USC0Z",
+                    "U04ELQZAU",
+                    "U0952QCHE",
+                    "U0KU3KAPR",
+                    "U28JD2SN7",
+                    "U0MEP6PT2",
+                    "U0JTMFHDE"
+                ],
+                "count": 17
+            },
+            {
+                "name": "100",
+                "users": [
+                    "U09JEC7V0",
+                    "U1D6DT6HE"
+                ],
+                "count": 2
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U04BFDYPV",
+                    "U1FLG6YR1"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "мне кажется, или нет эмодзи :python: ? Только :nopython:, тогда как для R есть и :nor: и :r: - это заговор?",
+        "user": "U1D4RRA7K",
+        "ts": "1473325515.000040",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "b5f74273bbb8",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-06-01\/47160668965_b5f74273bbb87e4a1f8d_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Pershin",
+            "display_name": "pershinmr",
+            "team": "T040HKJE3",
+            "name": "pershinmr",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "snake",
+                "users": [
+                    "U041P485A",
+                    "U1V57JCUF",
+                    "U1B2L9G58",
+                    "U04ELQZAU",
+                    "U15UZGX9A",
+                    "U0952QCHE",
+                    "U1D6DT6HE",
+                    "U13PBBLLW",
+                    "U1PFW397F"
+                ],
+                "count": 9
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U041LH06L",
+                    "U04BFDYPV"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "-&gt; <#C040HKJF1|_random_flood>",
+        "user": "U0FEJNBGQ",
+        "ts": "1473325610.000041",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "cop::skin-tone-6",
+                "users": [
+                    "U041LH06L",
+                    "U09JEC7V0",
+                    "U1D4RRA7K",
+                    "U040HKJE7",
+                    "U1B2L9G58",
+                    "U04ELQZAU"
+                ],
+                "count": 6
+            },
+            {
+                "name": "parrotcop",
+                "users": [
+                    "U14L5TKNJ",
+                    "U09JEC7V0",
+                    "U1D4RRA7K",
+                    "U040HKJE7",
+                    "U04ELQZAU",
+                    "U15UZGX9A",
+                    "U1D6DT6HE"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": ":python:",
+        "user": "U0DA4J82H",
+        "ts": "1473326016.000042",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gec7013c3d5b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/28ec7013c3d5b5cbd9633d12c1407eff.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Алексей",
+            "real_name": "Алексей Ололоев",
+            "display_name": "ololo",
+            "team": "T040HKJE3",
+            "name": "ololo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "ban",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U04423D74",
+                    "U041LH06L",
+                    "U0DA4J82H",
+                    "U2414BA2U",
+                    "U049HDR2Z",
+                    "U04BFDYPV",
+                    "U04ELQZAU"
+                ],
+                "count": 8
+            },
+            {
+                "name": "python",
+                "users": [
+                    "U0E2W4VKL",
+                    "U1B2L9G58",
+                    "U04ELQZAU",
+                    "U041P485A",
+                    "U15UZGX9A",
+                    "U1GBNAVEK",
+                    "U0952QCHE",
+                    "U1D6DT6HE",
+                    "U1CMPEWPQ",
+                    "U0KU3KAPR",
+                    "U1PFW397F",
+                    "U26N37R71",
+                    "U0PEXP9PH",
+                    "U1V5FPTN3",
+                    "U1J56K7RA",
+                    "U0MEP6PT2",
+                    "U1GMCNV3M",
+                    "U0QPVMAFR"
+                ],
+                "count": 18
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "надо теперь запилить :no-python-3:",
+        "user": "U0DA4J82H",
+        "ts": "1473326032.000043",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gec7013c3d5b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/28ec7013c3d5b5cbd9633d12c1407eff.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Алексей",
+            "real_name": "Алексей Ололоев",
+            "display_name": "ololo",
+            "team": "T040HKJE3",
+            "name": "ololo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "but_why",
+                "users": [
+                    "U1D4RRA7K",
+                    "U1G303UTW",
+                    "U1B2L9G58",
+                    "U04ELQZAU",
+                    "U043814R6",
+                    "U0952QCHE"
+                ],
+                "count": 6
+            },
+            {
+                "name": "two",
+                "users": [
+                    "U0DA4J82H",
+                    "U061VJ5SB",
+                    "U0E2W4VKL",
+                    "U1FLG6YR1",
+                    "U04ELQZAU"
+                ],
+                "count": 5
+            },
+            {
+                "name": "+1::skin-tone-6",
+                "users": [
+                    "U04CH4QBD",
+                    "U1YJMBWVD",
+                    "U04ELQZAU",
+                    "U0M5S4EN6"
+                ],
+                "count": 4
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U04423D74",
+                    "U041LH06L",
+                    "U0DA4J82H",
+                    "U065VP6F7",
+                    "U04BFDYPV",
+                    "U04ELQZAU",
+                    "U043814R6"
+                ],
+                "count": 8
+            },
+            {
+                "name": "four",
+                "users": [
+                    "U0FEJNBGQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "<@U0VSBNM1T> мы тут че организовали...\nфрилансеров в DS можно поискать в <http:\/\/xor.ai|xor.ai> :eyes:",
+        "user": "U040HKJE7",
+        "ts": "1473329849.000046",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "910ffe66f361",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-12-25\/291044574499_910ffe66f3612ed5c505_72.jpg",
+            "first_name": "Alex",
+            "real_name": "Alex Natekin",
+            "display_name": "natekin",
+            "team": "T040HKJE3",
+            "name": "natekin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "povar",
+                "users": [
+                    "U09JEC7V0",
+                    "U1FLG6YR1"
+                ],
+                "count": 2
+            },
+            {
+                "name": "100",
+                "users": [
+                    "U09JEC7V0",
+                    "U1D6DT6HE"
+                ],
+                "count": 2
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0JHK9001",
+                    "U1D6DT6HE"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "лол, ты не поверишь",
+        "user": "U040HKJE7",
+        "ts": "1473334270.000048",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "910ffe66f361",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-12-25\/291044574499_910ffe66f3612ed5c505_72.jpg",
+            "first_name": "Alex",
+            "real_name": "Alex Natekin",
+            "display_name": "natekin",
+            "team": "T040HKJE3",
+            "name": "natekin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "работает он, просто редко пока присылает приглашения",
+        "user": "U1YJMBWVD",
+        "ts": "1473336440.000055",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "423ee7758197",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-08\/519252146882_423ee775819745cb5d13_72.png",
+            "first_name": "Denis",
+            "real_name": "Denis Kirjanov",
+            "display_name": "deniskirianov",
+            "team": "T040HKJE3",
+            "name": "deniskirianov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "Просто у вас мба нет, вот и не присылает)",
+        "user": "U09JEC7V0",
+        "ts": "1473336579.000056",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "povar",
+                "users": [
+                    "U0JHK9001",
+                    "U1GMCNV3M"
+                ],
+                "count": 2
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U041LH06L",
+                    "U04CH4QBD",
+                    "U04423D74"
+                ],
+                "count": 4
+            },
+            {
+                "name": "vonni",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U041LH06L",
+                    "U0471Q5AU",
+                    "U049HDR2Z"
+                ],
+                "count": 4
+            },
+            {
+                "name": "mm",
+                "users": [
+                    "U1G303UTW",
+                    "U04ELQZAU",
+                    "U1V57JCUF",
+                    "U041P485A",
+                    "U15UZGX9A",
+                    "U0952QCHE",
+                    "U1D6DT6HE",
+                    "U054DU76Y",
+                    "U0JTMFHDE",
+                    "U045BH6SM",
+                    "U0QPVMAFR"
+                ],
+                "count": 11
+            },
+            {
+                "name": "b",
+                "users": [
+                    "U1G303UTW",
+                    "U04ELQZAU",
+                    "U1V57JCUF",
+                    "U041P485A",
+                    "U15UZGX9A",
+                    "U0952QCHE",
+                    "U1D6DT6HE",
+                    "U054DU76Y",
+                    "U0JTMFHDE",
+                    "U045BH6SM",
+                    "U0QPVMAFR"
+                ],
+                "count": 11
+            },
+            {
+                "name": "a",
+                "users": [
+                    "U1G303UTW",
+                    "U04ELQZAU",
+                    "U1V57JCUF",
+                    "U041P485A",
+                    "U15UZGX9A",
+                    "U0952QCHE",
+                    "U1D6DT6HE",
+                    "U054DU76Y",
+                    "U0JTMFHDE",
+                    "U045BH6SM",
+                    "U0QPVMAFR"
+                ],
+                "count": 11
+            },
+            {
+                "name": "nomba",
+                "users": [
+                    "U0JHK9001",
+                    "U04ELQZAU",
+                    "U0QPVMAFR"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1473339865.000058",
+        "user": "U29EQRRSP",
+        "text": "<@U29EQRRSP> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1473340402.000059",
+        "user": "U29G6027N",
+        "text": "<@U29G6027N> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1473343666.000060",
+        "user": "U29GV4J5S",
+        "text": "<@U29GV4J5S> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "<@U1UM6S9KN> привет! \nДа, бот работает. напомню что мы только 2 недели назад запустили бету\nпока он присылает тольк подходящие твоему запросу вакансии (по стеку, деньгам, локации и прч), которые работодатели завели в базу ксора (их около сотни сейчас)\n\nсегодня мы как раз подключим несколько крупных зарубежный слак-сообществ (европа и США), поэтому скоро добавятся зарубежные вакансии (пока у нас 90% вакансий из РФ). Вы немного наберитесь терпения) бот же сидит кушать не просит, пингует только когда что-то вылавливает подходящее+у вас есть возможность напрямую с работодателем с этого слака связаться и назначить первый этап интервью",
+        "user": "U0989QUVC",
+        "ts": "1473345414.000061",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "82da1a9f198d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-04-17\/170275967588_82da1a9f198d73d06bdc_72.png",
+            "first_name": "aida",
+            "real_name": "aida fazylova",
+            "display_name": "ai",
+            "team": "T040HKJE3",
+            "name": "ai",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U09JEC7V0",
+                    "U1DB3E1GS",
+                    "U26N37R71"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1473404335.000062",
+        "user": "U29SWDQRG",
+        "text": "<@U29SWDQRG> has joined the channel"
+    }
+]

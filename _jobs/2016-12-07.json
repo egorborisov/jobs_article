@@ -1,0 +1,996 @@
+[
+    {
+        "type": "message",
+        "text": "Привет гайз,\nв <http:\/\/crystals.ru|crystals.ru> (Петербург, в офис на Петроградской) запускаем новый продукт про аналитику данных в оффлайн ритейле. Предиктивные модели, рекомендации и прескриптив, сегментация покупателей, анализ оттока -- вот это вот все. Проектируем и реализовываем с нуля, ищем саентистов и инженеров, и чтоб кластер могли собрать. От кандидатов хотим мат подготовки и опыта в машинке (хакатоны, kaggle -- считается), навыков в Python\/Scala и Spark. ЗП по ожиданиям и в зависимости от кандидата (от 100к). Вопросы, жалобы и пожелания -- в личку, почту <mailto:a.aleksanenkov@crystals.ru|a.aleksanenkov@crystals.ru> или в телеграмм @catcatcat .",
+        "user": "U3ANZ5UF3",
+        "ts": "1481100700.000089",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g6ff76f8d03e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0f6ff76f8d03eaae178c81006065c361.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "Anton",
+            "real_name": "Anton Aleksanenkov",
+            "display_name": "a.aleksanenkov",
+            "team": "T040HKJE3",
+            "name": "a.aleksanenkov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U3ANZ5UF3",
+            "ts": "1481101244.000000"
+        },
+        "reactions": [
+            {
+                "name": "trollface",
+                "users": [
+                    "U06J1LG1M",
+                    "U1ULFPM0U"
+                ],
+                "count": 2
+            },
+            {
+                "name": "kaggle",
+                "users": [
+                    "U0DA4J82H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U049HDR2Z",
+                    "U1ULFPM0U"
+                ],
+                "count": 2
+            },
+            {
+                "name": "cat",
+                "users": [
+                    "U041SH27M",
+                    "U04CH4QBD",
+                    "U0DA4J82H"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Сбербанк :fire::fire::fire:(Москва, центральный аппарат, Вавилова 19).\nБлок Риски. \nУправление валидации моделей.\n\nЯ ищу человека, который, во-первых, обладает серьёзным опытом разработки на R, особенно интересен опыт написания распределённо выполняемого  кода на кластере из нескольких машин, с использованием shared memory:nerd_face:.\nА во-вторых, человек должен знать подходы к построению и оценке качества работы предиктивных моделей.:level_slider::scales::telescope::microscope::triangular_ruler:.\nЗнание Scala, опыт работы с Hive приветствуется. \n\nЦель: создавать, развивать и разворачивать на кластере пакеты на R для анализа качества работы предиктивных моделей, а также писать кастомные пакеты для построения  более сложных моделей (с подключением к H2O). На этой базе будут созданы продукты и B2B- сервисы по анализу качества работы моделей банков и компаний, в том числе с использованием данных Сбербанка.\nЭто неединственная задача.\n\nСбербанк готов предоставить более чем конкурентную компенсацию:moneybag:, уровень которой определяется по результатам собеседования.\nПрисылайте резюме на <mailto:aamasyutin@sberbank.ru|aamasyutin@sberbank.ru> \nВопросы можно туда же или whatsapp +79260560290. ",
+        "user": "U3BGEFE03",
+        "ts": "1481102324.000094",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "c93e4979913b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-12-07\/112957488896_c93e4979913bd4e45845_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Masyutin",
+            "display_name": "mosyamac",
+            "team": "T040HKJE3",
+            "name": "mosyamac",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U3BGEFE03",
+            "ts": "1481103944.000000"
+        },
+        "reactions": [
+            {
+                "name": "grammar",
+                "users": [
+                    "U0E2W4VKL",
+                    "U26KV8W3D",
+                    "U14BPHDK6",
+                    "U0Q3USC0Z",
+                    "U0JQVRDMJ",
+                    "U1GMCNV3M"
+                ],
+                "count": 6
+            },
+            {
+                "name": "sberbank",
+                "users": [
+                    "U2GAEHQR1",
+                    "U04CH4QBD",
+                    "U06J1LG1M",
+                    "U3BGEFE03",
+                    "U0M39M6LS",
+                    "U2TNYDLRL",
+                    "U35GH0DDH",
+                    "U1VBAF9K2"
+                ],
+                "count": 8
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U06J1LG1M",
+                    "U0FF52P7D",
+                    "U1GMCNV3M",
+                    "U0PEXP9PH"
+                ],
+                "count": 4
+            },
+            {
+                "name": "nor",
+                "users": [
+                    "U2GAEHQR1",
+                    "U06J1LG1M",
+                    "U26KV8W3D",
+                    "U1D4RRA7K",
+                    "U30Q72KLJ",
+                    "U0UG04H3M",
+                    "U1GMCNV3M",
+                    "U3XRZA52Q"
+                ],
+                "count": 8
+            },
+            {
+                "name": "r",
+                "users": [
+                    "U040HKJE7",
+                    "U1YJL9Q8Z",
+                    "U1Z40FGQ6",
+                    "U1VBAF9K2"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "коллеги, давайте будем адекватнее в демонстрации личных оценок вакансий\nв смысле - если вакансия не по душе, пролистайте ниже, не тратьте время на эмодзи, значит, вакансия не для вас",
+        "user": "U04423D74",
+        "ts": "1481103227.000095",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g872041b5d45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e8872041b5d452b82f08a3b9d88b679d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Philipp",
+            "real_name": "Philipp Upravitelev",
+            "display_name": "konhis",
+            "team": "T040HKJE3",
+            "name": "konhis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "okay",
+                "users": [
+                    "U0DA4J82H",
+                    "U0ZHHV83C",
+                    "U2TNYDLRL"
+                ],
+                "count": 3
+            },
+            {
+                "name": "but_why",
+                "users": [
+                    "U0DA4J82H",
+                    "U1CF22N7J",
+                    "U15UZGX9A"
+                ],
+                "count": 3
+            },
+            {
+                "name": "cop",
+                "users": [
+                    "U1G303UTW",
+                    "U1D4RRA7K",
+                    "U041SH27M",
+                    "U06J1LG1M",
+                    "U3ANZ5UF3",
+                    "U1CF22N7J",
+                    "U0M39M6LS",
+                    "U1BMURR5G",
+                    "U049HDR2Z",
+                    "U0989QUVC",
+                    "U1D6DT6HE",
+                    "U0UG04H3M",
+                    "U2AJE72Q6",
+                    "U1GMCNV3M"
+                ],
+                "count": 14
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U1UNFRQ1K",
+                    "U04CH4QBD",
+                    "U1FLG6YR1",
+                    "U0989QUVC",
+                    "U1UM6S9KN",
+                    "U298B1T19",
+                    "U108YLBU1",
+                    "U22MEECFJ"
+                ],
+                "count": 8
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U14BPHDK6"
+                ],
+                "count": 1
+            },
+            {
+                "name": "putin",
+                "users": [
+                    "U14CTBLFJ",
+                    "U041P485A",
+                    "U1D6DT6HE"
+                ],
+                "count": 3
+            },
+            {
+                "name": "zoidberg",
+                "users": [
+                    "U181T6SJV",
+                    "U1Z40FGQ6",
+                    "U0L4KM9R9"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "вилки нет и расположения офиса",
+        "user": "U0FEJNBGQ",
+        "ts": "1481103558.000096",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0FEJNBGQ",
+            "ts": "1481103583.000000"
+        },
+        "reactions": [
+            {
+                "name": "fork_and_knife",
+                "users": [
+                    "U09JEC7V0",
+                    "U06J1LG1M",
+                    "U0AS548A1",
+                    "U04CH4QBD",
+                    "U14BPHDK6",
+                    "U2GAEHQR1",
+                    "U0DA4J82H",
+                    "U04ELQZAU",
+                    "U36KSMGDN",
+                    "U040HKJE7",
+                    "U0873FY94",
+                    "U24FHECDD",
+                    "U044084RH",
+                    "U2TNYDLRL",
+                    "U0PEXP9PH"
+                ],
+                "count": 15
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U06J1LG1M",
+                    "U040HKJE7",
+                    "U1Z40FGQ6"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1481118280.000099",
+        "user": "U3BQW4EQM",
+        "text": "<@U3BQW4EQM> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1481136836.000100",
+        "user": "U0NC7RH7G",
+        "text": "<@U0NC7RH7G> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "Тоже попался интересный вариант.\n\nРоссиийская компания NtechLab (<http:\/\/ntechlab.ru\/>), занимающаяся биометрией лица, формирует команду – сейчас открыта позиция разработчика-исследователя.\n\nNtechLab победила в контесте по распознаванию лиц The MegaFace Benchmark, обогнав Google (<http:\/\/www.nvidia.ru\/object\/nvidia-ntechlab-ru.html>).\n\nХз кто даже считает, что это второй после Telegram российский стартап (<http:\/\/www.techrepublic.com\/article\/from-russia-with-tech-the-top-5-most-interesting-russian-startups\/>).\n\nТребования:\n\nБольшой опыт в ML, нейронных сетях\nОпыт работы с одной из библиотек: Caffe, Torch или Theano\nPython обязателен, C++ будет преимуществом\n\nЗадачи:\n\nРазработка алгоритма liveness detection (что перед камерой живой человек, а не фотография)\nРазработка алгоритма определения эмоций\nПроведение тестов для клиентов: на основе алгоритма распознавания лиц нужно придумать, как его лучше всего применить в каждом конкретном случае\nРазработка алгоритма детектирования лиц\nУчастие в разработке SDK по распознаванию лиц\n\nУсловия:\n\n:fork_and_knife: 120к-180к, обещают регулярные премии по достижении целей\nОфис рядом с м. Белорусская\nПолная занятость, время начала\/окончания рабочего дня по договоренности с руководителем\n\nПишите с вопросами Наталье <mailto:proskurina@uniqa-agency.org|proskurina@uniqa-agency.org>, укажите кодовое слово \"opendatascience\".",
+        "user": "U1UNFRQ1K",
+        "ts": "1481146293.000101",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ae220b01b503",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-06-11\/378543497681_ae220b01b503b2d1bfe8_72.jpg",
+            "first_name": "Yury",
+            "real_name": "Yury Kashnitsky",
+            "display_name": "yorko",
+            "team": "T040HKJE3",
+            "name": "yorko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1UNFRQ1K",
+            "ts": "1481146361.000000"
+        },
+        "attachments": [
+            {
+                "title": "NTechLab - дополняя интеллект",
+                "title_link": "http:\/\/ntechlab.ru\/",
+                "text": "НТех Лаб разрабатывает и внедряет алгоритмы искусственного интеллекта.",
+                "fallback": "NTechLab - дополняя интеллект",
+                "image_url": "http:\/\/ntechlab.ru\/images\/zastavka.jpg",
+                "from_url": "http:\/\/ntechlab.ru\/",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 415343,
+                "service_icon": "http:\/\/ntechlab.ru\/favicon.ico",
+                "service_name": "ntechlab.ru",
+                "id": 1
+            },
+            {
+                "title": "Решение N-Tech.Lab стало лидером мирового чемпионата по распознаванию лиц The MegaFace Benchmark  | NVIDIA",
+                "title_link": "http:\/\/www.nvidia.ru\/object\/nvidia-ntechlab-ru.html",
+                "text": "Алгоритм российской компании N-Tech.Lab для распознавания лиц по фотографиям на базе глубокой нейронной сети и технологий NVIDIA стал лидером мирового чемпионата по распознаванию лиц The MegaFace Benchmark. В планах N-Tech.Lab – запуск ряда сервисов на базе алгоритма.",
+                "fallback": "Решение N-Tech.Lab стало лидером мирового чемпионата по распознаванию лиц The MegaFace Benchmark  | NVIDIA",
+                "from_url": "http:\/\/www.nvidia.ru\/object\/nvidia-ntechlab-ru.html",
+                "service_icon": "http:\/\/www.nvidia.ru\/favicon.ico",
+                "service_name": "nvidia.ru",
+                "id": 2
+            },
+            {
+                "service_name": "TechRepublic",
+                "title": "From Russia with Tech: The top 5 most interesting Russian startups - TechRepublic",
+                "title_link": "http:\/\/www.techrepublic.com\/article\/from-russia-with-tech-the-top-5-most-interesting-russian-startups\/",
+                "text": "Russian startups are going global, VC investment is skyrocketing, and companies are attracting millions of users. One expert explains the fastest growing, most important Russian companies to follow.",
+                "fallback": "TechRepublic: From Russia with Tech: The top 5 most interesting Russian startups - TechRepublic",
+                "image_url": "http:\/\/tr2.cbsistatic.com\/hub\/i\/r\/2016\/06\/21\/aae2ff50-5474-46d2-a55d-596a389c8656\/thumbnail\/770x578\/b94f713c4f4ba735212a5164b877bcae\/flag-of-russia-russia-13511405-fanclubs.jpg",
+                "from_url": "http:\/\/www.techrepublic.com\/article\/from-russia-with-tech-the-top-5-most-interesting-russian-startups\/",
+                "image_width": 333,
+                "image_height": 250,
+                "image_bytes": 47931,
+                "service_icon": "http:\/\/tr2.cbsistatic.com\/fly\/bundles\/techrepubliccore\/apple-touch-icon-144x144-precomposed.png",
+                "id": 3
+            }
+        ],
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U09JEC7V0",
+                    "U04ELQZAU",
+                    "U041P485A",
+                    "U1GMCNV3M",
+                    "U3QE5KVB4"
+                ],
+                "count": 5
+            },
+            {
+                "name": "trollface",
+                "users": [
+                    "U041SH27M",
+                    "U049HDR2Z",
+                    "U09JEC7V0"
+                ],
+                "count": 3
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U09JEC7V0",
+                    "U0QPVMAFR"
+                ],
+                "count": 2
+            },
+            {
+                "name": "sleuth_or_spy",
+                "users": [
+                    "U0JHK9001",
+                    "U1Z40FGQ6"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "`opendatascience` уже, видимо, можно регистрировать как :tm:  и :moneybag: стричь",
+        "user": "U049HDR2Z",
+        "ts": "1481146865.000104",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "c2eac6d6f36c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-28\/1084838624086_c2eac6d6f36c0bf6c05e_72.png",
+            "first_name": "Eg",
+            "real_name": "Eg",
+            "display_name": "eg",
+            "team": "T040HKJE3",
+            "name": "egor.panfilov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "msn",
+                "users": [
+                    "U09JEC7V0",
+                    "U04ELQZAU",
+                    "U1G303UTW",
+                    "U2TNYDLRL",
+                    "U1GMCNV3M"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "печать ODS как знак качества на резюме ставить",
+        "user": "U09JEC7V0",
+        "ts": "1481146917.000105",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "U049HDR2Z",
+                    "U04ELQZAU",
+                    "U0E2W4VKL"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "хз... вот я запостил, потому что вакансия крутая. потом смотрю... рекрутер. В-общем, швыряйте банхаммер, если тут так не принято :grinning:",
+        "user": "U1UNFRQ1K",
+        "ts": "1481147027.000106",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ae220b01b503",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-06-11\/378543497681_ae220b01b503b2d1bfe8_72.jpg",
+            "first_name": "Yury",
+            "real_name": "Yury Kashnitsky",
+            "display_name": "yorko",
+            "team": "T040HKJE3",
+            "name": "yorko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "<@U049HDR2Z> <https:\/\/www.continuum.io\/open-data-science>",
+        "user": "U1UM6S9KN",
+        "ts": "1481147110.000107",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gf93d79acd22",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/65f93d79acd22d4013e301d493fcdd69.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+            "first_name": "Nick",
+            "real_name": "Nick",
+            "display_name": "notabene",
+            "team": "T040HKJE3",
+            "name": "notabene",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "psyduck",
+                "users": [
+                    "U09JEC7V0",
+                    "U049HDR2Z",
+                    "U04ELQZAU",
+                    "U2AJE72Q6"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "я думаю, что люди из ntechlab, которые есть тут, проконсультируют по вакансии",
+        "user": "U09JEC7V0",
+        "ts": "1481147116.000108",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "нипс нипсом, а продакшен сам себя не напишет",
+        "user": "U041SH27M",
+        "ts": "1481147217.000109",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "df2b1639032e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-03-23\/4138210045_df2b1639032eaa0dbcdf_72.jpg",
+            "first_name": "Max",
+            "real_name": "Max Kharchenko",
+            "display_name": "lolpig",
+            "team": "T040HKJE3",
+            "name": "lolpig",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "trollface",
+                "users": [
+                    "U09JEC7V0",
+                    "U04ELQZAU",
+                    "U1D6DT6HE",
+                    "U041P485A",
+                    "U0E2W4VKL",
+                    "U0G29N5U4"
+                ],
+                "count": 6
+            },
+            {
+                "name": "be-a-man",
+                "users": [
+                    "U04ELQZAU",
+                    "U1D6DT6HE",
+                    "U0KQ5M6KX",
+                    "U1G303UTW",
+                    "U0M5S4EN6",
+                    "U0E2W4VKL",
+                    "U0G29N5U4",
+                    "U0PEXP9PH"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1481147223.000110",
+        "user": "U3BU43F43",
+        "text": "<@U3BU43F43> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "Норм вакансия, на моё место ",
+        "user": "U042UQC96",
+        "ts": "1481147862.000111",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ecc31887cd0a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-02\/340795274038_ecc31887cd0a29e7583a_72.jpg",
+            "first_name": "Rasim",
+            "real_name": "Rasim Akhunzyanov",
+            "display_name": "rasim.akhunzyanov",
+            "team": "T040HKJE3",
+            "name": "rasim.akhunzyanov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U04ELQZAU",
+                    "U041SH27M",
+                    "U1D6DT6HE",
+                    "U0G29N5U4"
+                ],
+                "count": 4
+            },
+            {
+                "name": "but_why",
+                "users": [
+                    "U041SH27M",
+                    "U1D6DT6HE"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Если есть вопросы, пишите ",
+        "user": "U042UQC96",
+        "ts": "1481147990.000112",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ecc31887cd0a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-02\/340795274038_ecc31887cd0a29e7583a_72.jpg",
+            "first_name": "Rasim",
+            "real_name": "Rasim Akhunzyanov",
+            "display_name": "rasim.akhunzyanov",
+            "team": "T040HKJE3",
+            "name": "rasim.akhunzyanov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "кинь тогда прямые координаты, чтобы время людям сэкономить",
+        "user": "U0FEJNBGQ",
+        "ts": "1481148754.000113",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "<mailto:rasim@ntechlab.com|rasim@ntechlab.com>",
+        "user": "U042UQC96",
+        "ts": "1481148810.000114",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ecc31887cd0a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-02\/340795274038_ecc31887cd0a29e7583a_72.jpg",
+            "first_name": "Rasim",
+            "real_name": "Rasim Akhunzyanov",
+            "display_name": "rasim.akhunzyanov",
+            "team": "T040HKJE3",
+            "name": "rasim.akhunzyanov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1481150126.000115",
+        "user": "U3C3LN59S",
+        "text": "<@U3C3LN59S> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1481150695.000116",
+        "user": "U3BUX2J3V",
+        "text": "<@U3BUX2J3V> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1481150816.000117",
+        "user": "U3BUXTVM1",
+        "text": "<@U3BUXTVM1> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1481153588.000118",
+        "user": "U3C49KYJ0",
+        "text": "<@U3C49KYJ0> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1481156272.000119",
+        "user": "U3BBZHA9X",
+        "text": "<@U3BBZHA9X> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1481167179.000120",
+        "user": "U3CQ3S015",
+        "text": "<@U3CQ3S015> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1481178177.000121",
+        "user": "U3BEF08DP",
+        "text": "<@U3BEF08DP> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "О компании:\nАйкумен ИБС\nРасположение: Москва, Марьина Роща\nРоссийская IT компания, занимающаяся разработкой и внедрением информационно-аналитических систем с применением технологий text mining, распределенного поиска и анализа.\nПроекты связаны со сбором, обработкой и анализом больших потоков неструктурированных данных и выявления в потоке закономерностей, интерпретируемых в практическом русле в следующих областях: финансы, энергетика, политика, безопасность, анализ социальных сетей.\n\nЧем вы будете заниматься:\nРешение задач по аналитической обработке массивов данных, возникающих у заказчиков (кластеризация, классификация, прогнозирование, выявление паттернов) в различных прикладных предметных областях: финансы, энергетика, политика, безопасность и т.д.\nУчастие в развитие аналитической Big Data платформы в роли алгоритмиста. Пользователи платформы – крупнейшие российские и иностранные корпорации.\n\nОбразование и навыки:\nПолное высшее образование в области математики, мат. статистики или математической физики. Приветствуется наличие диссертации в области обработки данных.\nЗнание на уверенном уровне технического английского языка (чтение технической литературы).\nЗнание математических методов класса Machine Learning. (алгоритмы кластеризации, классификации)\nЗнание аналитических методов обработки графов.\nЗнание Apache Spark, умение программировать на Scala (если Вы не знаете Scala, но хорошо знаете Java и\/или Groovy, то это тоже приемлемо)\nУважаемые кандидаты, если вы выпускник МГУ, МИФИ, МФТИ или МТГУ им.Баумана, обладаете хорошей теоретической базой в области мат.статистики и мат.моделирования, любите программировать, но не владеете какими-то из навыков, описанных выше, или у вас недостаточно опыта, то мы ждем вас на собеседовании. Работа у нас - это отличный шанс начать решать практические задачи на современных технологиях.\n\nКомпенсация:\nФиксированная зарплата: от 120 000 на руки.\nЕжегодный бонус по результатам работы.\n\nКонтакты для связи:\nАндрей Яровой\nemail: <mailto:yarovoy@iqmen.ru|yarovoy@iqmen.ru>\nтелефон: <tel:8(916)654-14-88|8(916)654-14-88>\nskype: ayarovoy1",
+        "user": "U10HRKG4B",
+        "ts": "1481179930.000122",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gfb78fbd4c01",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/58fb78fbd4c012b7a460d3bc223a5f90.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "Viacheslav",
+            "real_name": "Viacheslav Dubrov",
+            "display_name": "viacheslav.dubrov",
+            "team": "T040HKJE3",
+            "name": "slavadubrov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "Мопед мой, поэтому если будут какие-то еще вопросы, но не хотите сразу писать\/звонить в компанию, то можете спросить у меня",
+        "user": "U10HRKG4B",
+        "ts": "1481180047.000123",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gfb78fbd4c01",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/58fb78fbd4c012b7a460d3bc223a5f90.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "Viacheslav",
+            "real_name": "Viacheslav Dubrov",
+            "display_name": "viacheslav.dubrov",
+            "team": "T040HKJE3",
+            "name": "slavadubrov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "racing_motorcycle",
+                "users": [
+                    "U0DA4J82H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "putin",
+                "users": [
+                    "U06J1LG1M",
+                    "U0FEJNBGQ",
+                    "U04725QK7",
+                    "U1D6DT6HE",
+                    "U041SH27M"
+                ],
+                "count": 5
+            },
+            {
+                "name": "coincidence",
+                "users": [
+                    "U06J1LG1M",
+                    "U1D6DT6HE",
+                    "U041SH27M"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "&gt;Проекты связаны со сбором, обработкой и анализом больших потоков неструктурированных данных и выявления в потоке закономерностей, интерпретируемых в практическом русле в следующих областях: финансы, энергетика, политика, безопасность, анализ социальных сетей.\n&gt;Контакты для связи:\n&gt;Андрей Яровой",
+        "user": "U19HATM25",
+        "ts": "1481183366.000130",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g19276ba1931",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4619276ba193199858ea85b612eacca5.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0013-72.png",
+            "first_name": "hvost101",
+            "real_name": "hvost101",
+            "display_name": "hvost101",
+            "team": "T040HKJE3",
+            "name": "hvost101",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "putin",
+                "users": [
+                    "U19HATM25",
+                    "U04725QK7",
+                    "U15UZGX9A",
+                    "U1D6DT6HE",
+                    "U14CTBLFJ",
+                    "U04ELQZAU",
+                    "U040HKJE7",
+                    "U044084RH",
+                    "U041SH27M",
+                    "U0J1U64FK",
+                    "U2AML8LEB",
+                    "U3CF6T134",
+                    "U1Z40FGQ6",
+                    "U0873FY94",
+                    "U0PEXP9PH"
+                ],
+                "count": 15
+            },
+            {
+                "name": "coincidence",
+                "users": [
+                    "U19HATM25",
+                    "U1FLG6YR1",
+                    "U15UZGX9A",
+                    "U1D6DT6HE",
+                    "U14CTBLFJ",
+                    "U061VJ5SB",
+                    "U065VP6F7",
+                    "U049HDR2Z",
+                    "U04ELQZAU",
+                    "U040HKJE7",
+                    "U044084RH",
+                    "U1DT1NDM5",
+                    "U041SH27M",
+                    "U2AML8LEB",
+                    "U0873FY94",
+                    "U0PEXP9PH"
+                ],
+                "count": 16
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "судя по описанию, это госзаказ и окологосударственный российский крупняк?",
+        "user": "U0FEJNBGQ",
+        "ts": "1481183386.000131",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "&gt;24 ноября 2015 года Совет директоров ПАО «Ростелеком» одобрил покупку 75% акций ЗАО «Айкумен ИБС»",
+        "user": "U04725QK7",
+        "ts": "1481183667.000133",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c5a2eb7d11b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-04-06\/165204167890_6c5a2eb7d11ba847fb69_72.png",
+            "first_name": "Gleb",
+            "real_name": "Gleb Filatov",
+            "display_name": "gleb_filatov",
+            "team": "T040HKJE3",
+            "name": "gleb_filatov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "точно :putin:",
+        "user": "U04725QK7",
+        "ts": "1481183679.000134",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c5a2eb7d11b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-04-06\/165204167890_6c5a2eb7d11ba847fb69_72.png",
+            "first_name": "Gleb",
+            "real_name": "Gleb Filatov",
+            "display_name": "gleb_filatov",
+            "team": "T040HKJE3",
+            "name": "gleb_filatov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": ":joy: Да, являемся дочкой Ростелекома теперь :slava: Но проектов много и из вне. Так что сильно не переживайте :take-my-money:",
+        "user": "U10HRKG4B",
+        "ts": "1481183783.000135",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gfb78fbd4c01",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/58fb78fbd4c012b7a460d3bc223a5f90.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "Viacheslav",
+            "real_name": "Viacheslav Dubrov",
+            "display_name": "viacheslav.dubrov",
+            "team": "T040HKJE3",
+            "name": "slavadubrov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "coincidence",
+                "users": [
+                    "U06J1LG1M",
+                    "U1D6DT6HE",
+                    "U14CTBLFJ",
+                    "U065VP6F7",
+                    "U04ELQZAU",
+                    "U2F5XFH53",
+                    "U2AML8LEB"
+                ],
+                "count": 7
+            },
+            {
+                "name": "cop",
+                "users": [
+                    "U3ANZ5UF3",
+                    "U06J1LG1M",
+                    "U1BMURR5G",
+                    "U2AML8LEB"
+                ],
+                "count": 4
+            }
+        ]
+    }
+]

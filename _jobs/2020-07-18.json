@@ -1,0 +1,228 @@
+[
+    {
+        "client_msg_id": "4cefa44f-7435-44e3-a167-609bcdba26b7",
+        "type": "message",
+        "text": "согласен, в ситуации, когда нет legacy, я тоже предпочел бы строить data - штуки на основе jvm-языков. организовывать доступ к обработанным данным через разные api - там уже может быть много вариаций.\n\nучаствовал в построении data platform с streaming \/ batching, и было очень много случаев, когда jvm библиотеки были значительно богаче по фичам или реализовывали абстракции значительно более высокого уровня. kafka streams api, например. аналогов такого на python нет\n\nтаким образом, до data-команд, в организации ( ~ 800 инженеров ) большая часть систем была на ruby. data изначально сделали на основе jvm :scala: несмотря на это.\n\nно, все зависит от изначальных нужд и контекста, конечно.",
+        "user": "UQ9UCJT0T",
+        "ts": "1595061400.179400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gaf4aae329f4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/af4aae329f466fda3cbdff9f35d09b0a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "NaN",
+            "real_name": "NaN",
+            "display_name": "NaN",
+            "team": "T040HKJE3",
+            "name": "p.o.solomin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UQ9UCJT0T",
+            "ts": "1595062990.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=mEn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "согласен, в ситуации, когда нет legacy, я тоже предпочел бы строить data - штуки на основе jvm-языков. организовывать доступ к обработанным данным через разные api - там уже может быть много вариаций.\n\nучаствовал в построении data platform с streaming \/ batching, и было очень много случаев, когда jvm библиотеки были значительно богаче по фичам или реализовывали абстракции значительно более высокого уровня. kafka streams api, например. аналогов такого на python нет\n\nтаким образом, до data-команд, в организации ( ~ 800 инженеров ) большая часть систем была на ruby. data изначально сделали на основе jvm "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "scala"
+                            },
+                            {
+                                "type": "text",
+                                "text": " несмотря на это.\n\nно, все зависит от изначальных нужд и контекста, конечно."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594982813.152000",
+        "parent_user_id": "U43QVTY49"
+    },
+    {
+        "client_msg_id": "704a3eaf-7a16-433d-a1e9-b2d6328f9171",
+        "type": "message",
+        "text": "&gt; предпочтения - python, js\n\nпочему предпочтение js? есть много соседних команд с системами на node js? или js - это в основном будет для ux \/ ui?",
+        "user": "UQ9UCJT0T",
+        "ts": "1595061611.180100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gaf4aae329f4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/af4aae329f466fda3cbdff9f35d09b0a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "NaN",
+            "real_name": "NaN",
+            "display_name": "NaN",
+            "team": "T040HKJE3",
+            "name": "p.o.solomin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UQ9UCJT0T",
+            "ts": "1595063121.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mwMW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "> предпочтения - python, js\n\nпочему предпочтение js? есть много соседних команд с системами на node js? или js - это в основном будет для ux \/ ui?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594982813.152000",
+        "parent_user_id": "U43QVTY49"
+    },
+    {
+        "client_msg_id": "d06385be-fe8b-4ce6-8bc7-7fa5258da3ae",
+        "type": "message",
+        "text": "Ещё можно быть нонконформистом и использовать компилируемые языки - Golang\/Rust, модель Apache Beam, чтобы не дублировать код для batch и streaming, Intel DAAL или библиотеки Nvidia для ML алгоритмов.",
+        "user": "U0WFRNCV7",
+        "ts": "1595070587.183500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gb9526cdf90a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/77b9526cdf90a72f4c79e1622c676c91.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "Rinat",
+            "real_name": "Rinat Shigapov",
+            "display_name": "dxist",
+            "team": "T040HKJE3",
+            "name": "dxist",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "m1g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ещё можно быть нонконформистом и использовать компилируемые языки - Golang\/Rust, модель Apache Beam, чтобы не дублировать код для batch и streaming, Intel DAAL или библиотеки Nvidia для ML алгоритмов."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594982813.152000",
+        "parent_user_id": "U43QVTY49",
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "U36Q9NJMD",
+                    "U061WBASK"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "21f33a14-09ff-456f-adbd-dfa44803f4e1",
+        "type": "message",
+        "text": "По идее если нужны прототипы быстро, то особой разницы нет на чем их создавать главное чтобы быстро. В любом случае когда прототип захотят сделать полноценной системой, то его придётся переписывать под конкретные требования.",
+        "user": "U2GAEHQR1",
+        "ts": "1595070752.183800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "59a19a1ba337",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-18\/826509139699_59a19a1ba3378be8cf85_72.jpg",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Zagorulkin",
+            "display_name": "zagorulkinde",
+            "team": "T040HKJE3",
+            "name": "zagorulkinde",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yAN66",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "По идее если нужны прототипы быстро, то особой разницы нет на чем их создавать главное чтобы быстро. В любом случае когда прототип захотят сделать полноценной системой, то его придётся переписывать под конкретные требования."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594982813.152000",
+        "parent_user_id": "U43QVTY49"
+    },
+    {
+        "client_msg_id": "ed2ca220-71bd-4156-9093-0a04c4fdacde",
+        "type": "message",
+        "text": "&gt; nvidia для ml\n\nнаверное, до ml еще далеко. сначала нужно будет сбор данных и доступ к данным наладить. и - понять, что и для чего собирать. иначе вместо data lakes получатся data swamps\n\nмой коммент выше - скорее, удивление, почему всех кроме питонистов дискриминируют",
+        "user": "UQ9UCJT0T",
+        "ts": "1595081599.184600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gaf4aae329f4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/af4aae329f466fda3cbdff9f35d09b0a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "NaN",
+            "real_name": "NaN",
+            "display_name": "NaN",
+            "team": "T040HKJE3",
+            "name": "p.o.solomin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "O2hZJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "> nvidia для ml\n\nнаверное, до ml еще далеко. сначала нужно будет сбор данных и доступ к данным наладить. и - понять, что и для чего собирать. иначе вместо data lakes получатся data swamps\n\nмой коммент выше - скорее, удивление, почему всех кроме питонистов дискриминируют"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1594982813.152000",
+        "parent_user_id": "U43QVTY49"
+    }
+]

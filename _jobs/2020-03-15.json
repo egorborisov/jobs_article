@@ -1,0 +1,817 @@
+[
+    {
+        "client_msg_id": "379a8924-7ae4-42a3-a081-b52f40d4d66e",
+        "type": "message",
+        "text": "Привет, коллеги! Когда-то, два года назад, я уже писал объявление о наборе в компанию Neuromation. Большое спасибо ODS slack'у — тогда мы наняли много замечательных людей. Но с тех пор утекло много воды, и вот у нас снова есть вакансия.\n\n*Компания:* Neuromation\n*Город:* Санкт-Петербург (можем рассмотреть удалённые варианты)\n*Вакансия:* ML lead \/ ML engineer\n*Вилка*: $3000-$5000 в месяц net (скорее всего middle $3-3.5K, senior $4-4.5K по результатам собеседования)\n\nУ компании Neuromation два основных направления работы:\n• наша команда ML-разработчиков делает решения для заказчиков, в основном в области компьютерного зрения и NLP;\n• наша команда просто разработчиков :) делает платформу для обучения нейронных сетей в облаках, как публичных, так и on-premises.\nДля этой вакансии мы ищем специалистов по машинному обучению (в основном глубокому обучению). Основное, что требуется от вас -- уверенно разбираться в машинном обучении и современных нейросетевых моделях, как теоретически, так и практически. Желаемый уровень кандидатов — \"могу прочитать современную статью по deep learning и реализовать модель из статьи, даже если готового кода на гитхабе не нашлось\". Конкретные библиотеки на этом уровне не так уж важны, но понятно, что сейчас это PyTorch.\n\nНачну сразу с двух важных в наше время вещей:\n• наш офис расположен в Санкт-Петербурге, но ходить в него не обязательно; мы готовы рассмотреть и кандидатов, работающих удалённо, особенно из Москвы (у нас уже есть сотрудник в Москве, и в Москве скорее всего будут клиенты), и кандидатов, которые просто хотят на время эпидемии работать из дома;\n• компания наша не российская, поэтому зарплатная вилка устанавливается в долларах США и в рублях не фиксируется ни в какой момент.\nА теперь по пунктам.\n\n*Требования*\n• Уверенные навыки в программировании, уметь прочитать, а затем воспроизвести в коде статью. Наш стек — это python + pytorch (реже tensorflow). Также используем mypy, flake, CI, контейнеризацию (docker).\n• Разбираться в компьютерном зрении (сегментация, распознавание объектов, трекинг, metric learning) и обработке естественных языков (например, в моделях, основанных на self-attention).\n• Высокий уровень самостоятельности — способность провести проект через все стадии от осмысления бизнес-проблемы и согласования ТЗ с заказчиком до передачи бизнесу готового решения.\n• Хорошее знание английского для общения с заказчиком и англоязычными коллегами.\n*Будет плюсом*\n• опыт работы в computer vision, в том числе классическом (владение OpenCV), особенно в обработке видео;\n• опыт разработки промышленных AI-решений;\n• опыт промышленной разработки на Python, open source contributions, github с содержательными проектами;\n• участие в соревнованиях по ML и анализу данных;\n• опыт работы с docker, linux;\n• знание классического data science, статистики, математическое (или около) образование.\n*Что нужно будет делать*\n• Работать над проектами в области CV \/ NLP в одиночку или вместе с коллегами (в зависимости от размера проекта).\n• Участвовать в развитии продукта компании (платформы Neuro) — запускать на ней эксперименты, давать фидбек технической команде, иногда делать tutorials \/ мини-проекты по работе с платформой.\n*Что получаете вы:*\n• хорошую зарплату в долларах;\n• research day 1 раз в неделю; вы можете заниматься своими проектами, заниматься исследовательскими проектами (можно своими, но и у меня обычно есть что-нибудь интересное), участвовать в соревнованиях или проходить курсы, если нет горящего рабочего дедлайна (буду честен — бывает, но, слава богу, не постоянно);\n• офис в центре Санкт-Петербурга;\n• очень хорошую медицинскую страховку;\n• компенсацию спортивного зала;\n• компенсацию питания.\nОбращаться ко мне; присылать резюме лучше всего на <mailto:snikolenko@neuromation.io|snikolenko@neuromation.io> или в телеграм <@U04AR6WF0>.\n\nСпасибо!\nС уважением,\nСергей Николенко.\n\nP.S. Я хотел порекламировать нашу вакансию на ODS-event’е в субботу, но, как видите, он не состоялся. Тем не менее, я сейчас всё равно в Москве, и если кто-то из москвичей откликнется, буду рад пообщаться вплоть до вторника.",
+        "user": "U04AR6WF0",
+        "ts": "1584264794.239900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d1108016cc9a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-01\/308296893938_d1108016cc9a3f2d30fe_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Nikolenko",
+            "display_name": "snikolenko",
+            "team": "T040HKJE3",
+            "name": "snikolenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U04AR6WF0",
+            "ts": "1584265008.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "n03Lr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет, коллеги! Когда-то, два года назад, я уже писал объявление о наборе в компанию Neuromation. Большое спасибо ODS slack'у — тогда мы наняли много замечательных людей. Но с тех пор утекло много воды, и вот у нас снова есть вакансия.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Neuromation\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Санкт-Петербург (можем рассмотреть удалённые варианты)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ML lead \/ ML engineer\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": $3000-$5000 в месяц net (скорее всего middle $3-3.5K, senior $4-4.5K по результатам собеседования)\n\nУ компании Neuromation два основных направления работы:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "наша команда ML-разработчиков делает решения для заказчиков, в основном в области компьютерного зрения и NLP;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "наша команда просто разработчиков :) делает платформу для обучения нейронных сетей в облаках, как публичных, так и on-premises."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nДля этой вакансии мы ищем специалистов по машинному обучению (в основном глубокому обучению). Основное, что требуется от вас -- уверенно разбираться в машинном обучении и современных нейросетевых моделях, как теоретически, так и практически. Желаемый уровень кандидатов — \"могу прочитать современную статью по deep learning и реализовать модель из статьи, даже если готового кода на гитхабе не нашлось\". Конкретные библиотеки на этом уровне не так уж важны, но понятно, что сейчас это PyTorch.\n\nНачну сразу с двух важных в наше время вещей:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "наш офис расположен в Санкт-Петербурге, но ходить в него не обязательно; мы готовы рассмотреть и кандидатов, работающих удалённо, особенно из Москвы (у нас уже есть сотрудник в Москве, и в Москве скорее всего будут клиенты), и кандидатов, которые просто хотят на время эпидемии работать из дома;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "компания наша не российская, поэтому зарплатная вилка устанавливается в долларах США и в рублях не фиксируется ни в какой момент."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "А теперь по пунктам.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Уверенные навыки в программировании, уметь прочитать, а затем воспроизвести в коде статью. Наш стек — это python + pytorch (реже tensorflow). Также используем mypy, flake, CI, контейнеризацию (docker)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разбираться в компьютерном зрении (сегментация, распознавание объектов, трекинг, metric learning) и обработке естественных языков (например, в моделях, основанных на self-attention)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Высокий уровень самостоятельности — способность провести проект через все стадии от осмысления бизнес-проблемы и согласования ТЗ с заказчиком до передачи бизнесу готового решения."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Хорошее знание английского для общения с заказчиком и англоязычными коллегами."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Будет плюсом",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "опыт работы в computer vision, в том числе классическом (владение OpenCV), особенно в обработке видео;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "опыт разработки промышленных AI-решений;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "опыт промышленной разработки на Python, open source contributions, github с содержательными проектами;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "участие в соревнованиях по ML и анализу данных;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "опыт работы с docker, linux;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "знание классического data science, статистики, математическое (или около) образование."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что нужно будет делать",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Работать над проектами в области CV \/ NLP в одиночку или вместе с коллегами (в зависимости от размера проекта)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Участвовать в развитии продукта компании (платформы Neuro) — запускать на ней эксперименты, давать фидбек технической команде, иногда делать tutorials \/ мини-проекты по работе с платформой."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что получаете вы:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "хорошую зарплату в долларах;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "research day 1 раз в неделю; вы можете заниматься своими проектами, заниматься исследовательскими проектами (можно своими, но и у меня обычно есть что-нибудь интересное), участвовать в соревнованиях или проходить курсы, если нет горящего рабочего дедлайна (буду честен — бывает, но, слава богу, не постоянно);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "офис в центре Санкт-Петербурга;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "очень хорошую медицинскую страховку;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "компенсацию спортивного зала;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "компенсацию питания."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nОбращаться ко мне; присылать резюме лучше всего на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:snikolenko@neuromation.io",
+                                "text": "snikolenko@neuromation.io"
+                            },
+                            {
+                                "type": "text",
+                                "text": " или в телеграм "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U04AR6WF0"
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\n\nСпасибо!\nС уважением,\nСергей Николенко.\n\nP.S. Я хотел порекламировать нашу вакансию на ODS-event’е в субботу, но, как видите, он не состоялся. Тем не менее, я сейчас всё равно в Москве, и если кто-то из москвичей откликнется, буду рад пообщаться вплоть до вторника."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1584264794.239900",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1584443276.320500",
+        "reply_users": [
+            "U0K47J3HR",
+            "U04AR6WF0",
+            "U50FD7B7C"
+        ],
+        "replies": [
+            {
+                "user": "U0K47J3HR",
+                "ts": "1584265870.246600"
+            },
+            {
+                "user": "U04AR6WF0",
+                "ts": "1584266003.246900"
+            },
+            {
+                "user": "U50FD7B7C",
+                "ts": "1584443164.319800"
+            },
+            {
+                "user": "U50FD7B7C",
+                "ts": "1584443276.320500"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "UB4AGRL3C",
+                    "UHJ0J91RD",
+                    "U5KD4L5JP",
+                    "UJG3W0SSZ",
+                    "U9HSZRDP1",
+                    "U7N4E8GBF",
+                    "UJ2PZ7Y6M",
+                    "U04422XJL",
+                    "U70K9231V",
+                    "U9GUF2PN2",
+                    "UAF1W2R3M",
+                    "UJ23EV5PW",
+                    "U64HAB6BA",
+                    "UNEJZPM6E",
+                    "ULRRFCUR0",
+                    "U71NR43CH",
+                    "UDK41MN5U",
+                    "U6BRZBJ72",
+                    "UJUCG9QSC",
+                    "U6RBHBQPQ",
+                    "U06J1LG1M",
+                    "US2DY9BPH",
+                    "U3Y5VQ5J6",
+                    "ULPRYQNS2",
+                    "U6XMXEHHT",
+                    "U705ED0CU",
+                    "U0L4DGZU0",
+                    "U3FEH4R1P",
+                    "UGRFZ1DS5",
+                    "UDLVDDMKQ",
+                    "U6NT2E2ES",
+                    "U80H34210",
+                    "U4U4GFDNK",
+                    "UL958AM32",
+                    "UGGCGHL22",
+                    "UDJS7Q1DL",
+                    "U8TBPUS56",
+                    "UQJPEVD9S",
+                    "U3CJPQ4HX",
+                    "U049HDR2Z",
+                    "U6MU2LH35",
+                    "UQJ1G0C4S",
+                    "UELA14HSS",
+                    "UEV2FLHPW",
+                    "U7KDVG6LS",
+                    "U0JHK9001",
+                    "UAT62FNQ5",
+                    "U74FVHN4D",
+                    "UD2NGFPHD",
+                    "ULA9M7CM9"
+                ],
+                "count": 118
+            },
+            {
+                "name": "catshake",
+                "users": [
+                    "UJG3W0SSZ",
+                    "U5PU8U90Q",
+                    "U4U4GFDNK",
+                    "UUYG9FKCM",
+                    "UVD4VMR28",
+                    "U24N3AB96",
+                    "U6VJY2A4W",
+                    "UEBH69PS5",
+                    "UGX783X9S",
+                    "UP1JY3PK2",
+                    "UDWTMRDUM"
+                ],
+                "count": 11
+            },
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U4WM1939Q",
+                    "U6RBHBQPQ",
+                    "ULPRYQNS2",
+                    "U4LBN5THS",
+                    "U4U4GFDNK",
+                    "U80H34210",
+                    "U0BAG3X2A",
+                    "ULA9M7CM9",
+                    "UAJMU27LZ",
+                    "U1MLEMG11",
+                    "UUYG9FKCM",
+                    "UCMC5J36D",
+                    "U24N3AB96",
+                    "UTEP4Q6BF",
+                    "UDA1RU43Y",
+                    "U4N7G9RQA",
+                    "U2AJE72Q6",
+                    "UQMR448BD",
+                    "U8PMZ6397",
+                    "U3QT5TMQQ",
+                    "UUZMJQCEA",
+                    "U0952QCHE",
+                    "UCB3PK96J",
+                    "UAL8CA2TF",
+                    "U5W6MCS0N"
+                ],
+                "count": 25
+            },
+            {
+                "name": "fire",
+                "users": [
+                    "U0K47J3HR",
+                    "UDK41MN5U",
+                    "U9QDB2GKU",
+                    "UEXG279DW",
+                    "U6XMXEHHT",
+                    "UU2G7F85B",
+                    "U80H34210",
+                    "U4U4GFDNK",
+                    "UKXNDN64A",
+                    "U06J2SBQA",
+                    "U0BAG3X2A",
+                    "U6MU2LH35",
+                    "UELA14HSS",
+                    "U74FVHN4D",
+                    "ULA9M7CM9",
+                    "U6SD2AASU",
+                    "U8JCZ254Z",
+                    "UAJMU27LZ",
+                    "U7VDWFSG3",
+                    "U3L4UC8H4",
+                    "U1MLEMG11",
+                    "UUYG9FKCM",
+                    "U1YQLTMLH",
+                    "U93P65UQN",
+                    "U24N3AB96",
+                    "U95BW05K5",
+                    "UCARC91TK",
+                    "UTSBPULD7",
+                    "U4N7G9RQA",
+                    "U2AJE72Q6",
+                    "U5EF4EQR1",
+                    "U9GA283M3",
+                    "U3URX2JE9",
+                    "U7ZCEDTEV",
+                    "U715HB6S3",
+                    "UKEFTMLBH",
+                    "U5FCA4F8X",
+                    "U8PMZ6397",
+                    "UNP5YEWL9",
+                    "U3QT5TMQQ",
+                    "UGX783X9S",
+                    "UUZMJQCEA",
+                    "U3UPVJHKM",
+                    "U0952QCHE",
+                    "UCB3PK96J",
+                    "UDWTMRDUM",
+                    "U5W6MCS0N"
+                ],
+                "count": 47
+            },
+            {
+                "name": "spb",
+                "users": [
+                    "UGRFZ1DS5",
+                    "U4U4GFDNK",
+                    "U4WGFD012",
+                    "U53E5MFNU",
+                    "UD2EX7JP9",
+                    "UDK41MN5U",
+                    "U645E5MFT",
+                    "UMM6KMMAT",
+                    "U04AR6WF0",
+                    "UG28LN4PP",
+                    "U5WN6205N",
+                    "UCB3PK96J"
+                ],
+                "count": 12
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "U80H34210",
+                    "U4U4GFDNK",
+                    "U3Y7K6E6B",
+                    "UGGCGHL22",
+                    "UJC3VU9V5",
+                    "U8TBPUS56",
+                    "UQJPEVD9S",
+                    "U0BAG3X2A",
+                    "UELA14HSS",
+                    "U74FVHN4D",
+                    "UD2NGFPHD",
+                    "ULA9M7CM9",
+                    "UGDDPF2KT",
+                    "U6SD2AASU",
+                    "U7VDWFSG3",
+                    "U2992AMC1",
+                    "UB4BD0R6W",
+                    "UUYG9FKCM",
+                    "U1YQLTMLH",
+                    "U2PMV9N06",
+                    "U53E5MFNU",
+                    "U505FS1E3",
+                    "UDK41MN5U",
+                    "U24N3AB96",
+                    "U6VJY2A4W",
+                    "U3UMB4R6Y",
+                    "U95BW05K5",
+                    "U645E5MFT",
+                    "U2AJE72Q6",
+                    "U5EF4EQR1",
+                    "U9GA283M3",
+                    "U7ZCEDTEV",
+                    "UKEFTMLBH",
+                    "U5FCA4F8X",
+                    "UC7B9JQ9G",
+                    "UEBH69PS5",
+                    "U3QT5TMQQ",
+                    "U4M0CB0PJ",
+                    "UUZMJQCEA",
+                    "U5WN6205N",
+                    "UCB3PK96J",
+                    "UAL8CA2TF",
+                    "UDWTMRDUM",
+                    "UCPKXAUH4",
+                    "U5W6MCS0N"
+                ],
+                "count": 45
+            },
+            {
+                "name": "moneys",
+                "users": [
+                    "UAJMU27LZ",
+                    "UUYG9FKCM",
+                    "U7E8Y3V19",
+                    "U50EVF538",
+                    "UUZMJQCEA",
+                    "U0QMJJ3SL"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "client_msg_id": "B5454203-4180-4B72-904B-73E00D68C71C",
+        "type": "message",
+        "text": "работал с Сережей, с ним очень комфортно; в офисе Нейромейшен тоже доводилось бывать, в старом здании в глубине квартала на Невском",
+        "user": "U0K47J3HR",
+        "ts": "1584265870.246600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6d5ff9b845f5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-27\/321752094228_6d5ff9b845f5b3248b1e_72.jpg",
+            "first_name": "Valentin",
+            "real_name": "Valentin Malykh",
+            "display_name": "madrugado",
+            "team": "T040HKJE3",
+            "name": "madrugado",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5BHt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "работал с Сережей, с ним очень комфортно; в офисе Нейромейшен тоже доводилось бывать, в старом здании в глубине квартала на Невском"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1584264794.239900",
+        "parent_user_id": "U04AR6WF0",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04AR6WF0",
+                    "U9GA283M3",
+                    "UNP5YEWL9"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "97eabe8c-4aa6-4563-9468-efd8cab27d77",
+        "type": "message",
+        "text": "Я всё-таки поправлю: здание не в глубине квартала, а прямо Невский 104, и это отличный современный бизнес-центр, старый в нём только год постройки.\n\nНо, честно говоря, это не важно, потому что мы скоро будем переезжать. Обязательно останемся в центре города, но точное место пока не выбрали, так что в объявлении я на это не стал упирать.",
+        "user": "U04AR6WF0",
+        "ts": "1584266003.246900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d1108016cc9a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-01\/308296893938_d1108016cc9a3f2d30fe_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Nikolenko",
+            "display_name": "snikolenko",
+            "team": "T040HKJE3",
+            "name": "snikolenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "253S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Я всё-таки поправлю: здание не в глубине квартала, а прямо Невский 104, и это отличный современный бизнес-центр, старый в нём только год постройки.\n\nНо, честно говоря, это не важно, потому что мы скоро будем переезжать. Обязательно останемся в центре города, но точное место пока не выбрали, так что в объявлении я на это не стал упирать."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1584264794.239900",
+        "parent_user_id": "U04AR6WF0",
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "U0K47J3HR",
+                    "US2DY9BPH",
+                    "UDK41MN5U",
+                    "UQ2BDLT33",
+                    "U95BW05K5",
+                    "U9GA283M3",
+                    "U2AJE72Q6"
+                ],
+                "count": 7
+            }
+        ]
+    }
+]

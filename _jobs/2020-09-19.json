@@ -1,0 +1,1150 @@
+[
+    {
+        "client_msg_id": "5455c5fa-2eac-4e7a-bae6-98fbbee4db74",
+        "type": "message",
+        "text": "Всем привет, и опять набор в X5 команду Спроса. Ищем мидл+\/сениор\/лид MLE и мид+\/сениор DE . По деньгам 200-400к gross + 20%-40% бонуса по итогам года. Люди нужны на новый стрим - прогнозирование отсутствия товара на полке (рабочий прототип уже есть, качество устраивает, надо развивать).\n\nЗадачи:\n• работа над пайплайном обучения моделей (spark, docker, тестирование, оптимизация, ... )\n• применять слабое (ранее требовалось умеренное) насилие чтобы узнать где, как и когда получать нужные данные\n• переводить с менеджерского языка на джировский, с джировского в питон и назад\n• спрашивать глупые вопросы пока не будет точно понятно что надо сделать (особо ценный навык)\n• проверка гипотез и добавление новых фичей в модель, понять работает ли фича вообще\n• знать и уметь пользоваться PEP, linter, black, докстринги, нормальные названия переменных\n• стабилизировать прототип решения, выкатить в прод\n• поиск ответа на вечные вопросы (\"как честно сравнить две системы прогнозирования, если одна из них нечестная\", \"два стула, на одном spark speculation, на другом delay большой, куда сам сядешь, куда прод посадишь\", \"как детектить аномалии в данных если не знаешь какие могут быть аномалии\", \"почему при росте цены помидоры покупают больше\", \"когда доделаете сервис\", \"зачем нужен архитектор\" и пр.)\n• уметь находить того, кто одним запросом убил кластер, скорее всего, он в твоей команде\n• шедулить таски и читать отчёт в ТГ, попивая пиво\n• написать тесты для модели\n• описать что делал в Jira так, чтобы через полгода ты сам мог понять этот текст\nЧто надо уметь обязательно - Python (хороший уровень), PySpark (для DE или сениор+ MLE), понятно разговаривать\nКак можно больше из: матстат, Hadoop, Hive, Airflow, Kafka, K8S, CI\/CD, NATS, GBDT, Shap, PG ...\n\nПроцесс примерно такой: CV -&gt; знакомство (20 минут) -&gt; техсобес (90 минут)\nЕсли есть код, который ты хочешь и можешь показать, то кидай.\nЕсли захочешь узнать почему не подошёл и что прокачать - напишу (только мнение, гарантии не прилагаются).\n\nМожно частично или полностью работать удалённо.\nЕсть возможность ездить на конференции\/форумы.\nЕсть корпоративное обучение (несколько курсов внутри компании, можно попросить ещё что-то для себя).\nМожем подождать переезда из другого города или пока не выплатят годовой бонус\n\nОфис - Москва, метро Парк Культуры, ул. Тимура Фрунзе 11с33. Там после 17 безлимитно дают сидр.\nВопросы можно мне писать сюда или в Телеграмм. Если не ответил, то ещё раз, пока я не подтвердил что увидел. Если раньше не связывались\/отказали, то можно снова попробовать.\n\nP.S. Хотим ещё разраба с опытом нагрузочного тестирования, обращайтесь.",
+        "user": "U48BEV6UV",
+        "ts": "1600512356.044900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VdlN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет, и опять набор в X5 команду Спроса. Ищем мидл+\/сениор\/лид MLE и мид+\/сениор DE . По деньгам 200-400к gross + 20%-40% бонуса по итогам года. Люди нужны на новый стрим - прогнозирование отсутствия товара на полке (рабочий прототип уже есть, качество устраивает, надо развивать).\n\nЗадачи:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "работа над пайплайном обучения моделей (spark, docker, тестирование, оптимизация, ... )"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "применять слабое (ранее требовалось умеренное) насилие чтобы узнать где, как и когда получать нужные данные"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "переводить с менеджерского языка на джировский, с джировского в питон и назад"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "спрашивать глупые вопросы пока не будет точно понятно что надо сделать (особо ценный навык)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "проверка гипотез и добавление новых фичей в модель, понять работает ли фича вообще"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "знать и уметь пользоваться PEP, linter, black, докстринги, нормальные названия переменных"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "стабилизировать прототип решения, выкатить в прод"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "поиск ответа на вечные вопросы (\"как честно сравнить две системы прогнозирования, если одна из них нечестная\", \"два стула, на одном spark speculation, на другом delay большой, куда сам сядешь, куда прод посадишь\", \"как детектить аномалии в данных если не знаешь какие могут быть аномалии\", \"почему при росте цены помидоры покупают больше\", \"когда доделаете сервис\", \"зачем нужен архитектор\" и пр.)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "уметь находить того, кто одним запросом убил кластер, скорее всего, он в твоей команде"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "шедулить таски и читать отчёт в ТГ, попивая пиво"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "написать тесты для модели"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "описать что делал в Jira так, чтобы через полгода ты сам мог понять этот текст"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nЧто надо уметь обязательно - Python (хороший уровень), PySpark (для DE или сениор+ MLE), понятно разговаривать\nКак можно больше из: матстат, Hadoop, Hive, Airflow, Kafka, K8S, CI\/CD, NATS, GBDT, Shap, PG ...\n\nПроцесс примерно такой: CV -> знакомство (20 минут) -> техсобес (90 минут)\nЕсли есть код, который ты хочешь и можешь показать, то кидай.\nЕсли захочешь узнать почему не подошёл и что прокачать - напишу (только мнение, гарантии не прилагаются).\n\nМожно частично или полностью работать удалённо.\nЕсть возможность ездить на конференции\/форумы.\nЕсть корпоративное обучение (несколько курсов внутри компании, можно попросить ещё что-то для себя).\nМожем подождать переезда из другого города или пока не выплатят годовой бонус\n\nОфис - Москва, метро Парк Культуры, ул. Тимура Фрунзе 11с33. Там после 17 безлимитно дают сидр.\nВопросы можно мне писать сюда или в Телеграмм. Если не ответил, то ещё раз, пока я не подтвердил что увидел. Если раньше не связывались\/отказали, то можно снова попробовать.\n\nP.S. Хотим ещё разраба с опытом нагрузочного тестирования, обращайтесь."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "reply_count": 24,
+        "reply_users_count": 7,
+        "latest_reply": "1600670691.102100",
+        "reply_users": [
+            "U2LGQMC4D",
+            "U48BEV6UV",
+            "UQ9UCJT0T",
+            "U3K7PNTML",
+            "UMY3SJF5K",
+            "U6URRB952",
+            "UDSJHKRNC"
+        ],
+        "replies": [
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1600513548.046400"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1600514207.047500"
+            },
+            {
+                "user": "UQ9UCJT0T",
+                "ts": "1600516967.053600"
+            },
+            {
+                "user": "UQ9UCJT0T",
+                "ts": "1600517060.053800"
+            },
+            {
+                "user": "UQ9UCJT0T",
+                "ts": "1600517296.054200"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1600519480.056800"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1600519579.057000"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1600519678.057300"
+            },
+            {
+                "user": "UQ9UCJT0T",
+                "ts": "1600523028.065800"
+            },
+            {
+                "user": "UQ9UCJT0T",
+                "ts": "1600523040.066200"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1600536997.075200"
+            },
+            {
+                "user": "U3K7PNTML",
+                "ts": "1600564960.081900"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1600593267.087500"
+            },
+            {
+                "user": "UQ9UCJT0T",
+                "ts": "1600594920.088000"
+            },
+            {
+                "user": "UMY3SJF5K",
+                "ts": "1600602107.090200"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1600625742.095100"
+            },
+            {
+                "user": "UQ9UCJT0T",
+                "ts": "1600629452.096300"
+            },
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1600633631.096900"
+            },
+            {
+                "user": "U6URRB952",
+                "ts": "1600639246.097500"
+            },
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1600639327.097800"
+            },
+            {
+                "user": "U6URRB952",
+                "ts": "1600640076.098200"
+            },
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1600640646.098500"
+            },
+            {
+                "user": "U6URRB952",
+                "ts": "1600641833.098700"
+            },
+            {
+                "user": "UDSJHKRNC",
+                "ts": "1600670691.102100"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "ULPRYQNS2",
+                    "U0167ESBR6E",
+                    "UDSJHKRNC",
+                    "U01AEBPE3UH",
+                    "U019NRYKDKQ",
+                    "UCB3PK96J",
+                    "U1ZSB7AAK",
+                    "U854H9KCM",
+                    "U6YDWF4UB",
+                    "U9JPJCD2L",
+                    "U59AUU0AJ",
+                    "U010VAM6WSJ",
+                    "UDK41MN5U",
+                    "UJUAY2S4D",
+                    "UGRFZ1DS5",
+                    "UHGV5M8KF",
+                    "U705ED0CU",
+                    "U1CMPEWPQ",
+                    "UCKGAQKE0",
+                    "U9G0K0HB6",
+                    "UJ8UE41FS",
+                    "US946KVS7",
+                    "U78BDMQTG",
+                    "UKQTHKEPJ",
+                    "UM5CR4AR4",
+                    "U6MMD7953",
+                    "ULB0N22LF",
+                    "U0SPF9SE9",
+                    "U07V1URT9",
+                    "U1YQLTMLH",
+                    "UCNEE4JMT",
+                    "U43F8ES3B",
+                    "UJ2N4SVBJ",
+                    "UFF2XJKHD",
+                    "UAL8CA2TF",
+                    "U715HB6S3",
+                    "UTGUQU99U",
+                    "UGXBD1PK7",
+                    "UDFKRQH33"
+                ],
+                "count": 39
+            },
+            {
+                "name": "dva_stula",
+                "users": [
+                    "ULPRYQNS2",
+                    "U60EETE7N",
+                    "U01AEBPE3UH",
+                    "U01364G3W84",
+                    "UCGBUA4Q2",
+                    "UNP5YEWL9",
+                    "U9JPJCD2L",
+                    "U27SUBTB9",
+                    "U018JUMQU5S",
+                    "UDFKRQH33"
+                ],
+                "count": 10
+            },
+            {
+                "name": "x5",
+                "users": [
+                    "UMM8T2JTH",
+                    "U60EETE7N",
+                    "U50GQKH5J",
+                    "UCB3PK96J",
+                    "U01364G3W84",
+                    "U9JG577D1",
+                    "UMM890NT1",
+                    "UCGBUA4Q2",
+                    "UKSNZD2BH",
+                    "U6YDWF4UB",
+                    "U59AUU0AJ",
+                    "U6UD5JDJR",
+                    "U6RBHBQPQ",
+                    "U91NUAMUJ",
+                    "U1CMPEWPQ",
+                    "ULFB41K0R",
+                    "U7E8Y3V19",
+                    "UKQTHKEPJ",
+                    "U53N06MPE",
+                    "U01A0Q7KT62",
+                    "U6URRB952",
+                    "UFF2XJKHD",
+                    "UAL8CA2TF",
+                    "UENLBTF39",
+                    "U4A57R5V1",
+                    "U914M4PKK"
+                ],
+                "count": 26
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "UDSJHKRNC",
+                    "U8PMZ6397",
+                    "U01364G3W84",
+                    "UBP7JT6MS",
+                    "U854H9KCM",
+                    "UUP5MBYAE",
+                    "ULRT7HT1R",
+                    "U5ZP4G811",
+                    "UCGBUA4Q2",
+                    "U6YDWF4UB",
+                    "UTMD85CJZ",
+                    "U59AUU0AJ",
+                    "UL2QFSPPT",
+                    "U6RBHBQPQ",
+                    "U91NUAMUJ",
+                    "ULMML7Z5K",
+                    "U1LNBRZ29",
+                    "UNLDKQLCD",
+                    "U3FEH4R1P",
+                    "U5H49JQ21",
+                    "UJ8UE41FS",
+                    "U27SUBTB9",
+                    "UF1527RS6",
+                    "UNE08HYLX",
+                    "UM5CR4AR4",
+                    "U018P4H6FDF",
+                    "U0160NAMS0N",
+                    "U48AFP5RD",
+                    "UCNEE4JMT",
+                    "U6URRB952",
+                    "UJ2N4SVBJ",
+                    "UTSBPULD7",
+                    "UAL8CA2TF",
+                    "URMQEH5R8",
+                    "UTGUQU99U",
+                    "U01ANSQU69L",
+                    "UNHQ57DQA"
+                ],
+                "count": 37
+            },
+            {
+                "name": "no-junior",
+                "users": [
+                    "UCB3PK96J",
+                    "UMM890NT1",
+                    "UNMTRMDE0",
+                    "UQ9UCJT0T",
+                    "UKSNZD2BH",
+                    "U9JPJCD2L",
+                    "UP16G7ZQT",
+                    "UNE08HYLX"
+                ],
+                "count": 8
+            },
+            {
+                "name": "venheads",
+                "users": [
+                    "UPD47KCSZ",
+                    "U8PMZ6397",
+                    "UC8NCT0PQ",
+                    "UMM890NT1",
+                    "U9JG577D1",
+                    "U7G3YPKUL",
+                    "UC9J53NAY",
+                    "UG9DZ9AJJ",
+                    "UNMTRMDE0",
+                    "UD37TP39U",
+                    "UGHRTD5FG",
+                    "U0UJ10A9J",
+                    "UCGBUA4Q2",
+                    "U01364G3W84",
+                    "UNEAGQVHC",
+                    "U012M724BLN",
+                    "U36Q9NJMD",
+                    "UKSNZD2BH",
+                    "U9JPJCD2L",
+                    "U59AUU0AJ",
+                    "U04725QK7",
+                    "UTUCPJMRS",
+                    "UM2Q2B41J",
+                    "U010VAM6WSJ",
+                    "UC9HBTUKG",
+                    "UDRNQ4HFS",
+                    "UKC61URM2",
+                    "U6UD5JDJR",
+                    "U9LKKNJHE",
+                    "U4U4GFDNK",
+                    "UEE7N6YMT",
+                    "U2PMV9N06",
+                    "UJ2JGSQ3X",
+                    "U6RBHBQPQ",
+                    "UF5DY9XQU",
+                    "UM37P4ZDE",
+                    "UGRFZ1DS5",
+                    "UHGV5M8KF",
+                    "ULPRYQNS2",
+                    "UUHCX1YSX",
+                    "U705ED0CU",
+                    "UJG3W0SSZ",
+                    "U019SDXN0Q7",
+                    "UDHJKLGLR",
+                    "ULMML7Z5K",
+                    "U4LBN5THS",
+                    "UGLLRF0CQ",
+                    "U3H06MSKH",
+                    "UG3P7DHB9",
+                    "UCKGAQKE0"
+                ],
+                "count": 151
+            },
+            {
+                "name": "venheads_oh_really",
+                "users": [
+                    "UC9J53NAY",
+                    "U7SFPUVQF",
+                    "U53N06MPE",
+                    "UAL8CA2TF"
+                ],
+                "count": 4
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "UEVA1NXGT",
+                    "UAL8CA2TF",
+                    "U4BBNMQ03"
+                ],
+                "count": 3
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U01AX9M7LQH",
+                    "UFF2XJKHD"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5b5beb6b-b7f1-4f8c-84e9-27b759f11a1b",
+        "type": "message",
+        "text": "<@U48BEV6UV> Есть ли способ увеличить вилку ?",
+        "user": "U2LGQMC4D",
+        "ts": "1600513548.046400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ffc723117cb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-14\/1345601413783_ffc723117cb385805a6c_72.jpg",
+            "first_name": "Valeriy",
+            "real_name": "Valeriy Babushkin",
+            "display_name": "venheads",
+            "team": "T040HKJE3",
+            "name": "venheads",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U2LGQMC4D",
+            "ts": "1600513582.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zDX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U48BEV6UV"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Есть ли способ увеличить вилку ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "coincidence",
+                "users": [
+                    "U0FEJNBGQ",
+                    "UMM890NT1",
+                    "UCKGAQKE0",
+                    "UKQTPE877",
+                    "UE4CX9345",
+                    "U53N06MPE",
+                    "UTPMUQYCA",
+                    "U6L08K8KS",
+                    "U914M4PKK"
+                ],
+                "count": 9
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9ac32fc4-2a5b-41bf-9802-bff988f3e8db",
+        "type": "message",
+        "text": "Только один - за 50, 100 и 200 валер. Для знающих людей он предсказуем",
+        "user": "U48BEV6UV",
+        "ts": "1600514207.047500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CPW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Только один - за 50, 100 и 200 валер. Для знающих людей он предсказуем"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "piar2",
+                "users": [
+                    "UMM890NT1",
+                    "U01364G3W84",
+                    "UNEAG0LLE",
+                    "U2PMV9N06",
+                    "UKQTHKEPJ",
+                    "U061WBASK",
+                    "U8ZDR4HMK"
+                ],
+                "count": 7
+            },
+            {
+                "name": "venheads",
+                "users": [
+                    "UMM890NT1",
+                    "U01364G3W84",
+                    "ULPRYQNS2",
+                    "U019SDXN0Q7",
+                    "UCKGAQKE0",
+                    "UAH9H0R17",
+                    "UKQTHKEPJ"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5bec4dc6-b7c7-4bb5-b800-337d11a527c4",
+        "type": "message",
+        "text": "&gt; нагрузочное тестирование\nнагрузочное тестирование чего именно? http apps, message stream processors..?",
+        "user": "UQ9UCJT0T",
+        "ts": "1600516967.053600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gaf4aae329f4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/af4aae329f466fda3cbdff9f35d09b0a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "NaN",
+            "real_name": "NaN",
+            "display_name": "NaN",
+            "team": "T040HKJE3",
+            "name": "p.o.solomin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vEVa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "> нагрузочное тестирование\nнагрузочное тестирование чего именно? http apps, message stream processors..?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "2b4159c9-e654-4c4f-94d5-e3cc3277e80b",
+        "type": "message",
+        "text": "&gt; прототип уже есть\nработает в полях? на сколько товаров \/ точках? спрашиваю, чтобы понимать размеры пропасти между прототипом и..  непрототипом :idk:",
+        "user": "UQ9UCJT0T",
+        "ts": "1600517060.053800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gaf4aae329f4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/af4aae329f466fda3cbdff9f35d09b0a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "NaN",
+            "real_name": "NaN",
+            "display_name": "NaN",
+            "team": "T040HKJE3",
+            "name": "p.o.solomin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wft",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "> прототип уже есть\nработает в полях? на сколько товаров \/ точках? спрашиваю, чтобы понимать размеры пропасти между прототипом и..  непрототипом "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "idk"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "68620c94-7b14-48e5-8dfb-54e0acd38d3f",
+        "type": "message",
+        "text": "&gt; Kafka\nчем обрабатываете? тоже пуспарком?",
+        "user": "UQ9UCJT0T",
+        "ts": "1600517296.054200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gaf4aae329f4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/af4aae329f466fda3cbdff9f35d09b0a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "NaN",
+            "real_name": "NaN",
+            "display_name": "NaN",
+            "team": "T040HKJE3",
+            "name": "p.o.solomin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OVL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "> Kafka\nчем обрабатываете? тоже пуспарком?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "e902343a-6e6f-4117-8dce-1393dd1bd353",
+        "type": "message",
+        "text": "Про нагрузочное - есть сервисы, общаются через кафку или тг канвл, в них модели. Нужно понять сколько держат и как быстро отвечают.",
+        "user": "U48BEV6UV",
+        "ts": "1600519480.056800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/1SQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Про нагрузочное - есть сервисы, общаются через кафку или тг канвл, в них модели. Нужно понять сколько держат и как быстро отвечают."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "f3506ac4-ccb9-471a-a2b9-39d85f8f5076",
+        "type": "message",
+        "text": "Прототип тестировали на, условно, десятках магазинов, нужен план по раскатке на 17к магазинов",
+        "user": "U48BEV6UV",
+        "ts": "1600519579.057000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lfq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Прототип тестировали на, условно, десятках магазинов, нужен план по раскатке на 17к магазинов"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "0af20bc9-a23c-4c25-a9af-d9d3c9a00b96",
+        "type": "message",
+        "text": "Кафку слушют сервисы в k8s на питоне. Запросов относительно мало, но размер может отличаться в сто раз (1 товар vs 100 товаров)",
+        "user": "U48BEV6UV",
+        "ts": "1600519678.057300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8lIe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Кафку слушют сервисы в k8s на питоне. Запросов относительно мало, но размер может отличаться в сто раз (1 товар vs 100 товаров)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "3189e900-6c95-4cfa-833e-d56ee02038b4",
+        "type": "message",
+        "text": "спасибо за ответы. к сожалению, с питонскими kafka consumers не знаком практически :pepe_sad: мой опыт на message processing был только с :java: :scala:\n&gt; как быстро отвечают\nу JVM-клиентов можно собирать эти метрики <https:\/\/docs.confluent.io\/current\/kafka\/monitoring.html#new-consumer-metrics> через side-cart (<https:\/\/github.com\/prometheus\/jmx_exporter>)\nне знаю, есть ли у питонских клиентов подобное\n&gt; сколько держат\nимеется ввиду, сколько могут сожрать за минуту? сегодняшний траффик примерно сколько GB\/min? для потребителей небольшого траффика это легко измерить на коленке. если там более GB \/ sec, нужен распределенный нагружатель.\n&gt; Прототип тестировали на, условно, десятках магазинов, нужен план по раскатке на 17к магазинов\nкруто :muscle:",
+        "user": "UQ9UCJT0T",
+        "ts": "1600523028.065800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gaf4aae329f4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/af4aae329f466fda3cbdff9f35d09b0a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "NaN",
+            "real_name": "NaN",
+            "display_name": "NaN",
+            "team": "T040HKJE3",
+            "name": "p.o.solomin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UQ9UCJT0T",
+            "ts": "1600523033.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HxS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "спасибо за ответы. к сожалению, с питонскими kafka consumers не знаком практически "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "pepe_sad"
+                            },
+                            {
+                                "type": "text",
+                                "text": " мой опыт на message processing был только с "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "java"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "scala"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "как быстро отвечают"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "у JVM-клиентов можно собирать эти метрики "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.confluent.io\/current\/kafka\/monitoring.html#new-consumer-metrics"
+                            },
+                            {
+                                "type": "text",
+                                "text": " через side-cart ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/prometheus\/jmx_exporter"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")\nне знаю, есть ли у питонских клиентов подобное\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "сколько держат"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "имеется ввиду, сколько могут сожрать за минуту? сегодняшний траффик примерно сколько GB\/min? для потребителей небольшого траффика это легко измерить на коленке. если там более GB \/ sec, нужен распределенный нагружатель.\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Прототип тестировали на, условно, десятках магазинов, нужен план по раскатке на 17к магазинов"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "круто "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "muscle"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "d0623649-6bd1-40aa-b458-92480efb4f67",
+        "type": "message",
+        "text": "еще раз спасибо за ответы",
+        "user": "UQ9UCJT0T",
+        "ts": "1600523040.066200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gaf4aae329f4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/af4aae329f466fda3cbdff9f35d09b0a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "NaN",
+            "real_name": "NaN",
+            "display_name": "NaN",
+            "team": "T040HKJE3",
+            "name": "p.o.solomin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ezif",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "еще раз спасибо за ответы"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "0bd9def7-9e96-4130-9eec-27e4bb2caa7d",
+        "type": "message",
+        "text": "Метрики собрать не сложно, речь про другое. Допустим, мы выкатваем новую модель, нам надо понять не деградирует ли производительность и не изменится ли время ответа. Модели поднимаются в кеш, не будет ли падать контейнер если придёт большой запрос? Ну и прочие кейсы. Вряд ли кто-то такое в точности делал, но мб есть опыт других нагрузочных тестов",
+        "user": "U48BEV6UV",
+        "ts": "1600536997.075200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dKzL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Метрики собрать не сложно, речь про другое. Допустим, мы выкатваем новую модель, нам надо понять не деградирует ли производительность и не изменится ли время ответа. Модели поднимаются в кеш, не будет ли падать контейнер если придёт большой запрос? Ну и прочие кейсы. Вряд ли кто-то такое в точности делал, но мб есть опыт других нагрузочных тестов"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "b95f370f-529a-4867-ab80-c4258bb3b1bc",
+        "type": "message",
+        "text": "Распиши плз подробнее, что значит \"уметь pyspark\" в твоих критериях",
+        "user": "U3K7PNTML",
+        "ts": "1600564960.081900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8d51f0926361",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-01-17\/128278815266_8d51f0926361c573895b_72.jpg",
+            "first_name": "Bogdan",
+            "real_name": "Bogdan Ribitskiy",
+            "display_name": "ribitskiyb",
+            "team": "T040HKJE3",
+            "name": "ribitskiyb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EDN3T",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Распиши плз подробнее, что значит \"уметь pyspark\" в твоих критериях"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600512356.044900",
+        "parent_user_id": "U48BEV6UV"
+    }
+]

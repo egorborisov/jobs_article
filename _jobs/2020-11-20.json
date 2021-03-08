@@ -1,0 +1,1090 @@
+[
+    {
+        "client_msg_id": "80420579-47ca-4276-b75e-514a15d99e50",
+        "type": "message",
+        "text": "Всем привет!\nИщу опытных мл-разработчиков в Отдел качества рекламы Яндекса. Пишите Любе в тг за подробностями <https:\/\/t.me\/Lyubov1793> . Много вакансий хороших и разных. Сначала коротко.\n• DL разработчик. Нужно знание DL, ML, python, C++, pyTorch и опыт работы в DL-ML области от 3 лет. <https:\/\/yandex.ru\/jobs\/vacancies\/dev\/ml_dev\/|Внешнее описание>\n• ML разработчик. Нужно знание ML, python и опыт работы в ML области от 3 лет. <https:\/\/yandex.ru\/jobs\/vacancies\/dev\/dev_quality_adv\/|Внешнее описание.>\n• ML архитектор. Нужно знание ML, python, опыт работы в ML области от 3 лет и опыт конструирования больших пайплайнов обучения.\n• Python разработчик в мл инфраструктуру. Тут знание ML не требуется. Знание C++ будет плюсом. Опыт работы от 3 лет. <https:\/\/yandex.ru\/jobs\/vacancies\/dev\/python_logos\/|Внешнее описание.>\nЧем мы занимаемся\n• Реклама – сосредоточение ML-силы =) А еще реклама приносит 60% денег Яндекса.\n• Мы поддерживаем и улучшаем имеющиеся прогнозаторы и периодически придумываем и внедряем новые. При этом проходим по полному циклу придумали -&gt; собрали данные -&gt; обучились -&gt; перебрали параметры -&gt; выкатили в эксперимент -&gt; подебажили -&gt; внедрили (пункты 2 и 3 с конца повторять до внедрения или таймаута).\n• Из уже имеющихся прогнозаторов – прогноз клика по рекламе, прогноз денег от показа рекламы, прогноз целесобразности траты большого количества CPU на показ рекламы конкретному пользователю, прогноз корректировок ставок рекламодателей для учета конверсионности конкретного показа рекламы. Ещё не придуманные вы поможете нам придумать и внедрить. =)\n• Из технологий – нейросети, бустинги, линейные модели. Петабайты обучающих логов, десятки тысяч CPU ядер, сотни GPU под обучение и прод.\n• Код пишем преимущественно на питоне, но в некоторых местах на плюсах (я явно это прописал выше).\nЧто надо будет делать\n• DL разработчик – надо будет разрабатывать и поддерживать кастомную надстройку над PyTorch для быстрого обучения рекомендательных систем. Учить на ней модели, ускорять поставку в нее обучающих данных, ускорять все это дело, придумывать и перебирать архитектуры. Катать наработки в прод, выбивать из этого качество и деньги.\n• ML разработчик – улучшать качество существующих прогнозаторов, придумывание и внедрение новых. Подбор параметров, генерация фичей, обучение, проведение экспериментов оффлайн и онлайн. Архитектурные вызовы, ибо нагрузка в сотни K rps.\n• ML архитектор – надо будет перестроить и развить фреймворк обучения ML моделей в рекламе. Тут надо пересадить всех с локальных велосипедов на один общий вездеход =)\n• Python разработчик в мл инфраструктуру – нужен человек на развитие системы агрегации рекламных логов (система называется Логос). В Логос нужны единомышленники для его развития и поддержки. В час запускается пара сотен разнообразных задач, обрабатывающих сотни терабайт, результат работы которых идет на вход статистике, аналитике и ML. Петабайты логов, десятки тысяч mapreduce cpu, куча поставщиков и потребителей. Весело, задорно.\nОбщие плюшки Яндекса\n• до конца года работаем удаленно по желанию. А вообще с достаточно свободным графиком в классном офисе (Красная Роза, метро Парк Культуры, Москва);\n• расширенная программа ДМС, питание;\n• вилка 150-300к+, премии каждые полгода для всех, кто успешно прошёл ревью;\n• помощь в релокации для кандидатов из других городов\/стран.\n",
+        "user": "UG7DPPVQS",
+        "ts": "1605865212.137100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "cac0fc06cfa4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-17\/1354808578535_cac0fc06cfa4a8245f0e_72.png",
+            "first_name": "Stenin",
+            "real_name": "Stenin Sergey",
+            "display_name": "Steninss",
+            "team": "T040HKJE3",
+            "name": "steninss",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UG7DPPVQS",
+            "ts": "1605866585.000000"
+        },
+        "attachments": [
+            {
+                "service_name": "Telegram",
+                "title": "Luba Fedorova",
+                "title_link": "https:\/\/t.me\/Lyubov1793",
+                "text": "You can contact @Lyubov1793 right away.",
+                "fallback": "Telegram: Luba Fedorova",
+                "thumb_url": "https:\/\/cdn4.telesco.pe\/file\/JQFi0GgU4OshkhHcY4e2xfBqiykWPt-QsJRRQejhTwdwQC3Ysw2sQo9IVuGj7kt7xppHFTmfm0MHtIjZgPH3COq6OpBFH_oMLX8zxt5d6HKxzeYfOAABYegwpwrg-yGHQINzLfLt9kpXFZpz4iKy1MV7rwNU7Qj58NhXLVLkoZl3F0MC84t4B_eitJzjbJ_887w1AqqsdgkcCOZw-A6C7KRNTRa3VUE1HkY9eAm3TvdCD3LY5-9sdMK8rdRne9JTrFlVKfO4wDUq53M_dTqT5vc-BIiu_xpTF1QgyiX9PzxTYJMb6eFXYl7yApj-IeudKKE0AP8vJzytQl68IP4i7A.jpg",
+                "from_url": "https:\/\/t.me\/Lyubov1793",
+                "thumb_width": 320,
+                "thumb_height": 320,
+                "service_icon": "http:\/\/telegram.org\/favicon.ico?3",
+                "id": 1,
+                "original_url": "https:\/\/t.me\/Lyubov1793"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "V0HP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет!\nИщу опытных мл-разработчиков в Отдел качества рекламы Яндекса. Пишите Любе в тг за подробностями "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/t.me\/Lyubov1793"
+                            },
+                            {
+                                "type": "text",
+                                "text": " . Много вакансий хороших и разных. Сначала коротко.\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "DL разработчик. Нужно знание DL, ML, python, C++, pyTorch и опыт работы в DL-ML области от 3 лет. "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/yandex.ru\/jobs\/vacancies\/dev\/ml_dev\/",
+                                        "text": "Внешнее описание"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ML разработчик. Нужно знание ML, python и опыт работы в ML области от 3 лет. "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/yandex.ru\/jobs\/vacancies\/dev\/dev_quality_adv\/",
+                                        "text": "Внешнее описание."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ML архитектор. Нужно знание ML, python, опыт работы в ML области от 3 лет и опыт конструирования больших пайплайнов обучения."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Python разработчик в мл инфраструктуру. Тут знание ML не требуется. Знание C++ будет плюсом. Опыт работы от 3 лет. "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/yandex.ru\/jobs\/vacancies\/dev\/python_logos\/",
+                                        "text": "Внешнее описание."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Чем мы занимаемся\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Реклама – сосредоточение ML-силы =) А еще реклама приносит 60% денег Яндекса."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Мы поддерживаем и улучшаем имеющиеся прогнозаторы и периодически придумываем и внедряем новые. При этом проходим по полному циклу придумали -> собрали данные -> обучились -> перебрали параметры -> выкатили в эксперимент -> подебажили -> внедрили (пункты 2 и 3 с конца повторять до внедрения или таймаута)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Из уже имеющихся прогнозаторов – прогноз клика по рекламе, прогноз денег от показа рекламы, прогноз целесобразности траты большого количества CPU на показ рекламы конкретному пользователю, прогноз корректировок ставок рекламодателей для учета конверсионности конкретного показа рекламы. Ещё не придуманные вы поможете нам придумать и внедрить. =)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Из технологий – нейросети, бустинги, линейные модели. Петабайты обучающих логов, десятки тысяч CPU ядер, сотни GPU под обучение и прод."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Код пишем преимущественно на питоне, но в некоторых местах на плюсах (я явно это прописал выше)."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Что надо будет делать\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "DL разработчик – надо будет разрабатывать и поддерживать кастомную надстройку над PyTorch для быстрого обучения рекомендательных систем. Учить на ней модели, ускорять поставку в нее обучающих данных, ускорять все это дело, придумывать и перебирать архитектуры. Катать наработки в прод, выбивать из этого качество и деньги."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ML разработчик – улучшать качество существующих прогнозаторов, придумывание и внедрение новых. Подбор параметров, генерация фичей, обучение, проведение экспериментов оффлайн и онлайн. Архитектурные вызовы, ибо нагрузка в сотни K rps."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ML архитектор – надо будет перестроить и развить фреймворк обучения ML моделей в рекламе. Тут надо пересадить всех с локальных велосипедов на один общий вездеход =)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Python разработчик в мл инфраструктуру – нужен человек на развитие системы агрегации рекламных логов (система называется Логос). В Логос нужны единомышленники для его развития и поддержки. В час запускается пара сотен разнообразных задач, обрабатывающих сотни терабайт, результат работы которых идет на вход статистике, аналитике и ML. Петабайты логов, десятки тысяч mapreduce cpu, куча поставщиков и потребителей. Весело, задорно."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Общие плюшки Яндекса\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "до конца года работаем удаленно по желанию. А вообще с достаточно свободным графиком в классном офисе (Красная Роза, метро Парк Культуры, Москва);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "расширенная программа ДМС, питание;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "вилка 150-300к+, премии каждые полгода для всех, кто успешно прошёл ревью;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "помощь в релокации для кандидатов из других городов\/стран."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605865212.137100",
+        "reply_count": 5,
+        "reply_users_count": 4,
+        "latest_reply": "1606140922.204400",
+        "reply_users": [
+            "U1D9AM7SN",
+            "U44F46N7L",
+            "URPQC9JHE",
+            "U4SKDV2HF"
+        ],
+        "replies": [
+            {
+                "user": "U1D9AM7SN",
+                "ts": "1605869784.141000"
+            },
+            {
+                "user": "U44F46N7L",
+                "ts": "1605942288.162200"
+            },
+            {
+                "user": "URPQC9JHE",
+                "ts": "1606120790.180000"
+            },
+            {
+                "user": "U4SKDV2HF",
+                "ts": "1606121723.180700"
+            },
+            {
+                "user": "URPQC9JHE",
+                "ts": "1606140922.204400"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "gnomik",
+                "users": [
+                    "U5GCU82HX",
+                    "UCNEE4JMT",
+                    "UKQTPE877",
+                    "U8T04GC3C",
+                    "UHGUXSJRK",
+                    "U0FEJNBGQ",
+                    "U50GQKH5J",
+                    "UD37TP39U",
+                    "U4SKDV2HF",
+                    "UJ8BXBM36",
+                    "U27SUBTB9",
+                    "UD83QU1FB",
+                    "UBQELFC8K",
+                    "U1G303UTW",
+                    "USJDT3A0H",
+                    "U6YV1UAS1",
+                    "UQJ2D2ZRU",
+                    "UFVBUV7QU",
+                    "U709XK88H",
+                    "U7SFPUVQF",
+                    "U8TTWAP27",
+                    "U01B9HH7HSB",
+                    "U7N4E8GBF",
+                    "UGRFZ1DS5",
+                    "U705ED0CU",
+                    "U7E8Y3V19",
+                    "UB4L90A31",
+                    "US946KVS7",
+                    "ULB0N22LF",
+                    "U9V48C738",
+                    "UGXM5JFRN",
+                    "UCB3PK96J",
+                    "U7ZCEDTEV",
+                    "U1YQLTMLH",
+                    "U018G5MKXS6",
+                    "UD2EX7JP9",
+                    "U01AVR1HJ0K",
+                    "UNMTRMDE0",
+                    "UB85YR4DR",
+                    "UKQTHKEPJ",
+                    "U4M6JJ75M",
+                    "UJ2N4SVBJ",
+                    "UCMAWD588"
+                ],
+                "count": 43
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "UC9HBTUKG",
+                    "U0FEJNBGQ",
+                    "UCNEE4JMT",
+                    "U9JG577D1",
+                    "UF5E26Z28",
+                    "U6YV1UAS1",
+                    "U60EETE7N",
+                    "UBM4B8CBU",
+                    "URMQEH5R8",
+                    "UA86QLU0P",
+                    "UJUAY2S4D",
+                    "UCMAWD588"
+                ],
+                "count": 12
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "ULPRYQNS2",
+                    "U014F8HB4HX",
+                    "UBMS3KJ0J",
+                    "U6VM2LAES",
+                    "UC8NCT0PQ",
+                    "U7E8Y3V19",
+                    "UNEK3A52N",
+                    "UCB3PK96J",
+                    "U01FDC6MWQG",
+                    "US2Q6MCPQ",
+                    "UD37TP39U",
+                    "UCKGAQKE0",
+                    "U2MCDAD88",
+                    "UGF5C8W59",
+                    "U9UEXU8NN"
+                ],
+                "count": 15
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U2GAEHQR1",
+                    "U3SJBMJ9M",
+                    "U6VM2LAES",
+                    "UEGP0MMDX",
+                    "U74DLUWUC"
+                ],
+                "count": 5
+            },
+            {
+                "name": "fire",
+                "users": [
+                    "U7V383JSU",
+                    "U5EEXS2R1",
+                    "ULB0N22LF",
+                    "U4ZGURUFL",
+                    "U1Q0B8KMJ",
+                    "UQ3MVSNJZ"
+                ],
+                "count": 6
+            },
+            {
+                "name": "yandex",
+                "users": [
+                    "USJDT3A0H",
+                    "UAH9H0R17",
+                    "UPUP6P3LG",
+                    "UCB3PK96J",
+                    "U4ZGURUFL",
+                    "U1Q0B8KMJ",
+                    "UD2EX7JP9",
+                    "UQ3MVSNJZ",
+                    "U01EU1XK45V",
+                    "U018F9999GC",
+                    "U871S4R6F",
+                    "UCMAWD588"
+                ],
+                "count": 12
+            },
+            {
+                "name": "hankey",
+                "users": [
+                    "U6VM2LAES",
+                    "UCB3PK96J",
+                    "U01FDC6MWQG",
+                    "U74DLUWUC"
+                ],
+                "count": 4
+            },
+            {
+                "name": "no-junior",
+                "users": [
+                    "ULFB41K0R",
+                    "UCB3PK96J",
+                    "UNMTRMDE0",
+                    "U01DD8F9BMX",
+                    "U019PLLUL1G"
+                ],
+                "count": 5
+            },
+            {
+                "name": "rooster",
+                "users": [
+                    "UCB3PK96J",
+                    "U01FDC6MWQG",
+                    "U4PLYEYLA",
+                    "UAEBNBWMU"
+                ],
+                "count": 4
+            },
+            {
+                "name": "three",
+                "users": [
+                    "U8WGH35EH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5349b4fa-ad2c-406f-9db4-900371f1b066",
+        "type": "message",
+        "text": "В этой компании была самая душевная серия собеседований, на которой я когда либо был :dushevnost:",
+        "user": "UPXFW5346",
+        "ts": "1605865359.137500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ge8bc42fe20d",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e8bc42fe20d68a8e6ffde2578ff36101.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Alexander",
+            "real_name": "Alexander",
+            "display_name": "inkln",
+            "team": "T040HKJE3",
+            "name": "ivanov.aleksandr",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UPXFW5346",
+            "ts": "1605865381.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9k40",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "В этой компании была самая душевная серия собеседований, на которой я когда либо был "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "dushevnost"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605709569.041100",
+        "parent_user_id": "U4BSTMP1R",
+        "reactions": [
+            {
+                "name": "dushevnost",
+                "users": [
+                    "U49NJJXNJ",
+                    "U0122QXJYB1"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b35762d9-25d8-40ef-a714-df5cbf647efd",
+        "type": "message",
+        "text": "Сергей :top: , все к нему :peperun:",
+        "user": "U1D9AM7SN",
+        "ts": "1605869784.141000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "b9cccb6e18c6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-19\/1519825350212_b9cccb6e18c6fac8244a_72.png",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Gronsky",
+            "display_name": "tft700",
+            "team": "T040HKJE3",
+            "name": "tft700",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c=pe7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Сергей "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "top"
+                            },
+                            {
+                                "type": "text",
+                                "text": " , все к нему "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "peperun"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605865212.137100",
+        "parent_user_id": "UG7DPPVQS",
+        "reactions": [
+            {
+                "name": "yeah-sure",
+                "users": [
+                    "U540P8P8A",
+                    "UG3P7DHB9",
+                    "U6LSE0FT9",
+                    "U6RBHBQPQ",
+                    "U6ME568D7",
+                    "U74DLUWUC",
+                    "URPQC9JHE"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "client_msg_id": "56ca35e6-1c7b-486e-8c71-31f005646b93",
+        "type": "message",
+        "text": "если компания начинает интеракции с кем бы то ни было с такого :balabol: - это жесткий красный флаг :pepe_sad: для меня, по крайней мере",
+        "user": "UQ9UCJT0T",
+        "ts": "1605875132.145200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gaf4aae329f4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/af4aae329f466fda3cbdff9f35d09b0a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "NaN",
+            "real_name": "NaN",
+            "display_name": "NaN",
+            "team": "T040HKJE3",
+            "name": "p.o.solomin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uPVIc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "если компания начинает интеракции с кем бы то ни было с такого "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "balabol"
+                            },
+                            {
+                                "type": "text",
+                                "text": " - это жесткий красный флаг "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "pepe_sad"
+                            },
+                            {
+                                "type": "text",
+                                "text": " для меня, по крайней мере"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "USLACKBOT",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UGD9J4276"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8db3104c-d734-4636-803f-6ad667f86499",
+        "type": "message",
+        "text": "Нет",
+        "user": "U0FF52P7D",
+        "ts": "1605882680.149800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d86b6605856f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-30\/15562178179_d86b6605856f4a911562_72.jpg",
+            "first_name": "Roman",
+            "real_name": "Roman Degtiarev",
+            "display_name": "aspart",
+            "team": "T040HKJE3",
+            "name": "aspart",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "r=KSe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Нет"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605695697.009600",
+        "parent_user_id": "U0FF52P7D",
+        "reactions": [
+            {
+                "name": "pepe_sad",
+                "users": [
+                    "U04ELQZAU",
+                    "U070Y25AS"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4bc70575-b8b8-4bf8-adbe-1c066d1604ce",
+        "type": "message",
+        "text": "Как джун может знать machine learning algorithms и не знать линейную алгебру?",
+        "user": "URPQC9JHE",
+        "ts": "1605882789.150000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gfe790f66bb4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe790f66bb4d60e103f3c7f4e940b658.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "Patrikimatriki",
+            "display_name": "Patrikimatriki",
+            "team": "T040HKJE3",
+            "name": "patrikimatriki",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Om65K",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Как джун может знать machine learning algorithms и не знать линейную алгебру?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605695697.009600",
+        "parent_user_id": "U0FF52P7D"
+    },
+    {
+        "client_msg_id": "9abb7e2f-dc54-46df-8452-81e1336b3c62",
+        "type": "message",
+        "text": "легко, таких сейчас на рынке хватает",
+        "user": "U0K47J3HR",
+        "ts": "1605883478.150600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6d5ff9b845f5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-27\/321752094228_6d5ff9b845f5b3248b1e_72.jpg",
+            "first_name": "Valentin",
+            "real_name": "Valentin Malykh",
+            "display_name": "madrugado",
+            "team": "T040HKJE3",
+            "name": "madrugado",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Bc=i",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "легко, таких сейчас на рынке хватает"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605695697.009600",
+        "parent_user_id": "U0FF52P7D",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U0FF52P7D",
+                    "U070Y25AS",
+                    "URPQC9JHE"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cf89787f-700f-4568-9ee6-5a402bfb0b34",
+        "type": "message",
+        "text": "Имел опыт работы в похожей компании, которая смотрит в сторону DS  в нефтянке, хотели, чтобы один человек сделал работу отдела с 20 аналитиками. Генеральный сказал внедрять, а платить специалистам ЗГД не хочет, нет на 20 спецов зарплаты, поэтому давайте возьмет одного и он сделает миракл САМ и все будет работать. А мы потом отчитается перед Генеральным и получим свою премию годовую (в несколько млн рублей).  Всем профит)))",
+        "user": "URPQC9JHE",
+        "ts": "1605883808.150800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gfe790f66bb4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/fe790f66bb4d60e103f3c7f4e940b658.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "Patrikimatriki",
+            "display_name": "Patrikimatriki",
+            "team": "T040HKJE3",
+            "name": "patrikimatriki",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vdZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Имел опыт работы в похожей компании, которая смотрит в сторону DS  в нефтянке, хотели, чтобы один человек сделал работу отдела с 20 аналитиками. Генеральный сказал внедрять, а платить специалистам ЗГД не хочет, нет на 20 спецов зарплаты, поэтому давайте возьмет одного и он сделает миракл САМ и все будет работать. А мы потом отчитается перед Генеральным и получим свою премию годовую (в несколько млн рублей).  Всем профит)))"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605520387.311200",
+        "parent_user_id": "U01184AJRH8",
+        "reactions": [
+            {
+                "name": "coolstorybob",
+                "users": [
+                    "U30A6KZLH",
+                    "URPQC9JHE",
+                    "U061WBASK"
+                ],
+                "count": 3
+            },
+            {
+                "name": "true-story",
+                "users": [
+                    "URPQC9JHE",
+                    "U01184AJRH8",
+                    "UM7UFHTR8"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "841614ea-6573-439e-9468-40f0554a8f5f",
+        "type": "message",
+        "text": "<@UQ3MVSNJZ>, в Сочи можно будет пройти стажировку?",
+        "user": "U01CV9CNZB9",
+        "ts": "1605894567.154200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gd41ac30fb52",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/d41ac30fb529cff67d432de8818887cf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Olga Shishkina",
+            "display_name": "Olga Shishkina",
+            "team": "T040HKJE3",
+            "name": "shishkina.oa.98",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pabY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UQ3MVSNJZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", в Сочи можно будет пройти стажировку?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605626373.452500",
+        "parent_user_id": "UQ3MVSNJZ"
+    },
+    {
+        "client_msg_id": "75f6f300-59b2-473a-b35b-7957de9bc847",
+        "type": "message",
+        "text": "<@U01CV9CNZB9> да",
+        "user": "UQ3MVSNJZ",
+        "ts": "1605897706.155500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g67eb26780d7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/67eb26780d7fb5d76030ad9568de6b52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0012-72.png",
+            "first_name": "Nikolay",
+            "real_name": "Nikolay Zinov",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "nzinov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IO9Lc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U01CV9CNZB9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " да"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605626373.452500",
+        "parent_user_id": "UQ3MVSNJZ"
+    },
+    {
+        "client_msg_id": "9303C0AC-669D-4E04-8B6E-60A39BF2CD31",
+        "type": "message",
+        "text": "<@UT1USB97U> которые приносит офисный бармен",
+        "user": "U070Y25AS",
+        "ts": "1605899637.156300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "fceae7bbae9f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-06-30\/7032585669_fceae7bbae9fe6bd6054_72.jpg",
+            "first_name": "Kirill",
+            "real_name": "Kirill Malev",
+            "display_name": "malev",
+            "team": "T040HKJE3",
+            "name": "malev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/X9n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UT1USB97U"
+                            },
+                            {
+                                "type": "text",
+                                "text": " которые приносит офисный бармен"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605701522.026900",
+        "parent_user_id": "UT1USB97U"
+    },
+    {
+        "client_msg_id": "14c52847-3481-43d9-9727-f536badb6995",
+        "type": "message",
+        "text": "когда все уехали в Лондон",
+        "user": "U44F46N7L",
+        "ts": "1605942288.162200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "22ebee89a2af",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-07-06\/393216225664_22ebee89a2af125acb1b_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Cheshkov",
+            "display_name": "acheshkov",
+            "team": "T040HKJE3",
+            "name": "acheshkov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "od7jT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "когда все уехали в Лондон"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605865212.137100",
+        "parent_user_id": "UG7DPPVQS",
+        "reactions": [
+            {
+                "name": "el_resitas_shake",
+                "users": [
+                    "U4SKDV2HF",
+                    "U9HSZRDP1",
+                    "UCKGAQKE0",
+                    "UGD9J4276",
+                    "USJDT3A0H",
+                    "UMY3SJF5K",
+                    "UAL8CA2TF",
+                    "UCB3PK96J",
+                    "URPQC9JHE",
+                    "UELR5UND6",
+                    "U854H9KCM",
+                    "UJ2N4SVBJ",
+                    "U0AS1QEJF"
+                ],
+                "count": 13
+            },
+            {
+                "name": "true-story",
+                "users": [
+                    "U04ELQZAU",
+                    "UMY3SJF5K",
+                    "URPQC9JHE"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

@@ -1,0 +1,1073 @@
+[
+    {
+        "client_msg_id": "f7c27c73-2eb6-497d-9679-1b88c0bb1173",
+        "type": "message",
+        "text": "Мопед в соседнюю команду, но я еще сам не до конца обжился, поэтому jobs_hr.\n*Компания:* :windows: Microsoft, Bing Core Team, Answers &amp; Segments department\n*Вакансия:* Data Engineer, C# (сорри)\n*Локация:* :remote: удаленка (ИП)\n*Вилка:* $3500-5500 \/ mo\n\n*Проект:* в Bing пилим фактовый ответ. Это когда пользователь задает в поисковик запрос, а ему показывают не просто портянку ссылок, но и собственно ответ \/ нужное определение \/ ту информацию, которую пользователь хочет узнать. На текущей стадии решаем эту задачу оффлайн: выгрузить список наиболее популярных запросов из логов, отобрать (прогнать через ручку с готовой ML-моделью) те запросы, на которые нужно ответить, залить их в MTurk \/ Толоку \/ UHRS (внутренний инструмент для краудсорсинга), выгрузить ответы, положить в табличку во внутренней MR-системе, смерджить с предыдущими ответами, автоматизировать все это, настроить метрики, алерты, помогать пользователям этих данных (например, фиксить ошибки, когда в ответы пролез стьюпид и его надо срочно убрать).\n\n*Стек:* \n• C# (сорри, это MS)\n• внутренние инструменты (UHRS == Толока, Aether == Нирвана, Cosmos == Map-Reduce, SCOPE == SQL-like язык поверх MR)\n• общий клей - python \/ bash \/powershell \/ younameit\n*Требования:*\n• ИП\n• английский на нормальном уровне, моего B2 хватает (команда распределенная по миру, все общение реально на английском)\n• пересечение по рабочим часам с Сиэтлом (UTC-7). Мне хватает 3 часа пересечения с 19 до 22\n• общий опыт DE, понимание, как лучше из bash и существующих систем накодить архитектуру пайплайна данных\n• C# 1-2 года опыта\n*Здорово, если:*\n• есть опыт с краудсорсингом \/ в поиске (поэтому яндексоидам мб будет проще)\n*Нюансы:*\n• оплата за отработанные дни. Т.е. отпуска, больничные, налоги и все остальное - за свой счет. По моим оценкам, это отнимает где-то 20% зарплаты (6-7% налог, 10% - отложения на отпуск, 3% - ведение ИП, счет в банке, комиссии, оплата онлайн-бухгалтерии и т.д.).\n• Это аутстафф, контракт заключается с фирмой-прокладкой (HiTechTalents)\n• ноутбук тоже свой, но он будет подключен к AD \/ контролироваться СБ. Вроде поддерживаются Win + Mac, но не уверен, врать не буду (мне Win-ноута достаточно).\n*Контакты:* \n• Рекрутер: <https:\/\/www.linkedin.com\/in\/emma-zhang-9005b7173\/>\n• можно через меня резюме заслать, мне дадут на пиво. Ну и вообще, спрашивайте, чем смогу, помогу\n*Описание от рекрутера* (не очень внятное, но это my shame):\n\nProviding engineering resources to perform data gathering and collection from crowd sourcing platforms. Running data pipelines and load data from cosmos and other data sources. Perform data analysis for Bing Answers Team. Data gathering and collections will be performed weekly. The results will be reported back and any issues found will be logged as bugs in VSO. Running modules on Aether for data pipeline each week. In the case of pipeline having issue, address the issue, rerun the scripts and backfill the data. Computing relevance metrics, root cause analysis on metric value changes, updating and maintaining dashboard, automation of such process. Monitoring DSATs, performing one off fixes.\nIt is okay if the candidates does not know these tools. The manager is basically looking for candidates with good programming skills, data science\/collection interest and background with background in crowdsourcing + search engine teams e.g. Yandex, Toloka a plus.\n1. C# experience with 1-2 years experience, must have good coding skills\n2. Strong Problem solving skills\n3. Will work on metrics tracking, collaboration and graphics.",
+        "user": "U2VG2K6KU",
+        "ts": "1601908484.026100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "b06ed61f19c9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-07-01\/206532149987_b06ed61f19c9982767aa_72.jpg",
+            "first_name": "Viacheslav",
+            "real_name": "Viacheslav Kukushkin",
+            "display_name": "vy.kukushkin",
+            "team": "T040HKJE3",
+            "name": "vy.kukushkin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ktk1F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Мопед в соседнюю команду, но я еще сам не до конца обжился, поэтому jobs_hr.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "windows"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Microsoft, Bing Core Team, Answers & Segments department\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Data Engineer, C# (сорри)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Локация: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "remote",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "удаленка (ИП)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "$3500-5500 \/ mo\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Проект: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "в Bing пилим фактовый ответ. Это когда пользователь задает в поисковик запрос, а ему показывают не просто портянку ссылок, но и собственно ответ \/ нужное определение \/ ту информацию, которую пользователь хочет узнать. На текущей стадии решаем эту задачу оффлайн: выгрузить список наиболее популярных запросов из логов, отобрать (прогнать через ручку с готовой ML-моделью) те запросы, на которые нужно ответить, залить их в MTurk \/ Толоку \/ UHRS (внутренний инструмент для краудсорсинга), выгрузить ответы, положить в табличку во внутренней MR-системе, смерджить с предыдущими ответами, автоматизировать все это, настроить метрики, алерты, помогать пользователям этих данных (например, фиксить ошибки, когда в ответы пролез стьюпид и его надо срочно убрать).\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Стек: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "C# (сорри, это MS)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "внутренние инструменты (UHRS == Толока, Aether == Нирвана, Cosmos == Map-Reduce, SCOPE == SQL-like язык поверх MR)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "общий клей - python \/ bash \/powershell \/ younameit"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ИП"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "английский на нормальном уровне, моего B2 хватает (команда распределенная по миру, все общение реально на английском)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "пересечение по рабочим часам с Сиэтлом (UTC-7). Мне хватает 3 часа пересечения с 19 до 22"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "общий опыт DE, понимание, как лучше из bash и существующих систем накодить архитектуру пайплайна данных"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "C# 1-2 года опыта"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Здорово, если:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "есть опыт с краудсорсингом \/ в поиске (поэтому яндексоидам мб будет проще)"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Нюансы:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "оплата за отработанные дни. Т.е. отпуска, больничные, налоги и все остальное - за свой счет. По моим оценкам, это отнимает где-то 20% зарплаты (6-7% налог, 10% - отложения на отпуск, 3% - ведение ИП, счет в банке, комиссии, оплата онлайн-бухгалтерии и т.д.)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Это аутстафф, контракт заключается с фирмой-прокладкой (HiTechTalents)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ноутбук тоже свой, но он будет подключен к AD \/ контролироваться СБ. Вроде поддерживаются Win + Mac, но не уверен, врать не буду (мне Win-ноута достаточно)."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Контакты: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Рекрутер: "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/www.linkedin.com\/in\/emma-zhang-9005b7173\/"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "можно через меня резюме заслать, мне дадут на пиво. Ну и вообще, спрашивайте, чем смогу, помогу"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Описание от рекрутера",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (не очень внятное, но это my shame):\n\nProviding engineering resources to perform data gathering and collection from crowd sourcing platforms. Running data pipelines and load data from cosmos and other data sources. Perform data analysis for Bing Answers Team. Data gathering and collections will be performed weekly. The results will be reported back and any issues found will be logged as bugs in VSO. Running modules on Aether for data pipeline each week. In the case of pipeline having issue, address the issue, rerun the scripts and backfill the data. Computing relevance metrics, root cause analysis on metric value changes, updating and maintaining dashboard, automation of such process. Monitoring DSATs, performing one off fixes.\nIt is okay if the candidates does not know these tools. The manager is basically looking for candidates with good programming skills, data science\/collection interest and background with background in crowdsourcing + search engine teams e.g. Yandex, Toloka a plus.\n1. C# experience with 1-2 years experience, must have good coding skills\n2. Strong Problem solving skills\n3. Will work on metrics tracking, collaboration and graphics."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601908484.026100",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1601930819.033700",
+        "reply_users": [
+            "UA2Q13FQF",
+            "U8PMZ6397"
+        ],
+        "replies": [
+            {
+                "user": "UA2Q13FQF",
+                "ts": "1601925175.032900"
+            },
+            {
+                "user": "U8PMZ6397",
+                "ts": "1601930819.033700"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "eww",
+                "users": [
+                    "U8YKKKR25",
+                    "UF5E26Z28",
+                    "U07159GKF",
+                    "U6GHF30CV",
+                    "U7N4E8GBF",
+                    "U7ZCEDTEV",
+                    "U2F68DB26",
+                    "UTMD85CJZ",
+                    "ULFB41K0R",
+                    "U3K7PNTML",
+                    "U012M724BLN",
+                    "UJ2N4SVBJ",
+                    "U6NT2E2ES",
+                    "U2WQYL1TP"
+                ],
+                "count": 14
+            },
+            {
+                "name": "moneys",
+                "users": [
+                    "U8YKKKR25",
+                    "UDDJ1A4CA"
+                ],
+                "count": 2
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U8PMZ6397",
+                    "U2WQYL1TP"
+                ],
+                "count": 2
+            },
+            {
+                "name": "csharp",
+                "users": [
+                    "UUQ6R4PJR",
+                    "U2WQYL1TP"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "134d9f0f-fd18-4dc8-a588-8d452888550f",
+        "type": "message",
+        "text": "Компания *<http:\/\/aidata.me|aidata.me> (DMP платформа для работы с данными пользователей)* middle аналитика c желанием вырасти до руководителя отдела аналитики.\n\nВилка 150-200 тр на руки по договоренности.\nОфис в Москве.\nТребуемый опыт работы: 1–3 года\n\n*Основные задачи:*\n• Взаимодействие с командой разработчиков, участие в создании и развитии продуктов компании с использованием больших данных и Data Science;\n• Анализ больших объемов структурированных и неструктурированных данных, организация сбора и обработки данных из различных источников;\n• Коммуникация с заказчиками, работа с клиентскими запросами (формирование выборки данных, исследования аудиторий, построение кастомных ML-моделей);\n• Разработка аналитических отчетов в Tableau \/ Power BI;\n• Написание запросов (сбор, загрузка, перемещение, преобразование данных), построение отчетов, ad-hoc выборок в стеке технологий Hadoop (HDFS, Spark SQL, Hive, Hue);\n• Создание и внедрение моделей машинного обучения;\n• Реализация Text Mining алгоритмов.\n*Требования:*\n• Высшее техническое образование;\n• Фундаментальные знания в области математики, теории вероятности, мат. статистики;\n• Понимание алгоритмов машинного обучения, статистического анализа;\n• Опыт работы с данными, используя инструменты Python: pandas, numpy, scikit-learn, matplotlib;\n• Умение работать с реляционными БД;\n• Опыт работы в команде и со средствами командной работы (Jira, Wiki, Git и т.д.);\n• Опыт работы в Linux и Bash;\n• Базовый уровень английского языка.\n*Дополнительным плюсом будет:*\n• Понимание парадигмы Map-Reduce, работа с Hive, Spark;\n• Умение визуализировать полученные результаты анализа;\n• Опыт работы аналитиком \/ Data Scientist (похожий опыт, с применением вышеуказанных технологий);\n• Успехи в соревнованиях по data mining будет плюсом (например, Kaggle).\n*Готовы предложить:*\n• уютный офис с фруктами, пуфиками, зонами отдыха и пятничными вечеринками;\n• офис в 10 минутах от м. Тульская;\n• гибкое начало рабочего дня (можно приходить в офис с 9 до 12);\n• возможность 1-2 дня в неделю работать удаленно;\n• официальное оформление, с отпусками и больничными;\n• ДМС после испытательного срока;\n• английский в офисе;\n• много крутых обучающих мероприятий, в том числе наши собственные митапы, участие в международных конференциях, компенсация непрофильного обучения и необходимой литературы;\n• дружелюбная проактивная команда и дух стартапа в стабильной международной компании.\nКонтакт: <mailto:a.gasparyan@aitarget.com|a.gasparyan@aitarget.com> Аревик (это девушка, если что)",
+        "user": "U94E07CSE",
+        "ts": "1601918061.029400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g5d0e7adf42c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e85d0e7adf42c37aab3e44db2a12d7b7.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "Ayrana",
+            "real_name": "Ayrana Mongush",
+            "display_name": "aira_mo",
+            "team": "T040HKJE3",
+            "name": "ayrana.mongush",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U94E07CSE",
+            "ts": "1601918117.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K04Zc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Компания "
+                            },
+                            {
+                                "type": "text",
+                                "text": "aidata.me (DMP платформа для работы с данными пользователей)",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " middle аналитика c желанием вырасти до руководителя отдела аналитики.\n\nВилка 150-200 тр на руки по договоренности.\nОфис в Москве.\nТребуемый опыт работы: 1–3 года\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Основные задачи:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Взаимодействие с командой разработчиков, участие в создании и развитии продуктов компании с использованием больших данных и Data Science;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Анализ больших объемов структурированных и неструктурированных данных, организация сбора и обработки данных из различных источников;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Коммуникация с заказчиками, работа с клиентскими запросами (формирование выборки данных, исследования аудиторий, построение кастомных ML-моделей);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разработка аналитических отчетов в Tableau \/ Power BI;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Написание запросов (сбор, загрузка, перемещение, преобразование данных), построение отчетов, ad-hoc выборок в стеке технологий Hadoop (HDFS, Spark SQL, Hive, Hue);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Создание и внедрение моделей машинного обучения;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Реализация Text Mining алгоритмов."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Высшее техническое образование;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Фундаментальные знания в области математики, теории вероятности, мат. статистики;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Понимание алгоритмов машинного обучения, статистического анализа;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с данными, используя инструменты Python: pandas, numpy, scikit-learn, matplotlib;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Умение работать с реляционными БД;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы в команде и со средствами командной работы (Jira, Wiki, Git и т.д.);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы в Linux и Bash;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Базовый уровень английского языка."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Дополнительным плюсом будет:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Понимание парадигмы Map-Reduce, работа с Hive, Spark;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Умение визуализировать полученные результаты анализа;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы аналитиком \/ Data Scientist (похожий опыт, с применением вышеуказанных технологий);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Успехи в соревнованиях по data mining будет плюсом (например, Kaggle)."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Готовы предложить:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "уютный офис с фруктами, пуфиками, зонами отдыха и пятничными вечеринками;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "офис в 10 минутах от м. Тульская;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "гибкое начало рабочего дня (можно приходить в офис с 9 до 12);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "возможность 1-2 дня в неделю работать удаленно;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "официальное оформление, с отпусками и больничными;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ДМС после испытательного срока;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "английский в офисе;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "много крутых обучающих мероприятий, в том числе наши собственные митапы, участие в международных конференциях, компенсация непрофильного обучения и необходимой литературы;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "дружелюбная проактивная команда и дух стартапа в стабильной международной компании."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nКонтакт: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:a.gasparyan@aitarget.com",
+                                "text": "a.gasparyan@aitarget.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Аревик (это девушка, если что)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601918061.029400",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1601998756.039100",
+        "reply_users": [
+            "U94E07CSE",
+            "U8HTMTGNQ"
+        ],
+        "replies": [
+            {
+                "user": "U94E07CSE",
+                "ts": "1601923697.032400"
+            },
+            {
+                "user": "U8HTMTGNQ",
+                "ts": "1601972484.037900"
+            },
+            {
+                "user": "U94E07CSE",
+                "ts": "1601998756.039100"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0K47J3HR",
+                    "U9M4BGEL8",
+                    "UKQTPE877",
+                    "UEXRV8SNT",
+                    "U44GGDWBV",
+                    "UD8FCR34M",
+                    "U4H9J8DSB"
+                ],
+                "count": 7
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "UGQS4582J",
+                    "U01113DLJAE"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "D2B7F9A9-A01D-4A28-92D7-49E6B3C1AC44",
+        "type": "message",
+        "text": "Работала в этой команде, все, что касается культуры компании — тру, могу ответить на какие-нибудь вопросы) а то тут ставят лапшу мне под постом :с",
+        "user": "U94E07CSE",
+        "ts": "1601923697.032400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g5d0e7adf42c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e85d0e7adf42c37aab3e44db2a12d7b7.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-72.png",
+            "first_name": "Ayrana",
+            "real_name": "Ayrana Mongush",
+            "display_name": "aira_mo",
+            "team": "T040HKJE3",
+            "name": "ayrana.mongush",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YsJTh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Работала в этой команде, все, что касается культуры компании — тру, могу ответить на какие-нибудь вопросы) а то тут ставят лапшу мне под постом :с"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601918061.029400",
+        "parent_user_id": "U94E07CSE",
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "UQ9UCJT0T",
+                    "UFTANH6VC"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5f5787c7-6a37-4bd7-8fc6-d3f7916b830b",
+        "type": "message",
+        "text": "Вакансия так себе, тем более, что такие внештатные команды сокращают в первую очередь. Но зачем извиняться за C#? Он всяко получше Питона будет в продакшене",
+        "user": "UA2Q13FQF",
+        "ts": "1601925175.032900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g23c21f91ab1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/7f23c21f91ab1379c2c4087daef0c774.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Sergey",
+            "real_name": "Sergey Nuzhny",
+            "display_name": "Nuzhny007",
+            "team": "T040HKJE3",
+            "name": "nuzhny",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "inOm=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Вакансия так себе, тем более, что такие внештатные команды сокращают в первую очередь. Но зачем извиняться за C#? Он всяко получше Питона будет в продакшене"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601908484.026100",
+        "parent_user_id": "U2VG2K6KU",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U8PMZ6397",
+                    "UL8LSUADS",
+                    "UK181SL1H",
+                    "U9HSZRDP1",
+                    "UQ9UCJT0T",
+                    "U061WBASK",
+                    "U4C31J830",
+                    "UDSC91AH1"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "client_msg_id": "50F58EFA-2B2F-49CD-B1E6-2BBCF4348115",
+        "type": "message",
+        "text": "Нет ничего плохого в C#. Не дискредитируйте вакансию )))",
+        "user": "U8PMZ6397",
+        "ts": "1601930819.033700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "2f3e034ec3d0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-05-25\/371592359495_2f3e034ec3d05c371a2b_72.jpg",
+            "first_name": "Kostyantyn",
+            "real_name": "Kostyantyn Kravchenko",
+            "display_name": "kcostya",
+            "team": "T040HKJE3",
+            "name": "kcostya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oUVjA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Нет ничего плохого в C#. Не дискредитируйте вакансию )))"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601908484.026100",
+        "parent_user_id": "U2VG2K6KU",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UDSC91AH1"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

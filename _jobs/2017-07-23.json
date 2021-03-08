@@ -1,0 +1,390 @@
+[
+    {
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1500800325.664366",
+        "user": "U4BUGMBEF",
+        "text": "<@U4BUGMBEF> has left the channel"
+    },
+    {
+        "type": "message",
+        "text": "если найдете за 30 на полную ставку в Питере - покажите счастливчика. думаю, все сообщество с интересом посмотрит на это чудо :slightly_smiling_face:",
+        "user": "U2TNYDLRL",
+        "ts": "1500820660.952068",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f9ae02f23e05",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-12-27\/512151376420_f9ae02f23e05ba1faf4b_72.png",
+            "first_name": "Andrey",
+            "real_name": "Andrey Lukashevich",
+            "display_name": "virusandy",
+            "team": "T040HKJE3",
+            "name": "virusandy",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1500637544.099735",
+        "parent_user_id": "U64NDBVJR"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "text": "<@U3XDWVD3P> pinned a message to this channel.",
+        "user": "U3XDWVD3P",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[July 21st, 2017 5:35 AM] ermakovpetr: Нужен крутой *BigData Developer\/Engineer* в команду *Аналитики и Машинного обучения* в *<http:\/\/Mail.Ru|Mail.Ru>* отдел *Юла* (Москва)\n\n*Обязательные* знания: Spark (в том числе Spark Streaming), python (и\/или) scala, SQL, Kafka, Hive. В том числе знать как работает Hadoop и почему он ~сука~ падает.\nЧто уже есть: несколько workflow работы с данными: кафка-&gt;спарк-стриминг-&gt;хайв, кафка-&gt;флюм-&gt;хдфс, монго-&gt;хайв. Airflow для создания агрегатов и различных метрик, Superset для отображения всего этого.\nУ нас HDP последней версии, spark 2.1.1\nКруто, но не обязательно, если кандидат хорошо знает Cassandra и Druid. В планах первое выпилить, а второе внедрить.\n\n*Основные задачи*:\n- автоматизация задач которые нафигачил аналитик (по подготовленному например sql для хайва сделать автоматический дашборд)\n- подключение новых источников данных - написания для них ETL в hive\n- внедрение новых покемонов (но не ради хайпа, а ради обоснованного улучшения\/ускорения\/нового функционала)\n- перенос вычисление фичей для ML и некоторых простых моделей ML на кластер\n\nО нас: мы очень крутые, быстро растем, быстро отъедаем рынок, а наши программисты быстро фигачат новый функционал.\nА так - все плюшки царства башни <http:\/\/Mail.Ru|Mail.Ru>, все их знают (техническая библиотека, фрешбар, спортзал, новое железо, бутеры с колбасой, печеньки, фрукты и тп)\nТак же у нас проходит куча открытых и закрытых митапов (например недавно Сергей Николенко <@U04AR6WF0> делал для всех желающих сотрудников МэйлРу курс по DL)\nВилка: 130-180 до вычета налогов, но для кандидата мечты возможно увеличение верхней планки.\nПисать - мне <@U04CH4QBD>. Если есть подходящий знакомый не в слаке - давайте мою почту <mailto:p.ermakov@corp.mail.ru|p.ermakov@corp.mail.ru>",
+                "ts": "1500640502.962606",
+                "author_id": "U04CH4QBD",
+                "author_subname": "Petr Ermakov",
+                "channel_id": "C04DA5FUF",
+                "channel_name": "_jobs",
+                "is_msg_unfurl": true,
+                "is_thread_root_unfurl": true,
+                "text": "Нужен крутой *BigData Developer\/Engineer* в команду *Аналитики и Машинного обучения* в *<http:\/\/Mail.Ru|Mail.Ru>* отдел *Юла* (Москва)\n\n*Обязательные* знания: Spark (в том числе Spark Streaming), python (и\/или) scala, SQL, Kafka, Hive. В том числе знать как работает Hadoop и почему он ~сука~ падает.\nЧто уже есть: несколько workflow работы с данными: кафка-&gt;спарк-стриминг-&gt;хайв, кафка-&gt;флюм-&gt;хдфс, монго-&gt;хайв. Airflow для создания агрегатов и различных метрик, Superset для отображения всего этого.\nУ нас HDP последней версии, spark 2.1.1\nКруто, но не обязательно, если кандидат хорошо знает Cassandra и Druid. В планах первое выпилить, а второе внедрить.\n\n*Основные задачи*:\n- автоматизация задач которые нафигачил аналитик (по подготовленному например sql для хайва сделать автоматический дашборд)\n- подключение новых источников данных - написания для них ETL в hive\n- внедрение новых покемонов (но не ради хайпа, а ради обоснованного улучшения\/ускорения\/нового функционала)\n- перенос вычисление фичей для ML и некоторых простых моделей ML на кластер\n\nО нас: мы очень крутые, быстро растем, быстро отъедаем рынок, а наши программисты быстро фигачат новый функционал.\nА так - все плюшки царства башни <http:\/\/Mail.Ru|Mail.Ru>, все их знают (техническая библиотека, фрешбар, спортзал, новое железо, бутеры с колбасой, печеньки, фрукты и тп)\nТак же у нас проходит куча открытых и закрытых митапов (например недавно Сергей Николенко <@U04AR6WF0> делал для всех желающих сотрудников МэйлРу курс по DL)\nВилка: 130-180 до вычета налогов, но для кандидата мечты возможно увеличение верхней планки.\nПисать - мне <@U04CH4QBD>. Если есть подходящий знакомый не в слаке - давайте мою почту <mailto:p.ermakov@corp.mail.ru|p.ermakov@corp.mail.ru>",
+                "author_name": "Petr Ermakov",
+                "author_link": "https:\/\/opendatascience.slack.com\/team\/U04CH4QBD",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-08-23\/422060918228_a7db9158dfe443a574a6_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "from_hidden_wksp": false
+            }
+        ],
+        "ts": "1500821295.000394"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500831336.810252",
+        "user": "U6DHS0SMV",
+        "text": "<@U6DHS0SMV> has joined the channel",
+        "reactions": [
+            {
+                "name": "fire",
+                "users": [
+                    "U2N853RGF",
+                    "U0AL6V5TN"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "<@U3XDWVD3P> А запинили то зачем?",
+        "user": "U34Q3KU8H",
+        "ts": "1500832711.918790",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3cd7afe2fdb1",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-03-14\/154186989044_3cd7afe2fdb14eb8125e_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Iglovikov",
+            "display_name": "ternaus",
+            "team": "T040HKJE3",
+            "name": "ternaus",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1500640502.962606",
+        "parent_user_id": "U04CH4QBD"
+    },
+    {
+        "type": "message",
+        "text": "<@U34Q3KU8H> мобильный клиент сглючил, похоже. отпинил, сорри",
+        "user": "U3XDWVD3P",
+        "ts": "1500836521.243403",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "db37238392c8",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-06-02\/191774634930_db37238392c81735770c_72.jpg",
+            "first_name": "Sasha",
+            "real_name": "Sasha",
+            "display_name": "sashakorekov",
+            "team": "T040HKJE3",
+            "name": "kohrah",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1500640502.962606",
+        "parent_user_id": "U04CH4QBD"
+    },
+    {
+        "type": "message",
+        "text": "Нужен Big Data Developer \/ Engineer в Home Credit Bank (Москва)\n\nНужно знать: Java, Scala (последнее в приоритете), SQL, Bash, Понимать как работает Hadoop, YARN, HDFS, Spark, Kafka, NiFi, Flume, Hive, Hbase, ну и просто знать, что есть всякие Ignite, Cassandra (мы их не используем пока)\n\nЗадач много, в основном будете писать код на Scala, Hive, работать со Spark Streaming, возможно будут задачки по ML из отдела по анализу данных и машинного обучения.\n\nВилка 100-200 после вычета, в зависимости от опыта + Ежеквартальные премии 12%\nНу и терраса на седьмом этаже\nОфис м. Белорусская\n\nЕсли интересно присылайте резюме на <mailto:Petr.Fedosov@homecredit.ru|Petr.Fedosov@homecredit.ru>",
+        "user": "U1J5L3NDP",
+        "ts": "1500837262.302976",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "061a443676d7",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-26\/957969934610_061a443676d74b6656ba_72.jpg",
+            "first_name": "Petr",
+            "real_name": "Petr Fedosov",
+            "display_name": "peterfedosov",
+            "team": "T040HKJE3",
+            "name": "peterfedosov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1J5L3NDP",
+            "ts": "1500837417.000000"
+        },
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U3172NP4Y",
+                    "U3XDWVD3P",
+                    "U09JEC7V0",
+                    "U041SH27M",
+                    "U1LHE347N",
+                    "U27SUBTB9",
+                    "U2AJE72Q6",
+                    "U4DT019M2",
+                    "U1Z40FGQ6"
+                ],
+                "count": 9
+            },
+            {
+                "name": "homecreditbank",
+                "users": [
+                    "U3TF60E65",
+                    "U27SUBTB9",
+                    "U2AJE72Q6",
+                    "U3XE6N4E4",
+                    "U09JEC7V0",
+                    "U1VBAF9K2"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500843152.784186",
+        "user": "U6CH8KUDA",
+        "text": "<@U6CH8KUDA> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500843161.784859",
+        "user": "U6CKF1U3X",
+        "text": "<@U6CKF1U3X> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500843252.791976",
+        "user": "U6CFJGW3C",
+        "text": "<@U6CFJGW3C> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500843351.799693",
+        "user": "U6CDENJLT",
+        "text": "<@U6CDENJLT> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500843373.801340",
+        "user": "U6DCCFFPY",
+        "text": "<@U6DCCFFPY> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500843461.808047",
+        "user": "U6CFJURSN",
+        "text": "<@U6CFJURSN> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500843572.816565",
+        "user": "U6CFK5GNN",
+        "text": "<@U6CFK5GNN> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500843592.818052",
+        "user": "U6BV989MF",
+        "text": "<@U6BV989MF> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500843662.824772",
+        "user": "U6CFKCT7C",
+        "text": "<@U6CFKCT7C> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500843707.828456",
+        "user": "U6DCD6XUN",
+        "text": "<@U6DCD6XUN> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500843711.828759",
+        "user": "U6DJGEV8X",
+        "text": "<@U6DJGEV8X> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500844072.857230",
+        "user": "U6CHAEXRA",
+        "text": "<@U6CHAEXRA> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500846020.003902",
+        "user": "U6DCHGZM4",
+        "text": "<@U6DCHGZM4> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500846178.015420",
+        "user": "U6CFQ3UN6",
+        "text": "<@U6CFQ3UN6> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500846568.045431",
+        "user": "U6C00SBT3",
+        "text": "<@U6C00SBT3> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500847415.109787",
+        "user": "U6BRZBJ72",
+        "text": "<@U6BRZBJ72> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500847791.138114",
+        "user": "U6CKPN7C5",
+        "text": "<@U6CKPN7C5> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500848650.200283",
+        "user": "U6DJRJWF9",
+        "text": "<@U6DJRJWF9> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500848937.221646",
+        "user": "U6CFV4Z26",
+        "text": "<@U6CFV4Z26> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500849850.292660",
+        "user": "U6CHM2EBE",
+        "text": "<@U6CHM2EBE> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500862463.675688",
+        "user": "U6CLQSNMB",
+        "text": "<@U6CLQSNMB> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500869541.678491",
+        "user": "U6CFAQQ3V",
+        "text": "<@U6CFAQQ3V> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500871267.915918",
+        "user": "U6CK9TQTE",
+        "text": "<@U6CK9TQTE> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500871292.919256",
+        "user": "U6BTSM3K2",
+        "text": "<@U6BTSM3K2> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500871401.934368",
+        "user": "U6DEDNSLW",
+        "text": "<@U6DEDNSLW> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500872336.061101",
+        "user": "U6CMK962Z",
+        "text": "<@U6CMK962Z> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500873766.263279",
+        "user": "U6CMPBP61",
+        "text": "<@U6CMPBP61> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500876481.688336",
+        "user": "U6CKR33CL",
+        "text": "<@U6CKR33CL> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500876596.707943",
+        "user": "U6CFX3W9H",
+        "text": "<@U6CFX3W9H> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500878518.079569",
+        "user": "U6BUF2J56",
+        "text": "<@U6BUF2J56> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1500879329.254718",
+        "user": "U6CL1JPBN",
+        "text": "<@U6CL1JPBN> has joined the channel"
+    }
+]

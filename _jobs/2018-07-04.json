@@ -1,0 +1,2730 @@
+[
+    {
+        "client_msg_id": "9ecd6b18-e115-4209-aaf9-b45c22400bf0",
+        "type": "message",
+        "text": "Спарк вовсе не является чем-то сложным, его можно использовать даже без кластера или как standalone кластер, но зато у него есть возможность принципиально и иногда просто, а иногда сложнее, но решить, почти любую проблему, которая стоит перед аналитиком или de.\n\nВертика это просто база данных, на ней не сделаешь например стриминг, батчинг, шину данных, распределенный ml и так далее.\nНаписание своей библиотеки вместо готовой, используя аргумент, из пушки по воробьям, часто является красным флагом.",
+        "user": "U1Q0B8KMJ",
+        "ts": "1530687713.000140",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d81e37e90cdb",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-29\/1416917536064_d81e37e90cdbdcacb2fd_72.jpg",
+            "first_name": "Denis",
+            "real_name": "Denis Gabaydulin",
+            "display_name": "sherman",
+            "team": "T040HKJE3",
+            "name": "sherman",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1Q0B8KMJ",
+            "ts": "1530689006.000000"
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "edd7b022-1752-404b-926e-73471bc733c1",
+        "type": "message",
+        "text": "Я слышал в гугл на разраба брали чела с годом опыта питона и без пхд :troll: ",
+        "user": "U2LGQMC4D",
+        "ts": "1530688400.000201",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ffc723117cb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-14\/1345601413783_ffc723117cb385805a6c_72.jpg",
+            "first_name": "Valeriy",
+            "real_name": "Valeriy Babushkin",
+            "display_name": "venheads",
+            "team": "T040HKJE3",
+            "name": "venheads",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "trollface",
+                "users": [
+                    "U7UP85B3J",
+                    "U48A8L25N",
+                    "U6PNWSJL8",
+                    "U1QN13664",
+                    "UBGJQC3GU",
+                    "U1FLG6YR1",
+                    "U6YV1UAS1",
+                    "UA36T21TL"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "client_msg_id": "51C2F6AE-C16E-4006-8A11-4A1F69EE800A",
+        "type": "message",
+        "text": "Не путай хуй с пальцем. Тебя брали не на ДС и не в R&amp;D. ",
+        "user": "U5FUU47GA",
+        "ts": "1530688682.000267",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "64ea41e6c5f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-27\/608920976338_64ea41e6c5f958d27292_72.jpg",
+            "first_name": "Vadim",
+            "real_name": "Vadim Yermakov",
+            "display_name": "Lasteg",
+            "team": "T040HKJE3",
+            "name": "lasteg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U59CPL6ES"
+                ],
+                "count": 1
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U59CPL6ES"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "23CD1304-70CF-426F-9463-3A28EAED65DD",
+        "type": "message",
+        "text": "<@U1Q0B8KMJ> давай начнем с того, что никто Вертикой Спарк не заменяет. Вертика - это аналитическое хранилище и никак не связанно со спарком. Спарк, как я сказал, для процессинга данных и ML в связке. В результате мы имеем жесткий лок на способ доставки моделей и их использование. Еще из-за спарка тут возник лок на хадуповский стэк, который лишний. Смысл в том, чтобы не решать любую проблему Спарком и лочить себя в его ограничениях. «Когда у тебя в руках молоток, все задачи кажутся гвоздями.» как раз про это, а я против. Считаю, что проблему нужно решать наиболее удобными, простыми, элегантными и масштабируемыми решениями, а вот про спарк не всегда такое можно сказать. \nПлюс не стоить лукавить, говоря, что спарк не сложный. У него очень много недостатков, но на них можно закрыть глаза на большом масштабе, ибо конкурентов адекватных нет, но у нас не та ситуация. \nНу а спарк на одной ноде, это как купить ферари для поездок по деревне.\nP. S. Никто свой фреймворк писать не собирается. Все придумано до нас",
+        "user": "U1FLG6YR1",
+        "ts": "1530689273.000177",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c022abb8518",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-12\/1235020966997_6c022abb85181ea6cab0_72.png",
+            "first_name": "Адам",
+            "real_name": "Адам Елдаров",
+            "display_name": "hushpar",
+            "team": "T040HKJE3",
+            "name": "hushpar",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1FLG6YR1",
+            "ts": "1530689321.000000"
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "f17f04d2-0b8b-4f82-ae58-b56f4bdf2d87",
+        "type": "message",
+        "text": "Я жил 2.5 года в  городе в 50 км от Бонна c населением раза в 3 меньше на 1700 евро с женой. За квартиру платили 500 евро и путешествовали  по Европе и в Россию гоняли на праздники. Понятно что копить не получится, но если воспринимать это как инвестиции в будущее, то вполне ок",
+        "user": "U4WMPCB7W",
+        "ts": "1530689280.000014",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "251a8cee80ad",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-04-10\/166921806290_251a8cee80ad6c4224cd_72.jpg",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Vasilev",
+            "display_name": "evgenii.vasilev",
+            "team": "T040HKJE3",
+            "name": "evgenii.vasilev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U4WMPCB7W",
+            "ts": "1530689341.000000"
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U53E5MFNU",
+                    "UAH9H0R17",
+                    "U9ZU1CYUD"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c367ef82-78a5-4f07-9f05-ede24a94c8cb",
+        "type": "message",
+        "text": "Моя история в запиненных и получение магистра + PhD в Европке –– это были лучшие мои годы. \nЭто лучшие годы как в плане самореализации (пруха от науки), так и путешествий.",
+        "user": "U5FUU47GA",
+        "ts": "1530689352.000183",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "64ea41e6c5f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-27\/608920976338_64ea41e6c5f958d27292_72.jpg",
+            "first_name": "Vadim",
+            "real_name": "Vadim Yermakov",
+            "display_name": "Lasteg",
+            "team": "T040HKJE3",
+            "name": "lasteg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "DA33EDE7-36E1-4DD4-AFCD-D470AEB11D15",
+        "type": "message",
+        "text": "Ну и возможности распределенного ML - это круто, но не нужно, ибо у нас нет необходимости в этом, а качество ML на спарке оставляет желать лучшего",
+        "user": "U1FLG6YR1",
+        "ts": "1530689517.000063",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c022abb8518",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-12\/1235020966997_6c022abb85181ea6cab0_72.png",
+            "first_name": "Адам",
+            "real_name": "Адам Елдаров",
+            "display_name": "hushpar",
+            "team": "T040HKJE3",
+            "name": "hushpar",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "1ba71eca-501d-4cff-bdb5-f83790432964",
+        "type": "message",
+        "text": "<@U2N853RGF> значит, у тебя был неудачный опыт, или ты ненастоящий ученый ) \n\nНо если без шуток, значит трать время чуть более качественно: объясняй, что, возможно, именно в этом времянном срезе PhD в ML, возможно, не имеет смысла.\nОднако, никто не может сказать, что будет с индустрией и рынком труда через 5 лет.\n\nКроме того, этот чат превратился в абсолютно денежный кусок говна, где всё делается ради денег. \nПо моему опыту, в 99% случаев PhD не делают ради денег. Вот этот 1% ты можешь отговаривать, а остальные 99% идут в ПхД по другим причинам и за другими плюшками. Сам жыж должен помнить, как тебя перло от исследований, или не было такого? \n\nКроме того, ты собрал вокруг себя “свиту” ребят зашибающий большие деньги на хайпе DS, у которых, возможно, есть гештальт по поводу PhD и они тебя усиленно плюсуют. Тебе от этого приятно, или всё же закрадывается мысль, что это немного неправильно?\nТ.е. фактически тебя могут здесь начитаться неокрепшие умы (повадиться на плюсики людей из индустрии без ПхД) и решить не идти в PhD в Бонее, тебе то что с того?",
+        "user": "U5FUU47GA",
+        "ts": "1530689810.000147",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "64ea41e6c5f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-27\/608920976338_64ea41e6c5f958d27292_72.jpg",
+            "first_name": "Vadim",
+            "real_name": "Vadim Yermakov",
+            "display_name": "Lasteg",
+            "team": "T040HKJE3",
+            "name": "lasteg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U5FUU47GA",
+            "ts": "1530690377.000000"
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "bombanoolo",
+                "users": [
+                    "U049HDR2Z",
+                    "U09JEC7V0",
+                    "U07V1URT9",
+                    "U6PNWSJL8",
+                    "UAH9H0R17"
+                ],
+                "count": 5
+            },
+            {
+                "name": "not-sure-if",
+                "users": [
+                    "U2N853RGF",
+                    "U7SFPUVQF"
+                ],
+                "count": 2
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U7VUY1JG3"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cfcd81e5-03fd-4f6e-884c-99bc8a13797a",
+        "type": "message",
+        "text": "Что же это за простые, элегантные и масшабируемые решения?\nВопросы:\n* где хранить сырые данные, в каком формате?\n* какой тул использовать для анализа данных, чтобы в результате репорты или графики?\n* как сделать стриминг?\n* как сделать batching?\n* как сделать мониторинг и fault tolerence всего этого?",
+        "user": "U1Q0B8KMJ",
+        "ts": "1530689817.000292",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d81e37e90cdb",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-29\/1416917536064_d81e37e90cdbdcacb2fd_72.jpg",
+            "first_name": "Denis",
+            "real_name": "Denis Gabaydulin",
+            "display_name": "sherman",
+            "team": "T040HKJE3",
+            "name": "sherman",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1Q0B8KMJ",
+            "ts": "1530690289.000000"
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "bf72d1a8-9496-40fc-810d-9016f5885310",
+        "type": "message",
+        "text": "По-моему, ты или не выспался, или болел вчера за Колумбию :slightly_smiling_face: \n\nПодчеркну одну вещь: если тебе кажется, что лучшие твои годы в прошлом: в школе, универе, аспирантуре, у мамкиной сиськи, на тренировке с друзьями-подростками, в теплой кроватке рядом с задницей бывшей подружки, или еще где-то, это повод задуматься.\nЯ крайне советую стараться, чтобы на вопрос “когда у тебя лучшее время в жизни?” ответ был “вот прямо сейчас и есть лучшее из того что было! а самое лучшее еще впереди!”",
+        "user": "U2N853RGF",
+        "ts": "1530690799.000166",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U2N853RGF",
+            "ts": "1530691194.000000"
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "yeah-sure",
+                "users": [
+                    "U48A8L25N",
+                    "UBGJQC3GU",
+                    "U59CPL6ES"
+                ],
+                "count": 3
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U2LGQMC4D",
+                    "U07V1URT9",
+                    "U6PNWSJL8",
+                    "U59CPL6ES"
+                ],
+                "count": 4
+            },
+            {
+                "name": "jesus",
+                "users": [
+                    "U049HDR2Z",
+                    "U07V1URT9",
+                    "U6PNWSJL8",
+                    "U27HU84H4",
+                    "U9YKJ3ZMJ",
+                    "U5FUU47GA",
+                    "U1X3N6CMT",
+                    "U4DT019M2",
+                    "U66A98XEC",
+                    "UAH9H0R17",
+                    "U3QD81XDH"
+                ],
+                "count": 11
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "U27HU84H4",
+                    "U8GGBPGR3",
+                    "U4DT019M2"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1c67e656-5f80-4d89-82d9-86102a1fd8b9",
+        "type": "message",
+        "text": "Ой, зацепился за одну фразу, но не в этом суть. \nЛень словоанонизмом дальше заниматься.",
+        "user": "U5FUU47GA",
+        "ts": "1530691372.000083",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "64ea41e6c5f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-27\/608920976338_64ea41e6c5f958d27292_72.jpg",
+            "first_name": "Vadim",
+            "real_name": "Vadim Yermakov",
+            "display_name": "Lasteg",
+            "team": "T040HKJE3",
+            "name": "lasteg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "27a2df15-839f-4a78-8b1a-473128a15699",
+        "type": "message",
+        "text": "перегнул, аж жир из монитора потек",
+        "user": "U48A8L25N",
+        "ts": "1530691372.000183",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "80555db3b28e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-06-24\/202244047937_80555db3b28e977842fb_72.png",
+            "first_name": "Данияр",
+            "real_name": "Данияр Елеусизов",
+            "display_name": "daniyarel",
+            "team": "T040HKJE3",
+            "name": "daniyarel",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "264fe9f2-effc-4f96-bc83-dda3a112d621",
+        "type": "message",
+        "text": "Давай по пунктам:\n\n1. Где хранить сырые данные, в каком формате?\n- Эту проблему Спарк не решает, ибо он не система хранения данных.\nКак можно хранить данные? \n- Vertica (Якорная модель + Витрины) + S3(ORC\/Parquet)\n2. Какой тул использовать для анализа данных, чтобы в результате репорты или графики?\n- Это дико странные вопрос, ибо тоже не решается Спарком.\nКак можно решить проблему?\n- Tableau\/Redash\/Superset\n3. Как сделать стриминг? Kafka + микросервисы\n4. Как сделать batching? Kafka +\/ ETL + Airflow\/Luigi + микросервисы\n5. Как сделать мониторинг? \n- Prometheus + Consul + Grafana + ELK + Sentry + PagerDuty\/VictorOps\n- Эту проблему Спарк тоже не решает и спарк тоже нужно обвешивать мониторингом.\n6. Как fault tolerence всего этого?\nСпарк решает проблему тоже не лучшим образом, и нужно все обвешивать workflow менеджерами, которые будут ретраить джобы и прочее.\nКак можно решить? Системой оркестрации: Nomad\/K8S.\n\nСтоить отметить, что стриминг и батчинг Спарком решаются, но у нас происходит на них лок с костами на разработку и поддержку, и в моем случае, если происходит понимание, что неиспользование спарка - это велосипед, то мы легко можем его использовать, ибо спарк можно деплоить, как на Nomad, так и на K8S, так и дергать какой-нибудь EMR, не тратя деньги на свое железо. Только в отличии от жесткого лока на спарк + hadoop, мы не имеем костов на содержание этого добра, ограничений жизни в рамках этого стека (как в случае с Spark ML), а имеем инфраструктуру, которая может юзаться всей компанией не только для DE и ML, но и для всего остального. В результате компания экономит деньги, инженеры не тратят время на войну с JVM, а вместо того, чтобы думать, как GC, они думают, как люди, решаюшие бизнес проблемы",
+        "user": "U1FLG6YR1",
+        "ts": "1530692140.000210",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c022abb8518",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-12\/1235020966997_6c022abb85181ea6cab0_72.png",
+            "first_name": "Адам",
+            "real_name": "Адам Елдаров",
+            "display_name": "hushpar",
+            "team": "T040HKJE3",
+            "name": "hushpar",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1FLG6YR1",
+            "ts": "1530692973.000000"
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "b542df0c-712c-4c1a-9326-32800b8dc717",
+        "type": "message",
+        "text": "&gt; <@U2N853RGF> значит, у тебя был неудачный опыт, или ты ненастоящий ученый ) \n<@U5FUU47GA> У тебя какие-то идеалистические взгляды, но.... Можно вооружиться ими и задать вопрос: насколько правильно получить PhD по химии\/физике и уйти в DS? Где тут любовь к науке? Почему перебрался в хайповый DS и предал идеалы?",
+        "user": "U6PNWSJL8",
+        "ts": "1530692788.000068",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "db1077373e10",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-12\/239928388194_db1077373e10f970a44c_72.jpg",
+            "first_name": "Selim",
+            "real_name": "Selim Seferbekov",
+            "display_name": "selim_sef",
+            "team": "T040HKJE3",
+            "name": "selim_sef",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "U09JEC7V0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0dc24e21-f199-4d46-b82d-247a8dbbc140",
+        "type": "message",
+        "text": "<@U6PNWSJL8> ты всегда занимаешь позицию “атакующего” и я от неё немного устал. Уже не единожды отвечал на все твои словестные атаки, но ничего не меняется –– ты непереубеждаем, да и вообще, вести беседу в таком ключе бессмысленно.",
+        "user": "U5FUU47GA",
+        "ts": "1530692917.000221",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "64ea41e6c5f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-27\/608920976338_64ea41e6c5f958d27292_72.jpg",
+            "first_name": "Vadim",
+            "real_name": "Vadim Yermakov",
+            "display_name": "Lasteg",
+            "team": "T040HKJE3",
+            "name": "lasteg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U5FUU47GA",
+            "ts": "1530692964.000000"
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "1b54f822-5502-47e1-b141-dd8c76b7c654",
+        "type": "message",
+        "text": "все можно решить сражением до крови",
+        "user": "U2LGQMC4D",
+        "ts": "1530693091.000220",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ffc723117cb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-14\/1345601413783_ffc723117cb385805a6c_72.jpg",
+            "first_name": "Valeriy",
+            "real_name": "Valeriy Babushkin",
+            "display_name": "venheads",
+            "team": "T040HKJE3",
+            "name": "venheads",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "fork",
+                "users": [
+                    "U5FUU47GA",
+                    "U48A8L25N",
+                    "UAH9H0R17"
+                ],
+                "count": 3
+            },
+            {
+                "name": "hocho",
+                "users": [
+                    "U5FUU47GA",
+                    "U48A8L25N",
+                    "U2N853RGF",
+                    "U8GGBPGR3",
+                    "U66A98XEC",
+                    "UAH9H0R17"
+                ],
+                "count": 6
+            },
+            {
+                "name": "dva_stula",
+                "users": [
+                    "U48A8L25N"
+                ],
+                "count": 1
+            },
+            {
+                "name": "venheads",
+                "users": [
+                    "U48A8L25N",
+                    "U6PNWSJL8",
+                    "U2N853RGF",
+                    "U8GGBPGR3"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2F3DEC1D-B96C-4FF4-A927-2175137B44CE",
+        "type": "message",
+        "text": "Какое до крови? До первых слез же!",
+        "user": "U2N853RGF",
+        "ts": "1530693400.000222",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "kekeke",
+                "users": [
+                    "U09JEC7V0",
+                    "U48B3EN87",
+                    "U5FUU47GA",
+                    "U2LGQMC4D"
+                ],
+                "count": 4
+            },
+            {
+                "name": "true-story",
+                "users": [
+                    "U2T31R2QJ"
+                ],
+                "count": 1
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U8GGBPGR3",
+                    "U6Y8AK02Y"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "365d6bbe-d9eb-40e6-b582-b9180cf9eecb",
+        "type": "message",
+        "text": "слабак!",
+        "user": "U48A8L25N",
+        "ts": "1530693543.000140",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "80555db3b28e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-06-24\/202244047937_80555db3b28e977842fb_72.png",
+            "first_name": "Данияр",
+            "real_name": "Данияр Елеусизов",
+            "display_name": "daniyarel",
+            "team": "T040HKJE3",
+            "name": "daniyarel",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "3710fa77-9e00-4483-9dc1-45a6b68da08a",
+        "type": "message",
+        "text": "забоялся до крови",
+        "user": "U48A8L25N",
+        "ts": "1530693560.000002",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "80555db3b28e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-06-24\/202244047937_80555db3b28e977842fb_72.png",
+            "first_name": "Данияр",
+            "real_name": "Данияр Елеусизов",
+            "display_name": "daniyarel",
+            "team": "T040HKJE3",
+            "name": "daniyarel",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "4d4f3d34-14c2-4e56-a382-340ada20d446",
+        "type": "message",
+        "text": "<@UA7D8TN9F> \n&gt; Больше зп нам давать нельзя по закону\n<https:\/\/www.glassdoor.com\/Salaries\/germany-phd-student-salary-SRCH_IL.0,7_IN96_KO8,19.htm>",
+        "user": "U710D2PPX",
+        "ts": "1530694991.000090",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ce9e0718690f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-03-21\/333561279941_ce9e0718690f168f51a8_72.jpg",
+            "first_name": "Даниил",
+            "real_name": "Даниил Потапов",
+            "display_name": "sharthZ23",
+            "team": "T040HKJE3",
+            "name": "sharthz23",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Glassdoor",
+                "title": "Salary: PhD Student in Germany",
+                "title_link": "https:\/\/www.glassdoor.com\/Salaries\/germany-phd-student-salary-SRCH_IL.0,7_IN96_KO8,19.htm",
+                "text": "375 PhD Student Salaries in Germany provided anonymously by employees. What salary does a PhD Student earn in Germany?",
+                "fallback": "Glassdoor: Salary: PhD Student in Germany",
+                "image_url": "https:\/\/www.glassdoor.com\/app\/static\/img\/partners\/fb\/logo-1200x630.png?v=721f9cswl",
+                "from_url": "https:\/\/www.glassdoor.com\/Salaries\/germany-phd-student-salary-SRCH_IL.0,7_IN96_KO8,19.htm",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 37461,
+                "service_icon": "https:\/\/www.glassdoor.com\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/www.glassdoor.com\/Salaries\/germany-phd-student-salary-SRCH_IL.0,7_IN96_KO8,19.htm"
+            }
+        ],
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "9BD19D81-67A2-468F-8D85-17604FC0240E",
+        "type": "message",
+        "text": "<@U710D2PPX> институт - организация публичного сектора, в которой зп регламентируется TV-L. Если зп бы платила компания или частный исследовательский центр, то очевидно потолка нет.\n\nНу и да, TVL13 это 45900 в год pre-tax.",
+        "user": "UA7D8TN9F",
+        "ts": "1530695088.000088",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d660b0566d26",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-15\/523702536672_d660b0566d26a92df89d_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Tsitsulin",
+            "display_name": "xgfs",
+            "team": "T040HKJE3",
+            "name": "anton.tsitsulin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UA7D8TN9F",
+            "ts": "1530695170.000000"
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "3943135f-b447-44a8-a58e-555bd55e4219",
+        "type": "message",
+        "text": "&gt;Kafka + микросервисы\nСамописная либа1.\n\n&gt; Kafka +\/ ETL + Airflow\/Luigi + микросервисы\nОпять самописная либа2, но другая.\n\nПро тул анализа данных. Это вопрос про интеграцию опять же.\nЕсли надо будет работать не только с агрегированными данными, но и с сырыми, то надо будет искать что-то что умеет делать запросы к S3 и не spark.\n\nПоинт в том, что в spark уже предусмотрены все необходимые точки интеграции, где как правило надо только поднять\/настроить и получить сервис, писать не надо.\n* Kafka  batching\/streaming - это просто обычная spark job, не надо никаких микросервисов.\n* Мониторинг - все метрики которые есть в saprk сделаны через metrics (и туда можно добавить что угодно). Metrics же умеет выводится куда\/угодно.\n* Fault tolerance. В hadoop все есть из коробки (YARN умеет перезапускать джобы сам). Если тебе не нравится hadoop можно глянуть на mesos (но это уже посложнее). Если тебе нужна distributed fs для хранения сырых данных, то hadoop вполне ок потому что помимо fs дает еще планировщик и fault tolerance. Если используется EMR + S3 то там тоже есть fault tolerance который дружит со spark.\n* UI\/History server опять же.\n\nТо есть тебе придеться написать часть инфраструктры с ноля, потому что да spark не идеален, но многие проблемы интеграции, масштабирования и отказойстойчивости там решены.\nПодход понятен, сейчас у нас простые задачи, давайте не будем думать про то что будет потом. А потом будет красноглазие по ночам и написание костылей, потому что построить платформу приема и анализа данных это big deal.\nЯ не говорю что это невозможно, но часто это заканчивается тем, что в итоге будет зоопарк из костылей и подпорок, которые уже решены community, пусть даже и не очень элегантно.",
+        "user": "U1Q0B8KMJ",
+        "ts": "1530695378.000313",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d81e37e90cdb",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-29\/1416917536064_d81e37e90cdbdcacb2fd_72.jpg",
+            "first_name": "Denis",
+            "real_name": "Denis Gabaydulin",
+            "display_name": "sherman",
+            "team": "T040HKJE3",
+            "name": "sherman",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "8e390c0e-1c6d-4996-9901-31ad96eaa48d",
+        "type": "message",
+        "text": "<@U1Q0B8KMJ> чувак, я рад, что ты топишь за спарк и извратил мои слова, потому что, видимо, вообще не понимаешь о чем я пишу. И считаешь Luigi &amp; Co самописной либой, а спарк джоба, видимо, с неба свалится и ее писать не надо. Ты в любом случае будешь писать код. И даже со спарком ты будешь писать пайпланы на Luigi\/Airflow (можешь <@U0J1U64FK> спросить).\nВозможностей Yarn дико не хватает и их мало и годится он только для Hadoop. А мне нужно кучу сервисов в докерах еще оркестрировать.\nSpark UI это дикое фуфло для аналитики и мониторинга, о чем ты.\nК данным на S3 можно ходить через Athena и tableau, опять опус странности с твоей стороны.\nИ даже с Hadoop и Spark ты будешь делать инфру, писать кучу кода, воевать с особенностеми Hadoop + Spark и плеваться на бежинг Спарк джоб и кучу его проблем (и не надо говорить, что спарк идеально работает). Вопрос зачем тратить кучу денег и времени на вещи, которые не нужны, а потом колоться, когда можно иметь решение, лишенное всего этого, но при этом, если надо, масштабируемое до тех потребностей, которые нужны, без той боли, что будет с хадупом и спарком.\nУ меня уже есть опыт неиспользования спарка и красных глаз по ночам еще ни разу не было. Костыли не пложу. Что я делаю не так?\nОпять таки: кругом не только гвозди, а в руки можно взять не только молоток. Поэтому считаю эту дискуссию можно закончить, ибо твоя позиция понятно и моя тоже",
+        "user": "U1FLG6YR1",
+        "ts": "1530695925.000215",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c022abb8518",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-12\/1235020966997_6c022abb85181ea6cab0_72.png",
+            "first_name": "Адам",
+            "real_name": "Адам Елдаров",
+            "display_name": "hushpar",
+            "team": "T040HKJE3",
+            "name": "hushpar",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1FLG6YR1",
+            "ts": "1530696167.000000"
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1",
+        "reactions": [
+            {
+                "name": "bombanoolo",
+                "users": [
+                    "U09JEC7V0",
+                    "U1Q0B8KMJ",
+                    "U3TF60E65"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "331017d2-b493-46ce-a989-3e6f53ab175f",
+        "type": "message",
+        "text": "Spark UI\/history  - был помянут не для аналитики, а для анализа логов джобы.",
+        "user": "U1Q0B8KMJ",
+        "ts": "1530696294.000177",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d81e37e90cdb",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-29\/1416917536064_d81e37e90cdbdcacb2fd_72.jpg",
+            "first_name": "Denis",
+            "real_name": "Denis Gabaydulin",
+            "display_name": "sherman",
+            "team": "T040HKJE3",
+            "name": "sherman",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "88e74a41-c662-4671-a572-722269d4c3ed",
+        "type": "message",
+        "text": "<@U1Q0B8KMJ> а ты пользовался Kibana\/Graylog? И после этого ты хочешь сказать, Spark UI норм решение? :slightly_smiling_face:\nИли возьми Sentry и расскажи, как удобно, отлавливать падения спарк джоб и причины этого средствами Spark UI\/History",
+        "user": "U1FLG6YR1",
+        "ts": "1530696665.000305",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c022abb8518",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-12\/1235020966997_6c022abb85181ea6cab0_72.png",
+            "first_name": "Адам",
+            "real_name": "Адам Елдаров",
+            "display_name": "hushpar",
+            "team": "T040HKJE3",
+            "name": "hushpar",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1FLG6YR1",
+            "ts": "1530696717.000000"
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "49db7dbe-ca41-4810-96dd-f264c6b37c1d",
+        "type": "message",
+        "text": "Да, потому что spark UI просто работает, а elastic search в какой-то момент перестает и приходится например изобретать свой индекс, чтобы получить вменяемое время поиска, а также ковыряться в исходниках и профайлить чтобы найти проблемы. Отлавливать падения удобно в системе мониторинга (sentry для мониторинга джобов использовать странная идея, на мой взгляд. Как это правильно делать здесь писал Вадим, например). Мой вариант это cacti для hardware\/os  + metrics export в grafana а дальше уже spark UI\/history. Или можно тупо datadog взять (не реклама). В логи же надо лезть чтобы разобраться что произошло.",
+        "user": "U1Q0B8KMJ",
+        "ts": "1530699250.000175",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d81e37e90cdb",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-29\/1416917536064_d81e37e90cdbdcacb2fd_72.jpg",
+            "first_name": "Denis",
+            "real_name": "Denis Gabaydulin",
+            "display_name": "sherman",
+            "team": "T040HKJE3",
+            "name": "sherman",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "f18fdfeb-b63d-4406-8ea3-63cabe76a23e",
+        "type": "message",
+        "text": "Sentry не мониторинг, а система для анализа инцидентов. Для мониторинга метрик я выше писал, что юзать (Prometheus + Grafana)",
+        "user": "U1FLG6YR1",
+        "ts": "1530700152.000159",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c022abb8518",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-12\/1235020966997_6c022abb85181ea6cab0_72.png",
+            "first_name": "Адам",
+            "real_name": "Адам Елдаров",
+            "display_name": "hushpar",
+            "team": "T040HKJE3",
+            "name": "hushpar",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1FLG6YR1",
+            "ts": "1530700160.000000"
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "9e889fda-35ac-48bf-95b3-700ae483e1f8",
+        "type": "message",
+        "text": "А cacti это дерьмо мамонта",
+        "user": "U1FLG6YR1",
+        "ts": "1530700181.000033",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c022abb8518",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-12\/1235020966997_6c022abb85181ea6cab0_72.png",
+            "first_name": "Адам",
+            "real_name": "Адам Елдаров",
+            "display_name": "hushpar",
+            "team": "T040HKJE3",
+            "name": "hushpar",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1FLG6YR1",
+            "ts": "1530700188.000000"
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1",
+        "reactions": [
+            {
+                "name": "confused",
+                "users": [
+                    "U1Q0B8KMJ"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U04CH4QBD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5e7a5857-bc05-4e1e-8ff5-e5983ac69293",
+        "type": "message",
+        "text": "Вопрос стоит ли использовать спарк на одной ноде больше упирается в зрелость подпроекта. Если это прототип, который активно развивается и переделывается - только школота неразумная будет внедрять спарк, это оверинжиниринг. Если это уже полноценный продакшн, то все становится наоборот - только школота будет интегрировать самим десятки микросервисов ради мелкого подпроекта - это оверподпорочки.\n\n<@U1FLG6YR1>, <@U1Q0B8KMJ>, у вас на какой стадии проект?",
+        "user": "U8RB15G6N",
+        "ts": "1530700492.000202",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4827a5eacc0d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-01-19\/301726732274_4827a5eacc0d43e37a9a_72.jpg",
+            "first_name": "Kirill",
+            "real_name": "Kirill Vechera",
+            "display_name": "KVechera",
+            "team": "T040HKJE3",
+            "name": "cv-c",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "a9dce9a3-ca91-4099-b935-25f5737fc234",
+        "type": "message",
+        "text": "В общем резюмирую: никто целенаправленно спарк не выпиливает, но мы от него отказываемся в новых сервисах, когда он не нужен и мешает (с деплоем ML моделей, к примеру). Вертикой никто спарк не заменяет. У нас нет такого количества данных, чтобы ETL\/Streaming не на спарке не переваривал поток данных и мы при этом писали велосипеды. Спарк и Хадуп в большинстве наших задач это оверинженеринг. Это мое мнение",
+        "user": "U1FLG6YR1",
+        "ts": "1530700755.000011",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c022abb8518",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-12\/1235020966997_6c022abb85181ea6cab0_72.png",
+            "first_name": "Адам",
+            "real_name": "Адам Елдаров",
+            "display_name": "hushpar",
+            "team": "T040HKJE3",
+            "name": "hushpar",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1FLG6YR1",
+            "ts": "1530701027.000000"
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "151d9de5-2bcf-4e9a-bd63-cb6dcaa15f57",
+        "type": "message",
+        "text": "<@U8RB15G6N> у нас много проектов и все они разные. Где то спарк подходит, где то нет",
+        "user": "U1FLG6YR1",
+        "ts": "1530700841.000263",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c022abb8518",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-12\/1235020966997_6c022abb85181ea6cab0_72.png",
+            "first_name": "Адам",
+            "real_name": "Адам Елдаров",
+            "display_name": "hushpar",
+            "team": "T040HKJE3",
+            "name": "hushpar",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530521893.000075",
+        "parent_user_id": "U1FLG6YR1"
+    },
+    {
+        "client_msg_id": "51c75648-7c67-4146-8aa0-024b0729556d",
+        "type": "message",
+        "text": "Вон выше отписался <@U7VUY1JG3> который как и я получал хорошие деньги во Французской аспирантуре. \n\nЯ несколько раз уже пытался донести мысль о том, что Marie-Curie или Horizon 2020 отлично финансируются. \n\nЭто всё еще к беседе о том, что во время PhD лапу сосать придётся.",
+        "user": "U5FUU47GA",
+        "ts": "1530702072.000270",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "64ea41e6c5f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-27\/608920976338_64ea41e6c5f958d27292_72.jpg",
+            "first_name": "Vadim",
+            "real_name": "Vadim Yermakov",
+            "display_name": "Lasteg",
+            "team": "T040HKJE3",
+            "name": "lasteg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "true-story",
+                "users": [
+                    "U7VUY1JG3"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "720799f9-0311-44c4-a86c-8841d2b981f8",
+        "type": "message",
+        "text": "Всем привет!\n\nИщем  *Middle \/ Senior Data Scientist в Сбербанк, Блок \"Риски\"* :sberbank:. \nГород - Москва, находимся мы на Кутузовском,32.\n\nНаша команда расширяется и нам нужны еще моделисты.\n\nЧто делаем:\n∙ Модели скоринга (ex: кредитного скоринга, комплаенс скоринга), в т.ч. базирующиеся на транзакционных данных. \n∙ Графовые модели (ex: групповой поддержки заемщиков)\n∙ Модели оценки кредитного риска (ex: LGD, EAD, PD)\n∙ Поведенческие модели (Лучшее предложение клиенту, ожидаемое поведение клиента)\n∙ Транзакционные модели (анализ ряда независимых действий клиента)\nСейчас у нас появляются новые заказчики, поэтому задачи станут еще более разнообразными.\nКрайне приветствуем предложения по использованию новых математических методов, новых библиотек ML, если они подходят к нашим задачам (или если вы объясните как именно они подходят).\n\nНаш технологический стек: Hive, PySpark, Impala, Sklearn.\n\nКаких знаний и навыков ждем от кандидата:\n∙ Статистика и анализ данных\n∙ Практический опыт реализации полного цикла построения моделей\n∙ Уверенное владение Python, SQL\n∙ Опыт использования ML библиотек\n\nПреимуществами кандидатов будет:\n∙ Опыт использования технологий нашего стека, особенно хорошее знание PySpark\n∙ Понимание основ DevOps, навыки работы с Git\n∙ Опыт работы в ML проектах (взаимодействие с заказчиками, представление результатов)\n\nПо опыту и образованию желательно:\n∙ Высшее техническое, экономико-математическое образование или естественно-научное образование, предпочтительно МФТИ, МГУ, МГТУ им. Н. Э. Баумана, РЭШ, ВШЭ, ШАД.\n∙ Опыт работы с моделями – от полугода\n\n:fork: Вилка 150-300k среднемесячная в руки — зависит от опыта и навыков кандидата.\n\nРезюме можно отправлять на почту <mailto:NRZelinskiy@sberbank.ru|NRZelinskiy@sberbank.ru>",
+        "user": "U0JTMFHDE",
+        "ts": "1530702118.000210",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4fe9219e738d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-08\/594743898609_4fe9219e738de1b8b07e_72.jpg",
+            "first_name": "Ivan",
+            "real_name": "Ivan Trusov",
+            "display_name": "ivantrusov",
+            "team": "T040HKJE3",
+            "name": "ivantrusov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0JTMFHDE",
+            "ts": "1530702204.000000"
+        },
+        "thread_ts": "1530702118.000210",
+        "reply_count": 38,
+        "reply_users_count": 11,
+        "latest_reply": "1532095921.000026",
+        "reply_users": [
+            "U53E5MFNU",
+            "U09JEC7V0",
+            "U8GGBPGR3",
+            "U99J6EANQ",
+            "U66A98XEC",
+            "U0JTMFHDE",
+            "U36Q9NJMD",
+            "U4A5GQF3L",
+            "U6HFLJK7H",
+            "U9ZU1CYUD",
+            "U6QFHMV3N"
+        ],
+        "replies": [
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530723583.000054"
+            },
+            {
+                "user": "U09JEC7V0",
+                "ts": "1530725151.000187"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530725413.000116"
+            },
+            {
+                "user": "U09JEC7V0",
+                "ts": "1530725561.000040"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530725704.000015"
+            },
+            {
+                "user": "U8GGBPGR3",
+                "ts": "1530726174.000009"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530726341.000048"
+            },
+            {
+                "user": "U8GGBPGR3",
+                "ts": "1530726988.000061"
+            },
+            {
+                "user": "U99J6EANQ",
+                "ts": "1530727868.000161"
+            },
+            {
+                "user": "U66A98XEC",
+                "ts": "1530733180.000076"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530733505.000097"
+            },
+            {
+                "user": "U0JTMFHDE",
+                "ts": "1530736342.000023"
+            },
+            {
+                "user": "U66A98XEC",
+                "ts": "1530736406.000009"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530736905.000021"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530737083.000060"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530737245.000045"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530737510.000067"
+            },
+            {
+                "user": "U36Q9NJMD",
+                "ts": "1530737565.000117"
+            },
+            {
+                "user": "U09JEC7V0",
+                "ts": "1530737693.000172"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530737820.000089"
+            },
+            {
+                "user": "U09JEC7V0",
+                "ts": "1530737872.000079"
+            },
+            {
+                "user": "U0JTMFHDE",
+                "ts": "1530738111.000095"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530738212.000111"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530738327.000091"
+            },
+            {
+                "user": "U36Q9NJMD",
+                "ts": "1530738382.000022"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530738638.000084"
+            },
+            {
+                "user": "U53E5MFNU",
+                "ts": "1530738669.000134"
+            },
+            {
+                "user": "U66A98XEC",
+                "ts": "1530738806.000014"
+            },
+            {
+                "user": "U36Q9NJMD",
+                "ts": "1530739171.000064"
+            },
+            {
+                "user": "U4A5GQF3L",
+                "ts": "1530743168.000038"
+            },
+            {
+                "user": "U99J6EANQ",
+                "ts": "1530778034.000349"
+            },
+            {
+                "user": "U09JEC7V0",
+                "ts": "1530783607.000223"
+            },
+            {
+                "user": "U99J6EANQ",
+                "ts": "1530785560.000167"
+            },
+            {
+                "user": "U6HFLJK7H",
+                "ts": "1530793496.000090"
+            },
+            {
+                "user": "U09JEC7V0",
+                "ts": "1530795956.000387"
+            },
+            {
+                "user": "U99J6EANQ",
+                "ts": "1530796190.000108"
+            },
+            {
+                "user": "U9ZU1CYUD",
+                "ts": "1530920272.000036"
+            },
+            {
+                "user": "U6QFHMV3N",
+                "ts": "1532095921.000026"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fireball",
+                "users": [
+                    "U90SD1F7G",
+                    "U0AL6V5TN",
+                    "U80Q13A6R",
+                    "U6PNWSJL8",
+                    "U2F5XFH53",
+                    "U8K30FJA1",
+                    "U3W6X77FG",
+                    "U09JEC7V0",
+                    "U6SCXUP6U",
+                    "U4DQUUTS7"
+                ],
+                "count": 10
+            },
+            {
+                "name": "idk",
+                "users": [
+                    "U4BU5BR6X"
+                ],
+                "count": 1
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "U6PNWSJL8",
+                    "UBH58S7CK",
+                    "U36Q9NJMD",
+                    "U1D6DT6HE"
+                ],
+                "count": 4
+            },
+            {
+                "name": "sberbank",
+                "users": [
+                    "U1CMPEWPQ",
+                    "U60EETE7N",
+                    "U34U3HUJD",
+                    "U2F5XFH53",
+                    "U30A6KZLH",
+                    "U8K30FJA1",
+                    "U3W6X77FG",
+                    "U6VM2LAES",
+                    "U09JEC7V0",
+                    "U7SFPUVQF",
+                    "U3D5HVB51",
+                    "U4DQUUTS7",
+                    "U27SUBTB9",
+                    "U1D6DT6HE",
+                    "UBNJY9UP8"
+                ],
+                "count": 15
+            },
+            {
+                "name": "pedobir",
+                "users": [
+                    "U6VM2LAES"
+                ],
+                "count": 1
+            },
+            {
+                "name": "hankey",
+                "users": [
+                    "U6VM2LAES",
+                    "U34SSE54G",
+                    "U53E5MFNU",
+                    "U66A98XEC",
+                    "U74DLUWUC"
+                ],
+                "count": 5
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U53E5MFNU",
+                    "U9ZU1CYUD"
+                ],
+                "count": 2
+            },
+            {
+                "name": "fork",
+                "users": [
+                    "U9ZU1CYUD"
+                ],
+                "count": 1
+            },
+            {
+                "name": "gref",
+                "users": [
+                    "U42HGN8C8"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0bf52c07-b2ed-497c-99e8-897a98032824",
+        "type": "message",
+        "text": "“Было пруд-пруди малин,\nДа что же с ними сталось?\nА Лиговка была тогда,\nИ сейчас осталась!”",
+        "user": "U2N853RGF",
+        "ts": "1530702270.000133",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "32f07257-30ab-44d3-b4b7-418e44a86909",
+        "type": "message",
+        "text": "Да и сейчас всё хорошо и у него и у меня.",
+        "user": "U5FUU47GA",
+        "ts": "1530702303.000290",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "64ea41e6c5f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-27\/608920976338_64ea41e6c5f958d27292_72.jpg",
+            "first_name": "Vadim",
+            "real_name": "Vadim Yermakov",
+            "display_name": "Lasteg",
+            "team": "T040HKJE3",
+            "name": "lasteg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "bdc1fdba-52db-4eee-bdae-ba34a52d7372",
+        "type": "message",
+        "text": "ну не везде деньги с Horizon 2020 перепадают аспирантам",
+        "user": "UB83M2QE7",
+        "ts": "1530703068.000026",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g1dc5d9507b1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/371dc5d9507b10ba7896a0c63d40dfa3.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Yaroslav",
+            "real_name": "Yaroslav Nechaev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "remper",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "7e6fee87-d074-4726-8b77-e94d57b6b9a0",
+        "type": "message",
+        "text": "у нас вон вообще есть провизия что сверх PhD гранта нам универ не может платить денег никаких",
+        "user": "UB83M2QE7",
+        "ts": "1530703089.000174",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g1dc5d9507b1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/371dc5d9507b10ba7896a0c63d40dfa3.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Yaroslav",
+            "real_name": "Yaroslav Nechaev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "remper",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "80d124dd-850b-40d3-bff8-9fc143512262",
+        "type": "message",
+        "text": "какой бы ни был богатый юнит",
+        "user": "UB83M2QE7",
+        "ts": "1530703096.000190",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g1dc5d9507b1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/371dc5d9507b10ba7896a0c63d40dfa3.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Yaroslav",
+            "real_name": "Yaroslav Nechaev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "remper",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "3d27bee0-6e9e-4f35-a8c3-4b91c99f7a62",
+        "type": "message",
+        "text": "хотя когда мы выиграли грант Wikimedia Foundation, поскольку это была внешняя история не связанная с деньгами евросоюза \/ универа, то всё было норм",
+        "user": "UB83M2QE7",
+        "ts": "1530703159.000136",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g1dc5d9507b1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/371dc5d9507b10ba7896a0c63d40dfa3.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Yaroslav",
+            "real_name": "Yaroslav Nechaev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "remper",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UB83M2QE7",
+            "ts": "1530703198.000000"
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "d0f502c1-867f-45b2-93f3-3b938b3fbae3",
+        "type": "message",
+        "text": "<@UB83M2QE7> это нарушение правил комиссии.\nУ меня 2 знакомых в UK в конце PhD получили полные выплаты, когда универы занижали им выплаты из-за “внутренних правил“.",
+        "user": "U5FUU47GA",
+        "ts": "1530703301.000088",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "64ea41e6c5f9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-27\/608920976338_64ea41e6c5f958d27292_72.jpg",
+            "first_name": "Vadim",
+            "real_name": "Vadim Yermakov",
+            "display_name": "Lasteg",
+            "team": "T040HKJE3",
+            "name": "lasteg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "f98415d9-a696-4566-8eed-39435ba9763d",
+        "type": "message",
+        "text": "Да отличные условия для PhD. В Италии при мне аспирантам 1200 платили, например. Не надо на PhD искать индустриальных зарплат. PhD должно быть по большой любви, иначе нет смысла.\nНа месте потенциальных желающих получать PhD я бы посмотрел на страницу исследовательской группы, насколько сильные публикации, проводятся ли научные семинары и школы - вообще, насколько активная жизнь. Потом пообщался в скайпе с будущим научным руководителем за науку и на предмет совместимости и общих целей - всё-таки несколько лет работать вместе. Экзамена вроде нет на эту позицию, так? ещё плюсик для поступающих.\n\nВ плане карьеры PhD это задел на будущее - либо открыть возможность пойти в academic track, либо претендовать на более  ресёрч вакансии, чем без PhD.",
+        "user": "U8BUSE0BY",
+        "ts": "1530708210.000073",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6e8be6f0a92d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-24\/352596801093_6e8be6f0a92db114cd2a_72.jpg",
+            "first_name": "Denis",
+            "real_name": "Denis Volk",
+            "display_name": "dvolk",
+            "team": "T040HKJE3",
+            "name": "dire.ulf",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8GGBPGR3",
+                    "UAH9H0R17"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9fee196f-9fb6-41cf-bcf5-3d0e3a3a937c",
+        "type": "message",
+        "text": "И наконец, в некоторых компаниях есть \"стеклянный потолок\" для людей без advanced  degrees. И иногда он довольно низко, например, у нас в Bayer. Хотя можно получить MBA, что решит проблему",
+        "user": "U0R55NS1M",
+        "ts": "1530708692.000294",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "0b029e62ab4e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-07-04\/392278498945_0b029e62ab4ee0246507_72.jpg",
+            "first_name": "Michael",
+            "real_name": "Michael Kachala",
+            "display_name": "mkachala",
+            "team": "T040HKJE3",
+            "name": "mkachala",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "9D2E6654-A114-4F88-9B4C-8F85561BAA48",
+        "type": "message",
+        "text": "Это да, в Германии бумажки любят, но мастер это тоже advanced degree :smekalka:. Правда у меня три коллеги с PhD по химии и эпидемиологии вручную в экселе данные правили :troll: ",
+        "user": "U6PNWSJL8",
+        "ts": "1530709065.000013",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "db1077373e10",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-12\/239928388194_db1077373e10f970a44c_72.jpg",
+            "first_name": "Selim",
+            "real_name": "Selim Seferbekov",
+            "display_name": "selim_sef",
+            "team": "T040HKJE3",
+            "name": "selim_sef",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "male-office-worker::skin-tone-2",
+                "users": [
+                    "U049HDR2Z",
+                    "UDWTMRDUM"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bc4dcd90-94b3-42b3-8ab1-43a41a084087",
+        "type": "message",
+        "text": "<@U8BUSE0BY> \n&gt; В Италии при мне аспирантам 1200 платили, например\nсейчас тоже так, но и жильё раза в два-три дешевле чем в Берлине каком-нибудь",
+        "user": "UB83M2QE7",
+        "ts": "1530709329.000057",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g1dc5d9507b1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/371dc5d9507b10ba7896a0c63d40dfa3.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Yaroslav",
+            "real_name": "Yaroslav Nechaev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "remper",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UB83M2QE7",
+            "ts": "1530709362.000000"
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "f18b63ac-74d1-4b39-90fd-5ae7990e2555",
+        "type": "message",
+        "text": "Не у нас advanced это PhD или MBA, хотя в P&amp;G мастер тоже катил за advanced.",
+        "user": "U0R55NS1M",
+        "ts": "1530709429.000085",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "0b029e62ab4e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-07-04\/392278498945_0b029e62ab4ee0246507_72.jpg",
+            "first_name": "Michael",
+            "real_name": "Michael Kachala",
+            "display_name": "mkachala",
+            "team": "T040HKJE3",
+            "name": "mkachala",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "mm",
+                "users": [
+                    "U0DA4J82H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "b",
+                "users": [
+                    "U0DA4J82H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "a",
+                "users": [
+                    "U0DA4J82H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "643b7526-d2b2-469e-9c5d-2a1719c3b791",
+        "type": "message",
+        "text": "помню был один, тоже говорил что phd и mba это одного уровня degree",
+        "user": "U0DA4J82H",
+        "ts": "1530710073.000297",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gec7013c3d5b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/28ec7013c3d5b5cbd9633d12c1407eff.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Алексей",
+            "real_name": "Алексей Ололоев",
+            "display_name": "ololo",
+            "team": "T040HKJE3",
+            "name": "ololo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "cc4a4486-4f58-4747-9d50-e514642fe3b5",
+        "type": "message",
+        "text": "этих людей не смущает, что M в слове MBA означает master?)",
+        "user": "UB83M2QE7",
+        "ts": "1530711577.000080",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g1dc5d9507b1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/371dc5d9507b10ba7896a0c63d40dfa3.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Yaroslav",
+            "real_name": "Yaroslav Nechaev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "remper",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "povar",
+                "users": [
+                    "U6PNWSJL8",
+                    "U5FUU47GA",
+                    "U9HSZRDP1",
+                    "UA7D8TN9F",
+                    "U7VDWFSG3"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "37F07BED-E012-4068-B7B2-474746726844",
+        "type": "message",
+        "text": "Ну глупо было бы требовать доктора философии в бизнесе",
+        "user": "U2N853RGF",
+        "ts": "1530713829.000045",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "povar",
+                "users": [
+                    "U09JEC7V0",
+                    "U8GGBPGR3"
+                ],
+                "count": 2
+            },
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U049HDR2Z"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4e4ff2f7-bf33-4b02-8903-917ae0f32e08",
+        "type": "message",
+        "text": "Все что робот наготовит надо будет сожрать творцу?",
+        "user": "U6VM2LAES",
+        "ts": "1530718810.000115",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gc77dcceab91",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/26c77dcceab91c81b059333e982c15a8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "Amphyby",
+            "real_name": "Amphyby",
+            "display_name": "amphyby",
+            "team": "T040HKJE3",
+            "name": "amphyby",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530476046.000011",
+        "parent_user_id": "U9HGXRZPF"
+    },
+    {
+        "client_msg_id": "f603e9ec-d9a9-4ba1-8897-96637c183b99",
+        "type": "message",
+        "text": "<@U0JTMFHDE> \n```\nпредпочтительно МФТИ, МГУ, МГТУ им. Н. Э. Баумана, РЭШ, ВШЭ, ШАД.\n```\nу вас же у самого нет таких вещей за спиной, зачем от других просить?",
+        "user": "U53E5MFNU",
+        "ts": "1530723583.000054",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE",
+        "reactions": [
+            {
+                "name": "trollface",
+                "users": [
+                    "U36Q9NJMD",
+                    "U27GFN6P7",
+                    "U4WGFD012",
+                    "U710D2PPX",
+                    "U94JKTGKC",
+                    "U7VDWFSG3",
+                    "U6HFLJK7H",
+                    "U6YDWF4UB",
+                    "U0PEXP9PH",
+                    "U9ZU1CYUD",
+                    "UAF1W2R3M",
+                    "UMD0ZA29X"
+                ],
+                "count": 12
+            },
+            {
+                "name": "fire",
+                "users": [
+                    "U36Q9NJMD",
+                    "U4WGFD012",
+                    "U710D2PPX",
+                    "U9ZU1CYUD"
+                ],
+                "count": 4
+            },
+            {
+                "name": "100",
+                "users": [
+                    "U9ZU1CYUD"
+                ],
+                "count": 1
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U9ZU1CYUD"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "47efe5ca-8d1a-46be-9f07-09ea91c3a6eb",
+        "type": "message",
+        "text": "<@U53E5MFNU> а почему нужно предпочитать при возможности только то, что сам имеешь?",
+        "user": "U09JEC7V0",
+        "ts": "1530725151.000187",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "2ec01d2d-3840-4d47-a644-29cc78ab0042",
+        "type": "message",
+        "text": "ну мне кажется здесь показывается ущербность себя любимого, сам не осилил, а от других желаю. Лично я против дискриминации по месту учебы, и считаю что самые сильные ребята в этом слаке не имеют ничего общего с перечисленными местами",
+        "user": "U53E5MFNU",
+        "ts": "1530725413.000116",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE",
+        "reactions": [
+            {
+                "name": "pepe_sad",
+                "users": [
+                    "U36Q9NJMD",
+                    "U0PEXP9PH"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b8125907-9ca0-41fe-96e7-ea42707fe2bc",
+        "type": "message",
+        "text": "<@U53E5MFNU> ну там же предпочтительно, это же не значит, что с иными даже разговаривать не станут, кроме того, это может быть просто виртуальное требование в голове HR)",
+        "user": "U09JEC7V0",
+        "ts": "1530725561.000040",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "f0c0fff9-70e3-41d2-ae86-cdf0906107f4",
+        "type": "message",
+        "text": "все равное не по христиански это как то + если здесь позицию человек вывешивает, то я думаю он должен не на HR ссылаться, а сам нести ответственность, за то что написал",
+        "user": "U53E5MFNU",
+        "ts": "1530725704.000015",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "dcee633d-9d33-46b8-ad74-7eec825ad226",
+        "type": "message",
+        "text": "ну тогда глупо их на одну линейку ставить :slightly_smiling_face:",
+        "user": "UB83M2QE7",
+        "ts": "1530725739.000028",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g1dc5d9507b1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/371dc5d9507b10ba7896a0c63d40dfa3.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Yaroslav",
+            "real_name": "Yaroslav Nechaev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "remper",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F"
+    },
+    {
+        "client_msg_id": "98a3e325-2e99-40c1-b874-099d2c1b9583",
+        "type": "message",
+        "text": "в том плане что если нужно MBA, то его нельзя заменить PhD и наоборот",
+        "user": "UB83M2QE7",
+        "ts": "1530725761.000075",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g1dc5d9507b1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/371dc5d9507b10ba7896a0c63d40dfa3.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Yaroslav",
+            "real_name": "Yaroslav Nechaev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "remper",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530604340.000223",
+        "parent_user_id": "UA7D8TN9F",
+        "reactions": [
+            {
+                "name": "capitan_obvious",
+                "users": [
+                    "U2N853RGF"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c1003b46-918d-40af-a58c-9f2375753def",
+        "type": "message",
+        "text": "<@U53E5MFNU>\n&gt; самые сильные ребята в этом слаке не имеют ничего общего с перечисленными местами\nНавскидку вспомнил 8 классных ребят, которые имеют, и меньше — тех, которые нет. Так что требование разумное.",
+        "user": "U8GGBPGR3",
+        "ts": "1530726174.000009",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "0321503a296c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-14\/952385340032_0321503a296c35fc6433_72.png",
+            "first_name": "Sergey",
+            "real_name": "Sergey Filkin",
+            "display_name": "Sergey Filkin",
+            "team": "T040HKJE3",
+            "name": "sergey.filkin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "93cd5876-d603-4bb4-968e-c7c025761368",
+        "type": "message",
+        "text": "<@U8GGBPGR3> представь ситуацию что ты отослал CV, а его выбросили в помойку, потому что HR не увидела там одно из этих мест",
+        "user": "U53E5MFNU",
+        "ts": "1530726341.000048",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U53E5MFNU",
+            "ts": "1530726440.000000"
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U09JEC7V0",
+                    "U9ZU1CYUD"
+                ],
+                "count": 2
+            },
+            {
+                "name": "true-story",
+                "users": [
+                    "U4UPKHJQP"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "064d62f4-1a71-4754-8ead-e23d9efded9b",
+        "type": "message",
+        "text": "Ладно, убедил)\nНо я кроме того, что резюме отсылать, еще по конфам буду лазать и нетворкиться с представителями компаний, рассказывая как лихо я ту сотку затащил на выхах. Это ведь поможет, да?",
+        "user": "U8GGBPGR3",
+        "ts": "1530726988.000061",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "0321503a296c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-14\/952385340032_0321503a296c35fc6433_72.png",
+            "first_name": "Sergey",
+            "real_name": "Sergey Filkin",
+            "display_name": "Sergey Filkin",
+            "team": "T040HKJE3",
+            "name": "sergey.filkin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "9a9ac00d-1069-46e0-9bb0-177dccfd1eb3",
+        "type": "message",
+        "text": "В принципе нужен вкладыш в диплом с перечнем предметов, оценок и фамилией преподавателя. Академик Мергелян как то преподавал в заштатном филиале одного вуза. Так по вузу судить или по Мергеляну?",
+        "user": "U99J6EANQ",
+        "ts": "1530727868.000161",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ge5bef5e45ac",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b1e5bef5e45acc986684add3f0c4c4b1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+            "first_name": "7210208",
+            "real_name": "7210208",
+            "display_name": "Peter",
+            "team": "T040HKJE3",
+            "name": "7210208",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE",
+        "reactions": [
+            {
+                "name": "psyduck",
+                "users": [
+                    "U09JEC7V0",
+                    "U10K3LXHV"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "51a958bd-dfe9-4d1f-92e6-ec3b28ed8560",
+        "type": "message",
+        "text": "<@U53E5MFNU>\n&gt;не имеют ничего общего с перечисленными местами\nНу наверняка ты если внимательно без спешки посмотришь на cv \"самых сильных\", то убедишься, что они как раз имеют что-то общее :slightly_smiling_face:\n\nP.S. Да какой-нибудь СПБГУ может вывалился по ошибке из объявления у ТС.\nНу и всегда лучше нанимать людей \"лучше себя\". Потому то, что у cамого ТС нету таких credentials это ничего :slightly_smiling_face: P.P.S. вакансия кек и лул",
+        "user": "U66A98XEC",
+        "ts": "1530733180.000076",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "142c806328d1",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-07-11\/211873468455_142c806328d1f46e45ec_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Yudin",
+            "display_name": "zevsone",
+            "team": "T040HKJE3",
+            "name": "zevsone",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U66A98XEC",
+            "ts": "1530733235.000000"
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "cc8a1a24-da20-4726-a3df-cc371a49d253",
+        "type": "message",
+        "text": "ternaus, ololo, zfturbo, Virtor, albu, rakhlin, arseniinfo, cepera_ang, bes, dmytro - можно продолжать список",
+        "user": "U53E5MFNU",
+        "ts": "1530733505.000097",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U53E5MFNU",
+            "ts": "1530733748.000000"
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "651b945d-7a31-4e36-8446-1abeecda489c",
+        "type": "message",
+        "text": "<@U53E5MFNU> мне безусловно импонирует тот факт,  что вы знаете какой вуз я заканчивал. \nВы, действительно, правы, я не заканчивал перечисленные учебные заведения (и, признаться честно, немного жалею о том, что в юном возрасте недостаточно ответственно подходил к подготовке к поступлению). С другой стороны, учеба в относительно \"халявном\" МЭСИ и затем РЭУ им. Плеханова дала мне возможность работать по профессии начиная с 3 курса.\nПоловина нашей команды и непосредственный ее руководитель являются выпускниками МФТИ. Обратите, пожалуйста, так же внимание на тот факт, что это не обязательное требование, а желательное. Надеюсь, вы не будете спорить с тем, что выпускники этих специальностей в большинстве своем являются высококвалифицированными кадрами?\nНасчет истории про \"hr посмотрел по ключевым словам, не нашел нужных и не стал рассматривать эссе\" - мы не пользуемся hr-ами, а самостоятельно смотрим каждое резюме, поэтому мне кажется ваше обвинение слегка надуманным.",
+        "user": "U0JTMFHDE",
+        "ts": "1530736342.000023",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4fe9219e738d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-08\/594743898609_4fe9219e738de1b8b07e_72.jpg",
+            "first_name": "Ivan",
+            "real_name": "Ivan Trusov",
+            "display_name": "ivantrusov",
+            "team": "T040HKJE3",
+            "name": "ivantrusov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0JTMFHDE",
+            "ts": "1530736365.000000"
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "17f99326-9c02-4a8a-94b1-463a097edc40",
+        "type": "message",
+        "text": "<@U53E5MFNU>\nПоинт указания вуза в объяве в том, что из этих мест - с большей вероятностью будет хороший кандидат.\nПотому вузы и пишут и используют как хотя бы какую-то фичу для предсказания силы кандидата.\n\nКаждый, кого ты написал, по сути представляет какое-то свое одно уникальное место \/ вуз\n\nСпроси себя, у кого большая вероятность, что он kaggle master\/grandmaster?\nУ выпускника вузов из списка ТС или выпускника вузов, которых нет в списке?\nОтвет то очевиден\n\nНу и да, ты по сути предлагаешь смотреть еще на одну фичу, которая с большей вероятностью определяет хорошего кандидата - на кагл :slightly_smiling_face:\n\nТ.е. если бы топик стартер написал что \n&gt;Хочу МГУ\/МФТИ, kaggle master'a \/ grandmaster'a это ведь решило бы ведь вопрос твоего несогласия, да?)",
+        "user": "U66A98XEC",
+        "ts": "1530736406.000009",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "142c806328d1",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-07-11\/211873468455_142c806328d1f46e45ec_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Yudin",
+            "display_name": "zevsone",
+            "team": "T040HKJE3",
+            "name": "zevsone",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "0340214b-aa2a-4ad0-bb1f-d774723bc8a9",
+        "type": "message",
+        "text": "<@U0JTMFHDE> 1 можно на ты. 2 я только посмотрел линкдин, потому как у многих людей есть такое что сами не способны производить, а с других будем спрашивать. 3 тема дискредитации по альма-матер уже не раз здесь мусолилась. Поинт в том, что любая дискриминация это плохо, по образованию, полу или еще чему то. Есть сильные ребята в перечисленных вузах, есть не менее сильные в других местах, которые не перечислены. В штатах не пишут такие вещи (если это не хедж фонд), что приоритетом пользуются выпускники из топ вузов",
+        "user": "U53E5MFNU",
+        "ts": "1530736905.000021",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "0ab18b77-e231-4523-8d16-f6805e4abe6a",
+        "type": "message",
+        "text": "<@U66A98XEC> вероятность мастера итд зависит от многих вещей, Раньше это было как хорошо человек знает Дьяконова, Сейчас из этих мест, потому как есть определенная культура и курсы в этих местах которые направленны на кагл. Но сегодня топ 1 руский на кагл не имеет отношения к этим заведениям, думаю если посмотреть топ 20 из чатика, то половина минимум будут из других мест.",
+        "user": "U53E5MFNU",
+        "ts": "1530737083.000060",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "dee039a2-3f8a-4642-9f03-b67f4ca0a0b2",
+        "type": "message",
+        "text": "вот к примеру <https:\/\/opendatascience.slack.com\/archives\/C04DA5FUF\/p1521808019000384?thread_ts=1521738057.000627&amp;cid=C04DA5FUF>",
+        "user": "U53E5MFNU",
+        "ts": "1530737245.000045",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/opendatascience.slack.com\/archives\/C04DA5FUF\/p1521808019000384?thread_ts=1521738057.000627&amp;cid=C04DA5FUF",
+                "fallback": "[March 23rd, 2018 5:26 AM] ppleskov: во-первых, никто не обиделся. я с мехмата и знаю какое это сейчас говно. его деградация шла годами и пришла в своему логическому завершению: матфак вышки лучше. во-вторых, мой поинт был в предоставлении фидбека в традициях этого форума, а именно без какой-либо социальной смазки и в виде троллинга. мы не американцы с их shit сендвичем, у нас свои методы. хотя это в некотором роде тоже shit сендвич, только без булок (видите, я продолжаю троллить). наконец, в чем же собственно суть фидбека? позвольте разжевать вам. она в том, что любая форма дискриминации при найме не очень поощряется рынком. нельзя в коммьюнити технарей, многие из которых являются выходцами мфти, мгу, бауманки, шада, итд (не говоря уже об MIT и прочих), писать \"предпочтительно МГУ ВМК\". это воспринимается как \"а что мой факультет хуже и не достоин вашей вакансии?\". примерно как если в штатах написать \"предпочтительно белые мужчины до 30 лет из стран снг\". зачем раскрывать свои предпочтения и оскорблять тех, кто под них не подходит? просто выкиньте в мусорку все не вмкашные резюме на этапе скрининга. вы не гугл, резюме не тысячи в день, можно справиться. но зло любой дискриминации при найме именно в том. что так можно потерять оцень ценных специалистов. либо отпугнув их, либо не наняв. и они уйдут к чуть более толерантным конкурентам.",
+                "ts": "1521808019.000384",
+                "author_id": "U2LF67NRH",
+                "author_subname": "Pavel Pleskov",
+                "channel_id": "C04DA5FUF",
+                "channel_name": "_jobs",
+                "is_msg_unfurl": true,
+                "is_reply_unfurl": true,
+                "text": "во-первых, никто не обиделся. я с мехмата и знаю какое это сейчас говно. его деградация шла годами и пришла в своему логическому завершению: матфак вышки лучше. во-вторых, мой поинт был в предоставлении фидбека в традициях этого форума, а именно без какой-либо социальной смазки и в виде троллинга. мы не американцы с их shit сендвичем, у нас свои методы. хотя это в некотором роде тоже shit сендвич, только без булок (видите, я продолжаю троллить). наконец, в чем же собственно суть фидбека? позвольте разжевать вам. она в том, что любая форма дискриминации при найме не очень поощряется рынком. нельзя в коммьюнити технарей, многие из которых являются выходцами мфти, мгу, бауманки, шада, итд (не говоря уже об MIT и прочих), писать \"предпочтительно МГУ ВМК\". это воспринимается как \"а что мой факультет хуже и не достоин вашей вакансии?\". примерно как если в штатах написать \"предпочтительно белые мужчины до 30 лет из стран снг\". зачем раскрывать свои предпочтения и оскорблять тех, кто под них не подходит? просто выкиньте в мусорку все не вмкашные резюме на этапе скрининга. вы не гугл, резюме не тысячи в день, можно справиться. но зло любой дискриминации при найме именно в том. что так можно потерять оцень ценных специалистов. либо отпугнув их, либо не наняв. и они уйдут к чуть более толерантным конкурентам.",
+                "author_name": "Pavel Pleskov",
+                "author_link": "https:\/\/opendatascience.slack.com\/team\/U2LF67NRH",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2017-03-06\/150135983251_087122207b966be41b0b_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "original_url": "https:\/\/opendatascience.slack.com\/archives\/C04DA5FUF\/p1521808019000384?thread_ts=1521738057.000627&amp;cid=C04DA5FUF",
+                "footer": "From a thread in #_jobs"
+            }
+        ],
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "767169db-b2bf-45c0-a94f-a27670ca30f2",
+        "type": "message",
+        "text": "я вижу в МИТ людей со всего мира, из университетов о которых никогда не слышал, из какой то долины в Иране или из малолюдной части Греции - и никогда здесь не видел что предпочтение отдается только выпускникам каких-то университетов. Такого разнообразия еще нигде не встречал",
+        "user": "U53E5MFNU",
+        "ts": "1530737510.000067",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U6HFLJK7H",
+                    "U8GGBPGR3"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "05b37920-f65c-4f8c-9051-cc1a540959a1",
+        "type": "message",
+        "text": "<@U53E5MFNU> фирмы, начинающие дискриминировать кандидатов со временем вычищаются рынком :coolstorybob:. Зачем помогаешь то Сбербанку? :kekeke:",
+        "user": "U36Q9NJMD",
+        "ts": "1530737565.000117",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g250bd3f6db7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c8250bd3f6db77c3e9e199f07a814157.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Pronkin",
+            "display_name": "pronkin_alexey",
+            "team": "T040HKJE3",
+            "name": "pronkin_alexey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U53E5MFNU",
+                    "U09JEC7V0",
+                    "U74DLUWUC",
+                    "U7VDWFSG3",
+                    "U8GGBPGR3"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5d0698c3-66a7-4fd2-bb4d-1a413a8d9749",
+        "type": "message",
+        "text": "<@U53E5MFNU> вот за правильные вещи вроде топишь, но почему нельзя спрашивать, если сам не производишь?",
+        "user": "U09JEC7V0",
+        "ts": "1530737693.000172",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U09JEC7V0",
+            "ts": "1530737726.000000"
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "3bfd0221-ccee-4f4e-8782-578efd690e8f",
+        "type": "message",
+        "text": "ну по мне если ты мужик, сделай сначала что то сам, покажи на своем примере что ты это можешь, потом спрашивай с других. Если сам слабак, а с других спрашиваешь, то для меня это как то не серьезно звучит. Особенно, если ты уже senior и ищешь по крайней мере равных себе",
+        "user": "U53E5MFNU",
+        "ts": "1530737820.000089",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "df0b080e-d553-4c3b-a16c-d06926fbf034",
+        "type": "message",
+        "text": "ну все организации тогда надо разогнать - зачем это нелепое разделение труда) каждый должен уметь делать все одинаково хорошо",
+        "user": "U09JEC7V0",
+        "ts": "1530737872.000079",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "90e41c95-bf50-4f11-ab24-d8714dcc36c7",
+        "type": "message",
+        "text": "<@U53E5MFNU> Безусловно, дискриминация на свободном рынке по любому возможному критерию - не есть хорошо. Однако, мы и не дискриминируем вслепую - не выбрасываем из рассмотрения варианты с вузами не из приведенного списка.\nПозволю себе апеллировать к личному опыту. Я, как человек закончивший экономико-математический факультет МЭСИ (который потом влили в Плеханова), могу смело сказать на своем опыте - математическая и теоретическая подготовка там, мягко говоря, хромает, и мне до сих пор слегка обидно за потраченное время, и мне очень повезло что на третьем курсе я ушел сразу в практику. \nМой личный пример демонстрирует, что можно быть условным Middle \/ Senior DS в РФ и без корочки \"топового вуза\", но тогда надо иметь в активе что-то еще, например интересный и обширный опыт, или портфолио на github, или медали Kaggle. \nК итогу - мы не \"выбрасываем\" резюме без ключевых слов, а внимательно смотрим на профайл кандидата в целом, поэтому я не вижу здесь ничего дискриминирующего.",
+        "user": "U0JTMFHDE",
+        "ts": "1530738111.000095",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4fe9219e738d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-08\/594743898609_4fe9219e738de1b8b07e_72.jpg",
+            "first_name": "Ivan",
+            "real_name": "Ivan Trusov",
+            "display_name": "ivantrusov",
+            "team": "T040HKJE3",
+            "name": "ivantrusov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0JTMFHDE",
+            "ts": "1530739083.000000"
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "e86a7987-2dec-4754-b52f-17ba56b28cd8",
+        "type": "message",
+        "text": "<@U09JEC7V0> я думаю ты меня не так понял. У меня посыл был, если ты хочешь крутого кандидата в команду, соответствуй ему как то сам.",
+        "user": "U53E5MFNU",
+        "ts": "1530738212.000111",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "c1331f97-ee8c-4c65-acde-4ab07c97754d",
+        "type": "message",
+        "text": "<@U0JTMFHDE> у вас будет классное объявление, если вы уберете одну строчку с вашими предпочтениями, я если вижу такие объявления, то туда я подаваться не буду",
+        "user": "U53E5MFNU",
+        "ts": "1530738327.000091",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE",
+        "reactions": [
+            {
+                "name": "smekalka",
+                "users": [
+                    "U36Q9NJMD",
+                    "U7SFPUVQF"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f5e3b1f3-b6e5-433f-95ab-b5cca0c79e2b",
+        "type": "message",
+        "text": "Вот так и вычищаются :joy:\nТянет на новый economics paper: к diversity и пропуску хороших кадров из-за дискриминации добавляется ответная дискриминация от кандидатов. \nХотя это почти тоже самое что пропуск, просто с другой стороны",
+        "user": "U36Q9NJMD",
+        "ts": "1530738382.000022",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g250bd3f6db7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c8250bd3f6db77c3e9e199f07a814157.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Pronkin",
+            "display_name": "pronkin_alexey",
+            "team": "T040HKJE3",
+            "name": "pronkin_alexey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U36Q9NJMD",
+            "ts": "1530738581.000000"
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE",
+        "reactions": [
+            {
+                "name": "likeaboss",
+                "users": [
+                    "U53E5MFNU"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a20a1c4e-7f7c-4228-a86e-db634b0632f5",
+        "type": "message",
+        "text": "<@U36Q9NJMD> ну это вроде стандартная реакция, представь у тебя есть коллеги на западе, которые не хотят с тобой сотрудничать только потому что ты закончил не зарубежный вуз из топ 100, захочешь ли ты с ними работать?",
+        "user": "U53E5MFNU",
+        "ts": "1530738638.000084",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "13413c49-bdf9-440b-9cf7-6c7fff279dac",
+        "type": "message",
+        "text": "или ты не можешь податься на какой то гранд, потому что ты закончил вуз не из топ 100 мирового рэйтинга",
+        "user": "U53E5MFNU",
+        "ts": "1530738669.000134",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f2d2baa7f63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-02\/715176588101_1f2d2baa7f63cc36e48c_72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Shvets",
+            "display_name": "shvetsiya",
+            "team": "T040HKJE3",
+            "name": "shvetsiya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "37ead3b3-2ed2-4e8b-b3d6-d17db72b0a88",
+        "type": "message",
+        "text": "дискриминация она всегда в каком-то виде есть\nПросто потому что с ее наличием людям проще и быстрее принимать решения\nПросто потому, что нет желания\/ресурсов проводить детальный анализ ситуации\/кандидата\nИ в MIT она есть, и на западе в целом (достаточно вспомнить про позитивную дискриминацию, про квоты в университетах)\n\n&gt;которые не хотят с тобой сотрудничать только потому что ты закончил не зарубежный вуз из топ 100\nИ такое есть да\n\nОтношение людей меняется, когда они узнают что у тебя есть какие-то credentials\n\nДискриминации на западе конечно меньше чем наверное в РФ, но она конечно же есть",
+        "user": "U66A98XEC",
+        "ts": "1530738806.000014",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "142c806328d1",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-07-11\/211873468455_142c806328d1f46e45ec_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Yudin",
+            "display_name": "zevsone",
+            "team": "T040HKJE3",
+            "name": "zevsone",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U66A98XEC",
+            "ts": "1530739165.000000"
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE"
+    },
+    {
+        "client_msg_id": "e1a3789e-1184-4f3d-a49c-74fe56b5c1ff",
+        "type": "message",
+        "text": "Дискриминация вообще запрещена по ТК РФ :coolstorybob:, но я понимаю,почему некоторые работодатели такое пишут: им просто хочется выглядеть в глазах кандидата круче :likeaboss:, а какие-то инструктаж от HR они не проходят плюс базовый экономический уровень знаний в стране крайне низок. За слово \"предпочтительно\" какой-нибудь сноб вообще может подать в суд и быть правым.",
+        "user": "U36Q9NJMD",
+        "ts": "1530739171.000064",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g250bd3f6db7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c8250bd3f6db77c3e9e199f07a814157.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Pronkin",
+            "display_name": "pronkin_alexey",
+            "team": "T040HKJE3",
+            "name": "pronkin_alexey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U36Q9NJMD",
+            "ts": "1530739477.000000"
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U53E5MFNU",
+                    "U74DLUWUC"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "29451ad5-d505-48c0-9b76-7435a678315c",
+        "type": "message",
+        "text": "Могу как в очень далёком прошлом рекрутер сказать - не упоминайте имён и названий в объявлении о вакансии, кажущаяся простота отсева перекрывается негативной реакцией рынка и риском потери кандидатов, которые хороши, но не подались, сами отфильтровали себя. \n\nПример с амерами дельный, они не будут писать название вуза (даже многие фонды) они просто выбросят резюме и не поедут в ряд вузов на ярмарку вакансий. А в объявлении напишут, что они за дайверсити.\n\nЭто про оформление. А фильтры\/стереотипы\/дискриминация это отдельная тема  ",
+        "user": "U4A5GQF3L",
+        "ts": "1530743168.000038",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "9b917e85ac3b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-03-21\/157834478406_9b917e85ac3bd62ca301_72.png",
+            "first_name": "Peter",
+            "real_name": "Peter Zhegin",
+            "display_name": "peterzhegin",
+            "team": "T040HKJE3",
+            "name": "peterzhegin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1530702118.000210",
+        "parent_user_id": "U0JTMFHDE",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U53E5MFNU",
+                    "U7NT8L1M5"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

@@ -1,0 +1,733 @@
+[
+    {
+        "client_msg_id": "a950f778-316c-4f98-b297-57a077671928",
+        "type": "message",
+        "text": "Друзья, привет,\nВ *Wheely* ищем себе в команду *Data Engineer* уровня middle\/senior. Недавно мы закрыли очередной раунд инвестиций на $15mln на продолжение международной экспансии :earth_americas: Поэтому расширяем направление data engineering. Как обычно, много интересных задач, свобода выбора наилучшего решения и классная команда.\n*По задачам:*\n- Улучшение пайплайна ETL. В мыслях переход с проприетарной системы ETL (сейчас пользуемся Alooma) на Airflow. Хотим сделать хорошо масштабируемый и устойчивый ETL процесс, готовы в это вкладывать много ресурсов (как временных, так и $).\n- Обеспечение высокого уровня актуальности и целостности данных, минимизация ошибок в процессе ETL. Разработка и внедрение автоматических тестов для проверки полноты и качества данных.\n- Релиз аналитических моделей в процесс ETL, оптимизация Python скриптов. Повышение эффективности работы ETL, снижение query run time.\nСтэк: Python, SQL, Mongo DB, AWS Redshift, Postgres\n*Требования:*\n- Опыт работы с большими данными в аналогичной роли (DWH engineer, Data Engineer, DWH architect)\n- Хорошее знание БД, SQL, Python\n- Знание английского на уровне, чтобы хватило объяснить что ты делаешь (мы ежедневно общаемся с лондонским офисом, поэтому без инглиша не обойтись)\n- Опыт с Airflow (но это уже будет совсем круто, т.е. опционально)\n*Что предлагаем:*\n- ЗП: 180-220к гросс + квартальные бонусы 220-260к\/год. Больше тоже можно, но надо это уверенно обосновать.\n- Опционная программа для сотрудников :moneybag:\n- 10к\/мес на обеды + бесплатные завтраки + фрукты, печеньки кофе, закуски на кухне\n- Использование сервиса в рамках месячного лимита\n- Занятия английским в Skyeng (так что можно подтянуть как теорию, так и практику)\n- Классный офис в центре (м. Цветной Бульвар, Трубная, Сухаревская)\nПисать мне (можно здесь, можно на почту <mailto:da@wheely.com|da@wheely.com>)",
+        "user": "UB5U0GWGP",
+        "ts": "1567410737.275800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "geae4117f695",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ebeae4117f69593d155281ad5dc84f1d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "Denis Aleksandrov",
+            "display_name": "denn1z",
+            "team": "T040HKJE3",
+            "name": "doaleksandrov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1567410737.275800",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1567502475.396200",
+        "reply_users": [
+            "U6YEN210D",
+            "U66A98XEC",
+            "UB5U0GWGP"
+        ],
+        "replies": [
+            {
+                "user": "U6YEN210D",
+                "ts": "1567431196.296600"
+            },
+            {
+                "user": "U66A98XEC",
+                "ts": "1567464364.336600"
+            },
+            {
+                "user": "UB5U0GWGP",
+                "ts": "1567502475.396200"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "wheely",
+                "users": [
+                    "ULA9M7CM9",
+                    "U27SUBTB9",
+                    "UE9CQUJLW",
+                    "U7SFPUVQF",
+                    "U3L8883J8",
+                    "UE0KXG49J",
+                    "UBQJYBVPC",
+                    "UDSC91AH1",
+                    "U6YDWF4UB",
+                    "U7N4E8GBF",
+                    "U6URRB952",
+                    "U4U4GFDNK",
+                    "UAJMU27LZ",
+                    "UC9J53NAY",
+                    "UJ2JGSQ3X",
+                    "UDS0MCBH7",
+                    "U8ZDR4HMK",
+                    "U9K3G8BP0"
+                ],
+                "count": 18
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "UE9CQUJLW",
+                    "UC9HBTUKG",
+                    "U3L8883J8",
+                    "UE0KXG49J",
+                    "UBS459X19",
+                    "U6URRB952",
+                    "UCPDBKLBW",
+                    "U6YEN210D",
+                    "UDS0MCBH7",
+                    "U93P65UQN",
+                    "U9K3G8BP0",
+                    "U4BKKH8BX",
+                    "UM7SXV62W"
+                ],
+                "count": 13
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U126TCE79",
+                    "U6URRB952",
+                    "UDTFQJN1M",
+                    "UE259V12B",
+                    "U70T87GMA"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "77679a18-4c0d-4f9b-a5a4-3bbf51ee0c10",
+        "type": "message",
+        "text": "Привет!\n\nПродолжаем поиск CV\/ML специалиста в команду, теперь на удаленную позицию.\n\n*Компания*: Noema\n*Вакансия*: middle+ cv\/ml engineer\n*Локация*: удаленно\n*Вилка*: 2000-3500$ net\n\n*О компании*: Noema занимается созданием собственных computer vision продуктов для встраиваемых систем. Мы работаем как с нейросетями, так и с \"классическими\" CV алгоритмами. За плечами у команды опыт построения Big Data решений для финансового сектора с использованием Hadoop, Spark, Scala.\n\n*Описание того, что нужно делать:*\nРазрабатывать оптимальные алгоритмы CV с точки зрения их применения на edge devices (jetson Tx2\/Nano, Coral TPU, MCU, ...). Например: решить задачу pose estimation оптимальным способом для запуска на jetson nano или для простой детекции объектов обучить сетку, инференс которой будет укладываться в минуту на микроконтроллере. Деплоем алгоритма на устройство будет заниматься embedded инженер, но с особенностями железок, в процессе работы, разбираться все равно будет нужно. Позиция скорее на стыке cv\/ml engineer и embedded engineer, но ближе к cv\/ml engineer.\n\n*Требования:*\n- Знание Python и пакетов для анализа данных (scikit-learn, pandas, numpy, scipy)\n- Опыт работы с DL фреймворками (:tensorflow: :pytorch:)\n- Знание SOTA для CV задач\n- Хорошее знание классических CV алгоритмов\n- Опыт использования Data Science в реальных проектах\n- Уверенные знания математической статистики и теории вероятностей\n- Git, Linux (bash, GNU tools)\n- Разговорный английский\n\n*Будет плюсом:*\n- Опыт разработки встраиваемых систем\n- Знание С\/С++\n- Участие в Kaggle\n\n*Куда писать:*\n- мне в личку\n- telegram: @avsheh\n- alexander.shekhovcov@noema.tech",
+        "user": "U6BTSM3K2",
+        "ts": "1567412660.278600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "eb61fa580f78",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-06-16\/668432825367_eb61fa580f787b4a7655_72.jpg",
+            "first_name": "Alexander",
+            "real_name": "Alexander Shekhovtsov",
+            "display_name": "sheh",
+            "team": "T040HKJE3",
+            "name": "sheh",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U6BTSM3K2",
+            "ts": "1567413710.000000"
+        },
+        "thread_ts": "1567412660.278600",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1567932046.261900",
+        "reply_users": [
+            "U8DEZV7E2",
+            "U8F1BUVJT"
+        ],
+        "replies": [
+            {
+                "user": "U8DEZV7E2",
+                "ts": "1567497250.358900"
+            },
+            {
+                "user": "U8F1BUVJT",
+                "ts": "1567932046.261900"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "U3G5SK5J6",
+                    "U49NJJXNJ",
+                    "UC9HBTUKG",
+                    "U0H7VBQQ1",
+                    "U4U4GFDNK",
+                    "U70ULMUEP",
+                    "U049HDR2Z",
+                    "U7E8Y3V19",
+                    "U59D8LQ3H",
+                    "U7166RP99",
+                    "U74GVQMTM",
+                    "U60EETE7N",
+                    "U0PEXP9PH",
+                    "UDTFQJN1M",
+                    "U43KWJV0R",
+                    "UCKGAQKE0",
+                    "U70T87GMA",
+                    "UDSEN1N2E",
+                    "U061WBASK"
+                ],
+                "count": 19
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U0K47J3HR",
+                    "UKQTPE877",
+                    "U6M4CQX8V",
+                    "U8DEZV7E2",
+                    "UG38LQ0DV",
+                    "U4E5B4TAN"
+                ],
+                "count": 6
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "UG38LQ0DV",
+                    "U8F1BUVJT",
+                    "U4E5B4TAN"
+                ],
+                "count": 3
+            },
+            {
+                "name": "fire",
+                "users": [
+                    "UG38LQ0DV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fb0add5c-41b3-4662-9c6a-2ca9be7ec1ec",
+        "type": "message",
+        "text": "Привет!  :sunglasses:  Ищем в команду ФотоЛаба (<https:\/\/pho.to>) 2-х *Программист-Исследователь* Junior &amp; Middle-уровня.\n\n*Вам предстоит:*\n• анализировать текущие решения в области, формировать свои гипотезы, заниматься их проверкой и реализацией;\n• участвовать во внедрении разработанных решений в продукт.\n\n*Наши требования:*\n• отличная математическая подготовка;\n• хорошее понимание принципов работы нейронных сетей, знание алгоритмов машинного обучения;\n• знание фреймворков Tensorflow, PyTorch;\n• знание основных алгоритмов компьютерного зрения и хорошее владение OpenCV;\n• уверенное владение Python;\n• знакомство с linux-средой (владение bash, умение поставить необходимые зависимости и т. п.);\n• опыт участия в проектах, связанных с нейронными сетями;\n• умение и желание работать в команде.\n\n*Плюсом будут:*\n• широкая эрудиция в вопросах компьютерного зрения;\n• знание C++.\n\n*Мы предлагаем:*\n• лояльный гибкий график прихода\/ухода;\n• интересные задачи;\n• работу в дружной команде, ориентированной на результат;\n• вилка 200k-300k ₽ (net)\n• высокий уровень вознаграждения (обсуждается индивидуально с каждым кандидатом);\n• офис 5 минут от Тверской (г. Москва);\n• всё строго (даже очень) по ТК РФ.\n\n*Контакты:*\nВопросы можно мне личку. CV только на почту:   <mailto:hr@pho.to|hr@pho.to>\n\n\n*Кроме того:*\n\n\n&gt;&gt;&gt;У вас появится возможность реализовать себя в рамках успешного проекта. Миллионы пользователей ежедневно будут использовать ваши разработки.\nМы всегда открыты к интересным идеям, приветствуем глубокую вовлеченность каждого сотрудника в процесс создания продукта.\n\n<https:\/\/pho.to>",
+        "user": "ULB9H2422",
+        "ts": "1567419059.283000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g6fc8cd26bc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/476fc8cd26bc7f6cc9a2e092635394c7.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "Sergei Kopylov",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "ksergei16",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "ULB9H2422",
+            "ts": "1567420006.000000"
+        },
+        "thread_ts": "1567419059.283000",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1567419866.284500",
+        "reply_users": [
+            "U0K47J3HR",
+            "ULB9H2422",
+            "U8ZUVETU1"
+        ],
+        "replies": [
+            {
+                "user": "U0K47J3HR",
+                "ts": "1567419135.283200"
+            },
+            {
+                "user": "ULB9H2422",
+                "ts": "1567419190.283400"
+            },
+            {
+                "user": "U8ZUVETU1",
+                "ts": "1567419866.284500"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U042UQC96",
+                    "UC0URCPT7",
+                    "U709XK88H",
+                    "UDSC91AH1",
+                    "UE0LPDS8L",
+                    "U8V21EFHQ",
+                    "UBQJYBVPC",
+                    "U7NUQ1NDS",
+                    "UDTFQJN1M",
+                    "U8LQCCNF2",
+                    "U1YK4SV6W",
+                    "U70DQ5KCY",
+                    "UJM2GF66L",
+                    "U8WGH35EH",
+                    "UFKRNLQP4",
+                    "U8DEZV7E2",
+                    "U70T87GMA",
+                    "U4E5B4TAN"
+                ],
+                "count": 18
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3b666f1d-37d8-4e67-bab4-0648633cc823",
+        "type": "message",
+        "text": "Сергей, а кто вы в этой команде?",
+        "user": "U0K47J3HR",
+        "ts": "1567419135.283200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6d5ff9b845f5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-27\/321752094228_6d5ff9b845f5b3248b1e_72.jpg",
+            "first_name": "Valentin",
+            "real_name": "Valentin Malykh",
+            "display_name": "madrugado",
+            "team": "T040HKJE3",
+            "name": "madrugado",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1567419059.283000",
+        "parent_user_id": "ULB9H2422"
+    },
+    {
+        "client_msg_id": "ee94c8b7-2a25-4a6f-9032-b0de3d70dfdf",
+        "type": "message",
+        "text": "<@U0K47J3HR>, аналитик",
+        "user": "ULB9H2422",
+        "ts": "1567419190.283400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g6fc8cd26bc7",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/476fc8cd26bc7f6cc9a2e092635394c7.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "Sergei Kopylov",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "ksergei16",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1567419059.283000",
+        "parent_user_id": "ULB9H2422",
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "U0K47J3HR"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "10faa6d3-902b-4f19-88f6-c578e9d5e4ad",
+        "type": "message",
+        "text": "Джуну от 200к? :notbad:",
+        "user": "U8ZUVETU1",
+        "ts": "1567419866.284500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g92abf8575f4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6c92abf8575f4f85f0e3c4d24637d5c2.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "cheyuriy",
+            "display_name": "cheyuriy",
+            "team": "T040HKJE3",
+            "name": "yrii167167",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1567419059.283000",
+        "parent_user_id": "ULB9H2422",
+        "reactions": [
+            {
+                "name": "yeah-sure",
+                "users": [
+                    "U0JHK9001",
+                    "UELAH4JNA",
+                    "UFRLQ3MKN",
+                    "UDSC91AH1",
+                    "UE7FQ2EFR",
+                    "UD37TP39U",
+                    "UHE5T84TS",
+                    "UJUAY2S4D",
+                    "U8J9XMX3J",
+                    "UGD9J4276",
+                    "U6QCT6YN6",
+                    "UCKGAQKE0",
+                    "U4E5B4TAN"
+                ],
+                "count": 13
+            },
+            {
+                "name": "sberbank",
+                "users": [
+                    "UDTFQJN1M",
+                    "UAH9H0R17",
+                    "U3D5HVB51",
+                    "U1YK4SV6W",
+                    "UEP8V5FM5",
+                    "U6QCT6YN6",
+                    "UKC5NPDNY",
+                    "UJXD4EAE8",
+                    "UCKGAQKE0"
+                ],
+                "count": 9
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e80ffbea-5fb2-41e9-80f7-10f398ea6397",
+        "type": "message",
+        "text": "Привет :ods:, в соседнюю команду в Uma.Tech нужен человечек.\n*TLDR*:  Data Engineer, м. Маяковская :msk:, :fork: :180к-230к *gross* обсуждается индивидуально\n*резюме скидывать: <mailto:nrudik@gpm-rtv.ru|nrudik@gpm-rtv.ru> или на atokarchuk@uma.tech с темой “Инженер баз данных“*\nвопросы: можно мне в личку\n\n*Подробное описание*:\nНаша команда занимается поддержкой и развитием высоконагруженных проектов связанных с доставкой и управлением показами видео, сервисом единой авторизации, разработкой сайтов <http:\/\/tnt-premier.ru|tnt-premier.ru>, <http:\/\/matchtv.ru|matchtv.ru>, <http:\/\/sportbox.ru|sportbox.ru> и других.\n\nМы ищем человека, который будет заниматься системой обработки данных веб-аналитики.\n\n*Как это устроено сейчас*:\nГлавная по объёму часть - то, что передают клиенты (HTTP-запросы, из браузеров, мобильных приложений, smarttv и т.д.),\nно есть ещё данные, которые хранятся в PostgreSQL, MySQL, MongoDB и часть приходит в виде текстовых файлов.\nКроме того, есть разные метаданные (в метрике id - в метаданных информация, например о показанном видеоролике).\n\nДля всех этих данных строим пайплайны по обработке (python, bash, часть логики на PL\/pgSQL) и складываем результат в ClickHouse или PostgreSQL.\n\nВ основном аналитики сами делают запросы, но им может потребоваться помощь в составлении\/профилировании этих запросов.\n\nУ нас бывает приличный хайлоад - например, популярный футбольный матч, когда нагрузка резко вырастает на порядок.\nА ещё иногда горят датацентры, поэтому проектируем всё с учётом подобных неожиданностей, чтобы во время аварий как минимум не прекращается приём данных.\n\n*Чем придётся заниматься*:\nПисать код для обработки новых метрик и метаданных.\nФреймворк у нас свой, его тоже придётся дописывать, если захотят новую логику.\n\nДелать мониторинг процессов обработки — ошибки, задержки в обработке и т.д.\n\nМасштабирование, так как данных скоро будет в разы больше, чем сейчас.\nПосчитать, сколько ресурсов железа нужно, придумать, какие изменения нужны в архитектуре, если нужно дописать\/переписать код и всё это развернуть.\n\n*Что нужно знать и уметь*:\nКак работает с данными ClickHouse, движки, индексы, репликация, уметь писать и оптимизировать запросы.\nPostgreSQL - понимать, как устроен, хорошо уметь писать запросы и PL\/pgSQL.\nИметь общее представление о том, как устроен Linux, I\/O, IPC, процессы, треды, работа с памятью, netfilter, контейнеризация.\nУметь хорошо пользоваться докером, писать докерфайлы и docker-compose-файлы, в общих чертах знать, как устроен изнутри.\nBash, GNU coreutils, прочие радости для работы в консоли.\nPython 3 - основные фичи, желательно Django.\nЗнать, как работают протоколы HTTP, TCP, UDP, IP.\nБудет плюсом опыт конфигурации nginx, работы с zabbix и gitlab CI\/CD.",
+        "user": "U2AJE72Q6",
+        "ts": "1567429429.295100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "35b034dad3a0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-01-11\/126279803635_35b034dad3a099435342_72.png",
+            "first_name": "Stanislav",
+            "real_name": "Stanislav Gafarov",
+            "display_name": "stanislav_g",
+            "team": "T040HKJE3",
+            "name": "stanislav_g",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U2AJE72Q6",
+            "ts": "1567431194.000000"
+        },
+        "thread_ts": "1567429429.295100",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1567429634.295900",
+        "reply_users": [
+            "U625V2J3G",
+            "U2AJE72Q6"
+        ],
+        "replies": [
+            {
+                "user": "U625V2J3G",
+                "ts": "1567429578.295400"
+            },
+            {
+                "user": "U2AJE72Q6",
+                "ts": "1567429634.295900"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "soccer",
+                "users": [
+                    "U1YQLTMLH",
+                    "U4B9CTWF2",
+                    "U7W1ZPRAN",
+                    "UK18BB10T",
+                    "UA1SW3JTB"
+                ],
+                "count": 5
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U0PEXP9PH",
+                    "U540P8P8A",
+                    "ULPRYQNS2",
+                    "UHE5T84TS"
+                ],
+                "count": 4
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U84S5JS3E",
+                    "U4B9CTWF2",
+                    "U1YQLTMLH",
+                    "UDTFQJN1M"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b618c10a-0eae-4dab-b105-468e39237e2c",
+        "type": "message",
+        "text": "Речь идет о трехзначных циферках",
+        "user": "U625V2J3G",
+        "ts": "1567429578.295400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "dbdb62230467",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-10-01\/446192775091_dbdb6223046748cbb83c_72.png",
+            "first_name": "Denis",
+            "real_name": "Denis Vorotyntsev",
+            "display_name": "tEarth",
+            "team": "T040HKJE3",
+            "name": "tearth",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1567429429.295100",
+        "parent_user_id": "U2AJE72Q6"
+    },
+    {
+        "client_msg_id": "4f51ba6d-00d4-49b2-8295-f6e8ed1f9e49",
+        "type": "message",
+        "text": "<@U625V2J3G> спасибо, поправил",
+        "user": "U2AJE72Q6",
+        "ts": "1567429634.295900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "35b034dad3a0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-01-11\/126279803635_35b034dad3a099435342_72.png",
+            "first_name": "Stanislav",
+            "real_name": "Stanislav Gafarov",
+            "display_name": "stanislav_g",
+            "team": "T040HKJE3",
+            "name": "stanislav_g",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1567429429.295100",
+        "parent_user_id": "U2AJE72Q6"
+    },
+    {
+        "client_msg_id": "3caa852a-731e-4c0e-9e9f-db8d3f772275",
+        "type": "message",
+        "text": "Хорошо знаком с командой, классные ребята :v:",
+        "user": "U6YEN210D",
+        "ts": "1567431196.296600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e5a99bbe9942",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-07\/238729104630_e5a99bbe994232cf14ec_72.jpg",
+            "first_name": "David",
+            "real_name": "David Dobrinskiy",
+            "display_name": "ddobrinskiy",
+            "team": "T040HKJE3",
+            "name": "david-dobrinskiy",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1567410737.275800",
+        "parent_user_id": "UB5U0GWGP",
+        "reactions": [
+            {
+                "name": "wave",
+                "users": [
+                    "UB5U0GWGP",
+                    "UE9CQUJLW",
+                    "U9K3G8BP0"
+                ],
+                "count": 3
+            },
+            {
+                "name": "sweat_smile",
+                "users": [
+                    "U74GVQMTM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "23f50af2-7f06-4a44-a330-59552a404fcc",
+        "type": "message",
+        "text": "Продолжаем набирать людей в *Zyfra AI* для работы над проектами в промышленности. Москва.\nВ первую очередь нужны PM и BA, вилка 150-220 + годовая премия, это между мид и синиор уровнем.\n\nПриветствуется, очевидно, понимание ML, опыт работы с корпоратами вообще и с промышленностью в частности. Обязательно приличный английский.\n\nЧто нужно делать: общаться с заказчиком, с командой, вести реестр поручений и прочий формализм (до 50% времени), вести целостное видение проекта, гонять в командировки, в конечном итоге подписывать акты.",
+        "user": "U0E21LW49",
+        "ts": "1567435695.303600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "49fa1601a74e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-12-25\/17376562051_49fa1601a74eb905a63b_72.jpg",
+            "first_name": "Александр",
+            "real_name": "Александр Белугин",
+            "display_name": "unkinddragon",
+            "team": "T040HKJE3",
+            "name": "unkinddragon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1567435695.303600",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1574779034.255700",
+        "reply_users": [
+            "UMZ4M245D"
+        ],
+        "replies": [
+            {
+                "user": "UMZ4M245D",
+                "ts": "1574778886.255500"
+            },
+            {
+                "user": "UMZ4M245D",
+                "ts": "1574779034.255700"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "rospil",
+                "users": [
+                    "UC9J53NAY",
+                    "U82UB01GE",
+                    "U73NVHE0Y",
+                    "U3HM4KY14",
+                    "U1NLYUY5N",
+                    "U6LSE0FT9",
+                    "U2AJE72Q6",
+                    "U8H7YKFME",
+                    "U0FEJNBGQ",
+                    "U5GCU82HX",
+                    "UC7F3KJ7P",
+                    "UD8HRS7LK",
+                    "U7E8Y3V19",
+                    "UDSC91AH1",
+                    "U1CF22N7J",
+                    "U7465KY2U",
+                    "UEK7QL3HN",
+                    "U2TNYDLRL",
+                    "U8DEZV7E2",
+                    "U1FLG6YR1",
+                    "U06J1LG1M",
+                    "U7SFPUVQF",
+                    "U7G3YPKUL",
+                    "U705ED0CU",
+                    "U049HDR2Z",
+                    "UCFH1SSJY",
+                    "U6L08K8KS",
+                    "U7NUQ1NDS",
+                    "U56ETPEM8",
+                    "ULBF7D656"
+                ],
+                "count": 30
+            },
+            {
+                "name": "zyfra",
+                "users": [
+                    "UC9J53NAY",
+                    "U2AJE72Q6",
+                    "U8H7YKFME",
+                    "UE61U6DCL",
+                    "UJ8BXBM36",
+                    "U0E21LW49",
+                    "UJG3W0SSZ",
+                    "UEK7QL3HN",
+                    "UDTFQJN1M"
+                ],
+                "count": 9
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "ULPRYQNS2",
+                    "UBE08013Q",
+                    "UDSC91AH1",
+                    "U7QC8SBLL",
+                    "U8DEZV7E2",
+                    "UD37TP39U",
+                    "U6L08K8KS",
+                    "UM37ZEJKS",
+                    "ULBF7D656"
+                ],
+                "count": 9
+            },
+            {
+                "name": "director",
+                "users": [
+                    "UC7F3KJ7P",
+                    "U0NQXK023",
+                    "UDSC91AH1",
+                    "U74DLUWUC",
+                    "UBQJYBVPC",
+                    "U7PHZ3QTU",
+                    "U2N853RGF",
+                    "ULBF7D656"
+                ],
+                "count": 8
+            },
+            {
+                "name": "selfie::skin-tone-3",
+                "users": [
+                    "U7N4E8GBF",
+                    "ULBF7D656"
+                ],
+                "count": 2
+            },
+            {
+                "name": "galera",
+                "users": [
+                    "U60EETE7N",
+                    "U8DEZV7E2",
+                    "UHGJ890UC",
+                    "ULBF7D656"
+                ],
+                "count": 4
+            },
+            {
+                "name": "hankey",
+                "users": [
+                    "U0KQ5M6KX",
+                    "U7R68P22C",
+                    "ULBF7D656"
+                ],
+                "count": 3
+            },
+            {
+                "name": "wtf",
+                "users": [
+                    "U47E913NH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4ffe953a-668c-4c9f-af7c-f8e0d6acfe72",
+        "type": "message",
+        "text": "&gt;Первоначальные инвестиции на разработку программного обеспечения, закупку оборудования и запуск в размере 2,5 миллионов долларов Антон Чиркунов получил от членов своей семьи\n\nа я то думал как чето относительно прикольное могло из РФ вылезти, да еще и на международный рынок\n\n&gt; $15mln на продолжение международной экспансии\nуф, и как вас uber black еще не прищемил, наверное super lux ниша не оч интересна\n\n&gt;As of April 2018, Wheely only had 150 drivers in London while Uber had 50,000\n\noverall wheely сервис прикольный, нужный\nНадеюсь не помрете с приходом self-driving cars и падением цен на такси",
+        "user": "U66A98XEC",
+        "ts": "1567464364.336600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "142c806328d1",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-07-11\/211873468455_142c806328d1f46e45ec_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Yudin",
+            "display_name": "zevsone",
+            "team": "T040HKJE3",
+            "name": "zevsone",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1567410737.275800",
+        "parent_user_id": "UB5U0GWGP"
+    }
+]

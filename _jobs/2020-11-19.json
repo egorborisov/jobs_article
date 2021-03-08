@@ -1,0 +1,2734 @@
+[
+    {
+        "client_msg_id": "ace99d93-415e-432e-89da-54d1d3266e6a",
+        "type": "message",
+        "text": "Всем привет!\n\n*Компания*: Райффайзенбанк\n*Город*: Москва\n*Ищем*: Junior Data Scientist, Capital Markets\n*Направление*: CRM, Data and Analytics department\n\nНаша команда состоит из 2 DA , 1 DevOps и 4 DE, а также своего даталейка (в дополнение к общебанковскому). \nВ пайплайнах используем Spark, Python + ML стек под него, Scala, Docker, Airflow, Postgres, Greenplum\n\n*Что будем делать*:\n- аплифт модели для коммуникаций (пуши и e-mail) по инвестиционным продуктам управляющей компании;\n- модели оттока, вида коммуникации, оптимального момента коммуникации, доли инвест. продуктов в портфеле;\n- оптимизацию предложений;\n- сегментацию клиентов;\n- совместно развивать наше хранилище данных.\n\n*Наш идеальный кандидат*:\n- отлично знает основные методы и алгоритмы ML;\n- знает Python, Spark, SQL( в приоритете Postgres, Greenplum, ClickHouse);\n- знает статистику и весь необходимый аппарат для АB тестов;\n- работал с Bash, Git;\n- опыт Tableau будет плюсом;\n- умеет ставить задачи, планировать эксперименты, общаться с заказчиками и другими dev team;\n- хочет развиваться в предметной области: инвестиции, financial markets, portfolio management.\n\n*Вилка*:  110 – 160к руб. гросс фикс оклад\n\n*Условия*:\n- участие в Data Science конференциях: NIPS, Spark + AI Summit, PyCon Sweden;\n- возможность проходить внешнее обучение: Coursera, NewProLab;\n- ДМС со стоматологией с первых дней работы и доплаты по больничным листам;\n- скидки на продукты банка и партнеров (рестораны, отели и многое другое);\n- начало рабочего дня в удобное время, обычно все собираемся до 11:00;\n- офис в 7 минутах ходьбы от м. Смоленская, работа удаленно до конца пандемии;\n- нет строгого дресс-кода.\n\nПро наше внутренне Data Science сообщество – <https:\/\/habr.com\/en\/company\/raiffeisenbank\/blog\/469203\/>\n\nРезюме можно присылать на <mailto:Viktoria.ALIMOVA@raiffeisen.ru|Viktoria.ALIMOVA@raiffeisen.ru>",
+        "user": "UGY23A51V",
+        "ts": "1605776410.083000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "48062b424b9f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-20\/1387911662305_48062b424b9fd01fe286_72.png",
+            "first_name": "Alexander",
+            "real_name": "Alexander Moiseev",
+            "display_name": "Argxotan",
+            "team": "T040HKJE3",
+            "name": "alexbis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UGY23A51V",
+            "ts": "1605781439.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kK=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет!\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Райффайзенбанк\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Москва\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Ищем",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Junior Data Scientist, Capital Markets\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Направление",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": CRM, Data and Analytics department\n\nНаша команда состоит из 2 DA , 1 DevOps и 4 DE, а также своего даталейка (в дополнение к общебанковскому). \nВ пайплайнах используем Spark, Python + ML стек под него, Scala, Docker, Airflow, Postgres, Greenplum\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что будем делать",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n- аплифт модели для коммуникаций (пуши и e-mail) по инвестиционным продуктам управляющей компании;\n- модели оттока, вида коммуникации, оптимального момента коммуникации, доли инвест. продуктов в портфеле;\n- оптимизацию предложений;\n- сегментацию клиентов;\n- совместно развивать наше хранилище данных.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Наш идеальный кандидат",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n- отлично знает основные методы и алгоритмы ML;\n- знает Python, Spark, SQL( в приоритете Postgres, Greenplum, ClickHouse);\n- знает статистику и весь необходимый аппарат для АB тестов;\n- работал с Bash, Git;\n- опыт Tableau будет плюсом;\n- умеет ставить задачи, планировать эксперименты, общаться с заказчиками и другими dev team;\n- хочет развиваться в предметной области: инвестиции, financial markets, portfolio management.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":  110 – 160к руб. гросс фикс оклад\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Условия",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n- участие в Data Science конференциях: NIPS, Spark + AI Summit, PyCon Sweden;\n- возможность проходить внешнее обучение: Coursera, NewProLab;\n- ДМС со стоматологией с первых дней работы и доплаты по больничным листам;\n- скидки на продукты банка и партнеров (рестораны, отели и многое другое);\n- начало рабочего дня в удобное время, обычно все собираемся до 11:00;\n- офис в 7 минутах ходьбы от м. Смоленская, работа удаленно до конца пандемии;\n- нет строгого дресс-кода.\n\nПро наше внутренне Data Science сообщество – "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/habr.com\/en\/company\/raiffeisenbank\/blog\/469203\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nРезюме можно присылать на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:Viktoria.ALIMOVA@raiffeisen.ru",
+                                "text": "Viktoria.ALIMOVA@raiffeisen.ru"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605776410.083000",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1605778967.085100",
+        "reply_users": [
+            "UGF8L176H"
+        ],
+        "replies": [
+            {
+                "user": "UGF8L176H",
+                "ts": "1605778302.084600"
+            },
+            {
+                "user": "UGF8L176H",
+                "ts": "1605778967.085100"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UELAH4JNA",
+                    "UNP5YEWL9",
+                    "ULRRFCUR0",
+                    "UHXPTMU5Q",
+                    "UCB3PK96J",
+                    "U7E8Y3V19",
+                    "U95BW05K5",
+                    "UJ2N4SVBJ",
+                    "U01184AJRH8",
+                    "UBRK4HXQV",
+                    "UE4CX9345",
+                    "UFMKDE3GX",
+                    "UN0KV3SHH",
+                    "UMM890NT1",
+                    "U018P4H6FDF",
+                    "UFST6LF4P"
+                ],
+                "count": 16
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UELAH4JNA",
+                    "UBRK4HXQV",
+                    "UFMKDE3GX",
+                    "U018P4H6FDF"
+                ],
+                "count": 4
+            },
+            {
+                "name": "fire",
+                "users": [
+                    "UJA6SD533",
+                    "UELAH4JNA",
+                    "UJG3X5CSZ",
+                    "U01364MAFSQ",
+                    "UKQTPE877",
+                    "U01A6DZKDUN",
+                    "ULFB41K0R",
+                    "U019PLLUL1G",
+                    "UCB3PK96J",
+                    "UET6CJG7M",
+                    "UNMTRMDE0",
+                    "ULMML7Z5K",
+                    "UU3R0H605",
+                    "U014F8HB4HX",
+                    "UKCLD8PM3",
+                    "U013QMTUV7B",
+                    "UBRK4HXQV",
+                    "UFMKDE3GX",
+                    "UMM890NT1",
+                    "U018P4H6FDF",
+                    "U0190TRPYUT"
+                ],
+                "count": 21
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U01FDC6MWQG",
+                    "UUSCBAW6S",
+                    "U6CTG6YPN",
+                    "U018P4H6FDF",
+                    "U6SHTGD5X",
+                    "US3RRKW79"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c50b7c1b-3ac7-441e-8447-4e644d50b5b4",
+        "type": "message",
+        "text": "А что такая скромная вилка для IB, еще и при таких требованиях?",
+        "user": "UGF8L176H",
+        "ts": "1605778302.084600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gab35c96aa34",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a3ab35c96aa34f6dc54ee0dc781c1167.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Viacheslav",
+            "real_name": "Viacheslav",
+            "display_name": "Exzotick",
+            "team": "T040HKJE3",
+            "name": "spitcyn-slava",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UGF8L176H",
+            "ts": "1605778323.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0IRVW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "А что такая скромная вилка для IB, еще и при таких требованиях?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605776410.083000",
+        "parent_user_id": "UGY23A51V"
+    },
+    {
+        "client_msg_id": "33ba960d-2b18-446e-aa5e-f88359bcffca",
+        "type": "message",
+        "text": "Хотя, если это идеальный кандидат, и не все обязательно, то ок, согласен.",
+        "user": "UGF8L176H",
+        "ts": "1605778967.085100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gab35c96aa34",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a3ab35c96aa34f6dc54ee0dc781c1167.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Viacheslav",
+            "real_name": "Viacheslav",
+            "display_name": "Exzotick",
+            "team": "T040HKJE3",
+            "name": "spitcyn-slava",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6i2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Хотя, если это идеальный кандидат, и не все обязательно, то ок, согласен."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605776410.083000",
+        "parent_user_id": "UGY23A51V"
+    },
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1605780071.091200",
+        "thread_ts": "1605780071.091200",
+        "reply_count": 22,
+        "reply_users_count": 7,
+        "latest_reply": "1605875132.145200",
+        "reply_users": [
+            "U0FEJNBGQ",
+            "U016L3UKAGZ",
+            "U3KBYJQSF",
+            "UDSJHKRNC",
+            "UGD9J4276",
+            "U01113DLJAE",
+            "UQ9UCJT0T"
+        ],
+        "replies": [
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1605782462.096800"
+            },
+            {
+                "user": "U016L3UKAGZ",
+                "ts": "1605782640.097100"
+            },
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1605787314.102600"
+            },
+            {
+                "user": "U3KBYJQSF",
+                "ts": "1605787449.102800"
+            },
+            {
+                "user": "U3KBYJQSF",
+                "ts": "1605787482.103200"
+            },
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1605787764.104300"
+            },
+            {
+                "user": "U016L3UKAGZ",
+                "ts": "1605788493.105700"
+            },
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1605788682.106000"
+            },
+            {
+                "user": "UDSJHKRNC",
+                "ts": "1605788953.106400"
+            },
+            {
+                "user": "U016L3UKAGZ",
+                "ts": "1605789847.108100"
+            },
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1605790462.110000"
+            },
+            {
+                "user": "U016L3UKAGZ",
+                "ts": "1605790996.110700"
+            },
+            {
+                "user": "UGD9J4276",
+                "ts": "1605796159.118400"
+            },
+            {
+                "user": "U016L3UKAGZ",
+                "ts": "1605796973.119800"
+            },
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1605797314.121700"
+            },
+            {
+                "user": "U01113DLJAE",
+                "ts": "1605798129.123100"
+            },
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1605798258.123600"
+            },
+            {
+                "user": "U01113DLJAE",
+                "ts": "1605798580.123800"
+            },
+            {
+                "user": "U01113DLJAE",
+                "ts": "1605798635.124000"
+            },
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1605799833.125000"
+            },
+            {
+                "user": "U01113DLJAE",
+                "ts": "1605814007.128800"
+            },
+            {
+                "user": "UQ9UCJT0T",
+                "ts": "1605875132.145200"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "putin",
+                "users": [
+                    "UG1886P8R",
+                    "UD37TP39U",
+                    "UP1JY3PK2",
+                    "UCB3PK96J",
+                    "U10P8BDU1",
+                    "U4WGFD012",
+                    "ULFB41K0R",
+                    "UJG3X5CSZ",
+                    "U7N4E8GBF",
+                    "U705ED0CU",
+                    "U3Z5KPTRQ",
+                    "UC9FVAQMA",
+                    "UHGUXSJRK",
+                    "U7SFPUVQF",
+                    "UDXMNJD4P",
+                    "U04725QK7",
+                    "UBQELFC8K",
+                    "U60EETE7N"
+                ],
+                "count": 18
+            },
+            {
+                "name": "bigbrother",
+                "users": [
+                    "U019PLLUL1G",
+                    "U93HZAHMG",
+                    "UCB3PK96J",
+                    "U10P8BDU1",
+                    "U4WGFD012",
+                    "U6NT2E2ES",
+                    "ULFB41K0R",
+                    "UM2Q2B41J",
+                    "UP1JY3PK2",
+                    "U7N4E8GBF",
+                    "U3Z5KPTRQ",
+                    "UHGUXSJRK",
+                    "UD37TP39U",
+                    "U7SFPUVQF",
+                    "U0JHK9001",
+                    "U04725QK7",
+                    "U44DBR7B6",
+                    "U2LGCMY48",
+                    "U8DEZV7E2",
+                    "U60EETE7N"
+                ],
+                "count": 20
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "U0K47J3HR",
+                    "UDK41MN5U",
+                    "U6URRB952",
+                    "U6SCXUP6U"
+                ],
+                "count": 4
+            },
+            {
+                "name": "bordyur",
+                "users": [
+                    "UDHJKLGLR",
+                    "ULFB41K0R",
+                    "U7SFPUVQF"
+                ],
+                "count": 3
+            },
+            {
+                "name": "again",
+                "users": [
+                    "U5GCU82HX",
+                    "UCB3PK96J",
+                    "U0FEJNBGQ"
+                ],
+                "count": 3
+            },
+            {
+                "name": "raspil",
+                "users": [
+                    "UP1JY3PK2",
+                    "UCB3PK96J",
+                    "ULFB41K0R",
+                    "U7SFPUVQF"
+                ],
+                "count": 4
+            },
+            {
+                "name": "rospil",
+                "users": [
+                    "UCB3PK96J",
+                    "U4WGFD012",
+                    "ULFB41K0R",
+                    "UP1JY3PK2",
+                    "U705ED0CU",
+                    "U7SFPUVQF",
+                    "UDXMNJD4P",
+                    "UCF2H3C9X",
+                    "U8DEZV7E2",
+                    "U60EETE7N",
+                    "U10K3LXHV"
+                ],
+                "count": 11
+            },
+            {
+                "name": "hankey",
+                "users": [
+                    "UHGUXSJRK",
+                    "U8DEZV7E2",
+                    "UGD9J4276"
+                ],
+                "count": 3
+            },
+            {
+                "name": "heart",
+                "users": [
+                    "U016L3UKAGZ"
+                ],
+                "count": 1
+            },
+            {
+                "name": "rowing-galera",
+                "users": [
+                    "U8DEZV7E2"
+                ],
+                "count": 1
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "U60EETE7N"
+                ],
+                "count": 1
+            },
+            {
+                "name": "popcorn",
+                "users": [
+                    "U60EETE7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "36d68d69-40e6-4670-bfd9-5ff9f283a474",
+        "type": "message",
+        "text": "<@U016L3UKAGZ> какая у вас должность и в какой организации?",
+        "user": "U0FEJNBGQ",
+        "ts": "1605782462.096800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Yqo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U016L3UKAGZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " какая у вас должность и в какой организации?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ"
+    },
+    {
+        "client_msg_id": "f76d05a8-692d-4f3b-a839-3bce8b88ec22",
+        "type": "message",
+        "text": "Здравствуйте! Я Дата-инженер в одном из подведов ДИТа, лидирую небольшую команду из 3-х человек.",
+        "user": "U016L3UKAGZ",
+        "ts": "1605782640.097100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8e06660bcdd2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-30\/1206922811174_8e06660bcdd220de7a34_72.jpg",
+            "first_name": "Stanislav",
+            "real_name": "Stanislav Stepanenkov",
+            "display_name": "Stanislav Stepanenkov",
+            "team": "T040HKJE3",
+            "name": "steffix.jeru",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tYJs9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Здравствуйте! Я Дата-инженер в одном из подведов ДИТа, лидирую небольшую команду из 3-х человек."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ",
+        "reactions": [
+            {
+                "name": "wasted",
+                "users": [
+                    "U0FEJNBGQ",
+                    "UGD9J4276",
+                    "UDSJHKRNC",
+                    "UQ9UCJT0T"
+                ],
+                "count": 4
+            },
+            {
+                "name": "eww",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7454e487-fba6-4250-a0df-97d27d568c63",
+        "type": "message",
+        "text": "Всем привет!\n\n «*UMA.TECH*» - технологическое подразделение ГПМ РТВ - (ex Газпром Медиа Технологии)\nищет *Руководителя отдела анализа данных и мат. моделирования* (Data Science) в Департамент Управления Данными, которым я руковожу.\nПо сути, это претендент на роль *Head of Data Science* компании.\n\n*Наша миссия* – извлечение ценности из данных цифровых продуктов с многомиллионной аудиторией, централизованный сбор, хранение, обработка и анализ данных из всевозможных источников холдинга, с использованием передовых open-source технологий, внедрение data (driven\/informed\/inspired) культуры, модернизация текущих, и создание новых продуктов на основе данных.\nНаправления деятельности включают в себя:\n• Создание единого хранилища данных и платформы для их исследования и применения\n• Разработка и внедрение инновационных решений на основе машинного обучения\n• Проведение исследований пользовательского поведения и построение профиля пользователей продуктов, создание платформы клиентских данных и клиентского опыта\n• Создание высоконагруженных сервисов для адаптации продуктов под каждого пользователя, построение рекомендательных систем, разработка собственного сервиса для проведения экспериментов и а\/б тестирования\n• Реализация customer-centric стратегии и построение системы умных коммуникаций\n• RnD в области Computer Vision\n \n*Тебе предлагается* возглавить отдел, объединяющий специалистов в различных областях науки о данных и Искусственного Интеллекта: от статистических исследований до построения моделей применяемых в реальном времени, от проверки гипотез и проведения аб-тестов до разработки широкого спектра решений с применением машинного обучения, разработки рекомендательных и предиктивных моделей, технологий компьютерного зрения, обработки естественного языка.\n\nМы ищем руководителя, которому будет интересно работать над задачами департамента и дальнейшим формированием команды (сейчас в отделе 5 человек).\n*Задачи*:\n• Управление командой, подбор и координация работы сотрудников отдела, специалистов по анализу данных и математическому моделированию.\n• Исследование метрик бизнеса и применимости решений на основе анализа данных и математического моделирования в задачах бизнеса, улучшения этих метрик и оптимизации бизнес-процессов;\n• Выбор и использование лучших практик в решении задач по математическому моделированию, подбор оптимальных инструментов\n• Анализ данных, формирование предложений на основе анализа данных, принятие решений по созданию\/оптимизации математических моделей.\n• Определение метрик качества математических моделей исходя из задач бизнеса.\n• Осуществление поиска и вычленение полезных для моделей данных, “обогащение” данных, очистка и подготовка данных.\n• Разработка моделей машинного обучения, реализация прикладных решений на основе анализа данных и математического моделирования.\n• Организация мониторинга качества моделей\n• Визуализация и презентация результатов, развитие вспомогательных BI инструментов\n• Развитие в компании экспертизы по вопросам анализа данных, построения математических моделей, выбора метрик качества. Экспертная поддержка проектов в области компетенции.\n• Содействие в принятии стратегических решений\n*От успешного кандидата мы ожидаем следующих компетенций:*\n• Релевантный опыт от 4 лет\n• Математика, статистика, экспертиза в проверке гипотез и проведении экспериментов\n• Применение широкого спектра алгоритмов машинного обучения, знание лучших практик\n• Анализ данных и разработка на Python, SQL, высокий уровень владения, хорошее качество кода, плюсом будет доп. знание Java\/Scala. Мы используем GitLab.\n• Приветствуется знание ClickHouse, Kafka, Postgres, Spark\n• Имплементация моделей в промышленную эксплуатацию, управления жизненным циклом моделей\n• Умение коммуницировать с коллегами и партнёрами разного уровня, отстаивать точку зрения, «продавать» идею бизнесу\n• Управление командой, наставничество младших специалистов, знакомство с гибкими подходами в организации командной работы\n• Плюсом будет успешный опыт",
+        "user": "UCZA53F3P",
+        "ts": "1605784132.099000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d9edd54ef0e6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-19\/1526164899329_d9edd54ef0e69301aa50_72.png",
+            "first_name": "Misha",
+            "real_name": "Misha",
+            "display_name": "Null",
+            "team": "T040HKJE3",
+            "name": "mnetuk",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "q4XZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет!\n\n «"
+                            },
+                            {
+                                "type": "text",
+                                "text": "UMA.TECH",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "» - технологическое подразделение ГПМ РТВ - (ex Газпром Медиа Технологии)\nищет "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Руководителя отдела анализа данных и мат. моделирования",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (Data Science) в Департамент Управления Данными, которым я руковожу.\nПо сути, это претендент на роль "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Head of Data Science ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "компании.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Наша миссия",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " – извлечение ценности из данных цифровых продуктов с многомиллионной аудиторией, централизованный сбор, хранение, обработка и анализ данных из всевозможных источников холдинга, с использованием передовых open-source технологий, внедрение data (driven\/informed\/inspired) культуры, модернизация текущих, и создание новых продуктов на основе данных.\nНаправления деятельности включают в себя:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Создание единого хранилища данных и платформы для их исследования и применения"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разработка и внедрение инновационных решений на основе машинного обучения"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Проведение исследований пользовательского поведения и построение профиля пользователей продуктов, создание платформы клиентских данных и клиентского опыта"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Создание высоконагруженных сервисов для адаптации продуктов под каждого пользователя, построение рекомендательных систем, разработка собственного сервиса для проведения экспериментов и а\/б тестирования"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Реализация customer-centric стратегии и построение системы умных коммуникаций"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "RnD в области Computer Vision"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": " \n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Тебе предлагается",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " возглавить отдел, объединяющий специалистов в различных областях науки о данных и Искусственного Интеллекта: от статистических исследований до построения моделей применяемых в реальном времени, от проверки гипотез и проведения аб-тестов до разработки широкого спектра решений с применением машинного обучения, разработки рекомендательных и предиктивных моделей, технологий компьютерного зрения, обработки естественного языка.\n\nМы ищем руководителя, которому будет интересно работать над задачами департамента и дальнейшим формированием команды (сейчас в отделе 5 человек).\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Задачи",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Управление командой, подбор и координация работы сотрудников отдела, специалистов по анализу данных и математическому моделированию."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Исследование метрик бизнеса и применимости решений на основе анализа данных и математического моделирования в задачах бизнеса, улучшения этих метрик и оптимизации бизнес-процессов;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Выбор и использование лучших практик в решении задач по математическому моделированию, подбор оптимальных инструментов"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Анализ данных, формирование предложений на основе анализа данных, принятие решений по созданию\/оптимизации математических моделей."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Определение метрик качества математических моделей исходя из задач бизнеса."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Осуществление поиска и вычленение полезных для моделей данных, “обогащение” данных, очистка и подготовка данных."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разработка моделей машинного обучения, реализация прикладных решений на основе анализа данных и математического моделирования."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Организация мониторинга качества моделей"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Визуализация и презентация результатов, развитие вспомогательных BI инструментов"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Развитие в компании экспертизы по вопросам анализа данных, построения математических моделей, выбора метрик качества. Экспертная поддержка проектов в области компетенции."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Содействие в принятии стратегических решений"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "От успешного кандидата мы ожидаем следующих компетенций:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Релевантный опыт от 4 лет"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Математика, статистика, экспертиза в проверке гипотез и проведении экспериментов"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Применение широкого спектра алгоритмов машинного обучения, знание лучших практик"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Анализ данных и разработка на Python, SQL, высокий уровень владения, хорошее качество кода, плюсом будет доп. знание Java\/Scala. Мы используем GitLab."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Приветствуется знание ClickHouse, Kafka, Postgres, Spark"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Имплементация моделей в промышленную эксплуатацию, управления жизненным циклом моделей"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Умение коммуницировать с коллегами и партнёрами разного уровня, отстаивать точку зрения, «продавать» идею бизнесу"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Управление командой, наставничество младших специалистов, знакомство с гибкими подходами в организации командной работы"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Плюсом будет успешный опыт"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U5X36JZ4G",
+                    "UK18BB10T",
+                    "U1YQLTMLH"
+                ],
+                "count": 3
+            },
+            {
+                "name": "fork",
+                "users": [
+                    "U4ULPNWKB",
+                    "UDDJ1A4CA",
+                    "UHE51U4JF",
+                    "U43KPSVHP"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7454e487-fba6-4250-a0df-97d27d568c63",
+        "type": "message",
+        "text": "        o  в проектах с многомиллионной онлайн аудиторией\n        o  в построении рекомендательных систем\n        o  применения продвинутых моделей компьютерного зрения\n        o  оптимизации коммуникации с аудиторией\n        o  внедрения предсказательных моделей и систем оптимального управления в AdTech\/Programmatic (в частности DSP)\n\n*Условия*:\n• Оформление по ТК РФ (соц.пакет, ДМС со стоматологией).\n• Пятидневная рабочая неделя (гибкое начало рабочего дня)\n• До конца пандемии работаем удалённо (офис в центре Москвы (м. Маяковская, SOK Сады Пекина))\n• Профессиональное развитие (перспективные проекты, обучение, конференции).\n• *340-460 gross*\n*Контакты*: писать мне в ЛС, или на <mailto:mnetuk@uma.tech|mnetuk@uma.tech>\n\nтакже у нас открыты вакансии <http:\/\/hh.ru\/vacancy\/39796470|Ведущего инженера данных> и <http:\/\/hh.ru\/vacancy\/39440671|Ведущего devops\/системного инженера> (edited)",
+        "user": "UCZA53F3P",
+        "ts": "1605784132.099100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d9edd54ef0e6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-19\/1526164899329_d9edd54ef0e69301aa50_72.png",
+            "first_name": "Misha",
+            "real_name": "Misha",
+            "display_name": "Null",
+            "team": "T040HKJE3",
+            "name": "mnetuk",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "q4XZ-F8h",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "        o  в проектах с многомиллионной онлайн аудиторией\n        o  в построении рекомендательных систем\n        o  применения продвинутых моделей компьютерного зрения\n        o  оптимизации коммуникации с аудиторией\n        o  внедрения предсказательных моделей и систем оптимального управления в AdTech\/Programmatic (в частности DSP)\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Условия",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Оформление по ТК РФ (соц.пакет, ДМС со стоматологией)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Пятидневная рабочая неделя (гибкое начало рабочего дня)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "До конца пандемии работаем удалённо (офис в центре Москвы (м. Маяковская, SOK Сады Пекина))"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Профессиональное развитие (перспективные проекты, обучение, конференции)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "340-460 gross",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Контакты",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": писать мне в ЛС, или на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:mnetuk@uma.tech",
+                                "text": "mnetuk@uma.tech"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nтакже у нас открыты вакансии "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/hh.ru\/vacancy\/39796470",
+                                "text": "Ведущего инженера данных"
+                            },
+                            {
+                                "type": "text",
+                                "text": " и "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/hh.ru\/vacancy\/39440671",
+                                "text": "Ведущего devops\/системного инженера"
+                            },
+                            {
+                                "type": "text",
+                                "text": " (edited)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605784132.099100",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1605790053.108400",
+        "reply_users": [
+            "USGUL2JF6",
+            "UCZA53F3P"
+        ],
+        "replies": [
+            {
+                "user": "USGUL2JF6",
+                "ts": "1605789340.107200"
+            },
+            {
+                "user": "UCZA53F3P",
+                "ts": "1605789837.107900"
+            },
+            {
+                "user": "UCZA53F3P",
+                "ts": "1605790053.108400"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "moneyparrot",
+                "users": [
+                    "UM2Q2B41J",
+                    "UDL0CCV8C",
+                    "UCB3PK96J",
+                    "U8PMZ6397",
+                    "USPAWPRPX",
+                    "U9V48C738",
+                    "U8DEZV7E2",
+                    "UCKGAQKE0",
+                    "ULPRYQNS2"
+                ],
+                "count": 9
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U6NT2E2ES",
+                    "UDE5GJXAA",
+                    "U4WGFD012",
+                    "U60EETE7N",
+                    "U01FDC6MWQG",
+                    "U9GA283M3",
+                    "U014F8HB4HX",
+                    "UELAH4JNA",
+                    "UGF5C8W59",
+                    "URG5X6T6H",
+                    "U7E8Y3V19",
+                    "U8DEZV7E2",
+                    "U061WBASK",
+                    "UC8NCT0PQ",
+                    "U4DT60JTW",
+                    "U1APUESM9"
+                ],
+                "count": 16
+            },
+            {
+                "name": "gazprom",
+                "users": [
+                    "U30A6KZLH",
+                    "UD37TP39U",
+                    "U8DEZV7E2",
+                    "U60EETE7N",
+                    "U1YQLTMLH",
+                    "U7E8Y3V19"
+                ],
+                "count": 6
+            },
+            {
+                "name": "putout",
+                "users": [
+                    "U30A6KZLH",
+                    "U3SJBMJ9M",
+                    "U7SFPUVQF",
+                    "UBQELFC8K",
+                    "U8DEZV7E2",
+                    "U60EETE7N",
+                    "UCB3PK96J",
+                    "U1YQLTMLH",
+                    "UELAH4JNA",
+                    "UAEBNBWMU",
+                    "U540P8P8A",
+                    "UE4CX9345",
+                    "U061WBASK",
+                    "U22KS1MK5",
+                    "UQ3SDJNCE",
+                    "UFST6LF4P"
+                ],
+                "count": 16
+            }
+        ]
+    },
+    {
+        "client_msg_id": "276a9e27-0ce3-4e10-8b7e-768b5e3a27c7",
+        "type": "message",
+        "text": "дада, мы так и поняли",
+        "user": "U0FEJNBGQ",
+        "ts": "1605787314.102600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LpK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "дада, мы так и поняли"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ"
+    },
+    {
+        "type": "message",
+        "text": "зачем врать-то?",
+        "files": [
+            {
+                "id": "F01EP06RH7Z",
+                "created": 1605787422,
+                "timestamp": 1605787422,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U3KBYJQSF",
+                "editable": false,
+                "size": 118329,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-F01EP06RH7Z\/image.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-F01EP06RH7Z\/download\/image.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F01EP06RH7Z-5328d5354f\/image_64.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F01EP06RH7Z-5328d5354f\/image_80.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F01EP06RH7Z-5328d5354f\/image_360.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_360_w": 308,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F01EP06RH7Z-5328d5354f\/image_480.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_480_w": 410,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F01EP06RH7Z-5328d5354f\/image_160.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F01EP06RH7Z-5328d5354f\/image_720.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_720_w": 615,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F01EP06RH7Z-5328d5354f\/image_800.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_800_w": 684,
+                "thumb_800_h": 800,
+                "original_w": 798,
+                "original_h": 934,
+                "thumb_tiny": "AwAwACmgjbcEMQfY0jAE5JJJ55NBUBVORz79Kbj3FAB0OcjIqQy71+f7w6YAqLmjmgBxI7ZptFGaAFwTzxRtPtRjjrRj6UAG0+1G0+1GPpRj6UABGPSkoooAeY3ChivDdDTSCOoqVlmESFiTGfujNRk4\/wD10AJk0lLn6\/nSUAFFFFAH\/9k=",
+                "permalink": "https:\/\/opendatascience.slack.com\/files\/U3KBYJQSF\/F01EP06RH7Z\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T040HKJE3-F01EP06RH7Z-89132f5e57",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iMYtw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "зачем врать-то?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "U3KBYJQSF",
+        "display_as_bot": false,
+        "ts": "1605787449.102800",
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ",
+        "reactions": [
+            {
+                "name": "sherlock",
+                "users": [
+                    "U7SFPUVQF",
+                    "U4H9J8DSB",
+                    "U15UZGX9A",
+                    "UTMD85CJZ",
+                    "U6RBHBQPQ",
+                    "U8DEZV7E2",
+                    "U6YV1UAS1",
+                    "U019PLLUL1G",
+                    "ULPRYQNS2",
+                    "U6L08K8KS",
+                    "U93P65UQN",
+                    "UQ9UCJT0T"
+                ],
+                "count": 12
+            },
+            {
+                "name": "eww",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            },
+            {
+                "name": "povorot",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9d204527-25a1-4b05-b353-9ec62407f91f",
+        "type": "message",
+        "text": "удаляем?",
+        "user": "U3KBYJQSF",
+        "ts": "1605787482.103200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7296a1e07c9a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-30\/1396937501219_7296a1e07c9a27f4a764_72.png",
+            "first_name": "vtrokhymenko",
+            "real_name": "vtrokhymenko",
+            "display_name": "vtrokhymenko",
+            "team": "T040HKJE3",
+            "name": "vtrokhymenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9KQXg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "удаляем?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U0FEJNBGQ",
+                    "UJJHA7E4X",
+                    "UJ8UE41FS",
+                    "U04ELQZAU",
+                    "ULMML7Z5K",
+                    "UNEK3A52N",
+                    "U786N351N",
+                    "UK18BB10T",
+                    "UGD9J4276",
+                    "ULPRYQNS2",
+                    "U6L08K8KS",
+                    "UQ9UCJT0T",
+                    "UMM890NT1",
+                    "U34Q3KU8H",
+                    "U709XK88H"
+                ],
+                "count": 15
+            }
+        ]
+    },
+    {
+        "client_msg_id": "310b3b3b-8499-4b97-ad8a-e2f6b8c1b684",
+        "type": "message",
+        "text": "<@U016L3UKAGZ> почему вы в линкедине рекрутер, а тут нет?",
+        "user": "U0FEJNBGQ",
+        "ts": "1605787764.104300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ieV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U016L3UKAGZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " почему вы в линкедине рекрутер, а тут нет?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ"
+    },
+    {
+        "client_msg_id": "8c672018-7a69-4cdd-aa85-0261e5fa7ae6",
+        "type": "message",
+        "text": "Фактически рекрутмент в прошлом уже более 4-х месяцев, я сменил профессию и сейчас в процессе освоения новых знаний и навыков. Об этом я также упоминал в своей заявке на участие в данном сообществе.",
+        "user": "U016L3UKAGZ",
+        "ts": "1605788493.105700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8e06660bcdd2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-30\/1206922811174_8e06660bcdd220de7a34_72.jpg",
+            "first_name": "Stanislav",
+            "real_name": "Stanislav Stepanenkov",
+            "display_name": "Stanislav Stepanenkov",
+            "team": "T040HKJE3",
+            "name": "steffix.jeru",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XMb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Фактически рекрутмент в прошлом уже более 4-х месяцев, я сменил профессию и сейчас в процессе освоения новых знаний и навыков. Об этом я также упоминал в своей заявке на участие в данном сообществе."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ",
+        "reactions": [
+            {
+                "name": "yeah-sure",
+                "users": [
+                    "U0FEJNBGQ",
+                    "UD37TP39U",
+                    "UTMD85CJZ",
+                    "U7SFPUVQF",
+                    "UDUBG85P1",
+                    "U786N351N",
+                    "U8DEZV7E2",
+                    "ULPRYQNS2",
+                    "U6L08K8KS",
+                    "UQ9UCJT0T",
+                    "U34Q3KU8H"
+                ],
+                "count": 11
+            },
+            {
+                "name": "el_resitas_shake",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            },
+            {
+                "name": "balabol",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "330487f4-09c8-4312-9a7c-6399eae581d9",
+        "type": "message",
+        "text": "вот это рост, в лида команды за 4 месяца при отсутствии релевантного опыта, такому любой позавидует",
+        "user": "U0FEJNBGQ",
+        "ts": "1605788682.106000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0FEJNBGQ",
+            "ts": "1605788701.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rumnt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "вот это рост, в лида команды за 4 месяца при отсутствии релевантного опыта, такому любой позавидует"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ"
+    },
+    {
+        "client_msg_id": "b0e1d56d-51b1-4088-a005-7455444c641a",
+        "type": "message",
+        "text": "&gt; вот это рост, в лида команды за 4 месяца при отсутствии релевантного опыта, такому любой позавидует\nВ карьере сейчас подобная же проблема обсуждается, человек возможно шел на разработчика, да незадача, дали лида, видимо становится нормой в области.:idk:",
+        "user": "UDSJHKRNC",
+        "ts": "1605788953.106400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d18bca68341d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-12-26\/511616843572_d18bca68341d2439bb1b_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton",
+            "display_name": "noob_saibot",
+            "team": "T040HKJE3",
+            "name": "halo2olah90",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UDSJHKRNC",
+            "ts": "1605789039.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Njn",
+                "elements": [
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "вот это рост, в лида команды за 4 месяца при отсутствии релевантного опыта, такому любой позавидует"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "В карьере сейчас подобная же проблема обсуждается, человек возможно шел на разработчика, да незадача, дали лида, видимо становится нормой в области."
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "idk"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ",
+        "reactions": [
+            {
+                "name": "trollface",
+                "users": [
+                    "U0FEJNBGQ",
+                    "UQ9UCJT0T",
+                    "U709XK88H"
+                ],
+                "count": 3
+            },
+            {
+                "name": "el_resitas_shake",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7e658190-0eea-4971-88ee-44b55e6e79c5",
+        "type": "message",
+        "text": "<https:\/\/vc.ru\/marketing\/99673-rutube-testiruet-polzovateley-na-ponimanie-prosmotrennoy-reklamy-pered-pokazom-video?_gl=1*zkk1xb*_ga*X1g0QURBNV91NllJcHhoS2FoRkZqNGVOTTE0TlRGTWVnMnhxc3N3ZTRoZDV2eUdOV005Ylp0NUJ4Uy1hM0hFTA|https:\/\/vc.ru\/marketing\/99673-rutube-testiruet-polzovateley-na-ponimanie-prosmotrennoy-reklamy-pered-pokazom-video?_gl=1*zkk1xb*_ga*X1g0QURBNV91NllJcHhoS2FoRkZqNGVOTTE0TlRGTWVnMnhxc3N3ZTRoZDV2eUdOV005Ylp0NUJ4Uy1hM0hFTA>..",
+        "user": "USGUL2JF6",
+        "ts": "1605789340.107200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6c4c1df4dc15",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-07\/1341231899958_6c4c1df4dc15230b6af6_72.jpg",
+            "first_name": "Ruslan",
+            "real_name": "Ruslan Murtazin",
+            "display_name": "Ruslan Murtazin",
+            "team": "T040HKJE3",
+            "name": "murtazinmur",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "vc.ru",
+                "title": "Rutube тестирует пользователей на понимание просмотренной рекламы перед показом видео — Маркетинг на vc.ru",
+                "title_link": "https:\/\/vc.ru\/marketing\/99673-rutube-testiruet-polzovateley-na-ponimanie-prosmotrennoy-reklamy-pered-pokazom-video?_gl=1*zkk1xb*_ga*X1g0QURBNV91NllJcHhoS2FoRkZqNGVOTTE0TlRGTWVnMnhxc3N3ZTRoZDV2eUdOV005Ylp0NUJ4Uy1hM0hFTA",
+                "text": "Ответить неправильно нельзя: при ошибке пользователя попросят посмотреть рекламу ещё раз.",
+                "fallback": "vc.ru: Rutube тестирует пользователей на понимание просмотренной рекламы перед показом видео — Маркетинг на vc.ru",
+                "image_url": "https:\/\/vc.ru\/cover\/tw\/c\/99673\/1577703255\/cover.jpg",
+                "image_width": 476,
+                "image_height": 250,
+                "ts": 1577697509,
+                "from_url": "https:\/\/vc.ru\/marketing\/99673-rutube-testiruet-polzovateley-na-ponimanie-prosmotrennoy-reklamy-pered-pokazom-video?_gl=1*zkk1xb*_ga*X1g0QURBNV91NllJcHhoS2FoRkZqNGVOTTE0TlRGTWVnMnhxc3N3ZTRoZDV2eUdOV005Ylp0NUJ4Uy1hM0hFTA",
+                "image_bytes": 87232,
+                "service_icon": "https:\/\/vcstaticbf19cf1-a.akamaihd.net\/static\/build\/vc.ru\/favicons\/apple-touch-icon-180x180.png",
+                "id": 1,
+                "original_url": "https:\/\/vc.ru\/marketing\/99673-rutube-testiruet-polzovateley-na-ponimanie-prosmotrennoy-reklamy-pered-pokazom-video?_gl=1*zkk1xb*_ga*X1g0QURBNV91NllJcHhoS2FoRkZqNGVOTTE0TlRGTWVnMnhxc3N3ZTRoZDV2eUdOV005Ylp0NUJ4Uy1hM0hFTA"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FTJ+D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/vc.ru\/marketing\/99673-rutube-testiruet-polzovateley-na-ponimanie-prosmotrennoy-reklamy-pered-pokazom-video?_gl=1*zkk1xb*_ga*X1g0QURBNV91NllJcHhoS2FoRkZqNGVOTTE0TlRGTWVnMnhxc3N3ZTRoZDV2eUdOV005Ylp0NUJ4Uy1hM0hFTA",
+                                "text": "https:\/\/vc.ru\/marketing\/99673-rutube-testiruet-polzovateley-na-ponimanie-prosmotrennoy-reklamy-pered-pokazom-video?_gl=1*zkk1xb*_ga*X1g0QURBNV91NllJcHhoS2FoRkZqNGVOTTE0TlRGTWVnMnhxc3N3ZTRoZDV2eUdOV005Ylp0NUJ4Uy1hM0hFTA"
+                            },
+                            {
+                                "type": "text",
+                                "text": ".."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605784132.099100",
+        "parent_user_id": "UCZA53F3P"
+    },
+    {
+        "client_msg_id": "890ccc7a-de4a-4664-9d79-aecb2f2b8ca7",
+        "type": "message",
+        "text": "это не проект ГПМ",
+        "user": "UCZA53F3P",
+        "ts": "1605789837.107900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d9edd54ef0e6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-19\/1526164899329_d9edd54ef0e69301aa50_72.png",
+            "first_name": "Misha",
+            "real_name": "Misha",
+            "display_name": "Null",
+            "team": "T040HKJE3",
+            "name": "mnetuk",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xBv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "это не проект ГПМ"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605784132.099100",
+        "parent_user_id": "UCZA53F3P"
+    },
+    {
+        "client_msg_id": "c3bb25ce-fd89-4b17-87e3-dc1c5a801573",
+        "type": "message",
+        "text": "Завидовать пока нечему, всё довольно-таки тривиально: терпение и труд)",
+        "user": "U016L3UKAGZ",
+        "ts": "1605789847.108100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8e06660bcdd2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-30\/1206922811174_8e06660bcdd220de7a34_72.jpg",
+            "first_name": "Stanislav",
+            "real_name": "Stanislav Stepanenkov",
+            "display_name": "Stanislav Stepanenkov",
+            "team": "T040HKJE3",
+            "name": "steffix.jeru",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "E6DK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Завидовать пока нечему, всё довольно-таки тривиально: терпение и труд)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ",
+        "reactions": [
+            {
+                "name": "amongus",
+                "users": [
+                    "U0FEJNBGQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "79c48d09-2892-417f-afa3-40aa706b598a",
+        "type": "message",
+        "text": "<https:\/\/telesputnik.ru\/materials\/tsifrovoe-televidenie\/news\/ukrainskiy-biznesmen-stal-investorom-rutube-i-dom-2\/>",
+        "user": "UCZA53F3P",
+        "ts": "1605790053.108400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d9edd54ef0e6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-19\/1526164899329_d9edd54ef0e69301aa50_72.png",
+            "first_name": "Misha",
+            "real_name": "Misha",
+            "display_name": "Null",
+            "team": "T040HKJE3",
+            "name": "mnetuk",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "«Телеспутник»",
+                "title": "Украинский бизнесмен стал инвестором Rutube и «Дом-2»",
+                "title_link": "https:\/\/telesputnik.ru\/materials\/tsifrovoe-televidenie\/news\/ukrainskiy-biznesmen-stal-investorom-rutube-i-dom-2\/",
+                "text": "Игорь Сырый приобрел доли в компаниях Ruform (управляет видеосервисом Rutube) и Solaris Promo Production (производит шоу «Дом-2»). Ранее его связывал с владельцем этих компаний Александром Кармановым бизнес по поставке труб для нефтегазовой промышленности.",
+                "fallback": "«Телеспутник»: Украинский бизнесмен стал инвестором Rutube и «Дом-2»",
+                "image_url": "http:\/\/www.telesputnik.ru\/upload\/iblock\/15d\/ukrainskiy_biznesmen_stal_investorom_rutube_i_dom_2.jpg",
+                "ts": 1561074480,
+                "from_url": "https:\/\/telesputnik.ru\/materials\/tsifrovoe-televidenie\/news\/ukrainskiy-biznesmen-stal-investorom-rutube-i-dom-2\/",
+                "image_width": 467,
+                "image_height": 250,
+                "image_bytes": 28358,
+                "service_icon": "https:\/\/telesputnik.ru\/bitrix\/templates\/tsp_new\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/telesputnik.ru\/materials\/tsifrovoe-televidenie\/news\/ukrainskiy-biznesmen-stal-investorom-rutube-i-dom-2\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rAbX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/telesputnik.ru\/materials\/tsifrovoe-televidenie\/news\/ukrainskiy-biznesmen-stal-investorom-rutube-i-dom-2\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605784132.099100",
+        "parent_user_id": "UCZA53F3P"
+    },
+    {
+        "client_msg_id": "2b200acc-db61-4598-8dd0-16487748f33f",
+        "type": "message",
+        "text": "Форма входного контеста шикарна, решаешь ее 20 минут, постоянно отматываясь вверх, чтобы следить за временем, потом, когда все натыкал, жмешь завершить, переходишь на страницу, где тебе говорят, что ты не отправил решение, а лишь завершил сессию, возвращается, все чек-боксы пустые, таймер кончается и в итоге ни на один вопрос не отвечаешь...\nюзер-френдли :pukan:",
+        "user": "UM2Q2B41J",
+        "ts": "1605790218.109000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e5ff9ddcef18",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-29\/975181775108_e5ff9ddcef182fdd2ff0_72.jpg",
+            "first_name": "Stepan",
+            "real_name": "Stepan Danilov",
+            "display_name": "StepDan",
+            "team": "T040HKJE3",
+            "name": "mix2ra93",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM2Q2B41J",
+            "ts": "1605790383.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1aJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Форма входного контеста шикарна, решаешь ее 20 минут, постоянно отматываясь вверх, чтобы следить за временем, потом, когда все натыкал, жмешь завершить, переходишь на страницу, где тебе говорят, что ты не отправил решение, а лишь завершил сессию, возвращается, все чек-боксы пустые, таймер кончается и в итоге ни на один вопрос не отвечаешь...\nюзер-френдли "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "pukan"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605543562.353200",
+        "parent_user_id": "U01AAHU5S0Y",
+        "reactions": [
+            {
+                "name": "yandex_llc",
+                "users": [
+                    "UCB3PK96J",
+                    "UAEBNBWMU"
+                ],
+                "count": 2
+            },
+            {
+                "name": "true-story",
+                "users": [
+                    "UCB3PK96J",
+                    "USPAWPRPX"
+                ],
+                "count": 2
+            },
+            {
+                "name": "rooster",
+                "users": [
+                    "U4PLYEYLA",
+                    "UCB3PK96J"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e3beec28-be91-4fc9-8cb8-85abb5b7e854",
+        "type": "message",
+        "text": "интересно, а почему вы всё еще представляетесь как HR в личке?",
+        "user": "U0FEJNBGQ",
+        "ts": "1605790462.110000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "C1Y63",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "интересно, а почему вы всё еще представляетесь как HR в личке?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ"
+    },
+    {
+        "client_msg_id": "15d55039-41bf-421c-982b-7d65f64ecc2d",
+        "type": "message",
+        "text": "Антон, мне было лень перенастраивать рассылку mailmerge, поэтому к вам попало сообщение, похожее на то, которое я отправлял вам еще из Хуавея, а там я был real HR",
+        "user": "U016L3UKAGZ",
+        "ts": "1605790996.110700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8e06660bcdd2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-30\/1206922811174_8e06660bcdd220de7a34_72.jpg",
+            "first_name": "Stanislav",
+            "real_name": "Stanislav Stepanenkov",
+            "display_name": "Stanislav Stepanenkov",
+            "team": "T040HKJE3",
+            "name": "steffix.jeru",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Mte",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Антон, мне было лень перенастраивать рассылку mailmerge, поэтому к вам попало сообщение, похожее на то, которое я отправлял вам еще из Хуавея, а там я был real HR"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ",
+        "reactions": [
+            {
+                "name": "yeah-sure",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U7SFPUVQF",
+                    "U6RBHBQPQ",
+                    "UDUBG85P1",
+                    "U786N351N",
+                    "U8DEZV7E2",
+                    "UK18BB10T",
+                    "UGD9J4276",
+                    "U6YV1UAS1",
+                    "U6L08K8KS"
+                ],
+                "count": 10
+            }
+        ]
+    },
+    {
+        "client_msg_id": "08A0C57C-0FBE-4999-93A3-F21959E63DE4",
+        "type": "message",
+        "text": "<@U016L3UKAGZ> месяц назад на собеседовании вы представлялись как hr ",
+        "user": "UGD9J4276",
+        "ts": "1605796159.118400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g3e3ac26d84a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/7f3e3ac26d84aadc7c48b6e08a513274.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "Elisey",
+            "real_name": "Elisey Zubkov",
+            "display_name": "ezubkov",
+            "team": "T040HKJE3",
+            "name": "eliseyzubkov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "adT6k",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U016L3UKAGZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " месяц назад на собеседовании вы представлялись как hr "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ",
+        "reactions": [
+            {
+                "name": "popcorn",
+                "users": [
+                    "UDSJHKRNC",
+                    "U0FEJNBGQ",
+                    "U60EETE7N",
+                    "U5GCU82HX",
+                    "U6YV1UAS1",
+                    "U6L08K8KS",
+                    "U7SFPUVQF",
+                    "UQ9UCJT0T",
+                    "USQ0LR24T",
+                    "U709XK88H"
+                ],
+                "count": 10
+            },
+            {
+                "name": "hr_alert",
+                "users": [
+                    "UDSJHKRNC",
+                    "U0K47J3HR"
+                ],
+                "count": 2
+            },
+            {
+                "name": "told-you",
+                "users": [
+                    "U0FEJNBGQ",
+                    "UM37P4ZDE"
+                ],
+                "count": 2
+            },
+            {
+                "name": "povorot",
+                "users": [
+                    "U60EETE7N",
+                    "U5GCU82HX",
+                    "ULPRYQNS2",
+                    "U6L08K8KS",
+                    "U93P65UQN",
+                    "UQ9UCJT0T"
+                ],
+                "count": 6
+            },
+            {
+                "name": "el_resitas_shake",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "443c3405-1d86-4829-a26d-20e3167d795e",
+        "type": "message",
+        "text": "Елисей, здравствуйте! Мы общались 3 сентября. hr - это hadoop ranger) Как ваши дела?",
+        "user": "U016L3UKAGZ",
+        "ts": "1605796973.119800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8e06660bcdd2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-30\/1206922811174_8e06660bcdd220de7a34_72.jpg",
+            "first_name": "Stanislav",
+            "real_name": "Stanislav Stepanenkov",
+            "display_name": "Stanislav Stepanenkov",
+            "team": "T040HKJE3",
+            "name": "steffix.jeru",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ukOP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Елисей, здравствуйте! Мы общались 3 сентября. hr - это hadoop ranger) Как ваши дела?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ",
+        "reactions": [
+            {
+                "name": "are_you_fucking_kidding_me",
+                "users": [
+                    "U786N351N",
+                    "U60EETE7N",
+                    "UNEK3A52N",
+                    "UQ9UCJT0T"
+                ],
+                "count": 4
+            },
+            {
+                "name": "wat",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            },
+            {
+                "name": "facepalm",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f973135e-a5a8-4849-9fe3-f9441acf9391",
+        "type": "message",
+        "text": "пожелаем <@U016L3UKAGZ> удачно обжиться в его новом доме <#CEAT9QS01|_jobs_hr> , как раз для таких hadoop ranger",
+        "user": "U0FEJNBGQ",
+        "ts": "1605797314.121700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "J2F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "пожелаем "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U016L3UKAGZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " удачно обжиться в его новом доме "
+                            },
+                            {
+                                "type": "channel",
+                                "channel_id": "CEAT9QS01"
+                            },
+                            {
+                                "type": "text",
+                                "text": " , как раз для таких hadoop ranger"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "U016L3UKAGZ",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UQ9UCJT0T",
+                    "UMM890NT1",
+                    "U8HTMTGNQ",
+                    "U854H9KCM"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "94d7351c-f199-4eb3-810f-49327fbb6a0a",
+        "type": "message",
+        "text": "<@U0FEJNBGQ> привет, подскажи пожалуйста, а в чем отличие этого канала от jobs hr(если что я как раз ищу работу, а вопрос просто из интереса в чем собственно прикол):alf:\nЯ ещё студент, поэтому вообще пока не шарю в этой кухне найма:agaa:",
+        "user": "U01113DLJAE",
+        "ts": "1605798129.123100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ac2c17b3c620",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-23\/1445785374773_ac2c17b3c620be8ac18c_72.jpg",
+            "first_name": "Roman",
+            "real_name": "Roman Zaev",
+            "display_name": "Romaz",
+            "team": "T040HKJE3",
+            "name": "rizaev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VDX7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0FEJNBGQ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " привет, подскажи пожалуйста, а в чем отличие этого канала от jobs hr(если что я как раз ищу работу, а вопрос просто из интереса в чем собственно прикол)"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "alf"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nЯ ещё студент, поэтому вообще пока не шарю в этой кухне найма"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "agaa"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "USLACKBOT"
+    },
+    {
+        "client_msg_id": "43a5aa9e-e08f-41ea-9f4b-c1bf893dc519",
+        "type": "message",
+        "text": "<@U01113DLJAE> глянь правила в шапке канала, тут постят свои для своих, а всех просочившихся hr складываем в <#CEAT9QS01|_jobs_hr> , чтобы тут не спамили",
+        "user": "U0FEJNBGQ",
+        "ts": "1605798258.123600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JsL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U01113DLJAE"
+                            },
+                            {
+                                "type": "text",
+                                "text": " глянь правила в шапке канала, тут постят свои для своих, а всех просочившихся hr складываем в "
+                            },
+                            {
+                                "type": "channel",
+                                "channel_id": "CEAT9QS01"
+                            },
+                            {
+                                "type": "text",
+                                "text": " , чтобы тут не спамили"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "USLACKBOT"
+    },
+    {
+        "client_msg_id": "1537f854-96d9-4823-8c90-bc5bdd2751da",
+        "type": "message",
+        "text": "Интересненько, <@U0FEJNBGQ>, а \"работать в компании\" это может означать только то, что вы именно что-то делаете в плане похожей должности или те же hr из компании могут постить про свою же компанию? Не совсем понимаю кто такие рекрутеры:harold:",
+        "user": "U01113DLJAE",
+        "ts": "1605798580.123800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ac2c17b3c620",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-23\/1445785374773_ac2c17b3c620be8ac18c_72.jpg",
+            "first_name": "Roman",
+            "real_name": "Roman Zaev",
+            "display_name": "Romaz",
+            "team": "T040HKJE3",
+            "name": "rizaev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p\/P0L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Интересненько, "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0FEJNBGQ"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", а \"работать в компании\" это может означать только то, что вы именно что-то делаете в плане похожей должности или те же hr из компании могут постить про свою же компанию? Не совсем понимаю кто такие рекрутеры"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "harold"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "USLACKBOT"
+    },
+    {
+        "client_msg_id": "319e9cad-5840-44bf-8c2b-d5f58bd7f3c7",
+        "type": "message",
+        "text": "Вопрос тупой, но все таки не знающим людям (таким как я) будет понятнее:relaxed:\nИ если что, правила я прочитал, но все равно там нет пояснений:crazy:",
+        "user": "U01113DLJAE",
+        "ts": "1605798635.124000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ac2c17b3c620",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-23\/1445785374773_ac2c17b3c620be8ac18c_72.jpg",
+            "first_name": "Roman",
+            "real_name": "Roman Zaev",
+            "display_name": "Romaz",
+            "team": "T040HKJE3",
+            "name": "rizaev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U01113DLJAE",
+            "ts": "1605798811.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7pv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Вопрос тупой, но все таки не знающим людям (таким как я) будет понятнее"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "relaxed"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nИ если что, правила я прочитал, но все равно там нет пояснений"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "crazy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "USLACKBOT"
+    },
+    {
+        "client_msg_id": "21a480e8-78bf-4515-8dbf-12cbbbbd4e17",
+        "type": "message",
+        "text": "рекрутеры (HR) - это люди, на полный день занятые наймом, размещают вакансии по всему интернету, обзванивают кандидатов, назначают первые собеседования, иногда сами проводят собеседования за жизнь (не технические), отвечают на общие вопросы кандидатов о компании",
+        "user": "U0FEJNBGQ",
+        "ts": "1605799833.125000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KJfx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "рекрутеры (HR) - это люди, на полный день занятые наймом, размещают вакансии по всему интернету, обзванивают кандидатов, назначают первые собеседования, иногда сами проводят собеседования за жизнь (не технические), отвечают на общие вопросы кандидатов о компании"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "USLACKBOT"
+    },
+    {
+        "client_msg_id": "d832e809-c74a-4600-a224-ae3dd7a5900e",
+        "type": "message",
+        "text": "Полную удаленку не рассматриваете вообще?",
+        "user": "UPV5M62CC",
+        "ts": "1605802103.125600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f646ae23016c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-03-20\/1013102247604_f646ae23016c9d58d9b9_72.jpg",
+            "first_name": "Andrey",
+            "real_name": "Andrey Kaznacheev",
+            "display_name": "kazzand1k",
+            "team": "T040HKJE3",
+            "name": "kazzand",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "slmT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Полную удаленку не рассматриваете вообще?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605695697.009600",
+        "parent_user_id": "U0FF52P7D"
+    },
+    {
+        "client_msg_id": "e3453ea3-c9d1-4ba3-ae10-e8278d24ba27",
+        "type": "message",
+        "text": "Спасибо тебе большое, добрый человек <@U0FEJNBGQ>",
+        "user": "U01113DLJAE",
+        "ts": "1605814007.128800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ac2c17b3c620",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-23\/1445785374773_ac2c17b3c620be8ac18c_72.jpg",
+            "first_name": "Roman",
+            "real_name": "Roman Zaev",
+            "display_name": "Romaz",
+            "team": "T040HKJE3",
+            "name": "rizaev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xSvYA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Спасибо тебе большое, добрый человек "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0FEJNBGQ"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1605780071.091200",
+        "parent_user_id": "USLACKBOT"
+    }
+]

@@ -1,0 +1,899 @@
+[
+    {
+        "type": "message",
+        "text": "Нужна помощь в реализации классификатора, если кому интересно в свободное время повозится с ворд2век + LSTM и заодно подзаработать пишите. Вкратце суть задачи такая: Есть 100Млн предложений, надо сделать ворд2век словарь из этих данных,  потом запилить LSTM, обучить на размеченных данных  (думаю их где-то около 500К ) и классифицировать все эти 100млн. (разбить на бренд, категория, модель) нужна точность в 90% готов дать денег ))  ~ 100K рублей.",
+        "user": "U0PEGPA8H",
+        "ts": "1462529727.000305",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "<@U0PEGPA8H> так в чём проблема?\n\nБерёшь 100 млн =&gt; word2vec, затем берёшь 500к, обучаешь на них LSTM, классифицируешь 100 млн",
+        "user": "U070Y25AS",
+        "ts": "1462536487.000306",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "fceae7bbae9f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-06-30\/7032585669_fceae7bbae9fe6bd6054_72.jpg",
+            "first_name": "Kirill",
+            "real_name": "Kirill Malev",
+            "display_name": "malev",
+            "team": "T040HKJE3",
+            "name": "malev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "moneybag",
+                "users": [
+                    "U0DA4J82H",
+                    "U04ELQZAU",
+                    "U065VP6F7",
+                    "U049HDR2Z",
+                    "U15UZGX9A"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "<@U070Y25AS> Ты забыл:\n....\nPROFIT!",
+        "user": "U09JEC7V0",
+        "ts": "1462537338.000307",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "Кажется, ключевое \" нужна точность в 90%\"",
+        "user": "U04422XJL",
+        "ts": "1462539263.000308",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8cd145f72446",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-27\/739003798132_8cd145f72446bbd4194c_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Trofimov",
+            "display_name": "mtrofimov",
+            "team": "T040HKJE3",
+            "name": "mtrofimov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0QQLAFQF",
+                    "U0PF7KGQG"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Мб она там вообще недостижима, как знать)",
+        "user": "U04422XJL",
+        "ts": "1462539282.000309",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8cd145f72446",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-27\/739003798132_8cd145f72446bbd4194c_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Trofimov",
+            "display_name": "mtrofimov",
+            "team": "T040HKJE3",
+            "name": "mtrofimov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "<@U0PEGPA8H>: dataset открытый?  что есть предложение в \"100Млн предложений\", какого вида оно? какой примерный порядок брендов, категорий, моделей?",
+        "user": "U0FL6RNHM",
+        "ts": "1462539941.000310",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4d24a51c3a0b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-10-26\/464406279184_4d24a51c3a0ba54118e6_72.jpg",
+            "first_name": "Aleksandr",
+            "real_name": "Aleksandr Vasilev",
+            "display_name": "avasilev",
+            "team": "T040HKJE3",
+            "name": "avasilev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0FL6RNHM",
+            "ts": "1462540043.000000"
+        }
+    },
+    {
+        "type": "message",
+        "text": "<@U070Y25AS>: проблема во времени, у меня его катастрофически нехватает",
+        "user": "U0PEGPA8H",
+        "ts": "1462541458.000312",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "сколько весят данные?",
+        "user": "U070Y25AS",
+        "ts": "1462541546.000313",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "fceae7bbae9f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-06-30\/7032585669_fceae7bbae9fe6bd6054_72.jpg",
+            "first_name": "Kirill",
+            "real_name": "Kirill Malev",
+            "display_name": "malev",
+            "team": "T040HKJE3",
+            "name": "malev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "<@U0FL6RNHM>: от арядное устройство для ноутбука HP PAVILION dv6-3080er до Корзина Мадлен \"Спасибо с круассанами",
+        "user": "U0PEGPA8H",
+        "ts": "1462541594.000314",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "<@U070Y25AS> примерно 8гб, в паке около 3",
+        "user": "U0PEGPA8H",
+        "ts": "1462541618.000315",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "выглядит, как задача не для w2v и lstm",
+        "user": "U065VP6F7",
+        "ts": "1462541642.000316",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "de92e84a2d42",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-29\/536702372562_de92e84a2d4269180211_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Korolev",
+            "display_name": "libfun",
+            "team": "T040HKJE3",
+            "name": "libfun",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "тоже интересно, почему lstm",
+        "user": "U0FL6RNHM",
+        "ts": "1462541676.000317",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4d24a51c3a0b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-10-26\/464406279184_4d24a51c3a0ba54118e6_72.jpg",
+            "first_name": "Aleksandr",
+            "real_name": "Aleksandr Vasilev",
+            "display_name": "avasilev",
+            "team": "T040HKJE3",
+            "name": "avasilev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "там есть проблема другого порядка человек котрый хотел с этим помочь наткнулся на проблему ворд2век не хавает больше 60млн предложений.",
+        "user": "U0PEGPA8H",
+        "ts": "1462541678.000318",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0PEGPA8H",
+            "ts": "1462541681.000000"
+        }
+    },
+    {
+        "type": "message",
+        "text": "пробовали naive bayes  и crf , точность порядка 70%",
+        "user": "U0PEGPA8H",
+        "ts": "1462541759.000320",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "этого мало",
+        "user": "U0PEGPA8H",
+        "ts": "1462541767.000321",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "nlp тоже не подходит",
+        "user": "U0PEGPA8H",
+        "ts": "1462541799.000322",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0PEGPA8H",
+            "ts": "1462541802.000000"
+        }
+    },
+    {
+        "type": "message",
+        "text": "из этого следует, что надо херачить lstm?",
+        "user": "U065VP6F7",
+        "ts": "1462541813.000324",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "de92e84a2d42",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-29\/536702372562_de92e84a2d4269180211_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Korolev",
+            "display_name": "libfun",
+            "team": "T040HKJE3",
+            "name": "libfun",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "нет",
+        "user": "U0PEGPA8H",
+        "ts": "1462541819.000325",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "а почему есть уверенность, что можно добиться точности 90%?",
+        "user": "U0FL6RNHM",
+        "ts": "1462541823.000326",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4d24a51c3a0b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-10-26\/464406279184_4d24a51c3a0ba54118e6_72.jpg",
+            "first_name": "Aleksandr",
+            "real_name": "Aleksandr Vasilev",
+            "display_name": "avasilev",
+            "team": "T040HKJE3",
+            "name": "avasilev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "не следует",
+        "user": "U0PEGPA8H",
+        "ts": "1462541823.000327",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "nlp  не подходит?:fearful:",
+        "user": "U04422XJL",
+        "ts": "1462541834.000328",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8cd145f72446",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-27\/739003798132_8cd145f72446bbd4194c_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Trofimov",
+            "display_name": "mtrofimov",
+            "team": "T040HKJE3",
+            "name": "mtrofimov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "пробовали на lstm на датасете в 1 млн получили на кросс валидации от 88-95%",
+        "user": "U0PEGPA8H",
+        "ts": "1462541849.000329",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "это уже интересно, но раз уже есть эксперимент и результаты - в чём работа заключается?",
+        "user": "U065VP6F7",
+        "ts": "1462541907.000330",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "de92e84a2d42",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-29\/536702372562_de92e84a2d4269180211_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Korolev",
+            "display_name": "libfun",
+            "team": "T040HKJE3",
+            "name": "libfun",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "в том что нужно поборать проблему с формированием словаря в 60млн+",
+        "user": "U0PEGPA8H",
+        "ts": "1462541950.000331",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "словарь или датасет?",
+        "user": "U04422XJL",
+        "ts": "1462541983.000332",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8cd145f72446",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-27\/739003798132_8cd145f72446bbd4194c_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Trofimov",
+            "display_name": "mtrofimov",
+            "team": "T040HKJE3",
+            "name": "mtrofimov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U04422XJL",
+            "ts": "1462541994.000000"
+        }
+    },
+    {
+        "type": "message",
+        "text": "собирали на keras собственно там вот какая трабла <https:\/\/groups.google.com\/forum\/#!msg\/gensim\/GeEh2aYhOK0\/H6pSKGhtAwAJ>",
+        "user": "U0PEGPA8H",
+        "ts": "1462542001.000334",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "словарь",
+        "user": "U0PEGPA8H",
+        "ts": "1462542011.000335",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "nlp не подходит , эту тему я уже пробовал спец по nlp сказал что такую точность на таких данных не получить",
+        "user": "U0PEGPA8H",
+        "ts": "1462542167.000336",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "еще есть предположение что там идет overflow по uint64 в raw words",
+        "user": "U0PEGPA8H",
+        "ts": "1462542244.000337",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "А задача, видисо, одноразовая?",
+        "user": "U04422XJL",
+        "ts": "1462542522.000338",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8cd145f72446",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-27\/739003798132_8cd145f72446bbd4194c_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Trofimov",
+            "display_name": "mtrofimov",
+            "team": "T040HKJE3",
+            "name": "mtrofimov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "Ну то есть нужно просто разметку получить, а не систему",
+        "user": "U04422XJL",
+        "ts": "1462542534.000339",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8cd145f72446",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-27\/739003798132_8cd145f72446bbd4194c_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Trofimov",
+            "display_name": "mtrofimov",
+            "team": "T040HKJE3",
+            "name": "mtrofimov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "нет, нужна именно система",
+        "user": "U0PEGPA8H",
+        "ts": "1462542619.000340",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "А тогда откуда возникает словарь в &gt;60млн понятий при 100 миллионах строк?",
+        "user": "U04422XJL",
+        "ts": "1462542850.000341",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8cd145f72446",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-27\/739003798132_8cd145f72446bbd4194c_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Trofimov",
+            "display_name": "mtrofimov",
+            "team": "T040HKJE3",
+            "name": "mtrofimov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U04422XJL",
+            "ts": "1462542863.000000"
+        }
+    },
+    {
+        "type": "message",
+        "text": "модели не повторяются",
+        "user": "U0PEGPA8H",
+        "ts": "1462543489.000343",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "в каждой строке примерно по 7-12 слов",
+        "user": "U0PEGPA8H",
+        "ts": "1462543542.000344",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "обычно 1 слово точно не повторяется так как это модель",
+        "user": "U0PEGPA8H",
+        "ts": "1462543578.000345",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "<@U0PEGPA8H> в смысле «nlp»  не подходит?) это как ?",
+        "user": "U070Y25AS",
+        "ts": "1462545126.000346",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "fceae7bbae9f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-06-30\/7032585669_fceae7bbae9fe6bd6054_72.jpg",
+            "first_name": "Kirill",
+            "real_name": "Kirill Malev",
+            "display_name": "malev",
+            "team": "T040HKJE3",
+            "name": "malev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "так ты закинь сюда данные, мб кто-нибудь тебе поможет",
+        "user": "U070Y25AS",
+        "ts": "1462545142.000347",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "fceae7bbae9f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-06-30\/7032585669_fceae7bbae9fe6bd6054_72.jpg",
+            "first_name": "Kirill",
+            "real_name": "Kirill Malev",
+            "display_name": "malev",
+            "team": "T040HKJE3",
+            "name": "malev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "Там специфические сентенсы получаются,  есть опечатки , есть не совсем правильно постороеные предложения + слишком много мусора.",
+        "user": "U0PEGPA8H",
+        "ts": "1462545202.000348",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "поэтому nlp не очень хороший вариант",
+        "user": "U0PEGPA8H",
+        "ts": "1462545221.000349",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g9d6e5ad219b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6d9d6e5ad219b7e05bedd1b8b5cf9d32.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "Maxim",
+            "real_name": "Maxim Ponikarov",
+            "display_name": "max",
+            "team": "T040HKJE3",
+            "name": "max",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "<@U0PEGPA8H>: а что за приложуху пилите? или секрет?",
+        "user": "U0FL6RNHM",
+        "ts": "1462545641.000350",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4d24a51c3a0b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-10-26\/464406279184_4d24a51c3a0ba54118e6_72.jpg",
+            "first_name": "Aleksandr",
+            "real_name": "Aleksandr Vasilev",
+            "display_name": "avasilev",
+            "team": "T040HKJE3",
+            "name": "avasilev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "чатбот небось!",
+        "user": "U041SH27M",
+        "ts": "1462545980.000351",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "df2b1639032e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-03-23\/4138210045_df2b1639032eaa0dbcdf_72.jpg",
+            "first_name": "Max",
+            "real_name": "Max Kharchenko",
+            "display_name": "lolpig",
+            "team": "T040HKJE3",
+            "name": "lolpig",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U0DA4J82H",
+                    "U10K3LXHV",
+                    "U04CH4QBD",
+                    "U0M5S4EN6",
+                    "U041LH06L",
+                    "U0G29N5U4"
+                ],
+                "count": 6
+            }
+        ]
+    }
+]

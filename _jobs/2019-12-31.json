@@ -1,0 +1,963 @@
+[
+    {
+        "client_msg_id": "9f83f976-07d3-4ee5-93c2-cbfccb02c402",
+        "type": "message",
+        "text": "<@U86DVN6G1>  в идеале было бы пример статьи привести, чтобы сложность было видно. Мне в качестве статей с arxiv приходят в голову те, что про Mask R-CNN, RetinaNet или капсулы, например. Тяжело такое имплементить самостоятельно, да. Вот и интересно, тот же уровень имеется в виду или все-таки попроще.",
+        "user": "UCMQ8SQ57",
+        "ts": "1577787254.490200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16f6f8533438",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-29\/765761446883_16f6f8533438f85d8d7d_72.jpg",
+            "first_name": "Kseniia",
+            "real_name": "Kseniia Terekhova",
+            "display_name": "Kseniia",
+            "team": "T040HKJE3",
+            "name": "kterehova",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UCMQ8SQ57",
+            "ts": "1577787297.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s9GLP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U86DVN6G1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  в идеале было бы пример статьи привести, чтобы сложность было видно. Мне в качестве статей с arxiv приходят в голову те, что про Mask R-CNN, RetinaNet или капсулы, например. Тяжело такое имплементить самостоятельно, да. Вот и интересно, тот же уровень имеется в виду или все-таки попроще."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577470892.362300",
+        "parent_user_id": "U86DVN6G1"
+    },
+    {
+        "client_msg_id": "ed5c59ce-9db9-4ff9-8263-8d9b88510dd4",
+        "type": "message",
+        "text": "<@UCMQ8SQ57> могу дополнить парочкой: <https:\/\/arxiv.org\/abs\/1803.02077> и <https:\/\/arxiv.org\/abs\/1912.04958> . В целом я ожидаю от кандидата хороших навыков программирования и то, что он не будет бояться имплементировать статьи +- любого уровня. Понятно, что не всегда все моменты понятно, как лучше сделать. В таком случае я и другие коллеги подскажут, разумеется. Но просто не хочется, чтобы нужно было комментировать каждую строчку кода",
+        "user": "U86DVN6G1",
+        "ts": "1577787815.490600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6abeda38659b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-07-25\/708391591814_6abeda38659b2cc6d704_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Ostyakov",
+            "display_name": "ostyakov",
+            "team": "T040HKJE3",
+            "name": "pavelosta",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "arXiv.org",
+                "title": "The Contextual Loss for Image Transformation with Non-Aligned Data",
+                "title_link": "https:\/\/arxiv.org\/abs\/1803.02077",
+                "text": "Feed-forward CNNs trained for image transformation problems rely on loss functions that measure the similarity between the generated image and a target image. Most of the common loss functions...",
+                "fallback": "arXiv.org: The Contextual Loss for Image Transformation with Non-Aligned Data",
+                "from_url": "https:\/\/arxiv.org\/abs\/1803.02077",
+                "service_icon": "https:\/\/static.arxiv.org\/static\/browse\/0.2.7\/images\/icons\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/arxiv.org\/abs\/1803.02077"
+            },
+            {
+                "service_name": "arXiv.org",
+                "title": "Analyzing and Improving the Image Quality of StyleGAN",
+                "title_link": "https:\/\/arxiv.org\/abs\/1912.04958",
+                "text": "The style-based GAN architecture (StyleGAN) yields state-of-the-art results in data-driven unconditional generative image modeling. We expose and analyze several of its characteristic artifacts,...",
+                "fallback": "arXiv.org: Analyzing and Improving the Image Quality of StyleGAN",
+                "from_url": "https:\/\/arxiv.org\/abs\/1912.04958",
+                "service_icon": "https:\/\/static.arxiv.org\/static\/browse\/0.2.7\/images\/icons\/favicon.ico",
+                "id": 2,
+                "original_url": "https:\/\/arxiv.org\/abs\/1912.04958"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JG67",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UCMQ8SQ57"
+                            },
+                            {
+                                "type": "text",
+                                "text": " могу дополнить парочкой: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/abs\/1803.02077"
+                            },
+                            {
+                                "type": "text",
+                                "text": " и "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/abs\/1912.04958"
+                            },
+                            {
+                                "type": "text",
+                                "text": " . В целом я ожидаю от кандидата хороших навыков программирования и то, что он не будет бояться имплементировать статьи +- любого уровня. Понятно, что не всегда все моменты понятно, как лучше сделать. В таком случае я и другие коллеги подскажут, разумеется. Но просто не хочется, чтобы нужно было комментировать каждую строчку кода"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577470892.362300",
+        "parent_user_id": "U86DVN6G1"
+    },
+    {
+        "client_msg_id": "70ba1447-a499-47f8-9d9d-eba2d34a01e1",
+        "type": "message",
+        "text": "<@U86DVN6G1> Спасибо. Ознакомлюсь, но пока только на будущее, к сожалению. Надеюсь, кому-то ещё прояснит.",
+        "user": "UCMQ8SQ57",
+        "ts": "1577788233.491000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16f6f8533438",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-29\/765761446883_16f6f8533438f85d8d7d_72.jpg",
+            "first_name": "Kseniia",
+            "real_name": "Kseniia Terekhova",
+            "display_name": "Kseniia",
+            "team": "T040HKJE3",
+            "name": "kterehova",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "E3Z74",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U86DVN6G1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Спасибо. Ознакомлюсь, но пока только на будущее, к сожалению. Надеюсь, кому-то ещё прояснит."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577470892.362300",
+        "parent_user_id": "U86DVN6G1",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U27HU84H4",
+                    "UGECJNQ7J"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2ccbfa73-9a69-4992-83f4-113b2243d0b2",
+        "type": "message",
+        "text": "<@UFTTCDYEL> я тут мимо крокодил и просто в рамках беседы изложу свои мысли.\n“как так можно поступать?”\n\nэтот вопрос задается так, как будто это было осознанное решение взять и обидеть вас. а на самом деле билайн о вас и знать не знал. не знаю, зачем им распознавать лес, но в какой-то момент кто-то сказал, давайте сделаем сетку, чтобы людей искать, хороший пр.\nдсам сказали быстренько сделать прототип, они пошли гуглить. дальше случилось 1 — лицензии никто не читает 2 — “потом переделаем“. а про уникальность инновационность это всегда так пишут.\n\nпечально в этой истории то, что я про вас тоже нифига не знал. тут у варламова был ролик про ЛА и там было про дронов и билайн. и я подумал — какая крутая тема для ml4sg… в комментах какой-то парень скинул ссылку на вашу репу. А там чего-то ни ссылки на одс, и ссылки на данные битые, забил.\n\nМожете ещё через ЛА попробовать до билайна достучаться. То что операторы тестят две версии одного и того же это тупость и потеря времени.\n\nНо скорее всего билайн слишком неповоротлив, чтобы просто вас поддерживать или совместно влиться. Вполне вероятно, что они как большая компания и правда боятся опенсорса + свои дс ближе к телу.",
+        "user": "U6UPU6NCF",
+        "ts": "1577794953.492300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "da7a0980cb14",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-16\/1059894278758_da7a0980cb141c0df86c_72.png",
+            "first_name": "Darel",
+            "real_name": "Darel",
+            "display_name": "Darel",
+            "team": "T040HKJE3",
+            "name": "darel142857",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IC6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UFTTCDYEL"
+                            },
+                            {
+                                "type": "text",
+                                "text": " я тут мимо крокодил и просто в рамках беседы изложу свои мысли.\n“как так можно поступать?”\n\nэтот вопрос задается так, как будто это было осознанное решение взять и обидеть вас. а на самом деле билайн о вас и знать не знал. не знаю, зачем им распознавать лес, но в какой-то момент кто-то сказал, давайте сделаем сетку, чтобы людей искать, хороший пр.\nдсам сказали быстренько сделать прототип, они пошли гуглить. дальше случилось 1 — лицензии никто не читает 2 — “потом переделаем“. а про уникальность инновационность это всегда так пишут.\n\nпечально в этой истории то, что я про вас тоже нифига не знал. тут у варламова был ролик про ЛА и там было про дронов и билайн. и я подумал — какая крутая тема для ml4sg… в комментах какой-то парень скинул ссылку на вашу репу. А там чего-то ни ссылки на одс, и ссылки на данные битые, забил.\n\nМожете ещё через ЛА попробовать до билайна достучаться. То что операторы тестят две версии одного и того же это тупость и потеря времени.\n\nНо скорее всего билайн слишком неповоротлив, чтобы просто вас поддерживать или совместно влиться. Вполне вероятно, что они как большая компания и правда боятся опенсорса + свои дс ближе к телу."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L",
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "U27HU84H4",
+                    "U6SHTGD5X"
+                ],
+                "count": 2
+            },
+            {
+                "name": "wat",
+                "users": [
+                    "UE07SC3G9"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e2f9b3a4-96a3-4066-b56f-48e4a40b4ec1",
+        "type": "message",
+        "text": "<@U6UPU6NCF> Насколько я знаю ситуацию, всё сложнее, чем вы пишете. И с ЛА связывались на эту тему, и даже с самим билайном некоторый  разговор был, но тема всё выползает и выползает. Операторы не просто тестят две версии одного и того же: они тестят две версии, одна из которых работает значительно лучше, но все говорят про другую.\nИ по большому счёту пофиг бы, но куда пойдет человек получивший якобы  \"нейросетку билайна\" через десятые руки в случае технических проблем? К билайну, видимо. Что ему ответят в билайне? По этому треду видно, что ничего. При этом знай он адрес первоисточника - вероятность, что ему помогут в Лакмусе даже с учётом нехватки рабочих рук значительно выше.\nПотому-то и весь сыр-бор. Не только выдают чужой код за свой, но ещё и ломают канал обратной связи, усложняя и так не особо простую работу - и всё ради пиара. На проекте, от которого реально чья-то жизнь может зависить.",
+        "user": "UCMQ8SQ57",
+        "ts": "1577799055.498000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16f6f8533438",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-29\/765761446883_16f6f8533438f85d8d7d_72.jpg",
+            "first_name": "Kseniia",
+            "real_name": "Kseniia Terekhova",
+            "display_name": "Kseniia",
+            "team": "T040HKJE3",
+            "name": "kterehova",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UCMQ8SQ57",
+            "ts": "1577800441.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7VBzY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U6UPU6NCF"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Насколько я знаю ситуацию, всё сложнее, чем вы пишете. И с ЛА связывались на эту тему, и даже с самим билайном некоторый  разговор был, но тема всё выползает и выползает. Операторы не просто тестят две версии одного и того же: они тестят две версии, одна из которых работает значительно лучше, но все говорят про другую.\nИ по большому счёту пофиг бы, но куда пойдет человек получивший якобы  \"нейросетку билайна\" через десятые руки в случае технических проблем? К билайну, видимо. Что ему ответят в билайне? По этому треду видно, что ничего. При этом знай он адрес первоисточника - вероятность, что ему помогут в Лакмусе даже с учётом нехватки рабочих рук значительно выше.\nПотому-то и весь сыр-бор. Не только выдают чужой код за свой, но ещё и ломают канал обратной связи, усложняя и так не особо простую работу - и всё ради пиара. На проекте, от которого реально чья-то жизнь может зависить."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0JHK9001",
+                    "UG38LQ0DV",
+                    "UQ9UCJT0T",
+                    "U6SHTGD5X",
+                    "U061WBASK",
+                    "ULPRYQNS2",
+                    "U2QPJ4MNE"
+                ],
+                "count": 7
+            },
+            {
+                "name": "pepe_sad",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UQ9UCJT0T",
+                    "UG38LQ0DV",
+                    "ULPRYQNS2"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a8d80e6c-da71-481f-b2b0-e8ce88752da3",
+        "type": "message",
+        "text": "<@U6UPU6NCF> добрый день. Самое первое и ужасное - что лицензии никто не читает - тут, увы, основной неприятный момент. Но непрочтение лицензии вовсе не освобождает от необходимости её соблюдения. Ну, тут, как часто на рынке бывает, картина такая, что одни пиарятся, у других работает.",
+        "user": "UG38LQ0DV",
+        "ts": "1577800223.498500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1194a0bc396b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-20\/1326321422737_1194a0bc396b9e8b7701_72.jpg",
+            "first_name": "Palladdiumm",
+            "real_name": "Palladdiumm",
+            "display_name": "Palladdiumm",
+            "team": "T040HKJE3",
+            "name": "darkstranger85",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4Nr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U6UPU6NCF"
+                            },
+                            {
+                                "type": "text",
+                                "text": " добрый день. Самое первое и ужасное - что лицензии никто не читает - тут, увы, основной неприятный момент. Но непрочтение лицензии вовсе не освобождает от необходимости её соблюдения. Ну, тут, как часто на рынке бывает, картина такая, что одни пиарятся, у других работает."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L",
+        "reactions": [
+            {
+                "name": "true-story",
+                "users": [
+                    "UQ9UCJT0T",
+                    "U4WM1939Q"
+                ],
+                "count": 2
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "UCMQ8SQ57"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4331ebfc-a2e8-44d6-8cdc-a383f4b42d1a",
+        "type": "message",
+        "text": "<@UCMQ8SQ57>\nВсе говорят про билайн, потому что они занимаются тем, чтобы про них говорили. У лакмуса нет такой цели, хотя сейчас очень хорошая возможность заявить о себе на почве этого конфликта публично, а не в рамках треда.",
+        "user": "U6UPU6NCF",
+        "ts": "1577801268.499200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "da7a0980cb14",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-16\/1059894278758_da7a0980cb141c0df86c_72.png",
+            "first_name": "Darel",
+            "real_name": "Darel",
+            "display_name": "Darel",
+            "team": "T040HKJE3",
+            "name": "darel142857",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QgOM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UCMQ8SQ57"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nВсе говорят про билайн, потому что они занимаются тем, чтобы про них говорили. У лакмуса нет такой цели, хотя сейчас очень хорошая возможность заявить о себе на почве этого конфликта публично, а не в рамках треда."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L"
+    },
+    {
+        "client_msg_id": "939d5a02-0d66-473f-85df-161a9ebd439a",
+        "type": "message",
+        "text": "<@U6UPU6NCF> Как раз думаем над этим.",
+        "user": "UCMQ8SQ57",
+        "ts": "1577803395.499800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "16f6f8533438",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-29\/765761446883_16f6f8533438f85d8d7d_72.jpg",
+            "first_name": "Kseniia",
+            "real_name": "Kseniia Terekhova",
+            "display_name": "Kseniia",
+            "team": "T040HKJE3",
+            "name": "kterehova",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rBSsK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U6UPU6NCF"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Как раз думаем над этим."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L"
+    },
+    {
+        "client_msg_id": "7832658d-2782-4d96-aa53-f27168dced0a",
+        "type": "message",
+        "text": "Уважаемые коллеги,\nМы изучили позицию команды Лакмус и по существу вопроса можем сказать следующее:\n\nразработка нейросети для Лиза Алерт началась около года назад. Для обучения мы использовали open-source dataset Imagenet из 14 млн фотографий и 200 фотографий, которые нам передали пилоты поискового отряда\nСледующим этапом мы решили перейти на архитектуру RetinaNet. Как базис мы выбрали Stanford Drone Dataset (ссылка на статью ниже) и обученную на его базе нейросеть <https:\/\/github.com\/priya-dwivedi\/Deep-Learning\/tree\/master\/retinanet_aerial_detection>. Текущая версия, натренированная на датасете от коллег из LizaAlert, стала распознавать не только людей, но и, например, автомобили. Похожесть кода объясняется тем, что и мы, и ребята из Lacmus использовали одни и те же части кода из открытого репозитория keras-retinanet (распространяются по лицензии Apache License Version 2.0.).\nНа всех этапах создания нейросети мы опирались на лучшие практики, которые есть вокруг нас. Разумеется, с учетом их лицензирования. О том, что к нам есть вопросы со стороны членов сообщества Lacmus, мы узнали только из данного треда.\n\nМы готовы организовать встречу или митап для всех интересующихся вопросом, чтобы рассказать о всех этапах развития нейросети и обсудить возникшие вопросы.\n\n\nИсточники:\nСтатья про Retinanet + гитхаб\n<https:\/\/towardsdatascience.com\/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6>\n<https:\/\/github.com\/priya-dwivedi\/aerial_pedestrian_detection>\n\nСтатья про Retinanet + гитхаб\n<https:\/\/towardsdatascience.com\/object-detection-on-aerial-imagery-using-retinanet-626130ba2203>\n<https:\/\/github.com\/kapil-varshney\/esri_retinanet>\n\nГихаб библиотеки keras-retinanet\n<https:\/\/github.com\/fizyr\/keras-retinanet>\n\nПро нейронку и в частности Retinanet\n<https:\/\/www.researchgate.net\/publication\/333637918_HUMAN_DETECTION_BASED_ON_A_SEQUENCE_OF_THERMAL_IMAGES_USING_DEEP_LEARNING>\n\nСтатья про Retinanet\n<https:\/\/towardsdatascience.com\/review-retinanet-focal-loss-object-detection-38fba6afabe4>\n\nСтатья про Retinanet\n<https:\/\/arxiv.org\/abs\/1708.02002>\n\nХотим обратить внимание, что нейронная сеть используется для создания дополнительных возможностей по поиску пропавших людей. Это благотворительные движение для всех участников проекта, включая Билайн, и его цель - не в получении прибыли. Мы вместе делаем хорошее и важное дело для всего человечества. С учетом этого предлагаем не искать возможности монетизации проекта, а наоборот, приложить совместные усилия для развития нейронной сети, позволяющей еще более эффективно искать и находить потерявшихся людей.\nМы предлагаем всем разработчикам вместе работать над этим проектом и помогать отряду максимально быстро находить людей, нуждающихся в помощи. Многие из нас говорят что хотят сделать мир лучше. Этот проект - реальная возможность, чтобы объединиться всем вместе и действительно изменить жизнь к лучшему.",
+        "user": "UBE0WNL1L",
+        "ts": "1577806903.000600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d5236b0bf6de",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/875947599235_d5236b0bf6de3b9c6cf7_72.jpg",
+            "first_name": "",
+            "real_name": "Yuri Romanenko",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "yuri.romanenkou",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Medium",
+                "title": "Pedestrian detection in Aerial Images using RetinaNet",
+                "title_link": "https:\/\/towardsdatascience.com\/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6",
+                "text": "Doing cool things with data!",
+                "fallback": "Medium: Pedestrian detection in Aerial Images using RetinaNet",
+                "image_url": "https:\/\/miro.medium.com\/freeze\/max\/600\/1*3oQ04PYG346pf72gadOsog.gif",
+                "fields": [
+                    {
+                        "title": "Reading time",
+                        "value": "5 min read",
+                        "short": true
+                    }
+                ],
+                "ts": 1555150861,
+                "from_url": "https:\/\/towardsdatascience.com\/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6",
+                "image_width": 187,
+                "image_height": 250,
+                "image_bytes": 124469,
+                "service_icon": "https:\/\/cdn-images-1.medium.com\/fit\/c\/152\/152\/1*8I-HPL0bfoIzGied-dzOvA.png",
+                "id": 1,
+                "original_url": "https:\/\/towardsdatascience.com\/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6"
+            },
+            {
+                "service_name": "Medium",
+                "title": "Object Detection On Aerial Imagery Using RetinaNet",
+                "title_link": "https:\/\/towardsdatascience.com\/object-detection-on-aerial-imagery-using-retinanet-626130ba2203",
+                "text": "ESRI Data Science Challenge 2019 3rd place solution",
+                "fallback": "Medium: Object Detection On Aerial Imagery Using RetinaNet",
+                "image_url": "https:\/\/miro.medium.com\/max\/448\/1*E1k5m6Ua4LVodSsJXEUG-Q.jpeg",
+                "fields": [
+                    {
+                        "title": "Reading time",
+                        "value": "12 min read",
+                        "short": true
+                    }
+                ],
+                "ts": 1552831635,
+                "from_url": "https:\/\/towardsdatascience.com\/object-detection-on-aerial-imagery-using-retinanet-626130ba2203",
+                "image_width": 448,
+                "image_height": 224,
+                "image_bytes": 38071,
+                "service_icon": "https:\/\/cdn-images-1.medium.com\/fit\/c\/152\/152\/1*8I-HPL0bfoIzGied-dzOvA.png",
+                "id": 2,
+                "original_url": "https:\/\/towardsdatascience.com\/object-detection-on-aerial-imagery-using-retinanet-626130ba2203"
+            },
+            {
+                "service_name": "Medium",
+                "title": "Review: RetinaNet — Focal Loss (Object Detection)",
+                "title_link": "https:\/\/towardsdatascience.com\/review-retinanet-focal-loss-object-detection-38fba6afabe4",
+                "text": "One-Stage Detector, With Focal Loss and RetinaNet Using ResNet+FPN, Surpass the Accuracy of Two-Stage Detectors, Faster R-CNN",
+                "fallback": "Medium: Review: RetinaNet — Focal Loss (Object Detection)",
+                "image_url": "https:\/\/miro.medium.com\/freeze\/max\/600\/0*E30eIZ5aCGjhCz9E.gif",
+                "fields": [
+                    {
+                        "title": "Reading time",
+                        "value": "11 min read",
+                        "short": true
+                    }
+                ],
+                "ts": 1553566663,
+                "from_url": "https:\/\/towardsdatascience.com\/review-retinanet-focal-loss-object-detection-38fba6afabe4",
+                "image_width": 444,
+                "image_height": 250,
+                "image_bytes": 57165,
+                "service_icon": "https:\/\/cdn-images-1.medium.com\/fit\/c\/152\/152\/1*8I-HPL0bfoIzGied-dzOvA.png",
+                "id": 3,
+                "original_url": "https:\/\/towardsdatascience.com\/review-retinanet-focal-loss-object-detection-38fba6afabe4"
+            },
+            {
+                "service_name": "arXiv.org",
+                "title": "Focal Loss for Dense Object Detection",
+                "title_link": "https:\/\/arxiv.org\/abs\/1708.02002",
+                "text": "The highest accuracy object detectors to date are based on a two-stage approach popularized by R-CNN, where a classifier is applied to a sparse set of candidate object locations. In contrast,...",
+                "fallback": "arXiv.org: Focal Loss for Dense Object Detection",
+                "from_url": "https:\/\/arxiv.org\/abs\/1708.02002",
+                "service_icon": "https:\/\/static.arxiv.org\/static\/browse\/0.2.7\/images\/icons\/favicon.ico",
+                "id": 4,
+                "original_url": "https:\/\/arxiv.org\/abs\/1708.02002"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4pi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Уважаемые коллеги,\nМы изучили позицию команды Лакмус и по существу вопроса можем сказать следующее:\n\nразработка нейросети для Лиза Алерт началась около года назад. Для обучения мы использовали open-source dataset Imagenet из 14 млн фотографий и 200 фотографий, которые нам передали пилоты поискового отряда\nСледующим этапом мы решили перейти на архитектуру RetinaNet. Как базис мы выбрали Stanford Drone Dataset (ссылка на статью ниже) и обученную на его базе нейросеть "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/priya-dwivedi\/Deep-Learning\/tree\/master\/retinanet_aerial_detection"
+                            },
+                            {
+                                "type": "text",
+                                "text": ". Текущая версия, натренированная на датасете от коллег из LizaAlert, стала распознавать не только людей, но и, например, автомобили. Похожесть кода объясняется тем, что и мы, и ребята из Lacmus использовали одни и те же части кода из открытого репозитория keras-retinanet (распространяются по лицензии Apache License Version 2.0.).\nНа всех этапах создания нейросети мы опирались на лучшие практики, которые есть вокруг нас. Разумеется, с учетом их лицензирования. О том, что к нам есть вопросы со стороны членов сообщества Lacmus, мы узнали только из данного треда.\n\nМы готовы организовать встречу или митап для всех интересующихся вопросом, чтобы рассказать о всех этапах развития нейросети и обсудить возникшие вопросы.\n\n\nИсточники:\nСтатья про Retinanet + гитхаб\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/towardsdatascience.com\/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/priya-dwivedi\/aerial_pedestrian_detection"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nСтатья про Retinanet + гитхаб\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/towardsdatascience.com\/object-detection-on-aerial-imagery-using-retinanet-626130ba2203"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/kapil-varshney\/esri_retinanet"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nГихаб библиотеки keras-retinanet\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/fizyr\/keras-retinanet"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nПро нейронку и в частности Retinanet\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.researchgate.net\/publication\/333637918_HUMAN_DETECTION_BASED_ON_A_SEQUENCE_OF_THERMAL_IMAGES_USING_DEEP_LEARNING"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nСтатья про Retinanet\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/towardsdatascience.com\/review-retinanet-focal-loss-object-detection-38fba6afabe4"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nСтатья про Retinanet\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/abs\/1708.02002"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nХотим обратить внимание, что нейронная сеть используется для создания дополнительных возможностей по поиску пропавших людей. Это благотворительные движение для всех участников проекта, включая Билайн, и его цель - не в получении прибыли. Мы вместе делаем хорошее и важное дело для всего человечества. С учетом этого предлагаем не искать возможности монетизации проекта, а наоборот, приложить совместные усилия для развития нейронной сети, позволяющей еще более эффективно искать и находить потерявшихся людей.\nМы предлагаем всем разработчикам вместе работать над этим проектом и помогать отряду максимально быстро находить людей, нуждающихся в помощи. Многие из нас говорят что хотят сделать мир лучше. Этот проект - реальная возможность, чтобы объединиться всем вместе и действительно изменить жизнь к лучшему."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "UCMQ8SQ57",
+                    "UG38LQ0DV",
+                    "U9DHYLKM2",
+                    "ULMNERS77",
+                    "U828HFY0G"
+                ],
+                "count": 5
+            },
+            {
+                "name": "popcornparrot",
+                "users": [
+                    "U7SFPUVQF",
+                    "UG38LQ0DV"
+                ],
+                "count": 2
+            },
+            {
+                "name": "el_risitas",
+                "users": [
+                    "U5GCU82HX",
+                    "ULPRYQNS2",
+                    "UG38LQ0DV",
+                    "U9DHYLKM2",
+                    "U48A49NRJ",
+                    "U74DLUWUC",
+                    "UBS459X19",
+                    "U1YK4SV6W",
+                    "U7VDWFSG3"
+                ],
+                "count": 9
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U0H7VBQQ1"
+                ],
+                "count": 1
+            },
+            {
+                "name": "eww",
+                "users": [
+                    "U4WM1939Q",
+                    "UG38LQ0DV",
+                    "UBS459X19"
+                ],
+                "count": 3
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "UG38LQ0DV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4CA7DF89-1D80-43B4-AE9B-42350E8972D2",
+        "type": "message",
+        "text": "«Цель - не в получении прибыли», это понятно, но когда корпорация делает что-то общественно полезное, это в итоге все равно, так или иначе, монетизируется (через имидж компании и так далее) ",
+        "user": "U86V0LFDG",
+        "ts": "1577807026.002600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4eafbe35b445",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-07-02\/391361653650_4eafbe35b445f6b1375c_72.jpg",
+            "first_name": "Andrey",
+            "real_name": "Andrey Tyukavin",
+            "display_name": "andreytyu",
+            "team": "T040HKJE3",
+            "name": "geotyukavin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nMX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "«Цель - не в получении прибыли», это понятно, но когда корпорация делает что-то общественно полезное, это в итоге все равно, так или иначе, монетизируется (через имидж компании и так далее) "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U7VDWFSG3",
+                    "U828HFY0G"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e03333fe-4d69-45a1-bab0-5901e6fcfb71",
+        "type": "message",
+        "text": "<@UBE0WNL1L> \nВсе правильно, мы тоже использовали sdd и эти вещи, когда обучали модель, о чем мы говорили readme к нашей версии сети.\n\nДаже если вы взяли и проделали ту же работу - у вас не должны были бы получиться *такие же васа модели*. Если бы этого не было то мы бы не топали бы с притензиями к вам. Ибо если я повторю эксперемент снова с теми же выходными данными у меня не получатся такие же веса. А это значит что наши наработки все таки были использованы и лицензия gnu была нарушена. \n\nА так да, нашу сетку можно обучить распечатать машины например в том числе с использованием sdd.\n\nkeras_retinanet\/bin\/train.py --weights snapshots\/resnet50_base_best.h5 --freeze-backbone --config config.ini pascal ..\/data\/LADD\n\n+ вы использовали наши данные для обучения.",
+        "user": "UFTTCDYEL",
+        "ts": "1577820012.004000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3672c4487d8f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-21\/882167538820_3672c4487d8fc7d176b9_72.jpg",
+            "first_name": "Gorgy",
+            "real_name": "Gorgy Perevozchikov",
+            "display_name": "gosha20777",
+            "team": "T040HKJE3",
+            "name": "gosha20777",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UFTTCDYEL",
+            "ts": "1577820052.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SX5G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UBE0WNL1L"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \nВсе правильно, мы тоже использовали sdd и эти вещи, когда обучали модель, о чем мы говорили readme к нашей версии сети.\n\nДаже если вы взяли и проделали ту же работу - у вас не должны были бы получиться "
+                            },
+                            {
+                                "type": "text",
+                                "text": "такие же васа модели",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ". Если бы этого не было то мы бы не топали бы с притензиями к вам. Ибо если я повторю эксперемент снова с теми же выходными данными у меня не получатся такие же веса. А это значит что наши наработки все таки были использованы и лицензия gnu была нарушена. \n\nА так да, нашу сетку можно обучить распечатать машины например в том числе с использованием sdd.\n\nkeras_retinanet\/bin\/train.py --weights snapshots\/resnet50_base_best.h5 --freeze-backbone --config config.ini pascal ..\/data\/LADD\n\n+ вы использовали наши данные для обучения."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L",
+        "reactions": [
+            {
+                "name": "true-story",
+                "users": [
+                    "U06J1LG1M",
+                    "UG38LQ0DV",
+                    "UCMQ8SQ57",
+                    "U3CJPQ4HX",
+                    "U4WM1939Q",
+                    "ULPRYQNS2",
+                    "U9DHYLKM2",
+                    "UDSEN1N2E",
+                    "URDUG484V",
+                    "U7VDWFSG3",
+                    "U828HFY0G"
+                ],
+                "count": 11
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UG38LQ0DV",
+                    "UCMQ8SQ57",
+                    "U3CJPQ4HX",
+                    "U6R8NDVDH",
+                    "ULPRYQNS2",
+                    "ULMML7Z5K",
+                    "U9DHYLKM2",
+                    "UDSEN1N2E",
+                    "UDD345XLG",
+                    "U7VDWFSG3",
+                    "U828HFY0G"
+                ],
+                "count": 11
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ef3740f3-22ab-40f8-ba28-b8f438fee2eb",
+        "type": "message",
+        "text": "<@UFTTCDYEL> показатели метрик там также были практически аналогичными. На статус весны 2019, точнее дату не вспомню",
+        "user": "UG38LQ0DV",
+        "ts": "1577822291.004900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1194a0bc396b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-20\/1326321422737_1194a0bc396b9e8b7701_72.jpg",
+            "first_name": "Palladdiumm",
+            "real_name": "Palladdiumm",
+            "display_name": "Palladdiumm",
+            "team": "T040HKJE3",
+            "name": "darkstranger85",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ef6Yi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UFTTCDYEL"
+                            },
+                            {
+                                "type": "text",
+                                "text": " показатели метрик там также были практически аналогичными. На статус весны 2019, точнее дату не вспомню"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577455306.340500",
+        "parent_user_id": "UBE0WNL1L"
+    },
+    {
+        "client_msg_id": "6c01cbb9-6305-447a-b10f-a6d1c6cd7ab7",
+        "type": "message",
+        "text": "<@UBD820W3C> рассматриваете ли возможность part time?",
+        "user": "UNP5Y7YV7",
+        "ts": "1577863144.006500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "c015a7e2cf6a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-30\/1393594672437_c015a7e2cf6ac1cd79f0_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Antonchik",
+            "display_name": "Vladimir Antonchik",
+            "team": "T040HKJE3",
+            "name": "v.antonchik",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "72a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UBD820W3C"
+                            },
+                            {
+                                "type": "text",
+                                "text": " рассматриваете ли возможность part time?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1577250542.188400",
+        "parent_user_id": "UBD820W3C"
+    }
+]

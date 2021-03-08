@@ -1,0 +1,995 @@
+[
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1502350899.595680",
+        "user": "U6LR2F62Z",
+        "text": "<@U6LR2F62Z> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "поправьте, пожалуйста, описание в соответствии с указанным в шапке канала",
+        "user": "U0FEJNBGQ",
+        "ts": "1502351271.707547",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502345633.300374",
+        "parent_user_id": "U654P7S91"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1502353841.553582",
+        "user": "U6L2FP1R6",
+        "text": "<@U6L2FP1R6> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1502354384.742078",
+        "user": "U6MQFEZCP",
+        "text": "<@U6MQFEZCP> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1502363745.771252",
+        "user": "U6LMGGEMR",
+        "text": "<@U6LMGGEMR> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "Всем привет!\nВ компании PulsePoint (New York) есть вакансия *senior data engineer* на удаленную работу.\n\nPulsePoint Data Engineering team plays a key role in our technology company that’s experiencing exponential growth. Our data pipeline processes over 45 billion impressions a day (&gt; 18TB of data, 160 TB uncompressed). This data is used to generate reports, update budgets, and drive our optimization engines. We do all this while running against extremely tight SLAs and provide stats and reports as close to real-time as possible.\n\nThe most exciting part about working at PulsePoint is the enormous potential for personal and professional growth. We are always seeking new and better tools to help us meet challenges such as adopting proven open-source technologies to make our data infrastructure more nimble, scalable and robust.  Some of the cutting edge technologies we have recently implemented are Kafka, Spark Streaming, Docker and Mesos.  \n\n*What you’ll be doing*:\n- Design, build and maintain reliable and scalable enterprise level distributed transactional data processing systems for scaling the existing business and supporting new business initiatives\nOptimize jobs to utilize Kafka, Hadoop, Vertica, Spark Streaming and Mesos resources in the most efficient way\n- Monitor and provide transparency into data quality across systems (accuracy, consistency, completeness, etc)\n- Increase accessibility and effectiveness of data (work with analysts, data scientists, and developers to build\/deploy tools and datasets that fit their use cases)\n- Collaborate within a small team with diverse technology backgrounds\n- Provide mentorship and guidance to junior team members\n \n*Team Responsibilities*:\n- Installation, upkeep, maintenance and monitoring of Kafka, Hadoop, Vertica, RDBMS\n- Ingest, validate and process internal &amp; third party data\n- Create, maintain and monitor data flows in Hive, SQL and Vertica for consistency, accuracy and lag time\n- Maintain and enhance framework for jobs(primarily aggregate jobs in Hive) \n- Create different consumers for data in Kafka such as flafka for Hadoop, flume for Vertica and Spark Streaming for near time aggregation\n- Train Developers\/Analysts on tools to pull data\n- Tool evaluation\/selection\/implementation\n- Backups\/Retention\/High Availability\/Capacity Planning\n- Disaster Recovery- We have all our core data services in another Data Center for complete business continuity\n- Review\/Approval - DDL for database, Hive Framework jobs and Spark Streaming to make sure they meet our standards\n- 24*7 On call rotation for Production support\n\n*Technologies We Use*:\n- Chronos - for job scheduling\n- Docker - Packaged container image with all dependencies\n- Graphite\/Beacon - for monitoring data flows\n- Hive - SQL data warehouse layer for data in HDFS\n- Impala- faster SQL layer on top of Hive\n- Kafka- distributed commit log storage \n- Marathon – cluster wide init for Docker Containers\n- Mesos - Distributed cluster resource manager\n- Spark Streaming - Near time aggregation\n- SQL Server - Reliable OLTP RDBMS \n- Sqoop - Import\/Export data to RDBMS\n- Vertica - fast parallel data warehouse \n\n*Required Skills*:\n- BA\/BS degree in Computer science or related field\n- 5+ years of software engineering experience\n- Knowledge and exposure to distributed production systems i.e Hadoop is a huge plus\n- Proficiency in Linux\n- Fluency in Python, Experience in Scala\/Java is a huge plus\n- Strong understanding of RDBMS, SQL;\n- Passion for engineering and computer science around data\n- Willingness to participate in 24x7 on-call rotation\n\n*От себя напишу про плюшки*:\n -  компания готова платить $50\/hr. (450 000р\/месяц после вычета налогов)\n - командировки в штаты 2-3 раза в год\n - возможность релокации в США\/Великобританию\n - коворкинг в москве\n - оплата конференций и прочего образования",
+        "user": "U0K4Y1JAK",
+        "ts": "1502365292.204858",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "05628d5016c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-21\/244664874148_05628d5016c46c9cdf05_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Mezentsev",
+            "display_name": "dataPAPA",
+            "team": "T040HKJE3",
+            "name": "pmezentsev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0K4Y1JAK",
+            "ts": "1502365440.000000"
+        },
+        "thread_ts": "1502365292.204858",
+        "reply_count": 8,
+        "reply_users_count": 7,
+        "latest_reply": "1502970254.000073",
+        "reply_users": [
+            "U302AALBS",
+            "U3K7PNTML",
+            "U0K4Y1JAK",
+            "U04ELQZAU",
+            "U2N853RGF",
+            "U1Q0B8KMJ",
+            "U4BB42KSM"
+        ],
+        "replies": [
+            {
+                "user": "U302AALBS",
+                "ts": "1502366293.499585"
+            },
+            {
+                "user": "U3K7PNTML",
+                "ts": "1502366491.563020"
+            },
+            {
+                "user": "U0K4Y1JAK",
+                "ts": "1502366535.577166"
+            },
+            {
+                "user": "U04ELQZAU",
+                "ts": "1502374158.943510"
+            },
+            {
+                "user": "U2N853RGF",
+                "ts": "1502375060.474229"
+            },
+            {
+                "user": "U0K4Y1JAK",
+                "ts": "1502378372.543019"
+            },
+            {
+                "user": "U1Q0B8KMJ",
+                "ts": "1502443111.198005"
+            },
+            {
+                "user": "U4BB42KSM",
+                "ts": "1502970254.000073"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1::skin-tone-6",
+                "users": [
+                    "U041SH27M",
+                    "U09JEC7V0",
+                    "U3XDWVD3P",
+                    "U07V1URT9",
+                    "U4CKAGJMT",
+                    "U2N853RGF",
+                    "U3K7PNTML",
+                    "U061VJ5SB",
+                    "U44A57Q1G",
+                    "U0JHK9001",
+                    "U27SUBTB9",
+                    "U3Z5KPTRQ",
+                    "U6L6P415Y",
+                    "U1ULFPM0U",
+                    "U6H9L5ERL",
+                    "U3PLVL3RD",
+                    "U049HDR2Z",
+                    "U1Q0B8KMJ",
+                    "U10K3LXHV",
+                    "U37RBCFJR",
+                    "U1FS1U3B7"
+                ],
+                "count": 21
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "U041SH27M",
+                    "U09JEC7V0",
+                    "U3XDWVD3P",
+                    "U32H8EW2F",
+                    "U6L08K8KS",
+                    "U07V1URT9",
+                    "U2N853RGF",
+                    "U04422XJL",
+                    "U3ULV5ATU",
+                    "U4M771QHX",
+                    "U44A57Q1G",
+                    "U0JHK9001",
+                    "U3172NP4Y",
+                    "U3Z5KPTRQ",
+                    "U342T2PT2",
+                    "U6L6P415Y",
+                    "U1ULFPM0U",
+                    "U59AUU0AJ",
+                    "U3PLVL3RD",
+                    "U0JTMFHDE",
+                    "U0Q3USC0Z",
+                    "U1J5L3NDP",
+                    "U1CMPEWPQ",
+                    "U37RBCFJR",
+                    "U1D6DT6HE",
+                    "U6RMMFRB5"
+                ],
+                "count": 26
+            },
+            {
+                "name": "moneybag",
+                "users": [
+                    "U041SH27M",
+                    "U09JEC7V0",
+                    "U3XDWVD3P",
+                    "U32H8EW2F",
+                    "U6BRZBJ72",
+                    "U07V1URT9",
+                    "U2N853RGF",
+                    "U302AALBS",
+                    "U04422XJL",
+                    "U18PYFC9L",
+                    "U60EETE7N",
+                    "U07159GKF",
+                    "U4WGFD012",
+                    "U37A9KAUE",
+                    "U1LHE347N",
+                    "U44A57Q1G",
+                    "U1J5JCGKE",
+                    "U36Q9NJMD",
+                    "U5ZKCNKA7",
+                    "U3172NP4Y",
+                    "U27SUBTB9",
+                    "U4JQS8LF5",
+                    "U3Z5KPTRQ",
+                    "U3USDBUMP",
+                    "U0QPVMAFR",
+                    "U6L6P415Y",
+                    "U1ULFPM0U",
+                    "U59AUU0AJ",
+                    "U3PLVL3RD",
+                    "U1CMPEWPQ",
+                    "U0L4KM9R9",
+                    "U049HDR2Z",
+                    "U37RBCFJR",
+                    "U0AL6V5TN",
+                    "U6L08K8KS",
+                    "U1D6DT6HE"
+                ],
+                "count": 36
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U302AALBS",
+                    "U1UNFRQ1K",
+                    "U1LHE347N",
+                    "U4M771QHX",
+                    "U3172NP4Y",
+                    "U27SUBTB9",
+                    "U6L6P415Y",
+                    "U1ULFPM0U",
+                    "U04ELQZAU",
+                    "U2LGQMC4D",
+                    "U0ZL0PY6S",
+                    "U37RBCFJR",
+                    "U0AL6V5TN",
+                    "U5J0XPR0W"
+                ],
+                "count": 14
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Ставки в <#C04DA5FUF|_jobs> повышаются.",
+        "user": "U302AALBS",
+        "ts": "1502366293.499585",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7c366c37001c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-16\/1193921128180_7c366c37001c886dc893_72.jpg",
+            "first_name": "Владимир",
+            "real_name": "Владимир Яшин",
+            "display_name": "vdyashin",
+            "team": "T040HKJE3",
+            "name": "vdyashin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502365292.204858",
+        "parent_user_id": "U0K4Y1JAK"
+    },
+    {
+        "type": "message",
+        "text": "А связаться как и с кем -- не написали.\n<@U0K4Y1JAK> -- в лс?",
+        "user": "U3K7PNTML",
+        "ts": "1502366491.563020",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8d51f0926361",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-01-17\/128278815266_8d51f0926361c573895b_72.jpg",
+            "first_name": "Bogdan",
+            "real_name": "Bogdan Ribitskiy",
+            "display_name": "ribitskiyb",
+            "team": "T040HKJE3",
+            "name": "ribitskiyb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502365292.204858",
+        "parent_user_id": "U0K4Y1JAK"
+    },
+    {
+        "type": "message",
+        "text": "Пиши мне",
+        "user": "U0K4Y1JAK",
+        "ts": "1502366535.577166",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "05628d5016c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-21\/244664874148_05628d5016c46c9cdf05_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Mezentsev",
+            "display_name": "dataPAPA",
+            "team": "T040HKJE3",
+            "name": "pmezentsev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502365292.204858",
+        "parent_user_id": "U0K4Y1JAK"
+    },
+    {
+        "type": "message",
+        "text": "&gt; после вычета налогов \nПредлагается оформить ИП? Или есть какая-нибудь российская фирма-посредник?",
+        "user": "U04ELQZAU",
+        "ts": "1502374158.943510",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f6bc50fa5754",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-10-20\/93944572805_f6bc50fa575469918b41_72.png",
+            "first_name": "Артём",
+            "real_name": "Артём Соболев",
+            "display_name": "asobolev",
+            "team": "T040HKJE3",
+            "name": "asobolev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U04ELQZAU",
+            "ts": "1502374256.000000"
+        },
+        "thread_ts": "1502365292.204858",
+        "parent_user_id": "U0K4Y1JAK"
+    },
+    {
+        "type": "message",
+        "text": "<@U04ELQZAU> да какая разница?! :parrot::omnomnom::moneys:",
+        "user": "U2N853RGF",
+        "ts": "1502375060.474229",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502365292.204858",
+        "parent_user_id": "U0K4Y1JAK",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U3K7PNTML",
+                    "U4J4T9MMF"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Да, работа через ип",
+        "user": "U0K4Y1JAK",
+        "ts": "1502378372.543019",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "05628d5016c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-21\/244664874148_05628d5016c46c9cdf05_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Mezentsev",
+            "display_name": "dataPAPA",
+            "team": "T040HKJE3",
+            "name": "pmezentsev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502365292.204858",
+        "parent_user_id": "U0K4Y1JAK"
+    },
+    {
+        "type": "message",
+        "text": "Disclaimer: не про DS. Подробности в треде. Включая вилку.",
+        "user": "U2AM8PRMM",
+        "ts": "1502380756.016144",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gbc2879537f0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0abc2879537f0c8fbbd8d97dc72f5ae0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Ruslan",
+            "real_name": "Ruslan Al-Fakikh",
+            "display_name": "metaruslan",
+            "team": "T040HKJE3",
+            "name": "metaruslan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U2AM8PRMM",
+            "ts": "1502380936.000000"
+        },
+        "thread_ts": "1502380756.016144",
+        "reply_count": 7,
+        "reply_users_count": 4,
+        "latest_reply": "1502385061.397511",
+        "reply_users": [
+            "U2AM8PRMM",
+            "U3XDWVD3P",
+            "U04423D74",
+            "U2N853RGF"
+        ],
+        "replies": [
+            {
+                "user": "U2AM8PRMM",
+                "ts": "1502380770.024752"
+            },
+            {
+                "user": "U2AM8PRMM",
+                "ts": "1502380842.070392"
+            },
+            {
+                "user": "U3XDWVD3P",
+                "ts": "1502381031.186217"
+            },
+            {
+                "user": "U2AM8PRMM",
+                "ts": "1502383189.379453"
+            },
+            {
+                "user": "U04423D74",
+                "ts": "1502383239.406541"
+            },
+            {
+                "user": "U2N853RGF",
+                "ts": "1502384956.342256"
+            },
+            {
+                "user": "U2AM8PRMM",
+                "ts": "1502385061.397511"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U1NLYUY5N",
+                    "U0K4Y1JAK"
+                ],
+                "count": 2
+            },
+            {
+                "name": "fork",
+                "users": [
+                    "U0DA4J82H",
+                    "U4UD5SLFQ"
+                ],
+                "count": 2
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U0DA4J82H",
+                    "U3XDWVD3P",
+                    "U07159GKF",
+                    "U0KQ5M6KX",
+                    "U065VP6F7",
+                    "U1GMCNV3M",
+                    "U4UD5SLFQ",
+                    "U1Z40FGQ6",
+                    "U60EETE7N",
+                    "U0L4KM9R9",
+                    "U10K3LXHV",
+                    "U1D6DT6HE"
+                ],
+                "count": 12
+            },
+            {
+                "name": "chains",
+                "users": [
+                    "U0DA4J82H",
+                    "U5R6WCSBU"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Удаленная работа на США, Boston. Full-time. Интеграционный проект. Известная мировая компания.\nТребуются Senior Java программисты с опытом MuleSoft и разговорным английским.\nЗаработная плата $28\/час, но повторю, что full-time, то есть $4500-5000 в месяц.\nПишите в личку.",
+        "user": "U2AM8PRMM",
+        "ts": "1502380770.024752",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gbc2879537f0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0abc2879537f0c8fbbd8d97dc72f5ae0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Ruslan",
+            "real_name": "Ruslan Al-Fakikh",
+            "display_name": "metaruslan",
+            "team": "T040HKJE3",
+            "name": "metaruslan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502380756.016144",
+        "parent_user_id": "U2AM8PRMM"
+    },
+    {
+        "type": "message",
+        "text": "не ругайте сильно за оффтоп:) Мне посоветовали в <#C0SGCGB52|career>, что сюда можно так под тред оффтоп спрятать.",
+        "user": "U2AM8PRMM",
+        "ts": "1502380842.070392",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gbc2879537f0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0abc2879537f0c8fbbd8d97dc72f5ae0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Ruslan",
+            "real_name": "Ruslan Al-Fakikh",
+            "display_name": "metaruslan",
+            "team": "T040HKJE3",
+            "name": "metaruslan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502380756.016144",
+        "parent_user_id": "U2AM8PRMM"
+    },
+    {
+        "type": "message",
+        "text": "Ну а дублировать в разных каналах зачем? ",
+        "user": "U3XDWVD3P",
+        "ts": "1502381031.186217",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "db37238392c8",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-06-02\/191774634930_db37238392c81735770c_72.jpg",
+            "first_name": "Sasha",
+            "real_name": "Sasha",
+            "display_name": "sashakorekov",
+            "team": "T040HKJE3",
+            "name": "kohrah",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502380756.016144",
+        "parent_user_id": "U2AM8PRMM"
+    },
+    {
+        "type": "message",
+        "text": "да, наверное, плохо. Просто сначала запутался, куда можно написать, а потом сюда посоветовали, что тоже можно. Сейчас там уберу, оставлю только здесь",
+        "user": "U2AM8PRMM",
+        "ts": "1502383189.379453",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gbc2879537f0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0abc2879537f0c8fbbd8d97dc72f5ae0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Ruslan",
+            "real_name": "Ruslan Al-Fakikh",
+            "display_name": "metaruslan",
+            "team": "T040HKJE3",
+            "name": "metaruslan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502380756.016144",
+        "parent_user_id": "U2AM8PRMM"
+    },
+    {
+        "type": "message",
+        "text": "лучше наоборот, оставить там и удалить здесь",
+        "user": "U04423D74",
+        "ts": "1502383239.406541",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g872041b5d45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e8872041b5d452b82f08a3b9d88b679d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Philipp",
+            "real_name": "Philipp Upravitelev",
+            "display_name": "konhis",
+            "team": "T040HKJE3",
+            "name": "konhis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502380756.016144",
+        "parent_user_id": "U2AM8PRMM"
+    },
+    {
+        "type": "message",
+        "text": "Надо было подождать, а то постом выше на полтинник в час запостили )",
+        "user": "U2N853RGF",
+        "ts": "1502384956.342256",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502380756.016144",
+        "parent_user_id": "U2AM8PRMM"
+    },
+    {
+        "type": "message",
+        "text": "дааааа, была у меня такая мысль :slightly_smiling_face:",
+        "user": "U2AM8PRMM",
+        "ts": "1502385061.397511",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gbc2879537f0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0abc2879537f0c8fbbd8d97dc72f5ae0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Ruslan",
+            "real_name": "Ruslan Al-Fakikh",
+            "display_name": "metaruslan",
+            "team": "T040HKJE3",
+            "name": "metaruslan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502380756.016144",
+        "parent_user_id": "U2AM8PRMM"
+    },
+    {
+        "type": "message",
+        "text": "Всем привет!\nУльтра сочное предложение для любителей машинки и NLP.\n\nВакансия: NLP, Machine Learning\nПродукт: <https:\/\/newsdit.com>\nФирма: <http:\/\/rolbac.com>\nЛокация: London (full visa support)\n\nТребования:\n- Вы - Магистр\/Аспирант топового ВУЗа и (или) владелец диплома ШАДа\n- у Вас есть опыт работы в машинном обучении и NLP\n\nПлюсом будет опыт разработки на Java\n\nЧто примерно нужно будет делать:\nАнализ\/генерация новостей из источников, выборка так называемых концептов (главных топиков), а так же подборка схожих новостей",
+        "user": "U4X38UVPD",
+        "ts": "1502386897.383388",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "849f239d7799",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-10\/225188237636_849f239d779958ee62e7_72.jpg",
+            "first_name": "Aleksandr",
+            "real_name": "Aleksandr Malyshev",
+            "display_name": "alexm",
+            "team": "T040HKJE3",
+            "name": "alexm",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502386897.383388",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1502665916.092406",
+        "reply_users": [
+            "U1UM6S9KN",
+            "U22LWR1TJ",
+            "U6BS23P47"
+        ],
+        "replies": [
+            {
+                "user": "U1UM6S9KN",
+                "ts": "1502388497.294573"
+            },
+            {
+                "user": "U22LWR1TJ",
+                "ts": "1502446914.313977"
+            },
+            {
+                "user": "U6BS23P47",
+                "ts": "1502665916.092406"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fork",
+                "users": [
+                    "U36Q9NJMD",
+                    "U049HDR2Z",
+                    "U2LGQMC4D",
+                    "U0H7VBQQ1",
+                    "U4UD5SLFQ",
+                    "U44A57Q1G",
+                    "U06J1LG1M",
+                    "U62PEB0SZ",
+                    "U19FSHKL2",
+                    "U49NJJXNJ",
+                    "U1FS1U3B7",
+                    "U15UZGX9A",
+                    "U1D4RRA7K",
+                    "U0DA4J82H",
+                    "U0P95857C",
+                    "U0K4Y1JAK",
+                    "U04725QK7",
+                    "U5FUU47GA",
+                    "U60EETE7N",
+                    "U5H0L5T98",
+                    "U5W6MCS0N",
+                    "U27SUBTB9",
+                    "U2GTUS0CB",
+                    "U0PEXP9PH",
+                    "U1GMCNV3M",
+                    "U45HFJLC9",
+                    "U3D5HVB51",
+                    "U5UDP9FPU",
+                    "U0M5S4EN6",
+                    "U5GT468HH",
+                    "U6HS29J9L",
+                    "U4JQS8LF5",
+                    "U2AD9CMR7",
+                    "U10K3LXHV",
+                    "U64GCA997",
+                    "U51SRULNL",
+                    "U0AL6V5TN",
+                    "U10P8BDU1",
+                    "U6GTG35V0",
+                    "U5303KXRR",
+                    "U6U6BP4US"
+                ],
+                "count": 41
+            },
+            {
+                "name": "java",
+                "users": [
+                    "U0DA4J82H",
+                    "U37RBCFJR"
+                ],
+                "count": 2
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U0PEXP9PH",
+                    "U0L4KM9R9",
+                    "U0FEJNBGQ",
+                    "U5GT468HH",
+                    "U10K3LXHV",
+                    "U0AL6V5TN",
+                    "U1D6DT6HE",
+                    "U6BS23P47",
+                    "U3D5HVB51",
+                    "U3W6X77FG"
+                ],
+                "count": 10
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Предлагаю ввести бан за слова \"сочное\"  и\/или \"вкусное\" в описании вакансий.",
+        "user": "U1UM6S9KN",
+        "ts": "1502388497.294573",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gf93d79acd22",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/65f93d79acd22d4013e301d493fcdd69.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+            "first_name": "Nick",
+            "real_name": "Nick",
+            "display_name": "notabene",
+            "team": "T040HKJE3",
+            "name": "notabene",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1UM6S9KN",
+            "ts": "1502388511.000000"
+        },
+        "thread_ts": "1502386897.383388",
+        "parent_user_id": "U4X38UVPD",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U14DZQQR0",
+                    "U44A57Q1G",
+                    "U698CFT53",
+                    "U49NJJXNJ",
+                    "U3Y5VQ5J6",
+                    "U1FS1U3B7",
+                    "U15UZGX9A",
+                    "U1D4RRA7K",
+                    "U66A98XEC",
+                    "U0AS548A1",
+                    "U0SBLSTJ4",
+                    "U09JEC7V0",
+                    "U04JHD4QK",
+                    "U0DA4J82H",
+                    "U3XDWVD3P",
+                    "U4YMDHURY",
+                    "U60EETE7N",
+                    "U5NL1FL69",
+                    "U5H0L5T98",
+                    "U4YQRJN4R",
+                    "U1Z40FGQ6",
+                    "U1UC11GGN",
+                    "U19EZ8L5D",
+                    "U3NR8Q399",
+                    "U1CMPEWPQ",
+                    "U5H2PLQA1",
+                    "U3Y93QYS0",
+                    "U5D5GLFAQ",
+                    "U0ZL0PY6S",
+                    "U1GMCNV3M",
+                    "U2ZHRCAUB",
+                    "U0FEJNBGQ",
+                    "U6LMGGEMR",
+                    "U5GT468HH",
+                    "U22LWR1TJ",
+                    "U0K47J3HR",
+                    "U10K3LXHV",
+                    "U5QUP1GSE",
+                    "U0MEP6PT2",
+                    "U4B2SCTBQ",
+                    "U2VBC4HEX",
+                    "U10P8BDU1",
+                    "U342T2PT2"
+                ],
+                "count": 43
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1502390242.257776",
+        "user": "U6M1KDA4A",
+        "text": "<@U6M1KDA4A> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1502390962.650756",
+        "user": "U6M3JGDAQ",
+        "text": "<@U6M3JGDAQ> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1502391581.993896",
+        "user": "U6M3QJA6Q",
+        "text": "<@U6M3QJA6Q> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "мой давний клиент из пивной Чехии на апворке ищет кого-нубудь что бы сделать прототип на базе этой статьи\n\n<http:\/\/ist.publisher.ingentaconnect.com\/search\/article?option2=author&amp;value2=Stamm%2c+Matthew+C.&amp;pageSize=10&amp;index=2>\n\nангл яз, питон матан дл и что то там еще (сам я статью не читал); для вас это шанс помимо бабла еще и прокачать акк на апворке, как известно там самое трудное найти первые заказы \n\nплатить готов он 20-35$\/час, можете прислать мне в лс ваш мейл, скайп, сиви на англ, желаемый рейт и примерный срок прототипирования в часах, я отошлю все это ему ",
+        "user": "U06J1LG1M",
+        "ts": "1502397222.811259",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g0f7bbce3713",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/5e0f7bbce37134d4b0a7a1fe1fc77fa1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+            "first_name": "Pavel",
+            "real_name": "Pavel Nesterov",
+            "display_name": "mephistopheies",
+            "team": "T040HKJE3",
+            "name": "mephistopheies",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502397222.811259",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1502397743.065273",
+        "reply_users": [
+            "U06J1LG1M",
+            "U2N853RGF"
+        ],
+        "replies": [
+            {
+                "user": "U06J1LG1M",
+                "ts": "1502397655.022402"
+            },
+            {
+                "user": "U2N853RGF",
+                "ts": "1502397743.065273"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fork",
+                "users": [
+                    "U0E4S5LU9"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "<@U0E4S5LU9> я бы вам рекомендовал читать повнимательнее текст",
+        "user": "U06J1LG1M",
+        "ts": "1502397655.022402",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g0f7bbce3713",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/5e0f7bbce37134d4b0a7a1fe1fc77fa1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+            "first_name": "Pavel",
+            "real_name": "Pavel Nesterov",
+            "display_name": "mephistopheies",
+            "team": "T040HKJE3",
+            "name": "mephistopheies",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502397222.811259",
+        "parent_user_id": "U06J1LG1M",
+        "reactions": [
+            {
+                "name": "sir",
+                "users": [
+                    "U04JHD4QK",
+                    "U2N853RGF",
+                    "U44A57Q1G",
+                    "U09JEC7V0",
+                    "U0H7VBQQ1",
+                    "U0DA4J82H",
+                    "U1CMPEWPQ",
+                    "U0ZL0PY6S",
+                    "U0U2ENJ4U",
+                    "U0L4KM9R9"
+                ],
+                "count": 10
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Статью не читай, комментарий пиши!",
+        "user": "U2N853RGF",
+        "ts": "1502397743.065273",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1502397222.811259",
+        "parent_user_id": "U06J1LG1M"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1502398059.219921",
+        "user": "U6M1K6E2F",
+        "text": "<@U6M1K6E2F> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1502421258.971204",
+        "user": "U6LHEJ464",
+        "text": "<@U6LHEJ464> has joined the channel"
+    }
+]

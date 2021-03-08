@@ -1,0 +1,1660 @@
+[
+    {
+        "client_msg_id": "b2ac5376-21a4-4768-b79c-e2d0ff1b96d2",
+        "type": "message",
+        "text": "Привет :ods: !\n\nВ это непростое время Сбербанк :sberbank: продолжает развивать команду платформы рекомендательных, чтобы обеспечить всех клиентов релевантными, своевременными, полезными и понятными рекомендациями :slightly_smiling_face:\n\nСегодня мы ищем *лидера группы разработки* \/ ИТ-лидера кластера. Вопросы по вакансии можно задавать мне (<@U0QJG7WBA>).\n\nРекомендательным системам банка работает и с банковскими финтех предложениями, и с партнерскими продуктами экосистемы (Okko, Cитимобил, Delivery Club, Беру!), и с развлекательным\/научно-популярным контентом. В данный момент идет активная реализация инфраструктурных компоненты, интеграция с другими системами банка и партнеров, а на горизонте задачи по разработке и внедрению алгоритмов рекомендаций с поддержкой онлайн обучения, основанных на данных из различных источников.\n\nРеализация инфраструктуры платформы ведется на стеке :java: \/:scala: (:hadoop: ,:spark: и все их друзья), обучение моделей алгоритмов с использование всех современных инструментов :python: -экосистемы: :xgboost:, :catboost: , :pytorch: и остальной :sklearn:.\n\n*Город*: :spb: (метро Нарвская)\n\n*Вилка* :moneys:*:* 250-330 т.р*.* гросс*, в дополнение* к ЗП предусмотрен существенный годовой бонус от 2 до 6 окладов (среднестатистический 4).\n\n*Обязанности*\n• Участие в разработке архитектуры платформы\n• Ревью кода коллег, менторинг менее опытных\n• Генерация свежих идей как для платформы, так и для других продуктов банка\n• Активное участие в выводе алгоритмов в промышленную эксплуатацию\n• Реализация ключевых узлов платформы, вывод их в промышленную эксплуатацию\n*Требования*\n• Способность работать в команде\n• Знакомство с современными практиками разработки Scrum\/Kanban\/TDD\n• Знание принципов организации распределённых информационных систем и баз данных\n• Плюсом – навыки публичных выступлений и\/или проведения обучающих программ\n• Опыт работы с :java: от 3-х лет, :hadoop: ,:spark:,:scala: в анамнезе\n\n*Плюшки*\n• Полный рабочий день, свободный график\n• Достойная заработная плата (оклад + годовая премии)\n• Современные рабочие места и программное обеспечение\n• ДМС, корпоративная пенсионная программа\n• Возможность посещения конференций, обучения и сертификации за счет компании.\n• Программа льготного кредитования в Сбербанке.\n• Дисконт-программы от множества компаний партнеров.\n• Возможность принять участие в других крупных и уникальных проектах банка.\n• Доступ к уникальным технологическим ресурсам банка, в том числе, суперкомпьютеру Christofari.\n*Контакты:*\nВопросы по вакансиям можно задавать мне (<@U0QJG7WBA>)",
+        "user": "U0QJG7WBA",
+        "ts": "1587630273.043500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "77dc615d8ce2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-09-16\/80348635587_77dc615d8ce2bf987094_72.jpg",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Bugaychenko",
+            "display_name": "dmitrybugaychenko",
+            "team": "T040HKJE3",
+            "name": "dmitrybugaychenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "62c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ods"
+                            },
+                            {
+                                "type": "text",
+                                "text": " !\n\nВ это непростое время Сбербанк "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sberbank"
+                            },
+                            {
+                                "type": "text",
+                                "text": " продолжает развивать команду платформы рекомендательных, чтобы обеспечить всех клиентов релевантными, своевременными, полезными и понятными рекомендациями "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nСегодня мы ищем "
+                            },
+                            {
+                                "type": "text",
+                                "text": "лидера группы разработки",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " \/ ИТ-лидера кластера. Вопросы по вакансии можно задавать мне ("
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0QJG7WBA"
+                            },
+                            {
+                                "type": "text",
+                                "text": ").\n\nРекомендательным системам банка работает и с банковскими финтех предложениями, и с партнерскими продуктами экосистемы (Okko, Cитимобил, Delivery Club, Беру!), и с развлекательным\/научно-популярным контентом. В данный момент идет активная реализация инфраструктурных компоненты, интеграция с другими системами банка и партнеров, а на горизонте задачи по разработке и внедрению алгоритмов рекомендаций с поддержкой онлайн обучения, основанных на данных из различных источников.\n\nРеализация инфраструктуры платформы ведется на стеке "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "java"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \/"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "scala"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ("
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "hadoop"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ,"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "spark"
+                            },
+                            {
+                                "type": "text",
+                                "text": " и все их друзья), обучение моделей алгоритмов с использование всех современных инструментов "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "python"
+                            },
+                            {
+                                "type": "text",
+                                "text": " -экосистемы: "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "xgboost"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "catboost"
+                            },
+                            {
+                                "type": "text",
+                                "text": " , "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "pytorch"
+                            },
+                            {
+                                "type": "text",
+                                "text": " и остальной "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sklearn"
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "spb"
+                            },
+                            {
+                                "type": "text",
+                                "text": " (метро Нарвская)\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "moneys",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "250-330 т.р"
+                            },
+                            {
+                                "type": "text",
+                                "text": ". ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "гросс"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", в дополнение ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "к ЗП предусмотрен существенный годовой бонус от 2 до 6 окладов (среднестатистический 4).\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Обязанности",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Участие в разработке архитектуры платформы"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Ревью кода коллег, менторинг менее опытных"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Генерация свежих идей как для платформы, так и для других продуктов банка"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Активное участие в выводе алгоритмов в промышленную эксплуатацию"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Реализация ключевых узлов платформы, вывод их в промышленную эксплуатацию"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Способность работать в команде"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знакомство с современными практиками разработки Scrum\/Kanban\/TDD"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание принципов организации распределённых информационных систем и баз данных"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Плюсом – навыки публичных выступлений и\/или проведения обучающих программ"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "java"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " от 3-х лет, "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "hadoop"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " ,"
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "spark"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ","
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "scala"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " в анамнезе"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Плюшки",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Полный рабочий день, свободный график"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Достойная заработная плата (оклад + годовая премии)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Современные рабочие места и программное обеспечение"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ДМС, корпоративная пенсионная программа"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Возможность посещения конференций, обучения и сертификации за счет компании."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Программа льготного кредитования в Сбербанке."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Дисконт-программы от множества компаний партнеров."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Возможность принять участие в других крупных и уникальных проектах банка."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Доступ к уникальным технологическим ресурсам банка, в том числе, суперкомпьютеру Christofari."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Контакты:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nВопросы по вакансиям можно задавать мне ("
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0QJG7WBA"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587630273.043500",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1587730070.078700",
+        "reply_users": [
+            "U0KQ5M6KX",
+            "UDSEN1N2E",
+            "U0QJG7WBA"
+        ],
+        "replies": [
+            {
+                "user": "U0KQ5M6KX",
+                "ts": "1587640737.054900"
+            },
+            {
+                "user": "UDSEN1N2E",
+                "ts": "1587727716.078000"
+            },
+            {
+                "user": "U0QJG7WBA",
+                "ts": "1587730070.078700"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "U0K47J3HR",
+                    "UKQTPE877",
+                    "ULPRYQNS2",
+                    "UHJ0J91RD",
+                    "U9HSZRDP1",
+                    "U09JEC7V0",
+                    "UG02AACEM",
+                    "UB4BD0R6W",
+                    "U1KV54E4C",
+                    "UL8LM1TBN",
+                    "UM2Q2B41J",
+                    "U71NR43CH",
+                    "UCB3PK96J",
+                    "U9G0K0HB6",
+                    "UC9HBTUKG",
+                    "UCMAWD588",
+                    "U7N4E8GBF",
+                    "UCKGAQKE0",
+                    "UD8HRS7LK",
+                    "U1CMPEWPQ"
+                ],
+                "count": 20
+            },
+            {
+                "name": "grammar",
+                "users": [
+                    "UDKV94W11",
+                    "U012A04S8LC",
+                    "UJG3W0SSZ",
+                    "UJXFEJ686"
+                ],
+                "count": 4
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "UB4BD0R6W",
+                    "U4J46N7QU",
+                    "UL8LM1TBN",
+                    "UM2Q2B41J",
+                    "U71NR43CH",
+                    "U2PMV9N06",
+                    "UCB3PK96J",
+                    "U3KEKR5NJ",
+                    "U053R9RS6"
+                ],
+                "count": 9
+            },
+            {
+                "name": "sberbank",
+                "users": [
+                    "UCMAWD588",
+                    "U34U3HUJD",
+                    "UNFTX1XT9"
+                ],
+                "count": 3
+            },
+            {
+                "name": "gref",
+                "users": [
+                    "UCMAWD588"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U60EETE7N"
+                ],
+                "count": 1
+            },
+            {
+                "name": "covid19",
+                "users": [
+                    "UDSEN1N2E"
+                ],
+                "count": 1
+            },
+            {
+                "name": "spb",
+                "users": [
+                    "UGRFZ1DS5"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "afa95877-1ea2-403d-aeee-0e1e4f428d14",
+        "type": "message",
+        "text": "Всем привет!\nИщем специалиста по обработке текстов (*Data Scientist in NLP*) на проект\n Уровень: Middle \/ Senior\n Город: удалёнка\n Компания: BRSystems\n *Предстоит решать задачи аналогичные этим* – <https:\/\/receiptnlp.tinkoff.ru\/>\n*Требования:*\n • Опыт работы с NLP;\n • Знание языка Python и его библиотек для машинного обучения и анализа данных\n • Знание основных задач в NLP и подходов к их решению, знание библиотек, связанных с анализом текстов\n *Условия:*\n - part\/full time;\n - Оплата по часам (по результатам собеседования)\n*Вилка:* 200К-250К net\n*Резюме и вопросы присылайте в ЛС*",
+        "user": "UT9FU04LC",
+        "ts": "1587631616.046300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ec4207557bff",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-23\/1079658009973_ec4207557bffeca4c14f_72.png",
+            "first_name": "Bogdan",
+            "real_name": "Bogdan",
+            "display_name": "Bogdan",
+            "team": "T040HKJE3",
+            "name": "bogdankalinovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UT9FU04LC",
+            "ts": "1587631982.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ha9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет!\nИщем специалиста по обработке текстов ("
+                            },
+                            {
+                                "type": "text",
+                                "text": "Data Scientist in NLP",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ") на проект\n Уровень: Middle \/ Senior\n Город: удалёнка\n Компания: BRSystems\n "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Предстоит решать задачи аналогичные этим",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " – "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/receiptnlp.tinkoff.ru\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n • Опыт работы с NLP;\n • Знание языка Python и его библиотек для машинного обучения и анализа данных\n • Знание основных задач в NLP и подходов к их решению, знание библиотек, связанных с анализом текстов\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Условия:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n - part\/full time;\n - Оплата по часам (по результатам собеседования)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "200К-250К net\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Резюме и вопросы присылайте в ЛС",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587631616.046300",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1587636779.053000",
+        "reply_users": [
+            "U0K47J3HR",
+            "U2LF67NRH",
+            "UT9FU04LC"
+        ],
+        "replies": [
+            {
+                "user": "U0K47J3HR",
+                "ts": "1587631778.047500"
+            },
+            {
+                "user": "U2LF67NRH",
+                "ts": "1587634619.051000"
+            },
+            {
+                "user": "UT9FU04LC",
+                "ts": "1587636779.053000"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "ban",
+                "users": [
+                    "UKTQ3DJV7",
+                    "UFVBUV7QU",
+                    "UATUNDDBP",
+                    "UAH9HRBPT",
+                    "UFF6S5ZGE",
+                    "UHJ0J91RD",
+                    "UHGUXSJRK",
+                    "U30LWK54N",
+                    "UMKQUB03V",
+                    "UNP5YEWL9",
+                    "UCB3PK96J",
+                    "UD8HRS7LK",
+                    "U7E8Y3V19",
+                    "UBS459X19"
+                ],
+                "count": 14
+            },
+            {
+                "name": "stopwatch",
+                "users": [
+                    "U27SUBTB9",
+                    "UFU43Q5CL",
+                    "U7WFH7UUF",
+                    "UM5DXE4LE"
+                ],
+                "count": 4
+            },
+            {
+                "name": "tinkoff",
+                "users": [
+                    "U0JHK9001",
+                    "U7E8Y3V19"
+                ],
+                "count": 2
+            },
+            {
+                "name": "elite-only",
+                "users": [
+                    "U8DEZV7E2"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "BC4F0D57-6FE8-4ABA-AADF-4D5FFF7BDE99",
+        "type": "message",
+        "text": "<@UT9FU04LC> добавьте, пожалуйста, вилку в вкансию",
+        "user": "U0K47J3HR",
+        "ts": "1587631778.047500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6d5ff9b845f5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-27\/321752094228_6d5ff9b845f5b3248b1e_72.jpg",
+            "first_name": "Valentin",
+            "real_name": "Valentin Malykh",
+            "display_name": "madrugado",
+            "team": "T040HKJE3",
+            "name": "madrugado",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kh4m",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UT9FU04LC"
+                            },
+                            {
+                                "type": "text",
+                                "text": " добавьте, пожалуйста, вилку в вкансию"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587631616.046300",
+        "parent_user_id": "UT9FU04LC"
+    },
+    {
+        "client_msg_id": "7eba736a-d25d-40cc-b229-5e38b13cd6fe",
+        "type": "message",
+        "text": "Привет! \n\nВакансия: Data Scientist\n\nКомпания: Сбербанк\n\nКоманда: Партнеры и Экосистема\n\nВилка: 150-250к\n\nО команде:\nМы занимаемся развитием Экосистемы Сбербанка и продвижением предложений партнеров для клиентов Банка (Физических лиц).\n\nВам предстоит:\n· Разработка (полный цикл) моделей склонности к покупке продуктов и сервисов партнеров Банка и участников Экосистемы.\n\n· Участие в разработке стратегии определения наилучшего предложения для клиентов (физических лиц) из числа нефинансовых (lifestyle) продуктов и услуг c целью максимального удовлетворения потребностей клиента и максимизации прибыли для Банка.\n\nТребования:\n· Опыт в роли DS от 1 года\n· Знание SAS (Base, Macro, EM, EG)\/Python\/R\n· Уверенные знания теории вероятностей и математической статистики\n· Знание SQL\n\nОт нас:\n· Плюшки от Сбребанка, о которых вы и так знает\n\nКонтакты:\n\nCV , а также все свои вопросы можете присылать нашему рекрутёру: tg @mvwine <mailto:Vaynberg.M.V@sberbank.ru|Vaynberg.M.V@sberbank.ru>",
+        "user": "U6GHDNA93",
+        "ts": "1587634490.050600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "55ce47cc45aa",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-23\/1087352320852_55ce47cc45aa05e0ce2c_72.jpg",
+            "first_name": "Artem",
+            "real_name": "Artem Sokolov",
+            "display_name": "artem_s",
+            "team": "T040HKJE3",
+            "name": "artem_s",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EePUd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет! \n\nВакансия: Data Scientist\n\nКомпания: Сбербанк\n\nКоманда: Партнеры и Экосистема\n\nВилка: 150-250к\n\nО команде:\nМы занимаемся развитием Экосистемы Сбербанка и продвижением предложений партнеров для клиентов Банка (Физических лиц).\n\nВам предстоит:\n· Разработка (полный цикл) моделей склонности к покупке продуктов и сервисов партнеров Банка и участников Экосистемы.\n\n· Участие в разработке стратегии определения наилучшего предложения для клиентов (физических лиц) из числа нефинансовых (lifestyle) продуктов и услуг c целью максимального удовлетворения потребностей клиента и максимизации прибыли для Банка.\n\nТребования:\n· Опыт в роли DS от 1 года\n· Знание SAS (Base, Macro, EM, EG)\/Python\/R\n· Уверенные знания теории вероятностей и математической статистики\n· Знание SQL\n\nОт нас:\n· Плюшки от Сбребанка, о которых вы и так знает\n\nКонтакты:\n\nCV , а также все свои вопросы можете присылать нашему рекрутёру: tg @mvwine "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:Vaynberg.M.V@sberbank.ru",
+                                "text": "Vaynberg.M.V@sberbank.ru"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587634490.050600",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1587719156.076100",
+        "reply_users": [
+            "UDDJ1A4CA",
+            "UMD13056D"
+        ],
+        "replies": [
+            {
+                "user": "UDDJ1A4CA",
+                "ts": "1587641850.055700"
+            },
+            {
+                "user": "UMD13056D",
+                "ts": "1587719156.076100"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "default-city",
+                "users": [
+                    "U1LNJJWRG",
+                    "UKQTPE877"
+                ],
+                "count": 2
+            },
+            {
+                "name": "sas",
+                "users": [
+                    "UM2Q2B41J",
+                    "U27SUBTB9",
+                    "UE4CX9345",
+                    "UD8HRS7LK",
+                    "UJG3W0SSZ",
+                    "U061VJ5SB",
+                    "U01444FKKK6"
+                ],
+                "count": 7
+            },
+            {
+                "name": "astanavites",
+                "users": [
+                    "UCB3PK96J",
+                    "U30A6KZLH",
+                    "UE7FQ2EFR",
+                    "UCDEH52QL",
+                    "U5QKE8SP2",
+                    "UM5DXE4LE",
+                    "U9GUF2PN2"
+                ],
+                "count": 7
+            },
+            {
+                "name": "another_one",
+                "users": [
+                    "U8U4PFM88",
+                    "U828HFY0G",
+                    "ULB93AE6A",
+                    "UP0AMSW74",
+                    "U2G7A4ALR"
+                ],
+                "count": 5
+            },
+            {
+                "name": "galera",
+                "users": [
+                    "UD8SY4RB7",
+                    "UHJ2XBTDL",
+                    "U7E8Y3V19"
+                ],
+                "count": 3
+            },
+            {
+                "name": "sql",
+                "users": [
+                    "UJG3W0SSZ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6b826f2b-1be1-4702-a6c6-88efe1e73b3c",
+        "type": "message",
+        "text": "<https:\/\/en.brsystems.jp\/> ?",
+        "user": "U2LF67NRH",
+        "ts": "1587634619.051000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "087122207b96",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-03-06\/150135983251_087122207b966be41b0b_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Pleskov",
+            "display_name": "ppleskov",
+            "team": "T040HKJE3",
+            "name": "ppleskov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "B.R.Systems",
+                "title_link": "https:\/\/en.brsystems.jp\/",
+                "text": "fNIRS can catch the brain activation when the measurement is done based on right procedure.And if the data is processed logically, you will understand and accept the result of the measurement that is consistent with the your hypothesis.The tool supporting the analysis of the mechanism between the source and brain activation is BRainSuite.",
+                "fallback": "B.R.Systems",
+                "thumb_url": "https:\/\/en.brsystems.jp\/wordpress\/wp-content\/uploads\/sites\/3\/2017\/01\/nomal_logo.jpg",
+                "from_url": "https:\/\/en.brsystems.jp\/",
+                "thumb_width": 129,
+                "thumb_height": 46,
+                "service_icon": "https:\/\/en.brsystems.jp\/wordpress\/wp-content\/uploads\/sites\/3\/2017\/01\/favicon57.jpg",
+                "service_name": "en.brsystems.jp",
+                "id": 1,
+                "original_url": "https:\/\/en.brsystems.jp\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3Cb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/en.brsystems.jp\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587631616.046300",
+        "parent_user_id": "UT9FU04LC"
+    },
+    {
+        "client_msg_id": "3455d1f5-8ea7-479e-b8fc-a692123ac6a9",
+        "type": "message",
+        "text": "<https:\/\/www.businessreports.ru\/>",
+        "user": "UT9FU04LC",
+        "ts": "1587636779.053000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ec4207557bff",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-23\/1079658009973_ec4207557bffeca4c14f_72.png",
+            "first_name": "Bogdan",
+            "real_name": "Bogdan",
+            "display_name": "Bogdan",
+            "team": "T040HKJE3",
+            "name": "bogdankalinovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "reports &amp; data",
+                "title": "Работаем с данными: интеграция, аналитика | business reports | Москва",
+                "title_link": "https:\/\/www.businessreports.ru\/",
+                "text": "Работаем с данными: интеграция, хранение, безопасность, аналитика. Профессиональная команда инженеров данных для ваших задач.business reports &amp; data. Москва. Организуем стабильные процессы сбора и трансформации данных. Используем: MS Integration Services, Spark, Nifi, Kafka.",
+                "fallback": "reports &amp; data: Работаем с данными: интеграция, аналитика | business reports | Москва",
+                "from_url": "https:\/\/www.businessreports.ru\/",
+                "service_icon": "https:\/\/static.wixstatic.com\/media\/ef4ce4_93ba046e607b4142a8c42cc56c65bad0%7Emv2.png\/v1\/fill\/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01\/ef4ce4_93ba046e607b4142a8c42cc56c65bad0%7Emv2.png",
+                "id": 1,
+                "original_url": "https:\/\/www.businessreports.ru\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uoEG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.businessreports.ru\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587631616.046300",
+        "parent_user_id": "UT9FU04LC"
+    },
+    {
+        "client_msg_id": "b1be5af7-7a34-4028-b7b2-7462e4fae85f",
+        "type": "message",
+        "text": "_Рекомендательным системам банка работает и с банковскими финтех предложениями, и с партнерскими продуктами экосистемы (Okko, Cитимобил, Delivery Club, Беру!), и с развлекательным\/научно-популярным контентом. В данный момент идет активная реализация инфраструктурных компоненты, интеграция с другими системами банка и партнеров, а на горизонте задачи по разработке и внедрению алгоритмов рекомендаций с поддержкой онлайн обучения, основанных на данных из различных источников._\n\nЭто на какого язык написать?",
+        "user": "U0KQ5M6KX",
+        "ts": "1587640737.054900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gdd0ae2c42c8",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1dd0ae2c42c80b2ae78f9e6665d8498.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Roman",
+            "real_name": "Roman Khudorozhkov",
+            "display_name": "roman-kh",
+            "team": "T040HKJE3",
+            "name": "roman-kh",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I3YuW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Рекомендательным системам банка работает и с банковскими финтех предложениями, и с партнерскими продуктами экосистемы (Okko, Cитимобил, Delivery Club, Беру!), и с развлекательным\/научно-популярным контентом. В данный момент идет активная реализация инфраструктурных компоненты, интеграция с другими системами банка и партнеров, а на горизонте задачи по разработке и внедрению алгоритмов рекомендаций с поддержкой онлайн обучения, основанных на данных из различных источников.",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nЭто на какого язык написать?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587630273.043500",
+        "parent_user_id": "U0QJG7WBA"
+    },
+    {
+        "client_msg_id": "e89c4bf7-3d9d-4d09-bb3f-2f1be637e170",
+        "type": "message",
+        "text": "Удалёнки нет конечно? :)",
+        "user": "UDDJ1A4CA",
+        "ts": "1587641850.055700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g5bae27b5346",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/995bae27b53466655da6e24d2ffde479.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Khristoforov",
+            "real_name": "Khristoforov Ilya",
+            "display_name": "ilyakhristoforov",
+            "team": "T040HKJE3",
+            "name": "hristoforov.ilya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1MZP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Удалёнки нет конечно? :)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587634490.050600",
+        "parent_user_id": "U6GHDNA93"
+    },
+    {
+        "client_msg_id": "c7f4aadd-c530-408c-99a1-06460e64640e",
+        "type": "message",
+        "text": "В :x5: в Департамент по рискам и внутреннему контролю, ко мне в команду открываем вакансию *Менеджера по валидации моделей*, :default-city: .\n\n*Вилка:* 120-150 т.р. (gross) + 20% (годовые бонусы).\n\n*Задачи:*\n- валидировать корректность расчетов и бизнес-логики по оценке результатов пилотов в ключевых проектах компании\n- развивать методику этой валидации\n- разбирать сложные\\спорные кейсы по оценке пилотов, искать корректное решение для таких кейсов\n- выстраивать процесс оценки модельного риска\n- работать вместе с командой <@U2LGQMC4D> над единой методикой А\/Б тестирования в :x5:\n- (если успевается) помогать команде с задачами по моделям по оценки рисков и другим количественным исследованиям\n\n*Знать* нужно - *хорошо!* - *статистику* и основные методы ML.\nВ питон и SQL тоже надо уметь.\n\nПро внедрение процесса валидации в :x5: за 2019 г.  <https:\/\/slack-redir.net\/link?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DK1m77Ctm6WE|рассказывали> на X5 Retail Hero.\nЕще я рассказывала в Сбербанке, но на закрытом митапе.\nБольше хардкора и математики планируем для Data Fest 2020.\n\nПисать мне или <@URLNXTF25>.",
+        "user": "U0Q3USC0Z",
+        "ts": "1587655118.058700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "2571b86d14a0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-03-04\/24474691108_2571b86d14a0ba622397_72.jpg",
+            "first_name": "Ирина",
+            "real_name": "Ирина Голощапова",
+            "display_name": "irina_g",
+            "team": "T040HKJE3",
+            "name": "irina_g",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0Q3USC0Z",
+            "ts": "1587655126.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gaw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "В "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "x5"
+                            },
+                            {
+                                "type": "text",
+                                "text": " в Департамент по рискам и внутреннему контролю, ко мне в команду открываем вакансию "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Менеджера по валидации моделей",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "default-city"
+                            },
+                            {
+                                "type": "text",
+                                "text": " .\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " 120-150 т.р. (gross) + 20% (годовые бонусы).\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Задачи:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- валидировать корректность расчетов и бизнес-логики по оценке результатов пилотов в ключевых проектах компании\n- развивать методику этой валидации\n- разбирать сложные\\спорные кейсы по оценке пилотов, искать корректное решение для таких кейсов\n- выстраивать процесс оценки модельного риска\n- работать вместе с командой "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U2LGQMC4D"
+                            },
+                            {
+                                "type": "text",
+                                "text": " над единой методикой А\/Б тестирования в "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "x5"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- (если успевается) помогать команде с задачами по моделям по оценки рисков и другим количественным исследованиям\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Знать",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " нужно - "
+                            },
+                            {
+                                "type": "text",
+                                "text": "хорошо!",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " - "
+                            },
+                            {
+                                "type": "text",
+                                "text": "статистику",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " и основные методы ML.\nВ питон и SQL тоже надо уметь.\n\nПро внедрение процесса валидации в "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "x5"
+                            },
+                            {
+                                "type": "text",
+                                "text": " за 2019 г.  "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/slack-redir.net\/link?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DK1m77Ctm6WE",
+                                "text": "рассказывали"
+                            },
+                            {
+                                "type": "text",
+                                "text": " на X5 Retail Hero.\nЕще я рассказывала в Сбербанке, но на закрытом митапе.\nБольше хардкора и математики планируем для Data Fest 2020.\n\nПисать мне или "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "URLNXTF25"
+                            },
+                            {
+                                "type": "text",
+                                "text": "."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587655118.058700",
+        "reply_count": 8,
+        "reply_users_count": 7,
+        "latest_reply": "1587975449.167300",
+        "reply_users": [
+            "U2LGQMC4D",
+            "U4CLTL65C",
+            "URLNXTF25",
+            "U0Q3USC0Z",
+            "UR3BXGA82",
+            "UTSEA2RFS",
+            "URG5RB8V6"
+        ],
+        "replies": [
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1587655213.059000"
+            },
+            {
+                "user": "U4CLTL65C",
+                "ts": "1587734035.079700"
+            },
+            {
+                "user": "URLNXTF25",
+                "ts": "1587734656.080300"
+            },
+            {
+                "user": "U0Q3USC0Z",
+                "ts": "1587735632.080900"
+            },
+            {
+                "user": "UR3BXGA82",
+                "ts": "1587743891.082200"
+            },
+            {
+                "user": "U0Q3USC0Z",
+                "ts": "1587746173.082700"
+            },
+            {
+                "user": "UTSEA2RFS",
+                "ts": "1587925907.143300"
+            },
+            {
+                "user": "URG5RB8V6",
+                "ts": "1587975449.167300"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "x5",
+                "users": [
+                    "ULFB41K0R",
+                    "UNMTRMDE0",
+                    "U7N4E8GBF",
+                    "U9JSUB8T1",
+                    "UDWRHJB2L",
+                    "UBRKXHMJB",
+                    "U64HAB6BA",
+                    "U60EETE7N",
+                    "UM7SSDE3U",
+                    "UDK41MN5U",
+                    "UB4F4DZGV",
+                    "URG5RB8V6",
+                    "U3Y5VQ5J6",
+                    "UMM890NT1",
+                    "U7E8Y3V19",
+                    "ULMML7Z5K",
+                    "UAF1W2R3M",
+                    "URLNXTF25",
+                    "UAL8CA2TF",
+                    "UGDUCRYJ0",
+                    "U6XCTTGUB",
+                    "UC1851SA1",
+                    "U9V48C738",
+                    "UJG3W0SSZ",
+                    "UCKGAQKE0",
+                    "U88T71FBL",
+                    "U6YV1UAS1",
+                    "U6SCXUP6U",
+                    "UFDQK0RDY",
+                    "UCM3C939U",
+                    "UJ23EV5PW",
+                    "UQA9AN8PP",
+                    "UCAEKNA4V",
+                    "UU2MY4V6W",
+                    "UC9J53NAY",
+                    "UCB3PK96J",
+                    "UCMAWD588",
+                    "UHGV5M8KF",
+                    "UKEFTMLBH",
+                    "UD6TXA7R7",
+                    "U6URRB952",
+                    "U7ZCEDTEV",
+                    "U4B8MC0AD",
+                    "UHXA0EVA5",
+                    "U061VJ5SB",
+                    "U34Q3KU8H",
+                    "USYPSKPM5",
+                    "UL6UY2A4D"
+                ],
+                "count": 48
+            },
+            {
+                "name": "venheads",
+                "users": [
+                    "UNMTRMDE0",
+                    "ULFB41K0R",
+                    "UDWRHJB2L",
+                    "UBRKXHMJB",
+                    "U64HAB6BA",
+                    "U6MENRLBT",
+                    "UKQTHKEPJ",
+                    "U011SS57A5B",
+                    "U4AP30L65",
+                    "UM7SSDE3U",
+                    "UDK41MN5U",
+                    "UB4F4DZGV",
+                    "U3Y5VQ5J6",
+                    "UMM890NT1",
+                    "U7E8Y3V19",
+                    "ULMML7Z5K",
+                    "UAF1W2R3M",
+                    "URLNXTF25",
+                    "UAL8CA2TF",
+                    "UGDUCRYJ0",
+                    "ULA9M7CM9",
+                    "U9V48C738",
+                    "UDDJ1A4CA",
+                    "UJG3W0SSZ",
+                    "UTERKHYER",
+                    "UCKGAQKE0",
+                    "UCLPL4GSU",
+                    "UE1S3EWKV",
+                    "U6YV1UAS1",
+                    "U6SCXUP6U",
+                    "UCM3C939U",
+                    "UQA9AN8PP",
+                    "UCAEKNA4V",
+                    "UU2MY4V6W",
+                    "UC9J53NAY",
+                    "UCB3PK96J",
+                    "UT8JV7BDG",
+                    "UCMAWD588",
+                    "UJ5ESHK35",
+                    "UHGV5M8KF",
+                    "UKEFTMLBH",
+                    "UD6TXA7R7",
+                    "U93P65UQN",
+                    "U6URRB952",
+                    "UM5DXE4LE",
+                    "UNVJJ322J",
+                    "U3D5HVB51",
+                    "U010M0KERTJ",
+                    "U6UNGFSMQ",
+                    "U34Q3KU8H"
+                ],
+                "count": 53
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "UF5E26Z28",
+                    "U6REYATNJ",
+                    "U7VDWFSG3",
+                    "U049HDR2Z",
+                    "U9221QEV8",
+                    "UNP5YEWL9",
+                    "U7E8Y3V19",
+                    "UBM7ZCYRK",
+                    "ULRRFCUR0",
+                    "U71NPH07J",
+                    "UP6LRGPS5",
+                    "U9V48C738",
+                    "U48AFP5RD",
+                    "UCPDBKLBW",
+                    "UASAVHMBJ",
+                    "UH7VBG789",
+                    "U6PNWSJL8",
+                    "U8DEZV7E2",
+                    "U70T87GMA",
+                    "UCB3PK96J",
+                    "U24N3AB96",
+                    "U90HKUW3B",
+                    "UBS459X19",
+                    "UCK2WBKLG",
+                    "UCM1WHP1U",
+                    "U8HTMTGNQ",
+                    "UD8HRS7LK",
+                    "U4378H2KV",
+                    "UFSTXBQ7K",
+                    "UG1886P8R",
+                    "U3D5HVB51",
+                    "U8U5PLZJR",
+                    "UCVT60YSH",
+                    "UJXFEJ686",
+                    "U95BW05K5",
+                    "UD8SY4RB7",
+                    "UM5CR4AR4",
+                    "U70ULMUEP",
+                    "U36Q9NJMD",
+                    "UE68LTTGS"
+                ],
+                "count": 40
+            },
+            {
+                "name": "pineapple",
+                "users": [
+                    "UQ3MWF42H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1::skin-tone-3",
+                "users": [
+                    "U4CLTL65C"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U012GDMB77B",
+                    "UEMJW1CKU"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "45f84f05-0863-4645-81ff-c853d77e0f96",
+        "type": "message",
+        "text": "Ирина и Эдуард топовые чуваки",
+        "user": "U2LGQMC4D",
+        "ts": "1587655213.059000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ffc723117cb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-14\/1345601413783_ffc723117cb385805a6c_72.jpg",
+            "first_name": "Valeriy",
+            "real_name": "Valeriy Babushkin",
+            "display_name": "venheads",
+            "team": "T040HKJE3",
+            "name": "venheads",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lmN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ирина и Эдуард топовые чуваки"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587655118.058700",
+        "parent_user_id": "U0Q3USC0Z",
+        "reactions": [
+            {
+                "name": "hugging_face",
+                "users": [
+                    "U0Q3USC0Z",
+                    "UNMTRMDE0",
+                    "U6MENRLBT",
+                    "U04CH4QBD",
+                    "UQRRC9GCD",
+                    "UCKGAQKE0",
+                    "UCM3C939U",
+                    "UFRUZ2E74",
+                    "U99MEKJKH",
+                    "U6LSE0FT9"
+                ],
+                "count": 10
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UC1851SA1",
+                    "UCM3C939U",
+                    "U0M5S4EN6",
+                    "U2AJE72Q6"
+                ],
+                "count": 4
+            },
+            {
+                "name": "dealwithitparrothd",
+                "users": [
+                    "UQA9AN8PP",
+                    "U27HU84H4",
+                    "U0JHK9001"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

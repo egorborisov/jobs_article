@@ -1,0 +1,701 @@
+[
+    {
+        "type": "message",
+        "text": "Хориба",
+        "user": "U4JQS8LF5",
+        "ts": "1513680047.000021",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gce5fbe0b7c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/43ce5fbe0b7c0b39eed10fd12053136d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Karpov",
+            "display_name": "dimakarp1996",
+            "team": "T040HKJE3",
+            "name": "dimakarp1996",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1513465704.000042",
+        "parent_user_id": "U8EPE4WG6"
+    },
+    {
+        "type": "message",
+        "text": "Коллеги, приветствую\nМы в московский офис Game Insight ищем С++-разработчика со знанием Python или Go (или опытного питониста). \nОпытному сеньору можем предложить 200к+ на руки. Если есть вопросы - пишите в личку или в :thread-please: \n\nОбязанности:\n    Разработка высоконагруженной системы сбора и обработки данных для последующей работы с ними в отделе анализа данных.\n    Разработка системы обработки данных в реальном времени с использованием алгоритмов Machine Learning.\n    Cоздание системы многоуровневой проверки, очистки и обогащения данных, детекции аномалий в данных и нотификации об этом в автоматическом режиме.\n    Поддержка в рабочем состоянии аналитических сервисов и баз данных.\n    Тюнинг и конфигурирование основного хранилища (PostgreSQL) под запросы аналитики.\n    Работа со множеством API, SQL и NoSQL баз данных.\n\nТребования:\n    Знание С++\/Python\n    Опыт использования PostgreSQL и понимание механизмов индексирования, составление запросов и т. п.\n\nБудет плюсом:\n    Знание PL\/pgSQL, Go.\n    Опыт в создании распределенных хранилищ на основе PostgreSQL 9.6+\n    Опыт работы ClickHouse, Greenplum, RabbitMQ и знание MapReduce.\n\nУсловия:\n    Удобно расположенный комфортный офис в центре Москвы (5 минут от станции метро «Шаболовская»).\n    Оформление по ТК РФ, белая заработная плата.",
+        "user": "U04423D74",
+        "ts": "1513681682.000038",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g872041b5d45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e8872041b5d452b82f08a3b9d88b679d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Philipp",
+            "real_name": "Philipp Upravitelev",
+            "display_name": "konhis",
+            "team": "T040HKJE3",
+            "name": "konhis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U04423D74",
+            "ts": "1513682058.000000"
+        },
+        "thread_ts": "1513681682.000038",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1513705628.000447",
+        "reply_users": [
+            "U5H0L5T98",
+            "U04423D74",
+            "U2N853RGF"
+        ],
+        "replies": [
+            {
+                "user": "U5H0L5T98",
+                "ts": "1513681932.000115"
+            },
+            {
+                "user": "U04423D74",
+                "ts": "1513682015.000284"
+            },
+            {
+                "user": "U2N853RGF",
+                "ts": "1513685432.000334"
+            },
+            {
+                "user": "U5H0L5T98",
+                "ts": "1513705628.000447"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "cpp",
+                "users": [
+                    "U04JHD4QK",
+                    "U5H0L5T98",
+                    "U1D6DT6HE"
+                ],
+                "count": 3
+            },
+            {
+                "name": "python",
+                "users": [
+                    "U04JHD4QK",
+                    "U5H0L5T98",
+                    "U1D6DT6HE"
+                ],
+                "count": 3
+            },
+            {
+                "name": "php",
+                "users": [
+                    "U3HM4KY14"
+                ],
+                "count": 1
+            },
+            {
+                "name": "golang",
+                "users": [
+                    "U3HM4KY14"
+                ],
+                "count": 1
+            },
+            {
+                "name": "fork",
+                "users": [
+                    "U04BFDYPV",
+                    "U5H0L5T98",
+                    "U5F198S75"
+                ],
+                "count": 3
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U04BFDYPV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "те C++ и Go пишем латинскими а python и :good-enough:?",
+        "user": "U5H0L5T98",
+        "ts": "1513681932.000115",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "2583286cfe69",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-03-15\/1001061894912_2583286cfe69946597f2_72.jpg",
+            "first_name": "Vadim",
+            "real_name": "Vadim Borisov",
+            "display_name": "borisov",
+            "team": "T040HKJE3",
+            "name": "pybor",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1513681682.000038",
+        "parent_user_id": "U04423D74"
+    },
+    {
+        "type": "message",
+        "text": "зануда :disappointed:",
+        "user": "U04423D74",
+        "ts": "1513682015.000284",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g872041b5d45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/e8872041b5d452b82f08a3b9d88b679d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0006-72.png",
+            "first_name": "Philipp",
+            "real_name": "Philipp Upravitelev",
+            "display_name": "konhis",
+            "team": "T040HKJE3",
+            "name": "konhis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1513681682.000038",
+        "parent_user_id": "U04423D74",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U71KW5LV6",
+                    "U4B8MC0AD",
+                    "U5H0L5T98",
+                    "U0UJ10A9J",
+                    "U7ZT0SJ9G"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Всем добрый день!\n\nВакансия - Data Scientist\n\nМосква – проект по анализу данных и машинному обучению.\nПроект реализуется внутри холдинга компаний Trench (количественные маркетинговые исследования). В проект набирается команда специалистов, которые будут осуществлять обработку и анализ данных, предоставленных клиентом, а также заниматься разработкой конечного продукта с применением методов машинного обучения (e.g. рекомендательные системы, распознавание образов, предсказание продаж, оптимизация склада и пр.).\n\nТребования к кандидатам:\n1.  Продвинутое знание Python \/ R;\n2.  Опыт применения навыков DataScience - работа с сырыми данными, построение моделей, анализ результатов, формулировка гипотез и их валидация, визуализация результатов;\n3.  Хорошая математическая база, понимание принципов математической статистики;\n4.  Знания современных методов машинного обучения (classification, regression, unsupervised learning etc.), понимание методологии построения моделей и метрик оценки их качества;\n5.  Умение читать чужой код, проводить рефакторинг;\n6.  Опыт работы с системой контроля версий – Git;\n\nПлюсами будут:\n1.  Опыт подготовки отчетов для заказчика;\n2.  Опыт презентации проектов заказчику;\n3.  Опыт внедрения разработанных моделей машинного обучения в production системы.\n\nУсловия:\n1.  Метро Цветной бульвар;\n2.  График работы и з\/п обсуждаются по результатам собеседования.\n\nНаправляйте свои резюме на почту <mailto:cherryongroup@gmail.com|cherryongroup@gmail.com>",
+        "user": "U47EE2GLR",
+        "ts": "1513682635.000089",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "14adb604e2f8",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-20\/418962140273_14adb604e2f898b17c8a_72.jpg",
+            "first_name": "Alina",
+            "real_name": "Alina",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "cherryup",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1513682635.000089",
+        "reply_count": 20,
+        "reply_users_count": 6,
+        "latest_reply": "1514007422.000066",
+        "reply_users": [
+            "U6GDF7JF2",
+            "U4WM1939Q",
+            "U0FEJNBGQ",
+            "U2LGQMC4D",
+            "U47EE2GLR",
+            "U1ZAJ4FC4"
+        ],
+        "replies": [
+            {
+                "user": "U6GDF7JF2",
+                "ts": "1513682730.000298"
+            },
+            {
+                "user": "U4WM1939Q",
+                "ts": "1513683024.000322"
+            },
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1513683228.000160"
+            },
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1513688005.000446"
+            },
+            {
+                "user": "U47EE2GLR",
+                "ts": "1513794407.000238"
+            },
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1513795243.000158"
+            },
+            {
+                "user": "U4WM1939Q",
+                "ts": "1513797349.000427"
+            },
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1513797689.000162"
+            },
+            {
+                "user": "U4WM1939Q",
+                "ts": "1513803358.000101"
+            },
+            {
+                "user": "U47EE2GLR",
+                "ts": "1513840969.000142"
+            },
+            {
+                "user": "U4WM1939Q",
+                "ts": "1513850121.000061"
+            },
+            {
+                "user": "U47EE2GLR",
+                "ts": "1513921547.000081"
+            },
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1513922865.000039"
+            },
+            {
+                "user": "U47EE2GLR",
+                "ts": "1513926841.000150"
+            },
+            {
+                "user": "U4WM1939Q",
+                "ts": "1513927465.000117"
+            },
+            {
+                "user": "U47EE2GLR",
+                "ts": "1513928785.000172"
+            },
+            {
+                "user": "U4WM1939Q",
+                "ts": "1513929237.000072"
+            },
+            {
+                "user": "U47EE2GLR",
+                "ts": "1513930055.000018"
+            },
+            {
+                "user": "U1ZAJ4FC4",
+                "ts": "1514007372.000084"
+            },
+            {
+                "user": "U1ZAJ4FC4",
+                "ts": "1514007422.000066"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fork",
+                "users": [
+                    "U1NLYUY5N",
+                    "U6GDF7JF2",
+                    "U5RC5D2DU",
+                    "U0FEJNBGQ",
+                    "U5FHB86JE",
+                    "U4WM1939Q",
+                    "U71KW5LV6",
+                    "U6NSQ80GN",
+                    "U0DA4J82H",
+                    "U06J1LG1M",
+                    "U4B8MC0AD",
+                    "U09JEC7V0",
+                    "U60EETE7N",
+                    "U4WGFD012",
+                    "U1LHE347N",
+                    "U3TF60E65",
+                    "U3D5HVB51",
+                    "U3XDWVD3P",
+                    "U8G3YNU82",
+                    "U1CMPEWPQ",
+                    "U4UD5SLFQ",
+                    "U0JTMFHDE",
+                    "U49NJJXNJ",
+                    "U2LGQMC4D",
+                    "U0FL6RNHM",
+                    "U6QD48HHS",
+                    "U043814R6",
+                    "U04725QK7",
+                    "U2D575HEK",
+                    "U15UZGX9A",
+                    "U3T5QEDJ8",
+                    "U7RHW7FQV",
+                    "U4L41U97A",
+                    "U6PNWSJL8",
+                    "U061VJ5SB",
+                    "U6XCTTGUB",
+                    "U6XAU8ZNW",
+                    "U5RR420FQ",
+                    "U2PMV9N06",
+                    "U30A6KZLH",
+                    "U1Z40FGQ6",
+                    "U79U060TZ",
+                    "U7ZT9LWP4",
+                    "U6T11F9T4",
+                    "U10K3LXHV",
+                    "U7RCMHAH1",
+                    "U0AL6V5TN",
+                    "U0XF4GAM8",
+                    "U44A57Q1G",
+                    "U48K109CG"
+                ],
+                "count": 71
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U7F3QDMNK",
+                    "U5FHB86JE",
+                    "U4WM1939Q",
+                    "U06J1LG1M",
+                    "U600Q839S",
+                    "U1Q0B8KMJ",
+                    "U09JEC7V0",
+                    "U1LHE347N",
+                    "U4WGFD012",
+                    "U3TF60E65",
+                    "U3D5HVB51",
+                    "U3XDWVD3P",
+                    "U1CMPEWPQ",
+                    "U4UD5SLFQ",
+                    "U0JTMFHDE",
+                    "U49NJJXNJ",
+                    "U2LGQMC4D",
+                    "U0FL6RNHM",
+                    "U043814R6",
+                    "U80Q13A6R",
+                    "U04725QK7",
+                    "U15UZGX9A",
+                    "U7RHW7FQV",
+                    "U6PNWSJL8",
+                    "U07159GKF",
+                    "U061VJ5SB",
+                    "U6XAU8ZNW",
+                    "U2PMV9N06",
+                    "U30A6KZLH",
+                    "U1Z40FGQ6",
+                    "U7ZT9LWP4",
+                    "U6T11F9T4",
+                    "U10K3LXHV",
+                    "U7RCMHAH1",
+                    "U0AL6V5TN",
+                    "U0XF4GAM8",
+                    "U44A57Q1G",
+                    "U0K4Y1JAK",
+                    "U6FT7BM6D",
+                    "U6YTYEJR4",
+                    "U3HM4KY14",
+                    "U48K109CG",
+                    "U7BSFBQ1M",
+                    "U14DZQQR0",
+                    "U2VSTEJ49",
+                    "U24FHECDD",
+                    "U04JHD4QK",
+                    "U6YEN210D",
+                    "U34Q3KU8H",
+                    "U6RKTF75K"
+                ],
+                "count": 63
+            },
+            {
+                "name": "galera",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U1NLYUY5N",
+                    "U6GDF7JF2",
+                    "U09JEC7V0",
+                    "U4WGFD012",
+                    "U1LHE347N",
+                    "U8GGBPGR3",
+                    "U49NJJXNJ",
+                    "U043814R6",
+                    "U7RHW7FQV",
+                    "U6XAU8ZNW",
+                    "U7RCMHAH1",
+                    "U0XF4GAM8",
+                    "U7HAARZEC",
+                    "U0PEXP9PH",
+                    "U3NR8Q399",
+                    "U6NSQ80GN",
+                    "U7E8Y3V19"
+                ],
+                "count": 18
+            },
+            {
+                "name": "electric_plug",
+                "users": [
+                    "U6YTYEJR4",
+                    "U48K109CG",
+                    "U0XF4GAM8",
+                    "U04JHD4QK",
+                    "U34Q3KU8H",
+                    "U3SJBMJ9M",
+                    "U0PEXP9PH",
+                    "U6NSQ80GN",
+                    "U1ZAJ4FC4",
+                    "U8PMZ6397"
+                ],
+                "count": 10
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U5CD3D3RN"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Слишком общее описание - не цепляет",
+        "user": "U6GDF7JF2",
+        "ts": "1513682730.000298",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4f08e7692465",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-16\/316151733155_4f08e76924653e626c0f_72.jpg",
+            "first_name": "Serg",
+            "real_name": "Serg Lavrikov",
+            "display_name": "rumbok",
+            "team": "T040HKJE3",
+            "name": "rumbok",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1513682635.000089",
+        "parent_user_id": "U47EE2GLR",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U27HU84H4",
+                    "U6XAU8ZNW"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Trench Austria\nTrench Brazil\nTrench Canada\nTrench China\nTrench France\nTrench Germany\nTrench Italia\n\nА где Trench Tsvetnoy Bulvar?",
+        "user": "U4WM1939Q",
+        "ts": "1513683024.000322",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "586abf0ae10d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-16\/242353084725_586abf0ae10da1c590ec_72.jpg",
+            "first_name": "Andrey",
+            "real_name": "Andrey Gurevich",
+            "display_name": "amber4eg",
+            "team": "T040HKJE3",
+            "name": "amber4eg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1513682635.000089",
+        "parent_user_id": "U47EE2GLR"
+    },
+    {
+        "type": "message",
+        "text": "интегратор или консалтинг?",
+        "user": "U0FEJNBGQ",
+        "ts": "1513683228.000160",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1513682635.000089",
+        "parent_user_id": "U47EE2GLR"
+    },
+    {
+        "type": "message",
+        "text": "Напишите С++ русскими этому господину",
+        "user": "U2N853RGF",
+        "ts": "1513685432.000334",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1513681682.000038",
+        "parent_user_id": "U04423D74",
+        "reactions": [
+            {
+                "name": "kekeke",
+                "users": [
+                    "U6XAU8ZNW",
+                    "U04423D74",
+                    "U27HU84H4",
+                    "U04JHD4QK",
+                    "U7ZT0SJ9G",
+                    "U17UDV31D"
+                ],
+                "count": 6
+            },
+            {
+                "name": "sir",
+                "users": [
+                    "U27HU84H4"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "нет вилки - нет вакансии",
+        "user": "U2LGQMC4D",
+        "ts": "1513688005.000446",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ffc723117cb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-14\/1345601413783_ffc723117cb385805a6c_72.jpg",
+            "first_name": "Valeriy",
+            "real_name": "Valeriy Babushkin",
+            "display_name": "venheads",
+            "team": "T040HKJE3",
+            "name": "venheads",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1513682635.000089",
+        "parent_user_id": "U47EE2GLR",
+        "reactions": [
+            {
+                "name": "electric_plug",
+                "users": [
+                    "U5RR420FQ",
+                    "U7HU90PR8",
+                    "U6T11F9T4",
+                    "U8FNU6D98",
+                    "U0XF4GAM8",
+                    "U6RKTF75K",
+                    "U87S2UHCN",
+                    "U2GTUS0CB",
+                    "U6YV1UAS1"
+                ],
+                "count": 9
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Всем привет! \n\nИщем начинающих и продолжающих data scientist’ов к себе в команду Cinimex Data Lab. \n\nЯвляемся чем-то вроде стартапа внутри системного интегратора. \nПросторный офис на Большой Татарской (м. Новокузнецкая). График работы не жесткий, всегда можно договориться. Приветливая команда, уютная игровая, стол для понга (достойные соперники прилагаются) и другие плюшки.\n\nПроекты разноплановые, в основном зарубежные. Есть много всего: Deep Learning, приложения классического ML  и проекты по обработке больших данных. Будет возможность поработать в облаках (GCE, AWS). \n\nИз знаний интересны:\n- Машинное обучение и статистика\n- Английский\n- Понимание процессов разработки ПО\n\nИз технологий интересны (возможны комбинации :)):\n- PyData stack (pandas, sklearn, numpy, matplotlib, seaborn)\n- Spark, Spark SQL (scala, python)\n- Git\n- Умение писать код не только в блокнотах\n- Умение работать в Linux\n\nПлюсом будет:\n- Опыт реализации DS проектов\n- Хорошие практики написания кода (тесты, CI\/CD, документирование)\n- Опыт работы с Tensorflow\n- Желание учиться и развиваться\n\nВилка по результатам общения от 60 до 130к, возможность роста. ЗП белая.\nПишите в личку или на <mailto:kdubovikov@cinimex.ru|kdubovikov@cinimex.ru>",
+        "user": "U0QTS1LRF",
+        "ts": "1513696942.000170",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ad582ed9eda5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-12-19\/288895674802_ad582ed9eda51c4da9fc_72.jpg",
+            "first_name": "Kirill",
+            "real_name": "Kirill Dubovikov",
+            "display_name": "kdubovikov",
+            "team": "T040HKJE3",
+            "name": "kdubovikov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "galera",
+                "users": [
+                    "U10K3LXHV",
+                    "U49NJJXNJ",
+                    "U049NHC4X",
+                    "U60HKRBAB",
+                    "U6YEN210D",
+                    "U061VJ5SB",
+                    "U2AL40SAH",
+                    "U6RKTF75K",
+                    "U1CMPEWPQ",
+                    "U0PEXP9PH",
+                    "U0AL6V5TN",
+                    "U6T11F9T4",
+                    "U1MLEMG11",
+                    "U07159GKF",
+                    "U09JEC7V0",
+                    "U87S2UHCN",
+                    "U52330HTK",
+                    "U7FUYA735",
+                    "U0XF4GAM8",
+                    "U80Q13A6R",
+                    "U74DLUWUC",
+                    "U8GNN0SF4",
+                    "U3NR8Q399",
+                    "U362WKFB3",
+                    "U7E8Y3V19"
+                ],
+                "count": 25
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U71KW5LV6",
+                    "U4X5JVCQ0",
+                    "U4B2SCTBQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Видишь разницу С++ и C++, а она есть :slightly_smiling_face:",
+        "user": "U5H0L5T98",
+        "ts": "1513705628.000447",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "2583286cfe69",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-03-15\/1001061894912_2583286cfe69946597f2_72.jpg",
+            "first_name": "Vadim",
+            "real_name": "Vadim Borisov",
+            "display_name": "borisov",
+            "team": "T040HKJE3",
+            "name": "pybor",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1513681682.000038",
+        "parent_user_id": "U04423D74"
+    }
+]

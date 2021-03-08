@@ -1,0 +1,639 @@
+[
+    {
+        "type": "message",
+        "text": "надо больше слоев… Выглядит, как использование сложившейся вокруг Hadoop экосистемы.\n\nПо теме в этой статье сравнивается Druid с SQL-on-Hadoop <http:\/\/druid.io\/docs\/latest\/comparisons\/druid-vs-sql-on-hadoop.html>",
+        "user": "U0WFRNCV7",
+        "ts": "1507207582.000269",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gb9526cdf90a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/77b9526cdf90a72f4c79e1622c676c91.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "Rinat",
+            "real_name": "Rinat Shigapov",
+            "display_name": "dxist",
+            "team": "T040HKJE3",
+            "name": "dxist",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1507134767.000275",
+        "parent_user_id": "U6WEV3LBB"
+    },
+    {
+        "type": "message",
+        "text": "Привет! Мопед не мой, но вроде интересный. \nСтартап <http:\/\/hypefactory.com|hypefactory.com> (платформа, помогающая размещать рекламу у популярных блогеров) ищет Lead Data Scientist.\n\nПримеры задач:\n- определять качество аудитории блогеров (находить ботов, массфолловеров и просто купленных подписчиков, определять накрутки просмотров-лайков)\n- определять демографические и психографические характеристики аудитории (на основе публичных данных профилей в соц.сетях)\n- определять интересы аудитории (по их контенту и активности), в том числе brand affinity (например, блогеров с аудиторией, которая покупает дорогую брендовую одежду)\n- кластеризовать аудиторию по типажам (например, автолюбители, “мамочки“, и тп)\n- находить расширенную информацию по подписчикам (наличие домашних животных, жены, машины, склонность к путешествиям)\n- уметь подбирать блогеров по ключевым словам, look alike (поиск блогеров с похоже аудиторией)\n- парсить и определять рекламные посты, отслеживать их эффективность\n- автоматически подбирать блогеров под цели рекламодателя (например, минимальной ценой получить максимальный охват среди женщин из Лондона)\n- отслеживать “перетекание” подписчиков блогера на аккаунт, который он рекламирует\n- предсказывать эффективность размещения, выдавать рекомендации (например, о включении или наоборот исключении из подборки определенных блогеров).\n\nПитер, офис с ништяками на Петроградке, вилка 150-250 тыщ. С вопросами можно писать CEO компании Александру (<mailto:frolov@hypefactory.com|frolov@hypefactory.com>), пометка ODS даст вам плюс в карму.",
+        "user": "U1G303UTW",
+        "ts": "1507223107.000071",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f0c7464c2202",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-18\/348968633282_f0c7464c2202b586297b_72.jpg",
+            "first_name": "Arseny",
+            "real_name": "Arseny Kravchenko",
+            "display_name": "arsenyinfo",
+            "team": "T040HKJE3",
+            "name": "arsenyinfo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1G303UTW",
+            "ts": "1507223258.000000"
+        },
+        "thread_ts": "1507223107.000071",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1507239419.000482",
+        "reply_users": [
+            "U1G303UTW",
+            "U0M39M6LS",
+            "U302AALBS"
+        ],
+        "replies": [
+            {
+                "user": "U1G303UTW",
+                "ts": "1507223187.000334"
+            },
+            {
+                "user": "U0M39M6LS",
+                "ts": "1507228359.000383"
+            },
+            {
+                "user": "U302AALBS",
+                "ts": "1507239419.000482"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1::skin-tone-6",
+                "users": [
+                    "U041SH27M",
+                    "U0M39M6LS",
+                    "U1ULFPM0U",
+                    "U5FUU47GA"
+                ],
+                "count": 4
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U3XDWVD3P",
+                    "U0M39M6LS",
+                    "U4WM1939Q",
+                    "U1ULFPM0U",
+                    "U1LHE347N",
+                    "U71KW5LV6",
+                    "U5J18778U"
+                ],
+                "count": 7
+            },
+            {
+                "name": "mason",
+                "users": [
+                    "U14CTBLFJ"
+                ],
+                "count": 1
+            },
+            {
+                "name": "antihype",
+                "users": [
+                    "U2T31R2QJ",
+                    "U04725QK7",
+                    "U0M39M6LS",
+                    "U04ELQZAU",
+                    "U1ULFPM0U",
+                    "U24DR1FUK",
+                    "U049HDR2Z",
+                    "U5VNM4NHJ"
+                ],
+                "count": 8
+            },
+            {
+                "name": "racing_motorcycle",
+                "users": [
+                    "U0DA4J82H",
+                    "U71KW5LV6"
+                ],
+                "count": 2
+            },
+            {
+                "name": "panda",
+                "users": [
+                    "U71KW5LV6"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "От себя: я разговаривал с основателем на product camp, показался адекватным. Он сам в DS не шарит, потому ищет первого человека, который все наладит.",
+        "user": "U1G303UTW",
+        "ts": "1507223187.000334",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f0c7464c2202",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-18\/348968633282_f0c7464c2202b586297b_72.jpg",
+            "first_name": "Arseny",
+            "real_name": "Arseny Kravchenko",
+            "display_name": "arsenyinfo",
+            "team": "T040HKJE3",
+            "name": "arsenyinfo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1507223107.000071",
+        "parent_user_id": "U1G303UTW",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U041SH27M",
+                    "U71KW5LV6"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Всем привет! Попросили выложить\n-Кто? Аналитик в группу разработки аналитических сервисов \nКуда? Рейтинговое агенство АКРА, Москва. \n-Что делать? Моделировать вероятности дефолта клиентов, создавать модели LGD, модели для IFRS9 корпоративного сегмента, модели рыночного риска, валидации, стресс-тестирования + много других интересных задач, связанных с машинным обучением и бизнес-аналитикой. \n-Что необходимо? Ищем человека с базовым техническим образованием (Мехмат, ВМК, Физтех, ФКН) и отличным знанием статистики, эконометрики и навыками программирования. \n-Что предлагаем? Работа в комфортном офисе у метро Павелецкая, страховка, оплачиваемое обучение. Подразделение новое, зарплатных ограничений нет, все зависит от уровня навыков и позиции. Частичная занятость обсуждаема. \nРезюме и вопросы на почтовый адрес: <mailto:o.yaropolov@yandex.ru|o.yaropolov@yandex.ru>",
+        "user": "U48PSCWTB",
+        "ts": "1507224509.000343",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gc736be2da8d",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/71c736be2da8d24bc6fbbc84e95857f0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "Semyon",
+            "real_name": "Semyon Fedotov",
+            "display_name": "simon23rus",
+            "team": "T040HKJE3",
+            "name": "simon23rus",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1507224509.000343",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1507225956.000481",
+        "reply_users": [
+            "U09JEC7V0",
+            "U43QVTY49"
+        ],
+        "replies": [
+            {
+                "user": "U09JEC7V0",
+                "ts": "1507224605.000734"
+            },
+            {
+                "user": "U43QVTY49",
+                "ts": "1507225956.000481"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fork",
+                "users": [
+                    "U600Q839S",
+                    "U2LGQMC4D",
+                    "U09JEC7V0",
+                    "U3XDWVD3P",
+                    "U2AL40SAH",
+                    "U06J1LG1M",
+                    "U2N853RGF",
+                    "U6Y8AK02Y",
+                    "U36Q9NJMD",
+                    "U60EETE7N",
+                    "U44A57Q1G",
+                    "U74GVQMTM",
+                    "U6QD48HHS",
+                    "U3K7PNTML",
+                    "U73NVHE0Y",
+                    "U2GTUS0CB",
+                    "U04725QK7",
+                    "U1CMPEWPQ",
+                    "U6BS23P47",
+                    "U0M39M6LS",
+                    "U49NJJXNJ",
+                    "U1BL20KEV",
+                    "U4RFX4PJT",
+                    "U0DA4J82H",
+                    "U6NSQ80GN",
+                    "U10P8BDU1",
+                    "U04JHD4QK",
+                    "U6GDF7JF2",
+                    "U043814R6",
+                    "U6L08K8KS",
+                    "U1LHE347N",
+                    "U061VJ5SB",
+                    "U15UZGX9A",
+                    "U4B8MC0AD",
+                    "U2D575HEK",
+                    "U0PEXP9PH",
+                    "U27SUBTB9",
+                    "U50EVF538",
+                    "U1FS1U3B7",
+                    "U6XCTTGUB",
+                    "U1J5JCGKE",
+                    "U041SH27M",
+                    "U5GT468HH",
+                    "U6YTYEJR4",
+                    "U0AL6V5TN",
+                    "U1R8X3V54",
+                    "U5J18778U",
+                    "U6SHTGD5X",
+                    "U729C6MGA",
+                    "U0M5S4EN6"
+                ],
+                "count": 52
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U06J1LG1M",
+                    "U09JEC7V0",
+                    "U73NVHE0Y",
+                    "U49NJJXNJ",
+                    "U4RFX4PJT",
+                    "U6NSQ80GN",
+                    "U1D6DT6HE",
+                    "U48RADPLP",
+                    "U043814R6",
+                    "U1CE1LVD3",
+                    "U14CTBLFJ",
+                    "U6L08K8KS",
+                    "U1LHE347N",
+                    "U1VBAF9K2",
+                    "U15UZGX9A",
+                    "U4B8MC0AD",
+                    "U2AL40SAH",
+                    "U0PEXP9PH",
+                    "U27SUBTB9",
+                    "U50EVF538",
+                    "U1FS1U3B7",
+                    "U6BS23P47",
+                    "U66A98XEC",
+                    "U041SH27M",
+                    "U5GT468HH",
+                    "U6YTYEJR4",
+                    "U24DR1FUK",
+                    "U0AL6V5TN",
+                    "U1R8X3V54",
+                    "U049HDR2Z",
+                    "U5J18778U",
+                    "U4B2SCTBQ",
+                    "U34Q3KU8H",
+                    "U2GAEHQR1",
+                    "U5KLQCV28",
+                    "U73N1V2SC"
+                ],
+                "count": 36
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "раз просили выложить, то попросите их вилку озвучить",
+        "user": "U09JEC7V0",
+        "ts": "1507224605.000734",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1507224509.000343",
+        "parent_user_id": "U48PSCWTB",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U2LGQMC4D",
+                    "U60EETE7N",
+                    "U43QVTY49",
+                    "U3K7PNTML",
+                    "U040HKJE7",
+                    "U04JHD4QK",
+                    "U34Q3KU8H",
+                    "U061VJ5SB",
+                    "U729C6MGA"
+                ],
+                "count": 9
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "У меня уже рыба для рекрутеров готова, которые просят кого-то порекомендовать:\n«Бла-бла-бла, приведёте к такому формату, то выложу на 6к+ DS-related людей».\n\nПока никто не сделал :sweat:",
+        "user": "U43QVTY49",
+        "ts": "1507225956.000481",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e478d3302d4c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-09\/1046324740519_e478d3302d4c1bc1bf52_72.jpg",
+            "first_name": "Pavel",
+            "real_name": "Pavel Myagkikh",
+            "display_name": "pavel_myagkikh",
+            "team": "T040HKJE3",
+            "name": "pavel_myagkikh",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1507224509.000343",
+        "parent_user_id": "U48PSCWTB",
+        "reactions": [
+            {
+                "name": "are_you_fucking_kidding_me",
+                "users": [
+                    "U73NVHE0Y",
+                    "U040HKJE7",
+                    "U4WGFD012",
+                    "U3TF60E65"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Дата сайнс и ютубчик - каиф :feelsgoodmeme: ",
+        "user": "U0M39M6LS",
+        "ts": "1507228359.000383",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "caec20c70dba",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-07-12\/211910715859_caec20c70dbaa1ce8978_72.jpg",
+            "first_name": "Vitalii",
+            "real_name": "Vitalii Radchenko",
+            "display_name": "vradchenko",
+            "team": "T040HKJE3",
+            "name": "vradchenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1507223107.000071",
+        "parent_user_id": "U1G303UTW"
+    },
+    {
+        "type": "message",
+        "text": "Там нигде некий калашников не стоит?",
+        "user": "U302AALBS",
+        "ts": "1507239419.000482",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7c366c37001c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-16\/1193921128180_7c366c37001c886dc893_72.jpg",
+            "first_name": "Владимир",
+            "real_name": "Владимир Яшин",
+            "display_name": "vdyashin",
+            "team": "T040HKJE3",
+            "name": "vdyashin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1507223107.000071",
+        "parent_user_id": "U1G303UTW",
+        "reactions": [
+            {
+                "name": "povar",
+                "users": [
+                    "U0M39M6LS",
+                    "U703EJR2N",
+                    "U44CT68FP"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Привет! Знакомый ищет аналитиков-разработчиков в Новосибирске. Компания \"Интеграл Петролеум\" (<http:\/\/ru.integral-petroleum.ch\/>)\n\"Мы ищем молодых амбициозных выпускников ведущих вузов, готовых к работе на неизведанных полях с широкими возможностями. Если Вам скучно в Компаниях с многолетними Правилами и Регламентами, если Вы готовы исследовать и развивать новые направления – приходите к нам.\"\nЗарплата от 50 до 150 т.р. по результатам общения. Резюме и вопросы по адресу <mailto:alexandr.beresnev@integral-petroleum.ch|alexandr.beresnev@integral-petroleum.ch>",
+        "files": [
+            {
+                "id": "F7E9T7PUJ",
+                "created": 1507260862,
+                "timestamp": 1507260862,
+                "name": "Аналитик E-Trader.pdf",
+                "title": "Аналитик E-Trader.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U2TR489RU",
+                "editable": false,
+                "size": 208404,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-F7E9T7PUJ\/_________________e-trader.pdf?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-F7E9T7PUJ\/download\/_________________e-trader.pdf?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F7E9T7PUJ-4d63086251\/_________________e-trader_thumb_pdf.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_pdf_w": 910,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/opendatascience.slack.com\/files\/U2TR489RU\/F7E9T7PUJ\/_________________e-trader.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T040HKJE3-F7E9T7PUJ-6dc9abd185",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "U2TR489RU",
+        "display_as_bot": false,
+        "ts": "1507260864.000012"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U4B8MC0AD> commented on <@U2TR489RU>’s file <https:\/\/opendatascience.slack.com\/files\/U2TR489RU\/F7E9T7PUJ\/_________________e-trader.pdf|Аналитик E-Trader.pdf>: сферическая вакансия в вакууме",
+        "file": {
+            "id": "F7E9T7PUJ",
+            "created": 1507260862,
+            "timestamp": 1507260862,
+            "name": "Аналитик E-Trader.pdf",
+            "title": "Аналитик E-Trader.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U2TR489RU",
+            "editable": false,
+            "size": 208404,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-F7E9T7PUJ\/_________________e-trader.pdf?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-F7E9T7PUJ\/download\/_________________e-trader.pdf?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F7E9T7PUJ-4d63086251\/_________________e-trader_thumb_pdf.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+            "thumb_pdf_w": 910,
+            "thumb_pdf_h": 1286,
+            "permalink": "https:\/\/opendatascience.slack.com\/files\/U2TR489RU\/F7E9T7PUJ\/_________________e-trader.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T040HKJE3-F7E9T7PUJ-6dc9abd185",
+            "is_starred": false,
+            "has_rich_preview": false
+        },
+        "files": [
+            {
+                "id": "F7E9T7PUJ",
+                "created": 1507260862,
+                "timestamp": 1507260862,
+                "name": "Аналитик E-Trader.pdf",
+                "title": "Аналитик E-Trader.pdf",
+                "mimetype": "application\/pdf",
+                "filetype": "pdf",
+                "pretty_type": "PDF",
+                "user": "U2TR489RU",
+                "editable": false,
+                "size": 208404,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-F7E9T7PUJ\/_________________e-trader.pdf?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-F7E9T7PUJ\/download\/_________________e-trader.pdf?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F7E9T7PUJ-4d63086251\/_________________e-trader_thumb_pdf.png?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_pdf_w": 910,
+                "thumb_pdf_h": 1286,
+                "permalink": "https:\/\/opendatascience.slack.com\/files\/U2TR489RU\/F7E9T7PUJ\/_________________e-trader.pdf",
+                "permalink_public": "https:\/\/slack-files.com\/T040HKJE3-F7E9T7PUJ-6dc9abd185",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "comment": {
+            "id": "Fc7E8G2E03",
+            "created": 1507270312,
+            "timestamp": 1507270312,
+            "user": "U4B8MC0AD",
+            "is_intro": false,
+            "comment": "сферическая вакансия в вакууме"
+        },
+        "is_intro": false,
+        "ts": "1507270312.000045"
+    },
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1507271388.000088",
+        "thread_ts": "1507271388.000088",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1507271432.000191",
+        "reply_users": [
+            "U44A57Q1G"
+        ],
+        "replies": [
+            {
+                "user": "U44A57Q1G",
+                "ts": "1507271432.000191"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fork",
+                "users": [
+                    "U4B8MC0AD",
+                    "U44A57Q1G",
+                    "U09JEC7V0",
+                    "U2LGQMC4D",
+                    "U0FL6RNHM",
+                    "U06J1LG1M",
+                    "U73NVHE0Y",
+                    "U15UZGX9A",
+                    "U2D575HEK",
+                    "U1LHE347N",
+                    "U6GDF7JF2"
+                ],
+                "count": 11
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U4B8MC0AD",
+                    "U44A57Q1G",
+                    "U3XDWVD3P",
+                    "U09JEC7V0",
+                    "U2LGQMC4D",
+                    "U0FL6RNHM",
+                    "U06J1LG1M",
+                    "U73NVHE0Y",
+                    "U15UZGX9A",
+                    "U27HU84H4",
+                    "U0P95857C",
+                    "U1LHE347N",
+                    "U1VBAF9K2",
+                    "U09NC5XLN",
+                    "U061VJ5SB"
+                ],
+                "count": 15
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "↓↓↓ ВНИМАТЕЛЬНО ОЗНАКОМЬТЕСЬ С ПРАВИЛАМИ ↓↓↓\nРезюме выкладывать -&gt; <#C5CP7FAR4|looking_for_a_job>\nРекомендации по оформлению вакансий:\n-название вакансии;\n-город\n-описание того что нужно делать;\n-требования к кандидатам;\n-вилка зарплат (от и до)",
+        "user": "U44A57Q1G",
+        "ts": "1507271432.000191",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "25e660ad630f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-30\/779477052823_25e660ad630fa39b6f48_72.png",
+            "first_name": "Repushko",
+            "real_name": "Repushko Anton",
+            "display_name": "repushko",
+            "team": "T040HKJE3",
+            "name": "grisme",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1507271388.000088",
+        "parent_user_id": "U7DQXL2GH",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U15UZGX9A"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,555 @@
+[
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1601655315.018200",
+        "thread_ts": "1601655315.018200",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1601706601.020600",
+        "reply_users": [
+            "UELA14HSS",
+            "U01BVF7T07L"
+        ],
+        "replies": [
+            {
+                "user": "UELA14HSS",
+                "ts": "1601661282.018400"
+            },
+            {
+                "user": "U01BVF7T07L",
+                "ts": "1601706601.020600"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "2166937f-74dc-4550-b800-62c1b960123d",
+        "type": "message",
+        "text": "1. что за проекты? что именно релизится в прод?\n2. я правильно помню, что ipavlov уже не имеет отношения к :deeppavlov: ?\n3. это же у вас Акопян?\n",
+        "user": "UELA14HSS",
+        "ts": "1601661282.018400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f57d2c5ea770",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-12-04\/495013890082_f57d2c5ea770b73ea694_72.jpg",
+            "first_name": "Grigoriy",
+            "real_name": "Grigoriy Rashkov",
+            "display_name": "logogriph",
+            "team": "T040HKJE3",
+            "name": "rashkov079",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oGM",
+                "elements": [
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "что за проекты? что именно релизится в прод?"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "я правильно помню, что ipavlov уже не имеет отношения к "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "deeppavlov"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " ?"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "это же у вас Акопян?"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "ordered",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601655315.018200",
+        "parent_user_id": "U01BVF7T07L"
+    },
+    {
+        "client_msg_id": "45143c2c-592f-4fc0-9f81-c894bd153d6d",
+        "type": "message",
+        "text": "всем привет!\n*Научно-исследовательский центр оптоэлектроники, медицинской техники и искусственного интеллекта АО «Швабе» в МФТИ* приглашает в команду NLP Engineer.\nНаши электронные ресурсы:\n* <http:\/\/ipavlov.ai\/>;\n* <https:\/\/mipt.ru\/science\/labs\/shvabe.ai\/>\nМы большая команда друзей (знаем всех по имени и, даже, у кого когда день рождения);\nМы активно растем и развиваемся;\nМы релизимся в прод раз в 2 недели;\nМы используем современный стек технологий и микросервисную архитектуру.\n\n*Что нужно делать:*\n• Участие в постановке задачи и создании технического задания по проекту.\n• Участие в предварительной обработке и подготовке данных.\n• Участие в создании программных продуктов и сервисов.\n• Участие в работах по интеграции проекта клиенту.\n• Участие в работах по сдаче проекта клиенту.\n• Участие в командной разработке.\nОсновные внедряемые продукты и сервисы построены на базе NLP моделей:\n• Ответы на вопросы по тексту.\n• Открытые доменные вопросы.\n• Распознавание именованных сущностей.\n• Анализ тональности текста.\n• Классификация интентов.\n• Обнаружение оскорблений.\n*Что мы ждем от кандидата:*\n• Знание языка Python и библиотек ML и анализа данных (Scikit-learn, Pandas, Matplotlib, Numpy, Scipy, Sklearn).\n• Практический опыт применения базовых моделей NLP (ngrams, skip-grams, td-idf и пр.).\n• Опыт применения GloVe, ELMo, RNN, CNN, Transformer, BERT.\n• Знание одного из Deep Learning фреймворков: Tensorflow, PyTorch.\n• Уверенный пользователь OS Linux\/Unix.\n• Опыт работы с технологиями виртуализации (Docker и пр.).\n• Опыт работы с Git.\n• Опыт работы с SQL системами управления базами данных.\n• Применение устройств распределенных систем хранения класса NoSQL (MongoDB, Tarantool, Neo4J и пр.).\n*Условия:*\n• Оформление в соответствии с ТК РФ, официальная заработная плата.\n• Зарплатная вилка 100-200 к\n• Возможность удаленной работы.\nКонтакты: Белова Екатерина, <tel:8-929-645-67-69|8-929-645-67-69> <mailto:belova@ipavlov.ai|belova@ipavlov.ai>",
+        "user": "U01BVF7T07L",
+        "ts": "1601706508.020400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "73d6751af00c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-02\/1409717073636_73d6751af00c23c3cdec_72.jpg",
+            "first_name": "",
+            "real_name": "Ekaterina Belova",
+            "display_name": "Ekaterina Belova",
+            "team": "T040HKJE3",
+            "name": "quipkatya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U01BVF7T07L",
+            "ts": "1601706553.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kBe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "всем привет!\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Научно-исследовательский центр оптоэлектроники, медицинской техники и искусственного интеллекта АО «Швабе» в МФТИ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " приглашает в команду NLP Engineer.\nНаши электронные ресурсы:\n* "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/ipavlov.ai\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": ";\n* "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/mipt.ru\/science\/labs\/shvabe.ai\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nМы большая команда друзей (знаем всех по имени и, даже, у кого когда день рождения);\nМы активно растем и развиваемся;\nМы релизимся в прод раз в 2 недели;\nМы используем современный стек технологий и микросервисную архитектуру.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что нужно делать:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Участие в постановке задачи и создании технического задания по проекту."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Участие в предварительной обработке и подготовке данных."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Участие в создании программных продуктов и сервисов."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Участие в работах по интеграции проекта клиенту."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Участие в работах по сдаче проекта клиенту."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Участие в командной разработке."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Основные внедряемые продукты и сервисы построены на базе NLP моделей:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Ответы на вопросы по тексту."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Открытые доменные вопросы."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Распознавание именованных сущностей."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Анализ тональности текста."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Классификация интентов."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Обнаружение оскорблений."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Что мы ждем от кандидата:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание языка Python и библиотек ML и анализа данных (Scikit-learn, Pandas, Matplotlib, Numpy, Scipy, Sklearn)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Практический опыт применения базовых моделей NLP (ngrams, skip-grams, td-idf и пр.)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт применения GloVe, ELMo, RNN, CNN, Transformer, BERT."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание одного из Deep Learning фреймворков: Tensorflow, PyTorch."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Уверенный пользователь OS Linux\/Unix."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с технологиями виртуализации (Docker и пр.)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с Git."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с SQL системами управления базами данных."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Применение устройств распределенных систем хранения класса NoSQL (MongoDB, Tarantool, Neo4J и пр.)."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Условия:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Оформление в соответствии с ТК РФ, официальная заработная плата."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Зарплатная вилка 100-200 к"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Возможность удаленной работы."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Контакты: Белова Екатерина, 8-929-645-67-69 "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:belova@ipavlov.ai",
+                                "text": "belova@ipavlov.ai"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601706508.020400",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1603810935.120400",
+        "reply_users": [
+            "UELA14HSS",
+            "U01BVF7T07L"
+        ],
+        "replies": [
+            {
+                "user": "UELA14HSS",
+                "ts": "1601761143.021100"
+            },
+            {
+                "user": "U01BVF7T07L",
+                "ts": "1603810935.120400"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "5a9e29fa-1b3a-4aae-a758-32080d6372da",
+        "type": "message",
+        "text": "1. чат-бот платформа.  2. имеет, но не прямое 3. да              ",
+        "user": "U01BVF7T07L",
+        "ts": "1601706601.020600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "73d6751af00c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-02\/1409717073636_73d6751af00c23c3cdec_72.jpg",
+            "first_name": "",
+            "real_name": "Ekaterina Belova",
+            "display_name": "Ekaterina Belova",
+            "team": "T040HKJE3",
+            "name": "quipkatya",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U01BVF7T07L",
+            "ts": "1601706698.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cwM",
+                "elements": [
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "чат-бот платформа.  2. имеет, но не прямое 3. да              "
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "ordered",
+                        "indent": 0
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601655315.018200",
+        "parent_user_id": "USLACKBOT"
+    }
+]

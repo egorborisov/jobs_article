@@ -1,0 +1,177 @@
+[
+    {
+        "type": "message",
+        "text": "Узнавать игрока в покер по сделанным ходам - Shortdeck Poker.\n\nМы сделали покерное приложение Shortdeck. Проблема в том, что любители потенциально могут передавать аккаунт профессионалу, чтобы тот под их ником играл. Хочется замечать такие ситуации. \n\nГотов набор данных в csv с описанием сыгранных раздач, сделанных ставок, таймингов, нажатых кнопок. Позже добавятся траектории движения пальца по экрану и данные от акселерометра (у нас приложение на iOS). Данные размечены чисто, каждый играет под своим ником. \n\nКонкретную метрику и способ тестирования предстоит придумать. Кажется, что это сложная часть.\n\nИнтересно предсказывать и профессионализм игры за выбранный вечер, и факт передачи аккаунта другому человеку в какой-то момент.\n\nОчень желательно понимать вес фичей и хотя бы немного логику классификатора, потому что если мы обвиняем человека в жульничестве и запрещаем дальше играть, нужны понятные доказательства.\n\nПроект на пару месяцев с дальнейшей поддержкой, сотрудник на фуллтайм не нужен. \n\nУдаленно, от 3000₽\/час.\n\nЗа подробностями пишите сообщения здесь или на почту <mailto:oleg@shortdeckpoker.com|oleg@shortdeckpoker.com>",
+        "user": "U35S6UXF1",
+        "ts": "1509943546.000098",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "549b30aeeddd",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-06\/268462834567_549b30aeeddd1bde7668_72.jpg",
+            "first_name": "Oleg",
+            "real_name": "Oleg Ostroumov",
+            "display_name": "olegandroidqq",
+            "team": "T040HKJE3",
+            "name": "olegandroidqq",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1509943546.000098",
+        "reply_count": 12,
+        "reply_users_count": 4,
+        "latest_reply": "1509987919.000257",
+        "reply_users": [
+            "U35S6UXF1",
+            "U14CTBLFJ",
+            "U1ULFPM0U",
+            "U6QEYJD8C"
+        ],
+        "replies": [
+            {
+                "user": "U35S6UXF1",
+                "ts": "1509953551.000111"
+            },
+            {
+                "user": "U14CTBLFJ",
+                "ts": "1509955042.000130"
+            },
+            {
+                "user": "U1ULFPM0U",
+                "ts": "1509965974.000090"
+            },
+            {
+                "user": "U1ULFPM0U",
+                "ts": "1509966053.000194"
+            },
+            {
+                "user": "U35S6UXF1",
+                "ts": "1509966630.000122"
+            },
+            {
+                "user": "U1ULFPM0U",
+                "ts": "1509967036.000071"
+            },
+            {
+                "user": "U35S6UXF1",
+                "ts": "1509967129.000069"
+            },
+            {
+                "user": "U1ULFPM0U",
+                "ts": "1509967583.000041"
+            },
+            {
+                "user": "U6QEYJD8C",
+                "ts": "1509973818.000097"
+            },
+            {
+                "user": "U35S6UXF1",
+                "ts": "1509977621.000168"
+            },
+            {
+                "user": "U35S6UXF1",
+                "ts": "1509977749.000366"
+            },
+            {
+                "user": "U6QEYJD8C",
+                "ts": "1509987919.000257"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U4D6PKQGZ",
+                    "U5H0L5T98",
+                    "U705ED0CU",
+                    "U0ZHHV83C"
+                ],
+                "count": 4
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U0K47J3HR",
+                    "U705ED0CU",
+                    "U0ZHHV83C",
+                    "U10K3LXHV",
+                    "U3K7PNTML",
+                    "U2VG2K6KU",
+                    "U0AS1QEJF",
+                    "U7RCMHAH1",
+                    "U1MLEMG11",
+                    "U44CT68FP",
+                    "U3BUX2J3V",
+                    "U7S4LT4R1",
+                    "U4W2W1YS2"
+                ],
+                "count": 13
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U14CTBLFJ",
+                    "U27GEHSTY",
+                    "U1D6DT6HE",
+                    "U7E8Y3V19",
+                    "U6HNJVCP2"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Мне задали правильные вопросы, отвечу здесь. \n\nРазмер данных = 30 тысяч раздач, 250 тысяч ходов, 60 игроков.\n\nПриложение в аппсторе на фантики, но игра идет в группах по приглашениям, и люди рассчитываются деньгами. Так что стимул жульничать есть, и на других приложениях такое точно случалось.",
+        "user": "U35S6UXF1",
+        "ts": "1509953551.000111",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "549b30aeeddd",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-06\/268462834567_549b30aeeddd1bde7668_72.jpg",
+            "first_name": "Oleg",
+            "real_name": "Oleg Ostroumov",
+            "display_name": "olegandroidqq",
+            "team": "T040HKJE3",
+            "name": "olegandroidqq",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U35S6UXF1",
+            "ts": "1509954290.000000"
+        },
+        "thread_ts": "1509943546.000098",
+        "parent_user_id": "U35S6UXF1"
+    },
+    {
+        "type": "message",
+        "text": "&gt; запрещаем дальше играть\nпозволяя играть в ваш гэмблинг, вы делаете огромное одолжение человечеству",
+        "user": "U14CTBLFJ",
+        "ts": "1509955042.000130",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g02622ad2441",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ea02622ad2441f0c9f7f0351773a1c34.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "Artem",
+            "real_name": "Artem",
+            "display_name": "artem",
+            "team": "T040HKJE3",
+            "name": "artem",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U14CTBLFJ",
+            "ts": "1509955098.000000"
+        },
+        "thread_ts": "1509943546.000098",
+        "parent_user_id": "U35S6UXF1"
+    }
+]

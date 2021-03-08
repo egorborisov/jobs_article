@@ -1,0 +1,551 @@
+[
+    {
+        "type": "message",
+        "text": "<@U0XF4GAM8> дело в том, что стек технологий не является финальным и будущие разработчики смогут на него повлиять.",
+        "user": "U8FDL4RDE",
+        "ts": "1515145632.000039",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g41f5aaa940e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4541f5aaa940e518cf576f019706702b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Shidlovsky",
+            "display_name": "Vladimir",
+            "team": "T040HKJE3",
+            "name": "vl.shidlovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE"
+    },
+    {
+        "type": "message",
+        "text": "<@U24FHECDD> список задач очень длинный, сложно описать в двух словах. Но я попробую ниже:",
+        "user": "U8FDL4RDE",
+        "ts": "1515145874.000263",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g41f5aaa940e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4541f5aaa940e518cf576f019706702b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Shidlovsky",
+            "display_name": "Vladimir",
+            "team": "T040HKJE3",
+            "name": "vl.shidlovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE"
+    },
+    {
+        "type": "message",
+        "text": "<@U24FHECDD> На текущий момент реализованы новые типы сенсоров, которые позволяют измерять медицинские показатели лошадей (вот как это выглядит: <http:\/\/www.piavita.com\/wp-content\/uploads\/2017\/12\/%C2%A9MR_D082_PIAVITA_0817_0198-1024x682.jpg> ). Данные с этих сенсоров собираются в облаке, а потом отображаются в приложениях клиентов (например, у ветеринаров). Подчеркну - это то, что уже реализовано. Теперь нам нужно из всех собранных сигналов выделить “полезные“. Для этого мы планируем довольно длинный список исследований для поиска оптимальных решений. Про этот список я могу рассказать лично. Скажу только, что на данный момент работы больше чем на год на этом проекте, а вообще наша компания рассчитывает только на долгосрочное сотрудничество.",
+        "user": "U8FDL4RDE",
+        "ts": "1515146668.000120",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g41f5aaa940e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4541f5aaa940e518cf576f019706702b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Shidlovsky",
+            "display_name": "Vladimir",
+            "team": "T040HKJE3",
+            "name": "vl.shidlovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "fallback": "1024x682px image",
+                "image_url": "http:\/\/www.piavita.com\/wp-content\/uploads\/2017\/12\/%C2%A9MR_D082_PIAVITA_0817_0198-1024x682.jpg",
+                "image_width": 1024,
+                "image_height": 682,
+                "image_bytes": 138781,
+                "from_url": "http:\/\/www.piavita.com\/wp-content\/uploads\/2017\/12\/%C2%A9MR_D082_PIAVITA_0817_0198-1024x682.jpg",
+                "id": 1
+            }
+        ],
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE"
+    },
+    {
+        "type": "message",
+        "text": "<@U24FHECDD> Что касается наших ожиданий от лошадок. У приложения много вариантов использования, все они связаны с заменой существующего громоздкого и дорогого оборудования:\n- мониторинг общего здоровья\n- подготовка лошади к разного рода медицинским операциям\n- мониторинг физических нагрузок, которые испытывают лошади во время скачек\n- и прочее.",
+        "user": "U8FDL4RDE",
+        "ts": "1515147033.000061",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g41f5aaa940e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4541f5aaa940e518cf576f019706702b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Shidlovsky",
+            "display_name": "Vladimir",
+            "team": "T040HKJE3",
+            "name": "vl.shidlovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE"
+    },
+    {
+        "type": "message",
+        "text": "<@U2LGQMC4D> по поводу вилок ЗП. Мы же не на базаре :slightly_smiling_face: . В нашей компании персональный подход к каждому сотруднику, и я уверен мы сможем договориться. Давайте встречаться и обсуждать условия которые выгодны и вам и нам.",
+        "user": "U8FDL4RDE",
+        "ts": "1515147399.000293",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g41f5aaa940e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4541f5aaa940e518cf576f019706702b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Shidlovsky",
+            "display_name": "Vladimir",
+            "team": "T040HKJE3",
+            "name": "vl.shidlovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE"
+    },
+    {
+        "type": "message",
+        "text": "Спектр достаточно широкий. Из последних проектов делали (и делаем) работу в области chatbots, machine translation и natural language generation. Сейчас в обсуждении есть проект по анализу политический речей на предмет sentiment analysis",
+        "user": "U6QGQU4MS",
+        "ts": "1515148433.000255",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "5cdf10067e55",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-22\/229215259200_5cdf10067e5575ed39f6_72.jpg",
+            "first_name": "Alexander",
+            "real_name": "Alexander Raginsky",
+            "display_name": "shasha",
+            "team": "T040HKJE3",
+            "name": "shasha",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1514960866.000044",
+        "parent_user_id": "U6QGQU4MS",
+        "reactions": [
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U5W6MCS0N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "такой персональный подход как раз может привести к базарной ситуации, когда зарплата будет зависить от умения торговаться) ну и еще <https:\/\/twitter.com\/TeeVeeBen\/status\/947853406118453254> - где-то уже на уровне закона обязывают называть зарплатные вилки по требованию) вилку можно назвать достаточно широкой, но ее наличие сразу уберет много критических замечаний",
+        "user": "U48B3EN87",
+        "ts": "1515148779.000082",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3c7a34914705",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-01-27\/305499298995_3c7a34914705a4753a5a_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor",
+            "display_name": "abracadabra",
+            "team": "T040HKJE3",
+            "name": "abracadabra",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "fallback": "<https:\/\/twitter.com\/TeeVeeBen|@TeeVeeBen>: Hey Californians, starting today, employers are barred by law from requesting your salary history. If you share, it is now illegal to factor it into their decision to hire or how much to offer.\n\nThey are legally required to give you a pay scale for the position if you request it.",
+                "ts": 1514820836,
+                "author_name": "Ben McShane",
+                "author_link": "https:\/\/twitter.com\/TeeVeeBen\/status\/947853406118453254",
+                "author_icon": "https:\/\/pbs.twimg.com\/profile_images\/807071833790955521\/om0L47ow_normal.jpg",
+                "author_subname": "@TeeVeeBen",
+                "text": "Hey Californians, starting today, employers are barred by law from requesting your salary history. If you share, it is now illegal to factor it into their decision to hire or how much to offer.\n\nThey are legally required to give you a pay scale for the position if you request it.",
+                "service_name": "twitter",
+                "service_url": "https:\/\/twitter.com\/",
+                "from_url": "https:\/\/twitter.com\/TeeVeeBen\/status\/947853406118453254",
+                "id": 1,
+                "footer": "Twitter",
+                "footer_icon": "https:\/\/a.slack-edge.com\/80588\/img\/services\/twitter_pixel_snapped_32.png"
+            }
+        ],
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE"
+    },
+    {
+        "type": "message",
+        "text": "<@U48B3EN87> у меня другой взгляд по этому поводу и к счастью мы живем в более свободной стране.",
+        "user": "U8FDL4RDE",
+        "ts": "1515150853.000101",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g41f5aaa940e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4541f5aaa940e518cf576f019706702b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Shidlovsky",
+            "display_name": "Vladimir",
+            "team": "T040HKJE3",
+            "name": "vl.shidlovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE",
+        "reactions": [
+            {
+                "name": "yeah-sure",
+                "users": [
+                    "U04725QK7",
+                    "U6YTYEJR4",
+                    "U4GV9NJMR",
+                    "U6P339XST",
+                    "U0MEP6PT2",
+                    "U4WGFD012"
+                ],
+                "count": 6
+            },
+            {
+                "name": "lukashenko",
+                "users": [
+                    "U48B3EN87",
+                    "U04725QK7",
+                    "U0XF4GAM8",
+                    "U5FUU47GA",
+                    "U1LHE347N",
+                    "U1MLEMG11",
+                    "U7VDWFSG3",
+                    "U041SH27M",
+                    "U6YTYEJR4",
+                    "U4GV9NJMR",
+                    "U61LQRTDJ",
+                    "U1VBAF9K2",
+                    "U6YV1UAS1",
+                    "U6Y47FWKX",
+                    "U6P339XST",
+                    "U1DUYG6UX",
+                    "U3BUX2J3V",
+                    "U4WGFD012",
+                    "U4YMDHURY",
+                    "U70T87GMA"
+                ],
+                "count": 20
+            },
+            {
+                "name": "bitcoin",
+                "users": [
+                    "U2LGQMC4D",
+                    "U0XF4GAM8",
+                    "U6YV1UAS1",
+                    "U6P339XST"
+                ],
+                "count": 4
+            },
+            {
+                "name": "pepe_sad",
+                "users": [
+                    "U6P339XST"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Друзья, проект действительно очень интересный, неужели вас интересует только вилка?",
+        "user": "U8FDL4RDE",
+        "ts": "1515159484.000160",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g41f5aaa940e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4541f5aaa940e518cf576f019706702b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Shidlovsky",
+            "display_name": "Vladimir",
+            "team": "T040HKJE3",
+            "name": "vl.shidlovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE"
+    },
+    {
+        "type": "message",
+        "text": "конечно, каким бы он не был интересным, у многих есть тоже интересные текущий проекты и минимальные требования - ниже которых бесмысленно идти",
+        "user": "U2LGQMC4D",
+        "ts": "1515160302.000145",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ffc723117cb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-14\/1345601413783_ffc723117cb385805a6c_72.jpg",
+            "first_name": "Valeriy",
+            "real_name": "Valeriy Babushkin",
+            "display_name": "venheads",
+            "team": "T040HKJE3",
+            "name": "venheads",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U04JHD4QK"
+                ],
+                "count": 1
+            },
+            {
+                "name": "100",
+                "users": [
+                    "U04JHD4QK",
+                    "U30A6KZLH",
+                    "U4WGFD012"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "<@U2LGQMC4D> , прошу прощения, а какие у вас минимальные требования?",
+        "user": "U8FDL4RDE",
+        "ts": "1515160848.000025",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g41f5aaa940e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4541f5aaa940e518cf576f019706702b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Shidlovsky",
+            "display_name": "Vladimir",
+            "team": "T040HKJE3",
+            "name": "vl.shidlovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE"
+    },
+    {
+        "type": "message",
+        "text": "<@U2LGQMC4D> у меня - от 300 к рублей в месяц Гросс -фиксированная часть оклада",
+        "user": "U2LGQMC4D",
+        "ts": "1515160899.000297",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ffc723117cb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-14\/1345601413783_ffc723117cb385805a6c_72.jpg",
+            "first_name": "Valeriy",
+            "real_name": "Valeriy Babushkin",
+            "display_name": "venheads",
+            "team": "T040HKJE3",
+            "name": "venheads",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE",
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "U3K7PNTML",
+                    "U7VDWFSG3",
+                    "U30A6KZLH",
+                    "U4W2W1YS2"
+                ],
+                "count": 4
+            },
+            {
+                "name": "laughing",
+                "users": [
+                    "U4D1X1HJ9"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "<@U2LGQMC4D> так отлично, а в Минске в офисе вы готовы работать?",
+        "user": "U8FDL4RDE",
+        "ts": "1515160980.000543",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g41f5aaa940e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4541f5aaa940e518cf576f019706702b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Shidlovsky",
+            "display_name": "Vladimir",
+            "team": "T040HKJE3",
+            "name": "vl.shidlovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE"
+    },
+    {
+        "type": "message",
+        "text": "<@U8FDL4RDE> Если в Вильнюс готов, то в Минск тем более , но тут уже лучше в личные сообщения",
+        "user": "U2LGQMC4D",
+        "ts": "1515161059.000008",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ffc723117cb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-14\/1345601413783_ffc723117cb385805a6c_72.jpg",
+            "first_name": "Valeriy",
+            "real_name": "Valeriy Babushkin",
+            "display_name": "venheads",
+            "team": "T040HKJE3",
+            "name": "venheads",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE"
+    },
+    {
+        "type": "message",
+        "text": "<@U2LGQMC4D> тогда высылайте CV на email: <mailto:vl.shidlovsky@sumatosoft.com|vl.shidlovsky@sumatosoft.com>",
+        "user": "U8FDL4RDE",
+        "ts": "1515161235.000370",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g41f5aaa940e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4541f5aaa940e518cf576f019706702b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Shidlovsky",
+            "display_name": "Vladimir",
+            "team": "T040HKJE3",
+            "name": "vl.shidlovsky",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1515078889.000095",
+        "parent_user_id": "U8FDL4RDE"
+    },
+    {
+        "type": "message",
+        "text": "Что подразумевается под сертификатами как плюс: Проплаченный сертификат на Coursera или понимание того материала, который там был на специализациях по data science?",
+        "user": "U562KSN69",
+        "ts": "1515170879.000094",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "dc52f470e2e2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-03\/236708795095_dc52f470e2e25353da52_72.jpg",
+            "first_name": "Stas",
+            "real_name": "Stas P.",
+            "display_name": "endoreo",
+            "team": "T040HKJE3",
+            "name": "endoreo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1514532923.000060",
+        "parent_user_id": "U8B286S9Y"
+    },
+    {
+        "type": "message",
+        "text": "Вакансия актуальна еще?",
+        "user": "U562KSN69",
+        "ts": "1515171665.000498",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "dc52f470e2e2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-03\/236708795095_dc52f470e2e25353da52_72.jpg",
+            "first_name": "Stas",
+            "real_name": "Stas P.",
+            "display_name": "endoreo",
+            "team": "T040HKJE3",
+            "name": "endoreo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1512645350.000126",
+        "parent_user_id": "U3B2LFY66"
+    },
+    {
+        "type": "message",
+        "text": "Проплаченный сертификат. Понимание материала подразумевается как обязательное требование)",
+        "user": "U8B286S9Y",
+        "ts": "1515172070.000237",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "b08274b1649e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-12-28\/292117361365_b08274b1649ebce87476_72.jpg",
+            "first_name": "",
+            "real_name": "Semenov Andrey",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "semenov.andr",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1514532923.000060",
+        "parent_user_id": "U8B286S9Y"
+    },
+    {
+        "type": "message",
+        "text": "Хорошо, спасибо!",
+        "user": "U562KSN69",
+        "ts": "1515172899.000110",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "dc52f470e2e2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-09-03\/236708795095_dc52f470e2e25353da52_72.jpg",
+            "first_name": "Stas",
+            "real_name": "Stas P.",
+            "display_name": "endoreo",
+            "team": "T040HKJE3",
+            "name": "endoreo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1514532923.000060",
+        "parent_user_id": "U8B286S9Y"
+    }
+]

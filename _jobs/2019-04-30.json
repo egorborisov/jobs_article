@@ -1,0 +1,412 @@
+[
+    {
+        "client_msg_id": "ca6c2b26-cb75-4d9b-96e5-195cfb71b8c6",
+        "type": "message",
+        "text": "<@U2N853RGF> может 8 марта стало лучше, мы запускали в середине февраля на snapdragon на ubuntu. Если говорить о CPU снепдрегона, то, например, mace дает ту же скорость применения что и tflite, но при tflite проц нагревается значительно быстрее, а соответственни происходит сброс частоты и через пару минут tflite становится значительно медленнее, чем mace (mobilenet like архитектуры). Про GPU и DSP вобще всё плохо, особенно старых моделей Snapdragon, в основном они не поддерживается, SNPE всреднем справляется быстрее и умеет больше. Если, конечно брать свежие Snapdragon и tflite, то с android NNAPI ему не будет конкурентов. По поводу разницы android и linux, как, например, запустить tflite с NNAPI на ubuntu за разумное время я не представляю.\nЯ вобще больше по обучению а не применению специализируюсь, если что то написал не так или не понятно, могу уточнить у коллеги.\nУ меня впринципе мысль та же, сделать что то, что быстрее везде - звучит странно, будь то PuzzleLib или tflite, но если будет такая штука, хоть и платно, то это круто, но я тоже не верю. Куча архитектур про которые сложно знать лучше чем сами разработики, 1-bit, 4-bit, 8-bit, half precision, full precision, как обогнать openvino на их железе для меня загадка.\n<@UG3EQQ6CC> Кстати на FPGA тоже применяетесь быстро?",
+        "user": "U142MR02X",
+        "ts": "1556609458.241400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "746dea3f3ee0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-05-24\/45328943553_746dea3f3ee00f580f2e_72.jpg",
+            "first_name": "ivan",
+            "real_name": "ivan bragin",
+            "display_name": "ivan_bragin",
+            "team": "T040HKJE3",
+            "name": "ivan_bragin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U142MR02X",
+            "ts": "1556609900.000000"
+        },
+        "thread_ts": "1556529075.175800",
+        "parent_user_id": "UG3EQQ6CC"
+    },
+    {
+        "client_msg_id": "54937DA3-508F-4260-B3B3-FE8BF5AA9F82",
+        "type": "message",
+        "text": "<@U142MR02X> как бы да, я больше на наброс стриггерился.\nПроверьте тфлайт, там буквально на днях они новый релиз выпустили, и по словам коллег, очень хорошо работает. Они его не афишировали почему-то.\nА зачем вы запускаете убунту на снапдрагоне? Интересно\nОбогнать опенвино трудно, да и зачем :slightly_smiling_face:",
+        "user": "U2N853RGF",
+        "ts": "1556611908.246100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1556529075.175800",
+        "parent_user_id": "UG3EQQ6CC"
+    },
+    {
+        "client_msg_id": "6946ab24-78a3-4537-aed4-9187b2c86ba1",
+        "type": "message",
+        "text": "ответил в лс, не ubuntu, linaro, это я тупанул",
+        "user": "U142MR02X",
+        "ts": "1556612418.246800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "746dea3f3ee0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-05-24\/45328943553_746dea3f3ee00f580f2e_72.jpg",
+            "first_name": "ivan",
+            "real_name": "ivan bragin",
+            "display_name": "ivan_bragin",
+            "team": "T040HKJE3",
+            "name": "ivan_bragin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U142MR02X",
+            "ts": "1556612634.000000"
+        },
+        "thread_ts": "1556529075.175800",
+        "parent_user_id": "UG3EQQ6CC",
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "U2N853RGF"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e69737ce-cfce-455d-9917-bb7ad37e7198",
+        "type": "message",
+        "text": "*Компания*: Cardsmobile (мобильное приложение Кошелёк)\n*Вакансия*: Data Engineer\n*Вилка*: 100-140 тыс. рублей\n*Город*: Санкт-Петербург (м. Чкаловская)\n\n*Что у нас происходит*:\n - Мы работаем с большими объемами данных — более 15 млн событий статистики в день, и объем трафика данных постоянно растет.\n - Наша цель — собрать все данные о бизнесе и продукте в одном источнике для эффективного анализа с разных углов и своевременного предоставления знаний внутренним и внешним заказчикам.\n - Стремимся к автоматизации отчетностей, счетов и типовых задач.\n\n*Что делать*:\n - Развивать, оптимизировать и поддерживать инфраструктуру кластера Apache Hadoop (Spark, Spark Streaming)\n - Интегрировать новые источники в хранилище данных: ERP, CRM, рекламные системы, Jira, App Store, Google Play и что еще понадобится\n - Собирать аггрегированную статистику для последующего анализа в SQL-базах данных и отображения в Power BI\n\n*Что ждем от кандидата*:\n - Высшее техническое образование\n - Опыт работы на аналогичной позиции от года\n - Знание и практический опыт работы с Apache Hadoop, Spark, Spark Streaming\n - Отличное знание SQL, использование для задач выборки аналитики, статистики\n - Понимание принципов Agile-разработки.\n\n*Будет плюсом*:\n - Знание языков программирования (Java, Scala, Python)\n - Навыки работы с очередями сообщений (RabbitMQ)\n - Широкий кругозор и интерес к сфере Data Science\n\n*Что предлагаем*:\n - Свободный график, ориентированность на результат, а не на процесс работы\n - Оплачиваем мобильную связь, компенсация оплаты питания\n - Оформление по ТК РФ с первого дня, ДМС после испытательного срока\n - Комфортный офис в центре города (2 минуты от станции метро Чкаловская), чай-кофе-снэки\n - Интересные и разнообразные корпоративные мероприятия\n\nОткликаться: <mailto:e.sadykova@cardsmobile.ru|e.sadykova@cardsmobile.ru>",
+        "user": "U70DQ5KCY",
+        "ts": "1556616094.247700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "9e082b6092b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-05-17\/365456604066_9e082b6092b0bd75eee3_72.png",
+            "first_name": "Nikita",
+            "real_name": "Nikita Cherkes",
+            "display_name": "chernika",
+            "team": "T040HKJE3",
+            "name": "chernika",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1556616094.247700",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1556639358.266600",
+        "reply_users": [
+            "U1ZAJ4FC4",
+            "U70DQ5KCY"
+        ],
+        "replies": [
+            {
+                "user": "U1ZAJ4FC4",
+                "ts": "1556634123.264700"
+            },
+            {
+                "user": "U70DQ5KCY",
+                "ts": "1556639358.266600"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "rabbit",
+                "users": [
+                    "U7N4E8GBF",
+                    "UE61U6DCL",
+                    "U27SUBTB9",
+                    "U60EETE7N",
+                    "U9JPJCD2L",
+                    "U70P7K1HS"
+                ],
+                "count": 6
+            },
+            {
+                "name": "spark",
+                "users": [
+                    "U7N4E8GBF",
+                    "U27SUBTB9",
+                    "U6YDWF4UB",
+                    "U60EETE7N",
+                    "U30BR9D2R",
+                    "U3VPVNXS8",
+                    "UDFKRQH33",
+                    "U7SFPUVQF"
+                ],
+                "count": 8
+            },
+            {
+                "name": "spb",
+                "users": [
+                    "U6XCTTGUB",
+                    "U30BR9D2R",
+                    "U3VPVNXS8",
+                    "UDK41MN5U",
+                    "U914M4PKK",
+                    "U7G6C7TNH"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2a177a1a-0747-42f9-8834-f3fa8125ff50",
+        "type": "message",
+        "text": "Кто последний в очереди на собеседование",
+        "user": "U44F46N7L",
+        "ts": "1556616335.248300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "22ebee89a2af",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-07-06\/393216225664_22ebee89a2af125acb1b_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Cheshkov",
+            "display_name": "acheshkov",
+            "team": "T040HKJE3",
+            "name": "acheshkov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1556397438.099200",
+        "parent_user_id": "U1A6TN7JM"
+    },
+    {
+        "client_msg_id": "8e4b202e-55b2-4021-88d6-0a6be2d3c59e",
+        "type": "message",
+        "text": "Всем привет,\n\nМы ищем DS с опытом использования NLP на лидирующую роль в команду.\nПеред нашей командой стоит задача классификации потока входящих обращений на основании распознанных S2T звонков + дополнительных параметров.\nНужен человек готовый работать руками сам, а так же менторить и коучить ребят.\n\n*Навыки и знания*\nPython\\sql.\nОпыт разработки в NLP с применением DL (Tf\\PyTorch\\Keras).\nВы следите за прогрессом в NLP.\nОпыт оптимизации производительности моделей  и внедрения их в прод  будет весомым плюсом;\nОпыт соревнований на kaggle или аналогичных платформах как плюс.\n\n\n*Условия*\nРабота в Сбербанке, г Москва, офис на Кутузовской, Agile\n250+ т.р., годовая премия начиная от 3+ окладов\nСтраховка, спортзал, вот это все + льготные условия на продукты банка\n*Контакты:*\n<mailto:DEKabanov@sberbank.ru|DEKabanov@sberbank.ru>",
+        "user": "U40B4SUAZ",
+        "ts": "1556619153.250700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3d55443c3320",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-25\/617965745748_3d55443c332052c00ec5_72.jpg",
+            "first_name": "Dmitriy",
+            "real_name": "Dmitriy Belyakov",
+            "display_name": "dialblun",
+            "team": "T040HKJE3",
+            "name": "dialblun",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1556619153.250700",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1557450319.437400",
+        "reply_users": [
+            "UEAFYRY8Z"
+        ],
+        "replies": [
+            {
+                "user": "UEAFYRY8Z",
+                "ts": "1557450319.437400"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "sberbank",
+                "users": [
+                    "U6LSE0FT9",
+                    "UC9J53NAY",
+                    "UJAHRMQQ7",
+                    "UHR5RDQBD",
+                    "U4LBN5THS",
+                    "UDSC91AH1",
+                    "U4ZRFG1V0",
+                    "U7N4E8GBF",
+                    "U3Y5VQ5J6",
+                    "UC9HBTUKG",
+                    "U8DEZV7E2",
+                    "UDDM83FE0",
+                    "U09JEC7V0",
+                    "U6YDWF4UB",
+                    "U0K47J3HR",
+                    "UBQJYBVPC",
+                    "UAU5VAGPL",
+                    "U9JPJCD2L",
+                    "U34U3HUJD",
+                    "UFH7M7CEP",
+                    "U27SUBTB9",
+                    "UDK41MN5U",
+                    "U1CMPEWPQ",
+                    "U9V48C738",
+                    "UH2CJ1GMV",
+                    "U17UDV31D",
+                    "UG28LN4PP",
+                    "U90HKUW3B",
+                    "U7QRZECR2",
+                    "U0G67H5NJ",
+                    "U60EETE7N",
+                    "UDA1RU43Y",
+                    "U3FEH4R1P",
+                    "U95GAP5JT",
+                    "UDFKRQH33",
+                    "U6SHTGD5X",
+                    "UHH6HRNVA",
+                    "U1D6DT6HE",
+                    "UAL8CA2TF",
+                    "UCMGR6CHK",
+                    "UFVBUV7QU",
+                    "UHM28JMFS",
+                    "UA86QLU0P",
+                    "UGKN90MA4",
+                    "UJ4EGP555",
+                    "UJ506LA2X",
+                    "UDTFQJN1M"
+                ],
+                "count": 47
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "U8DEZV7E2",
+                    "U74DLUWUC",
+                    "UACAW8UT1",
+                    "U6YDWF4UB",
+                    "U27SUBTB9",
+                    "UERHT2E94",
+                    "U9V48C738",
+                    "UH2CJ1GMV",
+                    "U17UDV31D",
+                    "U5TGT5SQ2",
+                    "UG28LN4PP",
+                    "U7E8Y3V19",
+                    "UJ2M1TL1E",
+                    "U7HU90PR8",
+                    "U53N06MPE",
+                    "UJ8MFGZGV",
+                    "UASAVHMBJ",
+                    "UGF5QCC0P",
+                    "U1D6DT6HE",
+                    "UEU3CGN3H",
+                    "UAL8CA2TF",
+                    "UCMGR6CHK",
+                    "UD8HRS7LK",
+                    "UGXBD1PK7"
+                ],
+                "count": 24
+            },
+            {
+                "name": "gref",
+                "users": [
+                    "U8DEZV7E2",
+                    "UAU5VAGPL",
+                    "U4WGFD012",
+                    "UCV0RM9FY",
+                    "U0K4S432S",
+                    "UDFKRQH33",
+                    "UJ2RPQSTS",
+                    "UAL8CA2TF",
+                    "U941LTSLU",
+                    "U6XD5R58B",
+                    "U8K2SUPLJ"
+                ],
+                "count": 11
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U6YDWF4UB",
+                    "U4ZRFG1V0",
+                    "U6SCXUP6U",
+                    "U1D6DT6HE",
+                    "UAL8CA2TF"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c3254dfe-6a6e-43e0-b44b-5259b7a91263",
+        "type": "message",
+        "text": "Не в обиду, но расскажите, зачем пользоваться Cardsmobile после появления Apple\/Google\/Samsung\/etc Pay?",
+        "user": "U1ZAJ4FC4",
+        "ts": "1556634123.264700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ge26e4a36820",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0be26e4a36820737472d2fe153f28598.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Timofey",
+            "real_name": "Timofey Yefimov",
+            "display_name": "anotherbugmaster",
+            "team": "T040HKJE3",
+            "name": "anotherbugmaster",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1556616094.247700",
+        "parent_user_id": "U70DQ5KCY"
+    },
+    {
+        "client_msg_id": "f9506acb-14bd-4dff-808c-20ffab059611",
+        "type": "message",
+        "text": "Основная ценность приложения - это хранение любой скидочной\/бонусной\/накопительной карты в телефоне, проверка их баланса и размера скидки\nНу и киллер фича - возможность бесплатоного выпуска скидочных карт прямо в телефоне в два клика\nА как у `Pay` тоже появятся свои уникальные фичи, но пока NDA",
+        "user": "U70DQ5KCY",
+        "ts": "1556639358.266600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "9e082b6092b0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-05-17\/365456604066_9e082b6092b0bd75eee3_72.png",
+            "first_name": "Nikita",
+            "real_name": "Nikita Cherkes",
+            "display_name": "chernika",
+            "team": "T040HKJE3",
+            "name": "chernika",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1556616094.247700",
+        "parent_user_id": "U70DQ5KCY"
+    },
+    {
+        "client_msg_id": "abe67796-8f82-41a2-b879-a0f5578e4ca1",
+        "type": "message",
+        "text": "Небольшая поправка: помимо работы из офиса, возможна полностью удалённая работа",
+        "user": "UJB3JQC30",
+        "ts": "1556689887.271700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "76c4b7305404",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-29\/614708628273_76c4b7305404d5b3274f_72.jpg",
+            "first_name": "Anna",
+            "real_name": "Anna",
+            "display_name": "Anna",
+            "team": "T040HKJE3",
+            "name": "anna200",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJB3JQC30",
+            "ts": "1556689905.000000"
+        },
+        "thread_ts": "1556526477.171100",
+        "parent_user_id": "UJB3JQC30"
+    }
+]

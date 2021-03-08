@@ -1,0 +1,880 @@
+[
+    {
+        "client_msg_id": "9c5f6a4c-7a3f-4575-8400-263f9382fa10",
+        "type": "message",
+        "text": "<@U3L7M0QVC> в нашу команду в Екб не рассматриваем. Но можешь кинуть мне резюме, я его перешлю рекрутерам и они попробуют найти что-то интересное",
+        "user": "U4W5JBZV1",
+        "ts": "1576830593.045900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3d6078273f82",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-06-24\/202972717139_3d6078273f82c10ed90f_72.jpg",
+            "first_name": "Aleksey",
+            "real_name": "Aleksey Toshchakov",
+            "display_name": "toshchakov",
+            "team": "T040HKJE3",
+            "name": "toshchakov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qVY02",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U3L7M0QVC"
+                            },
+                            {
+                                "type": "text",
+                                "text": " в нашу команду в Екб не рассматриваем. Но можешь кинуть мне резюме, я его перешлю рекрутерам и они попробуют найти что-то интересное"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1576573499.126800",
+        "parent_user_id": "U4W5JBZV1"
+    },
+    {
+        "client_msg_id": "AB9D1B3E-C4E0-404A-BA64-1E4F98BC7A73",
+        "type": "message",
+        "text": "Всем привет! Ищу разработчика к себе в команду.\n\nМы Ozon, за первую половину 2019 года мы доставили 11.3 миллиона заказов (рост на 83% YoY, хотелось бы расти быстрее и мы работаем над этим), в данный момент мы умеем доставлять наши товары 40 % жителей России в течение суток (и остальным чуть попозже). У нас порядка 200 тыс. квадратных метров логистических центров, самая большая в России сеть постаматов и собственная доставка в 6500 населенных пунктов.\n\nНам нужны сильные программисты для развития ключевых проектов data management platform и personalization platform. Алгоритмы Machine Learning позволяют делать эффективные персонализированные рекомендации, результаты поиска, порядок товаров в каталоге, и даже присылать мало персонализированных push сообщений, вместо тонны неперсонализированных, не теряя в эффективности*.\n\n* Серьезно чуваки, у вас есть шанс спасти от наших push-ей половину рунета :)\n \nНо для того, чтобы эти алгоритмы работали, недостаточно создать модель которая читает фичи из одного текстового файлика и пишет результаты в другой, нужно сделать эффективную систему которая способна выдавать эти результаты в режиме online за считанные миллисекунды, а также обновлять фичи пользователя за секунды. Именно эту систему вам и предстоит написать.\n\nТребования:\n- уверенные знания базовых алгоритмов и структур данных, многопоточного программирования\n- опыт работы с реляционными базами данных и очередями\n- владение языком Go или большой опыт программирования и желание на него перейти.\n\nПриветствуется: \n- опыт проектирования и разработки распределенных высоконагруженных систем, оперирующих большим набором данных\n- умение интегрировать код, написанный на разных языках программирования, например, вызвать ML модель \n- опыт построения рекомендательных систем\n\nМы используем в повседневной работе:\nGo, gRPC, PostgreSQL, Kafka, Hive, HDFS, Clickhouse, Docker, K8S, Gitlab, Prometheus, Grafana, Python, Git, и хотели бы чтобы вы были с ними знакомы или готовы были бы быстро изучить.\n\nУсловия:\nМосква, работа в офисе в Сити, полный рабочий день, зарплата 200-300 gross, медстраховка, etc.\n\nПисать в личку или tg @vikiselev.",
+        "user": "URJ7N08MQ",
+        "ts": "1576866830.055000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g45ee5cf8067",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/45ee5cf8067e48d681e5780781e16f4b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "Viktor",
+            "real_name": "Viktor Kiselev",
+            "display_name": "Viktor Kiselev",
+            "team": "T040HKJE3",
+            "name": "vukis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "URJ7N08MQ",
+            "ts": "1576867707.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vgpsb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет! Ищу разработчика к себе в команду.\n\nМы Ozon, за первую половину 2019 года мы доставили 11.3 миллиона заказов (рост на 83% YoY, хотелось бы расти быстрее и мы работаем над этим), в данный момент мы умеем доставлять наши товары 40 % жителей России в течение суток (и остальным чуть попозже). У нас порядка 200 тыс. квадратных метров логистических центров, самая большая в России сеть постаматов и собственная доставка в 6500 населенных пунктов.\n\nНам нужны сильные программисты для развития ключевых проектов data management platform и personalization platform. Алгоритмы Machine Learning позволяют делать эффективные персонализированные рекомендации, результаты поиска, порядок товаров в каталоге, и даже присылать мало персонализированных push сообщений, вместо тонны неперсонализированных, не теряя в эффективности*.\n\n* Серьезно чуваки, у вас есть шанс спасти от наших push-ей половину рунета :)\n \nНо для того, чтобы эти алгоритмы работали, недостаточно создать модель которая читает фичи из одного текстового файлика и пишет результаты в другой, нужно сделать эффективную систему которая способна выдавать эти результаты в режиме online за считанные миллисекунды, а также обновлять фичи пользователя за секунды. Именно эту систему вам и предстоит написать.\n\nТребования:\n- уверенные знания базовых алгоритмов и структур данных, многопоточного программирования\n- опыт работы с реляционными базами данных и очередями\n- владение языком Go или большой опыт программирования и желание на него перейти.\n\nПриветствуется: \n- опыт проектирования и разработки распределенных высоконагруженных систем, оперирующих большим набором данных\n- умение интегрировать код, написанный на разных языках программирования, например, вызвать ML модель \n- опыт построения рекомендательных систем\n\nМы используем в повседневной работе:\nGo, gRPC, PostgreSQL, Kafka, Hive, HDFS, Clickhouse, Docker, K8S, Gitlab, Prometheus, Grafana, Python, Git, и хотели бы чтобы вы были с ними знакомы или готовы были бы быстро изучить.\n\nУсловия:\nМосква, работа в офисе в Сити, полный рабочий день, зарплата 200-300 gross, медстраховка, etc.\n\nПисать в личку или tg @vikiselev."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1576866830.055000",
+        "reply_count": 12,
+        "reply_users_count": 6,
+        "latest_reply": "1577107842.128900",
+        "reply_users": [
+            "UA2Q13FQF",
+            "URJ7N08MQ",
+            "UK186DK34",
+            "ULRTEEHT4",
+            "U09JEC7V0",
+            "UHD3TATKM"
+        ],
+        "replies": [
+            {
+                "user": "UA2Q13FQF",
+                "ts": "1576867179.055200"
+            },
+            {
+                "user": "URJ7N08MQ",
+                "ts": "1576867332.055800"
+            },
+            {
+                "user": "UK186DK34",
+                "ts": "1576867825.056500"
+            },
+            {
+                "user": "UA2Q13FQF",
+                "ts": "1576867888.056700"
+            },
+            {
+                "user": "UK186DK34",
+                "ts": "1576868019.057000"
+            },
+            {
+                "user": "ULRTEEHT4",
+                "ts": "1576868911.057800"
+            },
+            {
+                "user": "URJ7N08MQ",
+                "ts": "1576869528.058000"
+            },
+            {
+                "user": "U09JEC7V0",
+                "ts": "1576871206.059700"
+            },
+            {
+                "user": "U09JEC7V0",
+                "ts": "1576875769.062800"
+            },
+            {
+                "user": "URJ7N08MQ",
+                "ts": "1576910906.066400"
+            },
+            {
+                "user": "UHD3TATKM",
+                "ts": "1577105014.127400"
+            },
+            {
+                "user": "UA2Q13FQF",
+                "ts": "1577107842.128900"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "el_risitas",
+                "users": [
+                    "U5GCU82HX",
+                    "U6NT2E2ES",
+                    "UHFRRN317",
+                    "U7E8Y3V19",
+                    "UNEJZPM6E",
+                    "UNMTRMDE0",
+                    "U6YV1UAS1",
+                    "UA92L7ACC",
+                    "UPV5M62CC",
+                    "UM2Q2B41J",
+                    "UMKFYUG7L",
+                    "US4JZFN7L"
+                ],
+                "count": 12
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U53E5MFNU",
+                    "U1MLEMG11",
+                    "U4U4GFDNK",
+                    "UCM1WHP1U",
+                    "UDK41MN5U",
+                    "UELA14HSS",
+                    "U6L08K8KS",
+                    "U34SSE54G",
+                    "UPV5M62CC",
+                    "U5FCA4F8X",
+                    "U4B8MC0AD",
+                    "U27SUBTB9",
+                    "UDSC91AH1",
+                    "U06J2SBQA",
+                    "US4JZFN7L"
+                ],
+                "count": 15
+            },
+            {
+                "name": "ozon",
+                "users": [
+                    "UGF31GPQR",
+                    "U71NR43CH",
+                    "UELA14HSS",
+                    "U1G303UTW",
+                    "UD2EX7JP9",
+                    "U6L08K8KS",
+                    "U60EETE7N",
+                    "U34SSE54G",
+                    "URRS0JYTX",
+                    "U27SUBTB9",
+                    "UQCF6CRHC",
+                    "UDSC91AH1",
+                    "UGKN90MA4"
+                ],
+                "count": 13
+            },
+            {
+                "name": "unicorn_face",
+                "users": [
+                    "U30LWK54N",
+                    "U60EETE7N"
+                ],
+                "count": 2
+            },
+            {
+                "name": "golang",
+                "users": [
+                    "U1G303UTW",
+                    "U6L08K8KS"
+                ],
+                "count": 2
+            },
+            {
+                "name": "bombanoolo",
+                "users": [
+                    "UM7QTEN1G"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "UJUAY2S4D",
+                    "U3XDRJZ9A"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "43630f67-53be-4927-bc99-32c2de58bc81",
+        "type": "message",
+        "text": "&gt;Ищу разработчика разработчика...\nЭто правильно! Пусть разработчик сделает второго разработчика, тогда его можно и уволить. Автоматизация!",
+        "user": "UA2Q13FQF",
+        "ts": "1576867179.055200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g23c21f91ab1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/7f23c21f91ab1379c2c4087daef0c774.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Sergey",
+            "real_name": "Sergey Nuzhny",
+            "display_name": "Nuzhny007",
+            "team": "T040HKJE3",
+            "name": "nuzhny",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uGGTE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": ">Ищу разработчика разработчика...\nЭто правильно! Пусть разработчик сделает второго разработчика, тогда его можно и уволить. Автоматизация!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1576866830.055000",
+        "parent_user_id": "URJ7N08MQ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UBRK4HXQV",
+                    "U9JL630PP",
+                    "UE259V12B",
+                    "U061WBASK",
+                    "UN88FQFRC",
+                    "UDSC91AH1"
+                ],
+                "count": 6
+            },
+            {
+                "name": "schmidhuber",
+                "users": [
+                    "U60EETE7N"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "69AD5AA3-2018-43A3-86AA-DFAE1AD65FBD",
+        "type": "message",
+        "text": "Это рекурсия)",
+        "user": "URJ7N08MQ",
+        "ts": "1576867332.055800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g45ee5cf8067",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/45ee5cf8067e48d681e5780781e16f4b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "Viktor",
+            "real_name": "Viktor Kiselev",
+            "display_name": "Viktor Kiselev",
+            "team": "T040HKJE3",
+            "name": "vukis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hru",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Это рекурсия)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1576866830.055000",
+        "parent_user_id": "URJ7N08MQ"
+    },
+    {
+        "client_msg_id": "81ac4b5c-8825-45da-bb6e-1060047b18d1",
+        "type": "message",
+        "text": "* Серьезно чуваки, у вас есть шанс спасти от наших push-ей половину рунета :slightly_smiling_face:\nВот это прям мотивация, серьезно, я 3 дня смог с ними прожить, потом пришлось отключить",
+        "user": "UK186DK34",
+        "ts": "1576867825.056500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8246097be39a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-24\/849040340247_8246097be39ab95fc65f_72.png",
+            "first_name": "Igor",
+            "real_name": "Igor Gaidamaka",
+            "display_name": "Chawalar",
+            "team": "T040HKJE3",
+            "name": "mant1",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K+\/m",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "* Серьезно чуваки, у вас есть шанс спасти от наших push-ей половину рунета "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nВот это прям мотивация, серьезно, я 3 дня смог с ними прожить, потом пришлось отключить"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1576866830.055000",
+        "parent_user_id": "URJ7N08MQ",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UB4BD0R6W",
+                    "UEBC73WP7",
+                    "U049NHC4X",
+                    "UDSC91AH1",
+                    "UCKGAQKE0"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ae6e3a03-bb8b-4b85-82c6-d611213c9ca9",
+        "type": "message",
+        "text": "<@UK186DK34> будь мужиком, пойди и переделай там все",
+        "user": "UA2Q13FQF",
+        "ts": "1576867888.056700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g23c21f91ab1",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/7f23c21f91ab1379c2c4087daef0c774.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Sergey",
+            "real_name": "Sergey Nuzhny",
+            "display_name": "Nuzhny007",
+            "team": "T040HKJE3",
+            "name": "nuzhny",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7gFSH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UK186DK34"
+                            },
+                            {
+                                "type": "text",
+                                "text": " будь мужиком, пойди и переделай там все"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1576866830.055000",
+        "parent_user_id": "URJ7N08MQ",
+        "reactions": [
+            {
+                "name": "be-a-man",
+                "users": [
+                    "U60EETE7N",
+                    "UN88FQFRC",
+                    "UA92L7ACC",
+                    "UEBC73WP7",
+                    "UNP5YEWL9",
+                    "UDSC91AH1",
+                    "UFS228B29",
+                    "URVMBFP8T"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "client_msg_id": "761e42ee-8317-4a22-bb3c-8ad374c15e78",
+        "type": "message",
+        "text": "<@UA2Q13FQF> написать рекомендательную систему для рекомендаций разработчикам рекомендующих эти уведомления?",
+        "user": "UK186DK34",
+        "ts": "1576868019.057000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8246097be39a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-24\/849040340247_8246097be39ab95fc65f_72.png",
+            "first_name": "Igor",
+            "real_name": "Igor Gaidamaka",
+            "display_name": "Chawalar",
+            "team": "T040HKJE3",
+            "name": "mant1",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cOu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UA2Q13FQF"
+                            },
+                            {
+                                "type": "text",
+                                "text": " написать рекомендательную систему для рекомендаций разработчикам рекомендующих эти уведомления?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1576866830.055000",
+        "parent_user_id": "URJ7N08MQ",
+        "reactions": [
+            {
+                "name": "exploding_head",
+                "users": [
+                    "UCMAWD588"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ac3bb621-09a6-4f9e-9aed-693c0f5d43e7",
+        "type": "message",
+        "text": "Как в ML алгоритмы делают алгоритмы, так и в озоне разработчики делают разработчиков :smekalka:",
+        "user": "ULRTEEHT4",
+        "ts": "1576868911.057800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "5505a5260446",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-28\/778417812039_5505a5260446ca82dec7_72.jpg",
+            "first_name": "Danil",
+            "real_name": "Danil Semenov",
+            "display_name": "g0nzalez",
+            "team": "T040HKJE3",
+            "name": "dan949494",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uOOf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Как в ML алгоритмы делают алгоритмы, так и в озоне разработчики делают разработчиков "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "smekalka"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1576866830.055000",
+        "parent_user_id": "URJ7N08MQ"
+    },
+    {
+        "type": "message",
+        "text": "не, тут скорее",
+        "files": [
+            {
+                "id": "FRKLCL5MG",
+                "created": 1576869521,
+                "timestamp": 1576869521,
+                "name": "photo5424782336572108246.jpg",
+                "title": "photo5424782336572108246.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "URJ7N08MQ",
+                "editable": false,
+                "size": 63779,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-FRKLCL5MG\/photo5424782336572108246.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-FRKLCL5MG\/download\/photo5424782336572108246.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FRKLCL5MG-67fc739cf5\/photo5424782336572108246_64.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FRKLCL5MG-67fc739cf5\/photo5424782336572108246_80.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FRKLCL5MG-67fc739cf5\/photo5424782336572108246_360.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_360_w": 360,
+                "thumb_360_h": 210,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FRKLCL5MG-67fc739cf5\/photo5424782336572108246_480.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_480_w": 480,
+                "thumb_480_h": 280,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FRKLCL5MG-67fc739cf5\/photo5424782336572108246_160.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FRKLCL5MG-67fc739cf5\/photo5424782336572108246_720.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_720_w": 720,
+                "thumb_720_h": 420,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FRKLCL5MG-67fc739cf5\/photo5424782336572108246_800.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_800_w": 800,
+                "thumb_800_h": 467,
+                "image_exif_rotation": 1,
+                "original_w": 800,
+                "original_h": 467,
+                "thumb_tiny": "AwAcADC\/8\/mN82FxxS4b+\/8AyoP3v\/1UuDjp\/KgBQcDk5pcj1puD6fypMH0\/lQA4n3FA+opP+A5pR1+7igBP4u1KD7iloxx1NAEYEvdl\/KkxNu+8mPpUuKKAGJ5mfnKke1PoooA\/\/9k=",
+                "permalink": "https:\/\/opendatascience.slack.com\/files\/URJ7N08MQ\/FRKLCL5MG\/photo5424782336572108246.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T040HKJE3-FRKLCL5MG-9379db7eff",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T1MW2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "не, тут скорее"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "URJ7N08MQ",
+        "display_as_bot": false,
+        "ts": "1576869528.058000",
+        "client_msg_id": "c3750d55-7fb2-4cd2-907e-78fc1eff1e77",
+        "thread_ts": "1576866830.055000",
+        "parent_user_id": "URJ7N08MQ",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U3UB29PTJ",
+                    "UQJPEVD9S",
+                    "U6L08K8KS",
+                    "U0952QCHE",
+                    "UE259V12B",
+                    "U60EETE7N",
+                    "UE02DNNSU",
+                    "U70521M63",
+                    "UFDKCB7EG",
+                    "UB4BD0R6W",
+                    "UGXM5JFRN",
+                    "U27SUBTB9",
+                    "UDSC91AH1",
+                    "UEYSJ5KD2",
+                    "UFS228B29",
+                    "U34Q3KU8H",
+                    "U4LUPEAR0"
+                ],
+                "count": 17
+            },
+            {
+                "name": "povar",
+                "users": [
+                    "UE259V12B",
+                    "UN88FQFRC"
+                ],
+                "count": 2
+            },
+            {
+                "name": "slozhna",
+                "users": [
+                    "UA92L7ACC"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U1Q0B8KMJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1E4EB421-0D84-480A-A518-8743F3EC8928",
+        "type": "message",
+        "text": "А сколько из этих миллионов заказов были доставлены вовремя? :kekeke: ",
+        "user": "U09JEC7V0",
+        "ts": "1576871206.059700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0DX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "А сколько из этих миллионов заказов были доставлены вовремя? "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "kekeke"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1576866830.055000",
+        "parent_user_id": "URJ7N08MQ",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U8DCAP6AD",
+                    "UEBC73WP7",
+                    "U9T6DSJRM"
+                ],
+                "count": 3
+            },
+            {
+                "name": "trollface",
+                "users": [
+                    "U7QRZECR2",
+                    "UM5DXE4LE",
+                    "UDSC91AH1",
+                    "U6YDWF4UB",
+                    "U1GMCNV3M"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "535F4C8A-D045-48C4-958D-E0D9E0DD2635",
+        "type": "message",
+        "text": "Доставлять чуть позже этот значит в произвольное время в течение недели?",
+        "user": "U09JEC7V0",
+        "ts": "1576875769.062800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3Z0J",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Доставлять чуть позже этот значит в произвольное время в течение недели?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1576866830.055000",
+        "parent_user_id": "URJ7N08MQ",
+        "reactions": [
+            {
+                "name": "bombanoolo",
+                "users": [
+                    "U5GCU82HX",
+                    "U709XBB52",
+                    "U6GHF30CV",
+                    "UC9J53NAY",
+                    "U7QRZECR2"
+                ],
+                "count": 5
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UE259V12B",
+                    "UDXMNJD4P",
+                    "U049NHC4X",
+                    "UHD3TATKM"
+                ],
+                "count": 4
+            },
+            {
+                "name": "trollface",
+                "users": [
+                    "UM5DXE4LE"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9F3E830F-2B11-4501-B74F-04FF98B859CF",
+        "type": "message",
+        "text": "Могу только в службу поддержки посоветовать обращаться. Слабое утешение, но за перенос доставки они баллы накидывают. Процент доставок on-time в районе 95, каждый следующий процент даётся с бОльшими усилиями.",
+        "user": "URJ7N08MQ",
+        "ts": "1576910906.066400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g45ee5cf8067",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/45ee5cf8067e48d681e5780781e16f4b.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "Viktor",
+            "real_name": "Viktor Kiselev",
+            "display_name": "Viktor Kiselev",
+            "team": "T040HKJE3",
+            "name": "vukis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "URJ7N08MQ",
+            "ts": "1576910917.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+Ej",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Могу только в службу поддержки посоветовать обращаться. Слабое утешение, но за перенос доставки они баллы накидывают. Процент доставок on-time в районе 95, каждый следующий процент даётся с бОльшими усилиями."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1576866830.055000",
+        "parent_user_id": "URJ7N08MQ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UCBMR2G4E",
+                    "UA92L7ACC",
+                    "UQ9UCJT0T",
+                    "U27SUBTB9",
+                    "UDSC91AH1"
+                ],
+                "count": 5
+            }
+        ]
+    }
+]

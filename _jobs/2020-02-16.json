@@ -1,0 +1,916 @@
+[
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1581881973.076000",
+        "thread_ts": "1581881973.076000",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1581882927.078200",
+        "reply_users": [
+            "U0FEJNBGQ",
+            "U4P10HEJV",
+            "UJN1YS1QR"
+        ],
+        "replies": [
+            {
+                "user": "U0FEJNBGQ",
+                "ts": "1581882079.076100"
+            },
+            {
+                "user": "U4P10HEJV",
+                "ts": "1581882097.076300"
+            },
+            {
+                "user": "UJN1YS1QR",
+                "ts": "1581882927.078200"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "naebalovo",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U15UZGX9A",
+                    "U8J9XMX3J",
+                    "UHR5Q170B",
+                    "US2DY9BPH",
+                    "U8PMZ6397"
+                ],
+                "count": 6
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U0FEJNBGQ",
+                    "U15UZGX9A",
+                    "U8J9XMX3J",
+                    "U8VPP4L5V",
+                    "US2DY9BPH",
+                    "UB4BD0R6W",
+                    "U6QC0PC3C",
+                    "U8DEZV7E2",
+                    "U8PMZ6397"
+                ],
+                "count": 9
+            },
+            {
+                "name": "fork",
+                "users": [
+                    "U0FEJNBGQ",
+                    "US2DY9BPH",
+                    "U8DEZV7E2",
+                    "U8PMZ6397"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bb854957-cfa9-40c9-9638-5e5cc53f3fb3",
+        "type": "message",
+        "text": "<@UJN1YS1QR> прочитайте правила в шапке канала и добавьте всё недостающее, без него пост придется удалить",
+        "user": "U0FEJNBGQ",
+        "ts": "1581882079.076100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c0VY9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJN1YS1QR"
+                            },
+                            {
+                                "type": "text",
+                                "text": " прочитайте правила в шапке канала и добавьте всё недостающее, без него пост придется удалить"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1581881973.076000",
+        "parent_user_id": "UJN1YS1QR"
+    },
+    {
+        "client_msg_id": "3c4b93e2-cb4f-4dec-b908-ecf194d1356c",
+        "type": "message",
+        "text": "<#C17SUH211|_call_4_collaboration>",
+        "user": "U4P10HEJV",
+        "ts": "1581882097.076300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gb01e472bffb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/16b01e472bffbd6cb5ddb12043221532.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0018-72.png",
+            "first_name": "Alexander",
+            "real_name": "Alexander Ponomarchuk",
+            "display_name": "yaxen",
+            "team": "T040HKJE3",
+            "name": "yaxeen",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1xEF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "channel",
+                                "channel_id": "C17SUH211"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1581881973.076000",
+        "parent_user_id": "UJN1YS1QR"
+    },
+    {
+        "client_msg_id": "f9304bf3-239e-4705-bcf7-4907862cadaf",
+        "type": "message",
+        "text": "Спасибо за подсказку, сейчас перенесу в соответствующий раздел.",
+        "user": "UJN1YS1QR",
+        "ts": "1581882927.078200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "5cc03a548b12",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640423090224_5cc03a548b1262615631_72.png",
+            "first_name": "Korzhov",
+            "real_name": "Korzhov Dmitry",
+            "display_name": "Korzhov Dmitry",
+            "team": "T040HKJE3",
+            "name": "korzhov.dmitry",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=lJu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Спасибо за подсказку, сейчас перенесу в соответствующий раздел."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1581881973.076000",
+        "parent_user_id": "UJN1YS1QR"
+    },
+    {
+        "client_msg_id": "032ebbad-b6b2-42e0-9d6d-df121204d23b",
+        "type": "message",
+        "text": "Привет :ods:!\n\nСегодня мы в :sberbank:  ищем действительно уникального человека - *архитектора Data Science платформы*, который поможет спроектировать цельное решение, обеспечивающее сбор, безопасное хранение и обработку данных, в том числе современными средствами машинного обучения, а так же позволяющее выводить полученные решения в промышленную эксплуатацию в рамках high load и mission critical систем. В состав платформы входят, в том числе, онлайн витрины, сервисы real time ML-inference, компоненты потокового анализа, аналитические хранилища разной природы и многое другое.\n\nПо вакансии писать мне (<@U0QJG7WBA>) или оставлять отклик на <https:\/\/hh.ru\/vacancy\/35076484>\n\n*Город*: :default-city:\n\n*Вилка* :moneys: : 280-420 т.р гросс + годовая премия от 2-х окладов\n\n*Обязанности:*\n• Проектирование и согласование технических решений совместно с коллегами, ответственными за разработку концептуальной архитектуры хранилищ и систем обработки BigData :hadoop: :spark: \n• Проектирование детальной архитектуры сервисов и приложений в сфере анализа и обработки больших данных, а также их интеграционных взаимодействий\n• Проектирование структур хранилищ, средств доступа к данным (различные ETL, шины и брокеры сообщений, как в пакетном, так и в стриминговом режиме)\n• Тесное взаимодействие с продуктовыми командами (владельцы продуктов, разработчики) для реализации сложных интеграционных задач\n• Детальное документирование функциональности хранилищ данных и серверов приложений, работающих с хранилищами\n• Контроль за соблюдением архитектурных стандартов внутри команды\n• Участие в code review и архитектурных review разработанных сервисов и приложений\n• Принятие и обсуждение архитектурных решений.\n• Участие в принятии решений по технологическому стэку построения систем обработки и анализа больших данных\n• Соблюдение лучших практик разработки ПО, API, библиотек и интерфейсов внутренних сервисов\n*Требования*\n• Желание развиваться в архитектурном направлении\n• Опыт проектирования систем, работающих с большими объемами данных с использованием реляционных платформ (Teradata, Postgres, Oracle и т.д.) и big data стока (:hadoop::spark: и другие Кафки)\n• Опыт участия в приемочном тестировании и верификации фактической реализации спроектированной архитектуре\n• Знание подходов к разработке микросервисов и платформ их исполнения :docker: :kubernetes: \n• Знание подходов к проектированию сервисных моделей IaaS, PaaS\n• Знание DevOps инструментов и практик\n• Знание подходов к контролю качества данных\n• Высшее техническое образование (комп.науки, математика, физика), знание розничного банковского бизнеса является преимуществом\n• Опыт работы по :scrum:  (SCRUM, Kanban, и т.д.) приветствуется\n*Условия:*\n• Профессиональное обучение, семинары, тренинги, конференции\n• Годовые премии\n• ДМС, сниженные ставки по кредитованию, программы лояльности для сотрудников\n• Самые инновационные, амбициозные проекты и задачи\n• Комфортный офис «Sbergile Home» с просторными опенспейсами, лаунж зонами, кафе, рестораном и оборудованными кухнями\n• Бесплатный фитнес-зал\n• Дисконт-программа от множества компаний партнеров\nПо вакансии писать мне (<@U0QJG7WBA>) или оставлять отклик на <https:\/\/hh.ru\/vacancy\/35076484>",
+        "user": "U0QJG7WBA",
+        "ts": "1581923327.082800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "77dc615d8ce2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-09-16\/80348635587_77dc615d8ce2bf987094_72.jpg",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Bugaychenko",
+            "display_name": "dmitrybugaychenko",
+            "team": "T040HKJE3",
+            "name": "dmitrybugaychenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cFQj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ods"
+                            },
+                            {
+                                "type": "text",
+                                "text": "!\n\nСегодня мы в "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sberbank"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  ищем действительно уникального человека - "
+                            },
+                            {
+                                "type": "text",
+                                "text": "архитектора Data Science платформы",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", который поможет спроектировать цельное решение, обеспечивающее сбор, безопасное хранение и обработку данных, в том числе современными средствами машинного обучения, а так же позволяющее выводить полученные решения в промышленную эксплуатацию в рамках high load и mission critical систем. В состав платформы входят, в том числе, онлайн витрины, сервисы real time ML-inference, компоненты потокового анализа, аналитические хранилища разной природы и многое другое.\n\nПо вакансии писать мне ("
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0QJG7WBA"
+                            },
+                            {
+                                "type": "text",
+                                "text": ") или оставлять отклик на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/hh.ru\/vacancy\/35076484"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "default-city"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "moneys"
+                            },
+                            {
+                                "type": "text",
+                                "text": " : 280-420 т.р гросс + годовая премия от 2-х окладов\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Обязанности:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Проектирование и согласование технических решений совместно с коллегами, ответственными за разработку концептуальной архитектуры хранилищ и систем обработки BigData "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "hadoop"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "spark"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Проектирование детальной архитектуры сервисов и приложений в сфере анализа и обработки больших данных, а также их интеграционных взаимодействий"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Проектирование структур хранилищ, средств доступа к данным (различные ETL, шины и брокеры сообщений, как в пакетном, так и в стриминговом режиме)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Тесное взаимодействие с продуктовыми командами (владельцы продуктов, разработчики) для реализации сложных интеграционных задач"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Детальное документирование функциональности хранилищ данных и серверов приложений, работающих с хранилищами"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Контроль за соблюдением архитектурных стандартов внутри команды"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Участие в code review и архитектурных review разработанных сервисов и приложений"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Принятие и обсуждение архитектурных решений."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Участие в принятии решений по технологическому стэку построения систем обработки и анализа больших данных"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Соблюдение лучших практик разработки ПО, API, библиотек и интерфейсов внутренних сервисов"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Желание развиваться в архитектурном направлении"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт проектирования систем, работающих с большими объемами данных с использованием реляционных платформ (Teradata, Postgres, Oracle и т.д.) и big data стока ("
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "hadoop"
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "spark"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " и другие Кафки)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт участия в приемочном тестировании и верификации фактической реализации спроектированной архитектуре"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание подходов к разработке микросервисов и платформ их исполнения "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "docker"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "kubernetes"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание подходов к проектированию сервисных моделей IaaS, PaaS"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание DevOps инструментов и практик"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание подходов к контролю качества данных"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Высшее техническое образование (комп.науки, математика, физика), знание розничного банковского бизнеса является преимуществом"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы по "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "scrum"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "  (SCRUM, Kanban, и т.д.) приветствуется"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Условия:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Профессиональное обучение, семинары, тренинги, конференции"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Годовые премии"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ДМС, сниженные ставки по кредитованию, программы лояльности для сотрудников"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Самые инновационные, амбициозные проекты и задачи"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Комфортный офис «Sbergile Home» с просторными опенспейсами, лаунж зонами, кафе, рестораном и оборудованными кухнями"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Бесплатный фитнес-зал"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Дисконт-программа от множества компаний партнеров"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nПо вакансии писать мне ("
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0QJG7WBA"
+                            },
+                            {
+                                "type": "text",
+                                "text": ") или оставлять отклик на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/hh.ru\/vacancy\/35076484"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1581923327.082800",
+        "reply_count": 5,
+        "reply_users_count": 4,
+        "latest_reply": "1581937824.093100",
+        "reply_users": [
+            "U2PMV9N06",
+            "U0QJG7WBA",
+            "U7R68P22C",
+            "UC7CX2SEN"
+        ],
+        "replies": [
+            {
+                "user": "U2PMV9N06",
+                "ts": "1581925612.086700"
+            },
+            {
+                "user": "U0QJG7WBA",
+                "ts": "1581926291.087500"
+            },
+            {
+                "user": "U7R68P22C",
+                "ts": "1581930659.088800"
+            },
+            {
+                "user": "U0QJG7WBA",
+                "ts": "1581932630.090000"
+            },
+            {
+                "user": "UC7CX2SEN",
+                "ts": "1581937824.093100"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "sberbank",
+                "users": [
+                    "U71NR43CH",
+                    "UKQTPE877",
+                    "ULPRYQNS2",
+                    "U7QRZECR2",
+                    "UCMAWD588",
+                    "UC9J53NAY",
+                    "UCKGAQKE0",
+                    "UKEFTMLBH",
+                    "UDK41MN5U",
+                    "U8QE9EVAQ",
+                    "U8DEZV7E2",
+                    "U07V1URT9",
+                    "UC9HBTUKG",
+                    "U7E8Y3V19",
+                    "U90HKUW3B",
+                    "U34U3HUJD",
+                    "U26MG2Z37",
+                    "U1YQLTMLH"
+                ],
+                "count": 18
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "U71NR43CH",
+                    "UKQTPE877",
+                    "U2TS6AQ66",
+                    "U2ZJ517B8",
+                    "U7QRZECR2",
+                    "U48AFP5RD",
+                    "U2PMV9N06",
+                    "UCKGAQKE0",
+                    "U95BW05K5",
+                    "U8QE9EVAQ",
+                    "U14GG4E69",
+                    "UPMN1JPR7",
+                    "U8DEZV7E2",
+                    "U3D5HVB51",
+                    "UC7CX2SEN",
+                    "ULFB3LT4Z",
+                    "U07V1URT9",
+                    "U3KEKR5NJ",
+                    "UHJ0J91RD",
+                    "U7N4E8GBF",
+                    "U362JS5LZ",
+                    "UEBC73WP7",
+                    "U59D8LQ3H"
+                ],
+                "count": 23
+            },
+            {
+                "name": "astanavites",
+                "users": [
+                    "U049HDR2Z",
+                    "U854H9KCM",
+                    "U828HFY0G",
+                    "UFU43Q5CL",
+                    "U129L113M",
+                    "UNQ4K7WCB"
+                ],
+                "count": 6
+            },
+            {
+                "name": "moneys",
+                "users": [
+                    "U7VDWFSG3",
+                    "U2PMV9N06",
+                    "UFDQK0RDY",
+                    "UCKGAQKE0",
+                    "U95BW05K5",
+                    "UC9HBTUKG",
+                    "U90HKUW3B",
+                    "UPV9L1KHN",
+                    "U59D8LQ3H"
+                ],
+                "count": 9
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U1Q0B8KMJ",
+                    "U8DEZV7E2",
+                    "UB4AFSWP4",
+                    "U10K3LXHV",
+                    "U26MG2Z37"
+                ],
+                "count": 5
+            },
+            {
+                "name": "female-construction-worker",
+                "users": [
+                    "URG635EUV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "89da829a-d832-4d43-9139-024388ea5ce9",
+        "type": "message",
+        "text": "от 2-х до 11-ти?:sberbank:",
+        "user": "U2PMV9N06",
+        "ts": "1581925612.086700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "0d017373337b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-02-08\/545613943969_0d017373337b7dc3c4a2_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Maryufich",
+            "display_name": "mikhail-m",
+            "team": "T040HKJE3",
+            "name": "mikhail-m",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lhzM7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "от 2-х до 11-ти?"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sberbank"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1581923327.082800",
+        "parent_user_id": "U0QJG7WBA"
+    },
+    {
+        "client_msg_id": "3316f5b3-f692-4a5f-bd0d-c617d3cc751f",
+        "type": "message",
+        "text": "За экстраординарные успехи можно и больше :slightly_smiling_face:",
+        "user": "U0QJG7WBA",
+        "ts": "1581926291.087500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "77dc615d8ce2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-09-16\/80348635587_77dc615d8ce2bf987094_72.jpg",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Bugaychenko",
+            "display_name": "dmitrybugaychenko",
+            "team": "T040HKJE3",
+            "name": "dmitrybugaychenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qa6X",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "За экстраординарные успехи можно и больше "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1581923327.082800",
+        "parent_user_id": "U0QJG7WBA"
+    }
+]

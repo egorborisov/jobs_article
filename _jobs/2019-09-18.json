@@ -1,0 +1,2730 @@
+[
+    {
+        "client_msg_id": "9071c17f-d63c-4e86-a55b-8f72c96997bb",
+        "type": "message",
+        "text": "Привет!\nПомогаю хорошим людям найти хорошего аналитика.Итак.\n*Что за компания:* Pikabu (да-да, тот самый <https:\/\/pikabu.ru\/> )\n*Сколько:* 100 - 160К (зп белая)\n*Где:* Москва, офис у м.Проспект Мира или _*удаленно*_ (культура компании позволяет)\n*График:* гибкий, в приоритете результативность\n*Мы предлагаем:*\n– Интересные задачи, некоторые из них на стыке с философией: Как замерить качество постов и повлиять на него? Почему пишутся оскорбительные комментарии и как меняется градус агрессии после того или иного изменения?\n– Решение задач по поведенческой и прогнозной аналитике (типа поиска ответов на «почему сейчас так» и «что будет если»)\n– Участвовать в построении «всея-пикабушного» аналитического аппарата\n– Есть возможность развиваться как в области собственно продуктового DA, так и стать DS-боярином\n– Непосредственное влияние на Пикабу как продукт;\n\n*Будем просить:*\n– Узнавать все о том, как пользуются Пикабу в вебе и мобильных приложениях. Помогать с принятием решений на основе данных;\n– Выдвигать продуктовые гипотезы и проверять их вместе с разработчиками;\n– Выявлять \"узкие места\" продукта\n– Строить отчетность по продуктовым показателям (минимум формализма – максимум целесообразности);\n– Управлять процессом интеграции аналитики в разработку продуктов и систематически вести документацию (без фанатизма, но с пользой);\n\n*Надо уметь:*\n– Знание SQL (не пугают оконные функции, вложенные запросы и кучи join) +\n- Программирование (Python) на необходимом для аналитика уровне (продуктовые оптимизированные модели не требуются, но шатать по всякому pandas df и прочие numpy – обязательно)\n- Сильно приветствуется знание математической статистики и теории вероятностей на уровне проверки статистических гипотез (на крайний случай - готовность вспомнить ~прочно забытый~ институтский курс по этим дисциплинам)\n*email:*  <mailto:hr@pikabu.ru|hr@pikabu.ru>  с темой “Продуктовый аналитик”\nВопросы можно в личку.",
+        "user": "UFRRX12A0",
+        "ts": "1568796619.192500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g322aa249ca0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/be322aa249ca0c59c663c2665d26b255.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "Sed616",
+            "display_name": "Alex",
+            "team": "T040HKJE3",
+            "name": "sed616",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UFRRX12A0",
+            "ts": "1568797891.000000"
+        },
+        "reactions": [
+            {
+                "name": "holypeka",
+                "users": [
+                    "U0JHK9001",
+                    "UDS0MCBH7",
+                    "U049HDR2Z",
+                    "U47EXAQ8H",
+                    "U9DLE3YHM",
+                    "UFTCW1X0F",
+                    "UKQDGNUHJ",
+                    "U0AS1QEJF",
+                    "UKQTPE877",
+                    "U1V57JCUF",
+                    "U0ZJSC8JC",
+                    "U8DEZV7E2",
+                    "U18PYFC9L",
+                    "U50GQKH5J",
+                    "U0FEJNBGQ",
+                    "U5EEXS2R1",
+                    "UDK41MN5U",
+                    "U50EVF538",
+                    "U8HG3LPSQ",
+                    "U5FCA4F8X",
+                    "UC9J53NAY",
+                    "UCKAHCKTK",
+                    "U4U4GFDNK",
+                    "U2AJE72Q6",
+                    "U6L08K8KS",
+                    "U0NQXK023",
+                    "U2WQYL1TP",
+                    "U48379U5D",
+                    "U30A6KZLH",
+                    "UD37TP39U",
+                    "U7HAARZEC",
+                    "U7SFPUVQF",
+                    "U8X20BYE4",
+                    "U7N4E8GBF",
+                    "UDSC91AH1",
+                    "U710D2PPX",
+                    "U8T061G4A",
+                    "UD8HRS7LK",
+                    "U6YV1UAS1",
+                    "U4DQUUTS7",
+                    "U4WGFD012",
+                    "U871S4R6F",
+                    "U8NBF22HE",
+                    "UA2G37NSW",
+                    "UHGFW1V2M",
+                    "U0PEXP9PH",
+                    "U9JPJCD2L",
+                    "U6NSQ80GN",
+                    "U2992AMC1",
+                    "UD2NGFPHD"
+                ],
+                "count": 67
+            },
+            {
+                "name": "pikachu",
+                "users": [
+                    "UJ4HE9E4F",
+                    "UHFRRN317",
+                    "UBM7ZCYRK",
+                    "UDS0MCBH7",
+                    "UKXN8PWBU",
+                    "U4X6DG29F",
+                    "U7DTGC4PL",
+                    "U8DEZV7E2",
+                    "U9W1PD5QD",
+                    "U6GCM1F0T",
+                    "UHHV6MY5A",
+                    "U5EEXS2R1",
+                    "U27SUBTB9",
+                    "UDK41MN5U",
+                    "U04422XJL",
+                    "UG0HNBP6F",
+                    "U5FUU47GA",
+                    "ULPRYQNS2",
+                    "U2WQYL1TP",
+                    "U6Y8C4J4F",
+                    "U7SFPUVQF",
+                    "UCKGAQKE0",
+                    "UDSC91AH1",
+                    "UC7DFDJUA",
+                    "U710D2PPX",
+                    "U4J46N7QU",
+                    "UC7F3KJ7P",
+                    "U70DQ5KCY",
+                    "UBRK4HXQV",
+                    "U6YV1UAS1",
+                    "U8NBF22HE",
+                    "UD2NGFPHD",
+                    "U70T87GMA",
+                    "U2992AMC1",
+                    "UGRFZ1DS5",
+                    "U3172NP4Y",
+                    "UF876DSJZ",
+                    "U92RM0HQA",
+                    "U95GAP5JT",
+                    "U8ZDR4HMK"
+                ],
+                "count": 40
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "UC9HBTUKG",
+                    "U7DTGC4PL",
+                    "U79U060TZ",
+                    "U8DEZV7E2",
+                    "UA2Q13FQF",
+                    "U50GQKH5J",
+                    "U2WQYL1TP",
+                    "U710D2PPX",
+                    "UC7F3KJ7P",
+                    "U70DQ5KCY",
+                    "U8WGH35EH",
+                    "U6YV1UAS1",
+                    "U8NBF22HE",
+                    "U9JPJCD2L",
+                    "UD2NGFPHD",
+                    "U24N3AB96",
+                    "U3172NP4Y",
+                    "U92RM0HQA"
+                ],
+                "count": 18
+            },
+            {
+                "name": "slava",
+                "users": [
+                    "U7DTGC4PL",
+                    "U8DEZV7E2",
+                    "UBM7ZCYRK",
+                    "UDK41MN5U",
+                    "U6T5A8SFP",
+                    "ULRR5365Q",
+                    "U419TBDUL",
+                    "U8RJB5FPZ",
+                    "U6L08K8KS",
+                    "U49NJJXNJ",
+                    "U4WM1939Q",
+                    "UAH9H0R17",
+                    "U7N4E8GBF",
+                    "UCKGAQKE0",
+                    "UDSC91AH1",
+                    "UC7DFDJUA",
+                    "U710D2PPX",
+                    "U8T061G4A",
+                    "UGC2U5CP8",
+                    "U70DQ5KCY",
+                    "U2992AMC1",
+                    "U6YV1UAS1",
+                    "U705ED0CU",
+                    "U8NBF22HE",
+                    "UHGFW1V2M",
+                    "UDV2YC666",
+                    "UDDM83FE0",
+                    "U24N3AB96",
+                    "UCXPZPWA2",
+                    "UG1TERECF",
+                    "U3172NP4Y",
+                    "U92RM0HQA",
+                    "U9YC38N57"
+                ],
+                "count": 33
+            },
+            {
+                "name": "slava_2",
+                "users": [
+                    "U7DTGC4PL",
+                    "U8DEZV7E2",
+                    "UBM7ZCYRK",
+                    "UDK41MN5U",
+                    "U6T5A8SFP",
+                    "ULRR5365Q",
+                    "U419TBDUL",
+                    "U8RJB5FPZ",
+                    "U6L08K8KS",
+                    "U09NJCK3K",
+                    "U4WM1939Q",
+                    "UAH9H0R17",
+                    "U7N4E8GBF",
+                    "UCKGAQKE0",
+                    "UDSC91AH1",
+                    "UC7DFDJUA",
+                    "U710D2PPX",
+                    "U8T061G4A",
+                    "UGC2U5CP8",
+                    "U70DQ5KCY",
+                    "U2992AMC1",
+                    "U6YV1UAS1",
+                    "U705ED0CU",
+                    "UL2QDC909",
+                    "U8NBF22HE",
+                    "UA2G37NSW",
+                    "UHGFW1V2M",
+                    "UDDM83FE0",
+                    "UG1TERECF",
+                    "UHJ2X27P0",
+                    "U3172NP4Y",
+                    "U92RM0HQA",
+                    "U9YC38N57"
+                ],
+                "count": 33
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "U50GQKH5J",
+                    "U18PYFC9L",
+                    "U5FCA4F8X",
+                    "U6X5YAFU3",
+                    "U985CRKNF",
+                    "UE7FQ2EFR",
+                    "U6YV1UAS1",
+                    "U8NBF22HE",
+                    "UBXD6L81E",
+                    "UDTFQJN1M",
+                    "U3172NP4Y"
+                ],
+                "count": 11
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "UM5DXE4LE",
+                    "UHFRRN317",
+                    "UFKRNLQP4",
+                    "UG3P7DHB9",
+                    "UE259V12B",
+                    "U6YV1UAS1",
+                    "U8NBF22HE",
+                    "U0PEXP9PH",
+                    "U8R7BEGUU"
+                ],
+                "count": 9
+            },
+            {
+                "name": "cookie",
+                "users": [
+                    "U6X5YAFU3",
+                    "UCNSDARTM",
+                    "ULPRYQNS2",
+                    "UAH9H0R17",
+                    "UC7DFDJUA",
+                    "U8T061G4A",
+                    "U8NBF22HE",
+                    "UJUAY2S4D"
+                ],
+                "count": 8
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "U4WM1939Q",
+                    "U985CRKNF",
+                    "U7N4E8GBF",
+                    "UC7DFDJUA",
+                    "U6T5A8SFP",
+                    "U871S4R6F",
+                    "U8NBF22HE",
+                    "U70T87GMA",
+                    "UN7L22PUH"
+                ],
+                "count": 9
+            },
+            {
+                "name": "palm_tree",
+                "users": [
+                    "U7N4E8GBF",
+                    "UC7DFDJUA",
+                    "U8NBF22HE"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "50689a82-b293-4cdc-8d4f-790757c4a3a7",
+        "type": "message",
+        "text": "Лично знаком с Элен - уверен, работать с ней будет здорово и весело",
+        "user": "UAF5WM2EN",
+        "ts": "1568798732.201200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f88ded36c04c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-18\/752797075475_f88ded36c04c06f73c85_72.png",
+            "first_name": "Alexander",
+            "real_name": "Alexander Shein",
+            "display_name": "AlexShein",
+            "team": "T040HKJE3",
+            "name": "mr.alex.shein",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568729371.138500",
+        "parent_user_id": "UHVAAT1DL",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UFZ9SJ2P3",
+                    "U6WUWPDDX",
+                    "U2U9Y7TD5"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9ac1c681-c920-43d1-8e44-ae590feb97ca",
+        "type": "message",
+        "text": "Позиция: *Data Scientist*\nКомпания: *Газпром Нефть*\nГород: *Санкт-Петербург*\n:fork: (всё gross)\n~ Senior *150-200* т.р. + годовая премия *360-840* т.р.\n~ Middle *100-150* т.р. + годовая премия *240-360* т.р.\n\n*Про нас:* мы работаем в той части Газпром Нефть, которая отвечает за сбыт топлива: продажи через собственную сеть АЗС, оптом, корпоративным клиентам, а также логистику от нефтебаз (формально - Центр Компетенций по продвинутой аналитике Дирекции Региональных Продаж).\n\nВ нашей команде 8 Data Scientist-ов плюс несколько непосредственно в бизнес-подразделениях, регулярно подключаются стажеры на временную практику (следующий набор будет в октябре), помогает сильная команда Data Engineer-ов и python разработчик (пока один). Наш стек используемых в DS технологий: :python: (классика, в основном `pandas` :sklearn: `statsmodels` `fbprophet` :xgboost: и аналоги, `shap`, реже для особых нужд :pytorch: :keras: :tensorflow:), очень часто :sql:, очень редко :r:, на подходе :hadoop: со :spark: и `hive`. Иногда залезаем в BI (QlikView, Power BI). Документацию ведем в `Confluence`, задачи - в `Jira`, код - в `GitLab`.\n\nРаботаем в основном над задачами прогнозирования продаж и эффекта от промо-акций, оценки кредитного риска контрагентов, детекции и классификации объектов на видео с камер АЗС, динамического управления ценой, но не исключительно (например, аудио и текстовая аналитика, есть потребность в решении задач предиктивного обслуживания и транспортных задач).\n\nМы - молодая команда энтузиастов, находимся в фазе становления DS практики в большой, сложной, олдскульной компании, при этом мы дружны и веселы, у нас интересные задачи, а также неплохие железо и софт. Сейчас ищем новых людей для усиления команды и формирования лучших практик создания решений для бизнеса.\n\n*Что нужно будет делать*\n\t- Решать кейсы в духе перечисленных выше.\n\t- Взаимодействовать с бизнес-заказчиками (погружаться в суть задачи и семантику данных, презентовать результаты), системными и бизнес-аналитиками, архитекторами BI\/DWH\/Data Lake.\n\t- Активно улучшать\/выстраивать процессы доведения решений до prod.\n\t- Развиваться, развивать коллег, участвовать в конференциях.\n\n*Чего ждем от кандидата*\n\t- Ключевое для Senior: опыт вывода и поддержки результатов в prod.\n\t- Крутое знание большей части перечисленного выше стека + базовое `flask`, `dash`\/`bokeh` и :docker:.\n\t- Хорошая математическая база с точки зрения глубокого понимания работы алгоритмов, их настройки и умения объяснить простыми словами.\n\t- Умение писать чистый код, git worflow, понимание CI\/CD.\n\t- Практический опыт решения кейсов с применением *минимум одного из*: RL, NLP, CV, инструментов оптимизационного моделирования (возможно даже AnyLogic или LLamasoft).\n\t- Высшее образование (лучше - техническое), английский язык (понимание профильных статей и докладов)\n\t\n*При этом будет здорово, если*\n\t- У вас есть доменный опыт в продажах, рознице или логистике.\n\t- Вам доводилось проводить на практике нетривиальные A\/B тесты в сложных условиях.\n\n*Условия*\n\t- Клевый офис в центре Санкт-Петербурга (Виленский пер, 14 - Чернышевская)\n\t- Широкий ДМС, гибкий график (но не удаленно), корпоративное обучение.\n\nРезюме присылайте на <mailto:Kudryavtsev.ND@gazprom-neft.ru|Kudryavtsev.ND@gazprom-neft.ru>, вопросы можно здесь.",
+        "user": "UJXFEJ686",
+        "ts": "1568799164.203000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "421d29dd8024",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-07-08\/689707469062_421d29dd8024e8211562_72.jpg",
+            "first_name": "Nikita",
+            "real_name": "Nikita Kudriavtsev",
+            "display_name": "nikita.kudriavtsev",
+            "team": "T040HKJE3",
+            "name": "ndkwrk",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568799164.203000",
+        "reply_count": 8,
+        "reply_users_count": 4,
+        "latest_reply": "1568814974.246800",
+        "reply_users": [
+            "U8DEZV7E2",
+            "UM5DXE4LE",
+            "UJXFEJ686",
+            "U9221QEV8"
+        ],
+        "replies": [
+            {
+                "user": "U8DEZV7E2",
+                "ts": "1568801303.213100"
+            },
+            {
+                "user": "UM5DXE4LE",
+                "ts": "1568801590.214100"
+            },
+            {
+                "user": "U8DEZV7E2",
+                "ts": "1568801952.215900"
+            },
+            {
+                "user": "UJXFEJ686",
+                "ts": "1568802534.219200"
+            },
+            {
+                "user": "U9221QEV8",
+                "ts": "1568805059.224700"
+            },
+            {
+                "user": "UJXFEJ686",
+                "ts": "1568810659.238700"
+            },
+            {
+                "user": "U9221QEV8",
+                "ts": "1568811618.240000"
+            },
+            {
+                "user": "UJXFEJ686",
+                "ts": "1568814974.246800"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "putin",
+                "users": [
+                    "UHR5Q170B",
+                    "U73NVHE0Y",
+                    "U8J9XMX3J",
+                    "UDHJKLGLR",
+                    "UC9J53NAY",
+                    "UFU43Q5CL",
+                    "U06J1LG1M",
+                    "UKQTPE877",
+                    "U6L08K8KS",
+                    "UKQDGNUHJ",
+                    "UC9HBTUKG",
+                    "U7BU0UUGM",
+                    "UAF1W2R3M",
+                    "U30LWK54N",
+                    "U47A0GZLK",
+                    "UCKAHCKTK",
+                    "UCK2WBKLG",
+                    "UAH9H0R17",
+                    "U50GQKH5J",
+                    "U7SFPUVQF",
+                    "U7N4E8GBF",
+                    "U4X5JVCQ0",
+                    "UCKGAQKE0",
+                    "U8G904J3F",
+                    "UAG21HMV4",
+                    "U049HDR2Z",
+                    "UDSC91AH1",
+                    "U710D2PPX",
+                    "U5D5Y5EQ4",
+                    "U9M4BGEL8",
+                    "UMZDYKQJ2",
+                    "U74DLUWUC",
+                    "U2992AMC1",
+                    "UF1ED121H",
+                    "U7166RP99",
+                    "UC8NCT0PQ",
+                    "ULBF7D656",
+                    "U60EETE7N",
+                    "U6NSQ80GN",
+                    "UD2NGFPHD",
+                    "U419TBDUL",
+                    "U8R7BEGUU",
+                    "U4794DXPY",
+                    "U1CE1LVD3",
+                    "U1YQLTMLH",
+                    "U914M4PKK",
+                    "U061VJ5SB",
+                    "U5835F2MC"
+                ],
+                "count": 48
+            },
+            {
+                "name": "rospil",
+                "users": [
+                    "U06J1LG1M",
+                    "UDHJKLGLR",
+                    "UKQDGNUHJ",
+                    "U7BU0UUGM",
+                    "U6Y47FWKX",
+                    "UAF1W2R3M",
+                    "U30LWK54N",
+                    "UK69UMP1P",
+                    "UCK2WBKLG",
+                    "UAH9H0R17",
+                    "U2LF67NRH",
+                    "U50GQKH5J",
+                    "U7SFPUVQF",
+                    "UCKGAQKE0",
+                    "U049HDR2Z",
+                    "UDSC91AH1",
+                    "U710D2PPX",
+                    "U9M4BGEL8",
+                    "U3G5SK5J6",
+                    "U74DLUWUC",
+                    "UF1ED121H",
+                    "U7166RP99",
+                    "U7G6C7TNH",
+                    "UC8NCT0PQ",
+                    "ULBF7D656",
+                    "U6NSQ80GN",
+                    "UD2NGFPHD",
+                    "U419TBDUL",
+                    "UDSFLKF0B",
+                    "UKCLBBJRK",
+                    "U2TNYDLRL",
+                    "UDTFQJN1M",
+                    "U1CE1LVD3",
+                    "U914M4PKK"
+                ],
+                "count": 34
+            },
+            {
+                "name": "perill",
+                "users": [
+                    "U06J1LG1M",
+                    "U7BU0UUGM",
+                    "UAF1W2R3M",
+                    "U30LWK54N",
+                    "U7SFPUVQF",
+                    "U9M4BGEL8",
+                    "ULBF7D656",
+                    "U419TBDUL"
+                ],
+                "count": 8
+            },
+            {
+                "name": "spasi",
+                "users": [
+                    "U06J1LG1M",
+                    "UC9HBTUKG",
+                    "U7BU0UUGM",
+                    "UAF1W2R3M",
+                    "U7SFPUVQF",
+                    "U9M4BGEL8",
+                    "ULBF7D656",
+                    "U2992AMC1",
+                    "U419TBDUL",
+                    "UMZ4KE98F",
+                    "UHDQKG6P5"
+                ],
+                "count": 11
+            },
+            {
+                "name": "taxist",
+                "users": [
+                    "U06J1LG1M",
+                    "UAF1W2R3M",
+                    "ULBF7D656"
+                ],
+                "count": 3
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "UDCT4LJRM",
+                    "U460L21NZ",
+                    "U0K47J3HR",
+                    "U7ZNQB5UK",
+                    "UC8RMUKP0",
+                    "UFJJ98MH7",
+                    "UDK41MN5U",
+                    "U5X36JZ4G",
+                    "U8DEZV7E2",
+                    "U7CAU0GMU",
+                    "U4BK5GNUB",
+                    "U3ULV5ATU",
+                    "UNHTWPU1W",
+                    "U5W6MCS0N",
+                    "UKCLJ475W"
+                ],
+                "count": 15
+            },
+            {
+                "name": "catshake",
+                "users": [
+                    "U460L21NZ",
+                    "UC8RMUKP0",
+                    "U4BK5GNUB",
+                    "U9M4BGEL8",
+                    "ULBF7D656",
+                    "UGDUCRYJ0"
+                ],
+                "count": 6
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "U6GHJEYR3",
+                    "UC8RMUKP0",
+                    "U4BK5GNUB"
+                ],
+                "count": 3
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "UC9HBTUKG",
+                    "U7BU0UUGM",
+                    "UM5DXE4LE",
+                    "U07159GKF",
+                    "U6URRB952",
+                    "UFKRNLQP4",
+                    "UG3P7DHB9",
+                    "UD37TP39U",
+                    "U7SFPUVQF",
+                    "U8C6T65C6",
+                    "U7N4E8GBF",
+                    "UCKGAQKE0",
+                    "U049HDR2Z",
+                    "U710D2PPX",
+                    "U3G5SK5J6",
+                    "U74DLUWUC",
+                    "UBS459X19",
+                    "U2992AMC1",
+                    "UDKV94W11",
+                    "UL2PYMQRX",
+                    "U9ZMU4630",
+                    "U7166RP99",
+                    "ULBF7D656",
+                    "UHGFW1V2M",
+                    "U0PEXP9PH",
+                    "U6NSQ80GN",
+                    "U419TBDUL",
+                    "UET6CJG7M",
+                    "U061WBASK",
+                    "U7E8Y3V19",
+                    "U3PETUSSE",
+                    "UCNNGKT3Q",
+                    "U914M4PKK",
+                    "UHDQKG6P5",
+                    "U6T11F9T4"
+                ],
+                "count": 35
+            },
+            {
+                "name": "holypeka",
+                "users": [
+                    "UC9HBTUKG",
+                    "U2992AMC1",
+                    "U9ZMU4630",
+                    "U419TBDUL",
+                    "UMKCNS8MN"
+                ],
+                "count": 5
+            },
+            {
+                "name": "eww",
+                "users": [
+                    "UCK2WBKLG",
+                    "U7BU0UUGM",
+                    "UC9HBTUKG",
+                    "U9M4BGEL8",
+                    "U3G5SK5J6",
+                    "ULBF7D656",
+                    "UHDQKG6P5"
+                ],
+                "count": 7
+            },
+            {
+                "name": "hankey",
+                "users": [
+                    "U3G5SK5J6",
+                    "ULBF7D656",
+                    "U4A57R5V1",
+                    "U8R7BEGUU"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "96e5d990-3dd0-4640-b6f3-ddef401a05b3",
+        "type": "message",
+        "text": "Как по мне, для СПБ не лапша",
+        "user": "U8DEZV7E2",
+        "ts": "1568801303.213100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "2650a02a0dbd",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-09-01\/427797034853_2650a02a0dbd8f66ba48_72.jpg",
+            "first_name": "Andril772",
+            "real_name": "Andril772",
+            "display_name": "Alexander Abramov",
+            "team": "T040HKJE3",
+            "name": "andril772",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568799164.203000",
+        "parent_user_id": "UJXFEJ686",
+        "reactions": [
+            {
+                "name": "heavy_minus_sign",
+                "users": [
+                    "U74DLUWUC",
+                    "U7E8Y3V19",
+                    "UHDQKG6P5",
+                    "U061WBASK"
+                ],
+                "count": 4
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U82RMDTFV",
+                    "UJXFEJ686"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "82f0af84-8af3-45df-ac45-d7e4b7077c2e",
+        "type": "message",
+        "text": "<@U8DEZV7E2> требования к кандидату явно завышены (почти наверное необоснованно), так что вполне лапша",
+        "user": "UM5DXE4LE",
+        "ts": "1568801590.214100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1c3af80f04c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-06\/851201007059_1c3af80f04c41ce8a44f_72.png",
+            "first_name": "Ivan",
+            "real_name": "Ivan Andrianov",
+            "display_name": "Ivan Andrianov",
+            "team": "T040HKJE3",
+            "name": "i.a.andrianov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568799164.203000",
+        "parent_user_id": "UJXFEJ686"
+    },
+    {
+        "client_msg_id": "6558c6e1-3411-480e-9c7e-6b7beb6156ad",
+        "type": "message",
+        "text": "<@UM5DXE4LE> тут все что описано в рамках не senior в индустрии маст хэв уже, не думаю, что за фит предикт и sql вам будут платить &gt;100к. Сейчас люди на каггле из того стэка, что описан в арсенали команды больше делают, как минимум тот ж стэк. Что касается senior описания, то все ок, все требования адекватные уровню. По зп, в нефтегазе считайте это очень хороший уровень в спб. Выше среднего, что можно списать на саму позицию data science",
+        "user": "U8DEZV7E2",
+        "ts": "1568801952.215900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "2650a02a0dbd",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-09-01\/427797034853_2650a02a0dbd8f66ba48_72.jpg",
+            "first_name": "Andril772",
+            "real_name": "Andril772",
+            "display_name": "Alexander Abramov",
+            "team": "T040HKJE3",
+            "name": "andril772",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568799164.203000",
+        "parent_user_id": "UJXFEJ686",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UJXFEJ686",
+                    "UDSC91AH1",
+                    "U709XK88H",
+                    "UDCT4LJRM",
+                    "UDV2YC666"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c0f50d03-fced-4331-8509-99c87d74df3e",
+        "type": "message",
+        "text": "согласен, вполне стандартные. при этом подразумевается, что отсутствие каких-то навыков может вполне компенсироваться глубокой экспертизой в других, а уровень, конечно, для middle и senior разный.",
+        "user": "UJXFEJ686",
+        "ts": "1568802534.219200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "421d29dd8024",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-07-08\/689707469062_421d29dd8024e8211562_72.jpg",
+            "first_name": "Nikita",
+            "real_name": "Nikita Kudriavtsev",
+            "display_name": "nikita.kudriavtsev",
+            "team": "T040HKJE3",
+            "name": "ndkwrk",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568799164.203000",
+        "parent_user_id": "UJXFEJ686"
+    },
+    {
+        "client_msg_id": "faffaf8a-d697-4df4-a084-41fa4008190e",
+        "type": "message",
+        "text": "Вакансия на 2, а требования на 5: цена, зрение, текст, аудио,риск и рл.",
+        "user": "U9221QEV8",
+        "ts": "1568805059.224700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "051181aacb8c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-06-15\/382771114022_051181aacb8ced1d0d96_72.jpg",
+            "first_name": "Metenevv",
+            "real_name": "Metenevv",
+            "display_name": "Vm",
+            "team": "T040HKJE3",
+            "name": "metenevv",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U9221QEV8",
+            "ts": "1568805093.000000"
+        },
+        "thread_ts": "1568799164.203000",
+        "parent_user_id": "UJXFEJ686",
+        "reactions": [
+            {
+                "name": "norma",
+                "users": [
+                    "UM5DXE4LE",
+                    "UHFRRN317",
+                    "U8DEZV7E2",
+                    "UJG8Q19LG"
+                ],
+                "count": 4
+            },
+            {
+                "name": "wat",
+                "users": [
+                    "UDCT4LJRM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "33dd3183-98ee-486e-a2f0-b57f4aa2e228",
+        "type": "message",
+        "text": "Роль: *Middle\/Senior DS NLP+*\nГород: *Москва*\nКомпания: *Сбербанк*\nВилка: *175-350 т.р. чистыми + 40..80% годовой суммы*\n\n*ЧТО МЫ ДЕЛАЕМ*\nМы учим ML глубокому пониманию больших текстов и ответам на сложные вопросы в диалоге, в том числе с помощью формирования абстрактного представления извлеченных фактов и априорных знаний предметной области. В юриспруденции без этого никак. Для начала мы построили и вывели в работу несколько пайплайнов, в которых модели по-отдельности извлекают базовые сущности, сегментируют и классифицируют блоки текстов, связывают в них сущности согласно онтологиям в графы, по которым затем принимаются решения. Теперь мы идем глубже, к end-to-end моделям с памятью – для извлечения, представления и обработки полностью связанных графов знаний, отражающих как юридические факты, так и правила их процессинга.\n\n*КТО МЫ ТАКИЕ*\nМы – команда LEGAL_AI правового департамента Сбербанка, сейчас нас более двадцати человек, включая DS\/NLP, питонистов, дата- и бизнес- аналитиков, разработчиков станции разметки и рабочих мест юристов и аналитиков. С нами работает порядка пятнадцати юристов, есть свой выделенный пул разметчиков. Мы выпустили несколько внутрибанковских AI-продуктов, которые поддерживаем и развиваем. Созданные компоненты мы объединяем в новую платформу, увеличиваем число и сложность продуктов, готовим их к выводу на внешний рынок. Под эти задачи мы значительно расширяем команду.\n\n*ЧЕМ ВАМ ПРЕДСТОИТ ЗАНИМАТЬСЯ*\nУ нас много задач, и в зависимости от вашего опыта, предпочтений и приоритетов команды, вы будете на выбор:\n• Строить и тренировать NER\/RE\/EL модели и пайплайны извлечения и связывания сущностей, проводить работу над ошибками моделей, развивать их архитектуру.\n• Анализировать исходные и размеченные данные и вырабатывать рекомендации по их пополнению и улучшению.\n• Разрабатывать диалоговые, вопросно-ответные системы, включая работу с intents и skills.\n• Проектировать DSL языки представления и обработки онтологий.\n• Писать скрипты пред- и пост- обработки данных и выводов моделей.\n• Участвовать в выводе в production.\n• Читать и имплементировать статьи с Arxiv.\n• Исследовать и проводить эксперименты по созданию новых методов, включая описанные выше космолеты.\n\n*ЧТО ВАМ НУЖНО ЗНАТЬ И УМЕТЬ*\n• Математическая статистика, линейная алгебра и прочая базовая математика.\n• Хорошее знание Python и основных библиотек анализа данных (pandas, matplotlib, numpy, scipy, sklearn).\n• Linux, Git, Jira, Confluence, Jupyter, PyCharm, etc – на уровне привычной работы.\n• Основные средства построения глубоких моделей – Tensorflow, Keras, PyTorch, на уверенном рабочем уровне.\n• Архитектуры нейронных сетей, их слоев и модулей – от RNN, CNN и FC до FastText, Transformer, BERT, GCNN – на уровне понимания и объяснения их принципов.\n• Хорошее знание лингвистических технологий (стемминг, лемматизация, нормализация и т.п.) и инструментов (NLTK, PyMorfy, AllenNLP, Yargy, DeepPavlov, …) – не обязательно все, но чем больше, тем лучше.\n• Опыт реальной разработки моделей – предобработка, разметка, балансировка и аугментация датасетов, построение и тренировка моделей классификации, сегментации, NER, Relation extraction, Slot filling, вывод моделей в прод, restAPI, контейнеризация – всё идет в зачет.\n\n*ЧТО МЫ ПРЕДЛАГАЕМ*\n• Сильная команда, умные ребята, сложные задачи.\n• Уютный офис на Большой Якиманке.\n• Социальный пакет (ДМС, фитнес, льготное страхование).\n• ЗП от 175 т.р. до 350+ т.р. на руки (плюс годовые премии соответственно от 40% до 80% от общей суммы), для суперзвёзд можно больше.\n\n*КАК С НАМИ СВЯЗАТЬСЯ*\nПрисылайте свое резюме мне, Роману Кошелеву, по адресу: <mailto:Koshelev.R.V@sberbank.ru|Koshelev.R.V@sberbank.ru>\nЯ буду рад увидеть в сопровождающем письме краткое изложение вашего опыта и интересов в области NLP и обработки знаний.",
+        "user": "U52330HTK",
+        "ts": "1568809034.233100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g89b7857a8bc",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/d589b7857a8bc079b85c5575facbd2ea.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "Roman",
+            "real_name": "Roman Koshelev",
+            "display_name": "Roman Koshelev",
+            "team": "T040HKJE3",
+            "name": "romakosh",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U52330HTK",
+            "ts": "1568809203.000000"
+        },
+        "thread_ts": "1568809034.233100",
+        "reply_count": 11,
+        "reply_users_count": 4,
+        "latest_reply": "1569057552.051700",
+        "reply_users": [
+            "UM5DXE4LE",
+            "U52330HTK",
+            "U5KD4L5JP",
+            "UDTFQJN1M"
+        ],
+        "replies": [
+            {
+                "user": "UM5DXE4LE",
+                "ts": "1568823632.293500"
+            },
+            {
+                "user": "UM5DXE4LE",
+                "ts": "1568823790.293900"
+            },
+            {
+                "user": "U52330HTK",
+                "ts": "1568824919.297500"
+            },
+            {
+                "user": "U5KD4L5JP",
+                "ts": "1568894973.357200"
+            },
+            {
+                "user": "U52330HTK",
+                "ts": "1568904611.398800"
+            },
+            {
+                "user": "U52330HTK",
+                "ts": "1568904719.399100"
+            },
+            {
+                "user": "UDTFQJN1M",
+                "ts": "1568914319.409200"
+            },
+            {
+                "user": "U52330HTK",
+                "ts": "1568969180.458200"
+            },
+            {
+                "user": "U52330HTK",
+                "ts": "1568980760.471500"
+            },
+            {
+                "user": "UDTFQJN1M",
+                "ts": "1569004039.028100"
+            },
+            {
+                "user": "U52330HTK",
+                "ts": "1569057552.051700"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fireball",
+                "users": [
+                    "UBS459X19",
+                    "U70DQ5KCY",
+                    "UHFRRN317",
+                    "UE61U6DCL",
+                    "U8LUNN003",
+                    "UC9HBTUKG",
+                    "UJG9DRZ8U",
+                    "U90HKUW3B",
+                    "U8B3VR7UK",
+                    "UCV0RM9FY",
+                    "UEPUBQ16W",
+                    "UJUCG9QSC",
+                    "UM5DXE4LE",
+                    "UDSC91AH1",
+                    "ULPRYQNS2",
+                    "U6YDWF4UB",
+                    "U5TGT5SQ2",
+                    "UDK41MN5U",
+                    "UEP8V5FM5",
+                    "UMQSP3DJM",
+                    "U6NSQ80GN",
+                    "U7P2VBTJ5",
+                    "U4794DXPY",
+                    "U5KD4L5JP",
+                    "U3FEH4R1P",
+                    "U1CE1LVD3"
+                ],
+                "count": 26
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U70DQ5KCY",
+                    "U8LUNN003",
+                    "U90HKUW3B",
+                    "U48AFP5RD",
+                    "U5TGT5SQ2"
+                ],
+                "count": 5
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "U8DEZV7E2",
+                    "UE61U6DCL",
+                    "U8LUNN003",
+                    "UC9HBTUKG",
+                    "U90HKUW3B",
+                    "U8B3VR7UK",
+                    "UKQDJU35J",
+                    "U5TGT5SQ2",
+                    "UEP8V5FM5",
+                    "U4WM1939Q",
+                    "U26MG2Z37",
+                    "U5KD4L5JP",
+                    "U6Y8C4J4F"
+                ],
+                "count": 13
+            },
+            {
+                "name": "sberbank",
+                "users": [
+                    "U8DEZV7E2",
+                    "U30A6KZLH",
+                    "U9221QEV8",
+                    "U34U3HUJD",
+                    "U4LBN5THS",
+                    "U8LUNN003",
+                    "UAH9H0R17",
+                    "UC9HBTUKG",
+                    "U90HKUW3B",
+                    "U8B3VR7UK",
+                    "U27SUBTB9",
+                    "UDRRWJV09",
+                    "U6HFSNFQR",
+                    "UDSC91AH1",
+                    "ULPRYQNS2",
+                    "U1X5Q0S1L",
+                    "U6YDWF4UB",
+                    "U2LGQMC4D",
+                    "UJUAY2S4D",
+                    "UEP8V5FM5",
+                    "UMQSP3DJM",
+                    "U1CMPEWPQ",
+                    "U26MG2Z37",
+                    "UKXN2BABU",
+                    "U4794DXPY",
+                    "U5KD4L5JP",
+                    "UDTFQJN1M",
+                    "U1YQLTMLH",
+                    "UAWDJM48H"
+                ],
+                "count": 29
+            },
+            {
+                "name": "moneys",
+                "users": [
+                    "U8DEZV7E2",
+                    "UE61U6DCL",
+                    "U30A6KZLH",
+                    "UCNKBQJEN",
+                    "U8LUNN003",
+                    "UC9HBTUKG",
+                    "U90HKUW3B",
+                    "U4U4GFDNK",
+                    "U27SUBTB9",
+                    "U2F96NMPF",
+                    "UDSC91AH1",
+                    "ULPRYQNS2",
+                    "U1X5Q0S1L",
+                    "U6YDWF4UB",
+                    "UM5DXE4LE",
+                    "U1CMPEWPQ",
+                    "U26MG2Z37",
+                    "U8R7BEGUU",
+                    "U6YEN210D",
+                    "UF5E26Z28",
+                    "U1YQLTMLH"
+                ],
+                "count": 21
+            },
+            {
+                "name": "gref",
+                "users": [
+                    "UAH9H0R17",
+                    "UC9HBTUKG",
+                    "U90HKUW3B",
+                    "U06J1LG1M",
+                    "U8QE9EVAQ",
+                    "U7HDR789E",
+                    "U26MG2Z37"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e2af9f78-f3ee-47d3-af26-b8cbde8bff46",
+        "type": "message",
+        "text": "<@U9221QEV8> ну вы не правы, требуется не все сразу, а опыт в одном из (при этом про цену, аудио и риск, кстати, в ожиданиях не написано).",
+        "user": "UJXFEJ686",
+        "ts": "1568810659.238700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "421d29dd8024",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-07-08\/689707469062_421d29dd8024e8211562_72.jpg",
+            "first_name": "Nikita",
+            "real_name": "Nikita Kudriavtsev",
+            "display_name": "nikita.kudriavtsev",
+            "team": "T040HKJE3",
+            "name": "ndkwrk",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568799164.203000",
+        "parent_user_id": "UJXFEJ686"
+    },
+    {
+        "client_msg_id": "698d5223-50e3-4f9d-8543-63f35b6e2286",
+        "type": "message",
+        "text": "<@UJXFEJ686> сейчас из текста не читается сколько вам синьоров надо и на какие направления.",
+        "user": "U9221QEV8",
+        "ts": "1568811618.240000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "051181aacb8c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-06-15\/382771114022_051181aacb8ced1d0d96_72.jpg",
+            "first_name": "Metenevv",
+            "real_name": "Metenevv",
+            "display_name": "Vm",
+            "team": "T040HKJE3",
+            "name": "metenevv",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568799164.203000",
+        "parent_user_id": "UJXFEJ686"
+    },
+    {
+        "client_msg_id": "d942ae21-eac2-42ba-a4b4-586affb4d44e",
+        "type": "message",
+        "text": "<@U9221QEV8> а, так бы и спросили, пардон. ищем одного senior и одного middle. В данный момент наибольшая потребность в первом - на прогнозировании эффекта промо, во втором - на кредитном скоринге, но тк характер работы проектный, то всю жизнь заниматься только этим не придется. Нас мало, а спектр задач довольно большой.",
+        "user": "UJXFEJ686",
+        "ts": "1568814974.246800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "421d29dd8024",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-07-08\/689707469062_421d29dd8024e8211562_72.jpg",
+            "first_name": "Nikita",
+            "real_name": "Nikita Kudriavtsev",
+            "display_name": "nikita.kudriavtsev",
+            "team": "T040HKJE3",
+            "name": "ndkwrk",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJXFEJ686",
+            "ts": "1568815150.000000"
+        },
+        "thread_ts": "1568799164.203000",
+        "parent_user_id": "UJXFEJ686"
+    },
+    {
+        "client_msg_id": "a392f8d9-e19c-42c0-b175-926f744bbd77",
+        "type": "message",
+        "text": "Всем привет, снова набор в X5 команду Спроса. На этот раз ищем сениор разработчика (ML можно не знать). По деньгам 190-260 к gross + 20% бонуса по итогам года.\n\nЗадачи на выбор:\n- работа над пайплайном обучения моделей (spark, docker, тестирование, оптимизация, ... )\n- оптимизация инфраструктуры (k8s, логгирование, очереди, ... )\n- автопроверка качества и полноты данных\n\nЧто надо уметь обязательно - Python (хороший уровень, код пойдёт в продакшн), SQL (хотя бы на среднем уровне)\nКак можно больше из: Spark, Hadoop, Airflow, Kafka, K8S, PostgreSQL, ML, CI\/CD, Tableau, ELK, Nats, AB testing\n\nОфис - Москва, метро Добрынинская, Коровий Вал 5.\nМожно пару дней в неделю работать удалённо\nВопросы можно мне писать.\n\nP.S. В целом вакансия довольно гибкая, можно будет переключатся на интересные для кандидата задачи. Даже если кандидат не подойдёт к нам в команду, но показывает хорошие навыки, то ему предложат подходящую вакансию без дополнительного собеседования.\n\nЗа 50 \"валер\" +10 к нижней границе, за 100 - по +10 к нижней и верхней, за 200 - ещё +10 к нижней. Предложение только для ODS",
+        "user": "U48BEV6UV",
+        "ts": "1568815347.247600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "reply_count": 42,
+        "reply_users_count": 16,
+        "latest_reply": "1568981753.475300",
+        "reply_users": [
+            "U2LGQMC4D",
+            "U04422XJL",
+            "U48BEV6UV",
+            "U2GAEHQR1",
+            "UFF6S5ZGE",
+            "U8H7YKFME",
+            "U3Z5KPTRQ",
+            "UDSBE0FKN",
+            "UDSC91AH1",
+            "UM5DXE4LE",
+            "U70DQ5KCY",
+            "UC7F3KJ7P",
+            "U4N7G9RQA",
+            "UM53RABL7",
+            "U43QVTY49",
+            "UEX8GJTSA"
+        ],
+        "replies": [
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1568815513.249700"
+            },
+            {
+                "user": "U04422XJL",
+                "ts": "1568815558.250300"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1568815927.254100"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1568816952.263700"
+            },
+            {
+                "user": "U2GAEHQR1",
+                "ts": "1568819886.277400"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1568819894.277600"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1568820868.281100"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1568820934.281500"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1568820960.281900"
+            },
+            {
+                "user": "U8H7YKFME",
+                "ts": "1568820999.282100"
+            },
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1568821016.282300"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1568821018.282700"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1568821074.282900"
+            },
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1568821114.283500"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1568821126.283700"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1568821161.283900"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1568821215.284100"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1568821294.284600"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1568821306.284900"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1568821351.285100"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1568821408.285600"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1568821428.285900"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1568821464.286500"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1568821589.287700"
+            },
+            {
+                "user": "U3Z5KPTRQ",
+                "ts": "1568821931.289600"
+            },
+            {
+                "user": "U48BEV6UV",
+                "ts": "1568822034.290100"
+            },
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1568822576.291500"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1568822868.291900"
+            },
+            {
+                "user": "UDSBE0FKN",
+                "ts": "1568824109.295300"
+            },
+            {
+                "user": "UDSC91AH1",
+                "ts": "1568824120.295500"
+            },
+            {
+                "user": "UM5DXE4LE",
+                "ts": "1568824800.296900"
+            },
+            {
+                "user": "U70DQ5KCY",
+                "ts": "1568879695.324000"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1568879830.326900"
+            },
+            {
+                "user": "UC7F3KJ7P",
+                "ts": "1568880425.328800"
+            },
+            {
+                "user": "U4N7G9RQA",
+                "ts": "1568903693.393700"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1568904374.397200"
+            },
+            {
+                "user": "UM53RABL7",
+                "ts": "1568923888.414300"
+            },
+            {
+                "user": "UM53RABL7",
+                "ts": "1568924092.414500"
+            },
+            {
+                "user": "U2LGQMC4D",
+                "ts": "1568925467.415800"
+            },
+            {
+                "user": "U43QVTY49",
+                "ts": "1568931765.424900"
+            },
+            {
+                "user": "U4N7G9RQA",
+                "ts": "1568971951.459900"
+            },
+            {
+                "user": "UEX8GJTSA",
+                "ts": "1568981753.475300"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "venheads",
+                "users": [
+                    "U6YDWF4UB",
+                    "U4A87FZHQ",
+                    "U36Q9NJMD",
+                    "U5EF4EQR1",
+                    "U709XK88H",
+                    "U677CBGH2",
+                    "U7MHQLM1N",
+                    "UF2EPEEAJ",
+                    "UL2QDL1MX",
+                    "U24DR1FUK",
+                    "UBM1LTKG8",
+                    "U0M36CYMB",
+                    "UAH9H0R17",
+                    "U2LGQMC4D",
+                    "ULB0VKCET",
+                    "U9221QEV8",
+                    "U2LF67NRH",
+                    "UAH9HRBPT",
+                    "U9DLE3YHM",
+                    "U732YJ7FA",
+                    "U04ELQZAU",
+                    "UCNKBQJEN",
+                    "U8HG3LPSQ",
+                    "UFUKQMV5K",
+                    "UDHJKLGLR",
+                    "U8H7YKFME",
+                    "UDSNST1A9",
+                    "UB4NVARL5",
+                    "U48AFP5RD",
+                    "U7DTGC4PL",
+                    "UKTQ3DJV7",
+                    "U7F3QC28P",
+                    "U9JSUB8T1",
+                    "UC0RP6PR8",
+                    "U6T46QMJQ",
+                    "UG11NLM09",
+                    "UD8HRS7LK",
+                    "U8QE9EVAQ",
+                    "UHFRRN317",
+                    "U9HSZRDP1",
+                    "UCMT438R3",
+                    "U9W1PD5QD",
+                    "UE61U6DCL",
+                    "U4YAM1MQ9",
+                    "U7VDWFSG3",
+                    "UKQTPE877",
+                    "U94S39RKR",
+                    "U4SH2QAC9",
+                    "UKCLSB4F2",
+                    "U9731EB0C"
+                ],
+                "count": 430
+            },
+            {
+                "name": "facepalm",
+                "users": [
+                    "U47EXAQ8H",
+                    "U1UNFRQ1K",
+                    "U9UEXU8NN",
+                    "U509ZR4P8",
+                    "U625V2J3G",
+                    "UFTCW1X0F",
+                    "U80H34210",
+                    "UEU3CGN3H",
+                    "UDSBE0FKN",
+                    "U74DLUWUC",
+                    "U2GAEHQR1",
+                    "UF5DY9XQU",
+                    "UGMD60Z98",
+                    "UFF6S5ZGE",
+                    "U44A57Q1G",
+                    "U8SRKP9U3",
+                    "U0L4DGZU0",
+                    "UBQJYBVPC",
+                    "UMZ4KE98F",
+                    "UJXFEJ686",
+                    "U0PEXP9PH",
+                    "UC9HBTUKG",
+                    "UAF1W2R3M",
+                    "U8YN9Q1FS",
+                    "UDE5GJXAA",
+                    "U6VJY2A4W",
+                    "U6NT2E2ES",
+                    "U06K9ELB1",
+                    "U043ZLY35",
+                    "U2F96NMPF",
+                    "U3AG4B1N1",
+                    "UC7F3KJ7P",
+                    "U0AS1QEJF",
+                    "U19EZ8L5D",
+                    "U7V383JSU",
+                    "U79U060TZ",
+                    "U9V48C738",
+                    "U419TBDUL",
+                    "U8PMZ6397",
+                    "U5KD4L5JP",
+                    "UJUAY2S4D",
+                    "U3G5SK5J6",
+                    "U6LSE0FT9",
+                    "U30A6KZLH",
+                    "U0Q3USC0Z",
+                    "U6QCT6YN6",
+                    "U1YQLTMLH",
+                    "U7465KY2U"
+                ],
+                "count": 48
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U0PEXP9PH",
+                    "U2GAEHQR1",
+                    "U6YV1UAS1",
+                    "U6LSE0FT9",
+                    "UCNNGKT3Q",
+                    "U5A2JERAT"
+                ],
+                "count": 6
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "UDSBE0FKN",
+                    "UF5DY9XQU",
+                    "UFF6S5ZGE",
+                    "U74DLUWUC",
+                    "U44A57Q1G",
+                    "UBQJYBVPC",
+                    "UAF1W2R3M",
+                    "U30A6KZLH",
+                    "U6LSE0FT9",
+                    "U6QCT6YN6",
+                    "UDTFQJN1M",
+                    "U419TBDUL"
+                ],
+                "count": 12
+            },
+            {
+                "name": "grammar",
+                "users": [
+                    "UFU43Q5CL",
+                    "U6LSE0FT9"
+                ],
+                "count": 2
+            },
+            {
+                "name": "el_resitas_shake2",
+                "users": [
+                    "UC7F3KJ7P",
+                    "U48B3EN87",
+                    "U6LSE0FT9",
+                    "UM53RABL7",
+                    "U2GAEHQR1",
+                    "U1YQLTMLH"
+                ],
+                "count": 6
+            },
+            {
+                "name": "ods_sport",
+                "users": [
+                    "UC7F3KJ7P",
+                    "UC7DFDJUA",
+                    "U19FSHKL2",
+                    "U6LSE0FT9",
+                    "U6QCT6YN6"
+                ],
+                "count": 5
+            },
+            {
+                "name": "good-enough",
+                "users": [
+                    "U30A6KZLH",
+                    "U6LSE0FT9",
+                    "UHJQHE3FZ"
+                ],
+                "count": 3
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U6LSE0FT9"
+                ],
+                "count": 1
+            },
+            {
+                "name": "rolling_on_the_floor_laughing",
+                "users": [
+                    "U6LSE0FT9",
+                    "U5GCU82HX",
+                    "U34Q3KU8H"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dbab7f10-5e4a-4177-95db-3c32cacd28c1",
+        "type": "message",
+        "text": "Только-только с предыдущей справились, пришлось кэп повышать",
+        "user": "U2LGQMC4D",
+        "ts": "1568815513.249700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ffc723117cb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-14\/1345601413783_ffc723117cb385805a6c_72.jpg",
+            "first_name": "Valeriy",
+            "real_name": "Valeriy Babushkin",
+            "display_name": "venheads",
+            "team": "T040HKJE3",
+            "name": "venheads",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "bf24ccc6-702d-4357-9b6e-be553824dbdc",
+        "type": "message",
+        "text": "\"Валера, настало твое время\"",
+        "user": "U04422XJL",
+        "ts": "1568815558.250300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8cd145f72446",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-27\/739003798132_8cd145f72446bbd4194c_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Trofimov",
+            "display_name": "mtrofimov",
+            "team": "T040HKJE3",
+            "name": "mtrofimov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "pepe_old",
+                "users": [
+                    "U7VDWFSG3",
+                    "U677CBGH2",
+                    "U1J7A5067",
+                    "UF2EPEEAJ",
+                    "U19EZ8L5D",
+                    "U9M4BGEL8",
+                    "UBRKXHMJB",
+                    "UFWKK8HD1",
+                    "UJUAY2S4D",
+                    "U8U4PFM88",
+                    "U5TGT5SQ2",
+                    "U0L4DGZU0",
+                    "U4U4GFDNK",
+                    "UDK41MN5U",
+                    "U64HAB6BA",
+                    "U2AJE72Q6",
+                    "U7A4YTFRN",
+                    "U15UZGX9A",
+                    "UBS459X19",
+                    "U27SUBTB9",
+                    "UJ2JGSQ3X",
+                    "U09NJCK3K",
+                    "U6URRB952",
+                    "U5D5GLFAQ",
+                    "U97RK52N6",
+                    "UHFRRN317",
+                    "UER0VF82J",
+                    "U9K9L5615",
+                    "UBA7N1YSG",
+                    "U2992AMC1",
+                    "U7FQ1GLB0",
+                    "UCKGAQKE0",
+                    "UEP8V5FM5",
+                    "U5P2FQF1U",
+                    "U4WGFD012",
+                    "UC7DFDJUA",
+                    "UDSC91AH1",
+                    "U0ZJSC8JC",
+                    "U0P6S471Q",
+                    "U7GFT92PN",
+                    "U061WBASK",
+                    "U5W05SVJN",
+                    "U2WQYL1TP",
+                    "UMMG65X9C",
+                    "U24N3AB96",
+                    "U6L08K8KS",
+                    "U86V0LFDG",
+                    "UJXD4EAE8",
+                    "U8SRKP9U3",
+                    "UFS228B29"
+                ],
+                "count": 69
+            },
+            {
+                "name": "kekeke",
+                "users": [
+                    "U34SSE54G",
+                    "U7HDR789E",
+                    "ULA9M7CM9",
+                    "U5D5Y5EQ4",
+                    "U049HDR2Z",
+                    "U24N3AB96",
+                    "U6L08K8KS",
+                    "UC7DFDJUA",
+                    "U34Q3KU8H"
+                ],
+                "count": 9
+            },
+            {
+                "name": "gun",
+                "users": [
+                    "U27SUBTB9",
+                    "UJ4QYG82J",
+                    "ULA9M7CM9",
+                    "UBA7N1YSG",
+                    "UDDHVTBD1",
+                    "U7GFT92PN",
+                    "U049HDR2Z",
+                    "UDE5GJXAA",
+                    "U8WGH35EH",
+                    "U6L08K8KS",
+                    "U86V0LFDG",
+                    "U8SRKP9U3",
+                    "U9Z2X31K3",
+                    "U2VBC4HEX",
+                    "U30A6KZLH",
+                    "U8PMZ6397",
+                    "U2AJE72Q6",
+                    "UE06RJT88",
+                    "UC7DFDJUA",
+                    "U99MEKJKH",
+                    "U7QRZECR2",
+                    "U41FPE8V7",
+                    "U2F68DB26",
+                    "U34Q3KU8H",
+                    "UCAEKNA4V",
+                    "U95GAP5JT",
+                    "UR35YJE64"
+                ],
+                "count": 27
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "UE259V12B",
+                    "U8PMZ6397",
+                    "U2F68DB26",
+                    "U34Q3KU8H"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "33c4af2e-5565-407b-90c2-209ac33717a2",
+        "type": "message",
+        "text": "10 минут check",
+        "user": "U48BEV6UV",
+        "ts": "1568815927.254100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "ccb2018c-fd6a-4fdc-b316-f47b35cb2071",
+        "type": "message",
+        "text": "26 минут check 2",
+        "user": "U48BEV6UV",
+        "ts": "1568816952.263700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "f73a4bbb-e02e-4c20-8c39-777f118cb1ba",
+        "type": "message",
+        "text": "а у вас devOps есть выделенный?",
+        "user": "U2GAEHQR1",
+        "ts": "1568819886.277400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "59a19a1ba337",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-18\/826509139699_59a19a1ba3378be8cf85_72.jpg",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Zagorulkin",
+            "display_name": "zagorulkinde",
+            "team": "T040HKJE3",
+            "name": "zagorulkinde",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "bb6e6e52-1361-4bc6-a5f5-01c88abc6082",
+        "type": "message",
+        "text": "Есть",
+        "user": "U48BEV6UV",
+        "ts": "1568819894.277600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "b5312071-0344-4c58-adb2-787882f7f562",
+        "type": "message",
+        "text": "Скажите, а какой сакральный смысл скрыт в выставлении Валер? Культ поклонения?",
+        "user": "UFF6S5ZGE",
+        "ts": "1568820868.281100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "538ea1c423f3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/889243187047_538ea1c423f3a78aa24f_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir",
+            "display_name": "КAIIUК",
+            "team": "T040HKJE3",
+            "name": "rozor0",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "074c3747-d575-4c94-bee1-ac056df64925",
+        "type": "message",
+        "text": "Нет, просто глянуть сколько человек тыкает на объявление",
+        "user": "U48BEV6UV",
+        "ts": "1568820934.281500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "da19e3b9-0d7c-4405-94b3-d142d4ce8677",
+        "type": "message",
+        "text": "Почему не плюсики, например? Начальник не оценит?",
+        "user": "UFF6S5ZGE",
+        "ts": "1568820960.281900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "538ea1c423f3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/889243187047_538ea1c423f3a78aa24f_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir",
+            "display_name": "КAIIUК",
+            "team": "T040HKJE3",
+            "name": "rozor0",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "e791f1a6-33a0-40d0-b81c-884754bf6124",
+        "type": "message",
+        "text": "1 валера остался до 200 :catshake:",
+        "user": "U8H7YKFME",
+        "ts": "1568820999.282100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e282e261ce69",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-12-22\/512039453878_e282e261ce69cdfea273_72.jpg",
+            "first_name": "Elisey",
+            "real_name": "Elisey Gusev",
+            "display_name": "eliseygusev",
+            "team": "T040HKJE3",
+            "name": "eliseygusev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "FNAA1R1B3",
+                "created": 1568821013,
+                "timestamp": 1568821013,
+                "name": "Screenshot_20190918-183623.jpg",
+                "title": "Screenshot_20190918-183623.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U2LGQMC4D",
+                "editable": false,
+                "size": 140481,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-FNAA1R1B3\/screenshot_20190918-183623.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-FNAA1R1B3\/download\/screenshot_20190918-183623.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FNAA1R1B3-cf6b2e6642\/screenshot_20190918-183623_64.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FNAA1R1B3-cf6b2e6642\/screenshot_20190918-183623_80.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FNAA1R1B3-cf6b2e6642\/screenshot_20190918-183623_360.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_360_w": 360,
+                "thumb_360_h": 357,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FNAA1R1B3-cf6b2e6642\/screenshot_20190918-183623_480.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_480_w": 480,
+                "thumb_480_h": 476,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FNAA1R1B3-cf6b2e6642\/screenshot_20190918-183623_160.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FNAA1R1B3-cf6b2e6642\/screenshot_20190918-183623_720.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_720_w": 720,
+                "thumb_720_h": 715,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FNAA1R1B3-cf6b2e6642\/screenshot_20190918-183623_800.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_800_w": 800,
+                "thumb_800_h": 794,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FNAA1R1B3-cf6b2e6642\/screenshot_20190918-183623_960.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_960_w": 960,
+                "thumb_960_h": 953,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-FNAA1R1B3-cf6b2e6642\/screenshot_20190918-183623_1024.jpg?t=xoxe-4017664479-1528041857335-1528041888263-c6f0d1c7b78b79c836ad17c1ca92c58b",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 1016,
+                "image_exif_rotation": 1,
+                "original_w": 1440,
+                "original_h": 1429,
+                "permalink": "https:\/\/opendatascience.slack.com\/files\/U2LGQMC4D\/FNAA1R1B3\/screenshot_20190918-183623.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T040HKJE3-FNAA1R1B3-2628aee953",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "U2LGQMC4D",
+        "display_as_bot": false,
+        "ts": "1568821016.282300",
+        "client_msg_id": "5f98352f-c10b-4644-b329-e991995169cb",
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "af1d8d6a-eddf-41b8-9044-d1f7a6a92188",
+        "type": "message",
+        "text": "Вообще - без разницы. Просто исторически такие смайлики ставили на все вакансии X5 и их сразу начинают ставит все подряд",
+        "user": "U48BEV6UV",
+        "ts": "1568821018.282700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "f248c8e2-67ba-4478-aded-a0c5b351df3b",
+        "type": "message",
+        "text": "Но выбрана именно эта, есть же :x5:",
+        "user": "UFF6S5ZGE",
+        "ts": "1568821074.282900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "538ea1c423f3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/889243187047_538ea1c423f3a78aa24f_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir",
+            "display_name": "КAIIUК",
+            "team": "T040HKJE3",
+            "name": "rozor0",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "39f886cd-97e8-4c7e-9f70-dacec7482d6d",
+        "type": "message",
+        "text": "Компании меняются, люди остаются",
+        "user": "U2LGQMC4D",
+        "ts": "1568821114.283500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ffc723117cb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-14\/1345601413783_ffc723117cb385805a6c_72.jpg",
+            "first_name": "Valeriy",
+            "real_name": "Valeriy Babushkin",
+            "display_name": "venheads",
+            "team": "T040HKJE3",
+            "name": "venheads",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "UMQSP3DJM",
+                    "U53N06MPE",
+                    "UB4AGRL3C",
+                    "UKSNZ2HDM",
+                    "UE259V12B",
+                    "UFKRNLQP4",
+                    "UC7DFDJUA",
+                    "U99MEKJKH",
+                    "U3D5HVB51",
+                    "U34Q3KU8H",
+                    "UK18BB10T",
+                    "U929LR336"
+                ],
+                "count": 12
+            }
+        ]
+    },
+    {
+        "client_msg_id": "228a73fe-9616-4b2f-9415-9b3d257b9ee6",
+        "type": "message",
+        "text": "Тогда будет вопрос \"почему x5, есть же плюсики\". Без разницы, в общем",
+        "user": "U48BEV6UV",
+        "ts": "1568821126.283700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "c0759477-9b0d-4598-8339-4fd120b186f9",
+        "type": "message",
+        "text": "1 час и 36 минут check 3. Т.е. вилка сейчас 210-270",
+        "user": "U48BEV6UV",
+        "ts": "1568821161.283900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "55bb3a88-824e-4e3c-bb56-167d32196b01",
+        "type": "message",
+        "text": "<https:\/\/opendatascience.slack.com\/archives\/C04DA5FUF\/p1561613590465400?thread_ts=1561613590.465400&amp;cid=C04DA5FUF>\nВот вакансия от х5 и ни одного Валеры.",
+        "user": "UFF6S5ZGE",
+        "ts": "1568821215.284100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "538ea1c423f3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/889243187047_538ea1c423f3a78aa24f_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir",
+            "display_name": "КAIIUК",
+            "team": "T040HKJE3",
+            "name": "rozor0",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/opendatascience.slack.com\/archives\/C04DA5FUF\/p1561613590465400?thread_ts=1561613590.465400&amp;cid=C04DA5FUF",
+                "fallback": "[June 26th, 2019 10:33 PM] irina_g: У нас в :x5: в Департаменте по рискам и внутреннему контролю осталась 1 вакансия стажера на июль-август, Москва.\nВ дальнейшем, если все ок, оставляем на part\/full time и потом на джуна.\n\nЗадачи на период стажировки:\n- разработка модели оценки одного из рисков (уклон в NLP)\n- немного графов\n- EDA и визуализация + поковырять таблички\n\nЗнать нужно python, основные ML\/стат методы.\nБудут плюсом примеры каких-либо выполненных задачек\/pet-projects\/kaggle.\n\nСтавка стажировки в Х5: 25к на июль-август, дальше 50к, джун 80-120к+бонус. \n\nПисать мне.",
+                "ts": "1561613590.465400",
+                "author_id": "U0Q3USC0Z",
+                "author_subname": "Ирина Голощапова",
+                "channel_id": "C04DA5FUF",
+                "channel_name": "_jobs",
+                "is_msg_unfurl": true,
+                "is_thread_root_unfurl": true,
+                "text": "У нас в :x5: в Департаменте по рискам и внутреннему контролю осталась 1 вакансия стажера на июль-август, Москва.\nВ дальнейшем, если все ок, оставляем на part\/full time и потом на джуна.\n\nЗадачи на период стажировки:\n- разработка модели оценки одного из рисков (уклон в NLP)\n- немного графов\n- EDA и визуализация + поковырять таблички\n\nЗнать нужно python, основные ML\/стат методы.\nБудут плюсом примеры каких-либо выполненных задачек\/pet-projects\/kaggle.\n\nСтавка стажировки в Х5: 25к на июль-август, дальше 50к, джун 80-120к+бонус. \n\nПисать мне.",
+                "author_name": "Ирина Голощапова",
+                "author_link": "https:\/\/opendatascience.slack.com\/team\/U0Q3USC0Z",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2016-03-04\/24474691108_2571b86d14a0ba622397_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "original_url": "https:\/\/opendatascience.slack.com\/archives\/C04DA5FUF\/p1561613590465400?thread_ts=1561613590.465400&amp;cid=C04DA5FUF",
+                "footer": "Thread in #_jobs"
+            }
+        ],
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "are_you_fucking_kidding_me",
+                "users": [
+                    "U2LGQMC4D",
+                    "U8H7YKFME",
+                    "U8DEZV7E2",
+                    "UC9J53NAY",
+                    "UDFKRQH33",
+                    "U4RSFE8JZ",
+                    "U6L08K8KS",
+                    "U9ZMU4630",
+                    "UC7DFDJUA",
+                    "UCAEKNA4V"
+                ],
+                "count": 10
+            },
+            {
+                "name": "x5",
+                "users": [
+                    "U53N06MPE",
+                    "U8DEZV7E2",
+                    "UC7DFDJUA"
+                ],
+                "count": 3
+            },
+            {
+                "name": "venheads",
+                "users": [
+                    "UM38YUS0Y",
+                    "UC7F3KJ7P",
+                    "U9DLE3YHM",
+                    "U86V0LFDG",
+                    "UFS228B29",
+                    "U0AS1QEJF",
+                    "UJ2JGSQ3X",
+                    "UGLMYAX0E",
+                    "UE06RJT88",
+                    "UC7DFDJUA",
+                    "U3KG4T152"
+                ],
+                "count": 11
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b2cddb33-36d4-4a41-b5d0-4c83a8b056ae",
+        "type": "message",
+        "text": "Сори, я не слежу. Не вкладывай слишком много смысла в смайлик.",
+        "user": "U48BEV6UV",
+        "ts": "1568821294.284600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "b2a53652-bda9-44b7-b0a4-eb6ac9dba9cc",
+        "type": "message",
+        "text": "Ну х5 - компания куда зовут, а Валера работник компании. Таки получается культ, восхваление, etc.",
+        "user": "UFF6S5ZGE",
+        "ts": "1568821306.284900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "538ea1c423f3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/889243187047_538ea1c423f3a78aa24f_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir",
+            "display_name": "КAIIUК",
+            "team": "T040HKJE3",
+            "name": "rozor0",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "c6c6b49c-a018-4415-bc54-f43d7c4b81c4",
+        "type": "message",
+        "text": "Если будет плюсик, то будет восхваление плюсика?",
+        "user": "U48BEV6UV",
+        "ts": "1568821351.285100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "el_risitas",
+                "users": [
+                    "U74DLUWUC",
+                    "UF5DY9XQU",
+                    "U8H7YKFME",
+                    "UAF1W2R3M",
+                    "U6YV1UAS1",
+                    "U061WBASK",
+                    "ULPRYQNS2",
+                    "U6L08K8KS",
+                    "UC7F3KJ7P",
+                    "UGDUCRYJ0",
+                    "U9ZMU4630",
+                    "U6YEN210D",
+                    "UG28LN4PP",
+                    "UC7DFDJUA",
+                    "UCAEKNA4V"
+                ],
+                "count": 15
+            }
+        ]
+    },
+    {
+        "client_msg_id": "34abb03c-6c02-4342-9b14-8a2581d54707",
+        "type": "message",
+        "text": "За какие такие навыки вас наняли, коль не можете понять банальные различия?",
+        "user": "UFF6S5ZGE",
+        "ts": "1568821408.285600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "538ea1c423f3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/889243187047_538ea1c423f3a78aa24f_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir",
+            "display_name": "КAIIUК",
+            "team": "T040HKJE3",
+            "name": "rozor0",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "toxic",
+                "users": [
+                    "ULPRYQNS2",
+                    "UCKAHCKTK",
+                    "U6L08K8KS",
+                    "U7VDWFSG3",
+                    "U6MLZU5JP",
+                    "UFS228B29",
+                    "U0AS1QEJF",
+                    "U19FSHKL2",
+                    "ULA9M7CM9",
+                    "U97RK52N6",
+                    "U9ZMU4630",
+                    "U6YEN210D",
+                    "U7166RP99",
+                    "U6Y8C4J4F",
+                    "UDK41MN5U",
+                    "UC7DFDJUA",
+                    "UL13RJHL2",
+                    "U871S4R6F",
+                    "U34Q3KU8H",
+                    "UBM4B8CBU",
+                    "UCAEKNA4V"
+                ],
+                "count": 21
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4d5be2c0-b77a-4315-ba24-772c118d2e5f",
+        "type": "message",
+        "text": "Отличный переход на личности. Спасибо",
+        "user": "U48BEV6UV",
+        "ts": "1568821428.285900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "el_risitas",
+                "users": [
+                    "U74DLUWUC",
+                    "UF5DY9XQU",
+                    "UAF1W2R3M",
+                    "U049HDR2Z",
+                    "U6YV1UAS1",
+                    "U8X1WCTAL",
+                    "U6L08K8KS",
+                    "UGDUCRYJ0",
+                    "U0AS1QEJF",
+                    "U8PMZ6397",
+                    "UC7DFDJUA",
+                    "U871S4R6F",
+                    "U34Q3KU8H",
+                    "UCAEKNA4V"
+                ],
+                "count": 14
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f4673125-ee24-4a28-b172-967a13a7b835",
+        "type": "message",
+        "text": "Ожидаемо, что будет съезд на переезде на личности, но все же.",
+        "user": "UFF6S5ZGE",
+        "ts": "1568821464.286500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "538ea1c423f3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/889243187047_538ea1c423f3a78aa24f_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir",
+            "display_name": "КAIIUК",
+            "team": "T040HKJE3",
+            "name": "rozor0",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "37803d79-ad6b-4132-a554-9ce7fcb56846",
+        "type": "message",
+        "text": "Но про личности, кстати, близко, да. Плюсик то обезличен.",
+        "user": "UFF6S5ZGE",
+        "ts": "1568821589.287700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "538ea1c423f3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/889243187047_538ea1c423f3a78aa24f_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir",
+            "display_name": "КAIIUК",
+            "team": "T040HKJE3",
+            "name": "rozor0",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "63dfe4b1-7245-4aa9-a65f-68947d9dde90",
+        "type": "message",
+        "text": "маленький диапазон поставили, нужно было давать +log2(:venheads:) к зарплате :trollface:",
+        "user": "U3Z5KPTRQ",
+        "ts": "1568821931.289600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8b762b4c33c9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-25\/319920053297_8b762b4c33c97b116d30_72.jpg",
+            "first_name": "Alexander",
+            "real_name": "Alexander Demidko",
+            "display_name": "xdralex",
+            "team": "T040HKJE3",
+            "name": "xdralex",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "povar",
+                "users": [
+                    "UDSC91AH1",
+                    "U04ELQZAU",
+                    "U6YV1UAS1",
+                    "U061WBASK",
+                    "UDFKRQH33",
+                    "UE61U6DCL",
+                    "UFS228B29",
+                    "U2VBC4HEX",
+                    "U8PMZ6397",
+                    "UDK41MN5U",
+                    "UC7DFDJUA",
+                    "UCKGAQKE0",
+                    "U41FPE8V7",
+                    "U1YQLTMLH"
+                ],
+                "count": 14
+            },
+            {
+                "name": "trollface",
+                "users": [
+                    "U1Q0B8KMJ",
+                    "ULPRYQNS2",
+                    "UB4AGRL3C",
+                    "UC7DFDJUA",
+                    "UFRNULBFV",
+                    "U34Q3KU8H"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ee21eeff-1b54-4cd4-9095-df5b95b2d0e0",
+        "type": "message",
+        "text": "Так это гораздо меньше получится",
+        "user": "U48BEV6UV",
+        "ts": "1568822034.290100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e117f258da09",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-11-27\/277199568112_e117f258da099ad7d696_72.jpg",
+            "first_name": "Ll",
+            "real_name": "Ll",
+            "display_name": "wispzero",
+            "team": "T040HKJE3",
+            "name": "wispzero",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U48BEV6UV",
+            "ts": "1568822167.000000"
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "grammar",
+                "users": [
+                    "UFF6S5ZGE"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bb269aa0-9299-4e8c-9555-88e91cdafcca",
+        "type": "message",
+        "text": "<@U3Z5KPTRQ> накинь токенов на вакансию",
+        "user": "U2LGQMC4D",
+        "ts": "1568822576.291500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ffc723117cb3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-14\/1345601413783_ffc723117cb385805a6c_72.jpg",
+            "first_name": "Valeriy",
+            "real_name": "Valeriy Babushkin",
+            "display_name": "venheads",
+            "team": "T040HKJE3",
+            "name": "venheads",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "8d3cd3f2-524c-4844-bc76-691cdc4269c2",
+        "type": "message",
+        "text": "<@U48BEV6UV> ну не факт, что меньше, смотря во сколько оцениваешь Валеру. Видимо не слишком высоко.",
+        "user": "UFF6S5ZGE",
+        "ts": "1568822868.291900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "538ea1c423f3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/889243187047_538ea1c423f3a78aa24f_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir",
+            "display_name": "КAIIUК",
+            "team": "T040HKJE3",
+            "name": "rozor0",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "pepe_hands_elite",
+                "users": [
+                    "U2LGQMC4D",
+                    "UC7DFDJUA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4cdf281f-5f23-4bd9-b00b-c14579a837f7",
+        "type": "message",
+        "text": "&gt; выводе в production\n&gt; Jupyter\n:thinking_face:",
+        "user": "UM5DXE4LE",
+        "ts": "1568823632.293500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1c3af80f04c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-06\/851201007059_1c3af80f04c41ce8a44f_72.png",
+            "first_name": "Ivan",
+            "real_name": "Ivan Andrianov",
+            "display_name": "Ivan Andrianov",
+            "team": "T040HKJE3",
+            "name": "i.a.andrianov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568809034.233100",
+        "parent_user_id": "U52330HTK"
+    },
+    {
+        "client_msg_id": "069f82de-f407-46bf-b58a-9dde35f27c69",
+        "type": "message",
+        "text": "&gt; RE\/EL модели\nЕсли они у вас работают приемлемо для production, мой вам :pay_respect:",
+        "user": "UM5DXE4LE",
+        "ts": "1568823790.293900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1c3af80f04c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-06\/851201007059_1c3af80f04c41ce8a44f_72.png",
+            "first_name": "Ivan",
+            "real_name": "Ivan Andrianov",
+            "display_name": "Ivan Andrianov",
+            "team": "T040HKJE3",
+            "name": "i.a.andrianov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568809034.233100",
+        "parent_user_id": "U52330HTK"
+    },
+    {
+        "client_msg_id": "E3988779-89A4-4781-9770-1551F827EE8F",
+        "type": "message",
+        "text": ":fan: \n:eyes: \n:popcorn: ",
+        "user": "UDSBE0FKN",
+        "ts": "1568824109.295300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f36767011b7c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-03-15\/1002656623895_f36767011b7cc85f37be_72.jpg",
+            "first_name": "Artem",
+            "real_name": "Artem Zolkin",
+            "display_name": "arquestro",
+            "team": "T040HKJE3",
+            "name": "arquestro93",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV"
+    },
+    {
+        "client_msg_id": "94ba9968-d7cd-45a5-b62f-02ed61fba1c3",
+        "type": "message",
+        "text": "Эх. Я только работу сменил... )",
+        "user": "UDSC91AH1",
+        "ts": "1568824120.295500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "38e40318710a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-11-01\/469434545378_38e40318710ac3e79a1d_72.jpg",
+            "first_name": "Ivan",
+            "real_name": "Ivan Sheinin",
+            "display_name": "CrazyElf",
+            "team": "T040HKJE3",
+            "name": "crazyelf",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "pepe_sad",
+                "users": [
+                    "U2LGQMC4D",
+                    "U53N06MPE",
+                    "UEE0D5PS9",
+                    "UC7DFDJUA",
+                    "UCKGAQKE0"
+                ],
+                "count": 5
+            },
+            {
+                "name": "coincidence",
+                "users": [
+                    "UM5DXE4LE"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eb29e062-a811-4f74-aa05-e7e30dd7a83a",
+        "type": "message",
+        "text": "<@UDSC91AH1> думаешь, 2 недели вакансия не продержится?",
+        "user": "UM5DXE4LE",
+        "ts": "1568824800.296900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1c3af80f04c4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-06\/851201007059_1c3af80f04c41ce8a44f_72.png",
+            "first_name": "Ivan",
+            "real_name": "Ivan Andrianov",
+            "display_name": "Ivan Andrianov",
+            "team": "T040HKJE3",
+            "name": "i.a.andrianov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568815347.247600",
+        "parent_user_id": "U48BEV6UV",
+        "reactions": [
+            {
+                "name": "panda",
+                "users": [
+                    "UDSC91AH1",
+                    "U7DTGC4PL",
+                    "UC7DFDJUA",
+                    "UCKGAQKE0"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1538b236-2484-45ad-909f-a3e6713c13b9",
+        "type": "message",
+        "text": "В проде SF, остальное в ресерче",
+        "user": "U52330HTK",
+        "ts": "1568824919.297500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g89b7857a8bc",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/d589b7857a8bc079b85c5575facbd2ea.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "Roman",
+            "real_name": "Roman Koshelev",
+            "display_name": "Roman Koshelev",
+            "team": "T040HKJE3",
+            "name": "romakosh",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568809034.233100",
+        "parent_user_id": "U52330HTK",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UM5DXE4LE"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

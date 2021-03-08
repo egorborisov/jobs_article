@@ -1,0 +1,1687 @@
+[
+    {
+        "type": "message",
+        "text": "<@U6CKCPZA6> насколько я помню, Topcon делал такие трактора ещё лет десять назад, а мой приятель делал им алгоритмический движок. В Москве кстати. ",
+        "user": "U2N853RGF",
+        "ts": "1503738240.000036",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "popcornparrot",
+                "users": [
+                    "U049HDR2Z",
+                    "U27HU84H4",
+                    "U1D4RRA7K"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503738994.000021",
+        "user": "U6U1JH5M1",
+        "text": "<@U6U1JH5M1> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "<https:\/\/www.topconpositioning.com\/agriculture\/autosteering>\nЯ не скажу, что разбираюсь в автономной сельском хозяйстве, но комбинация сенсоров даёт топкону 10-20 см точности, при том что это mature product, а не на коленке собранная штучка.\nДа, там сильная наука в их GPS антеннах, которую не так просто сделать, там крутые sensor fusion алгоритмы, которые делались не один год очень умными людьми далеко не за 150 тыщ.",
+        "user": "U2N853RGF",
+        "ts": "1503739955.000027",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503740125.000020",
+        "user": "U6THKSG8H",
+        "text": "<@U6THKSG8H> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "Ты что думаешь, что за 150 тысяч люди какие-то недостаточно умные найдутся?!",
+        "user": "U1CF22N7J",
+        "ts": "1503740135.000047",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "kekeke",
+                "users": [
+                    "U2N853RGF",
+                    "U04ELQZAU",
+                    "U3PLVL3RD"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Насчёт антенн я точно могу прокомментировать, так как собаку на них съел в своё время. В топконе очень крутое решение с полусферической диаграммой направленности и очень круто сделаны алгоритмы подавления помех и оптимального сложения сигналов. Если такого не делать, gps действительно даёт искаженный сигнал и возникает желание поебаться с компьютерным зрением :joy:",
+        "user": "U2N853RGF",
+        "ts": "1503740229.000003",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Я думал давно уже доступны такие решения, когда можно по периметру поля столбов наставить с передатчиками, которые будут чего-то там излучать и точность будет в пределах сантиметра, нет?",
+        "user": "U1CF22N7J",
+        "ts": "1503740310.000084",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "А окупается за счет фонда оплаты труда 8 (или 16, сколько там положено на трактор для круглосуточной работы) водителей тракторов?",
+        "user": "U27HU84H4",
+        "ts": "1503740819.000025",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7ec7ef7154ba",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-26\/354236189286_7ec7ef7154baf1b9e9b5_72.jpg",
+            "first_name": "Leonid",
+            "real_name": "Leonid Sinev",
+            "display_name": "leonid",
+            "team": "T040HKJE3",
+            "name": "leonid",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U27HU84H4",
+            "ts": "1503740849.000000"
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Я ещё вот почему язвлю под такими вакансиями. Если в \"лучшую команду в России\" ищут разработчиков за 80-150к, то уверен и на остальное там такой же бюджет. Я сам не был, но по-любому в каком-нибудь гугле команде разработчиков доступны фактически безлимитные мощности для расчётов, железки какие нужны, не в единственном экземпляре  автомобили и площадки для испытаний, мегатонны собранных сенсорных данных. Надо какой-нибудь лидар Velodyne за 70к$, пожалуйста, хотя может лучше всю компанию прикупим? :joy: И я думаю так во всём. Поэтому зачем реально топовым ребятам туда идти, когда они могут в гуглы и прочие попасть? Не за чем, а значит придётся довольствоваться тем, что есть, а значит уже и средне-топовым идти не сильно захочется, ведь супертоповых коллег в округе не предвидится.\nКак деньги к деньгам идут, так и умные люди -- к умным.",
+        "user": "U1CF22N7J",
+        "ts": "1503740834.000012",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U2N853RGF",
+                    "U1D4RRA7K",
+                    "U049HDR2Z",
+                    "U04ELQZAU",
+                    "U4ZRFG1V0",
+                    "U1GMCNV3M",
+                    "U3U0AKQ0Y",
+                    "U4TD199M4",
+                    "U7HBTC90E"
+                ],
+                "count": 9
+            },
+            {
+                "name": "true-story",
+                "users": [
+                    "U3U0AKQ0Y"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "А если они уберут инфу про лучшую команду в России, то там всё равно останутся автономные комбайны, к которым не надо покупать на поле дополнительные датчики для триангуляции положения, а также работы по беспилотным автомобилям для автодорог.",
+        "user": "U27HU84H4",
+        "ts": "1503741137.000006",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7ec7ef7154ba",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-26\/354236189286_7ec7ef7154baf1b9e9b5_72.jpg",
+            "first_name": "Leonid",
+            "real_name": "Leonid Sinev",
+            "display_name": "leonid",
+            "team": "T040HKJE3",
+            "name": "leonid",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U27HU84H4",
+            "ts": "1503741165.000000"
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Ага, и возможная оплата публикаций и конференций. Да вот только я что-то таких не видел на архиве или конференциях :joy:",
+        "user": "U1CF22N7J",
+        "ts": "1503741277.000004",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1CF22N7J",
+            "ts": "1503741298.000000"
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "да, я тоже не нашел по базе Web of Science",
+        "user": "U27HU84H4",
+        "ts": "1503741707.000019",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7ec7ef7154ba",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-26\/354236189286_7ec7ef7154baf1b9e9b5_72.jpg",
+            "first_name": "Leonid",
+            "real_name": "Leonid Sinev",
+            "display_name": "leonid",
+            "team": "T040HKJE3",
+            "name": "leonid",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "yeah-sure",
+                "users": [
+                    "U2N853RGF",
+                    "U4ZRFG1V0"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Впрочем, компания не маленькая, выручка почти поллярда баксов, наверное что-то полезное они делают :slightly_smiling_face:",
+        "user": "U1CF22N7J",
+        "ts": "1503741964.000030",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Хотя, зашёл на сайт и: \"Поставщик ИТ в госсекторе №1\", ясно-понятно",
+        "user": "U1CF22N7J",
+        "ts": "1503741982.000007",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "&gt; C-Pilot scores over its competitors\n&gt; According to *Analytics India Magazine*\n:joy:",
+        "user": "U1CF22N7J",
+        "ts": "1503742042.000041",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "&gt; Products competitive globally\n&gt; According to *TASS*\nОй, всё. Особенно в свете первой цитаты :joy:",
+        "user": "U1CF22N7J",
+        "ts": "1503742163.000028",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "<http:\/\/cognitivepilot.com\/en\/research>\nОжидание: публикуют результаты исследований\nРеальность: спрашивают у посетителей чего они ожидают от автопилота :joy:",
+        "user": "U1CF22N7J",
+        "ts": "1503742278.000009",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "остается поискать публикации у сотрудников, перечисленных в линкедине (из 50+ человек большая часть разработчики php и менеджеры, на беглый взгляд)",
+        "user": "U27HU84H4",
+        "ts": "1503743016.000007",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7ec7ef7154ba",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-26\/354236189286_7ec7ef7154baf1b9e9b5_72.jpg",
+            "first_name": "Leonid",
+            "real_name": "Leonid Sinev",
+            "display_name": "leonid",
+            "team": "T040HKJE3",
+            "name": "leonid",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "<@U2N853RGF> Ну вот, можете сказать своему знакомому держателю пары колхозов, что через пару лет он сможет вместе с готовым комбайном РостСельМаша, доплатив около 1000$ к его цене, получить то же, но без дополнительных лямов и 5 лет окупаемости. Интересно, понравится ли ему такая перспектива или нет",
+        "user": "U6CKCPZA6",
+        "ts": "1503745664.000050",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "af30f633b996",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-26\/233176640519_af30f633b9965742913c_72.png",
+            "first_name": "Victor",
+            "real_name": "Victor Prun",
+            "display_name": "goodguyvictor",
+            "team": "T040HKJE3",
+            "name": "goodguyvictor",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "<@U1CF22N7J> у меня было в голове немного другое представление о подобном проекте в гугле. Чтобы обосновать перед руководсвом необходимость тех или иных деньгозатрат, нужно изрядно постараться. Не думаю что у каждой команды есть доступ к \"запасным\" 70к$ на велодайн, так что если чего-то не предусмотрели в бюджете на этот год --- ждите следующего. \nУ нас же с этим в некоторой мере попроще: конечно, велодайн или DGX закупить будет проблематично, но какой-нибудь Jetson TX2 дев борд и керриер уже стоят в очереди на закупку и приедут как только появятся в продаже. То же отностится к новым видеокарточкам, или, скажем, \"выездным\" ноутбукам с паскалевской картой.",
+        "user": "U6CKCPZA6",
+        "ts": "1503746115.000009",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "af30f633b996",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-26\/233176640519_af30f633b9965742913c_72.png",
+            "first_name": "Victor",
+            "real_name": "Victor Prun",
+            "display_name": "goodguyvictor",
+            "team": "T040HKJE3",
+            "name": "goodguyvictor",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "&gt; Jetson TX2 дев борд и керриер уже стоят в очереди на закупку и приедут как только появятся в продаже.\nТ.е. после того, как их отгрузят всем на свете настоящим партнёрам, типа гугла или теслы :joy:",
+        "user": "U1CF22N7J",
+        "ts": "1503746263.000035",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U2N853RGF"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "<@U6CKCPZA6> думаю, это ваши влажные фантазии :joy:",
+        "user": "U2N853RGF",
+        "ts": "1503746470.000036",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "а как гугл или тесла стали настоящими партнёрами? Почему не всем покупателям будут отгружать на одинаковых условиях?",
+        "user": "U27HU84H4",
+        "ts": "1503746480.000055",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7ec7ef7154ba",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-26\/354236189286_7ec7ef7154baf1b9e9b5_72.jpg",
+            "first_name": "Leonid",
+            "real_name": "Leonid Sinev",
+            "display_name": "leonid",
+            "team": "T040HKJE3",
+            "name": "leonid",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "<@U27HU84H4> потому что надо думать наперёд. Если отгрузить гуглу или тесле и они выберут твой продукт -- то это гарантированные продажи на сотни тысяч штук в будущем, а если когнитив технолоджис -- это десяток для тестов",
+        "user": "U1CF22N7J",
+        "ts": "1503746616.000039",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "По поводу поставщика в госсекторе и тд. Тут есть два момента:\n1) до недавнего времени основной деятельностью компании были ERP для малого\\среднего бизнеса и гос учреждений --- такие слова как E1, Евфрат, поставщик ПО для гос сектора, это все туда. Затем началась деятельность по компьютерному зрению для автомотив, сначала в формате студенческих НИРов, которая после проекта с КАМАЗом в 2015 году переросла в отдельное подразделение компании (ДРС - департамент роботизированных систем). Вакансия как раз про этот департамент, и не связана ни с документооборотом, ни с пхп-разработкой.\n2) Если вам когда-нибудь доводилось видеть в СМИ репортаж о результатах своей деятельности, то вы должны понимать уровень абсурда, с которым там подается информация. Если вы пойдете к нам работать то да, придется мириться с этим аспектом --- PR-отдел. Тут прошу не воспринимать репортажи по ТВ или заголовки в прессе как хоть скольок нибудь значимый источник информации",
+        "user": "U6CKCPZA6",
+        "ts": "1503746658.000004",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "af30f633b996",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-26\/233176640519_af30f633b9965742913c_72.png",
+            "first_name": "Victor",
+            "real_name": "Victor Prun",
+            "display_name": "goodguyvictor",
+            "team": "T040HKJE3",
+            "name": "goodguyvictor",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Чтобы понимать, как идёт разработка в гугле, достаточно посмотреть на оценки стоимости подразделения, которое этим занимается и его оценивают вплоть до 70 миллиардов баксов (10% от всей капитализации гугла)",
+        "user": "U1CF22N7J",
+        "ts": "1503746710.000010",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Вот небольшой инсайд: <https:\/\/www.theatlantic.com\/amp\/article\/537648\/>",
+        "user": "U1CF22N7J",
+        "ts": "1503746738.000001",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "The Atlantic",
+                "title": "Waymo Built a Secret World for Self-Driving Cars",
+                "title_link": "https:\/\/www.theatlantic.com\/amp\/article\/537648\/",
+                "text": "An exclusive look at how Alphabet understands its most ambitious artificial intelligence project",
+                "fallback": "The Atlantic: Waymo Built a Secret World for Self-Driving Cars",
+                "image_url": "https:\/\/cdn.theatlantic.com\/assets\/media\/img\/mt\/2017\/08\/WayMo\/facebook.gif?1503495195",
+                "from_url": "https:\/\/www.theatlantic.com\/amp\/article\/537648\/",
+                "image_width": 480,
+                "image_height": 250,
+                "image_bytes": 756776,
+                "service_icon": "https:\/\/cdn.theatlantic.com\/assets\/static\/a\/theatlantic\/common\/img\/apple-touch-icon-iphone.png",
+                "id": 1
+            }
+        ],
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "&gt; At any time, there are now 25,000 virtual self-driving cars making their way through fully modeled versions of Austin, Mountain View, and Phoenix, as well as test-track scenarios.",
+        "user": "U1CF22N7J",
+        "ts": "1503746763.000012",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Симулятор на двадцать пять тысяч машин!",
+        "user": "U1CF22N7J",
+        "ts": "1503746777.000030",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Это значит, там одних только мозгов, соответствующих мозгам в тачках должно быть порядка 25к штук, а ещё миниму столько же тех, которые будут этот самый симулятор запускать",
+        "user": "U1CF22N7J",
+        "ts": "1503746826.000008",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "<@U1CF22N7J> да нуу, это все дорого и сложно. Можно же взять пять студентов по стотыщ, и запилить продукт стоимостью тыща долларов и оснастить всю россельхозтехникк",
+        "user": "U2N853RGF",
+        "ts": "1503746847.000015",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "А ещё лучше купить коробочку у топкона, повесить шильдик Cognitive и продавать по госконтрактам. Схема то испытанная",
+        "user": "U2N853RGF",
+        "ts": "1503746901.000013",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Думаю, именно этим и закончится через два года",
+        "user": "U2N853RGF",
+        "ts": "1503746923.000034",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Или вот целый городок построили для тестирования автономных повозок: <http:\/\/www.npr.org\/sections\/alltechconsidered\/2015\/07\/31\/427733153\/in-michigan-a-testing-ground-for-a-future-of-driverless-cars>",
+        "user": "U1CF22N7J",
+        "ts": "1503746955.000050",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "NPR.org",
+                "title": "In Michigan, A Testing Ground For A Future Of Driverless Cars",
+                "title_link": "http:\/\/www.npr.org\/sections\/alltechconsidered\/2015\/07\/31\/427733153\/in-michigan-a-testing-ground-for-a-future-of-driverless-cars",
+                "text": "Automakers and researchers are using a 32-acre fake city at the University of Michigan to simulate a real-world environment for autonomous vehicles. How will such cars affect urban planning?",
+                "fallback": "NPR.org: In Michigan, A Testing Ground For A Future Of Driverless Cars",
+                "image_url": "https:\/\/media.npr.org\/assets\/img\/2015\/07\/30\/ap_514567108733_wide-4b7b366269c527dc84b8bb1addc4a45ae8df64e3.jpg?s=1400",
+                "from_url": "http:\/\/www.npr.org\/sections\/alltechconsidered\/2015\/07\/31\/427733153\/in-michigan-a-testing-ground-for-a-future-of-driverless-cars",
+                "image_width": 445,
+                "image_height": 250,
+                "image_bytes": 342700,
+                "service_icon": "http:\/\/www.npr.org\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "<@U1CF22N7J> - а как проверить эту инфу, вдруг этот самый Carcraft симулятор - фикция PR отдела для журналистов?",
+        "user": "U27HU84H4",
+        "ts": "1503746984.000006",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7ec7ef7154ba",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-26\/354236189286_7ec7ef7154baf1b9e9b5_72.jpg",
+            "first_name": "Leonid",
+            "real_name": "Leonid Sinev",
+            "display_name": "leonid",
+            "team": "T040HKJE3",
+            "name": "leonid",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Или вот такой: <http:\/\/www.businesskorea.co.kr\/english\/news\/sciencetech\/18018-k-city-world%E2%80%99s-largest-test-bed-self-driving-cars-be-opened-korea>",
+        "user": "U1CF22N7J",
+        "ts": "1503747023.000069",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "BusinessKorea",
+                "title": "World’s Largest Test Bed for Self-driving Cars to Be Opened in Korea",
+                "title_link": "http:\/\/www.businesskorea.co.kr\/english\/news\/sciencetech\/18018-k-city-world%E2%80%99s-largest-test-bed-self-driving-cars-be-opened-korea",
+                "text": "The South Korean government opens the K-City in October this year. It is the world’s largest test bed for self-driving cars. In the K-City, self-driving car developers can repeat their tests with various scenarios and road environments.",
+                "fallback": "BusinessKorea: World’s Largest Test Bed for Self-driving Cars to Be Opened in Korea",
+                "image_url": "http:\/\/www.businesskorea.co.kr\/sites\/default\/files\/styles\/facebook\/public\/field\/image\/image_5.png?itok=jWaz5qGH, http:\/\/www.businesskorea.co.kr\/sites\/default\/files\/styles\/facebook\/public\/field\/image\/image%20%281%29_0.png?itok=23qtDIWl",
+                "image_width": 470,
+                "image_height": 250,
+                "ts": 1494213044,
+                "from_url": "http:\/\/www.businesskorea.co.kr\/english\/news\/sciencetech\/18018-k-city-world%E2%80%99s-largest-test-bed-self-driving-cars-be-opened-korea",
+                "image_bytes": 189019,
+                "service_icon": "http:\/\/www.businesskorea.co.kr\/sites\/default\/files\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "<@U27HU84H4> а никак, можно не верить, а верить в манямирок, где несколько студентов могут сделать автономный трактор, пока ждут закупок нвидиевских плат в очереди, а реальность потом обрушится на тебя готовыми робоавтомобилями, которые в одночасье вытеснят обычные, сметут традиционных автопроизводителей и заодно парочку нефтекратий, потому что будут работать на электричестве. И всё это будет как всегда \"Ой, никто такого даже близко предвидеть не мог, как же это произошло, что мы опять отстаём\"",
+        "user": "U1CF22N7J",
+        "ts": "1503747157.000018",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "but_why",
+                "users": [
+                    "U049HDR2Z",
+                    "U2N853RGF",
+                    "U5CD22Z5E"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "<@U2N853RGF> я даже не знаю что ответить на такие заявления. В них можно прочитать лишь тотальное нежелаение допустить, что кто-то, кого Вы не знаете, делает крутой проект. Могу только добавить что это довольно прикольно - ездить в комбайне, который управляется программой, которую написал ты и твоя команда, и модели для которой в течение полугода размечались группой разметчиков по нескольку раз",
+        "user": "U6CKCPZA6",
+        "ts": "1503747271.000049",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "af30f633b996",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-26\/233176640519_af30f633b9965742913c_72.png",
+            "first_name": "Victor",
+            "real_name": "Victor Prun",
+            "display_name": "goodguyvictor",
+            "team": "T040HKJE3",
+            "name": "goodguyvictor",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Автономность вида \"объехать вокруг кампуса\" нвидия сделали за пару месяцев в качестве рекламы для своих девбордов или <http:\/\/comma.ai|comma.ai> в одиночку, чтобы хайп поднять и финансирование собрать, тут нечем особо гордиться. Даже студенты с Юдасити соревнования устраивают на треке в качестве выпускного проекта.",
+        "user": "U1CF22N7J",
+        "ts": "1503747288.000018",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "true-story",
+                "users": [
+                    "U049HDR2Z",
+                    "U2N853RGF"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "А вот сделать штуку, чтобы она работала в реальной жизни, в обычных простых условиях -- это в тысячи раз сложнее",
+        "user": "U1CF22N7J",
+        "ts": "1503747312.000012",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503747431.000055",
+        "user": "U6U69339A",
+        "text": "<@U6U69339A> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503747482.000014",
+        "user": "U6TESJ2PJ",
+        "text": "<@U6TESJ2PJ> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "А КАМАЗ автономный разве не штука из реальной жизни?",
+        "user": "U27HU84H4",
+        "ts": "1503747511.000004",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7ec7ef7154ba",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-26\/354236189286_7ec7ef7154baf1b9e9b5_72.jpg",
+            "first_name": "Leonid",
+            "real_name": "Leonid Sinev",
+            "display_name": "leonid",
+            "team": "T040HKJE3",
+            "name": "leonid",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "<@U1CF22N7J> Ну, можно выбирать, в какому минимирке жить. Например в таком, где в компаниях с раскрученным именем трудятся орды гениев, которые источают свет, которые идеально организованны и у которых совершенно нет бюрократии.",
+        "user": "U6CKCPZA6",
+        "ts": "1503747518.000015",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "af30f633b996",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-08-26\/233176640519_af30f633b9965742913c_72.png",
+            "first_name": "Victor",
+            "real_name": "Victor Prun",
+            "display_name": "goodguyvictor",
+            "team": "T040HKJE3",
+            "name": "goodguyvictor",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Слушай, речь не идёт об идеальной организации и полном отсутствии бюрократии. Но я уверен, что у них там нет никаких планирований за год сколько им там нужно лидаров или чего подобного. Конечно строительство базы на 6.5 квадратных километров (655 гектаров!) требует язрядного согласования и бюджетирования, но более приземлённые вещи работают скорее всего таким образом, что нужные бюджеты под обоснованные вещи выделяются сразу. Это как инвестирование во внутренние стартапы -- на идёю даётся X миллионов баксов и дальше команда сама решает как им нужно их тратить, а не головной офис в Москве.",
+        "user": "U1CF22N7J",
+        "ts": "1503747819.000024",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "Посмотри как организован Google X, частью которого был этот проект с машинками -- это детский садик для инженеров, залитый баблом от основной деятельности",
+        "user": "U1CF22N7J",
+        "ts": "1503747856.000044",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "<@U6CKCPZA6> ну скажем так, по ряду признаков я делаю вывод, что какие то боссы около вашей конторы решили поднажиться на хайпе беспилотных авто. Для этого замутили группу, чтобы имитировать бурную деятельность. Что они планируют дальше, трудно сказать, но явно не выпускать продукт, потому что выдержать конкуренцию с таким подходом нереально.\nЯ видел не раз и не два подобные кейсы. Можно погуглить русский WiMAX (он же astramax). Можно вспомнить базовые станции которые Хуавей выпускал в Уфе. Тоже гуглится. Можно вспомнить миллиарды глонасса в РНИИКП при Урличиче. Да сотни их. Это все истоптанная тропинка по обналичке бюджетных денег под видом инновационной деятельности.",
+        "user": "U2N853RGF",
+        "ts": "1503747859.000007",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U049HDR2Z"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503747893.000009",
+        "user": "U6U4HHH0A",
+        "text": "<@U6U4HHH0A> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "При этом я охотно верю, что вы честно пашете и что то пытаетесь. Но впятером это нереально. Правда.",
+        "user": "U2N853RGF",
+        "ts": "1503747945.000023",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U1CF22N7J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503748167.000016",
+        "user": "U6U8HGNGM",
+        "text": "<@U6U8HGNGM> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503748221.000065",
+        "user": "U6U8HK2LV",
+        "text": "<@U6U8HK2LV> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "А где тут всплыло, что их пока только 5 человек в Департаменте роботизированных систем, в который и набирают пополнение по этой вакансии?",
+        "user": "U27HU84H4",
+        "ts": "1503748372.000020",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7ec7ef7154ba",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-26\/354236189286_7ec7ef7154baf1b9e9b5_72.jpg",
+            "first_name": "Leonid",
+            "real_name": "Leonid Sinev",
+            "display_name": "leonid",
+            "team": "T040HKJE3",
+            "name": "leonid",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503748782.000023",
+        "user": "U6U4JSVPC",
+        "text": "<@U6U4JSVPC> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503748791.000031",
+        "user": "U6U8JE59T",
+        "text": "<@U6U8JE59T> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "Коггда живёшь и работаешь в определённой среде, бывает трудно поверить, что где-то бывает по-другому. И кажется, что если у тебя закупки проходят месяцами и \"если не заложили в бюджете на этот год, ждите следующий\" и \"даже нет органичений в видеокарточках и выездных ноутбуках\", то значит везде так. А оно не так, и в других местах вполне могут быть ограничения не в том, сколько карточек удастся купить в этом году, а когда достроят испытательный полигон размером с небольшой городок или когда расширят симулятор с 10 тысяч серверов до 100 тысяч. Да у них там целая марка автомобилей есть, с нуля спроектированный чисто под испытания. И уже три поколения машинок (старые приусы, текущие лексусы и ещё новее крайслеры), И они добавили сотню таких машинок только в 2017 году. \nИ это только один гугл, есть ещё сами автопроизводители, всякие Uber'ы и наконец, яндекс и когнитивные технологии :slightly_smiling_face:",
+        "user": "U1CF22N7J",
+        "ts": "1503748893.000018",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "<@U27HU84H4> это было просто пальцем в небо, но никто не опровергал :joy:",
+        "user": "U1CF22N7J",
+        "ts": "1503748946.000038",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U2N853RGF"
+                ],
+                "count": 1
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U27SUBTB9"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503748951.000020",
+        "user": "U6TEUT5EU",
+        "text": "<@U6TEUT5EU> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "Судя по требованиям -- нужно быть на все руки мастером, а значит специализации большой в команде нет, значит она небольшая :slightly_smiling_face:",
+        "user": "U1CF22N7J",
+        "ts": "1503749048.000037",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U2N853RGF"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503749094.000061",
+        "user": "U6TJBTFNV",
+        "text": "<@U6TJBTFNV> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "И даже сюда, в профильное сообщество не осилили снарядить инженера, чтобы вакансию запостить, а рекрутера заставили регистрироваться",
+        "user": "U1CF22N7J",
+        "ts": "1503749216.000013",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503749343.000022",
+        "user": "U6U4KTMB4",
+        "text": "<@U6U4KTMB4> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503749457.000018",
+        "user": "U6U2CUZCK",
+        "text": "<@U6U2CUZCK> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "А про сотню я недооценил, это было в начале года, планы куда больше (вот куда все Jetson'ы ушли :troll: ): \n&gt; our initial fleet of 600 self-driving minivans \nЭто они про запуск в продакшн новых Крайслеров для первых публиных тестов",
+        "user": "U1CF22N7J",
+        "ts": "1503749716.000035",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503749829.000044",
+        "user": "U6U6CSYG4",
+        "text": "<@U6U6CSYG4> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503749902.000005",
+        "user": "U6V1DVB4N",
+        "text": "<@U6V1DVB4N> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "Это, если они по 50к$ стоят, значит только в машинки уйдёт годовая _выручка_ всей когнитивной технологии, вот и посоревнуйся с этим на камазе :slightly_smiling_face: Отсюда и ответ, почему и кому всякие нвидии первому отгружают",
+        "user": "U1CF22N7J",
+        "ts": "1503750009.000034",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ed5fe9cb6c5e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-04\/1266881340567_ed5fe9cb6c5e20efa19b_72.png",
+            "first_name": "Random",
+            "real_name": "Random Letters",
+            "display_name": "cepera_ang",
+            "team": "T040HKJE3",
+            "name": "cepera_ang",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1CF22N7J",
+            "ts": "1503750031.000000"
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "text": "При этом никто ж не отговаривает идти в когнитив текнолоджис, нужно просто понимать с чем столкнёшься и вообще qui prodest ) поработать над хайповой технологией ок, написать в резюме пару строчек ок, но научиться чему то от специалистов в ДЛ, научиться разработке софта, сделать продукт - это навряд ли",
+        "user": "U2N853RGF",
+        "ts": "1503750410.000061",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U1CF22N7J"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503752054.000055",
+        "user": "U6U6GKMQC",
+        "text": "<@U6U6GKMQC> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503752181.000046",
+        "user": "U6U4QLLBC",
+        "text": "<@U6U4QLLBC> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503752929.000051",
+        "user": "U6V1K8YTY",
+        "text": "<@U6V1K8YTY> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503753453.000017",
+        "user": "U6U2KVA4B",
+        "text": "<@U6U2KVA4B> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503753604.000014",
+        "user": "U6U2L7KM1",
+        "text": "<@U6U2L7KM1> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503754345.000053",
+        "user": "U6U4UQ30S",
+        "text": "<@U6U4UQ30S> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503754543.000008",
+        "user": "U6V7KC9E3",
+        "text": "<@U6V7KC9E3> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503755514.000103",
+        "user": "U6V7MASDD",
+        "text": "<@U6V7MASDD> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503757854.000007",
+        "user": "U6V7SEPLP",
+        "text": "<@U6V7SEPLP> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503758061.000013",
+        "user": "U6V7SU9P1",
+        "text": "<@U6V7SU9P1> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "<@U0JHK9001> не, сейчас уже пришло понимание этого, и даже в России. Сильно помогает",
+        "user": "U2N853RGF",
+        "ts": "1503759162.000076",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503760713.000018",
+        "user": "U6V7YV7L7",
+        "text": "<@U6V7YV7L7> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503762330.000027",
+        "user": "U6U5CHR34",
+        "text": "<@U6U5CHR34> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503762959.000114",
+        "user": "U6TFPN2CQ",
+        "text": "<@U6TFPN2CQ> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503764128.000051",
+        "user": "U6TK9GG65",
+        "text": "<@U6TK9GG65> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503764471.000012",
+        "user": "U6U7A4W92",
+        "text": "<@U6U7A4W92> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503768085.000101",
+        "user": "U6U9S4RN1",
+        "text": "<@U6U9S4RN1> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503769079.000015",
+        "user": "U6U3MPDMH",
+        "text": "<@U6U3MPDMH> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503769600.000052",
+        "user": "U6TG5NT4G",
+        "text": "<@U6TG5NT4G> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503770419.000060",
+        "user": "U6U3QRW8K",
+        "text": "<@U6U3QRW8K> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "Беспилотный комбайн не бухает, не косячит и не сливает бензин :) вообще забавно как тред ушел в тему \"Гугл круче, у них больше ресурсов\". Странная позиция - если в нише несколько игроков, даже более крупных - вовсе не повод ей не заниматься. Вы, коллеги, сами чем занимаетесь?) У вас у всех совершенно уникальные продукты без единого аналога?) \nЕсли кому-то интересно, то в команде сейчас около 50 человек. ",
+        "user": "U6KGNF9H6",
+        "ts": "1503772321.000003",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gf2cc54754fd",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/85f2cc54754fd70cec94dc72d23ed281.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0023-72.png",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Chinarev",
+            "display_name": "d.chinarev",
+            "team": "T040HKJE3",
+            "name": "d.chinarev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1503661812.000106",
+        "parent_user_id": "U6KGNF9H6"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503775977.000044",
+        "user": "U6UAABA3X",
+        "text": "<@U6UAABA3X> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503776450.000031",
+        "user": "U6U6BP4US",
+        "text": "<@U6U6BP4US> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503778840.000015",
+        "user": "U6V972KFH",
+        "text": "<@U6V972KFH> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503786020.000010",
+        "user": "U6V3PPXT8",
+        "text": "<@U6V3PPXT8> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503789503.000049",
+        "user": "U6UB2DRPF",
+        "text": "<@U6UB2DRPF> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503789579.000064",
+        "user": "U6U8V705A",
+        "text": "<@U6U8V705A> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503789608.000003",
+        "user": "U6U731VQS",
+        "text": "<@U6U731VQS> has joined the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1503797279.000053",
+        "user": "U6UBFLESH",
+        "text": "<@U6UBFLESH> has joined the channel"
+    }
+]

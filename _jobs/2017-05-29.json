@@ -1,0 +1,1333 @@
+[
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496042677.191506",
+        "user": "U5L2975N3",
+        "text": "<@U5L2975N3> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "В Мобильной клинике DOC+ - <http:\/\/docplus.ru|docplus.ru> (стартап 2016 г. по версии РБК, лидирующая компания в сфере цифровой медицины), открылась вакансия Data Scientist. У нас появился ряд задач по анализу данных для создания и улучшения медицинских продуктов, и мы ищем ярких и талантливых людей, которые помогут эти задачи решить.\n\nЧто нужно будет делать:\n1. Выстраивать систему сбора чистой и оцифрованной информации\n2. Распознавать медицинские тексты\n3. Строить экспертные системы и симптом-чекеры\n4. Делать много мини-продуктов и фич с использованием ML\n\nКого мы ищем:\n• Выпускников МФТИ, МГУ и ШАД с опытом работы над реальными проектами от 2 лет\n• Людей с хорошими знаниями теоретических основ (матстаты и машинное обучение) и навыками программирования (Python, Matlab, C++)\n• Приветствуется опыт и научные работы в сфере текст майнинга или экспертных\/рекомендательных систем\n\nРабота фултайм в Москве\nЗП от 150 000\n\nСвои резюме и рекомендации можно присылать в личку или на <mailto:HR@docplus.ru|HR@docplus.ru> (с пометкой ODS)!",
+        "user": "U1BL20KEV",
+        "ts": "1496047157.029438",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g795a1bf231a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/3c795a1bf231a050f65522f9cc47119a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png",
+            "first_name": "Yakmish",
+            "real_name": "Yakmish",
+            "display_name": "mishyak",
+            "team": "T040HKJE3",
+            "name": "mishyak",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1496047157.029438",
+        "reply_count": 6,
+        "reply_users_count": 4,
+        "latest_reply": "1496165039.124492",
+        "reply_users": [
+            "U1Z78RL3X",
+            "U1BL20KEV",
+            "U1R8X3V54",
+            "U5GHLLL2D"
+        ],
+        "replies": [
+            {
+                "user": "U1Z78RL3X",
+                "ts": "1496047318.060933"
+            },
+            {
+                "user": "U1BL20KEV",
+                "ts": "1496047813.157650"
+            },
+            {
+                "user": "U1R8X3V54",
+                "ts": "1496062478.685277"
+            },
+            {
+                "user": "U5GHLLL2D",
+                "ts": "1496121760.292811"
+            },
+            {
+                "user": "U1BL20KEV",
+                "ts": "1496165033.122360"
+            },
+            {
+                "user": "U1BL20KEV",
+                "ts": "1496165039.124492"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "slava",
+                "users": [
+                    "U0M39M6LS",
+                    "U041SH27M"
+                ],
+                "count": 2
+            },
+            {
+                "name": "parrot",
+                "users": [
+                    "U0M39M6LS",
+                    "U4YQKKZFA",
+                    "U1Z40FGQ6",
+                    "U5GHLLL2D",
+                    "U472P53U1"
+                ],
+                "count": 5
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U0M39M6LS",
+                    "U1D4RRA7K",
+                    "U1UNFRQ1K",
+                    "U1GMCNV3M",
+                    "U1MLEMG11",
+                    "U27SUBTB9",
+                    "U1Z40FGQ6",
+                    "U3K7PNTML",
+                    "U24FHECDD"
+                ],
+                "count": 9
+            },
+            {
+                "name": "pill",
+                "users": [
+                    "U041SH27M",
+                    "U1UNFRQ1K",
+                    "U49A8JCKW",
+                    "U27SUBTB9",
+                    "U2GAEHQR1",
+                    "U1Z40FGQ6",
+                    "U04ELQZAU",
+                    "U24FHECDD",
+                    "U061VJ5SB"
+                ],
+                "count": 9
+            },
+            {
+                "name": "fire",
+                "users": [
+                    "U3K7PNTML",
+                    "U0Q3USC0Z"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "mishyak: “Распознавать медицинские тексты” - это про рукописные заключения и рецепты, или тексты в целом?",
+        "user": "U1Z78RL3X",
+        "ts": "1496047318.060933",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g18de2496f95",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b118de2496f959f19fdd0df2f612cacc.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "Andrey",
+            "real_name": "Andrey Stromnov",
+            "display_name": "stromnov",
+            "team": "T040HKJE3",
+            "name": "stromnov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1496047157.029438",
+        "parent_user_id": "U1BL20KEV"
+    },
+    {
+        "type": "message",
+        "text": "Всем привет!\n \nв *МФТИ*  стартует самый масштабный в РФ проект по ИИ!\n*<http:\/\/iPavlov.ai|iPavlov.ai>* – совместный со *Сбербанк 3*-хлетний проект в рамках *НТИ* (<http:\/\/asi.ru\/nti\/|asi.ru\/nti\/>), нацеленный на создание разговорного искусственного интеллекта, разработку открытой библиотеки решений для *диалоговых* систем и NLP и их внедрение. Мировой уровень проекту обеспечивает партнерство с ведущими мировыми исследователями. Совместно с коллегами из UMont (группа prof. Yoshua *Bengio*) и CMU (prof. Alan W.Black) на *NIPS* Conference 2017 мы организуем соревнование (<http:\/\/convai.io|convai.io>). Лаборатория является участником программы  _Facebook AI Academic Partnership_  и имеет статус _NVIDIA GPU Research Center_. С 2015 года нами проводятся научные школы и хакатоны (*<http:\/\/DeepHack.me|DeepHack.me>*).\n \nМы ищем единомышленников и будущих коллег:\n \n*Исследователь* (уровни junior, middle, lead)\n_Задачи:_\n- Ведет полный цикл исследований  (анализ публикаций, формирование, проверка собственных гипотез, прототипирование, воспроизведение алгоритмов и результатов, создание новых ML-архитектур);\n- Активно публикуется на темы исследований и участвует в конференциях и других научных мероприятиях.\n- Работает в рамках единого процесса разработки продукта, что позволяет быстро проверять и внедрять перспективные идеи.\n_Требования:_\n- Основными инструментами работы являются Python и стек DataScience-библиотек, TensorFlow, инструменты сбора, предобработки и визуализации данных.\n-Требуются знания и опыт разработки ML\/DL-моделей в области NLP.\nВилка: IQR 80к-150к\n \n*Инженер-исследователь* (back-end, front-end - уровни middle, senior)\n_Задачи:_\n- В тесном контакте с исследователями проектирует, разрабатывает и развертывает масштабируемое решение (диалоговый агент) на основе моделей и алгоритмов, разработанных research-группой.\n_Требования:_\n- Основными инструментами являются Python, SQL и NoSQL СУБД (для Back-end), современные JS-фреймворки (для Front-end).\n- Требуется соответствующий опыт разработки продуктивных приложений, желателен опыт решения NLP задач, сбора и подготовки данных для обучения моделей.\nВилка: IQR 80к-150к\n \nМесто работы – Долгопрудный.\n\nЖдем резюме в ящике - <mailto:merge@ipavlov.ai|merge@ipavlov.ai>",
+        "user": "U0748JETV",
+        "ts": "1496047750.145384",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1342cbffd9ad",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-20\/1194540058597_1342cbffd9ad4a05295a_72.jpg",
+            "first_name": "",
+            "real_name": "burtsev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "burtsev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0748JETV",
+            "ts": "1496047953.000000"
+        },
+        "reactions": [
+            {
+                "name": "fire",
+                "users": [
+                    "U0H7VBQQ1",
+                    "U041P485A",
+                    "U041SH27M",
+                    "U06J1LG1M",
+                    "U0M39M6LS",
+                    "U1GMCNV3M",
+                    "U0K47J3HR",
+                    "U0748JETV",
+                    "U04423D74",
+                    "U1UNFRQ1K",
+                    "U22MEECFJ",
+                    "U4WMPCB7W",
+                    "U0ZHCGY5T",
+                    "U31S67ZC5",
+                    "U040HKJE7",
+                    "U1BAKQH2M",
+                    "U49A8JCKW",
+                    "U27SUBTB9",
+                    "U09JEC7V0",
+                    "U4ZRFG1V0",
+                    "U1Z40FGQ6",
+                    "U2GAEHQR1",
+                    "U0P6S471Q",
+                    "U3172NP4Y",
+                    "U24FHECDD",
+                    "U1YQLTMLH",
+                    "U1CMPEWPQ",
+                    "U3U0AKQ0Y",
+                    "U3PLVL3RD",
+                    "U5GHLLL2D",
+                    "U4BL1T560",
+                    "U1HF2RRFE",
+                    "U1D6DT6HE",
+                    "U45HFJLC9",
+                    "U0952QCHE",
+                    "U60EETE7N"
+                ],
+                "count": 36
+            },
+            {
+                "name": "pacman",
+                "users": [
+                    "U041P485A",
+                    "U0H7VBQQ1",
+                    "U041SH27M",
+                    "U06J1LG1M",
+                    "U0M39M6LS",
+                    "U0748JETV",
+                    "U1GMCNV3M",
+                    "U0L4KM9R9",
+                    "U0ZHCGY5T",
+                    "U040HKJE7",
+                    "U049HDR2Z",
+                    "U1BAKQH2M",
+                    "U49A8JCKW",
+                    "U26MG2Z37",
+                    "U09JEC7V0",
+                    "U1Z40FGQ6",
+                    "U2GAEHQR1",
+                    "U0D8KLBFV",
+                    "U0873FY94",
+                    "U04ELQZAU",
+                    "U3SJBMJ9M",
+                    "U0QMJJ3SL",
+                    "U0SCCV5DX",
+                    "U1YQLTMLH",
+                    "U1CMPEWPQ",
+                    "U4BL1T560",
+                    "U1D6DT6HE",
+                    "U0952QCHE"
+                ],
+                "count": 28
+            },
+            {
+                "name": "+1::skin-tone-6",
+                "users": [
+                    "U041SH27M",
+                    "U0ZHCGY5T",
+                    "U1BAKQH2M",
+                    "U2GAEHQR1",
+                    "U041P485A",
+                    "U4BL1T560"
+                ],
+                "count": 6
+            },
+            {
+                "name": "science",
+                "users": [
+                    "U041SH27M",
+                    "U06J1LG1M",
+                    "U0K47J3HR",
+                    "U1GMCNV3M",
+                    "U0748JETV",
+                    "U1UNFRQ1K",
+                    "U0ZHCGY5T",
+                    "U040HKJE7",
+                    "U049HDR2Z",
+                    "U1BAKQH2M",
+                    "U09JEC7V0",
+                    "U1Z40FGQ6",
+                    "U2GAEHQR1",
+                    "U0873FY94",
+                    "U04ELQZAU",
+                    "U041P485A",
+                    "U501UG0M6",
+                    "U0952QCHE"
+                ],
+                "count": 18
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U06J1LG1M",
+                    "U1D4RRA7K",
+                    "U0748JETV",
+                    "U1UNFRQ1K",
+                    "U1MLEMG11",
+                    "U0ZHCGY5T",
+                    "U040HKJE7",
+                    "U049HDR2Z",
+                    "U1BAKQH2M",
+                    "U09JEC7V0",
+                    "U1Z40FGQ6",
+                    "U2GAEHQR1",
+                    "U041P485A",
+                    "U0SCCV5DX",
+                    "U1CMPEWPQ",
+                    "U5GHLLL2D",
+                    "U1D6DT6HE",
+                    "U0952QCHE"
+                ],
+                "count": 18
+            },
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U06J1LG1M",
+                    "U0748JETV",
+                    "U0ZHCGY5T",
+                    "U040HKJE7",
+                    "U1BAKQH2M",
+                    "U1Z40FGQ6",
+                    "U2GAEHQR1",
+                    "U041P485A",
+                    "U1D6DT6HE"
+                ],
+                "count": 9
+            },
+            {
+                "name": "satan",
+                "users": [
+                    "U0H7VBQQ1",
+                    "U0K47J3HR",
+                    "U0748JETV",
+                    "U0ZHCGY5T",
+                    "U040HKJE7",
+                    "U2GAEHQR1",
+                    "U3DRBNHDW",
+                    "U1D6DT6HE"
+                ],
+                "count": 8
+            },
+            {
+                "name": "mipt",
+                "users": [
+                    "U0748JETV",
+                    "U1GMCNV3M",
+                    "U0ZHCGY5T",
+                    "U041P485A",
+                    "U040HKJE7",
+                    "U0H7VBQQ1",
+                    "U1BAKQH2M",
+                    "U27SUBTB9",
+                    "U1Z40FGQ6",
+                    "U2GAEHQR1",
+                    "U0P6S471Q",
+                    "U0873FY94",
+                    "U0SCCV5DX",
+                    "U1K8TG32T",
+                    "U1YQLTMLH",
+                    "U1CMPEWPQ",
+                    "U0QPVMAFR",
+                    "U21MU5ATE"
+                ],
+                "count": 18
+            },
+            {
+                "name": "nips",
+                "users": [
+                    "U0748JETV",
+                    "U1GMCNV3M",
+                    "U0ZHCGY5T",
+                    "U040HKJE7",
+                    "U049HDR2Z",
+                    "U1BAKQH2M",
+                    "U1Z40FGQ6",
+                    "U04ELQZAU",
+                    "U59CPL6ES",
+                    "U0952QCHE",
+                    "U2GAEHQR1"
+                ],
+                "count": 11
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "<@U1Z78RL3X> Пока не про рукописные, а про набранные на компьютере. Примеры на пальцах:\n1. Пациент пишет в чат: \"прихватило живот\", \"боль в животе\" или \"живот болит\", чат-бот должен понимать, что речь идет об одном симптоме \"боль в животе\".\n2. Доктор заполняет текстовое поле \"анамнез\", размеров в несколько абзацев, в электронной карте пациента. Алгоритм должен автоматически протеггировать все, что есть в этом анамнезе и занести это в карту в уже оцифрованном виде.\n\nНа практике все естественно чуть сложнее, но общая суть такая.",
+        "user": "U1BL20KEV",
+        "ts": "1496047813.157650",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g795a1bf231a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/3c795a1bf231a050f65522f9cc47119a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0011-72.png",
+            "first_name": "Yakmish",
+            "real_name": "Yakmish",
+            "display_name": "mishyak",
+            "team": "T040HKJE3",
+            "name": "mishyak",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1496047157.029438",
+        "parent_user_id": "U1BL20KEV",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U27SUBTB9",
+                    "U1Z40FGQ6",
+                    "U3K7PNTML",
+                    "U2LV36W4F"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Data Scientist (Recommendations) – <http:\/\/Avito.ru|Avito.ru>\nг. Москва\n\nИщем Data Science специалиста, имеющего опыт построения прикладных систем машинного обучения, работающих с большими объемами данных. \nОдна из наших задач – создание системы персонализации контента, чтобы покупателям в первую очередь отображался тот контент, который им реально интересен. \n\nВам предстоит:\n- Разрабатывать и внедрять алгоритмы персонализации: user-item, item-item, контентная кластеризация объявлений, персонализированный поиск\n- Повышать качество существующих моделей рекомендаций во всех категориях Авито\n- С одним из примеров задач можно ознакомиться на странице нашего конкурса <http:\/\/dataring.ru\/competitions\/avito-recommendations\/>\n\nМы ожидаем, что вы:\n- Имеете опыт решения различных Data Science задач с использованием Python\n- Имеете опыт написания production кода для высоконагруженных систем.\n- Знаете и имеете опыт применения различных алгоритмов генерации рекомендаций и оценки их качества\n- Умеете использовать базовые алгоритмы машинного обучения.\n- Умеете писать SQL-запросы\n- Получили высшее образование в области вычислительной математики, статистики, анализа данных и т.п.\n\nНе обязательно, но круто, если вы:\n- Участвовали в различных открытых соревнованиях по анализу данных\n\nМы предлагаем вам:\n- Интересные и амбициозные проекты, связанные с рекомендациями\n- Очень конкурентную компенсацию и гибкую бонусную систему\n- Посещение профильных конференций за счёт компании\n- Отличный офис в центре Москвы в бизнес-центре класса «А» (2 минуты пешком от м. Белорусская)\n- Работу в западной компании с надёжным финансированием\n- Медицинское страхование (ДМС)\n- Собственный тренажерный зал\n\nОписание вакансии: <https:\/\/www.avito.ru\/company\/job\/data_scientist_recommend>\nОткликнуться можно в личку.",
+        "user": "U1GG0N16H",
+        "ts": "1496050466.682903",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "92ce9a7f4dd6",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-08-07\/1288621286898_92ce9a7f4dd68d9f8873_72.jpg",
+            "first_name": "Noname",
+            "real_name": "Noname Noname",
+            "display_name": "rsman",
+            "team": "T040HKJE3",
+            "name": "olman",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1GG0N16H",
+            "ts": "1496050687.000000"
+        },
+        "thread_ts": "1496050466.682903",
+        "reply_count": 4,
+        "reply_users_count": 4,
+        "latest_reply": "1496132658.969045",
+        "reply_users": [
+            "U04422XJL",
+            "U1GMCNV3M",
+            "U04CH4QBD",
+            "U1GG0N16H"
+        ],
+        "replies": [
+            {
+                "user": "U04422XJL",
+                "ts": "1496054932.450627"
+            },
+            {
+                "user": "U1GMCNV3M",
+                "ts": "1496055531.540883"
+            },
+            {
+                "user": "U04CH4QBD",
+                "ts": "1496057134.785497"
+            },
+            {
+                "user": "U1GG0N16H",
+                "ts": "1496132658.969045"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fork",
+                "users": [
+                    "U06J1LG1M",
+                    "U0E4S5LU9",
+                    "U0K47J3HR",
+                    "U3XDWVD3P",
+                    "U0FEJNBGQ",
+                    "U1D4RRA7K",
+                    "U2AL40SAH",
+                    "U4UD5SLFQ",
+                    "U27SUBTB9",
+                    "U342T2PT2",
+                    "U49A8JCKW",
+                    "U4YQKKZFA",
+                    "U22MEECFJ",
+                    "U065VP6F7",
+                    "U09JEC7V0",
+                    "U0NBVL7RQ",
+                    "U15UZGX9A",
+                    "U1CE1LVD3",
+                    "U0D6ZPJ56",
+                    "U061VJ5SB",
+                    "U0UG04H3M",
+                    "U049HDR2Z",
+                    "U4BBNMQ03",
+                    "U46F2L65T",
+                    "U2SC5JYKG",
+                    "U1VBAF9K2",
+                    "U2GAEHQR1",
+                    "U1GMCNV3M",
+                    "U19FSHKL2",
+                    "U50HEVDJP",
+                    "U10K3LXHV",
+                    "U0L4DGZU0",
+                    "U49NJJXNJ",
+                    "U1BAKQH2M",
+                    "U07V1URT9",
+                    "U04CH4QBD",
+                    "U435Y1TDZ",
+                    "U1J5JCGKE",
+                    "U0L4KM9R9",
+                    "U2YULKRRP",
+                    "U0DA4J82H",
+                    "U0PEXP9PH",
+                    "U1CMPEWPQ",
+                    "U4R49TGN9",
+                    "U55KXJDKQ",
+                    "U1D6DT6HE",
+                    "U3CBQJDPF"
+                ],
+                "count": 47
+            },
+            {
+                "name": "true-story",
+                "users": [
+                    "U04422XJL"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "olman: ссылка как-то не очень открывается",
+        "user": "U04422XJL",
+        "ts": "1496054932.450627",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8cd145f72446",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-27\/739003798132_8cd145f72446bbd4194c_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Trofimov",
+            "display_name": "mtrofimov",
+            "team": "T040HKJE3",
+            "name": "mtrofimov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1496050466.682903",
+        "parent_user_id": "U1GG0N16H"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496055458.529772",
+        "user": "U5K9U341G",
+        "text": "<@U5K9U341G> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "mtrofimov: да и основной сайт как-то не открывается\nUPD: починился",
+        "user": "U1GMCNV3M",
+        "ts": "1496055531.540883",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "a745fd6b6f48",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2017-03-28\/161455034983_a745fd6b6f484741356a_72.jpg",
+            "first_name": "Ilya",
+            "real_name": "Ilya Baryshnikov",
+            "display_name": "lucidyan",
+            "team": "T040HKJE3",
+            "name": "lucidyan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1GMCNV3M",
+            "ts": "1496055576.000000"
+        },
+        "thread_ts": "1496050466.682903",
+        "parent_user_id": "U1GG0N16H",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04422XJL"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "channel_leave",
+        "ts": "1496055794.583510",
+        "user": "U4B4HJX9A",
+        "text": "<@U4B4HJX9A> has left the channel"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1496055975.611543",
+        "user": "U5KCRUG7P",
+        "text": "<@U5KCRUG7P> has joined the channel"
+    },
+    {
+        "type": "message",
+        "text": "По конкурсу набрать уже не рассчитываете?:)",
+        "user": "U04CH4QBD",
+        "ts": "1496057134.785497",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "a7db9158dfe4",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-23\/422060918228_a7db9158dfe443a574a6_72.jpg",
+            "first_name": "Petr",
+            "real_name": "Petr Ermakov",
+            "display_name": "ermakovpetr",
+            "team": "T040HKJE3",
+            "name": "ermakovpetr",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1496050466.682903",
+        "parent_user_id": "U1GG0N16H",
+        "reactions": [
+            {
+                "name": "kekeke",
+                "users": [
+                    "U1GMCNV3M",
+                    "U2AL40SAH",
+                    "U041P485A",
+                    "U30A6KZLH",
+                    "U1BAKQH2M",
+                    "U07V1URT9",
+                    "U1D4RRA7K",
+                    "U054DU76Y",
+                    "U3SJBMJ9M",
+                    "U0DA4J82H",
+                    "U34Q3KU8H",
+                    "U3QD81XDH"
+                ],
+                "count": 12
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Всем привет!\n\nЯ работаю в компании *Teradata* (<http:\/\/www.teradata.com|www.teradata.com>) и хотел бы рассказать о том, что в нашей команде по анализу данных открылась вакансия *Senior Data Engineer*. \n\n*Немного о нас:*\nTeradata разрабатывает собственную аналитическую платформу, а так же предоставляет своим клиентам интеграционные технологии и консультационные услуги по анализу данных. Мы создаем системы, с помощью которых успешно собираются, хранятся, интегрируются и анализируются огромные массивы самых разных данных. Решения для наших заказчиков создаются с использованием практически всех Hadoop инструментов и многих других с ними связанных (Spark, Kafka и т.д.). Сейчас увеличивается количество проектов, над которыми мы работаем, а потому ищем специалистов в данной сфере.\n\n*Кто нам нужен:*\nСпециалист в области больших данных: их анализа и разработки систем для их хранения и обработки.\n\n*Обязанности кандидата:*\n1. Реализация систем хранения данных на основе Hadoop-инфраструктуры и загрузки данных из различных источников.\n2. Написание кода и скриптов для выполнения MapReduce\/Hive\/Spark работ.\n3. Анализ структурированных и неструктурированных данных.\n4. Администрирование Hadoop-кластеров, на которых реализована система.\n5. Консультирование заказчика по технической составляющей проекта.\n\n*Требования к кандидату:*\n• Хорошее понимание назначения и принципов работы основных элементов\n• Hadoop-экосистемы: HDFS, YARN, MapReduce, Hive и т.д.\n• Опыт анализа данных с помощью R\/Python и Hive\/Spark\n• Хорошее понимание проектирования реляционных баз данных и SQL\n• Опыт в разработке на Java\/Python\/Scala\n• Опыт администрирования Hadoop-кластеров и знание основных Hadoop-дистрибутивов: Cloudera, HortonWorks.\n\n*Что мы предлагаем:*\n• Проекты, в которых интересно участвовать и задачи, которые интересно решать\n• Прозрачная (и очень достойная) система премий\n• Отличный офис на Бауманской\n• Медицинское страхование (ДМС)\n• Участие в тренингах и конференциях в Европе\n• Компенсация мобильной связи\n• Компенсация обедов\n\n*Вилка заплат:*\n120к-180к чистыми (зависит от того, по скольким пунктам требований кандидат имеет подходящий опыт работы)\n\nМожно писать мне сюда в личные сообщения или сразу засылать резюме на почту (с пометкой OpenDataScience) нашему HR: <mailto:Olga.Varnakina@Teradata.com|Olga.Varnakina@Teradata.com>",
+        "user": "U10HD56PM",
+        "ts": "1496061176.450091",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "014536d3d808",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-04-14\/34643437655_014536d3d80838fd6cae_72.jpg",
+            "first_name": "Max",
+            "real_name": "Max Bartenev",
+            "display_name": "max_bartenev",
+            "team": "T040HKJE3",
+            "name": "max_bartenev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "disappointed",
+                "users": [
+                    "U36Q9NJMD",
+                    "U2N853RGF",
+                    "U59CPL6ES",
+                    "U061VJ5SB"
+                ],
+                "count": 4
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U1Z40FGQ6",
+                    "U1US4G35H",
+                    "U1J5L3NDP",
+                    "U1DUYG6UX",
+                    "U0JTMFHDE"
+                ],
+                "count": 5
+            },
+            {
+                "name": "neutral_face",
+                "users": [
+                    "U27SUBTB9"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Проект прекрасный. У меня была и есть подобная идея, но немного в другом ключе. Вопрос. Как онлайн консультации юридически проходят? Есть ли там заморочки какие-то?",
+        "user": "U1R8X3V54",
+        "ts": "1496062478.685277",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7031274a3100",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-26\/533694749890_7031274a3100c5ed19ee_72.jpg",
+            "first_name": "Roman",
+            "real_name": "Roman",
+            "display_name": "amsirion",
+            "team": "T040HKJE3",
+            "name": "amsirion",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1496047157.029438",
+        "parent_user_id": "U1BL20KEV"
+    },
+    {
+        "type": "message",
+        "text": "Привет! Меня зовут Даниил, я работаю в команде проекта JOOM <https:\/\/merchant.joom.com> Мы ищем разработчика рекомендательной системы в наш уютный московский офис на постоянную работу с белой зарплатой от 300тр. Моя почта: <mailto:ds@joom.it|ds@joom.it> Ниже полный текст вакансии",
+        "user": "U072YFF1Q",
+        "ts": "1496063821.943188",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gfc9b7642a70",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/29fc9b7642a70d98f99ed859a574886a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+            "first_name": "",
+            "real_name": "ds",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "ds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U0E4S5LU9",
+                    "U2TNYDLRL",
+                    "U2N853RGF",
+                    "U070XFG81",
+                    "U5G5DA7FY"
+                ],
+                "count": 5
+            },
+            {
+                "name": "moneybag",
+                "users": [
+                    "U2TNYDLRL",
+                    "U15UZGX9A",
+                    "U0L4KM9R9",
+                    "U1G303UTW",
+                    "U3SJBMJ9M",
+                    "U2N853RGF",
+                    "U1CMPEWPQ",
+                    "U04ELQZAU",
+                    "U065WG554",
+                    "U4GD9N3GB",
+                    "U1GMCNV3M",
+                    "U4YQKKZFA",
+                    "U40N03RGC"
+                ],
+                "count": 13
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "*О проекте*\nJoom — международная мобильная e-Commerce платформа. Наша миссия — сделать так, чтобы любой человек со смартфоном мог получить доступ к миллионам товаров по лучшим ценам.\nМы убеждены, что эту задачу можно решить только при помощи современных технологий. Наша рекомендательная система подбирает наиболее интересные товары для каждого пользователя, делая процесс покупки приятным и увлекательным. При помощи компьютерного зрения мы находим таблицы размеров в картинках и описаниях товаров и показываем их покупателям на их языке в удобном виде. Кроме того, мы стремимся быть надежным партнером для добросовестных продавцов. Используя технологии машинного обучения, мы позволяем им эффективно генерировать продажи.\nДругая необходимая составляющая успеха — сильная команда. Коллектив Joom насчитывает сейчас чуть больше 30 человек. В основном это бывшие сотрудники Яндекса, <http:\/\/Mail.Ru|Mail.Ru> Group, Parallels и Badoo, решившие объединиться для достижения амбициозной цели: построить одну из крупнейших мобильных торговых площадок в мире.\nJoom был запущен летом 2016 года и сразу показал большой рост. В декабре проект привлек $20M инвестиций.\n*Наши приложения:*\niOS: <https:\/\/itunes.apple.com\/ru\/app\/joom-best-goods-from-china\/id1117424833>\nAndroid: <https:\/\/play.google.com\/store\/apps\/details?id=com.joom>\n\n*Описание вакансии*\nОсновой Joom является рекомендательная система, подбирающая и ранжирующая наиболее интересные пользователю товары. В качестве сотрудника команды рекомендаций вам предстоит вместе с другими инженерами реализовывать существующие алгоритмы машинного обучения и придумывать новые, совершенствовать метрики, внедрять факторы, проводить A\/B-тесты. Система должна работать в реальном времени под большой нагрузкой, что подразумевает наличие не только сложных академических, но и инженерных задач.\n*Требования*\n- Уверенное владение одним из языков программирования: Java\/C#\/C++\/Python;\n- Знание классических алгоритмов и структур данных;\n- Опыт решения задач машинного обучения.\n*Плюсами будут*\n- Опыт работы с Hadoop\/Spark\/Samza\/Flink;\n- Опыт работы с Hive\/Impala\/Presto;\n- Опыт работы с алгоритмами рекомендаций.\n*Условия*\n- Официальное трудоустройство и белая зарплата, помощь при переезде из других городов\n- Комфортный офис класса А в Москве, в БЦ Аэродом у ст.м. Аэропорт с чаем\/кофе, конфетами\/печеньками, фруктами\/орехами\n- Дружный коллектив профессионалов, запоминающиеся корпоративы, пятничные пицца-суши посиделки\n- Современное оборудование, любая конфигурация на выбор, заказ технической литературы",
+        "user": "U072YFF1Q",
+        "ts": "1496063864.951419",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gfc9b7642a70",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/29fc9b7642a70d98f99ed859a574886a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+            "first_name": "",
+            "real_name": "ds",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "ds",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U072YFF1Q",
+            "ts": "1496064010.000000"
+        },
+        "attachments": [
+            {
+                "service_name": "App Store",
+                "title": "Joom - товары по низким ценам, акции и скидки в App Store",
+                "title_link": "https:\/\/itunes.apple.com\/ru\/app\/joom-best-goods-from-china\/id1117424833",
+                "text": "Joom - товары по низким ценам, акции и скидки: чтение обзоров, сравнение оценок покупателей, просмотр иллюстраций и дополнительной информации о приложении. Загрузка приложения Joom - товары по низким ценам, акции и скидки для iPhone, iPad или iPod touch.",
+                "fallback": "App Store: Joom - товары по низким ценам, акции и скидки в App Store",
+                "image_url": "http:\/\/is3.mzstatic.com\/image\/thumb\/Purple111\/v4\/76\/39\/98\/76399810-52e9-e065-5024-1096e6d8f073\/source\/1200x630bb.jpg",
+                "image_width": 250,
+                "image_height": 250,
+                "from_url": "https:\/\/itunes.apple.com\/ru\/app\/joom-best-goods-from-china\/id1117424833",
+                "image_bytes": 10740,
+                "service_icon": "https:\/\/itunes.apple.com\/favicon.ico",
+                "id": 1
+            },
+            {
+                "title": "Joom – best goods from China - Android Apps on Google Play",
+                "title_link": "https:\/\/play.google.com\/store\/apps\/details?id=com.joom",
+                "text": "Easy-to-use app with quality goods and low prices!",
+                "fallback": "Joom – best goods from China - Android Apps on Google Play",
+                "from_url": "https:\/\/play.google.com\/store\/apps\/details?id=com.joom",
+                "service_name": "play.google.com",
+                "id": 2
+            }
+        ],
+        "reactions": [
+            {
+                "name": "notbad",
+                "users": [
+                    "U0K47J3HR",
+                    "U3XDWVD3P",
+                    "U1MLEMG11",
+                    "U041SH27M",
+                    "U041P485A",
+                    "U4GL8MTTK",
+                    "U1GMCNV3M",
+                    "U4WMPCB7W",
+                    "U1D4RRA7K",
+                    "U49A8JCKW",
+                    "U04422XJL",
+                    "U5JDT79GD",
+                    "U2GAEHQR1",
+                    "U5EJHML6M",
+                    "U1Z40FGQ6",
+                    "U1FLG6YR1",
+                    "U0JHK9001",
+                    "U4RFX4PJT",
+                    "U04725QK7",
+                    "U1NLYUY5N",
+                    "U1BAKQH2M",
+                    "U4WM1939Q",
+                    "U1LHE347N",
+                    "U1UC11GGN",
+                    "U15UZGX9A",
+                    "U1UNFRQ1K",
+                    "U4YQKKZFA",
+                    "U1ULFPM0U",
+                    "U24QAAZBL",
+                    "U24FHECDD",
+                    "U5EEXS2R1",
+                    "U0PEXP9PH",
+                    "U1YQLTMLH",
+                    "U1CMPEWPQ",
+                    "U1CE1LVD3",
+                    "U59CPL6ES",
+                    "U4M6JJ75M",
+                    "U34Q3KU8H",
+                    "U049HDR2Z",
+                    "U59QM16AY"
+                ],
+                "count": 40
+            },
+            {
+                "name": "moneybag",
+                "users": [
+                    "U041SH27M",
+                    "U041P485A",
+                    "U1GMCNV3M",
+                    "U0ZHCGY5T",
+                    "U1D4RRA7K",
+                    "U49A8JCKW",
+                    "U1R8X3V54",
+                    "U2GAEHQR1",
+                    "U1Z40FGQ6",
+                    "U30Q72KLJ",
+                    "U1FLG6YR1",
+                    "U22MEECFJ",
+                    "U1BAKQH2M",
+                    "U27SUBTB9",
+                    "U1LHE347N",
+                    "U1VBAF9K2",
+                    "U15UZGX9A",
+                    "U0L4KM9R9",
+                    "U1US4G35H",
+                    "U18PYFC9L",
+                    "U4YQKKZFA",
+                    "U1ULFPM0U",
+                    "U5EEXS2R1",
+                    "U2N853RGF",
+                    "U1CMPEWPQ",
+                    "U1CE1LVD3",
+                    "U59CPL6ES",
+                    "U3172NP4Y",
+                    "U4X5MTXNC",
+                    "U061VLHH7",
+                    "U14C0LPSL",
+                    "U2992AMC1"
+                ],
+                "count": 32
+            },
+            {
+                "name": "money_mouth_face",
+                "users": [
+                    "U49A8JCKW",
+                    "U1Z40FGQ6",
+                    "U1FLG6YR1",
+                    "U30Q72KLJ",
+                    "U1GMCNV3M",
+                    "U1NLYUY5N",
+                    "U1BAKQH2M",
+                    "U4YQKKZFA",
+                    "U1ULFPM0U",
+                    "U5EEXS2R1",
+                    "U2N853RGF",
+                    "U1CE1LVD3",
+                    "U59CPL6ES",
+                    "U3172NP4Y",
+                    "U4JQS8LF5"
+                ],
+                "count": 15
+            },
+            {
+                "name": "fire",
+                "users": [
+                    "U3PETUSSE",
+                    "U49A8JCKW",
+                    "U1Z40FGQ6",
+                    "U1GMCNV3M",
+                    "U1NLYUY5N",
+                    "U22MEECFJ",
+                    "U1BAKQH2M",
+                    "U4ZRFG1V0",
+                    "U10K3LXHV",
+                    "U4YQKKZFA",
+                    "U1ULFPM0U",
+                    "U0PEXP9PH",
+                    "U2N853RGF",
+                    "U1CMPEWPQ",
+                    "U4WMX53RS",
+                    "U342T2PT2",
+                    "U59CPL6ES",
+                    "U34Q3KU8H",
+                    "U3172NP4Y",
+                    "U1LNBRZ29",
+                    "U061VLHH7",
+                    "U049HDR2Z",
+                    "U3UMB4R6Y"
+                ],
+                "count": 23
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U1UNFRQ1K",
+                    "U59CPL6ES",
+                    "U04CH4QBD"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Астрологи объявили неделю клевых вакансий.",
+        "user": "U04422XJL",
+        "ts": "1496064524.076072",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "8cd145f72446",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-27\/739003798132_8cd145f72446bbd4194c_72.jpg",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Trofimov",
+            "display_name": "mtrofimov",
+            "team": "T040HKJE3",
+            "name": "mtrofimov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "ban",
+                "users": [
+                    "U04CH4QBD",
+                    "U2AL40SAH",
+                    "U04725QK7",
+                    "U4B8MC0AD",
+                    "U0FEJNBGQ",
+                    "U19FSHKL2",
+                    "U0M39M6LS",
+                    "U07159GKF",
+                    "U3XDWVD3P",
+                    "U0748JETV",
+                    "U4SMVSYCR",
+                    "U22LWR1TJ",
+                    "U049HDR2Z",
+                    "U27SUBTB9",
+                    "U3K7PNTML",
+                    "U0DA4J82H",
+                    "U5GCU82HX",
+                    "U4WGNNVA6",
+                    "U59CPL6ES",
+                    "U34Q3KU8H",
+                    "U45HFJLC9",
+                    "U1D6DT6HE",
+                    "U4WPS5X8X"
+                ],
+                "count": 23
+            },
+            {
+                "name": "fork",
+                "users": [
+                    "U4GL8MTTK",
+                    "U04CH4QBD",
+                    "U1D4RRA7K",
+                    "U1MLEMG11",
+                    "U1FLG6YR1",
+                    "U4RFX4PJT",
+                    "U04725QK7",
+                    "U4B8MC0AD",
+                    "U4P10HEJV",
+                    "U1BAKQH2M",
+                    "U040HKJE7",
+                    "U19FSHKL2",
+                    "U041P485A",
+                    "U0M39M6LS",
+                    "U0P95857C",
+                    "U1UC11GGN",
+                    "U537TD0MQ",
+                    "U10K3LXHV",
+                    "U5CDD54HW",
+                    "U27H0D18B",
+                    "U0DA4J82H",
+                    "U31S67ZC5",
+                    "U44FD6Q66",
+                    "U5KGYTNTE",
+                    "U34Q3KU8H",
+                    "U3DRBNHDW",
+                    "U4RSFE8JZ",
+                    "U45HFJLC9",
+                    "U1D6DT6HE",
+                    "U2992AMC1"
+                ],
+                "count": 30
+            },
+            {
+                "name": "povar",
+                "users": [
+                    "U041SH27M",
+                    "U0K47J3HR",
+                    "U1FLG6YR1",
+                    "U4RFX4PJT",
+                    "U15UZGX9A",
+                    "U10K3LXHV",
+                    "U1U6RHK51",
+                    "U4GD9N3GB",
+                    "U45HFJLC9"
+                ],
+                "count": 9
+            },
+            {
+                "name": "career",
+                "users": [
+                    "U1GMCNV3M",
+                    "U1G303UTW",
+                    "U3SJBMJ9M",
+                    "U4WPS5X8X",
+                    "U0QMJJ3SL",
+                    "U3K7PNTML",
+                    "U4X5MTXNC",
+                    "U45HFJLC9"
+                ],
+                "count": 8
+            },
+            {
+                "name": "crystal_ball",
+                "users": [
+                    "U1GMCNV3M",
+                    "U041P485A",
+                    "U4WM1939Q",
+                    "U0748JETV",
+                    "U22MEECFJ",
+                    "U35EN5VLG",
+                    "U0L4KM9R9",
+                    "U044084RH",
+                    "U1ULFPM0U",
+                    "U1LHE347N",
+                    "U214GCMD5",
+                    "U1ZCENED7",
+                    "U14DA0Y4U",
+                    "U4YQKKZFA",
+                    "U4XE6P0P3",
+                    "U2N853RGF",
+                    "U04ELQZAU",
+                    "U0Q3USC0Z",
+                    "U34Q3KU8H",
+                    "U5GHLLL2D",
+                    "U0AL6V5TN",
+                    "U45HFJLC9",
+                    "U1D6DT6HE"
+                ],
+                "count": 23
+            },
+            {
+                "name": "ololosh",
+                "users": [
+                    "U59CPL6ES",
+                    "U1LNBRZ29",
+                    "U45HFJLC9",
+                    "U32506X36"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Мне кажется - Никогда!) похоже на - <https:\/\/journal.tinkoff.ru\/flat-mkad\/>",
+        "user": "U0QMJJ3SL",
+        "ts": "1496072006.506983",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f866ed4df33a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-03-13\/26418544883_f866ed4df33a18e55ed8_72.jpg",
+            "first_name": "Gennady",
+            "real_name": "Gennady Sidelnikov",
+            "display_name": "gennady",
+            "team": "T040HKJE3",
+            "name": "gennady",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Т—Ж",
+                "title": "Как заработать на квартиру в пределах Мкада",
+                "title_link": "https:\/\/journal.tinkoff.ru\/flat-mkad\/",
+                "text": "Имея зарплату 100—200 тысяч",
+                "fallback": "Т—Ж: Как заработать на квартиру в пределах Мкада",
+                "image_url": "http:\/\/journal.tinkoff.ru\/wp-content\/uploads\/moskva_social.jpg",
+                "image_width": 478,
+                "image_height": 250,
+                "ts": 1480344760,
+                "from_url": "https:\/\/journal.tinkoff.ru\/flat-mkad\/",
+                "image_bytes": 128523,
+                "service_icon": "https:\/\/journal.tinkoff.ru\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "thread_ts": "1495694645.225595",
+        "parent_user_id": "U043ZLY35"
+    },
+    {
+        "type": "message",
+        "text": "<@U1BL20KEV> а если из Томска и опыт только в классификации ЭКГ ?)",
+        "user": "U5GHLLL2D",
+        "ts": "1496121760.292811",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "9aafa35b01e0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-04-25\/607220701938_9aafa35b01e0148b70c7_72.jpg",
+            "first_name": "Boris",
+            "real_name": "Boris Pyakillya",
+            "display_name": "ismorphism",
+            "team": "T040HKJE3",
+            "name": "morphism",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1496047157.029438",
+        "parent_user_id": "U1BL20KEV"
+    },
+    {
+        "type": "message",
+        "text": "Всем привет!\nМосковский офис компании Visa продолжает увеличиваться. Ищем модельера, желательно банковский опыт. С нас ЗП 150₽ (± от опыта). Ещё обязательно нужен английский, чтобы общаться с частью коллег.\n\nОбращаться здесь или по почте: <mailto:afilatov@visa.com|afilatov@visa.com>\n\n<https:\/\/usa.visa.com\/careers\/jobdetails.jobid.116270673.deptid.934140.html>",
+        "user": "U065WG554",
+        "ts": "1496122904.403861",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g68656934658",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8f68656934658154ca82cd695827b034.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "",
+            "real_name": "alexander_filatov",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "alexander_filatov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "dress",
+                "users": [
+                    "U18PYFC9L",
+                    "U17UDV31D",
+                    "U4YQKKZFA",
+                    "U4378H2KV",
+                    "U065WG554",
+                    "U0M39M6LS",
+                    "U4U4GFDNK",
+                    "U3PETUSSE",
+                    "U2AL40SAH",
+                    "U041SH27M",
+                    "U19VD9AQH",
+                    "U0JHK9001",
+                    "U0K47J3HR",
+                    "U1MLEMG11",
+                    "U1GMCNV3M",
+                    "U3K7PNTML",
+                    "U3172NP4Y",
+                    "U27SUBTB9",
+                    "U43QVTY49",
+                    "U5CDD54HW",
+                    "U4X5MTXNC",
+                    "U30Q9Q8MQ",
+                    "U3SJBMJ9M",
+                    "U044084RH",
+                    "U1CMPEWPQ",
+                    "U49NJJXNJ",
+                    "U04ELQZAU",
+                    "U34Q3KU8H",
+                    "U2N853RGF",
+                    "U0PEXP9PH",
+                    "U5EEXS2R1",
+                    "U37A9KAUE",
+                    "U0952QCHE",
+                    "U4J7ZE535"
+                ],
+                "count": 34
+            },
+            {
+                "name": "necktie",
+                "users": [
+                    "U0E4S5LU9",
+                    "U17UDV31D",
+                    "U4YQKKZFA",
+                    "U4378H2KV",
+                    "U065WG554",
+                    "U0M39M6LS",
+                    "U4U4GFDNK",
+                    "U041SH27M",
+                    "U1VBAF9K2",
+                    "U44J2H9K6",
+                    "U0JHK9001",
+                    "U1MLEMG11",
+                    "U1GMCNV3M",
+                    "U3K7PNTML",
+                    "U3172NP4Y",
+                    "U27SUBTB9",
+                    "U30Q9Q8MQ",
+                    "U3SJBMJ9M",
+                    "U1CMPEWPQ",
+                    "U04ELQZAU",
+                    "U34Q3KU8H",
+                    "U2N853RGF",
+                    "U0952QCHE",
+                    "U4J7ZE535"
+                ],
+                "count": 24
+            },
+            {
+                "name": "womans_hat",
+                "users": [
+                    "U36Q9NJMD",
+                    "U17UDV31D",
+                    "U4YQKKZFA",
+                    "U4378H2KV",
+                    "U0M39M6LS",
+                    "U041SH27M",
+                    "U0K47J3HR",
+                    "U1MLEMG11",
+                    "U1GMCNV3M",
+                    "U3K7PNTML",
+                    "U0M5S4EN6",
+                    "U3SJBMJ9M",
+                    "U065WG554",
+                    "U1CMPEWPQ",
+                    "U04ELQZAU",
+                    "U4J7ZE535"
+                ],
+                "count": 16
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U065WG554",
+                    "U4WTY7C3H",
+                    "U2D59TAPK"
+                ],
+                "count": 3
+            },
+            {
+                "name": "good-enough",
+                "users": [
+                    "U04725QK7",
+                    "U4YQKKZFA",
+                    "U4378H2KV",
+                    "U1VBAF9K2",
+                    "U44J2H9K6",
+                    "U4WTY7C3H",
+                    "U0AL6V5TN"
+                ],
+                "count": 7
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "U065WG554"
+                ],
+                "count": 1
+            },
+            {
+                "name": "moneybag",
+                "users": [
+                    "U065WG554",
+                    "U4M6JJ75M"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

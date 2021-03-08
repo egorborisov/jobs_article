@@ -1,0 +1,805 @@
+[
+    {
+        "client_msg_id": "630ab261-0484-4862-9512-0ed37b60a090",
+        "type": "message",
+        "text": "Ребята, ищу *CV Engineer* в ритейл компанию друга - *Briskly.* Описание обязанностей\/технологий я указала весьма приблизительное, так как плясать надо от задач на самом деле. Кому таким интересно было бы заняться или (еще лучше) если уже есть опыт решения подобных задач - вэлком в тг @yanalama.\n*Компания*: Briskly\n*Локация*: офис в Питере или Москве\n*Вилка*: :widefork: широкая, 180-350 на руки (на самом деле нет какой-то определенной вилки, все по договоренности, можно дешевле, можно дороже). Рассматриваем вариант от миддла до сеньора или звезды CV.\n\n*О проекте:*\n<https:\/\/briskly.online\/> Меняем и перетряхиваем мир ритейла, очень много публикаций и на <http:\/\/VC.ru|VC.ru> и в других источниках. Наверняка многие слышали про запуск первого умного холодильника от Азбуки Вкуса в подъезде жилого дома (так вот, это были мы:) ) - <https:\/\/www.retail.ru\/rbc\/pressreleases\/briskli-briskly-i-azbuka-vkusa-ustanovili-pervyy-mikromarket-v-podezde-zhilogo-doma\/> .\nПродуктовая суть проекта - это холодильники и магазины-контейнеры без кассира, где покупать товары можно без персонала в смартфоне, а за безопасностью следит нейросеть. Вот как раз для последней нам очень нужна экспертиза знающего человека, который работал с похожими задачами, и сможет привнести свои best pratcticies на проект.\n\nГлобально нужно будет разработать принципиально новое решение для системы видеонаблюдения и безопасности. Сейчас есть несколько рабочих решений, но хотим сделать в итоге одно, более экспертное и сильное. Самое главное - предстоит реализовать трекинг людей между камерами и трекинг того, какие товары они берут. Детекцию событий (взял товар, вернул товар на место\/положил  в другое\/своровал), детекцию разных людей, если зашло несколько человек. Из важного: не можем опираться на решения, связанные с распознаванием лиц, чаще всего лицо остается скрытым из-за положения камер. Задача не самая простая, но мы даем полный простор для RnD и экспериментов.\n\nВот, что будет туда примерно включено из подзадач:\n\n- разработать принципиально новое решение для нашей системы;\n- Писать и обучать сети с нуля;\n- Первичная сборка и разметка датасетов;\n- Анализ больших объемов данных, оценка качества датасетов, поиск и исправление аномалий;\n- Задачи определения движения по изображениям;\n- Разработка моделей в направлениях: object detection, object tracking, object classification, segmentation\n\nКак видно, есть задачи по всему пайплайну, рассматриваем вариант найма нескольких специалистов (например, синьор+миддл).\n\nЖестких требований нет по технологиям. Скорее хотим решение на С++, но можно и на питоне.\nПригодится опыт работы с YOLO, CUDA, OpenCV, Real-Time Computer Vision, Machine Learning.\n\n*По условиям:*\nБольше хотим специалиста в штат, нежели на конракт :)\nПо ЗП нет какого либо потолка, решили с СЕО оставить этот вопрос уже на момент предметной беседы, так как видим сразу несколько вариантов взаимодействия.\nОформление по ТК РФ",
+        "user": "U016DKXFDQC",
+        "ts": "1603737573.113100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "cdf409e547fc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433604518294_cdf409e547fce7a36179_72.jpg",
+            "first_name": "Yana",
+            "real_name": "Yana",
+            "display_name": "LAMA",
+            "team": "T040HKJE3",
+            "name": "fasya_super",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U016DKXFDQC",
+            "ts": "1603742871.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "n9h",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ребята, ищу "
+                            },
+                            {
+                                "type": "text",
+                                "text": "CV Engineer",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " в ритейл компанию друга - "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Briskly. ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Описание обязанностей\/технологий я указала весьма приблизительное, так как плясать надо от задач на самом деле. Кому таким интересно было бы заняться или (еще лучше) если уже есть опыт решения подобных задач - вэлком в тг @yanalama.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Briskly\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Локация",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": офис в Питере или Москве\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "widefork"
+                            },
+                            {
+                                "type": "text",
+                                "text": " широкая, 180-350 на руки (на самом деле нет какой-то определенной вилки, все по договоренности, можно дешевле, можно дороже). Рассматриваем вариант от миддла до сеньора или звезды CV.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "О проекте:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/briskly.online\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Меняем и перетряхиваем мир ритейла, очень много публикаций и на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/VC.ru",
+                                "text": "VC.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": " и в других источниках. Наверняка многие слышали про запуск первого умного холодильника от Азбуки Вкуса в подъезде жилого дома (так вот, это были мы:) ) - "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.retail.ru\/rbc\/pressreleases\/briskli-briskly-i-azbuka-vkusa-ustanovili-pervyy-mikromarket-v-podezde-zhilogo-doma\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": " .\nПродуктовая суть проекта - это холодильники и магазины-контейнеры без кассира, где покупать товары можно без персонала в смартфоне, а за безопасностью следит нейросеть. Вот как раз для последней нам очень нужна экспертиза знающего человека, который работал с похожими задачами, и сможет привнести свои best pratcticies на проект.\n\nГлобально нужно будет разработать принципиально новое решение для системы видеонаблюдения и безопасности. Сейчас есть несколько рабочих решений, но хотим сделать в итоге одно, более экспертное и сильное. Самое главное - предстоит реализовать трекинг людей между камерами и трекинг того, какие товары они берут. Детекцию событий (взял товар, вернул товар на место\/положил  в другое\/своровал), детекцию разных людей, если зашло несколько человек. Из важного: не можем опираться на решения, связанные с распознаванием лиц, чаще всего лицо остается скрытым из-за положения камер. Задача не самая простая, но мы даем полный простор для RnD и экспериментов.\n\nВот, что будет туда примерно включено из подзадач:\n\n- разработать принципиально новое решение для нашей системы;\n- Писать и обучать сети с нуля;\n- Первичная сборка и разметка датасетов;\n- Анализ больших объемов данных, оценка качества датасетов, поиск и исправление аномалий;\n- Задачи определения движения по изображениям;\n- Разработка моделей в направлениях: object detection, object tracking, object classification, segmentation\n\nКак видно, есть задачи по всему пайплайну, рассматриваем вариант найма нескольких специалистов (например, синьор+миддл).\n\nЖестких требований нет по технологиям. Скорее хотим решение на С++, но можно и на питоне.\nПригодится опыт работы с YOLO, CUDA, OpenCV, Real-Time Computer Vision, Machine Learning.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "По условиям:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nБольше хотим специалиста в штат, нежели на конракт :)\nПо ЗП нет какого либо потолка, решили с СЕО оставить этот вопрос уже на момент предметной беседы, так как видим сразу несколько вариантов взаимодействия.\nОформление по ТК РФ"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "reply_count": 23,
+        "reply_users_count": 5,
+        "latest_reply": "1604525381.162200",
+        "reply_users": [
+            "UHY5KKK6D",
+            "U016DKXFDQC",
+            "UELA14HSS",
+            "UFF6S5ZGE",
+            "UA2Q13FQF"
+        ],
+        "replies": [
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603738309.114700"
+            },
+            {
+                "user": "U016DKXFDQC",
+                "ts": "1603739094.115100"
+            },
+            {
+                "user": "U016DKXFDQC",
+                "ts": "1603739218.115300"
+            },
+            {
+                "user": "U016DKXFDQC",
+                "ts": "1603739458.115500"
+            },
+            {
+                "user": "UELA14HSS",
+                "ts": "1603739661.116000"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603739747.116200"
+            },
+            {
+                "user": "U016DKXFDQC",
+                "ts": "1603739793.116400"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603740307.116600"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1603747734.117400"
+            },
+            {
+                "user": "U016DKXFDQC",
+                "ts": "1603757226.117800"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1603758043.118000"
+            },
+            {
+                "user": "U016DKXFDQC",
+                "ts": "1603802025.119000"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603803218.119200"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603803224.119400"
+            },
+            {
+                "user": "U016DKXFDQC",
+                "ts": "1603803243.119600"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603803255.119800"
+            },
+            {
+                "user": "U016DKXFDQC",
+                "ts": "1603803433.120100"
+            },
+            {
+                "user": "UA2Q13FQF",
+                "ts": "1603823687.120800"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603823942.121000"
+            },
+            {
+                "user": "UA2Q13FQF",
+                "ts": "1603824138.121200"
+            },
+            {
+                "user": "UFF6S5ZGE",
+                "ts": "1603828064.121400"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1603830383.121600"
+            },
+            {
+                "user": "UHY5KKK6D",
+                "ts": "1604525381.162200"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "moneys",
+                "users": [
+                    "UF5DY9XQU",
+                    "U016DKXFDQC"
+                ],
+                "count": 2
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "UGPDS351S",
+                    "UC9HBTUKG",
+                    "UCN3NBGVA",
+                    "U19FSHKL2",
+                    "UKQTPE877",
+                    "UAF1W2R3M",
+                    "U0167ESBR6E"
+                ],
+                "count": 7
+            },
+            {
+                "name": "fork",
+                "users": [
+                    "UC9HBTUKG",
+                    "UCN3NBGVA"
+                ],
+                "count": 2
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "UF5DY9XQU",
+                    "U016DKXFDQC",
+                    "U0197RJVA1F"
+                ],
+                "count": 3
+            },
+            {
+                "name": "llama",
+                "users": [
+                    "UELA14HSS",
+                    "U016DKXFDQC",
+                    "ULPRYQNS2"
+                ],
+                "count": 3
+            },
+            {
+                "name": "bigbrother",
+                "users": [
+                    "UELA14HSS"
+                ],
+                "count": 1
+            },
+            {
+                "name": "turkey",
+                "users": [
+                    "UC7CX2SEN"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9ccfbb4d-5a38-4cea-af85-47971a4dc152",
+        "type": "message",
+        "text": "интересно через сколько этого холодильника не будет если поставить его в химках?",
+        "user": "UHY5KKK6D",
+        "ts": "1603738309.114700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3d7bb88461c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433476246342_f3d7bb88461c31e1bf92_72.jpg",
+            "first_name": "Dmitriy",
+            "real_name": "Dmitriy Novikov",
+            "display_name": "Dmitriy Novikov",
+            "team": "T040HKJE3",
+            "name": "nov.dm.konst",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HwN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "интересно через сколько этого холодильника не будет если поставить его в химках?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "parent_user_id": "U016DKXFDQC"
+    },
+    {
+        "client_msg_id": "7ade901c-50d0-418d-a8b1-3413ba0ee63a",
+        "type": "message",
+        "text": "обсуждали, спрашивали и уже отвечали на эти и подобные вопросы) покопаюсь и найду ссылку на прямой эфир, где СЕО об этом говорит",
+        "user": "U016DKXFDQC",
+        "ts": "1603739094.115100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "cdf409e547fc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433604518294_cdf409e547fce7a36179_72.jpg",
+            "first_name": "Yana",
+            "real_name": "Yana",
+            "display_name": "LAMA",
+            "team": "T040HKJE3",
+            "name": "fasya_super",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5oEg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "обсуждали, спрашивали и уже отвечали на эти и подобные вопросы) покопаюсь и найду ссылку на прямой эфир, где СЕО об этом говорит"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "parent_user_id": "U016DKXFDQC"
+    },
+    {
+        "client_msg_id": "f0275c93-2f36-405b-bd78-817daddff042",
+        "type": "message",
+        "text": "<@UHY5KKK6D> нашла\n<https:\/\/www.instagram.com\/p\/CCsucXsoNcx\/>",
+        "user": "U016DKXFDQC",
+        "ts": "1603739218.115300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "cdf409e547fc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433604518294_cdf409e547fce7a36179_72.jpg",
+            "first_name": "Yana",
+            "real_name": "Yana",
+            "display_name": "LAMA",
+            "team": "T040HKJE3",
+            "name": "fasya_super",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=UEw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UHY5KKK6D"
+                            },
+                            {
+                                "type": "text",
+                                "text": " нашла\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.instagram.com\/p\/CCsucXsoNcx\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "parent_user_id": "U016DKXFDQC"
+    },
+    {
+        "client_msg_id": "f08ea30e-d482-4a7d-8c95-53918b9ff3ac",
+        "type": "message",
+        "text": "и вот еще пост отдельно по теме воровства\n<https:\/\/www.instagram.com\/p\/CBxW8LSDCQO\/>\n\nпро вандализм наверное придется отдельно поискать)",
+        "user": "U016DKXFDQC",
+        "ts": "1603739458.115500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "cdf409e547fc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433604518294_cdf409e547fce7a36179_72.jpg",
+            "first_name": "Yana",
+            "real_name": "Yana",
+            "display_name": "LAMA",
+            "team": "T040HKJE3",
+            "name": "fasya_super",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7p\/f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "и вот еще пост отдельно по теме воровства\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.instagram.com\/p\/CBxW8LSDCQO\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nпро вандализм наверное придется отдельно поискать)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "parent_user_id": "U016DKXFDQC"
+    },
+    {
+        "client_msg_id": "02842c12-2d69-4e9c-8e4f-9c261624b7ca",
+        "type": "message",
+        "text": "<@UHY5KKK6D>  \"за безопасностью следит нейросеть\"(c)\n :terminator:",
+        "user": "UELA14HSS",
+        "ts": "1603739661.116000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f57d2c5ea770",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-12-04\/495013890082_f57d2c5ea770b73ea694_72.jpg",
+            "first_name": "Grigoriy",
+            "real_name": "Grigoriy Rashkov",
+            "display_name": "logogriph",
+            "team": "T040HKJE3",
+            "name": "rashkov079",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qSo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UHY5KKK6D"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  \"за безопасностью следит нейросеть\"(c)\n "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "terminator"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "parent_user_id": "U016DKXFDQC"
+    },
+    {
+        "client_msg_id": "889d39d2-61fe-4d48-87b6-89d83a502b98",
+        "type": "message",
+        "text": "ну если прикинуть то мы с соседом вполне его затащим на мой 4 этаж",
+        "user": "UHY5KKK6D",
+        "ts": "1603739747.116200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3d7bb88461c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433476246342_f3d7bb88461c31e1bf92_72.jpg",
+            "first_name": "Dmitriy",
+            "real_name": "Dmitriy Novikov",
+            "display_name": "Dmitriy Novikov",
+            "team": "T040HKJE3",
+            "name": "nov.dm.konst",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HmwJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ну если прикинуть то мы с соседом вполне его затащим на мой 4 этаж"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "parent_user_id": "U016DKXFDQC"
+    },
+    {
+        "client_msg_id": "bbde2868-9c30-474b-b625-299eb44e181a",
+        "type": "message",
+        "text": "а микромаркет в виде морского контейнера?)",
+        "user": "U016DKXFDQC",
+        "ts": "1603739793.116400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "cdf409e547fc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433604518294_cdf409e547fce7a36179_72.jpg",
+            "first_name": "Yana",
+            "real_name": "Yana",
+            "display_name": "LAMA",
+            "team": "T040HKJE3",
+            "name": "fasya_super",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DP0oV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "а микромаркет в виде морского контейнера?)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "parent_user_id": "U016DKXFDQC"
+    },
+    {
+        "client_msg_id": "f60d35bf-333d-4603-88d9-549d5f205e0f",
+        "type": "message",
+        "text": "с этим труднее, но думаю можно что то придумать",
+        "user": "UHY5KKK6D",
+        "ts": "1603740307.116600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f3d7bb88461c",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433476246342_f3d7bb88461c31e1bf92_72.jpg",
+            "first_name": "Dmitriy",
+            "real_name": "Dmitriy Novikov",
+            "display_name": "Dmitriy Novikov",
+            "team": "T040HKJE3",
+            "name": "nov.dm.konst",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y7k",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "с этим труднее, но думаю можно что то придумать"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "parent_user_id": "U016DKXFDQC"
+    },
+    {
+        "client_msg_id": "155817eb-1625-4d22-904d-627ace707c0e",
+        "type": "message",
+        "text": "<@U016DKXFDQC> не хочу придираться, но лучше бы просто ответ на вопрос написала, чем ссылка на часовой ролик",
+        "user": "UFF6S5ZGE",
+        "ts": "1603747734.117400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "538ea1c423f3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/889243187047_538ea1c423f3a78aa24f_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir",
+            "display_name": "КAIIUК",
+            "team": "T040HKJE3",
+            "name": "rozor0",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lAtT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U016DKXFDQC"
+                            },
+                            {
+                                "type": "text",
+                                "text": " не хочу придираться, но лучше бы просто ответ на вопрос написала, чем ссылка на часовой ролик"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "parent_user_id": "U016DKXFDQC"
+    },
+    {
+        "client_msg_id": "4b33a700-41f7-404a-a6b9-9909e83f0c05",
+        "type": "message",
+        "text": "<@UFF6S5ZGE> вот как раз придраться ты и хочешь)\nно я потом дала ссыль на пост, это попроще",
+        "user": "U016DKXFDQC",
+        "ts": "1603757226.117800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "cdf409e547fc",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-10-20\/1433604518294_cdf409e547fce7a36179_72.jpg",
+            "first_name": "Yana",
+            "real_name": "Yana",
+            "display_name": "LAMA",
+            "team": "T040HKJE3",
+            "name": "fasya_super",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ER7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UFF6S5ZGE"
+                            },
+                            {
+                                "type": "text",
+                                "text": " вот как раз придраться ты и хочешь)\nно я потом дала ссыль на пост, это попроще"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "parent_user_id": "U016DKXFDQC"
+    },
+    {
+        "client_msg_id": "80fe4740-c0f4-45be-9330-aa3d7f6f34fd",
+        "type": "message",
+        "text": "Нет же , не хотел, но ответ на вопрос получил, спасибки",
+        "user": "UFF6S5ZGE",
+        "ts": "1603758043.118000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "538ea1c423f3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-12-27\/889243187047_538ea1c423f3a78aa24f_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir",
+            "display_name": "КAIIUК",
+            "team": "T040HKJE3",
+            "name": "rozor0",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xcp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Нет же , не хотел, но ответ на вопрос получил, спасибки"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1603737573.113100",
+        "parent_user_id": "U016DKXFDQC",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U016DKXFDQC",
+                    "UPXFW5346"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

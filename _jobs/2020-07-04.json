@@ -1,0 +1,258 @@
+[
+    {
+        "client_msg_id": "3306f698-565b-4ef2-9b9a-6f4e20d949f7",
+        "type": "message",
+        "text": "Это на каждого ресерчера 10х8хV100?",
+        "user": "U5809J0LD",
+        "ts": "1593879820.382100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f6a8bc71e4d1",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-10-07\/450793288211_f6a8bc71e4d19c63c881_72.jpg",
+            "first_name": "Egor",
+            "real_name": "Egor Lakomkin",
+            "display_name": "egorlakomkin",
+            "team": "T040HKJE3",
+            "name": "egorlakomkin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8PR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Это на каждого ресерчера 10х8хV100?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1593784937.363100",
+        "parent_user_id": "U26MG2Z37",
+        "reactions": [
+            {
+                "name": "yeah-sure",
+                "users": [
+                    "U26MG2Z37",
+                    "U2PMV9N06",
+                    "U2N853RGF",
+                    "U45HFJLC9"
+                ],
+                "count": 4
+            },
+            {
+                "name": "oh-yeah",
+                "users": [
+                    "U26MG2Z37",
+                    "U2PMV9N06",
+                    "UC0URCPT7"
+                ],
+                "count": 3
+            },
+            {
+                "name": "moneys",
+                "users": [
+                    "U26MG2Z37"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1593919392.384100",
+        "thread_ts": "1593919392.384100",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1593926605.385400",
+        "reply_users": [
+            "UGPDS351S"
+        ],
+        "replies": [
+            {
+                "user": "UGPDS351S",
+                "ts": "1593926605.385400"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fork",
+                "users": [
+                    "ULPRYQNS2",
+                    "U4H9J8DSB",
+                    "UJJHA7E4X",
+                    "UHEDNPP6W",
+                    "UGYCYKXC6",
+                    "U828HFY0G",
+                    "UCAEKNA4V",
+                    "U8720JR0U"
+                ],
+                "count": 8
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "UFGE5EYEL"
+                ],
+                "count": 1
+            },
+            {
+                "name": "rowing-galera",
+                "users": [
+                    "UFGE5EYEL",
+                    "UD37TP39U",
+                    "U828HFY0G"
+                ],
+                "count": 3
+            },
+            {
+                "name": "flag-england",
+                "users": [
+                    "U8PMZ6397",
+                    "U8WGH35EH",
+                    "U8720JR0U"
+                ],
+                "count": 3
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U9T0G9W3G"
+                ],
+                "count": 1
+            },
+            {
+                "name": "facepalm",
+                "users": [
+                    "U9T0G9W3G"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4fcb93e6-900f-464e-8a45-e2fbb4b3eb0c",
+        "type": "message",
+        "text": "дело не в том что может постгрес, а в том - как трактовать.\nmysql\/nosql - можно трактовать как требование умения работать с конкретной субд mysql и уметь работать с какой-нибудь nosql бд, а можно трактовать как некорректное описание...\nmysql - это конкретная субд,\nа nosql - целый, скажем, класс субд...",
+        "user": "U15V81K6V",
+        "ts": "1593920171.384300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "18d795dcd924",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-26\/354719253015_18d795dcd924d344b8fe_72.jpg",
+            "first_name": "exotol",
+            "real_name": "exotol",
+            "display_name": "exotol",
+            "team": "T040HKJE3",
+            "name": "exotol",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U15V81K6V",
+            "ts": "1593920267.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "O9zA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "дело не в том что может постгрес, а в том - как трактовать.\nmysql\/nosql - можно трактовать как требование умения работать с конкретной субд mysql и уметь работать с какой-нибудь nosql бд, а можно трактовать как некорректное описание...\nmysql - это конкретная субд,\nа nosql - целый, скажем, класс субд..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1593785075.363800",
+        "parent_user_id": "U26MG2Z37"
+    },
+    {
+        "client_msg_id": "3fd1149b-185f-428f-a7f6-2f79ebb5cb1d",
+        "type": "message",
+        "text": "sometimes here are posted some international vacancies, like: <https:\/\/opendatascience.slack.com\/archives\/C04DA5FUF\/p1593606374257600>",
+        "user": "UGPDS351S",
+        "ts": "1593926605.385400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g4ce6a7428ea",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9c4ce6a7428eac3563062f90c2c010d2.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0005-72.png",
+            "first_name": "Sergei",
+            "real_name": "Sergei Shushkov",
+            "display_name": "saertis",
+            "team": "T040HKJE3",
+            "name": "saertis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/opendatascience.slack.com\/archives\/C04DA5FUF\/p1593606374257600",
+                "fallback": "[July 1st, 2020 5:26 AM] pawel365: *Senior Data Scientist \/ Machine learning engineer at Peanut*\n_REMOTE, anywhere in Europe, 70-80k GBP annual salary + equity_\n*About the company:*\n\nOur mission is to provide a social network for women to connect across fertility and motherhood. So far, over 1 million women have joined to build friendships, find support, and learn from one another.\nWe recently closed *our $17M Series A* round and are backed by market-leading VCs including EQT Ventures, Index Ventures, Female Founders Fund and Sweet Capital (the brains behind <http:\/\/King.com|King.com>), enabling us to grow our team… now is a great time to join!\nSince 2017, we've grown quickly across the US and other countries and received numerous accolades from Apple, the New York Times, Good Morning America, and the BBC to name a few.\n\n*Ideal profile:*\nYou have:\n• been a data scientist or software engineer in fast-growing consumer firm for 5+ years\n• significant experience with NLP toolkits, e.g. NLTK\n• experience with building machine learning models, e.g. Scikit-Learn or Pytorch\n• become very comfortable manipulating large datasets\n• a solid statistics background.\n• While these are not requirements, we'll be excited if you've also:\n• Can write SQL fluently.\n• Have experience programming in Ruby.\n• Worked on any mobile product in the social or gaming area.\n*Responsibilities*\nThis is a full-time position. You'll report to Julien, our CTO, and work within our Engineering team of 14 people.\nWe'll expect you to design, build, and ship:\n• Natural language engines based on user-generated content, such as\n• Keyword\/tag suggestion\n• Content classification\n• Sentiment analysis\n• Machine learning engines, such as\n• Learning-to-rank \"matching\" user profiles\n• Recommending content to users\nAs well as contribute to data analysis:\n• Identify patterns, correlations, and causes to user behaviour\n• Generally, support product intelligence and deliver insights to help guide our roadmap\n*Contact:* More details <https:\/\/mytechtree.io\/peanut\/o\/9c8e09f0-ac10-11ea-9b9f-8b69db8bb75c|here> or reach out to me directly: <mailto:pawel@mytechtree.io|pawel@mytechtree.io>.",
+                "ts": "1593606374.257600",
+                "author_id": "U013MT7PS5V",
+                "author_subname": "Pawel Tomczuk",
+                "channel_id": "C04DA5FUF",
+                "channel_name": "_jobs",
+                "is_msg_unfurl": true,
+                "is_thread_root_unfurl": true,
+                "text": "*Senior Data Scientist \/ Machine learning engineer at Peanut*\n_REMOTE, anywhere in Europe, 70-80k GBP annual salary + equity_\n*About the company:*\n\nOur mission is to provide a social network for women to connect across fertility and motherhood. So far, over 1 million women have joined to build friendships, find support, and learn from one another.\nWe recently closed *our $17M Series A* round and are backed by market-leading VCs including EQT Ventures, Index Ventures, Female Founders Fund and Sweet Capital (the brains behind <http:\/\/King.com|King.com>), enabling us to grow our team… now is a great time to join!\nSince 2017, we've grown quickly across the US and other countries and received numerous accolades from Apple, the New York Times, Good Morning America, and the BBC to name a few.\n\n*Ideal profile:*\nYou have:\n• been a data scientist or software engineer in fast-growing consumer firm for 5+ years\n• significant experience with NLP toolkits, e.g. NLTK\n• experience with building machine learning models, e.g. Scikit-Learn or Pytorch\n• become very comfortable manipulating large datasets\n• a solid statistics background.\n• While these are not requirements, we'll be excited if you've also:\n• Can write SQL fluently.\n• Have experience programming in Ruby.\n• Worked on any mobile product in the social or gaming area.\n*Responsibilities*\nThis is a full-time position. You'll report to Julien, our CTO, and work within our Engineering team of 14 people.\nWe'll expect you to design, build, and ship:\n• Natural language engines based on user-generated content, such as\n• Keyword\/tag suggestion\n• Content classification\n• Sentiment analysis\n• Machine learning engines, such as\n• Learning-to-rank \"matching\" user profiles\n• Recommending content to users\nAs well as contribute to data analysis:\n• Identify patterns, correlations, and causes to user behaviour\n• Generally, support product intelligence and deliver insights to help guide our roadmap\n*Contact:* More details <https:\/\/mytechtree.io\/peanut\/o\/9c8e09f0-ac10-11ea-9b9f-8b69db8bb75c|here> or reach out to me directly: <mailto:pawel@mytechtree.io|pawel@mytechtree.io>.",
+                "author_name": "Pawel Tomczuk",
+                "author_link": "https:\/\/opendatascience.slack.com\/team\/U013MT7PS5V",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2020-07-01\/1201967655943_40be5096891847b62970_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "original_url": "https:\/\/opendatascience.slack.com\/archives\/C04DA5FUF\/p1593606374257600",
+                "footer": "Thread in #_jobs"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wby",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sometimes here are posted some international vacancies, like: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/opendatascience.slack.com\/archives\/C04DA5FUF\/p1593606374257600"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1593919392.384100",
+        "parent_user_id": "U016XA7H7MW"
+    }
+]

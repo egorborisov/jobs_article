@@ -1,0 +1,1196 @@
+[
+    {
+        "client_msg_id": "76214839-2982-47c7-a41f-05838612087d",
+        "type": "message",
+        "text": "<@U017Y1UL2B1> Студенты в лаборатории есть, но если вам хочется с нами поделать какой-то проект, то есть интересные задачи в Science Club от того же <@U0K47J3HR>, например.",
+        "user": "UCPM7T0ET",
+        "ts": "1601535668.358700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "34ed0da7f316",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-12-11\/499867916817_34ed0da7f316c69e4040_72.png",
+            "first_name": "Евгений",
+            "real_name": "Евгений Егоров",
+            "display_name": "To-olak",
+            "team": "T040HKJE3",
+            "name": "eugolak",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XYB\/b",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U017Y1UL2B1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Студенты в лаборатории есть, но если вам хочется с нами поделать какой-то проект, то есть интересные задачи в Science Club от того же "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U0K47J3HR"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", например."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601389964.172000",
+        "parent_user_id": "UCPM7T0ET"
+    },
+    {
+        "client_msg_id": "4ef2af8a-267f-4ef2-b49d-a3d77a71675d",
+        "type": "message",
+        "text": "ransformers",
+        "user": "U7UQ5RHT2",
+        "ts": "1601537181.360000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "adf17db5381a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-13\/1498826742962_adf17db5381af77fd28b_72.jpg",
+            "first_name": "Andrey",
+            "real_name": "Andrey Nemerov",
+            "display_name": "Andr",
+            "team": "T040HKJE3",
+            "name": "anveseliy",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wUm9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ransformers"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600773824.149900",
+        "parent_user_id": "U26MG2Z37",
+        "reactions": [
+            {
+                "name": "peperun",
+                "users": [
+                    "UELA14HSS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "85d83cbb-4620-48bc-b194-18ca3f06bcfd",
+        "type": "message",
+        "text": "<@U0167FDMS2W> вы про корутины? Так это просто сахар. На jvm можно делать асинхронный, неблокирующий код на промисах. Правда это сложнее, чем писать обычный код. Единственное что jvm пока не может адресовать, это значительно меньший мемори футпринт, чем в плюсах и векторные вычисления. Но мы оч ждем value types и vector api.",
+        "user": "U1Q0B8KMJ",
+        "ts": "1601548231.366000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d81e37e90cdb",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-29\/1416917536064_d81e37e90cdbdcacb2fd_72.jpg",
+            "first_name": "Denis",
+            "real_name": "Denis Gabaydulin",
+            "display_name": "sherman",
+            "team": "T040HKJE3",
+            "name": "sherman",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1Q0B8KMJ",
+            "ts": "1601548247.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OjKG\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0167FDMS2W"
+                            },
+                            {
+                                "type": "text",
+                                "text": " вы про корутины? Так это просто сахар. На jvm можно делать асинхронный, неблокирующий код на промисах. Правда это сложнее, чем писать обычный код. Единственное что jvm пока не может адресовать, это значительно меньший мемори футпринт, чем в плюсах и векторные вычисления. Но мы оч ждем value types и vector api."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601483252.325200",
+        "parent_user_id": "U0URGR276"
+    },
+    {
+        "client_msg_id": "37038c65-cc5c-4a04-aee7-4a22f1faca32",
+        "type": "message",
+        "text": "корутины - это относительно недавний сахар, я общался с человеком лет 5 назад, когда их ещё не было, возможно через setjmp делали, не уточнял. но впечатлил сам подход, когда борются за каждый такт, правда там HFT был",
+        "user": "U0167FDMS2W",
+        "ts": "1601548976.366500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "bee526673c19",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-18\/1511705652946_bee526673c193b8be0f8_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Salnikov",
+            "display_name": "corsair",
+            "team": "T040HKJE3",
+            "name": "sergey.salnikov.dev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "F=6Z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "корутины - это относительно недавний сахар, я общался с человеком лет 5 назад, когда их ещё не было, возможно через setjmp делали, не уточнял. но впечатлил сам подход, когда борются за каждый такт, правда там HFT был"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601483252.325200",
+        "parent_user_id": "U0URGR276"
+    },
+    {
+        "client_msg_id": "12fff58a-68ca-49b6-af04-7b9c2d8529a7",
+        "type": "message",
+        "text": "я ничего против jvm не имею, java и scala оставили хорошие воспоминания, kotlin - ещё более хорошие, помню ходил лет 10 назад на презентации ранних этапов котлина от самого Бреслава, но у меня сложилась ниша jvm как продукт для больших сложных проектов, а когда нужно выжимать перформанс - расчехляют плюсы, сам когда-то на boost:asio выжимал 30K rps на core (это вместе с предиктом допиленной libffm)",
+        "user": "U0167FDMS2W",
+        "ts": "1601549300.366800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "bee526673c19",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-18\/1511705652946_bee526673c193b8be0f8_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Salnikov",
+            "display_name": "corsair",
+            "team": "T040HKJE3",
+            "name": "sergey.salnikov.dev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "25r0W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "я ничего против jvm не имею, java и scala оставили хорошие воспоминания, kotlin - ещё более хорошие, помню ходил лет 10 назад на презентации ранних этапов котлина от самого Бреслава, но у меня сложилась ниша jvm как продукт для больших сложных проектов, а когда нужно выжимать перформанс - расчехляют плюсы, сам когда-то на boost:asio выжимал 30K rps на core (это вместе с предиктом допиленной libffm)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601483252.325200",
+        "parent_user_id": "U0URGR276"
+    },
+    {
+        "client_msg_id": "f2a910a1-3c4f-4489-8957-4d5809a856af",
+        "type": "message",
+        "text": "<@U0167FDMS2W>, мы нацеливаемся создать большой сложный проект. Не говнокодить примитивные алгоритмы на массивах с оптимизацией каждого такта, а создать большую удобную платформу, со скоростью 1.1-1.2х относительно плюсов.",
+        "user": "U0URGR276",
+        "ts": "1601551117.367100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f987d5de9435",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-27\/535355796775_f987d5de94350e5b03f4_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Popovich",
+            "display_name": "anton.popovich",
+            "team": "T040HKJE3",
+            "name": "batony4",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0URGR276",
+            "ts": "1601551123.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kUzQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0167FDMS2W"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", мы нацеливаемся создать большой сложный проект. Не говнокодить примитивные алгоритмы на массивах с оптимизацией каждого такта, а создать большую удобную платформу, со скоростью 1.1-1.2х относительно плюсов."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601483252.325200",
+        "parent_user_id": "U0URGR276"
+    },
+    {
+        "client_msg_id": "8829cd60-c665-4139-b55e-e6bd37d6d59f",
+        "type": "message",
+        "text": "<@U0167FDMS2W> ну в общем на плюсах можно написать кое-что быстрее если использовать state of the art, но в принципе по дефолту это вообще не так. В большинстве проектов даже на плюсах люди, до этого не доходят (свой специфичный аллокатор, свои базовые примитивные функции, свои структуры, своя упаковка, использование непереносимого кода os\/hardware, хардкорная векторизация). Но если доходят, то да, в jvm тут пока меньше вариантов, хотя 90% случае можно покрыть, кроме разве что memory foortprint и векторизацию мы пока не умеем (через jni\/ipc медленно будет).",
+        "user": "U1Q0B8KMJ",
+        "ts": "1601552102.367500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d81e37e90cdb",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-29\/1416917536064_d81e37e90cdbdcacb2fd_72.jpg",
+            "first_name": "Denis",
+            "real_name": "Denis Gabaydulin",
+            "display_name": "sherman",
+            "team": "T040HKJE3",
+            "name": "sherman",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U1Q0B8KMJ",
+            "ts": "1601552217.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+oO+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0167FDMS2W"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ну в общем на плюсах можно написать кое-что быстрее если использовать state of the art, но в принципе по дефолту это вообще не так. В большинстве проектов даже на плюсах люди, до этого не доходят (свой специфичный аллокатор, свои базовые примитивные функции, свои структуры, своя упаковка, использование непереносимого кода os\/hardware, хардкорная векторизация). Но если доходят, то да, в jvm тут пока меньше вариантов, хотя 90% случае можно покрыть, кроме разве что memory foortprint и векторизацию мы пока не умеем (через jni\/ipc медленно будет)."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601483252.325200",
+        "parent_user_id": "U0URGR276"
+    },
+    {
+        "client_msg_id": "15dfc892-b7c6-4ae6-86fd-2dc2a30db9c5",
+        "type": "message",
+        "text": "это известный tradeoff - хочешь бОльшую производительность - пожертвуй ванильными паттернами. просто в плюсах возможности для наращивания производительности присутствуют \"из-коробки\" (тот-же свой аллокатор из пула делается штатными средствами на одной странице кода), а в jvm с этим не знаю даже как. и когда встанет вопрос производительности - в jvm тоже начнется неправославный код",
+        "user": "U0167FDMS2W",
+        "ts": "1601552467.368400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "bee526673c19",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-11-18\/1511705652946_bee526673c193b8be0f8_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Salnikov",
+            "display_name": "corsair",
+            "team": "T040HKJE3",
+            "name": "sergey.salnikov.dev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lL0m",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "это известный tradeoff - хочешь бОльшую производительность - пожертвуй ванильными паттернами. просто в плюсах возможности для наращивания производительности присутствуют \"из-коробки\" (тот-же свой аллокатор из пула делается штатными средствами на одной странице кода), а в jvm с этим не знаю даже как. и когда встанет вопрос производительности - в jvm тоже начнется неправославный код"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601483252.325200",
+        "parent_user_id": "U0URGR276",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U0URGR276",
+                    "UMY3SJF5K"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "48f45b55-55af-4288-b009-969835e20eb6",
+        "type": "message",
+        "text": "много ли у вас работает DS и\/или аналитиков сейчас?",
+        "user": "U0FEJNBGQ",
+        "ts": "1601555558.369000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e710b72d6dd0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-22\/1384249233316_e710b72d6dd06bd07ca6_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Lebedevich",
+            "display_name": "mabrek",
+            "team": "T040HKJE3",
+            "name": "mabrek",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y\/Pl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "много ли у вас работает DS и\/или аналитиков сейчас?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601468490.286200",
+        "parent_user_id": "U2G9LSS3D"
+    },
+    {
+        "client_msg_id": "7f98a6ae-72da-40c7-a042-0b0667def95d",
+        "type": "message",
+        "text": "Недостаточно много)",
+        "user": "U2G9LSS3D",
+        "ts": "1601566549.372800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "dec6ad093a1a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-30\/1397336401074_dec6ad093a1a856ed060_72.jpg",
+            "first_name": "Vladimir",
+            "real_name": "Vladimir Shtanko",
+            "display_name": "v.shtanko",
+            "team": "T040HKJE3",
+            "name": "v.shtanko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z8Gx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Недостаточно много)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601468490.286200",
+        "parent_user_id": "U2G9LSS3D"
+    },
+    {
+        "client_msg_id": "c01c9fd8-a896-488f-9769-422cb8dd325c",
+        "type": "message",
+        "text": "Всем привет. В компанию \n X5 Retail Group, Перекресток Впрок в команду Бизнес архитектуры ищем (джун+\/мид ) Data analyst . По деньгам вилка от 80к - 120к (зависит от уровня кандидата)\n\nОбязанности:\n1. Предобработка и наполнение хранилища данными\n2. Проверка гипотез \n3. Разработка предикативных моделей и участие в разработке рекомендательной системы\n4. Работа с текстовыми данными \n7. Отображение полученных результатов в tableau \n 8. Заполнять confluence информацией о том, что сделал и вести трекер задач в Jira\n\n\nЧто надо уметь обязательно:\n1.Python (хороший уровень)\n2. Sql\n3. Знание Pyspark (будет преимуществом)\n4. Знание мл, dl (основы )\n5. Навык работа с api, Google Analytics или подобными сервисами\n6. Опыт работы с Git\n7. Умение работать с разными источниками данных\n8. Знание хадупа (понимание)\n9. Работа с витринами данных \n10. Навык работы с tableau (будет преимуществом)\n11. Умение правильно формулировать и доносить свои мысли\n\n\nОфис находится на ст.м.Добрынинская, Коровий вал, д.5.\nПока работаем удаленно.\nЕсть корпоративное обучение",
+        "user": "U01364M86TE",
+        "ts": "1601566602.373100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ea5a1767b2cd",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-04\/1102197803971_ea5a1767b2cd997a44ae_72.jpg",
+            "first_name": "Alexander",
+            "real_name": "Alexander Nemaltsev",
+            "display_name": "Alexander Nemaltsev",
+            "team": "T040HKJE3",
+            "name": "agruiwdoxmi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MLyGI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет. В компанию \n X5 Retail Group, Перекресток Впрок в команду Бизнес архитектуры ищем (джун+\/мид ) Data analyst . По деньгам вилка от 80к - 120к (зависит от уровня кандидата)\n\nОбязанности:\n1. Предобработка и наполнение хранилища данными\n2. Проверка гипотез \n3. Разработка предикативных моделей и участие в разработке рекомендательной системы\n4. Работа с текстовыми данными \n7. Отображение полученных результатов в tableau \n 8. Заполнять confluence информацией о том, что сделал и вести трекер задач в Jira\n\n\nЧто надо уметь обязательно:\n1.Python (хороший уровень)\n2. Sql\n3. Знание Pyspark (будет преимуществом)\n4. Знание мл, dl (основы )\n5. Навык работа с api, Google Analytics или подобными сервисами\n6. Опыт работы с Git\n7. Умение работать с разными источниками данных\n8. Знание хадупа (понимание)\n9. Работа с витринами данных \n10. Навык работы с tableau (будет преимуществом)\n11. Умение правильно формулировать и доносить свои мысли\n\n\nОфис находится на ст.м.Добрынинская, Коровий вал, д.5.\nПока работаем удаленно.\nЕсть корпоративное обучение"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601566602.373100",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1601614917.399600",
+        "reply_users": [
+            "UG5LLQMR9",
+            "UGF8L176H",
+            "USPAWPRPX"
+        ],
+        "replies": [
+            {
+                "user": "UG5LLQMR9",
+                "ts": "1601581947.386700"
+            },
+            {
+                "user": "UGF8L176H",
+                "ts": "1601586175.389600"
+            },
+            {
+                "user": "USPAWPRPX",
+                "ts": "1601614917.399600"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "UQMCTGYEL",
+                    "U01AEBPE3UH",
+                    "UMLRW4Q6N",
+                    "U600Q839S",
+                    "UAVE71UDN",
+                    "UAT33QHB5",
+                    "U74DLUWUC",
+                    "UHJQHE3FZ",
+                    "UBPSWEPG8",
+                    "UASAVHMBJ",
+                    "U5FCA4F8X",
+                    "U04725QK7",
+                    "U0FEJNBGQ",
+                    "U6QC0PC3C",
+                    "U4AQM4FV0",
+                    "U6YDWF4UB",
+                    "UNV8CRNNB",
+                    "U0UJ10A9J",
+                    "UU6LQEZFS",
+                    "U5TGT5SQ2",
+                    "U47A0GZLK",
+                    "U9JPJCD2L",
+                    "UJ2JGSQ3X",
+                    "UQVTRBQ9J",
+                    "USPAWPRPX",
+                    "UKQTPE877",
+                    "ULPRYQNS2",
+                    "UQ9UCJT0T",
+                    "U8M5Y2Z6H",
+                    "UC9HBTUKG",
+                    "U6X4Q9493",
+                    "U049HDR2Z",
+                    "U014VF7GJKD",
+                    "UKQTHKEPJ",
+                    "UDKSK23J6",
+                    "U01364G3W84",
+                    "UMM890NT1",
+                    "UG3P7DHB9",
+                    "U6T11F9T4",
+                    "UD37TP39U",
+                    "UGPDS351S",
+                    "U01C38CP0Q0",
+                    "U9HSZRDP1",
+                    "UF5E26Z28",
+                    "UT1EQLTEH",
+                    "UGD9J4276",
+                    "UCB3PK96J",
+                    "UAA8R56AD",
+                    "U6UNGFSMQ",
+                    "UNDJC82EQ"
+                ],
+                "count": 94
+            },
+            {
+                "name": "hankey",
+                "users": [
+                    "UMLRW4Q6N",
+                    "U5FCA4F8X",
+                    "UNEJZPM6E",
+                    "U6683A4BT",
+                    "UC9HBTUKG",
+                    "U6X4Q9493",
+                    "U049HDR2Z",
+                    "UG3P7DHB9",
+                    "UF5E26Z28",
+                    "UGD9J4276",
+                    "UCB3PK96J",
+                    "UPXFW5346",
+                    "U6UNGFSMQ",
+                    "U2ZHRCAUB",
+                    "URSUAHV4K",
+                    "U013829BYKY",
+                    "UUHCX1YSX",
+                    "U7E8Y3V19",
+                    "UB4BD0R6W",
+                    "U5KD4L5JP",
+                    "UM5CR4AR4",
+                    "UEYFG7JGM",
+                    "U786N351N",
+                    "UUCMSG459",
+                    "UG6TAGUAZ",
+                    "U9M4BGEL8",
+                    "U6YV1UAS1",
+                    "UKJGXC8HX",
+                    "U011QC2M545",
+                    "UM7QTEN1G"
+                ],
+                "count": 30
+            },
+            {
+                "name": "x5",
+                "users": [
+                    "UHGV5M8KF",
+                    "U01364M86TE",
+                    "U011EJM7UKG",
+                    "UDK41MN5U",
+                    "UMM890NT1",
+                    "UCB3PK96J",
+                    "US0J3A9EC",
+                    "U01AFBY691U"
+                ],
+                "count": 8
+            },
+            {
+                "name": "venheads3",
+                "users": [
+                    "U5GCU82HX",
+                    "UFT8P7WF8",
+                    "ULPRYQNS2",
+                    "U013PPV77PS",
+                    "UMM890NT1",
+                    "UAF1W2R3M",
+                    "UCB3PK96J",
+                    "UT8JV7BDG",
+                    "UTUCPJMRS",
+                    "U53N06MPE",
+                    "URV3BA571",
+                    "U6L08K8KS",
+                    "UJ2N4SVBJ",
+                    "ULBFALNTA",
+                    "U01B9HH7HSB"
+                ],
+                "count": 15
+            },
+            {
+                "name": "venheads",
+                "users": [
+                    "U9JPJCD2L",
+                    "UNMTRMDE0",
+                    "UTMCL8ERW",
+                    "U016HEUF03A",
+                    "UMM890NT1",
+                    "UT8JV7BDG",
+                    "UTUCPJMRS",
+                    "UPS7RJXUK",
+                    "U6L08K8KS",
+                    "US9UU8PFS",
+                    "U7VDWFSG3",
+                    "U95GAP5JT"
+                ],
+                "count": 12
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "UPH9B0PBM",
+                    "USJDT3W4R",
+                    "UTR1973RS"
+                ],
+                "count": 3
+            },
+            {
+                "name": "half_lemon",
+                "users": [
+                    "UGPDS351S"
+                ],
+                "count": 1
+            },
+            {
+                "name": "mailbox_closed",
+                "users": [
+                    "U27HU84H4",
+                    "U019HTETNUC"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1ebe9e17-4d2b-4735-b325-c3e54547a3da",
+        "type": "message",
+        "text": "Вы предоставите платформу для написания роботов, апи, или собственных роботов?",
+        "user": "U509ZR4P8",
+        "ts": "1601567492.374400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g159709e7471",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/159709e74716c7585b935d5e413d1470.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Marushchenko",
+            "display_name": "maruschin",
+            "team": "T040HKJE3",
+            "name": "maruschin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Tcm==",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Вы предоставите платформу для написания роботов, апи, или собственных роботов?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601483252.325200",
+        "parent_user_id": "U0URGR276"
+    },
+    {
+        "client_msg_id": "ae445f9a-ff2a-4b14-bc46-fdd8900218a6",
+        "type": "message",
+        "text": "А если в числах, то 2 MLE и около 10 аналитиков. Такая диспропорция возникла по историческим причинам, планируем иметь по 10-15 и тех, и других",
+        "user": "UB7HBRMFS",
+        "ts": "1601567954.375200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7e709309eba3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-09-29\/445884685586_7e709309eba3b7ce29ad_72.png",
+            "first_name": "",
+            "real_name": "Andrei Zhabinski",
+            "display_name": "dfdx",
+            "team": "T040HKJE3",
+            "name": "andrei.zhabinski",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Niy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "А если в числах, то 2 MLE и около 10 аналитиков. Такая диспропорция возникла по историческим причинам, планируем иметь по 10-15 и тех, и других"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601468490.286200",
+        "parent_user_id": "U2G9LSS3D"
+    },
+    {
+        "client_msg_id": "e9730037-ccad-44eb-a1d1-978080d34285",
+        "type": "message",
+        "text": "Резюме в личку отправлять ?",
+        "user": "UG5LLQMR9",
+        "ts": "1601581947.386700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gdcdf80771d6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c7dcdf80771d667ae5f424e744e9191c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+            "first_name": "Mityaev",
+            "real_name": "Mityaev Maxim",
+            "display_name": "MMityaev",
+            "team": "T040HKJE3",
+            "name": "mityaev.maxim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DteI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Резюме в личку отправлять ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601566602.373100",
+        "parent_user_id": "U01364M86TE",
+        "reactions": [
+            {
+                "name": "exploding_head",
+                "users": [
+                    "U019HTETNUC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "680f4080-4a1e-455c-85d1-c6cd138e49aa",
+        "type": "message",
+        "text": "Для X5 вилка какая-то совсем несолидная.",
+        "user": "UGF8L176H",
+        "ts": "1601586175.389600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gab35c96aa34",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a3ab35c96aa34f6dc54ee0dc781c1167.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Viacheslav",
+            "real_name": "Viacheslav",
+            "display_name": "Exzotick",
+            "team": "T040HKJE3",
+            "name": "spitcyn-slava",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "e55",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Для X5 вилка какая-то совсем несолидная."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601566602.373100",
+        "parent_user_id": "U01364M86TE",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U0160NNUQVC",
+                    "U97RK52N6",
+                    "USPAWPRPX",
+                    "ULB93LZ2S",
+                    "UG9SGQBKP",
+                    "UCB3PK96J",
+                    "U9M4BGEL8",
+                    "URCJQEFV4",
+                    "URQJH0YE6",
+                    "U6URRB952",
+                    "U0SPF9SE9",
+                    "UBH2EAS82",
+                    "U013C9MKLPM",
+                    "U9V48C738",
+                    "U95GAP5JT"
+                ],
+                "count": 15
+            }
+        ]
+    },
+    {
+        "client_msg_id": "84d1c05a-f657-4a93-b4ed-b7fa569c0431",
+        "type": "message",
+        "text": "<@U509ZR4P8>, мы разрабатываем платформу для разработки и запуска роботов.",
+        "user": "U0URGR276",
+        "ts": "1601588633.392800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f987d5de9435",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-27\/535355796775_f987d5de94350e5b03f4_72.jpg",
+            "first_name": "Anton",
+            "real_name": "Anton Popovich",
+            "display_name": "anton.popovich",
+            "team": "T040HKJE3",
+            "name": "batony4",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ltg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U509ZR4P8"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", мы разрабатываем платформу для разработки и запуска роботов."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601483252.325200",
+        "parent_user_id": "U0URGR276"
+    },
+    {
+        "client_msg_id": "dc0979dc-ab6f-40d1-a616-81378f789df9",
+        "type": "message",
+        "text": "Название вакансии: data analyst (на сайте компании традиционно называется R developer, потому что нам очень важен R)\n\nНазвание компании: Сиденис.\nРусско-швейцарская IT-компания, которая делает ПО для перестраховочного бизнеса.\nВсего около 200 сотрудников в 4 городах.\n\nГород: Санкт-Петербург или Томск.\n\nТип работы: можно работать 4 дня из 5 удаленно, при желании можно работать из офиса\n\nОписание того, что нужно делать.\nУ нас есть сложная модель на Java и различные клиенты, взаимодействующие с ней.\nСреди них есть много пакетов и веб-приложений на R.\nЗадачи будут связаны с поддержкой существующих пакетов и веб-приложений, а также с написанием новых.\nКроме того, придётся взаимодействовать с актуариями и проводить анализ для них (например, расчёт различных убытков, визуализация).\nКроме того, в команде есть data scientists, будет возможность работать с ними (их стэк R и Python).\nИз последнего пункта исходит машинное обучение и nlp в плюсах.\nПример data science задачи: sentiment analysis of Covid-related news connected with certain companies.\nПроект состоит из 5-команд, построенных во многом по территориальному принципу.\nЧеловека ищут в Петербургскую команду, но в ней работают люди из Петербурга, Цюриха и Бангалора.\nРаботать предстоит по скраму, со всеми вытекающими плюсами и минусами.\nПроект соответствует Swiss Re Insitute, исследовательскому учреждению компании Swiss Re (клиент Сидениса).\nВ одной команде работают как представители Сидениса, так и представители Swiss Re.\n\nТребования к кандидатам:\n1) хорошее знание R\n2) хорошее знание теории вероятности, математической статистики (плюсом будет знание финансовой и актуарной математики)\n3) хороший уровень владения английским (рабочий язык команды и проекта)\n\nПлюсом будет:\n1) машинное обучение, nlp\n2) SQL\n3) Python\n\nПлюшки компании (помимо удаленной работы): ДМС, ДМС для члена семьи, курсы английского и немецкого.\n\nЗарплатная вилка: 80000-200000 (для Петербурга).\n\nРезюме можно высылать мне на <mailto:alexey.osipov@sidenis.com|alexey.osipov@sidenis.com> или выкладывать сюда:\n<https:\/\/sidenis.ru\/vacancies\/r-developer>\n(также там есть подробное описание вакансии).\nЕщё вакансию можно найти на сайте хедхантера.\n\nМне можно задавать любые вопросы по вакансии или по компании (слак, e-mail).\nЕдинственное, что в слак я захожу либо рано утром, либо поздно вечером.",
+        "user": "U47HXC0UR",
+        "ts": "1601610756.398000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g304c298c67f",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1d304c298c67f6a18caeded4e0b5951d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "Alexey",
+            "real_name": "Alexey Osipov",
+            "display_name": "alexo",
+            "team": "T040HKJE3",
+            "name": "alexo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4ANN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Название вакансии: data analyst (на сайте компании традиционно называется R developer, потому что нам очень важен R)\n\nНазвание компании: Сиденис.\nРусско-швейцарская IT-компания, которая делает ПО для перестраховочного бизнеса.\nВсего около 200 сотрудников в 4 городах.\n\nГород: Санкт-Петербург или Томск.\n\nТип работы: можно работать 4 дня из 5 удаленно, при желании можно работать из офиса\n\nОписание того, что нужно делать.\nУ нас есть сложная модель на Java и различные клиенты, взаимодействующие с ней.\nСреди них есть много пакетов и веб-приложений на R.\nЗадачи будут связаны с поддержкой существующих пакетов и веб-приложений, а также с написанием новых.\nКроме того, придётся взаимодействовать с актуариями и проводить анализ для них (например, расчёт различных убытков, визуализация).\nКроме того, в команде есть data scientists, будет возможность работать с ними (их стэк R и Python).\nИз последнего пункта исходит машинное обучение и nlp в плюсах.\nПример data science задачи: sentiment analysis of Covid-related news connected with certain companies.\nПроект состоит из 5-команд, построенных во многом по территориальному принципу.\nЧеловека ищут в Петербургскую команду, но в ней работают люди из Петербурга, Цюриха и Бангалора.\nРаботать предстоит по скраму, со всеми вытекающими плюсами и минусами.\nПроект соответствует Swiss Re Insitute, исследовательскому учреждению компании Swiss Re (клиент Сидениса).\nВ одной команде работают как представители Сидениса, так и представители Swiss Re.\n\nТребования к кандидатам:\n1) хорошее знание R\n2) хорошее знание теории вероятности, математической статистики (плюсом будет знание финансовой и актуарной математики)\n3) хороший уровень владения английским (рабочий язык команды и проекта)\n\nПлюсом будет:\n1) машинное обучение, nlp\n2) SQL\n3) Python\n\nПлюшки компании (помимо удаленной работы): ДМС, ДМС для члена семьи, курсы английского и немецкого.\n\nЗарплатная вилка: 80000-200000 (для Петербурга).\n\nРезюме можно высылать мне на "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:alexey.osipov@sidenis.com",
+                                "text": "alexey.osipov@sidenis.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": " или выкладывать сюда:\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/sidenis.ru\/vacancies\/r-developer"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n(также там есть подробное описание вакансии).\nЕщё вакансию можно найти на сайте хедхантера.\n\nМне можно задавать любые вопросы по вакансии или по компании (слак, e-mail).\nЕдинственное, что в слак я захожу либо рано утром, либо поздно вечером."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "nor",
+                "users": [
+                    "U6LSE0FT9",
+                    "U6RBHBQPQ",
+                    "UD37TP39U",
+                    "U019SDXN0Q7",
+                    "U8DEZV7E2",
+                    "U7E8Y3V19",
+                    "U01184AJRH8",
+                    "U2ZHRCAUB",
+                    "U1G303UTW",
+                    "U2PMV9N06",
+                    "U709XK88H",
+                    "UE4CX9345",
+                    "UCB3PK96J",
+                    "UTSBPULD7",
+                    "U019M62ADR9",
+                    "U6URRB952",
+                    "U9JPJCD2L",
+                    "UK18BB10T",
+                    "U9M4BGEL8",
+                    "UU6LQEZFS",
+                    "U4QL920E5",
+                    "U6L08K8KS",
+                    "U60EETE7N",
+                    "UGZ0UEL5D",
+                    "UC9J53NAY",
+                    "UC9HBTUKG",
+                    "U014F8HB4HX",
+                    "UD8HRS7LK",
+                    "UHGV9TMEZ",
+                    "UJ2N4SVBJ",
+                    "U018G5MKXS6",
+                    "U0160NNUQVC",
+                    "U01A0Q7KT62",
+                    "UGCC72RND",
+                    "U7G6C7TNH",
+                    "U01B27AD7ND",
+                    "UTMD85CJZ",
+                    "UGRFZ1DS5",
+                    "U9SBJGAS1",
+                    "U80LASPD4",
+                    "U01BR3LGNG6",
+                    "UMCUQEC9F",
+                    "UH25TA08L",
+                    "U9GA283M3",
+                    "UE09VN50V"
+                ],
+                "count": 45
+            },
+            {
+                "name": "r",
+                "users": [
+                    "U24FHECDD",
+                    "U019PLLUL1G",
+                    "U47HXC0UR",
+                    "USPAWPRPX",
+                    "U8QCH21HB",
+                    "U6LSE0FT9",
+                    "U27SUBTB9",
+                    "U013C3H9LNN",
+                    "U7ENWQ9RP",
+                    "U97HBNVA6",
+                    "UC7DFDJUA",
+                    "U27HU84H4",
+                    "U1TJJJZQ8",
+                    "UHY5KKK6D",
+                    "UHR5Q170B",
+                    "U9JPJCD2L",
+                    "UK18BB10T",
+                    "U3Y5VQ5J6",
+                    "UCKGAQKE0",
+                    "UAH9H0R17",
+                    "UUX3F5U86",
+                    "U9M4BGEL8",
+                    "U7SFPUVQF",
+                    "U8GPXSE2Z",
+                    "U29TG6K9U",
+                    "U1US4G35H",
+                    "U88T71FBL",
+                    "U01BCKPF1AM",
+                    "U01892W4LCT",
+                    "UKJGXC8HX"
+                ],
+                "count": 30
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "U9ZMU4630",
+                    "UET6CJG7M",
+                    "U4WGFD012",
+                    "U8DEZV7E2",
+                    "U0167FFAR98",
+                    "UNMTRMDE0",
+                    "UKQTPE877",
+                    "U6LSE0FT9",
+                    "U27SUBTB9",
+                    "UDK41MN5U",
+                    "UE4CX9345",
+                    "UCB3PK96J",
+                    "U9JPJCD2L",
+                    "ULPRYQNS2",
+                    "U4AQM4FV0",
+                    "UG6TAGUAZ",
+                    "U9M4BGEL8",
+                    "UKQTHKEPJ",
+                    "U6L08K8KS",
+                    "U60EETE7N",
+                    "US50K5DQV",
+                    "UM37P4ZDE",
+                    "U3K7PNTML",
+                    "UF5E26Z28",
+                    "UJ2N4SVBJ",
+                    "UB4F4DZGV"
+                ],
+                "count": 26
+            },
+            {
+                "name": "spb",
+                "users": [
+                    "U1TJJJZQ8",
+                    "U6URRB952",
+                    "U9JPJCD2L",
+                    "U9M4BGEL8",
+                    "UCB3PK96J",
+                    "UGRFZ1DS5"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1a615b96-2b4d-4bf8-bb61-3258fc545add",
+        "type": "message",
+        "text": "<@UGF8L176H> остальное платят продуктами из пятерочки",
+        "user": "USPAWPRPX",
+        "ts": "1601614917.399600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "39fa9812de04",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-01-15\/909571813910_39fa9812de04e5e17973_72.png",
+            "first_name": "Andrey",
+            "real_name": "Andrey Semenishen",
+            "display_name": "Zolberg101",
+            "team": "T040HKJE3",
+            "name": "dron.zolberg",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iPwQC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UGF8L176H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " остальное платят продуктами из пятерочки"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601566602.373100",
+        "parent_user_id": "U01364M86TE",
+        "reactions": [
+            {
+                "name": "muscle",
+                "users": [
+                    "URFHG8KDF",
+                    "UTUCPJMRS",
+                    "UCB3PK96J",
+                    "U9M4BGEL8",
+                    "U51SRULNL",
+                    "U4RSFE8JZ",
+                    "UGRV1JNJU",
+                    "UPU9PUA6Q"
+                ],
+                "count": 8
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "UDSJHKRNC",
+                    "U9M4BGEL8",
+                    "U37A9KAUE",
+                    "US9UU8PFS",
+                    "UKJGXC8HX",
+                    "UC0NLD6SW"
+                ],
+                "count": 6
+            },
+            {
+                "name": "grin",
+                "users": [
+                    "URQJH0YE6",
+                    "U51SRULNL",
+                    "U013C9MKLPM",
+                    "U95GAP5JT"
+                ],
+                "count": 4
+            }
+        ]
+    }
+]

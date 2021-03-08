@@ -1,0 +1,171 @@
+[
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1600178268.043800",
+        "thread_ts": "1600178268.043800",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1600180332.045800",
+        "reply_users": [
+            "U01364G3W84",
+            "U27HU84H4"
+        ],
+        "replies": [
+            {
+                "user": "U01364G3W84",
+                "ts": "1600179887.045200"
+            },
+            {
+                "user": "U27HU84H4",
+                "ts": "1600180332.045800"
+            }
+        ],
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "ban",
+                "users": [
+                    "U9T0G9W3G",
+                    "UDUBG85P1",
+                    "U27HU84H4",
+                    "U01364G3W84",
+                    "UFS228B29",
+                    "U8HTMTGNQ",
+                    "U013MT2LJH5",
+                    "ULMML7Z5K"
+                ],
+                "count": 8
+            },
+            {
+                "name": "fork",
+                "users": [
+                    "ULPRYQNS2",
+                    "U27HU84H4",
+                    "UTSBPULD7",
+                    "UTMCMFJ8Y",
+                    "UELA14HSS"
+                ],
+                "count": 5
+            },
+            {
+                "name": "no_capitalism",
+                "users": [
+                    "U27HU84H4",
+                    "U01364G3W84",
+                    "UD37TP39U",
+                    "U8HTMTGNQ",
+                    "U8J9XMX3J",
+                    "UELA14HSS",
+                    "URX5S8WNN",
+                    "ULMML7Z5K"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5FABAA92-BDD6-4D43-BAF8-CE46562F5EEE",
+        "type": "message",
+        "text": "Не тот канал. Это не вакансия, а коллобарация. Не тот канал",
+        "user": "U01364G3W84",
+        "ts": "1600179887.045200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g07e3938db1c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/07e3938db1c157299137c5a9f80f07f6.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "rad",
+            "display_name": "rad",
+            "team": "T040HKJE3",
+            "name": "al.d.rezanov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vyNN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Не тот канал. Это не вакансия, а коллобарация. Не тот канал"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600178268.043800",
+        "parent_user_id": "U01ABHWLWJE"
+    },
+    {
+        "client_msg_id": "6d9f2206-8ef7-48ec-ad6a-5f0f3c9f0c7d",
+        "type": "message",
+        "text": "<#CBT2T7C11|_jobs_academy_phd> – вот здесь ещё может быть аудитория для подобных проектов (но там тоже хотят оплачиваемое взаимодействие)\nА так-то да – <#C17SUH211|_call_4_collaboration>",
+        "user": "U27HU84H4",
+        "ts": "1600180332.045800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7ec7ef7154ba",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-26\/354236189286_7ec7ef7154baf1b9e9b5_72.jpg",
+            "first_name": "Leonid",
+            "real_name": "Leonid Sinev",
+            "display_name": "leonid",
+            "team": "T040HKJE3",
+            "name": "leonid",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U27HU84H4",
+            "ts": "1600180399.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Enaxh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "channel",
+                                "channel_id": "CBT2T7C11"
+                            },
+                            {
+                                "type": "text",
+                                "text": " – вот здесь ещё может быть аудитория для подобных проектов (но там тоже хотят оплачиваемое взаимодействие)\nА так-то да – "
+                            },
+                            {
+                                "type": "channel",
+                                "channel_id": "C17SUH211"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1600178268.043800",
+        "parent_user_id": "U01ABHWLWJE",
+        "reactions": [
+            {
+                "name": "relieved",
+                "users": [
+                    "U01ABHWLWJE"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]
