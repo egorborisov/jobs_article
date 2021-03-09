@@ -74,7 +74,7 @@ def load_messages(*args):
     # Убираем технические сообщения
     select = (data.upload.isna()) & (data.display_as_bot.isna()) & data.subtype.isna()
     data = data[select]
-    print(f"\tУдалены техничексие сообщения: {sum(~select) } сообщений")
+    print(f"\tУдалены технические сообщения: {sum(~select) } сообщений")
     
     # Оставляем только выбранные колонки 
     cols = ['ts', 'user', 'text', 'user_profile', 'attachments', 'edited',
