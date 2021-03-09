@@ -40,7 +40,6 @@ TRANSLIT_DICT =  {
         u'ъ': u'',
         u'ы': u'y',
         u'ь': u'',
-        u'ь': u'',
         u'э': u'ae',
         u'ю': u'yu',
         u'я': u'ya'
@@ -73,7 +72,7 @@ def load_messages(*args):
     print(f'Загружено {len(data)} cообщений')
     
     # Убираем технические сообщения
-    select =  (data.upload.isna()) & (data.display_as_bot.isna()) & data.subtype.isna()
+    select = (data.upload.isna()) & (data.display_as_bot.isna()) & data.subtype.isna()
     data = data[select]
     print(f"\tУдалены техничексие сообщения: {sum(~select) } сообщений")
     
@@ -91,12 +90,12 @@ def load_messages(*args):
     
     # Очищаем и предобрабатываем текст
     data['text'] = data['text'].str.lower().str.strip()
-    print(f"\tТекст приведен к маленьким букавам и очищен от лишних пробелов")
+    print(f"\tТекст приведен к маленьким буквам и очищен от лишних пробелов")
                     
     print(f"Осталось {len(data)} cообщений")
     
-    
     return data.loc[:,cols].reset_index(drop=True)
+
 
 def translit(text):
     for k, v in TRANSLIT_DICT.items():
