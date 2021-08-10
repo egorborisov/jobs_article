@@ -34,7 +34,7 @@ def load_messages(*args):
         messages = []
         links = listdir(f'_{channel}')
         for link in links:
-            file = read_json(f'_{channel}/' + link)
+            file = read_json(f'_{channel}\\' + link)
             messages = messages + file
         messages = DataFrame(messages)
         messages['source'] = channel
