@@ -1,0 +1,1301 @@
+[
+    {
+        "client_msg_id": "679ec3bc-3a05-4a5a-bfeb-11abe55d2a76",
+        "type": "message",
+        "text": "Всем привет!\n:rotating_light:Классная вакансия в *X5 Retail Group* (подразделение Перекресток Впрок). Ищем *Junior+ DS* (вилка 100-130 гросс).\n\n:male-scientist:Благодаря ODS к нам уже присоединилось несколько отличных ребят, и мы уверены, что тебе с нами по пути!\n\nЛокация: Москва, м.Добрынинская (на текущий момент работаем *удаленно*).\n\n:globe_with_meridians:Сегодня «Перекресток Впрок» – это настоящий FMCG-маркетплейс с отдельным доменом<https:\/\/vprok.ru\/| ><http:\/\/vprok.ru|vprok.ru> и мобильным приложением. Мы активно развиваемся и ставим амбициозные цели: осуществляем более 10 000 заказов в день, первыми в России запустили собственный dark store, а наш показатель лояльности клиентов превышает 80%.\n\n:zap:️Теперь подробней о вакансии: \n\n*На позиции вы будете*:\n•  Улучшать модели оттока клиентов  \n•  Разрабатывать модели прогнозирования спроса\n•  Определять оптимальные цены на товары\n•  Обрабатывать комментарии пользователей (classification,  NER, speech-to-text)\n•  Запускать и планировать А\/Б тесты\nИ не только..\n\nОт кандидатов ждем:\n•  Опыт разработки на Python\n•  Понимание принципов разработки, внедрения и сопровождения ML-решений\n•  Опыт работы с базами данных, SQL\n•  Знание основ математической статистики и машинного обучения\n\nПлюсом будет:\n•  Знание Linux, Docker, Git\n•  Hadoop\/PySpark (опыт работы)\n\n:male-technologist::skin-tone-2:*Пишите* в телеграмм<https:\/\/web.telegram.org\/k\/#\/im?p=%40al_nem| @al_nem> с ссылками на CV",
+        "user": "U01364M86TE",
+        "ts": "1626599678.234800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ea5a1767b2cd",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-04\/1102197803971_ea5a1767b2cd997a44ae_72.jpg",
+            "first_name": "Alexander",
+            "real_name": "Alexander Nemaltsev",
+            "display_name": "Alexander Nemaltsev",
+            "team": "T040HKJE3",
+            "name": "agruiwdoxmi",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "Vprok.ru Перекрёсток – доставка продуктов на дом и на дачу Впрок",
+                "title_link": "https:\/\/vprok.ru\/",
+                "text": "Перекресток Впрок - доставка продуктов, товаров для дома и животных впрок! Низкие цены, скидки, акции, бесконтактная быстрая доставка - у нас есть все, что вы любите!",
+                "fallback": "Vprok.ru Перекрёсток – доставка продуктов на дом и на дачу Впрок",
+                "from_url": "https:\/\/vprok.ru\/",
+                "service_icon": "https:\/\/www.vprok.ru\/apple-touch-icon-57x57.png",
+                "service_name": "vprok.ru",
+                "id": 1,
+                "original_url": "https:\/\/vprok.ru\/"
+            },
+            {
+                "title": "Telegram Web",
+                "title_link": "https:\/\/web.telegram.org\/k\/#\/im?p=%40al_nem",
+                "text": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.",
+                "fallback": "Telegram Web",
+                "from_url": "https:\/\/web.telegram.org\/k\/#\/im?p=%40al_nem",
+                "service_icon": "https:\/\/web.telegram.org\/favicon.ico",
+                "service_name": "Telegram WebK",
+                "id": 2,
+                "original_url": "https:\/\/web.telegram.org\/k\/#\/im?p=%40al_nem"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "axQEo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет!\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "rotating_light"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Классная вакансия в "
+                            },
+                            {
+                                "type": "text",
+                                "text": "X5 Retail Group",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (подразделение Перекресток Впрок). Ищем "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Junior+ DS",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (вилка 100-130 гросс).\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "male-scientist"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Благодаря ODS к нам уже присоединилось несколько отличных ребят, и мы уверены, что тебе с нами по пути!\n\nЛокация: Москва, м.Добрынинская (на текущий момент работаем "
+                            },
+                            {
+                                "type": "text",
+                                "text": "удаленно",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ").\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "globe_with_meridians"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Сегодня «Перекресток Впрок» – это настоящий FMCG-маркетплейс с отдельным доменом"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/vprok.ru\/",
+                                "text": " "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/vprok.ru",
+                                "text": "vprok.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": " и мобильным приложением. Мы активно развиваемся и ставим амбициозные цели: осуществляем более 10 000 заказов в день, первыми в России запустили собственный dark store, а наш показатель лояльности клиентов превышает 80%.\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "zap"
+                            },
+                            {
+                                "type": "text",
+                                "text": "️Теперь подробней о вакансии: \n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "На позиции вы будете",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n•  Улучшать модели оттока клиентов  \n•  Разрабатывать модели прогнозирования спроса\n•  Определять оптимальные цены на товары\n•  Обрабатывать комментарии пользователей (classification,  NER, speech-to-text)\n•  Запускать и планировать А\/Б тесты\nИ не только..\n\nОт кандидатов ждем:\n•  Опыт разработки на Python\n•  Понимание принципов разработки, внедрения и сопровождения ML-решений\n•  Опыт работы с базами данных, SQL\n•  Знание основ математической статистики и машинного обучения\n\nПлюсом будет:\n•  Знание Linux, Docker, Git\n•  Hadoop\/PySpark (опыт работы)\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "male-technologist",
+                                "skin_tone": 2
+                            },
+                            {
+                                "type": "text",
+                                "text": "Пишите",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " в телеграмм"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/web.telegram.org\/k\/#\/im?p=%40al_nem",
+                                "text": " @al_nem"
+                            },
+                            {
+                                "type": "text",
+                                "text": " с ссылками на CV"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "U7DLFC011",
+                    "UKCLQLZB2",
+                    "UA6ULN51A",
+                    "U01E6EEQS4V",
+                    "U01RQT83687",
+                    "UC6KHKJHE",
+                    "U01DUH8M4NP",
+                    "U01MM7DELDP",
+                    "U6ZAJKSTH",
+                    "U0167FFAR98",
+                    "U01CX0XER3R",
+                    "U1GMCNV3M",
+                    "UQ3MWD6NR",
+                    "UC4UCPTDK",
+                    "UMWQ93K7E",
+                    "UT4HRKN2D",
+                    "U01QJJ19CJZ",
+                    "U01C1DWGD5M",
+                    "UJUTJDSQ5",
+                    "ULRRFCUR0",
+                    "UKC5NPDNY",
+                    "U01GABCEV4N",
+                    "UCHS7TRUL"
+                ],
+                "count": 23
+            },
+            {
+                "name": "msk",
+                "users": [
+                    "U01U6QJ1BEE"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6f19de39-eeeb-400a-98f2-6e9a76d786a0",
+        "type": "message",
+        "text": "Привет, друзья!\nИщем коллег себе в команду!\n\n*Компания*: Банк \"Пивденный\" \n*Вакансия*: Oracle BI Developer (middle\/senior)\n*Вилка* :fork:: $2k-$3.5k net,  годовые бонусы\n*Локация*: Украина, Одесса, Киев, удаленка\n\nБанк \"Пивденный\" — один из крупнейших коммерческих банков с украинским капиталом, признан системно важным банком, входит в топ-50 лучших работодателей Украины.\nДетальнее <http:\/\/bank.com.ua|bank.com.ua>\n\nНаша команда занимается развитием аналитики в Банке: начиная со сбора и предобработки сырых данных, заканчивая бизнес-рекомендациями и data-driven выводами.\n\n\n*Задачи:*\n• построение ETL процесса в DWH (Oracle)\n• настройка репозитория Oracle BI\n• визуализация данных в BI\n\n*Необходимо:*\n• уверенные навыки работы с Oracle BI\n• опыт работы с большим объемом данных (миллионы строк)\n• оптимизация запросов BI\n• знание PL\/SQL\n\n*Будет плюсом:*\n• способность отличить депозит от овердрафта =)\n• опыт работы с Oracle Analytic Server\n• опыт работы с Oracle Data Integrator\n• знание JavaScript'овых библиотек визуализации (например, Echarts, Chart.js, Google Charts, D3.js и т.д.) \n• локация в Одессе\n\n*Условия:*\n• полностью \"белое\" оформление, стабильные выплаты заработной платы, больничные, отпуска и т.д.\n• ежегодные пересмотры уровня з\/п\n• годовые бонусы по результатам работы\n• возможность обучения, тренингов\n• в Одессе столовая и транспорт\n• отличное ДМС\n• можно работать удаленно\n\n*Контакты:* :email:* <mailto:andrii.pysarev@pivdenny.ua|andrii.pysarev@pivdenny.ua>* или* *:telegram: @AndriiPysarev",
+        "user": "UDSKZT18R",
+        "ts": "1626608553.241600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "e568ed183eba",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-03-27\/1019562012306_e568ed183eba5efe30e9_72.jpg",
+            "first_name": "Andrii",
+            "real_name": "Andrii Pysarev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "andrii.pysarev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5H4G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет, друзья!\nИщем коллег себе в команду!\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Банк \"Пивденный\" \n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Oracle BI Developer (middle\/senior)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "fork",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": $2k-$3.5k net,  годовые бонусы\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Локация",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Украина, Одесса, Киев, удаленка\n\nБанк \"Пивденный\" — один из крупнейших коммерческих банков с украинским капиталом, признан системно важным банком, входит в топ-50 лучших работодателей Украины.\nДетальнее "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/bank.com.ua",
+                                "text": "bank.com.ua"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nНаша команда занимается развитием аналитики в Банке: начиная со сбора и предобработки сырых данных, заканчивая бизнес-рекомендациями и data-driven выводами.\n\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Задачи:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "построение ETL процесса в DWH (Oracle)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "настройка репозитория Oracle BI"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "визуализация данных в BI"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Необходимо:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "уверенные навыки работы с Oracle BI"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "опыт работы с большим объемом данных (миллионы строк)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "оптимизация запросов BI"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "знание PL\/SQL"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Будет плюсом:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "способность отличить депозит от овердрафта =)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "опыт работы с Oracle Analytic Server"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "опыт работы с Oracle Data Integrator"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "знание JavaScript'овых библиотек визуализации (например, Echarts, Chart.js, Google Charts, D3.js и т.д.) "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "локация в Одессе"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Условия:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "полностью \"белое\" оформление, стабильные выплаты заработной платы, больничные, отпуска и т.д."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ежегодные пересмотры уровня з\/п"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "годовые бонусы по результатам работы"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "возможность обучения, тренингов"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "в Одессе столовая и транспорт"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "отличное ДМС"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "можно работать удаленно"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Контакты: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "email",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:andrii.pysarev@pivdenny.ua",
+                                "text": "andrii.pysarev@pivdenny.ua",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " или"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "telegram"
+                            },
+                            {
+                                "type": "text",
+                                "text": " @AndriiPysarev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "fireball",
+                "users": [
+                    "UC7F3KJ7P",
+                    "UDSKZT18R"
+                ],
+                "count": 2
+            },
+            {
+                "name": "holypeka",
+                "users": [
+                    "UQ9UCJT0T",
+                    "UCP954885",
+                    "U018JUMQU5S",
+                    "U0FEJNBGQ",
+                    "U01MM7DELDP",
+                    "U6XMAVALD",
+                    "UMW9K000N",
+                    "U5FCA4F8X",
+                    "U7CAU0GMU",
+                    "UFTCW1X0F",
+                    "U016DKPB684",
+                    "U4LCAKK8C",
+                    "UC9HBTUKG",
+                    "UTV6YDY8K",
+                    "U01C1DWGD5M",
+                    "U022P6YMLE9",
+                    "U9UEXU8NN",
+                    "UUP5MBYAE"
+                ],
+                "count": 18
+            },
+            {
+                "name": "beers",
+                "users": [
+                    "UD8SY4RB7",
+                    "UCTV3D6V8",
+                    "U7BU0UUGM",
+                    "U50L6GTL7",
+                    "U6UD5JDJR",
+                    "U01P620V7H7",
+                    "U01MM7DELDP",
+                    "U5FCA4F8X",
+                    "U0JHK9001",
+                    "UNHU1EV1T",
+                    "UCB3PK96J",
+                    "UTFABAPL1",
+                    "UJ8BXBM36",
+                    "UDLH6RE31",
+                    "UDXMNJD4P",
+                    "U01DH740V0Q",
+                    "U9LKKNJHE",
+                    "UC9HBTUKG",
+                    "UTV6YDY8K",
+                    "U022P6YMLE9",
+                    "UAVE71UDN",
+                    "UEEAN2U4R",
+                    "U4H9J8DSB",
+                    "U018G5MKXS6",
+                    "U600Q839S"
+                ],
+                "count": 25
+            },
+            {
+                "name": "harold",
+                "users": [
+                    "UCP954885",
+                    "U0FEJNBGQ"
+                ],
+                "count": 2
+            },
+            {
+                "name": "no-junior",
+                "users": [
+                    "UNE08HYLX"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U30A6KZLH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6a603b4d-0fc6-46a4-89ab-c0d4db92ee55",
+        "type": "message",
+        "text": "Привет всем!\n*Компания* SpatialChat :spatial_chat:\n*Позиция:* Бизнес аналитик\n*Вилка: $1.5k-$2.5k*\n*Локация:* Remote, работа по контракту из любой страны; выплаты через <http:\/\/letsdeel.com|letsdeel.com>\n\nПару слов о компании. Делаем продукт на зарождающемся рынке proximity-based conversation.\nОсновные рынки: США, Япония, Европа. Продукт пользуется популярностью для конференций, remote team коммуникации и онлайн обучения.\nРаботаем с большими ребятами, вроде MIT Media Labs, LSE, Mozilla, Stanford, Amazon, Google, Softbank, и :ods:\nПара ссылок, чтобы прочитать про рынок, и с кем мы конкурируем. [<https:\/\/www.wired.com\/story\/zoom-parties-proximity-chat\/|0>] [<https:\/\/www.wsj.com\/articles\/are-videogames-the-future-of-remote-work-11610773203|1>] [<https:\/\/techcrunch.com\/2021\/03\/04\/will-moving-spacial-video-start-to-eat-into-square-box-zoom-calls-spatialchat-thinks-so\/|2>]\n\nСейчас у нас 33 человека из :us::flag-cy::jp::ru::flag-il::fr::flag-br::flag-ua::flag-lv:\n\nПозиция для человека с аналитической гибкостью, который готов помогать строить полноценную BI систему и улучшать customer relationship процессы.\nОпыт с BI инструментами желателен, но вполне заменяем опытом продуктовой аналитики, маркетинговой аналитики, стратегическим консалтингом или научной работой.\nДанных у нас немного, сейчас только создаем data insight команду.\nПервоочередная задача это создать фундамент использования этих данных для улучшения продукта.\nТак что первое время, сложные мат модели строить не придется. Зато работать придется напрямую с CEO и Head of Sales.\n\nПримеры задач на первое время:\n• исследования маржинальности каналов;\n• pricing design для продукта;\n• прогнозирование финансовых и операционных показателей;\n• интеграции с CRM системой и системой бизнес-отчестности. \nПостепенно переходим на английский, как основной язык коммуникации, так что для работы требуется хорошее знание языка.\nПоэтому текст вакансии на английском.\n\n*What you’ll do:*\n• Conduct data analysis, spotting data trends to enable informed business and product decisions. Evangelize best practices across the account management and marketing group.\n• Build reporting tools to facilitate sales trends across the multiple points of touch with the client.\n• Contribute towards engineering excellence in the area of CRM, develop and maintain end-to-end integrations with our homegrown application and business technology systems\n• Help to determine the company’s pricing and packaging strategy, and how we think about our freemium and paid tiers.\n• Collaborate with product managers, engineers, product marketers, account managers, growth team.\n*Minimum qualifications:*\n• Customer focus and drive to create an impact.\n• Experience with GCP, Python, JavaScript in the low-code environment.\n• STEM or Econ degree\n• SQL, Python statistical modeling libraries. \n*Preferred qualifications:*\n• Experience of business intelligence tools such as Redash, Tableau, Looker\n• Experience with no-code interrogations and ETL tools\n• Ability to be adaptive to the rapid change that comes with being in a fast-growing organization. In other words, experience in a startup environment\n*How you can grow:*\n• Head of BI\n• Head of product analytics, Finance.\n• Product Manager Lead, Monetization team.\nCV на d@spatial.chat с темой \"[ODS] Бизнес-аналитик\" ; или в тг <@U71L6NBV5>",
+        "user": "U71L6NBV5",
+        "ts": "1626622760.258500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "07bb8c503500",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-03-03\/1816017689762_07bb8c503500576f6ac9_72.jpg",
+            "first_name": "Danya",
+            "real_name": "Danya Chepenko",
+            "display_name": "zkid18",
+            "team": "T040HKJE3",
+            "name": "daniel",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U71L6NBV5",
+            "ts": "1626622848.000000"
+        },
+        "attachments": [
+            {
+                "service_name": "Wired",
+                "title": "A Mission to Make Virtual Parties Actually Fun",
+                "title_link": "https:\/\/www.wired.com\/story\/zoom-parties-proximity-chat\/",
+                "text": "Let's be honest, Zoom birthdays and happy hours are bad. But an emerging type of platform known as “proximity chat” could offer a better option.",
+                "fallback": "Wired: A Mission to Make Virtual Parties Actually Fun",
+                "image_url": "https:\/\/media.wired.com\/photos\/5fbebc4a058b2614ff621b67\/191:100\/w_1280,c_limit\/Gather.jpg?mbid=social_retweet",
+                "ts": 1606723200,
+                "from_url": "https:\/\/www.wired.com\/story\/zoom-parties-proximity-chat\/",
+                "image_width": 478,
+                "image_height": 250,
+                "image_bytes": 190241,
+                "service_icon": "https:\/\/www.wired.com\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/www.wired.com\/story\/zoom-parties-proximity-chat\/"
+            },
+            {
+                "service_name": "WSJ",
+                "title": "Are Videogames the Future of Remote Work?",
+                "title_link": "https:\/\/www.wsj.com\/articles\/are-videogames-the-future-of-remote-work-11610773203",
+                "text": "One day soon, you may hear a colleague say those ominous words: “The boss would like to see you in her castle.”",
+                "fallback": "WSJ: Are Videogames the Future of Remote Work?",
+                "image_url": "https:\/\/images.wsj.net\/im-284870\/social",
+                "image_width": 500,
+                "image_height": 250,
+                "from_url": "https:\/\/www.wsj.com\/articles\/are-videogames-the-future-of-remote-work-11610773203",
+                "image_bytes": 116923,
+                "service_icon": "https:\/\/s.wsj.net\/media\/wsj_apple-touch-icon-180x180.png",
+                "id": 2,
+                "original_url": "https:\/\/www.wsj.com\/articles\/are-videogames-the-future-of-remote-work-11610773203"
+            },
+            {
+                "service_name": "TechCrunch",
+                "title": "Will moving, ‘spatial video’ start to eat into square-box Zoom calls? SpatialChat thinks so – TechCrunch",
+                "title_link": "https:\/\/techcrunch.com\/2021\/03\/04\/will-moving-spacial-video-start-to-eat-into-square-box-zoom-calls-spatialchat-thinks-so\/",
+                "text": "With most of us locked into a square video box on platforms like Zoom, the desire to break away and perhaps wander around a virtual space is strong. These new ways of presenting people — as small circles of videos placed in a virtual space where they can move around — has appeared in various [&amp;hell…",
+                "fallback": "TechCrunch: Will moving, ‘spatial video’ start to eat into square-box Zoom calls? SpatialChat thinks so – TechCrunch",
+                "image_url": "https:\/\/techcrunch.com\/wp-content\/uploads\/2021\/03\/screen2.png?w=764",
+                "from_url": "https:\/\/techcrunch.com\/2021\/03\/04\/will-moving-spacial-video-start-to-eat-into-square-box-zoom-calls-spatialchat-thinks-so\/",
+                "image_width": 496,
+                "image_height": 250,
+                "image_bytes": 147180,
+                "service_icon": "https:\/\/techcrunch.com\/wp-content\/uploads\/2015\/02\/cropped-cropped-favicon-gradient.png?w=180",
+                "id": 3,
+                "original_url": "https:\/\/techcrunch.com\/2021\/03\/04\/will-moving-spacial-video-start-to-eat-into-square-box-zoom-calls-spatialchat-thinks-so\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "q6N4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет всем!\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " SpatialChat "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "spatial_chat"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Позиция: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Бизнес аналитик\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка: $1.5k-$2.5k",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Локация:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Remote, работа по контракту из любой страны; выплаты через "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/letsdeel.com",
+                                "text": "letsdeel.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nПару слов о компании. Делаем продукт на зарождающемся рынке proximity-based conversation.\nОсновные рынки: США, Япония, Европа. Продукт пользуется популярностью для конференций, remote team коммуникации и онлайн обучения.\nРаботаем с большими ребятами, вроде MIT Media Labs, LSE, Mozilla, Stanford, Amazon, Google, Softbank, и "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ods"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nПара ссылок, чтобы прочитать про рынок, и с кем мы конкурируем. ["
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.wired.com\/story\/zoom-parties-proximity-chat\/",
+                                "text": "0"
+                            },
+                            {
+                                "type": "text",
+                                "text": "] ["
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.wsj.com\/articles\/are-videogames-the-future-of-remote-work-11610773203",
+                                "text": "1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "] ["
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/techcrunch.com\/2021\/03\/04\/will-moving-spacial-video-start-to-eat-into-square-box-zoom-calls-spatialchat-thinks-so\/",
+                                "text": "2"
+                            },
+                            {
+                                "type": "text",
+                                "text": "]\n\nСейчас у нас 33 человека из "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "us"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-cy"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "jp"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ru"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-il"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "fr"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-br"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-ua"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "flag-lv"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nПозиция для человека с аналитической гибкостью, который готов помогать строить полноценную BI систему и улучшать customer relationship процессы.\nОпыт с BI инструментами желателен, но вполне заменяем опытом продуктовой аналитики, маркетинговой аналитики, стратегическим консалтингом или научной работой.\nДанных у нас немного, сейчас только создаем data insight команду.\nПервоочередная задача это создать фундамент использования этих данных для улучшения продукта.\nТак что первое время, сложные мат модели строить не придется. Зато работать придется напрямую с CEO и Head of Sales.\n\nПримеры задач на первое время:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "исследования маржинальности каналов;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "pricing design для продукта;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "прогнозирование финансовых и операционных показателей;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "интеграции с CRM системой и системой бизнес-отчестности. "
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nПостепенно переходим на английский, как основной язык коммуникации, так что для работы требуется хорошее знание языка.\nПоэтому текст вакансии на английском.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "What you’ll do:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Conduct data analysis, spotting data trends to enable informed business and product decisions. Evangelize best practices across the account management and marketing group."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Build reporting tools to facilitate sales trends across the multiple points of touch with the client."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Contribute towards engineering excellence in the area of CRM, develop and maintain end-to-end integrations with our homegrown application and business technology systems"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Help to determine the company’s pricing and packaging strategy, and how we think about our freemium and paid tiers."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Collaborate with product managers, engineers, product marketers, account managers, growth team."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Minimum qualifications:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Customer focus and drive to create an impact."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Experience with GCP, Python, JavaScript in the low-code environment."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "STEM or Econ degree"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "SQL, Python statistical modeling libraries. "
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Preferred qualifications:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Experience of business intelligence tools such as Redash, Tableau, Looker"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Experience with no-code interrogations and ETL tools"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Ability to be adaptive to the rapid change that comes with being in a fast-growing organization. In other words, experience in a startup environment"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "How you can grow:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Head of BI"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Head of product analytics, Finance."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Product Manager Lead, Monetization team."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nCV на d@spatial.chat с темой \"[ODS] Бизнес-аналитик\" ; или в тг "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U71L6NBV5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "U7CAU0GMU",
+                    "UENUNKLCQ",
+                    "U9T0G9W3G",
+                    "UHY5KKK6D",
+                    "U726PUVRR",
+                    "U6T46QMJQ",
+                    "UC9HBTUKG",
+                    "U0FEJNBGQ",
+                    "U8CMHHBU2",
+                    "U1VBAF9K2",
+                    "U60EETE7N",
+                    "U04EB5WCH",
+                    "UQ9UCJT0T",
+                    "ULRRFCUR0",
+                    "U80LASPD4",
+                    "U01QJJ19CJZ",
+                    "U4DT60JTW",
+                    "U7ZTSPE8M",
+                    "U6URRB952",
+                    "UDE5GJXAA",
+                    "U0167LZ5HAP",
+                    "UKC5NPDNY",
+                    "UGF5QCC0P",
+                    "U79U060TZ",
+                    "U01BYAW27S9",
+                    "USGUL2JF6",
+                    "U01GABCEV4N",
+                    "U22T79M4N",
+                    "UCHS7TRUL",
+                    "U018JUMQU5S",
+                    "U01ECJ3B5QT",
+                    "U01A7MB2SM7",
+                    "U5WN6205N",
+                    "U3QHL7N76",
+                    "UCB3PK96J",
+                    "UJH4V568M",
+                    "U262NSHCK",
+                    "UDK41MN5U",
+                    "U1GMCNV3M"
+                ],
+                "count": 39
+            }
+        ]
+    }
+]

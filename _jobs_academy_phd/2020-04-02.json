@@ -1,0 +1,46 @@
+[
+    {
+        "type": "message",
+        "subtype": "bot_message",
+        "text": "<@UM7QTTW4A> has enabled Automatic Translation for this channel. Messages from _all channel members_ will be translated to `English` (if necessary).",
+        "ts": "1585859638.004800",
+        "username": "Translate",
+        "bot_id": "B97P5GBL1",
+        "blocks": [
+            {
+                "type": "section",
+                "block_id": "dbX",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "<@UM7QTTW4A> has enabled Automatic Translation for this channel. Messages from _all channel members_ will be translated to `English` (if necessary).",
+                    "verbatim": false
+                }
+            },
+            {
+                "type": "divider",
+                "block_id": "wlS"
+            },
+            {
+                "type": "section",
+                "block_id": "CE\/",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": ":warning: In order to append translations to _your_ messages, please authorize Translate to act of your behalf. Translations for members who have not yet authorized will appear in the channel as separate messages.",
+                    "verbatim": false
+                },
+                "accessory": {
+                    "type": "button",
+                    "action_id": "authorize",
+                    "style": "primary",
+                    "text": {
+                        "type": "plain_text",
+                        "text": "Authorize",
+                        "emoji": true
+                    },
+                    "value": "1",
+                    "url": "https:\/\/slack.com\/oauth\/v2\/authorize?client_id=33636237156.33638237252&team=T040HKJE3&state=v2&user_scope=chat:write"
+                }
+            }
+        ]
+    }
+]

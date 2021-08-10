@@ -44,6 +44,7 @@
                 "ts": "1499169405.386057"
             }
         ],
+        "is_locked": false,
         "subscribed": false,
         "reactions": [
             {
@@ -154,6 +155,7 @@
                 "ts": "1499396018.604640"
             }
         ],
+        "is_locked": false,
         "subscribed": false,
         "reactions": [
             {
@@ -437,6 +439,7 @@
                 "ts": "1499396095.616313"
             }
         ],
+        "is_locked": false,
         "subscribed": false,
         "reactions": [
             {
@@ -573,6 +576,7 @@
                 "ts": "1499388030.194723"
             }
         ],
+        "is_locked": false,
         "subscribed": false,
         "reactions": [
             {
@@ -748,7 +752,16 @@
         "subtype": "channel_join",
         "ts": "1499189200.319058",
         "user": "U1RA4BEQ6",
-        "text": "<@U1RA4BEQ6> has joined the channel"
+        "text": "<@U1RA4BEQ6> has joined the channel",
+        "reactions": [
+            {
+                "name": "heavy_minus_sign",
+                "users": [
+                    "U4EEVC5B5"
+                ],
+                "count": 1
+            }
+        ]
     },
     {
         "type": "message",

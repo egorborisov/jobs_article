@@ -1,0 +1,3624 @@
+[
+    {
+        "client_msg_id": "48bf74c6-15e2-44d2-812e-cb1a12dcaec8",
+        "type": "message",
+        "text": "*Вакансия*: *Machine Learning Engineer*\n*Компания:* Сбербанк :sber_new:, Корпоративно-инвестиционный бизнес\n*Вилка:* 150k - 200k gross + годовая премия 2-3 оклада\n*Локация:* Санкт-Петербург :spb: (м. Нарвская, режим – смешанный\/офис)\n*О нас:* \n• Команда разрабатывает и поддерживает ~15 моделей ценообразования и CLTV. Часть из них уже выведена в prod, легаси отсутствует.\n• Модели используются для определения оптимального ценового и продуктового предложения для клиентов – юридических лиц. Модели существенно влияют на доход банка, эффект виден напрямую :stonks:.\n*Наш стек:*\n• Экосистема Hadoop:hadoop: (HDFS, Spark, Hive, Yarn и т.д.), собственный Hadoop кластер;\n• Модели на PyTorch:pytorch:, gbm\/sklearn и др., есть :dvc:; деплой: Maven, Jenkins:jenkins:;\n• В планах – разработка online моделей на OpenShift:openshift:.\n*Кого ищем:* \n• Python-разработчика, готового перейти в сферу end-to-end ML инженерии;\n• Опыт в DS желателен, но не обязателен.\n*Задачи:*\n• Производить разработку и рефакторинг моделей;\n• Выводить модели и витрины в prod, осуществлять их сопровождение (MLOps);\n• Создавать и оптимизировать ETL пайплайны на PySpark;\n• Развивать ML инфраструктуру команды, участвовать в развитии общей ML платформы банка.\n*Ожидаем:*\n• Опыт разработки на Python:python: от 1 года, обладание культурой написания кода;\n• Уверенное знание SQL; опыт работы с данными;\n• Понимание ООП, знание паттернов проектирования;\n• Умение работать с Linux, bash, git.\n*Будет плюсом:*\n• Опыт промышленной разработки ПО; опыт командной разработки в git:git:;\n• Опыт работы с экосистемой Hadoop, особенно – со Spark:spark:; \n• Понимание основ ML и цикла разработки ML проектов; опыт разработки моделей.\n*Бонусы:*\n• Расширенный соц. пакет (ДМС, страхование жизни); бесплатный тренажерный зал;\n• Скидки от участников и партнеров Экосистемы; льготные условия по ипотеке и кредитам Сбера;\n• MacBook Pro;\n• Обучение на внутренних и внешних курсах, безлимитный доступ к Coursera.\n*Контакты:*\n• Резюме направлять на почту HR: <mailto:AESlepnev@sberbank.ru|AESlepnev@sberbank.ru> (Андрей);\n• Вопросы по вакансии можно задавать здесь в личных сообщениях.",
+        "user": "UD3PU5JAK",
+        "ts": "1625817541.202900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6513b607eb01",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-03-24\/1010665650803_6513b607eb0149da8158_72.jpg",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Baryev",
+            "display_name": "Dmitry Baryev",
+            "team": "T040HKJE3",
+            "name": "baryev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yZoGS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Вакансия",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Machine Learning Engineer",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Сбербанк "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sber_new"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", Корпоративно-инвестиционный бизнес\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "150k - 200k gross + годовая премия 2-3 оклада\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Локация:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Санкт-Петербург "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "spb"
+                            },
+                            {
+                                "type": "text",
+                                "text": " (м. Нарвская, режим – смешанный\/офис)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "О нас: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Команда разрабатывает и поддерживает ~15 моделей ценообразования и CLTV. Часть из них уже выведена в prod, легаси отсутствует."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Модели используются для определения оптимального ценового и продуктового предложения для клиентов – юридических лиц. Модели существенно влияют на доход банка, эффект виден напрямую "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "stonks"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Наш стек:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Экосистема Hadoop"
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "hadoop"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " (HDFS, Spark, Hive, Yarn и т.д.), собственный Hadoop кластер;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Модели на PyTorch"
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "pytorch"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ", gbm\/sklearn и др., есть "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "dvc"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "; деплой: Maven, Jenkins"
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "jenkins"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ";"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "В планах – разработка online моделей на OpenShift"
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "openshift"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Кого ищем: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Python-разработчика, готового перейти в сферу end-to-end ML инженерии;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт в DS желателен, но не обязателен."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Задачи:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Производить разработку и рефакторинг моделей;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Выводить модели и витрины в prod, осуществлять их сопровождение (MLOps);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Создавать и оптимизировать ETL пайплайны на PySpark;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Развивать ML инфраструктуру команды, участвовать в развитии общей ML платформы банка."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ожидаем:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт разработки на Python"
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "python"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " от 1 года, обладание культурой написания кода;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Уверенное знание SQL; опыт работы с данными;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Понимание ООП, знание паттернов проектирования;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Умение работать с Linux, bash, git."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Будет плюсом:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт промышленной разработки ПО; опыт командной разработки в git"
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "git"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ";"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с экосистемой Hadoop, особенно – со Spark"
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "spark"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "; "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Понимание основ ML и цикла разработки ML проектов; опыт разработки моделей."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Бонусы:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Расширенный соц. пакет (ДМС, страхование жизни); бесплатный тренажерный зал;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Скидки от участников и партнеров Экосистемы; льготные условия по ипотеке и кредитам Сбера;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "MacBook Pro;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Обучение на внутренних и внешних курсах, безлимитный доступ к Coursera."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Контакты:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Резюме направлять на почту HR: "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "mailto:AESlepnev@sberbank.ru",
+                                        "text": "AESlepnev@sberbank.ru"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " (Андрей);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Вопросы по вакансии можно задавать здесь в личных сообщениях."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "notthisagain",
+                "users": [
+                    "UA1AMQF0E",
+                    "U01BYAW27S9",
+                    "U1MLEMG11",
+                    "UD6TXA7R7",
+                    "UCB3PK96J",
+                    "U2992AMC1",
+                    "U01TB1SV51N"
+                ],
+                "count": 7
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U3HM4KY14",
+                    "UPX5B2ULF",
+                    "U01CX0XER3R",
+                    "U1GMCNV3M"
+                ],
+                "count": 4
+            },
+            {
+                "name": "no-junior",
+                "users": [
+                    "UNE08HYLX",
+                    "U0142RTCYEP",
+                    "U78BDMQTG"
+                ],
+                "count": 3
+            },
+            {
+                "name": "sber_new",
+                "users": [
+                    "U92MQ82MR"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7711e06f-d590-4479-ac23-a058821a6dad",
+        "type": "message",
+        "text": "*Позиция:* Deep Learning Engineer\n*Тема:* Биометрия\n*Уровень:* Middle, Senior\n*Команда:* Sber, SberDevices :sberdevices:\n*Место:* Москва, Кутузовский 32\n*Вилка:* 200 - 280 тыс. руб\/мес (net) + 2-5 окладов годовой бонус\n\nС предыдущих объяв удалось набрать топ специалистов. Теперь ищем людей в дружественную команду, с которой ведется плотная коллаборация. Это вакансияк в команду R&amp;D биометрической платформы SberDevices. Занимаются антиспуфингом, идентификацией  ̶д̶и̶к̶т̶а̶т̶о̶р̶о̶в̶ дикторов, распознаванием лиц и другими вычисениями по ip\n\n*Задачи:*\n• Разработка CV-пайплайнов обучения моделей: лицевые детекторы, задача dense face alignment, сегментация атрибутов лица :skinhead: , head pose estimation :selfie: \n• Оптимизация  и ускорение моделей :ultra_fast_parrot: \n• Разработка и реализация метрик, валидация моделей :heavy_check_mark: \n• Подготовка кода и моделей для команды разработки\n*Наши ожидания:*\n• Знания матана достаточные для решения ML\/DL задач и экспериментов с архитектурами и механизмами обучения\n• Культура проведения экспериментов с претензией на объективность в оценке качества работы модели\n• Python и Linux shell на уровне, достаточном для прототипирования алгоритмов и написания утилит для работы с данными\n• Достаточный уровень владения английским языком для быстрого чтения статей\n• Способность писать чистый код, в котором другие исследователи\/разработчики смогут быстро разобраться\n*Будет плюсом:*\n• Опыт написания краулеров, размещения заданий разметки и сбора данных на краудсорсинговых площадках\n• Наличие публикаций по релевантным темам, опыт участия в соревнованиях по машинному обучению\n* *\n*Мы предлагаем:*\n• Крутая команда с интересными задачами \n• Отсутствие проблем с GPU (Кристофари) :sbercloud: \n• Девбокс с 2 х 2080ti для прототипирования или область на DGX2\n• Конференции и обучение, возможность выступать на внутренних и внешних мероприятиях\n• Современный и удобный офис (на данный момент команда на удалёнке с возможностью работать из офиса)\n• Возможность увидеть как результаты своей работы внедрёнными в продукт виляет на мир\n• ДМС, сниженные ставки по кредитованию, программы лояльности для сотрудников\n• Бесплатный фитнес-зал, могу подстраховать по-братски на жиме\nКонтакт для связи <mailto:Velmozhin.G.Al@sberbank.ru|Velmozhin.G.Al@sberbank.ru>\nУказывать тему письма: SmartBIO - ML Engineer. Резюме называть по паттерну фамилия_имя.*",
+        "user": "U07V1URT9",
+        "ts": "1625819827.211100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1c2aa5ab8911",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-03-19\/1901905761488_1c2aa5ab891139749d32_72.png",
+            "first_name": "Artur",
+            "real_name": "Artur Kuzin",
+            "display_name": "n01z3",
+            "team": "T040HKJE3",
+            "name": "n01z3",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jM7t",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Позиция:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Deep Learning Engineer\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Тема: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Биометрия\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Уровень: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Middle, Senior\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Команда:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Sber, SberDevices "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sberdevices"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Место:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Москва, Кутузовский 32\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " 200 - 280 тыс. руб\/мес (net) + 2-5 окладов годовой бонус\n\nС предыдущих объяв удалось набрать топ специалистов. Теперь ищем людей в дружественную команду, с которой ведется плотная коллаборация. Это вакансияк в команду R&D биометрической платформы SberDevices. Занимаются антиспуфингом, идентификацией  ̶д̶и̶к̶т̶а̶т̶о̶р̶о̶в̶ дикторов, распознаванием лиц и другими вычисениями по ip\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Задачи:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разработка CV-пайплайнов обучения моделей: лицевые детекторы, задача dense face alignment, сегментация атрибутов лица "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "skinhead"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " , head pose estimation "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "selfie"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Оптимизация  и ускорение моделей "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "ultra_fast_parrot"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разработка и реализация метрик, валидация моделей "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "heavy_check_mark"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Подготовка кода и моделей для команды разработки"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Наши ожидания:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знания матана достаточные для решения ML\/DL задач и экспериментов с архитектурами и механизмами обучения"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Культура проведения экспериментов с претензией на объективность в оценке качества работы модели"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Python и Linux shell на уровне, достаточном для прототипирования алгоритмов и написания утилит для работы с данными"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Достаточный уровень владения английским языком для быстрого чтения статей"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Способность писать чистый код, в котором другие исследователи\/разработчики смогут быстро разобраться"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Будет плюсом:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт написания краулеров, размещения заданий разметки и сбора данных на краудсорсинговых площадках"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Наличие публикаций по релевантным темам, опыт участия в соревнованиях по машинному обучению"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": " ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Мы предлагаем:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Крутая команда с интересными задачами "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Отсутствие проблем с GPU (Кристофари) "
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "name": "sbercloud"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Девбокс с 2 х 2080ti для прототипирования или область на DGX2"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Конференции и обучение, возможность выступать на внутренних и внешних мероприятиях"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Современный и удобный офис (на данный момент команда на удалёнке с возможностью работать из офиса)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Возможность увидеть как результаты своей работы внедрёнными в продукт виляет на мир"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ДМС, сниженные ставки по кредитованию, программы лояльности для сотрудников"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Бесплатный фитнес-зал, могу подстраховать по-братски на жиме"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nКонтакт для связи "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:Velmozhin.G.Al@sberbank.ru",
+                                "text": "Velmozhin.G.Al@sberbank.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nУказывать тему письма: SmartBIO - ML Engineer. Резюме называть по паттерну фамилия_имя.*"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625819827.211100",
+        "reply_count": 3,
+        "reply_users_count": 3,
+        "latest_reply": "1626040974.340500",
+        "reply_users": [
+            "UELA14HSS",
+            "U07V1URT9",
+            "U02210AG3J7"
+        ],
+        "replies": [
+            {
+                "user": "UELA14HSS",
+                "ts": "1625830105.239400"
+            },
+            {
+                "user": "U07V1URT9",
+                "ts": "1625830343.239900"
+            },
+            {
+                "user": "U02210AG3J7",
+                "ts": "1626040974.340500"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "sberdevices",
+                "users": [
+                    "U80H34210",
+                    "UJ8BXBM36",
+                    "U50GQKH5J",
+                    "UNV7GV9PT",
+                    "U01CX0XER3R",
+                    "U4U5DNNPJ",
+                    "USLJ0V48G",
+                    "U71NR43CH",
+                    "U4SKDV2HF",
+                    "U55CQM1LK",
+                    "U9V48C738",
+                    "UEMF1MZKM",
+                    "UCMAWD588",
+                    "UP07MDUQK",
+                    "U27SUBTB9",
+                    "U3XDWVD3P",
+                    "UDV2YC666",
+                    "U7ZCEDTEV",
+                    "UMM890NT1",
+                    "U8301BT2L",
+                    "UFE1DHDRT",
+                    "UFVDU2FJP",
+                    "UASKZ32CR",
+                    "U01TCH0JP5J",
+                    "U070Y25AS",
+                    "U1YQLTMLH",
+                    "U66J54U02"
+                ],
+                "count": 27
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "U50GQKH5J",
+                    "U80H34210",
+                    "UNV7GV9PT",
+                    "U01CX0XER3R",
+                    "U4U5DNNPJ",
+                    "USLJ0V48G",
+                    "UJ8BXBM36",
+                    "U71NR43CH",
+                    "U55CQM1LK",
+                    "ULPRYQNS2",
+                    "UC3BJHU9F",
+                    "U49NJJXNJ",
+                    "U9HSZRDP1",
+                    "UU6LQEZFS",
+                    "U9V48C738",
+                    "UD6TXA7R7",
+                    "UEMF1MZKM",
+                    "UP07MDUQK",
+                    "UUQ6QV4FP",
+                    "U3XDWVD3P",
+                    "U01B88C5QNM",
+                    "U7ZCEDTEV",
+                    "U8301BT2L",
+                    "U6683A4BT",
+                    "UFE1DHDRT",
+                    "UMNNMUHC2",
+                    "U6CKPN7C5",
+                    "U011QC5520M",
+                    "U6L08K8KS",
+                    "U070Y25AS"
+                ],
+                "count": 30
+            },
+            {
+                "name": "i_know_that_n01z3",
+                "users": [
+                    "U0K47J3HR",
+                    "U50GQKH5J",
+                    "U80H34210",
+                    "UNV7GV9PT",
+                    "U01CX0XER3R",
+                    "U4U5DNNPJ",
+                    "USLJ0V48G",
+                    "U7CAU0GMU",
+                    "U6YDWF4UB",
+                    "U71NR43CH",
+                    "U8PMZ6397",
+                    "ULPRYQNS2",
+                    "UU6LQEZFS",
+                    "U9V48C738",
+                    "U01P620V7H7",
+                    "UEMF1MZKM",
+                    "UCMAWD588",
+                    "UTUCPJMRS",
+                    "U6PNWSJL8",
+                    "U9JG577D1",
+                    "U3PETUSSE",
+                    "UBQJYBVPC",
+                    "UP07MDUQK",
+                    "U27SUBTB9",
+                    "UGEAQ9D54",
+                    "U3BN2A5LH",
+                    "U3XDWVD3P",
+                    "U016XAJU21E",
+                    "UG8K6LD6D",
+                    "UCB3PK96J",
+                    "U7ZCEDTEV",
+                    "UMM890NT1",
+                    "UGLNC2GVA",
+                    "U8301BT2L",
+                    "UELA14HSS",
+                    "UMMHKJVNJ",
+                    "U01C1DWGD5M",
+                    "U4A57R5V1",
+                    "UKQDGNUHJ",
+                    "U01A0Q7KT62",
+                    "U011QC5520M",
+                    "U01TCH0JP5J",
+                    "U6L08K8KS",
+                    "U070Y25AS",
+                    "U1YQLTMLH"
+                ],
+                "count": 45
+            },
+            {
+                "name": "sber_new",
+                "users": [
+                    "U50GQKH5J",
+                    "U80H34210",
+                    "UNV7GV9PT",
+                    "USLJ0V48G",
+                    "U71NR43CH",
+                    "U8PMZ6397",
+                    "UTERKHYER",
+                    "UEMF1MZKM",
+                    "UCMAWD588",
+                    "UP07MDUQK",
+                    "U27SUBTB9",
+                    "U34U3HUJD",
+                    "UDV2YC666",
+                    "UKC5NPDNY",
+                    "UMM890NT1",
+                    "U8301BT2L",
+                    "UELA14HSS",
+                    "U6CKPN7C5",
+                    "U011QC5520M"
+                ],
+                "count": 19
+            },
+            {
+                "name": "astanavites",
+                "users": [
+                    "U1MLEMG11",
+                    "U7CAU0GMU",
+                    "UA1AMQF0E",
+                    "UP07MDUQK",
+                    "U016XAJU21E",
+                    "UCB3PK96J"
+                ],
+                "count": 6
+            },
+            {
+                "name": "shflfurtherparrot",
+                "users": [
+                    "U80H34210",
+                    "UFF6S5ZGE",
+                    "U025JTWHR2P"
+                ],
+                "count": 3
+            },
+            {
+                "name": "rospil",
+                "users": [
+                    "U7CAU0GMU",
+                    "UC7F3KJ7P",
+                    "U016XAJU21E",
+                    "UTE963V28",
+                    "UCB3PK96J",
+                    "U7QBY9X2R"
+                ],
+                "count": 6
+            },
+            {
+                "name": "white_haired_man",
+                "users": [
+                    "U01RRLMCL06",
+                    "U01G44EJ3CN"
+                ],
+                "count": 2
+            },
+            {
+                "name": "ban",
+                "users": [
+                    "U049HDR2Z",
+                    "UA1AMQF0E",
+                    "U016XAJU21E"
+                ],
+                "count": 3
+            },
+            {
+                "name": "adolf",
+                "users": [
+                    "U049HDR2Z",
+                    "U016XAJU21E"
+                ],
+                "count": 2
+            },
+            {
+                "name": "random_b",
+                "users": [
+                    "UC7F3KJ7P",
+                    "U016XAJU21E",
+                    "UCB3PK96J",
+                    "UFF6S5ZGE",
+                    "UELA14HSS"
+                ],
+                "count": 5
+            },
+            {
+                "name": "black_cat",
+                "users": [
+                    "UC7F3KJ7P"
+                ],
+                "count": 1
+            },
+            {
+                "name": "bigbrother",
+                "users": [
+                    "U3NTG7CCS",
+                    "U7CAU0GMU",
+                    "U60EETE7N",
+                    "U016XAJU21E",
+                    "UCB3PK96J",
+                    "U6FNTCDUG",
+                    "U7QBY9X2R"
+                ],
+                "count": 7
+            },
+            {
+                "name": "notthisagain",
+                "users": [
+                    "UA1AMQF0E",
+                    "U016XAJU21E",
+                    "U0JHK9001",
+                    "UCB3PK96J"
+                ],
+                "count": 4
+            },
+            {
+                "name": "no-junior",
+                "users": [
+                    "U0142RTCYEP",
+                    "UNE08HYLX"
+                ],
+                "count": 2
+            },
+            {
+                "name": "meh",
+                "users": [
+                    "U0JHK9001"
+                ],
+                "count": 1
+            },
+            {
+                "name": "kuzin2sun",
+                "users": [
+                    "U7ZCEDTEV",
+                    "U049HDR2Z"
+                ],
+                "count": 2
+            },
+            {
+                "name": "notbad_n01z3_hyper",
+                "users": [
+                    "U7ZCEDTEV"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U011QC5520M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Всем привет!\n\nМы ищем разработчика в команду ML Ops для разработки ключевых компонентов инфраструктуры  ML приложений в Сбермаркете -- сервисе доставки миллионов товаров миллионам пользователей.\nНаши ключевые цели: контролируемый стабильный прод, скорость разработки, прозрачность процессов, стандартизация, эффективность использования ресурсов.\n\nML Ops разработчики совмещают практики продуктовой разработки, Dev Ops, машинного обучения и анализа данных.\n\n*Название вакансии:* ML Ops Разработчик\n*Название компании:* Сбермаркет :logo_share_sbermarket-6d62e29458e9d787ab1fdaeee6a721d82031d1825175ab9d5f574d46cd08ac8b:\n*Город:* Москва \/ частичная удаленка (в Москве) \/ полная удаленка (другие города)\n*Вилка* :torchnpitchfork:: 250-400 net\n\n*Что будем делать:*\n• Развертывать ML модели в высоконагруженном проде;\n• Оптимизировать производительность и потребление ресуросов в ML пайплайнах;\n• Настраивать среды разработки и тестирования на больших данных;\n• Разрабатывать ETL процессы для Feature Store;\n• Разрабатывать ключевые компоненты инфраструктуры, например: фреймворк для А\/Б тестирования параметров моделей;\n• Внедрять стандарты для аналитики и мониторинга ML приложений;\n*Что потребуется от вас:*\n• Хорошее знание Python, SQL, Bash (Scala, Go будет плюсом);\n• Наличие опыта разработки, выкатки и эксплуатации отказоустойчивых ML приложений от года;\n• Опыт работы с технологиями обработки и данных: Airflow, Spark, Kafka, ClickHouse, MySQL, BigQuery, PostgreSQL;\n• Знание технологий контейнеризации Docker;\n• Опыт работы с оркестрацией контейнеров (Kubernetes) будет плюсом;\n• Базовые навыки аналитики данных и понимание принципов ML;\n• Навыки определения метрик для мониторинга ML приложений;\n• Неукротимое желание всё автоматизировать, документировать и оптимизировать;\n*Куда писать?*\n    Общие вопросы -- :telegram:@dtrounine (Дмитрий,  Head of ML Ops)\n    По организационным вопросам -- :telegram:@dshurueva (Даша, рекрутер)\n    Резюме отправлять -- <mailto:darya.shurueva@sbermarket.ru|darya.shurueva@sbermarket.ru>",
+        "files": [
+            {
+                "id": "F027KQMF0G2",
+                "created": 1625827639,
+                "timestamp": 1625827639,
+                "name": "mlops_sbermarket.jpg",
+                "title": "mlops_sbermarket.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U02717MDL2Z",
+                "editable": false,
+                "size": 58314,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-F027KQMF0G2\/mlops_sbermarket.jpg?t=xoxe-4017664479-2284812247429-2281436005686-4752e2f7a85873d04f24e15e71b95771",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T040HKJE3-F027KQMF0G2\/download\/mlops_sbermarket.jpg?t=xoxe-4017664479-2284812247429-2281436005686-4752e2f7a85873d04f24e15e71b95771",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F027KQMF0G2-11b663a013\/mlops_sbermarket_64.jpg?t=xoxe-4017664479-2284812247429-2281436005686-4752e2f7a85873d04f24e15e71b95771",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F027KQMF0G2-11b663a013\/mlops_sbermarket_80.jpg?t=xoxe-4017664479-2284812247429-2281436005686-4752e2f7a85873d04f24e15e71b95771",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F027KQMF0G2-11b663a013\/mlops_sbermarket_360.jpg?t=xoxe-4017664479-2284812247429-2281436005686-4752e2f7a85873d04f24e15e71b95771",
+                "thumb_360_w": 360,
+                "thumb_360_h": 344,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F027KQMF0G2-11b663a013\/mlops_sbermarket_480.jpg?t=xoxe-4017664479-2284812247429-2281436005686-4752e2f7a85873d04f24e15e71b95771",
+                "thumb_480_w": 480,
+                "thumb_480_h": 459,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T040HKJE3-F027KQMF0G2-11b663a013\/mlops_sbermarket_160.jpg?t=xoxe-4017664479-2284812247429-2281436005686-4752e2f7a85873d04f24e15e71b95771",
+                "original_w": 604,
+                "original_h": 577,
+                "thumb_tiny": "AwAtADC+DS5puOmTjNL8v96mAuaM0mV\/vClxQAFgBk00SA9OR7VXvCw2gHANVFfBOG6dSOKANQsG74PuaQg+5+mf8aXbRsFIAxjq35E1VlvCX\/dj5R3PerWys10eKeQbRgnIPtTAtiZZEJYDA61RQ+Y5GMr+VTw7QrMDuHGcdCarTGSM4K7QaANinAVR3t\/eP51NBKdwQ8g0ASljnjOP92kJJHPP\/AKCvzk8flRyeflyfakAeWjcFcdxgYxUU8agqm0EGpk4BOB07VWlmZjnoR0poD\/\/2Q==",
+                "permalink": "https:\/\/opendatascience.slack.com\/files\/U02717MDL2Z\/F027KQMF0G2\/mlops_sbermarket.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T040HKJE3-F027KQMF0G2-c95625493e",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IrLeQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Всем привет!\n\nМы ищем разработчика в команду ML Ops для разработки ключевых компонентов инфраструктуры  ML приложений в Сбермаркете -- сервисе доставки миллионов товаров миллионам пользователей.\nНаши ключевые цели: контролируемый стабильный прод, скорость разработки, прозрачность процессов, стандартизация, эффективность использования ресурсов.\n\nML Ops разработчики совмещают практики продуктовой разработки, Dev Ops, машинного обучения и анализа данных.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Название вакансии: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "ML Ops Разработчик\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Название компании:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Сбермаркет "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "logo_share_sbermarket-6d62e29458e9d787ab1fdaeee6a721d82031d1825175ab9d5f574d46cd08ac8b"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Москва \/ частичная удаленка (в Москве) \/ полная удаленка (другие города)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "torchnpitchfork"
+                            },
+                            {
+                                "type": "text",
+                                "text": ": 250-400 net\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что будем делать:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "style": "bullet",
+                        "indent": 0,
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Развертывать ML модели в высоконагруженном проде;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Оптимизировать производительность и потребление ресуросов в ML пайплайнах;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Настраивать среды разработки и тестирования на больших данных;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разрабатывать ETL процессы для Feature Store;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Разрабатывать ключевые компоненты инфраструктуры, например: фреймворк для А\/Б тестирования параметров моделей;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Внедрять стандарты для аналитики и мониторинга ML приложений;"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что потребуется от вас:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "style": "bullet",
+                        "indent": 0,
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Хорошее знание Python, SQL, Bash (Scala, Go будет плюсом);"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Наличие опыта разработки, выкатки и эксплуатации отказоустойчивых ML приложений от года;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с технологиями обработки и данных: Airflow, Spark, Kafka, ClickHouse, MySQL, BigQuery, PostgreSQL;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знание технологий контейнеризации Docker;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Опыт работы с оркестрацией контейнеров (Kubernetes) будет плюсом;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Базовые навыки аналитики данных и понимание принципов ML;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Навыки определения метрик для мониторинга ML приложений;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Неукротимое желание всё автоматизировать, документировать и оптимизировать;"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Куда писать?",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n    Общие вопросы -- "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "telegram"
+                            },
+                            {
+                                "type": "text",
+                                "text": "@dtrounine (Дмитрий,  Head of ML Ops)\n    По организационным вопросам -- "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "telegram"
+                            },
+                            {
+                                "type": "text",
+                                "text": "@dshurueva (Даша, рекрутер)\n    Резюме отправлять -- "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:darya.shurueva@sbermarket.ru",
+                                "text": "darya.shurueva@sbermarket.ru"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "U02717MDL2Z",
+        "display_as_bot": false,
+        "ts": "1625827644.231000",
+        "edited": {
+            "user": "U02717MDL2Z",
+            "ts": "1625827916.000000"
+        },
+        "thread_ts": "1625827644.231000",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1625833359.247800",
+        "reply_users": [
+            "U0QJG7WBA",
+            "U02717MDL2Z"
+        ],
+        "replies": [
+            {
+                "user": "U0QJG7WBA",
+                "ts": "1625832389.245900"
+            },
+            {
+                "user": "U02717MDL2Z",
+                "ts": "1625832573.246100"
+            },
+            {
+                "user": "U0QJG7WBA",
+                "ts": "1625833359.247800"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fire",
+                "users": [
+                    "UKC5V5L5S",
+                    "U0160MXMC1L",
+                    "ULRRM9S11",
+                    "UNM03FQ01",
+                    "U17TSJWG0",
+                    "US0J2GP96",
+                    "U7Z9HLS3B",
+                    "U2D575HEK",
+                    "UP07MDUQK",
+                    "UCTQD55K7",
+                    "U6LSE0FT9",
+                    "U01GMQUHLAF",
+                    "U50EVF538",
+                    "UCF83GJ57",
+                    "U02639WJKS4",
+                    "U2PMV9N06",
+                    "U8LUNN003",
+                    "U50GQKH5J",
+                    "UTWH0UU8Z",
+                    "UF9DFTV1U",
+                    "U018RM6CQL9",
+                    "U3X2WTP0Q",
+                    "UHRJESDV3",
+                    "U018JUMQU5S",
+                    "UG3FLM466",
+                    "UFTJXL2FJ",
+                    "U01JALQ66MU",
+                    "U0SC8R7B8",
+                    "UPNPV7WNL",
+                    "U017XG1L01M",
+                    "U4X5JVCQ0",
+                    "UCGBUA4Q2",
+                    "ULRRFCUR0",
+                    "U6DEDNSLW",
+                    "U7LB4ADJA",
+                    "U9W1PD5QD",
+                    "U7E8Y3V19",
+                    "U024WHA8P9R",
+                    "UFM7T1FJS",
+                    "U93Q4DUEL",
+                    "UTSALEE2F",
+                    "U1GMCNV3M",
+                    "UPD47KCSZ",
+                    "U0S43GC1Z",
+                    "U01B88C5QNM",
+                    "UAF9KGCAE",
+                    "ULPRYQNS2",
+                    "U705ED0CU",
+                    "U6CKPN7C5",
+                    "UE4CX9345"
+                ],
+                "count": 57
+            },
+            {
+                "name": "logo_share_sbermarket-6d62e29458e9d787ab1fdaeee6a721d82031d1825175ab9d5f574d46cd08ac8b",
+                "users": [
+                    "UKC5V5L5S",
+                    "ULRRM9S11",
+                    "UNM03FQ01",
+                    "U17TSJWG0",
+                    "U7Z9HLS3B",
+                    "UP07MDUQK",
+                    "UMM890NT1",
+                    "UCTQD55K7",
+                    "U6LSE0FT9",
+                    "U01GMQUHLAF",
+                    "U50EVF538",
+                    "U02639WJKS4",
+                    "U50GQKH5J",
+                    "UTWH0UU8Z",
+                    "U0S43GC1Z",
+                    "U018RM6CQL9",
+                    "UHRJESDV3",
+                    "UFTJXL2FJ",
+                    "UG3FLM466",
+                    "U01CGRWPJHM",
+                    "UCMAWD588",
+                    "UPNPV7WNL",
+                    "ULRRFCUR0",
+                    "U6DEDNSLW",
+                    "U7E8Y3V19",
+                    "UFM7T1FJS",
+                    "U93Q4DUEL",
+                    "UTSALEE2F",
+                    "UCB3PK96J",
+                    "U705ED0CU",
+                    "U2992AMC1",
+                    "UD6TXA7R7",
+                    "U513RHRQT",
+                    "U1YQLTMLH"
+                ],
+                "count": 34
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U8QCH21HB",
+                    "ULRRM9S11",
+                    "UNM03FQ01",
+                    "U17TSJWG0",
+                    "U7Z9HLS3B",
+                    "UKC5V5L5S",
+                    "UD415FC8J",
+                    "UCTQD55K7",
+                    "U50EVF538",
+                    "UCF83GJ57",
+                    "U018RM6CQL9",
+                    "U3X2WTP0Q",
+                    "UHRJESDV3",
+                    "U0S43GC1Z",
+                    "UG3FLM466",
+                    "UFTJXL2FJ",
+                    "U01CGRWPJHM",
+                    "UPNPV7WNL",
+                    "U27SUBTB9",
+                    "UCGBUA4Q2",
+                    "U6DEDNSLW",
+                    "U93Q4DUEL",
+                    "UTSALEE2F",
+                    "UPUPFJ6MB",
+                    "ULPRYQNS2",
+                    "UC9HBTUKG",
+                    "U2992AMC1",
+                    "U513RHRQT",
+                    "UFTCW1X0F"
+                ],
+                "count": 29
+            },
+            {
+                "name": "green_heart",
+                "users": [
+                    "UNM03FQ01",
+                    "ULRRM9S11",
+                    "U7Z9HLS3B",
+                    "UKC5V5L5S",
+                    "UCTQD55K7",
+                    "UUEQT5M8W",
+                    "U018RM6CQL9",
+                    "UHRJESDV3",
+                    "U0S43GC1Z",
+                    "UG3FLM466",
+                    "UFTJXL2FJ",
+                    "U01CGRWPJHM",
+                    "UPNPV7WNL",
+                    "U6DEDNSLW",
+                    "UTSALEE2F",
+                    "U2PMV9N06",
+                    "U513RHRQT"
+                ],
+                "count": 17
+            },
+            {
+                "name": "no-junior",
+                "users": [
+                    "UNE08HYLX",
+                    "U0142RTCYEP",
+                    "UCTQD55K7",
+                    "U01E6EEQS4V",
+                    "U0S43GC1Z",
+                    "UA1KQL1BM",
+                    "UFTJXL2FJ",
+                    "UPNPV7WNL",
+                    "U27SUBTB9",
+                    "U6DEDNSLW",
+                    "UCB3PK96J",
+                    "UD6TXA7R7",
+                    "U7QRZECR2"
+                ],
+                "count": 13
+            },
+            {
+                "name": "boom",
+                "users": [
+                    "UCTQD55K7",
+                    "U0S43GC1Z",
+                    "UFTJXL2FJ",
+                    "UPNPV7WNL",
+                    "U6DEDNSLW",
+                    "UTSALEE2F"
+                ],
+                "count": 6
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "U019U20HJ91",
+                    "USCA1LWH0",
+                    "U01GABCEV4N",
+                    "U7SFPUVQF"
+                ],
+                "count": 4
+            },
+            {
+                "name": "feelsgoodmeme",
+                "users": [
+                    "U049HDR2Z",
+                    "U0S43GC1Z",
+                    "UPNPV7WNL",
+                    "U6DEDNSLW",
+                    "UCB3PK96J",
+                    "ULPRYQNS2",
+                    "U01BL9UR3DH"
+                ],
+                "count": 7
+            },
+            {
+                "name": "fireball",
+                "users": [
+                    "UFTJXL2FJ",
+                    "U0S43GC1Z",
+                    "U0167FR1SV8",
+                    "UPNPV7WNL",
+                    "U6DEDNSLW",
+                    "U93Q4DUEL",
+                    "UTSALEE2F",
+                    "ULPRYQNS2",
+                    "U513RHRQT",
+                    "UFTCW1X0F"
+                ],
+                "count": 10
+            }
+        ]
+    },
+    {
+        "client_msg_id": "539b0278-955e-4b7b-b467-e6b8cf2200fb",
+        "type": "message",
+        "text": "Какая реальная вероятность получить годобонус :x5: окладов?",
+        "user": "UELA14HSS",
+        "ts": "1625830105.239400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "f57d2c5ea770",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-12-04\/495013890082_f57d2c5ea770b73ea694_72.jpg",
+            "first_name": "Grigoriy",
+            "real_name": "Grigoriy Rashkov",
+            "display_name": "logogriph",
+            "team": "T040HKJE3",
+            "name": "rashkov079",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0rt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Какая реальная вероятность получить годобонус "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "x5"
+                            },
+                            {
+                                "type": "text",
+                                "text": " окладов?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625819827.211100",
+        "parent_user_id": "U07V1URT9"
+    },
+    {
+        "client_msg_id": "8bed1fc0-0ce9-49eb-829c-01b7c2eafdf7",
+        "type": "message",
+        "text": "Если перформить на exceed expectations, то вероятность стремится к 1.0",
+        "user": "U07V1URT9",
+        "ts": "1625830343.239900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1c2aa5ab8911",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-03-19\/1901905761488_1c2aa5ab891139749d32_72.png",
+            "first_name": "Artur",
+            "real_name": "Artur Kuzin",
+            "display_name": "n01z3",
+            "team": "T040HKJE3",
+            "name": "n01z3",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TuzZJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Если перформить на exceed expectations, то вероятность стремится к 1.0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625819827.211100",
+        "parent_user_id": "U07V1URT9",
+        "reactions": [
+            {
+                "name": "true-story",
+                "users": [
+                    "U80H34210",
+                    "U8DEZV7E2",
+                    "U011QC5520M",
+                    "U02748B73AN"
+                ],
+                "count": 4
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U011QC5520M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "43b53b13-9119-4b0f-90ed-5482930f5003",
+        "type": "message",
+        "text": "Модели в режиме онлайн исполнения катить?",
+        "user": "U0QJG7WBA",
+        "ts": "1625832389.245900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "77dc615d8ce2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-09-16\/80348635587_77dc615d8ce2bf987094_72.jpg",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Bugaychenko",
+            "display_name": "dmitrybugaychenko",
+            "team": "T040HKJE3",
+            "name": "dmitrybugaychenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ng2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Модели в режиме онлайн исполнения катить?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625827644.231000",
+        "parent_user_id": "U02717MDL2Z"
+    },
+    {
+        "client_msg_id": "a66601fd-71eb-44ef-8f3b-ccb1100d182b",
+        "type": "message",
+        "text": "Обязательно! Сейчас уже катим near real-time. Наладим процессы, чтобы оно не падало -- и пойдем online катить.",
+        "user": "U02717MDL2Z",
+        "ts": "1625832573.246100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "461438d0dd4e",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-07-09\/2263964656180_461438d0dd4e11e07e2e_72.jpg",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Trunin",
+            "display_name": "Dmitry Trunin",
+            "team": "T040HKJE3",
+            "name": "dtrounine",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "anslP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Обязательно! Сейчас уже катим near real-time. Наладим процессы, чтобы оно не падало -- и пойдем online катить."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625827644.231000",
+        "parent_user_id": "U02717MDL2Z",
+        "reactions": [
+            {
+                "name": "muscle",
+                "users": [
+                    "U2PMV9N06",
+                    "UPNPV7WNL",
+                    "U27SUBTB9",
+                    "U7LB4ADJA",
+                    "UFTJXL2FJ",
+                    "U0S43GC1Z",
+                    "U018JUMQU5S",
+                    "U705ED0CU",
+                    "U6CKPN7C5",
+                    "U01GMQUHLAF",
+                    "UD6TXA7R7"
+                ],
+                "count": 11
+            }
+        ]
+    },
+    {
+        "client_msg_id": "db8da229-45c1-4bd4-a7f7-54cc6d1a06a8",
+        "type": "message",
+        "text": "Топчик :slightly_smiling_face:",
+        "user": "U0QJG7WBA",
+        "ts": "1625833359.247800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "77dc615d8ce2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-09-16\/80348635587_77dc615d8ce2bf987094_72.jpg",
+            "first_name": "Dmitry",
+            "real_name": "Dmitry Bugaychenko",
+            "display_name": "dmitrybugaychenko",
+            "team": "T040HKJE3",
+            "name": "dmitrybugaychenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nv2p",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Топчик "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625827644.231000",
+        "parent_user_id": "U02717MDL2Z"
+    },
+    {
+        "client_msg_id": "5857bd67-276c-4e2d-88df-be58902cb9a6",
+        "type": "message",
+        "text": "Привет!\n\nИщем продуктового аналитика в Яндекс.Музыку :musical_note:\n\n*Уровень:* middle\/senior\n*Компания:* Яндекс.Медиасервисы :yandex::musical_keyboard: :clapper: :admission_tickets:\n*Локация:* предпочтительно московский офис, но обсуждаемо.\n*Вилка:* 150к-300к gross.\n*По скиллам:* Python, SQL и опыт работы аналитиком - must, важно понимание основ ML.\n\n:headphones:  Каждый день Музыкой пользуются миллионы пользователей, взрослых и совсем юных, любителей вдумчивых подкастов и коротких зажигательных композиций. Ищем аналитика, который оцифрует мурашки от новой песни, переложит на дашборды любовь к плейлисту дня, проще говоря — будет придумывать, валидировать и внедрять *метрики качества рекомендаций*. Будем вместе разбираться, почему правильно составленный плейлист с забытыми песнями \"Тайник\" увеличивает время слушания (или нет?) и как в целом рекомендации влияют на бизнес-показатели.\n\n:left_speech_bubble: Один из ближайших челленджей, которым хотелось бы заняться - как сделать метрики, не поощряющие скатывание в \"рекомендационный пузырь\". Очевидно выигрышный сценарий для любой рекомендационной системы - локальная оптимизация, т.к. всегда вероятнее что пользователю понравится что-то близкое к его уже известным вкусам. Но так есть риск замкнуться в локальном оптимуме (собственно, \"пузыре\") и не найти глобальный - а глобально нам конечно хочется познакомить пользователя с разными жанрами, чтобы у него было больше сценариев и разнообразия в использовании Музыки. Это продуктовая гипотеза, которую хотелось бы проверить серией исследовательских АБ-экспериментов, и подобрать метрики, корректно оптимизирующие long term цели, а не только локальные показатели.\n\n:musical_score:  Формальное описание вакансии: <https:\/\/yandex.ru\/jobs\/vacancies\/аналитик-в-команду-музыки-5917>\n\nЕсли вам интересно, можно писать:\n• мне ( <https:\/\/t.me\/DancingClown> , <https:\/\/www.facebook.com\/iyashkov\/> )\n• руководителю группы аналитики Музыки, Олесе Гординской ( <https:\/\/t.me\/goo_olesya> )\n• нашему рекрутеру Лере <@UQK7W7B4M> ",
+        "user": "U014JG2QE4R",
+        "ts": "1625837664.263300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "1f5646d47894",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-01-19\/1650985689555_1f5646d4789402278a45_72.jpg",
+            "first_name": "Igor",
+            "real_name": "Igor Yashkov",
+            "display_name": "Igor Yashkov",
+            "team": "T040HKJE3",
+            "name": "igoryashkov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U014JG2QE4R",
+            "ts": "1625837836.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7Ruw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Привет!\n\nИщем продуктового аналитика в Яндекс.Музыку "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "musical_note"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Уровень: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "middle\/senior\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Яндекс.Медиасервисы "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "yandex"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "musical_keyboard"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "clapper"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "admission_tickets"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Локация:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " предпочтительно московский офис, но обсуждаемо.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "150к-300к gross.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "По скиллам: ",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "Python, SQL и опыт работы аналитиком - must, важно понимание основ ML.\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "headphones"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  Каждый день Музыкой пользуются миллионы пользователей, взрослых и совсем юных, любителей вдумчивых подкастов и коротких зажигательных композиций. Ищем аналитика, который оцифрует мурашки от новой песни, переложит на дашборды любовь к плейлисту дня, проще говоря — будет придумывать, валидировать и внедрять "
+                            },
+                            {
+                                "type": "text",
+                                "text": "метрики качества рекомендаций",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ". Будем вместе разбираться, почему правильно составленный плейлист с забытыми песнями \"Тайник\" увеличивает время слушания (или нет?) и как в целом рекомендации влияют на бизнес-показатели.\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "left_speech_bubble"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Один из ближайших челленджей, которым хотелось бы заняться - как сделать метрики, не поощряющие скатывание в \"рекомендационный пузырь\". Очевидно выигрышный сценарий для любой рекомендационной системы - локальная оптимизация, т.к. всегда вероятнее что пользователю понравится что-то близкое к его уже известным вкусам. Но так есть риск замкнуться в локальном оптимуме (собственно, \"пузыре\") и не найти глобальный - а глобально нам конечно хочется познакомить пользователя с разными жанрами, чтобы у него было больше сценариев и разнообразия в использовании Музыки. Это продуктовая гипотеза, которую хотелось бы проверить серией исследовательских АБ-экспериментов, и подобрать метрики, корректно оптимизирующие long term цели, а не только локальные показатели.\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "musical_score"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  Формальное описание вакансии: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/yandex.ru\/jobs\/vacancies\/аналитик-в-команду-музыки-5917"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nЕсли вам интересно, можно писать:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "мне ( "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/t.me\/DancingClown"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " , "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/www.facebook.com\/iyashkov\/"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " )"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "руководителю группы аналитики Музыки, Олесе Гординской ( "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/t.me\/goo_olesya"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " )"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "нашему рекрутеру Лере "
+                                    },
+                                    {
+                                        "type": "user",
+                                        "user_id": "UQK7W7B4M"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " "
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625837664.263300",
+        "reply_count": 6,
+        "reply_users_count": 4,
+        "latest_reply": "1625903052.298500",
+        "reply_users": [
+            "U09JEC7V0",
+            "U0U2ENJ4U",
+            "U01GWG08763",
+            "UNP5YEWL9"
+        ],
+        "replies": [
+            {
+                "user": "U09JEC7V0",
+                "ts": "1625837813.265500"
+            },
+            {
+                "user": "U0U2ENJ4U",
+                "ts": "1625838726.266800"
+            },
+            {
+                "user": "U01GWG08763",
+                "ts": "1625855152.288900"
+            },
+            {
+                "user": "UNP5YEWL9",
+                "ts": "1625887300.295200"
+            },
+            {
+                "user": "U0U2ENJ4U",
+                "ts": "1625901202.296200"
+            },
+            {
+                "user": "U01GWG08763",
+                "ts": "1625903052.298500"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "no-junior",
+                "users": [
+                    "UNE08HYLX",
+                    "UMCSPCR5F",
+                    "UE61U6DCL",
+                    "U7QRZECR2"
+                ],
+                "count": 4
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "UC9HBTUKG",
+                    "U7SFPUVQF",
+                    "U7E8Y3V19",
+                    "UJ2N4SVBJ"
+                ],
+                "count": 4
+            },
+            {
+                "name": "yandex",
+                "users": [
+                    "UM5DH1YDC",
+                    "U2MS8DLDA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "D35C03F3-6644-4905-AC6A-12977D019E49",
+        "type": "message",
+        "text": "Раз уж тут вы - очень страшно видеть письмо от сервиса, в котором Рэй Чарльз выпустил новый альбом :joy:",
+        "user": "U09JEC7V0",
+        "ts": "1625837813.265500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QXlO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Раз уж тут вы - очень страшно видеть письмо от сервиса, в котором Рэй Чарльз выпустил новый альбом "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "joy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625837664.263300",
+        "parent_user_id": "U014JG2QE4R",
+        "reactions": [
+            {
+                "name": "pepe_clown",
+                "users": [
+                    "U7CAU0GMU"
+                ],
+                "count": 1
+            },
+            {
+                "name": "durka",
+                "users": [
+                    "UFF6S5ZGE"
+                ],
+                "count": 1
+            },
+            {
+                "name": "skull",
+                "users": [
+                    "U0FEJNBGQ"
+                ],
+                "count": 1
+            },
+            {
+                "name": "zombie",
+                "users": [
+                    "U0U2ENJ4U",
+                    "UN88FQFRC"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3208af0e-85aa-4549-8e4e-bc6cdfe94f7a",
+        "type": "message",
+        "text": "<https:\/\/vsluh.ru\/novosti\/obzor\/novyy-albom-maykla-dzheksona-vyydet-v-seredine-maya_268181\/|Новый альбом Майкла Джексона выйдет в середине мая>",
+        "user": "U0U2ENJ4U",
+        "ts": "1625838726.266800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "14882ebdc4fa",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2016-07-18\/60657636951_14882ebdc4fa3a51a76d_72.png",
+            "first_name": "Andrey",
+            "real_name": "Andrey Lyashenko",
+            "display_name": "andrey",
+            "team": "T040HKJE3",
+            "name": "andrey",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0U2ENJ4U",
+            "ts": "1625838760.000000"
+        },
+        "attachments": [
+            {
+                "service_name": "Вслух.ru",
+                "title": "Новый альбом Майкла Джексона выйдет в середине мая",
+                "title_link": "https:\/\/vsluh.ru\/novosti\/obzor\/novyy-albom-maykla-dzheksona-vyydet-v-seredine-maya_268181\/",
+                "text": "Новые альбомы короля поп-музыки продолжают выходить и после его смерти.",
+                "fallback": "Вслух.ru: Новый альбом Майкла Джексона выйдет в середине мая",
+                "image_url": "https:\/\/vsluh.ru\/upload\/og-image.png",
+                "image_width": 444,
+                "image_height": 250,
+                "from_url": "https:\/\/vsluh.ru\/novosti\/obzor\/novyy-albom-maykla-dzheksona-vyydet-v-seredine-maya_268181\/",
+                "image_bytes": 8982,
+                "service_icon": "https:\/\/vsluh.ru\/local\/templates\/main\/images\/favicon\/apple-touch-icon.png",
+                "id": 1,
+                "original_url": "https:\/\/vsluh.ru\/novosti\/obzor\/novyy-albom-maykla-dzheksona-vyydet-v-seredine-maya_268181\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T09v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/vsluh.ru\/novosti\/obzor\/novyy-albom-maykla-dzheksona-vyydet-v-seredine-maya_268181\/",
+                                "text": "Новый альбом Майкла Джексона выйдет в середине мая"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625837664.263300",
+        "parent_user_id": "U014JG2QE4R"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1625840460.269600",
+        "user": "UH9G5A59C",
+        "text": "<@UH9G5A59C> has joined the channel",
+        "inviter": "U64HAB6BA"
+    },
+    {
+        "client_msg_id": "2807256e-fb46-4bf8-82c0-030b43ecf43f",
+        "type": "message",
+        "text": "*Позиция*: Data Scientist\n*Компания*: ПГК\n*Уровень*: Middle\n*Место*: Москва (м. Комсомольская \/ м. Бауманская, гибридный график)\n*Вилка*: 180 - 250 тыс. руб\/мес net\n\nКомпания занимается ЖД перевозками, крупнейший частный оператор вагонов :mountain_railway:\nВ рамках цифровизации блока ремонта вагонов разрабатывается ряд продуктов, и сейчас идёт набор команда на один из них. Нужны люди для работы с данными датчиков, анализа этих данных и прогнозирования.\n\n*Задачи*:\n•  EDA, выявление инсайтов.\n•  Разработка моделей и подготовка их для разработчиков.\n•  Участие в выстраивании ML-пайплайнов.\n \n*Наши ожидания*:\n•  Опыт построения моделей от постановки задачи до прода,\n•  Способность писать чистый и понятный код,\n•  Достаточные знания статистики, матана и теории ML,\n•  Python, командная строка, гит, sql.\n \n*Мы предлагаем*:\n•  ДМС с первого дня.\n•  Классная команда.\n•  Большой бэклог проекта - скучно не будет.\n•  Возможность увидеть результаты своего труда.\n•  Участие в конференциях, возможность написания статей.\n \nПисать <mailto:KostyakovaNV@pgkweb.ru|KostyakovaNV@pgkweb.ru> или в лс",
+        "user": "UEJQVMXGB",
+        "ts": "1625841878.272200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3bc34395c273",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-01-28\/912274480322_3bc34395c273d07df724_72.jpg",
+            "first_name": "Nadezhda",
+            "real_name": "Nadezhda",
+            "display_name": "flevelet",
+            "team": "T040HKJE3",
+            "name": "nvkostiakova",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sNI0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Позиция",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Data Scientist\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": ПГК\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Уровень",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Middle\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Место",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Москва (м. Комсомольская \/ м. Бауманская, гибридный график)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": 180 - 250 тыс. руб\/мес net\n\nКомпания занимается ЖД перевозками, крупнейший частный оператор вагонов "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "mountain_railway"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nВ рамках цифровизации блока ремонта вагонов разрабатывается ряд продуктов, и сейчас идёт набор команда на один из них. Нужны люди для работы с данными датчиков, анализа этих данных и прогнозирования.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Задачи",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " EDA, выявление инсайтов."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " Разработка моделей и подготовка их для разработчиков."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " Участие в выстраивании ML-пайплайнов."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "offset": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": " \n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Наши ожидания",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " Опыт построения моделей от постановки задачи до прода,"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " Способность писать чистый и понятный код,"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " Достаточные знания статистики, матана и теории ML,"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " Python, командная строка, гит, sql."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "offset": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": " \n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Мы предлагаем",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " ДМС с первого дня."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " Классная команда."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " Большой бэклог проекта - скучно не будет."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " Возможность увидеть результаты своего труда."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": " Участие в конференциях, возможность написания статей."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "offset": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": " \nПисать "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:KostyakovaNV@pgkweb.ru",
+                                "text": "KostyakovaNV@pgkweb.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": " или в лс"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "no-junior",
+                "users": [
+                    "U0142RTCYEP",
+                    "U01C1DWGD5M",
+                    "UNE08HYLX",
+                    "U01U6QJ1BEE",
+                    "U7QRZECR2"
+                ],
+                "count": 5
+            },
+            {
+                "name": "el_resitas_shake",
+                "users": [
+                    "U01C1DWGD5M",
+                    "U01U6QJ1BEE"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a29cf5f6-a9a0-4c00-8738-a2eb9fe37ea9",
+        "type": "message",
+        "text": "*Позиция:* Team Lead Data Scientist\n*Компания:* Ctrl2Go Solutions\n*ЗП:* 300.000-350.000\n\n*Чем занимается наше подразделение Data Science:*\n• Разработка предиктивных моделей промышленного оборудования (выявление аномалий в работе, прогнозирование отказов)\n • Оптимизация технологических процессов (повышение качества продукции, уменьшение расхода сырья, энергии и др.)\n • Оптимизация бизнес-процессов на предприятиях (например, оптимизация логистических цепочек поставок)\n\n*Что нужно делать:*\n • Управление командой (4 чел, будет больше).\n • Анализ производственных задач совместно с индустриальными экспертами, определение экономических эффектов от внедрения ML-решений\n • Постановка задач на разработку моделей на основе бизнес-требований\n • Планирование, контроль сроков и качества разработки моделей\n • Развитие компетенций внутри команды и мотивация сотрудников\n • Запуск моделей в промышленную эксплуатацию с использованием платформы компании\n\n*Требования:*\n • Опыт внедрения ML-решений в промышленную эксплуатацию\n • Опыт руководства командой разработки\n • Отличные знания теории вероятностей, математической статистики и методов машинного обучения\n • Знание базовых алгоритмов и структур данных\n • Алгоритмы анализа временных рядов\n • Знание языка Python и умение писать эффективный код\n • Знание основных ML-библиотек (numpy, pandas, scikit-learn, scipy, xgboost и др.)\n • Знание инструментов визуализации данных\n • Опыт работы с базами данных (Clickhouse, PostgresSQL), оптимизация аналитических запросов\n • Опыт работы с GitLab, Jira, Confluence\n • Английский на уровне чтения статей\n • Желание глубоко погружаться в предметную область и разбираться с особенностями работы технологического оборудования\n\n*Будет плюсом:*\n • Опыт работы с DL фреймворками Tensorflow\/PyTorch, знание основных архитектур\n • Опыт в моделировании физических процессов\n • Знания в одной из отраслей (машиностроение, нефтегазовая, энергетическая, горнорудная)\n • Опыт работы в интеграторах\n • Успешный опыт решения задач на Кaggle\n\n*Мы предлагаем:*\n • Работа над проектами федерального значения\n • Плоская структура компании, участие в принятии решений\n • Официальное оформление, соблюдение ТК РФ\n • Гибкое начало рабочего дня\n • ДМС со стоматологией (после прохождения испытательного срока);\n По всем вопросам пишите в телегу @nataliaegorikhina или <mailto:egorikhina.natalia@ctrl2go.solutions|egorikhina.natalia@ctrl2go.solutions>",
+        "user": "UBQELFC8K",
+        "ts": "1625848362.276800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "50a688900aa0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-17\/1393145230592_50a688900aa057379bf6_72.jpg",
+            "first_name": "Timur_Bik",
+            "real_name": "Timur_Bik",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "bikmukhametov62",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UBQELFC8K",
+            "ts": "1625848418.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+mRsa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Позиция:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Team Lead Data Scientist\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Ctrl2Go Solutions\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "ЗП:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " 300.000-350.000\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Чем занимается наше подразделение Data Science:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n• Разработка предиктивных моделей промышленного оборудования (выявление аномалий в работе, прогнозирование отказов)\n • Оптимизация технологических процессов (повышение качества продукции, уменьшение расхода сырья, энергии и др.)\n • Оптимизация бизнес-процессов на предприятиях (например, оптимизация логистических цепочек поставок)\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что нужно делать:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n • Управление командой (4 чел, будет больше).\n • Анализ производственных задач совместно с индустриальными экспертами, определение экономических эффектов от внедрения ML-решений\n • Постановка задач на разработку моделей на основе бизнес-требований\n • Планирование, контроль сроков и качества разработки моделей\n • Развитие компетенций внутри команды и мотивация сотрудников\n • Запуск моделей в промышленную эксплуатацию с использованием платформы компании\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Требования:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n • Опыт внедрения ML-решений в промышленную эксплуатацию\n • Опыт руководства командой разработки\n • Отличные знания теории вероятностей, математической статистики и методов машинного обучения\n • Знание базовых алгоритмов и структур данных\n • Алгоритмы анализа временных рядов\n • Знание языка Python и умение писать эффективный код\n • Знание основных ML-библиотек (numpy, pandas, scikit-learn, scipy, xgboost и др.)\n • Знание инструментов визуализации данных\n • Опыт работы с базами данных (Clickhouse, PostgresSQL), оптимизация аналитических запросов\n • Опыт работы с GitLab, Jira, Confluence\n • Английский на уровне чтения статей\n • Желание глубоко погружаться в предметную область и разбираться с особенностями работы технологического оборудования\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Будет плюсом:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n • Опыт работы с DL фреймворками Tensorflow\/PyTorch, знание основных архитектур\n • Опыт в моделировании физических процессов\n • Знания в одной из отраслей (машиностроение, нефтегазовая, энергетическая, горнорудная)\n • Опыт работы в интеграторах\n • Успешный опыт решения задач на Кaggle\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Мы предлагаем:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n • Работа над проектами федерального значения\n • Плоская структура компании, участие в принятии решений\n • Официальное оформление, соблюдение ТК РФ\n • Гибкое начало рабочего дня\n • ДМС со стоматологией (после прохождения испытательного срока);\n По всем вопросам пишите в телегу @nataliaegorikhina или "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:egorikhina.natalia@ctrl2go.solutions",
+                                "text": "egorikhina.natalia@ctrl2go.solutions"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625848362.276800",
+        "reply_count": 4,
+        "reply_users_count": 3,
+        "latest_reply": "1625865296.293500",
+        "reply_users": [
+            "U09JEC7V0",
+            "UBQELFC8K",
+            "U15V81K6V"
+        ],
+        "replies": [
+            {
+                "user": "U09JEC7V0",
+                "ts": "1625848529.277100"
+            },
+            {
+                "user": "UBQELFC8K",
+                "ts": "1625849289.277600"
+            },
+            {
+                "user": "U15V81K6V",
+                "ts": "1625861294.291600"
+            },
+            {
+                "user": "UBQELFC8K",
+                "ts": "1625865296.293500"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "no-junior",
+                "users": [
+                    "UNE08HYLX",
+                    "U01U6QJ1BEE",
+                    "U01M8Q0ACMR",
+                    "U0142RTCYEP",
+                    "U7QRZECR2"
+                ],
+                "count": 5
+            },
+            {
+                "name": "notbad",
+                "users": [
+                    "U5FCA4F8X",
+                    "U01E6EEQS4V",
+                    "U8DEZV7E2"
+                ],
+                "count": 3
+            },
+            {
+                "name": "four_leaf_clover",
+                "users": [
+                    "UMMHKJVNJ",
+                    "U8DEZV7E2"
+                ],
+                "count": 2
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "UMMHKJVNJ",
+                    "U4X5JVCQ0",
+                    "U7E8Y3V19"
+                ],
+                "count": 3
+            },
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U4ZRFG1V0"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U9221QEV8"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d9b54df2-ec23-401f-b2d2-444989aef0bd",
+        "type": "message",
+        "text": "недолго ты продержался))",
+        "user": "U09JEC7V0",
+        "ts": "1625848529.277100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6dff5bc996df",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2015-11-06\/14021186960_6dff5bc996df9341fb00_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Sviridov",
+            "display_name": "ssviridov",
+            "team": "T040HKJE3",
+            "name": "ssviridov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H5\/33",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "недолго ты продержался))"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625848362.276800",
+        "parent_user_id": "UBQELFC8K"
+    },
+    {
+        "client_msg_id": "e5df42ed-55e9-4152-94aa-7e198652be99",
+        "type": "message",
+        "text": "<@U09JEC7V0> Судьба-злодейка повела по другому пути :smiley:",
+        "user": "UBQELFC8K",
+        "ts": "1625849289.277600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "50a688900aa0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-17\/1393145230592_50a688900aa057379bf6_72.jpg",
+            "first_name": "Timur_Bik",
+            "real_name": "Timur_Bik",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "bikmukhametov62",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c+ey",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U09JEC7V0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Судьба-злодейка повела по другому пути "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "smiley"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625848362.276800",
+        "parent_user_id": "UBQELFC8K",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U09JEC7V0",
+                    "UMMHKJVNJ"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0a45a21a-b4d4-4880-8b89-587f29d0f5da",
+        "type": "message",
+        "text": "Видимо кто-то не очень достойный кандидат.",
+        "user": "U6QC0PC3C",
+        "ts": "1625854343.279300",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "91709e0ee525",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-06-29\/2223722035203_91709e0ee525d4ed62cf_72.png",
+            "first_name": "Mikhail",
+            "real_name": "Mikhail Koromyslov",
+            "display_name": "mkoromyslov",
+            "team": "T040HKJE3",
+            "name": "mix",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "e3YD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Видимо кто-то не очень достойный кандидат."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625719872.059900",
+        "parent_user_id": "UBLFC66QH",
+        "reactions": [
+            {
+                "name": "trollface",
+                "users": [
+                    "UQ9UCJT0T"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "69E4A7A6-8066-46FA-A76A-E35146DD0921",
+        "type": "message",
+        "text": "Я поклонник Яндекса и Яндекс Музыки, спасибо :pray: что вы есть. С новыми выпусками альбомов покинувших этот бренный мир людей, я готов мириться. Считаю что вам нужно научиться распознавать пользователей. Например у меня Яндекс Станцию юзает вся семья под моим аккаунтом,  но в машине только я. Включая в ЯМ плейлист дня, мне предлагается все подряд, все что слушали супруга и дочь))) ",
+        "user": "U01GWG08763",
+        "ts": "1625855152.288900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g6fac2dedb85",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6fac2dedb85e05319db9f5539b5ffc62.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0000-72.png",
+            "first_name": "",
+            "real_name": "Александр Мельников",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "melnikofff06",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HwB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Я поклонник Яндекса и Яндекс Музыки, спасибо "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "pray"
+                            },
+                            {
+                                "type": "text",
+                                "text": " что вы есть. С новыми выпусками альбомов покинувших этот бренный мир людей, я готов мириться. Считаю что вам нужно научиться распознавать пользователей. Например у меня Яндекс Станцию юзает вся семья под моим аккаунтом,  но в машине только я. Включая в ЯМ плейлист дня, мне предлагается все подряд, все что слушали супруга и дочь))) "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625837664.263300",
+        "parent_user_id": "U014JG2QE4R",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U7N4E8GBF"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dceef098-2606-4697-bc91-82b5aa8a5fa5",
+        "type": "message",
+        "text": "Миддла, который сможет вести направление? Дерзко.",
+        "user": "UGF8L176H",
+        "ts": "1625855896.289600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gab35c96aa34",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a3ab35c96aa34f6dc54ee0dc781c1167.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Viacheslav",
+            "real_name": "Viacheslav",
+            "display_name": "Exzotick",
+            "team": "T040HKJE3",
+            "name": "spitcyn-slava",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XwvV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Миддла, который сможет вести направление? Дерзко."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625733933.108100",
+        "parent_user_id": "U40ENH32L"
+    },
+    {
+        "client_msg_id": "c521cd6c-c56a-44cd-99e1-2085e0ce32a9",
+        "type": "message",
+        "text": "сидеть в офисе нужно? или команда распределенная и можно удаленно?",
+        "user": "U15V81K6V",
+        "ts": "1625861294.291600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "18d795dcd924",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-04-26\/354719253015_18d795dcd924d344b8fe_72.jpg",
+            "first_name": "exotol",
+            "real_name": "exotol",
+            "display_name": "exotol",
+            "team": "T040HKJE3",
+            "name": "exotol",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9ANj+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "сидеть в офисе нужно? или команда распределенная и можно удаленно?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625848362.276800",
+        "parent_user_id": "UBQELFC8K"
+    },
+    {
+        "client_msg_id": "8AA69A3A-5ACA-4D26-9A10-D1DC211A3411",
+        "type": "message",
+        "text": "В целом нет, но нужно быть готовым приехать в любой момент по зову отца-руководителя.",
+        "user": "UBQELFC8K",
+        "ts": "1625865296.293500",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "50a688900aa0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-17\/1393145230592_50a688900aa057379bf6_72.jpg",
+            "first_name": "Timur_Bik",
+            "real_name": "Timur_Bik",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "bikmukhametov62",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "S5K",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "В целом нет, но нужно быть готовым приехать в любой момент по зову отца-руководителя."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625848362.276800",
+        "parent_user_id": "UBQELFC8K",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U15V81K6V"
+                ],
+                "count": 1
+            },
+            {
+                "name": "el_resitas_shake",
+                "users": [
+                    "UMMHKJVNJ",
+                    "UC7F3KJ7P",
+                    "U9V48C738",
+                    "UQ9UCJT0T",
+                    "U018JUMQU5S",
+                    "U7N4E8GBF",
+                    "UN2SN4GEL",
+                    "U061WBASK",
+                    "U7E8Y3V19",
+                    "U01CA1PNLV7"
+                ],
+                "count": 10
+            },
+            {
+                "name": "harold",
+                "users": [
+                    "U4ZRFG1V0",
+                    "U7N4E8GBF",
+                    "U061WBASK"
+                ],
+                "count": 3
+            },
+            {
+                "name": "no",
+                "users": [
+                    "UQ9UCJT0T",
+                    "U018JUMQU5S",
+                    "U061WBASK"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6a9a6da9-0292-4b34-868a-d208b658ba4d",
+        "type": "message",
+        "text": "Интересная и нужная задача:+1:",
+        "user": "UNP5YEWL9",
+        "ts": "1625887300.295200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g8aea66ced61",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8aea66ced6141a4d0e679ab12a387c8a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "Andrey Kovalev",
+            "display_name": "",
+            "team": "T040HKJE3",
+            "name": "kova7ev",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "daZm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Интересная и нужная задача"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1625837664.263300",
+        "parent_user_id": "U014JG2QE4R",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U7N4E8GBF",
+                    "UM37P4ZDE"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

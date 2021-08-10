@@ -10,6 +10,10 @@ from pandas import DataFrame
 from datetime import datetime
 from numpy import where
 from plotly.express import box
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import plotly.graph_objects as go
 
 
 def read_json(filename):
@@ -30,7 +34,7 @@ def load_messages(*args):
         messages = []
         links = listdir(f'_{channel}')
         for link in links:
-            file = read_json(f'_{channel}\\' + link)
+            file = read_json(f'_{channel}/' + link)
             messages = messages + file
         messages = DataFrame(messages)
         messages['source'] = channel
@@ -138,15 +142,14 @@ def apply_tax(row):
 
 
 LEVELS_DICT = {
-    'junior': {'pat': ['junior', 'джун', 'начинающ'], 'order': 0, 'q': (0.025, 0.85)},
-    'middle': {'pat': ['middle', 'мидл', 'миддл'], 'order': 1, 'q': (0.05, 0.9)},
-    'senior': {'pat': ['senior', 'синьор', 'сеньор', 'старш'], 'order': 2, 'q': (0.1, 0.95)},
-    'lead': {'pat': ['lead', 'head', 'лид', 'ведущ', 'head'], 'order': 3, 'q': (0.15, 0.975)}
+    'Junior': {'pat': ['junior', 'джун', 'начинающ'], 'order': 0, 'q': (0.025, 0.85)},
+    'Middle': {'pat': ['middle', 'мидл', 'миддл'], 'order': 1, 'q': (0.05, 0.9)},
+    'Senior': {'pat': ['senior', 'синьор', 'сеньор', 'старш'], 'order': 2, 'q': (0.1, 0.95)},
+    'Lead': {'pat': ['lead', 'head', 'лид', 'ведущ', 'head'], 'order': 3, 'q': (0.15, 0.975)}
 }
 
-
 def add_levels_cols(df):
-    df['junior'], df['middle'], df['senior'], df['lead'] = 0, 0, 0, 0
+    df['Junior'], df['Middle'], df['Senior'], df['Lead'] = 0, 0, 0, 0
     
     for level in LEVELS_DICT.keys():
         for pat in LEVELS_DICT[level]['pat']:
@@ -276,8 +279,366 @@ def box_plot_by_level(df):
         
     fig = box(new_df, x="lvl", y="Средняя зарплатная вилка", color='lvl', labels={
                  "mean": "Уровень зарплат в тыс. рублях",
-                 "lvl": 'Грейд'
+                 "lvl": 'Уровень'
              }, title = 'Средняя зарплатная вилка по грейдам')
     fig.show()
 
 
+GRADES = ['Junior', 'Middle', 'Senior', 'Lead']
+
+
+def get_salaries_by_categories(df, categories):
+    dfs = []
+    for category in categories:
+        for grade in GRADES:
+            salary_column = grade + '_fork_avg'
+            cur_df = df[(df['cur'] == 'rub') & (df[category]) & (df[grade]) & (df[salary_column])]
+            cur_df = pd.DataFrame(data={'salary': cur_df[salary_column]})
+            cur_df['category'] = category
+            cur_df['grade'] = grade
+            dfs.append(cur_df)
+    salary = pd.concat(dfs).reset_index()
+    return salary
+
+
+def get_avg_salaries(salary):
+    avg_salary = salary.groupby(['grade', 'category']).mean().reset_index()
+    avg_salary = avg_salary.sort_values(by=['grade'], key=lambda x: x.map({'Junior': 1, 'Middle': 2, 'Senior': 3, 'Lead': 4}))
+    return avg_salary
+
+
+NORMAL_FORKS = {
+    'Junior': {'lower': [30, 100], 'upper': [40, 150]},
+    'Middle': {'lower': [87, 174], 'upper': [139, 250]},
+    'Senior': {'lower': [100, 250], 'upper': [167, 400]},
+    'Lead': {'lower': [100, 350], 'upper': [150, 500]}
+}
+
+
+def lower_fork(fork, normal_fork):
+    return np.nan if not normal_fork or len(fork) == 0 else min(fork)
+
+def avg_fork(fork, normal_fork):
+    return np.nan if not normal_fork or len(fork) == 0 else (min(fork) + max(fork)) / 2
+
+def upper_fork(fork, normal_fork):
+    return np.nan if not normal_fork or len(fork) == 0 else max(fork)
+
+def fork_diff(fork, normal_fork):
+    return np.nan if not normal_fork or len(fork) == 0 else max(fork) - min(fork)
+
+def fork_ratio(fork, normal_fork):
+    return np.nan if not normal_fork or len(fork) == 0 else max(fork) / min(fork)
+
+def fork_coef(fork, normal_fork):
+    return np.nan if not normal_fork or len(fork) == 0 else (max(fork) - min(fork)) / min(fork)
+
+def normal_fork(fork, grade):
+    if len(fork) == 0:
+        return False
+    return NORMAL_FORKS[grade]['lower'][0] <= fork[0] <= NORMAL_FORKS[grade]['lower'][1] and\
+           NORMAL_FORKS[grade]['upper'][0] <= fork[1] <= NORMAL_FORKS[grade]['upper'][1]
+
+
+def get_keyword_df(df, keywords, include_spaces=True):
+    for keyword, keywords_to_search in keywords.items():
+        keywords_regex = '|'.join(keywords_to_search)
+        if include_spaces:
+            keywords_regex = '\W(' + keywords_regex + ')\W'
+        df[keyword] = df['clean_text'].str.contains(keywords_regex, regex=True)
+    keywords_df = pd.DataFrame(columns=['keyword', 'number'])
+    for keyword in list(keywords.keys()):
+        keywords_df = keywords_df.append({'keyword': keyword, 'number': len(df[df[keyword]])}, ignore_index=True)
+    keywords_df = keywords_df.sort_values(by=['number'], ascending=False).reset_index(drop=True)
+    keywords_df['perc'] = keywords_df['number'] / len(df) * 100
+    return keywords_df
+
+
+def plot_top_keywords(keyword_df, top_n, title, xlabel, ylabel, palette='summer_r', scale_perc=False):
+    ax = sns.barplot(data=keyword_df[keyword_df.index < top_n], x='keyword', y='perc', palette=palette)
+    ax.set_title(title)
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    if scale_perc:
+        ax.set_ylim(0, 100)
+
+
+def plot_skill_stats(df):
+    layout = dict(plot_bgcolor='white',
+                margin=dict(t=20, l=20, r=20, b=20),
+                xaxis=dict(title='Процент вакансий',
+                            linecolor='#d9d9d9',
+                            showgrid=False,
+                            mirror=True,
+                            range=(0, 100)),
+                yaxis=dict(title='Ценность навыка',
+                            linecolor='#d9d9d9',
+                            showgrid=False,
+                            mirror=True))
+
+    data = go.Scatter(
+        x=df['perc'],
+        y=df['weight'],
+        text=df['skill'],
+        textposition='top center',
+        textfont=dict(color='black'),
+        mode='markers+text',
+        marker=dict(color='#B533FF', size=8),
+    )
+    fig = go.Figure(data=data, layout=layout)
+    fig.show()
+
+
+def count_reactions(dicts):
+    reactions = 0
+    for dict_ in dicts:
+        reactions += len(dict_['users'])
+    return reactions
+
+
+def assign_reactions(df, reactions_df, top_n):
+    top_n = 100
+    top_reactions = list(reactions_df.loc[:top_n]['name'])
+    for index, row in df.iterrows():
+        reaction_dicts = df.loc[index, 'reactions']
+        if isinstance(reaction_dicts, float):
+            continue
+        for top_reaction in top_reactions:
+            df['reaction' + top_reaction] = 0
+            reaction_found = False
+            for reaction_dict in reaction_dicts:
+                if reaction_dict['name'] == top_reaction:
+                    df.loc[index, 'reaction_' + top_reaction] = int(reaction_dict['count'])
+                    reaction_found = True
+                    break
+            if not reaction_found:
+                df.loc[index, 'reaction_' + top_reaction] = 0
+        df['reaction_' + top_reaction] = df['reaction_' + top_reaction].fillna(0).astype(np.int32)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+ukraine_cities = {
+    'Киев': ['kiy?ev', 'киев[ае]?'],
+    'Харьков': ['kharkov', 'харьков[ае]?'],
+    'Одесса': ['odessa', 'одесс[аеы]'],
+    'Днепр': ['dnipro', 'днепропетровск[ае]?'],
+    'Львов': ['lviv', 'львов[ае]?'],
+}
+
+belarus_cities = {
+    'Минск': ['minsk', 'минск[ае]?'],
+    'Гомель': ['gomel', 'гомел[ьи]'],
+    'Витебск': ['vitebsk', 'витебск[ае]?'],
+    'Брест': ['брест[ае]?'],
+    'Могилёв': ['mogilev', 'могил[её]в[ае]?']
+}
+
+england_cities = {
+    'Лондон': ['london', 'лондон[ае]?'],
+    'Ливерпуль': ['liverpool', 'ливерпул[ьея]'],
+    'Манчестер': ['manchester', 'манчестер[ае]?'],
+    'Лестер': ['leicester', 'лестер[ае]?'],
+    'Ньюкасл': ['newcastle', 'ньюкасл[ае]?'],
+    'Оксфорд': ['oxford', 'оксфорд[ае]?'],
+    'Лидс': ['leeds', 'лидс[ае]?'],
+    'Бирминген': ['birmingen', 'б[еёи]рмингем[ае]?']
+}
+
+france_cities = {
+    'Париж': ['paris', 'париж[ае]?'],
+    'Лион': ['lyon', 'лион[ае]?'],
+    'Монако': ['monaco', 'монако'],
+    'Ниица': ['in nice', 'ницц[аеы]'],
+    'Марсель': ['marsei?lle', 'марсел[ьея]'],
+    'Тулуза': ['toulouse', 'тулуз[аеы]'],
+    'Страсбург': ['strasbo?urg', 'страсбург[ае]'],
+    'Бордо': ['bordeaux', 'бордо'],
+    'Монпелье': ['montpellier', 'монпелье'],
+    'Ренн': ['rennes', 'ренн[ае]'],
+    'Реймс': ['reims', 'р[еэ]ймс[ае]'],
+    'Дижон': ['dijon', 'дижон[ае]'],
+    'Канн': ['cannes', 'канн?(а|е|ах)?']
+}
+
+germany_cities = {
+    'Мюнхен': ['munchen', 'мюнхен[ае]?'],
+    'Дортмунд': ['dortmund', 'дортмунд[ае]?'],
+    'Берлин': ['berlin', 'берлин[ае]?'],
+    'Дрезден': ['dre[sz]den', 'др[еэ]зд[еэ]н[ае]?'],
+    'Франкфурт': ['frankfurt', 'франкфурт[ае]?'],
+    'Гамбург': ['hamburg', 'гамбург[ае]?'],
+    'Штутгарт': ['stuttgart', 'штутт?гарт[ае]?'],
+    'Бремен': ['bremen', 'бремен[ае]?'],
+    'Лейпциг': ['leipzig', 'ле[ий]пциг[ае]?']
+}
+
+italy_cities = {
+    'Рим': ['rome', 'рим[ае]?'],
+    'Милан': ['milan', 'милан[ае]?'],
+    'Турин': ['turin', 'турин[ае]?'],
+    'Флоренция': ['florence', 'флоренци[ия]'],
+}
+
+spain_cities = {
+    'Барселона': ['barcelona', 'барселон[аеы]'],
+    'Мадрид': ['madrid', 'мадрид[ае]?'],
+    'Севилья': ['sevilla', 'севиль[еия]'],
+    'Бильбао': ['bilbao', 'бильбао'],
+    'Валенсия': ['valencia', 'валенси[ия]'],
+}
+
+usa_cities = {
+    'Нью-Йорк': ['new\Wyork', 'нью\Wйорк[ае]?'],
+    'Лос-Анджелес': ['los\Wangeles', 'лос\Wанджелес[ае]?'],
+    'Вашингтон': ['washington', 'вашингтон[ае]?'],
+    'Сан Франциско': ['san\Wfrancisco', 'сан\Wфранциско'],
+    'Сеаттл': ['seattle', 'сеатт?л[ае]?'],
+    'Чикаго': ['chicago', 'чикаго'],
+    'Калифорния': ['california', 'калифорни[еия]'],
+    'Бостон': ['boston', 'бостон[ае]?'],
+    'Денвер': ['denver', 'денвер[ае]?'],
+    'Майами': ['miami', 'майами']
+}
+
+
+def flatten(lst):
+    return [item for sublist in lst for item in sublist]
+
+
+countries = {
+    # Европа
+    'Россия': ['russia', 'росси[ия]', 'рф'] + flatten(list(russia_cities.values())),
+    'Украина': ['ukraine', 'украин[аеы]'] + flatten(list(ukraine_cities.values())),
+    'Белоруссия': ['belarus', 'белорусси[ия]', 'бел[оа]рус[ьи]и?'] + flatten(list(belarus_cities.values())),
+    
+    'Англия': ['england', 'united kingdom', '\Wuk\W', 'англи[ия]'] + flatten(list(england_cities.values())),
+    'Франция': ['france', 'франци[ия]'] + flatten(list(france_cities.values())),
+    'Германия': ['germany', 'германи[ия]'] + flatten(list(germany_cities.values())),
+    'Италия': ['italy', 'итали[ия]'] + flatten(list(italy_cities.values())),
+    'Испания': ['spain', 'испани[ия]'] + flatten(list(spain_cities.values())),
+    
+    'Швейцария': ['switzerland', 'швейцари[ия]'],
+    'Швеция': ['sweden', 'швеци[ия]'],
+    'Нидерланды': ['netherlands', 'нидерланд(ы|ах)', 'голланди[ия]', 'amsterdam', 'амстердам'],
+    'Австрия': ['austria', 'австри[ия]'],
+    'Греция': ['greece', 'греци[ия]'],
+    'Турция': ['turkey', 'турци[ия]'],
+    'Кипр': ['cyprus', 'кипр[ае]?'],
+    'Грузия': ['georgia', 'грузи[ия]'],
+    'Израиль': ['israel', 'израил[ьея]'],
+    'Финляндия': ['finland', 'финлянди[ия]'] + ['helsinki', 'хель?синк'],
+    'Эстония': ['estonia', 'эстони[ия]'],
+    'Литва': ['литв[аеы]'],
+    'Латвия': ['латви[ия]'],
+    
+    # Азия
+    'Китай': ['china', 'кита[ейя]'],
+    'Корея': ['korea', 'коре[еия]'],
+    'ОАЭ': ['uae', 'united arab emirates', 'оаэ', 'арабски[ех] эмират(ы|ах)'],
+    'Индия': ['india', 'инди[ия]'],
+    'Катар': ['qatar', 'катар[ае]?'],
+    
+    # Северная Америка
+    'Канада': ['canada', 'канад[аеы]'],
+    'США': ['usa', 'united states', 'сша', 'в штатах'] + flatten(list(usa_cities.values())),
+    'Мексика': ['mexico', 'мексик[аеи]'],
+    
+     # Австралия
+    'Австралия': ['australia', 'автрали[ия]'],
+}
+
+keyword_df = get_keyword_df(df, countries, include_spaces=True)
+df['number_of_skills'] = df[skills].sum(axis=1)
+
+
+# анализ по компаниям
+
+companies = {
+    'Сбербанк': ['sber', 'sberbank', 'сбер', 'сбербанк'],
+    'ВТБ': ['vtb', 'втб'],
+    'Райффайзен': ['raiffeisen', 'райффайзен'],
+    'Тинькофф': ['tinkoff', 'тинькофф'],
+    'Альфа-Банк': ['альфа', 'alpha.?bank'],
+    'Точка банк': ['tochka.com', '(tochka|точка)\W(bank|банк)'],
+    'Банк спб': ['(bank|банк)\W(spb|спб)', 'банк\w?\Wсанкт\W?петербург'],
+    'Яндекс': ['яндекс', 'yandex'],
+    'Вконтакте': ['\Wvk\W', 'vkontakte', '\Wвк\W', 'вконтакте'],
+    'Одноклассники': ['одноклассники'],
+    'X5 Retail Group': ['x5', 'retail.?group', 'х5'],
+    'Mail.ru Group': ['\W(mail|м[аеэ]йл)\W'],
+    'Huawei': ['huawei', 'хуав[еэ]й'],
+    'JetBrains': ['jet.?brains', 'jb', 'д?жет.?бр[аеэ]йнс', 'жб'],
+    'EPAM': ['epam', '[эе]пам'],
+    'Rambler Group': ['rambler', 'рамблер'],
+    'МТС': ['мтс'],
+    'Билайн': ['beeline', 'biline', 'билайн'],
+    'Мегафон': ['мегафон', 'megafon'],
+    'Tele 2': ['tele.?2', 'теле.?2'],
+    'Ростелеком': ['rostelekom', 'ростелеком'],
+    'S7': ['s7'],
+    'Газпром': ['gazprom', 'газпром'],
+    'Ozon': ['ozon', 'озон'],
+    'Авито': ['avito', 'авито'],
+    'Delivery Club': ['delivery.?club'],
+    'Wildberries': ['wildberries'],
+    'Leroy Merlin': ['ler[uo][ay].?merl[ei]n', 'леруа.?мерлен'],
+    'Лента': ['lenta', 'лента']
+}
+
+keyword_df = get_keyword_df(df, companies, include_spaces=False)
+top_n = 5
+top_n_list = list(keyword_df['keyword'])[:top_n]
+salary = get_salaries_by_categories(df, top_n_list)
+fig = px.box(salary, x='category', y='salary', color='grade', title='Средняя зарплата по компаниям')
+fig.show()
+
+
+
+
+# сферы применения Data Science
+spheres = {
+    'Marketing': {'marketing', 'commerce', 'advertisment', 'маркетинг', 'коммерци', 'продви[жг]\w{,4}.продукт'},
+    'Banking': {'fraud', '(credit|data.?risk)', 'risk modeling', 'фрод', 'кредит', 'микрофинанс', 'мфо', 'риск', 'займ'},
+    'Finances': {'cryptocurrency', 'quantative', 'trading', 'stocks', 'bitcoin', 'крипт[ао]', 'тр[еэ]й?динг', 'акци', 'битко[ий]н'},
+    'Retail': {'retail', 'р[еи]т[еэ]йл', '(супер|гипер)маркет', '[хx]5', 'еда', 'напитки'},
+    'Medicine': {'medicine', 'medical', 'biology', 'health', 'illness', 'drug', 'pharmac', 'bioinformatic'
+                 'медицин', 'биологи', 'здоровь', 'болезн', 'наркотик', 'аптек', 'биоинформатик'},
+    'Gaming': {'gaming', 'game analysis', 'gambling', 'casino', 'игров', 'aнализ игр', 'гейм', 'г[аеэ]мблинг', 'казино', 'матч', 'турнир'},
+    'Transport': {'transport', 'driv(ing|er)', 'cars', 'passengers', 'autopilot', 'plane',
+                  'транспорт', 'вождение', 'водител', 'пассажир', 'автопилот', 'самол[её]т', 'передви[жг]'}
+}
+
+get_keyword_df(df, spheres, include_spaces=False)
+salary = get_salaries_by_categories(df, list(spheres.keys()))
+fig = px.box(salary, x='category', y='salary', color='grade', title='Средняя зарплата по различным категориям')
+fig.show()
+"""

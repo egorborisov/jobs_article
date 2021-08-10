@@ -1,0 +1,96 @@
+[
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1615475891.003400",
+        "thread_ts": "1615475891.003400",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1615476190.004600",
+        "reply_users": [
+            "U0K47J3HR"
+        ],
+        "replies": [
+            {
+                "user": "U0K47J3HR",
+                "ts": "1615476190.004600"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "ramen",
+                "users": [
+                    "UDUBG85P1",
+                    "U01P620V7H7",
+                    "UK69UMP1P",
+                    "U9ASAH14L"
+                ],
+                "count": 4
+            },
+            {
+                "name": "fork",
+                "users": [
+                    "ULPRYQNS2",
+                    "U9HSZRDP1",
+                    "U8J9XMX3J",
+                    "UEVA1NXGT",
+                    "UK69UMP1P"
+                ],
+                "count": 5
+            },
+            {
+                "name": "hr_alert",
+                "users": [
+                    "ULPRYQNS2",
+                    "U8J9XMX3J"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f2335b5d-3bf2-40f2-a425-cfdb8f946248",
+        "type": "message",
+        "text": "Маш, укажи верхнюю границу вилки, пожалуйста",
+        "user": "U0K47J3HR",
+        "ts": "1615476190.004600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6d5ff9b845f5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-27\/321752094228_6d5ff9b845f5b3248b1e_72.jpg",
+            "first_name": "Valentin",
+            "real_name": "Valentin Malykh",
+            "display_name": "madrugado",
+            "team": "T040HKJE3",
+            "name": "madrugado",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aUB\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Маш, укажи верхнюю границу вилки, пожалуйста"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1615475891.003400",
+        "parent_user_id": "UR4UR2B4Z"
+    }
+]

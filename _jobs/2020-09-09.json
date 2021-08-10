@@ -70,9 +70,9 @@
         "user_profile": {
             "avatar_hash": "7296a1e07c9a",
             "image_72": "https:\/\/avatars.slack-edge.com\/2020-09-30\/1396937501219_7296a1e07c9a27f4a764_72.png",
-            "first_name": "vtrokhymenko",
-            "real_name": "vtrokhymenko",
-            "display_name": "vtrokhymenko",
+            "first_name": "vtrohimenko",
+            "real_name": "vtrohimenko",
+            "display_name": "vtrohimenko",
             "team": "T040HKJE3",
             "name": "vtrokhymenko",
             "is_restricted": false,
@@ -461,7 +461,23 @@
             }
         ],
         "thread_ts": "1599323265.233600",
-        "parent_user_id": "U6UHKPYG4"
+        "parent_user_id": "U6UHKPYG4",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U6UHKPYG4"
+                ],
+                "count": 1
+            },
+            {
+                "name": "star-struck",
+                "users": [
+                    "U6UHKPYG4"
+                ],
+                "count": 1
+            }
+        ]
     },
     {
         "client_msg_id": "f8ce1513-e8d4-4dbc-9889-65d8e51806df",
@@ -1303,6 +1319,7 @@
                 "ts": "1599991777.321100"
             }
         ],
+        "is_locked": false,
         "subscribed": false,
         "reactions": [
             {

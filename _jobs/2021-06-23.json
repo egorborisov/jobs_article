@@ -1,0 +1,593 @@
+[
+    {
+        "type": "message",
+        "subtype": "tombstone",
+        "text": "This message was deleted.",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "ts": "1624442293.162200",
+        "thread_ts": "1624442293.162200",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1624444209.162900",
+        "reply_users": [
+            "U9AFA9HCZ"
+        ],
+        "replies": [
+            {
+                "user": "U9AFA9HCZ",
+                "ts": "1624444209.162900"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false
+    },
+    {
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1624443034.162500",
+        "user": "U01HLE31WP7",
+        "text": "<@U01HLE31WP7> set the channel description: ПРАВИЛА \/ READ ME: <https:\/\/goo.gl\/4YjGE2>\nfor recruiters —&gt; <#CEAT9QS01|_jobs_hr>",
+        "purpose": "ПРАВИЛА \/ READ ME: <https:\/\/goo.gl\/4YjGE2>\nfor recruiters —&gt; <#CEAT9QS01|_jobs_hr>",
+        "reactions": [
+            {
+                "name": "widefork",
+                "users": [
+                    "UC9HBTUKG",
+                    "U0ZJSC8JC"
+                ],
+                "count": 2
+            },
+            {
+                "name": "tnx",
+                "users": [
+                    "U9T0G9W3G",
+                    "UCW53LUHL"
+                ],
+                "count": 2
+            },
+            {
+                "name": "fork",
+                "users": [
+                    "U7CAU0GMU"
+                ],
+                "count": 1
+            },
+            {
+                "name": "rowing-galera",
+                "users": [
+                    "U7CAU0GMU"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "879067c1-975a-4cbd-b041-692ef06c6760",
+        "type": "message",
+        "text": "ага понял - удалите плиз - не могу",
+        "user": "U9AFA9HCZ",
+        "ts": "1624444209.162900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "3bc2295b8d63",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-19\/317126716996_3bc2295b8d630feccb66_72.jpg",
+            "first_name": "Денис",
+            "real_name": "Денис Асалханов",
+            "display_name": "cosa31",
+            "team": "T040HKJE3",
+            "name": "asalhanvip",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "glP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ага понял - удалите плиз - не могу"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1624442293.162200",
+        "parent_user_id": "U9AFA9HCZ"
+    },
+    {
+        "client_msg_id": "0d4942bf-c3b6-4546-b215-4c0de9ff7f8f",
+        "type": "message",
+        "text": "А, ну то есть это человек, который скорее всего уже где-то поработал.",
+        "user": "UGF8L176H",
+        "ts": "1624444306.163100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "gab35c96aa34",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a3ab35c96aa34f6dc54ee0dc781c1167.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Viacheslav",
+            "real_name": "Viacheslav",
+            "display_name": "Exzotick",
+            "team": "T040HKJE3",
+            "name": "spitcyn-slava",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uKU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "А, ну то есть это человек, который скорее всего уже где-то поработал."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1624349699.095200",
+        "parent_user_id": "U024WHDB7PD"
+    },
+    {
+        "client_msg_id": "72b7616c-efb5-44cc-a102-8a23fc32cc87",
+        "type": "message",
+        "text": "Коллеги, привет! И снова появляется вакансия в Neuromation, на этот раз в команду нашей MLOps-платформы.\n\n*Компания*: Neuromation (<http:\/\/neu.ro|neu.ro>)\n*Город*: удалённо; большая часть нашей команды находится в Москве, Киеве и Санкт-Петербурге\n*Вакансия*: MLOps—инженер\n*Вилка*: $3000–$4000 в месяц net\n\nКомпания <http:\/\/neu.ro|neu.ro> разрабатывает платформу для интеграции различных инструментов машинного обучения и data science в единую экосистему. Мы и работаем с внутренней DS\/DL-командой, и разрабатываем решения для сторонних заказчиков, которые решают свои задачи на нашей платформе.\n\nНачну сразу с важных в наше время вещей:\n• вакансия full-time, работа удалённая, ваша локация не важна (мы уже год как по понятным причинам отказались от офиса и пока не горим желанием возвращаться)\n• компания наша не российская, поэтому зарплатная вилка устанавливается в долларах США и в рублях не фиксируется ни в какой момент; трудоустройство ведём через ИП — проконсультируем, поможем :)\n• из дополнительных бонусов пока ДМС, reading club, до 20% рабочего времени можно тратить на профессиональное саморазвитие (open-source, изучение новых технологий, профильные конференции и т.п.); возможно, список будет расширяться.\n*Вам предстоит*:\n• Анализировать доступные инструменты для MLOps и разрабатывать механизмы их интеграции с платформой <http:\/\/Neu.ro|Neu.ro> (иногда это yaml-файл с нашим конфигом, иногда Helm-chart, иногда приложение на Python, которое управляет компонентами Kubernetes)\n• Участвовать в разработке сервисов платформы, движка пайплайнов и окружающих инструментов\n• Помогать внутренней ML-команде с точки зрения MLOps\n• Общаться с внешними клиентами, анализировать их запросы и проблемы, строить MLOps-окружение для них с нуля, либо мигрировать их существующие решения на нашу платформу\n• Принимать участие в существующих организациях и сообществах, посвященных MLOps, от имени компании\n*Мы ожидаем*:\n• Готовность погрузиться в эту, довольно новую, предметную область и изучать новые инструменты и подходы.\n• Степень бакалавра в Computer Science, Software Engineering или смежных областях\n• От 3 лет опыта продуктовой разработки, DevOps или ML-разработки\n• От 1 года опыта работы с Python\n• Умение применять лучшие практики разработки (версионирование, CI\/CD)\n• Знакомство с DevOps (основные облачные провайдеры, Kubernetes, Docker, bash)\n• Умение общаться на английском языке\nПожалуйста, отправляйте резюме (и вопросы по поводу вакансии) на *два* адреса:  <mailto:mlops@neu.ro|mlops@neu.ro> и <mailto:snikolenko@neu.ro|snikolenko@neu.ro>",
+        "user": "U04AR6WF0",
+        "ts": "1624467915.170900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "d1108016cc9a",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-01\/308296893938_d1108016cc9a3f2d30fe_72.jpg",
+            "first_name": "Sergey",
+            "real_name": "Sergey Nikolenko",
+            "display_name": "snikolenko",
+            "team": "T040HKJE3",
+            "name": "snikolenko",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gka",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Коллеги, привет! И снова появляется вакансия в Neuromation, на этот раз в команду нашей MLOps-платформы.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Компания",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Neuromation ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/neu.ro",
+                                "text": "neu.ro"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": удалённо; большая часть нашей команды находится в Москве, Киеве и Санкт-Петербурге\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вакансия",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": MLOps—инженер\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": $3000–$4000 в месяц net\n\nКомпания "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/neu.ro",
+                                "text": "neu.ro"
+                            },
+                            {
+                                "type": "text",
+                                "text": " разрабатывает платформу для интеграции различных инструментов машинного обучения и data science в единую экосистему. Мы и работаем с внутренней DS\/DL-командой, и разрабатываем решения для сторонних заказчиков, которые решают свои задачи на нашей платформе.\n\nНачну сразу с важных в наше время вещей:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "вакансия full-time, работа удалённая, ваша локация не важна (мы уже год как по понятным причинам отказались от офиса и пока не горим желанием возвращаться)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "компания наша не российская, поэтому зарплатная вилка устанавливается в долларах США и в рублях не фиксируется ни в какой момент; трудоустройство ведём через ИП — проконсультируем, поможем :)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "из дополнительных бонусов пока ДМС, reading club, до 20% рабочего времени можно тратить на профессиональное саморазвитие (open-source, изучение новых технологий, профильные конференции и т.п.); возможно, список будет расширяться."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вам предстоит",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Анализировать доступные инструменты для MLOps и разрабатывать механизмы их интеграции с платформой "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "http:\/\/Neu.ro",
+                                        "text": "Neu.ro"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " (иногда это yaml-файл с нашим конфигом, иногда Helm-chart, иногда приложение на Python, которое управляет компонентами Kubernetes)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Участвовать в разработке сервисов платформы, движка пайплайнов и окружающих инструментов"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Помогать внутренней ML-команде с точки зрения MLOps"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Общаться с внешними клиентами, анализировать их запросы и проблемы, строить MLOps-окружение для них с нуля, либо мигрировать их существующие решения на нашу платформу"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Принимать участие в существующих организациях и сообществах, посвященных MLOps, от имени компании"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Мы ожидаем",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ":\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Готовность погрузиться в эту, довольно новую, предметную область и изучать новые инструменты и подходы."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Степень бакалавра в Computer Science, Software Engineering или смежных областях"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "От 3 лет опыта продуктовой разработки, DevOps или ML-разработки"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "От 1 года опыта работы с Python"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Умение применять лучшие практики разработки (версионирование, CI\/CD)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Знакомство с DevOps (основные облачные провайдеры, Kubernetes, Docker, bash)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Умение общаться на английском языке"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nПожалуйста, отправляйте резюме (и вопросы по поводу вакансии) на "
+                            },
+                            {
+                                "type": "text",
+                                "text": "два",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " адреса:  "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:mlops@neu.ro",
+                                "text": "mlops@neu.ro"
+                            },
+                            {
+                                "type": "text",
+                                "text": " и "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:snikolenko@neu.ro",
+                                "text": "snikolenko@neu.ro"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1624467915.170900",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1625405698.263900",
+        "reply_users": [
+            "U14L5TKNJ"
+        ],
+        "replies": [
+            {
+                "user": "U14L5TKNJ",
+                "ts": "1625405698.263900"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UC9HBTUKG",
+                    "UC0URCPT7",
+                    "U600Q839S",
+                    "U01AQCL28US",
+                    "U9SBJGAS1",
+                    "UCB3PK96J",
+                    "U6D0PU4BZ",
+                    "U74FVHN4D",
+                    "UEK7QL3HN",
+                    "UQ4PM237B",
+                    "U01KSCCV319",
+                    "U9GA283M3",
+                    "U80H34210",
+                    "U4X5JVCQ0",
+                    "U27SUBTB9",
+                    "U1YQLTMLH",
+                    "U020G3BDBHU",
+                    "UCMAWD588",
+                    "UM2Q2B41J",
+                    "UD9D3PMGD"
+                ],
+                "count": 20
+            },
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "UFZ9SJ2P3",
+                    "U4WM1939Q",
+                    "U6L08K8KS",
+                    "U3PETUSSE",
+                    "U3K7PNTML",
+                    "U3UPVJHKM"
+                ],
+                "count": 6
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U60EETE7N",
+                    "U04725QK7",
+                    "U709XK88H",
+                    "U726PUVRR",
+                    "U049NHC4X"
+                ],
+                "count": 5
+            },
+            {
+                "name": "pornhub",
+                "users": [
+                    "UQMCTGYEL",
+                    "UPGAV3FSM",
+                    "U5GCU82HX",
+                    "U0NQXK023",
+                    "UKQTHKEPJ",
+                    "UFTCW1X0F",
+                    "U79U060TZ",
+                    "UJ2N4SVBJ",
+                    "U7E8Y3V19",
+                    "UEK7QL3HN",
+                    "UPS7RJXUK",
+                    "UN3N2PD54",
+                    "UHXL7APBK",
+                    "U01CLTCL56U"
+                ],
+                "count": 14
+            },
+            {
+                "name": "fire",
+                "users": [
+                    "U9GA283M3",
+                    "U80H34210"
+                ],
+                "count": 2
+            },
+            {
+                "name": "oktai",
+                "users": [
+                    "U9GA283M3",
+                    "U3PETUSSE"
+                ],
+                "count": 2
+            },
+            {
+                "name": "+1::skin-tone-4",
+                "users": [
+                    "U30A6KZLH"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

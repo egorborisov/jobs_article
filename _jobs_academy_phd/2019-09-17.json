@@ -1,0 +1,194 @@
+[
+    {
+        "client_msg_id": "691D4E22-B2B0-41B4-8941-A771D16383E3",
+        "type": "message",
+        "text": "Вакансия от коллег из Сколтеха:\n\n\nВ Сколтех, в лабораторию Ивана Оселедца <https:\/\/scholar.google.ru\/citations?user=5kMqBQEAAAAJ&amp;hl=ru&amp;oi=sra> \nищется ресерч интерн (зп 90тр, плюс возможно каждый месяц выплачивать премии в 45тр) запрогать <https:\/\/en.wikipedia.org\/wiki\/Multigrid_method> версию метода, а потом развивать суррогатное моделирование многофазных течений нейронками. \n\nПубликации, наука мирового уровня, конференции, это все.\n\nКонтакты — писать в :telegram:  @georgeov  \n\nБосс — один из лучших живых математиков. Ну реально, вы даже если удете в топовый универ, скорее всего ваш научрук будет не таким умным.",
+        "user": "U0K47J3HR",
+        "ts": "1568717327.001200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "6d5ff9b845f5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-02-27\/321752094228_6d5ff9b845f5b3248b1e_72.jpg",
+            "first_name": "Valentin",
+            "real_name": "Valentin Malykh",
+            "display_name": "madrugado",
+            "team": "T040HKJE3",
+            "name": "madrugado",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "image_url": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/8c\/Multigrid_Visualization.png",
+                "image_width": 1762,
+                "image_height": 1089,
+                "image_bytes": 210383,
+                "title": "Multigrid method",
+                "title_link": "https:\/\/en.wikipedia.org\/wiki\/Multigrid_method",
+                "from_url": "https:\/\/en.wikipedia.org\/wiki\/Multigrid_method",
+                "author_name": "Wikipedia",
+                "author_link": "https:\/\/en.wikipedia.org\/",
+                "text": "Multigrid (MG) methods in numerical analysis are algorithms for solving differential equations using a hierarchy of discretizations. They are an example of a class of techniques called multiresolution methods, very useful in problems exhibiting multiple scales of behavior. For example, many basic relaxation methods exhibit different rates of convergence for short- and long-wavelength components, suggesting these different scales be treated differently, as in a Fourier analysis approach to multigrid. MG methods can be used as solvers as well as preconditioners.\nThe main idea of multigrid is to accelerate the convergence of a basic iterative method (known as relaxation, which generally reduces short-wavelength error) by a global correction of the fine grid solution approximation from time to time, accomplished by solving a coarse problem. The coarse problem, while cheaper to solve, is similar to the fine grid problem in that it also has short- and long-wavelength errors. It can also be solved by a combination of relaxation and appeal to still coarser grids. This recursive process is repeated until a grid is reached where the cost of direct solution there is negligible compared to the cost of one relaxation sweep on the fine grid. This multigrid cycle typically reduces all error components by a fixed amount bounded well below one, independent of the fine grid mesh size. The typical application for multigrid is in the numerical solution of elliptic partial differential equations in two or more dimensions.Multigrid methods can be applied in combination with any of the common discretization techniques. For example, the finite element method may be recast as a multigrid method. In these cases, multigrid methods are among the fastest solution techniques known today. In contrast to other methods, multigrid methods are general in that they can treat arbitrary regions and boundary conditions. They do not depend on the separability of the equations or other special properties of the equation.  They have also been widely used for more-complicated non-symmetric and nonlinear systems of equations, like the Lamé equations of elasticity or the Navier-Stokes equations.",
+                "fallback": "wikipedia: Multigrid method",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/wikipedia.png",
+                "id": 1,
+                "original_url": "https:\/\/en.wikipedia.org\/wiki\/Multigrid_method"
+            }
+        ],
+        "thread_ts": "1568717327.001200",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1568751613.005000",
+        "reply_users": [
+            "U2N853RGF",
+            "U9ZU1CYUD"
+        ],
+        "replies": [
+            {
+                "user": "U2N853RGF",
+                "ts": "1568717657.001800"
+            },
+            {
+                "user": "U9ZU1CYUD",
+                "ts": "1568751613.005000"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fireball",
+                "users": [
+                    "UEK7QL3HN",
+                    "UCNKBQJEN",
+                    "U2N853RGF",
+                    "U452JCQ7Q",
+                    "U665SD52L",
+                    "U709XK88H",
+                    "U7VDWFSG3",
+                    "U06K9ELB1",
+                    "UE7FQ2EFR",
+                    "U06J1LG1M",
+                    "UDK41MN5U",
+                    "UEV4J7MTM",
+                    "U1ZFJNSF5",
+                    "U50EVF538",
+                    "U0952QCHE",
+                    "U2VBC4HEX",
+                    "UBA7N1YSG",
+                    "UD4GTQTQS",
+                    "UCMAWD588",
+                    "U4P8W340Y",
+                    "U8T061G4A",
+                    "U4WGFD012",
+                    "U6SCXUP6U",
+                    "U3FEH4R1P",
+                    "U411PKASW",
+                    "U6L08K8KS",
+                    "UF4D9TWPQ",
+                    "UHDQKG6P5",
+                    "UF2N1558C",
+                    "U4JQS8LF5",
+                    "UGECJNQ7J",
+                    "UEP8V5FM5",
+                    "UHR5RDQBD",
+                    "UG53QAZC6",
+                    "U21MU5ATE",
+                    "U051D3LQV"
+                ],
+                "count": 36
+            },
+            {
+                "name": "train",
+                "users": [
+                    "U06J1LG1M",
+                    "U4WGFD012",
+                    "UEE6V2P46",
+                    "UG53QAZC6"
+                ],
+                "count": 4
+            },
+            {
+                "name": "skoltech",
+                "users": [
+                    "U5PU8U90Q",
+                    "UBA7N1YSG",
+                    "UCMAWD588",
+                    "U8T061G4A",
+                    "U452JCQ7Q",
+                    "U4BU5BR6X",
+                    "UG53QAZC6"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5a63be3f-c5f6-4a34-88e4-822f3024b18e",
+        "type": "message",
+        "text": "Иван очень умный, подтверждаю",
+        "user": "U2N853RGF",
+        "ts": "1568717657.001800",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "4b60f2bd0b41",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2018-08-17\/418182446898_4b60f2bd0b416841ef6b_72.png",
+            "first_name": "Evgenii",
+            "real_name": "Evgenii Makarov",
+            "display_name": "evgeniimakarov",
+            "team": "T040HKJE3",
+            "name": "evgeniimakarov",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568717327.001200",
+        "parent_user_id": "U0K47J3HR",
+        "reactions": [
+            {
+                "name": "feelsgoodmeme",
+                "users": [
+                    "U049HDR2Z",
+                    "UB4F4DZGV",
+                    "U9MAVHVEW",
+                    "U4JQS8LF5",
+                    "U7S9PHKFG"
+                ],
+                "count": 5
+            },
+            {
+                "name": "grinning",
+                "users": [
+                    "UAKK25ARX"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4f7422ad-13d6-400c-abb9-8e2be7c0068c",
+        "type": "message",
+        "text": "Супер",
+        "user": "U9ZU1CYUD",
+        "ts": "1568751613.005000",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "7eb2ff4809d3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-17\/526058894178_7eb2ff4809d315450fd6_72.jpg",
+            "first_name": "Mukharbek",
+            "real_name": "Mukharbek Organokov",
+            "display_name": "muhakabartay",
+            "team": "T040HKJE3",
+            "name": "organokov.m",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1568717327.001200",
+        "parent_user_id": "U0K47J3HR"
+    }
+]

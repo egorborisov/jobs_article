@@ -1,0 +1,944 @@
+[
+    {
+        "client_msg_id": "7cd9627e-be88-4ab6-b971-87078cd5fcde",
+        "type": "message",
+        "text": "<#CEAT9QS01|_jobs_hr>\nПривет!\nВакансия моя, так что отвечу на все вопросы:slightly_smiling_face:\n*Название вакансии:* <https:\/\/yandex.ru\/jobs\/vacancies\/dev\/ml_fin_scor_dev\/|ML-разработчик финансового скоринга>\n*Название компании:* *Яндекс*\n*Город:* Москва (гибкий график. Часть времени дома, часть в офисе). Удаленку не сможем предложить.\n*Вилка:* 100К-300К (Gross)\n*Что мы делаем:*\nЯндекс запускает новый финтех-сервис с нуля. У нас самое молодое направление в компании и атмосфера стартапа.\nСейчас мы разрабатываем BNPL (система рассрочки платежей). Чуть позднее будем заниматься разработкой финансового скоринга.\n*Мы ищем несколько человек*: от стажера до старшего ML-специалиста.\n\n*Что нужно делать:*\n• придумывать и внедрять факторы для моделей машинного обучения;\n• обучать и применять модели ML;\n• превращать продуктовую задачу в задачу ML;\n• придумывать метрики;\n• обрабатывать большие объемы данных о клиенте;\n• внедрять обученные модели в продакшен.\n*От вас:*\n• опыт в машинном обучении и обучении нейронных сетей (желательно), опыт работы с Catboost;\n• знание алгоритмов и структур данных;\n• вы знаете C++ или Python (мы пишем код на этих языках).\nПишите мне в телеграм @korotkevich. или тут. Буду рада ответить на вопросы и рассказать подробнее",
+        "user": "U015KKJK82X",
+        "ts": "1621427697.008900",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ce9c7f6d678f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-17\/1188124981445_ce9c7f6d678fa91d442b_72.jpg",
+            "first_name": "",
+            "real_name": "Yulia Korotkevich",
+            "display_name": "Yulia Korotkevich",
+            "team": "T040HKJE3",
+            "name": "y.korotkevich",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U015KKJK82X",
+            "ts": "1621427851.000000"
+        },
+        "attachments": [
+            {
+                "title": "ML-разработчик финансового скоринга",
+                "title_link": "https:\/\/yandex.ru\/jobs\/vacancies\/dev\/ml_fin_scor_dev\/",
+                "text": "Яндекс — одна из ведущих ИТ-компаний с офисами в 21 городе России. Создаёт сервисы для прямых пользователей и бизнеса. В команду ищет профессионалов, которые ценят открытость и свободу и стремятся менять мир к лучшему. Вам это близко? Откликайтесь на вакансии.",
+                "fallback": "ML-разработчик финансового скоринга",
+                "image_url": "https:\/\/avatars.mds.yandex.net\/get-bunker\/998550\/ffe1c3101a4fd25d0a52449bb128937d4209b5b4\/orig",
+                "from_url": "https:\/\/yandex.ru\/jobs\/vacancies\/dev\/ml_fin_scor_dev\/",
+                "image_width": 476,
+                "image_height": 250,
+                "image_bytes": 825709,
+                "service_icon": "http:\/\/avatars.mds.yandex.net\/get-bunker\/49769\/382b6137989e5e3d6d4ab9167cf23bccb6c08fc0\/orig",
+                "service_name": "yandex.ru",
+                "id": 1,
+                "original_url": "https:\/\/yandex.ru\/jobs\/vacancies\/dev\/ml_fin_scor_dev\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "F0n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "channel",
+                                "channel_id": "CEAT9QS01"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nПривет!\nВакансия моя, так что отвечу на все вопросы"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Название вакансии:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/yandex.ru\/jobs\/vacancies\/dev\/ml_fin_scor_dev\/",
+                                "text": "ML-разработчик финансового скоринга"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Название компании:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Яндекс",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Город:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " Москва (гибкий график. Часть времени дома, часть в офисе). Удаленку не сможем предложить.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Вилка:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " 100К-300К (Gross)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что мы делаем:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nЯндекс запускает новый финтех-сервис с нуля. У нас самое молодое направление в компании и атмосфера стартапа.\nСейчас мы разрабатываем BNPL (система рассрочки платежей). Чуть позднее будем заниматься разработкой финансового скоринга.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Мы ищем несколько человек",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": от стажера до старшего ML-специалиста.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Что нужно делать:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "придумывать и внедрять факторы для моделей машинного обучения;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "обучать и применять модели ML;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "превращать продуктовую задачу в задачу ML;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "придумывать метрики;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "обрабатывать большие объемы данных о клиенте;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "внедрять обученные модели в продакшен."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "От вас:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "опыт в машинном обучении и обучении нейронных сетей (желательно), опыт работы с Catboost;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "знание алгоритмов и структур данных;"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "вы знаете C++ или Python (мы пишем код на этих языках)."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nПишите мне в телеграм @korotkevich. или тут. Буду рада ответить на вопросы и рассказать подробнее"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1621427697.008900",
+        "reply_count": 9,
+        "reply_users_count": 4,
+        "latest_reply": "1621952158.036600",
+        "reply_users": [
+            "UC9HBTUKG",
+            "U015KKJK82X",
+            "U5GCU82HX",
+            "U3KBYJQSF"
+        ],
+        "replies": [
+            {
+                "user": "UC9HBTUKG",
+                "ts": "1621431759.012700"
+            },
+            {
+                "user": "U015KKJK82X",
+                "ts": "1621433398.014400"
+            },
+            {
+                "user": "U5GCU82HX",
+                "ts": "1621434547.014600"
+            },
+            {
+                "user": "U015KKJK82X",
+                "ts": "1621436415.015200"
+            },
+            {
+                "user": "UC9HBTUKG",
+                "ts": "1621459174.017100"
+            },
+            {
+                "user": "U3KBYJQSF",
+                "ts": "1621856829.030500"
+            },
+            {
+                "user": "U015KKJK82X",
+                "ts": "1621935267.035100"
+            },
+            {
+                "user": "U3KBYJQSF",
+                "ts": "1621951554.036300"
+            },
+            {
+                "user": "U015KKJK82X",
+                "ts": "1621952158.036600"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "fork",
+                "users": [
+                    "UBQJYBVPC"
+                ],
+                "count": 1
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "U1V57JCUF",
+                    "UG1886P8R",
+                    "UB4AGRL3C",
+                    "UCKGAQKE0",
+                    "ULPRYQNS2",
+                    "U1CMPEWPQ",
+                    "UC9HBTUKG",
+                    "UD37TP39U",
+                    "UBLSS5NE8",
+                    "U9Q4XPF26",
+                    "U10K3LXHV",
+                    "U726PUVRR",
+                    "U7KBACW0G"
+                ],
+                "count": 13
+            },
+            {
+                "name": "gnomik",
+                "users": [
+                    "U4AP30L65",
+                    "U4X6DG29F",
+                    "U01KSCCV319",
+                    "U7N4E8GBF"
+                ],
+                "count": 4
+            },
+            {
+                "name": "gfgnom",
+                "users": [
+                    "U5GCU82HX",
+                    "UD37TP39U",
+                    "U01KSCCV319",
+                    "UQVTRBQ9J",
+                    "UEEAN2U4R",
+                    "U7N4E8GBF"
+                ],
+                "count": 6
+            },
+            {
+                "name": "naebalovo",
+                "users": [
+                    "UC9HBTUKG",
+                    "U7FS2S3C0",
+                    "U01R4RZRZKM",
+                    "U021H66KC77"
+                ],
+                "count": 4
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "UKC5NPDNY"
+                ],
+                "count": 1
+            },
+            {
+                "name": "yandex",
+                "users": [
+                    "UM5DH1YDC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f00ec1e2-1744-4a36-b72f-c592309de313",
+        "type": "message",
+        "text": "Компания: AWG <https:\/\/www.awg.ru> (<https:\/\/www.awg.ru\/>)\nФормат работы: удалённая\nГород: Москва и другие города России\nЗанятость: полная\nЗарплатная вилка: от 150к до 250к на руки\n\n\nСейчас мы ищем крутого Web-аналитика в компании \"Леруа Мерлен\" и в \"Эльдорадо\" на интересные проекты.\n\nС чем придется иметь дело:\n:boom:Участвовать в проектировании системы сквозной аналитики;\n:boom:Развивать отчетность и структуру метрик;\n:boom:Анализировать время жизни клиента, стоимость его привлечения, возвраты и проч.;\n:boom:Контролировать настройки систем Web-аналитики и счетчиков;\n:boom:Создавать аналитические отчеты и дашборды для поддержки в принятии решений, Ad-Hoc аналитика;\n:boom:Выявлять трудности, возникающие у пользователей на пути решения их задач на сайте, поиск решения;\n:boom:Формировать гипотезы, анализировать пользовательский опыт и поведение (совместно с UI\/UX);\n:boom:Участвовать в подготовке, проведении и анализе результатов АБ-тестов;\n:boom:Подготавливать аналитические выводы по существенно важным для деятельности компании показателей, планировать возможные рисков, предоставлять заключения на основании проведенной аналитической деятельности;\n:boom:Участвовать в выработке ключевых метрик веб-статистики.\n\nНаши ожидания:\n:sparkles:Опыт работы в сфере Web и продуктовой аналитики от 3-ех лет;\n:sparkles:Экспертный уровень настройки и внедрения систем Web-аналитики: Google Analytics, Google Tag Manager, Яндекс.Метрики; AppsFlyer.\n:sparkles:Написание SQL-запросов (средний\/сложный уровень);\n:sparkles:Опыт написания кода на JavaScript\n:sparkles:Опыт постановки ТЗ;\n:sparkles:Большим плюсом будет работа с Python\n\nПочему с нами классно работать:\n:zap:️Социальный конфигуратор. Достойная заработная плата, премии и масса корпоративных льгот: ДМС, оплата карты “Тройка”, фитнес, повышение квалификации, изучение английского языка, конференции (по выбору сотрудника).\n:zap:️Белая заработная плата, оплачиваемые больничный и отпуск;\n:zap:️Обучение и развитие. У нас есть собственная Академия AWG и у всех сотрудников есть индивидуальный план развития.\n:zap:️Традиции компании. #горыработы и #мореработы - корпоративные выезды два раза в год за счет компании в горы зимой и на море летом.\n\n:books:Контакты: @shiny_gemini",
+        "user": "U020QK6GL0H",
+        "ts": "1621431483.012100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "882d17c1ed1d",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2021-04-29\/2011066489397_882d17c1ed1d97e06a37_72.png",
+            "first_name": "",
+            "real_name": "Elena Kozodaeva",
+            "display_name": "Elena Kozodaeva",
+            "team": "T040HKJE3",
+            "name": "elenagen951",
+            "is_restricted": true,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U020QK6GL0H",
+            "ts": "1621431666.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R1w1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Компания: AWG "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.awg.ru"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.awg.ru\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")\nФормат работы: удалённая\nГород: Москва и другие города России\nЗанятость: полная\nЗарплатная вилка: от 150к до 250к на руки\n\n\nСейчас мы ищем крутого Web-аналитика в компании \"Леруа Мерлен\" и в \"Эльдорадо\" на интересные проекты.\n\nС чем придется иметь дело:\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "boom"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Участвовать в проектировании системы сквозной аналитики;\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "boom"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Развивать отчетность и структуру метрик;\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "boom"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Анализировать время жизни клиента, стоимость его привлечения, возвраты и проч.;\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "boom"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Контролировать настройки систем Web-аналитики и счетчиков;\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "boom"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Создавать аналитические отчеты и дашборды для поддержки в принятии решений, Ad-Hoc аналитика;\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "boom"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Выявлять трудности, возникающие у пользователей на пути решения их задач на сайте, поиск решения;\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "boom"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Формировать гипотезы, анализировать пользовательский опыт и поведение (совместно с UI\/UX);\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "boom"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Участвовать в подготовке, проведении и анализе результатов АБ-тестов;\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "boom"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Подготавливать аналитические выводы по существенно важным для деятельности компании показателей, планировать возможные рисков, предоставлять заключения на основании проведенной аналитической деятельности;\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "boom"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Участвовать в выработке ключевых метрик веб-статистики.\n\nНаши ожидания:\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sparkles"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Опыт работы в сфере Web и продуктовой аналитики от 3-ех лет;\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sparkles"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Экспертный уровень настройки и внедрения систем Web-аналитики: Google Analytics, Google Tag Manager, Яндекс.Метрики; AppsFlyer.\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sparkles"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Написание SQL-запросов (средний\/сложный уровень);\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sparkles"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Опыт написания кода на JavaScript\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sparkles"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Опыт постановки ТЗ;\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sparkles"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Большим плюсом будет работа с Python\n\nПочему с нами классно работать:\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "zap"
+                            },
+                            {
+                                "type": "text",
+                                "text": "️Социальный конфигуратор. Достойная заработная плата, премии и масса корпоративных льгот: ДМС, оплата карты “Тройка”, фитнес, повышение квалификации, изучение английского языка, конференции (по выбору сотрудника).\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "zap"
+                            },
+                            {
+                                "type": "text",
+                                "text": "️Белая заработная плата, оплачиваемые больничный и отпуск;\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "zap"
+                            },
+                            {
+                                "type": "text",
+                                "text": "️Обучение и развитие. У нас есть собственная Академия AWG и у всех сотрудников есть индивидуальный план развития.\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "zap"
+                            },
+                            {
+                                "type": "text",
+                                "text": "️Традиции компании. #горыработы и #мореработы - корпоративные выезды два раза в год за счет компании в горы зимой и на море летом.\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "books"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Контакты: @shiny_gemini"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "boom",
+                "users": [
+                    "UC9HBTUKG",
+                    "U6WUCDKKM",
+                    "U01P620V7H7",
+                    "U09JEC7V0",
+                    "UG8K6LD6D",
+                    "UCKGAQKE0",
+                    "U7N4E8GBF",
+                    "U01892W4LCT",
+                    "UBM0JAD0B",
+                    "U70DQ5KCY",
+                    "UF2KNAZ99"
+                ],
+                "count": 11
+            },
+            {
+                "name": "sparkles",
+                "users": [
+                    "UC9HBTUKG",
+                    "U01P620V7H7",
+                    "U09JEC7V0",
+                    "UG8K6LD6D",
+                    "UQVTRBQ9J",
+                    "U7N4E8GBF",
+                    "U01892W4LCT",
+                    "UBM0JAD0B",
+                    "U70DQ5KCY",
+                    "UF2KNAZ99"
+                ],
+                "count": 10
+            },
+            {
+                "name": "zap",
+                "users": [
+                    "UC9HBTUKG",
+                    "U01P620V7H7",
+                    "U09JEC7V0",
+                    "UG8K6LD6D",
+                    "U7N4E8GBF",
+                    "U01892W4LCT",
+                    "U01JF7088KH"
+                ],
+                "count": 7
+            },
+            {
+                "name": "widefork",
+                "users": [
+                    "UC9HBTUKG"
+                ],
+                "count": 1
+            },
+            {
+                "name": "ramen",
+                "users": [
+                    "U3HM4KY14",
+                    "U01P620V7H7",
+                    "UK189B3GS"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a5f1a6c5-7ea5-46a3-8751-4c673bd79449",
+        "type": "message",
+        "text": "эт не вилка эт :naebalovo:",
+        "user": "UC9HBTUKG",
+        "ts": "1621431759.012700",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "a324fd667cbf",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-31\/537760713396_a324fd667cbf67d3f08e_72.jpg",
+            "first_name": "0bject",
+            "real_name": "0bject",
+            "display_name": "0bject",
+            "team": "T040HKJE3",
+            "name": "borisvolodkin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3wc0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "эт не вилка эт "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "naebalovo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1621427697.008900",
+        "parent_user_id": "U015KKJK82X",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "UU6LQEZFS",
+                    "UKQTH6REH"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0bf34bac-bfb6-42f9-8fd3-d5f7e325a697",
+        "type": "message",
+        "text": "Зачем же вы так? Вилка зависит от грейда. Описание и вилка рассчитаны на 3 грейда. Поэтому очень общие цифры.",
+        "user": "U015KKJK82X",
+        "ts": "1621433398.014400",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ce9c7f6d678f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-17\/1188124981445_ce9c7f6d678fa91d442b_72.jpg",
+            "first_name": "",
+            "real_name": "Yulia Korotkevich",
+            "display_name": "Yulia Korotkevich",
+            "team": "T040HKJE3",
+            "name": "y.korotkevich",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LGVV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Зачем же вы так? Вилка зависит от грейда. Описание и вилка рассчитаны на 3 грейда. Поэтому очень общие цифры."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1621427697.008900",
+        "parent_user_id": "U015KKJK82X"
+    },
+    {
+        "client_msg_id": "615a046e-21ab-4978-9a17-391e2d36afda",
+        "type": "message",
+        "text": "Скок :gfgnom: собесов?",
+        "user": "U5GCU82HX",
+        "ts": "1621434547.014600",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "g33eb3ecf5bb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/5033eb3ecf5bbf4f627630da68f5b7a9.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Stanislav",
+            "real_name": "Stanislav Demchenko",
+            "display_name": "bearstrikesback",
+            "team": "T040HKJE3",
+            "name": "bearstrikesback",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Dcyo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Скок "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "gfgnom"
+                            },
+                            {
+                                "type": "text",
+                                "text": " собесов?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1621427697.008900",
+        "parent_user_id": "U015KKJK82X"
+    },
+    {
+        "client_msg_id": "509396bf-ca93-4ca0-9d37-e2ced9a53ab9",
+        "type": "message",
+        "text": ":mabel: Как правило, 3 собеса.",
+        "user": "U015KKJK82X",
+        "ts": "1621436415.015200",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "ce9c7f6d678f",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-17\/1188124981445_ce9c7f6d678fa91d442b_72.jpg",
+            "first_name": "",
+            "real_name": "Yulia Korotkevich",
+            "display_name": "Yulia Korotkevich",
+            "team": "T040HKJE3",
+            "name": "y.korotkevich",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ItL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "mabel"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Как правило, 3 собеса."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1621427697.008900",
+        "parent_user_id": "U015KKJK82X"
+    },
+    {
+        "client_msg_id": "20d531ed-bb5a-42f8-9588-6d409a058a51",
+        "type": "message",
+        "text": "Ну так распишите грейды вилки и обязанности",
+        "user": "UC9HBTUKG",
+        "ts": "1621459174.017100",
+        "team": "T040HKJE3",
+        "user_team": "T040HKJE3",
+        "source_team": "T040HKJE3",
+        "user_profile": {
+            "avatar_hash": "a324fd667cbf",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-01-31\/537760713396_a324fd667cbf67d3f08e_72.jpg",
+            "first_name": "0bject",
+            "real_name": "0bject",
+            "display_name": "0bject",
+            "team": "T040HKJE3",
+            "name": "borisvolodkin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/E=s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ну так распишите грейды вилки и обязанности"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1621427697.008900",
+        "parent_user_id": "U015KKJK82X",
+        "reactions": [
+            {
+                "name": "heavy_plus_sign",
+                "users": [
+                    "U10K3LXHV",
+                    "U01GVMZD341"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]
