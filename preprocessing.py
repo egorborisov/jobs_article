@@ -28,13 +28,13 @@ def convert_ts(ts):
         
 def load_messages(*args):
     """Загружаем все сообщения в pandas DataFrame и убираем технические записи"""
-    # Загрудка данных
+    # Загрузка данных
     data = DataFrame()
     for channel in args:
         messages = []
         links = listdir(f'_{channel}')
         for link in links:
-            file = read_json(f'_{channel}\\' + link)
+            file = read_json(f'_{channel}/' + link)
             messages = messages + file
         messages = DataFrame(messages)
         messages['source'] = channel
@@ -287,6 +287,20 @@ def box_plot_by_level(df):
 GRADES = ['Junior', 'Middle', 'Senior', 'Lead']
 
 
+def get_stats_by_years(df, categories):
+    stats = pd.DataFrame(columns=['category', 'year', 'number'])
+    for year in range(2016, 2022):
+        tmp_df = df[df['year'] == year]
+        tmp_df = tmp_df[tmp_df[categories].any(1)]
+        n = len(tmp_df)
+        for category in categories:
+            number = len(df[(df[category]) & (df['year'] == year)])
+            stats = stats.append({
+                'category': category, 'year': year, 'number': number, 'perc': number / n * 100
+            }, ignore_index=True)
+    return stats
+
+
 def get_salaries_by_categories(df, categories):
     dfs = []
     for category in categories:
@@ -338,6 +352,26 @@ def normal_fork(fork, grade):
         return False
     return NORMAL_FORKS[grade]['lower'][0] <= fork[0] <= NORMAL_FORKS[grade]['lower'][1] and\
            NORMAL_FORKS[grade]['upper'][0] <= fork[1] <= NORMAL_FORKS[grade]['upper'][1]
+
+
+INT_TO_MONTH = {
+    1: 'Январь',
+    2: 'Февраль',
+    3: 'Март',
+    4: 'Апрель',
+    5: 'Май',
+    6: 'Июнь',
+    7: 'Июль',
+    8: 'Август',
+    9: 'Сентябрь',
+    10: 'Октябрь',
+    11: 'Ноябрь',
+    12: 'Декабрь'
+}
+
+MONTH_TO_INT = {
+    month: int_ for (int_, month) in INT_TO_MONTH.items()
+}
 
 
 def get_keyword_df(df, keywords, include_spaces=True):
