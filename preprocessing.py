@@ -9,6 +9,7 @@ from os import listdir
 from pandas import DataFrame
 from datetime import datetime
 from numpy import where
+import matplotlib.pyplot as plt
 from plotly.express import box
 import pandas as pd
 import numpy as np
@@ -285,6 +286,7 @@ def box_plot_by_level(df):
 
 
 GRADES = ['Junior', 'Middle', 'Senior', 'Lead']
+JOBS = ['Data Analyst', 'Data Engineer', 'Data Scientist']
 
 
 def get_stats_by_years(df, categories):
@@ -299,6 +301,23 @@ def get_stats_by_years(df, categories):
                 'category': category, 'year': year, 'number': number, 'perc': number / n * 100
             }, ignore_index=True)
     return stats
+
+
+def get_growth_df(df, categories, quarters=(1, 4), func='count'):
+    growth_df = pd.DataFrame(columns=['year', 'category', 'number', 'rate'])
+    for year in range(2018, 2022):
+        for category in categories:
+            cur_df = df[(df['year'] == year) & (df[category]) & (df['quarter'] >= quarters[0]) & (df['quarter'] <= quarters[1])]
+            last_df = df[(df['year'] == year - 1) & (df[category]) & (df['quarter'] >= quarters[0]) & (df['quarter'] <= quarters[1])]
+            if func == 'count':
+                cur_n = len(cur_df)
+                last_n = len(last_df)
+            elif func == 'fork_avg':
+                cur_n = cur_df[category + '_fork_avg'].mean()
+                last_n = last_df[category + '_fork_avg'].mean()
+            rate = (cur_n / last_n - 1) * 100
+            growth_df = growth_df.append({'year': year, 'category': category, 'number': cur_n, 'rate': rate}, ignore_index=True)
+    return growth_df
 
 
 def get_salaries_by_categories(df, categories):
@@ -354,26 +373,6 @@ def normal_fork(fork, grade):
            NORMAL_FORKS[grade]['upper'][0] <= fork[1] <= NORMAL_FORKS[grade]['upper'][1]
 
 
-INT_TO_MONTH = {
-    1: 'Январь',
-    2: 'Февраль',
-    3: 'Март',
-    4: 'Апрель',
-    5: 'Май',
-    6: 'Июнь',
-    7: 'Июль',
-    8: 'Август',
-    9: 'Сентябрь',
-    10: 'Октябрь',
-    11: 'Ноябрь',
-    12: 'Декабрь'
-}
-
-MONTH_TO_INT = {
-    month: int_ for (int_, month) in INT_TO_MONTH.items()
-}
-
-
 def get_keyword_df(df, keywords, include_spaces=True):
     for keyword, keywords_to_search in keywords.items():
         keywords_regex = '|'.join(keywords_to_search)
@@ -388,12 +387,17 @@ def get_keyword_df(df, keywords, include_spaces=True):
     return keywords_df
 
 
-def plot_top_keywords(keyword_df, top_n, title, xlabel, ylabel, palette='summer_r', scale_perc=False):
-    ax = sns.barplot(data=keyword_df[keyword_df.index < top_n], x='keyword', y='perc', palette=palette)
+def plot_top_keywords(keyword_df, top_n, title, hor_label, ver_label, palette=sns.color_palette('summer_r'), ver_scale_perc=False, hor_scale_perc=False, orient='v'):
+    if orient == 'v':
+        ax = sns.barplot(data=keyword_df[keyword_df.index < top_n], x='keyword', y='perc', palette=palette)
+    elif orient == 'h':
+        ax = sns.barplot(data=keyword_df[keyword_df.index < top_n], y='keyword', x='perc', palette=palette, orient='h')
     ax.set_title(title)
-    ax.set_xlabel(xlabel)
-    ax.set_ylabel(ylabel)
-    if scale_perc:
+    ax.set_xlabel(hor_label)
+    ax.set_ylabel(ver_label)
+    if hor_scale_perc:
+        ax.set_xlim(0, 100)
+    if ver_scale_perc:
         ax.set_ylim(0, 100)
 
 
@@ -417,9 +421,15 @@ def plot_skill_stats(df):
         textposition='top center',
         textfont=dict(color='black'),
         mode='markers+text',
-        marker=dict(color='#B533FF', size=8),
+        marker=dict(color='#B533FF', size=8)
     )
     fig = go.Figure(data=data, layout=layout)
+    fig.update_layout(
+    title=dict(
+        text='Ценность и популярность навыков',
+        xanchor='left',
+        font=dict(size=14)
+    ))
     fig.show()
 
 
